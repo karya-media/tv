@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tv generator-info-name="test-fixture">
+  <channel id="espn.us">
+    <display-name>ESPN</display-name>
+    <display-name>ESPN HD</display-name>
+    <icon src="https://epg.example.com/logos/espn.png" />
+  </channel>
+  <channel id="cnn.us">
+    <display-name>CNN</display-name>
+  </channel>
+  <channel id="unused.channel.us">
+    <display-name>Unused Channel</display-name>
+  </channel>
+  <programme start="20260727100000 +0000" stop="20260727110000 +0000" channel="espn.us">
+    <title>SportsCenter</title>
+  </programme>
+</tv>
