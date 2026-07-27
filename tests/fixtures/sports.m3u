@@ -1,0 +1,5 @@
+#EXTM3U
+#EXTINF:-1 tvg-id="espn.us" tvg-name="ESPN" tvg-logo="https://example.com/espn.png" group-title="Sports",ESPN HD
+http://example.com/stream/espn.m3u8
+#EXTINF:-1 tvg-id="foxsports.us" group-title="Sports",Fox Sports
+http://example.com/stream/foxsports.m3u8

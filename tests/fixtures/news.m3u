@@ -1,0 +1,9 @@
+﻿#EXTM3U
+#EXTINF:-1 tvg-id="cnn.us" group-title="News",CNN
+http://example.com/stream/cnn.m3u8
+#EXTINF:-1 tvg-id="espn.us" group-title="Sports",ESPN (duplicate URL)
+http://example.com/stream/espn.m3u8
+#EXTINF:-1 tvg-id="espn.us" group-title="Sports",ESPN Backup Feed
+http://example.com/stream/espn-backup.m3u8
+#EXTINF this-is-broken-and-has-no-comma
+http://example.com/stream/broken.m3u8
