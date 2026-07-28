@@ -35,6 +35,11 @@ class Channel:
     duration: float = -1.0
     source_category: str | None = None
     extra_attrs: Mapping[str, str] = field(default_factory=dict)
+    vlc_opts: Mapping[str, str] = field(default_factory=dict)
+    """Raw #EXTVLCOPT directives (e.g. http-user-agent, http-referrer,
+    http-origin) that appeared between #EXTINF and the stream URL.
+    Many providers reject requests missing these headers, so they must
+    survive parse -> merge -> serialize unchanged."""
 
     def with_group_title(self, group_title: GroupTitle) -> Channel:
         return replace(self, group_title=group_title)
