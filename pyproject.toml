@@ -19,6 +19,7 @@ dependencies = [
     "python-dotenv>=1.0",
     "openpyxl>=3.1",        # Excel report generation (Phase 4)
     "jinja2>=3.1",          # HTML report templating (Phase 4)
+    "apscheduler>=3.10",    # background scheduler for self-hosted deployments (Phase 5)
 ]
 
 [project.optional-dependencies]
@@ -47,6 +48,7 @@ where = ["src"]
 
 [tool.setuptools.package-data]
 "iptv_manager.infrastructure.reports" = ["templates/*.j2"]
+"iptv_manager.interfaces.api" = ["templates/*.j2"]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
@@ -59,6 +61,7 @@ target-version = "py313"
 
 [tool.ruff.lint]
 select = ["E", "F", "I", "UP", "B", "ASYNC"]
+ignore = ["B008"]  # FastAPI's Depends() pattern requires function calls in argument defaults
 
 [tool.mypy]
 python_version = "3.13"

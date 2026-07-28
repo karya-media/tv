@@ -88,6 +88,23 @@ class Settings(BaseSettings):
     publish_target: PublishTarget = PublishTarget.BOTH
     github_token: str | None = Field(default=None, repr=False)
 
+    # --- Persistence (Phase 5: pipeline run history) ---
+    database_url: str | None = None  # if unset, derived from data_dir (SQLite)
+
+    # --- REST API & dashboard (Phase 5) ---
+    api_host: str = "0.0.0.0"
+    api_port: int = 8000
+    api_key: str | None = Field(default=None, repr=False)  # required to POST /api/pipeline/run
+    dashboard_username: str | None = None  # if unset (with password), dashboard is open
+    dashboard_password: str | None = Field(default=None, repr=False)
+
+    # --- Background scheduler (Phase 5) ---
+    # Off by default: GitHub Actions is the primary scheduling mechanism
+    # (see .github/workflows/pipeline.yml). Enable this only for
+    # self-hosted deployments that run `iptv-manager serve` standalone.
+    scheduler_enabled: bool = False
+    scheduler_interval_minutes: int = 360
+
     @field_validator("data_dir", "reports_dir", "docs_dir", mode="after")
     @classmethod
     def _no_absolute_escape(cls, value: Path) -> Path:
@@ -120,6 +137,15 @@ class Settings(BaseSettings):
     def docs_master_playlist_path(self) -> Path:
         """Where the master playlist is copied for GitHub Pages."""
         return self.project_root / self.docs_dir / self.master_playlist_filename
+
+    @property
+    def resolved_database_url(self) -> str:
+        """The database_url to actually connect with: the explicit
+        override if set, otherwise a SQLite file under data_dir."""
+        if self.database_url:
+            return self.database_url
+        db_path = self.project_root / self.data_dir / "iptv.db"
+        return f"sqlite:///{db_path}"
 
     @property
     def raw_github_url(self) -> str | None:

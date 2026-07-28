@@ -375,5 +375,24 @@ def generate_report(
         typer.echo(f"Wrote {output_path}")
 
 
+@app.command("serve")
+def serve(
+    host: str = typer.Option("", "--host", help="Override IPTV_API_HOST"),
+    port: int = typer.Option(0, "--port", help="Override IPTV_API_PORT"),
+) -> None:
+    """Start the REST API + read-only dashboard (and, if
+    IPTV_SCHEDULER_ENABLED=true, the background scheduler) with
+    uvicorn. This is for self-hosted deployments; GitHub Actions
+    deployments don't need this command at all."""
+    import uvicorn
+
+    settings = get_settings()
+    uvicorn.run(
+        "iptv_manager.interfaces.api.app:app",
+        host=host or settings.api_host,
+        port=port or settings.api_port,
+    )
+
+
 if __name__ == "__main__":
     app()

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>IPTV Playlist Manager</title>
+<style>
+  :root {
+    --bg: #0f1115; --panel: #171a21; --border: #262b36; --text: #e6e8ee;
+    --muted: #8b93a7; --ok: #3ddc84; --warn: #f5b942; --bad: #f0546b; --accent: #5b8cff;
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; padding: 2.5rem 1.5rem; background: var(--bg); color: var(--text);
+         font-family: -apple-system, "Segoe UI", Roboto, sans-serif; line-height: 1.5; }
+  .container { max-width: 1000px; margin: 0 auto; }
+  h1 { font-size: 1.6rem; margin-bottom: 1.25rem; }
+  .actions { display: flex; flex-wrap: wrap; gap: 0.6rem; margin-bottom: 2rem; }
+  .actions a, .actions button {
+    background: var(--panel); border: 1px solid var(--border); color: var(--text);
+    padding: 0.5rem 0.9rem; border-radius: 8px; text-decoration: none; font-size: 0.85rem;
+    cursor: pointer; font-family: inherit;
+  }
+  .actions button.primary { background: var(--accent); border-color: var(--accent); color: #0b1020; font-weight: 600; }
+  table { width: 100%; border-collapse: collapse; background: var(--panel); border: 1px solid var(--border);
+          border-radius: 10px; overflow: hidden; font-size: 0.85rem; }
+  th, td { text-align: left; padding: 0.6rem 0.85rem; border-bottom: 1px solid var(--border); }
+  th { color: var(--muted); font-weight: 600; text-transform: uppercase; font-size: 0.72rem; letter-spacing: 0.03em; }
+  tr:last-child td { border-bottom: none; }
+  .badge { display: inline-block; padding: 0.15rem 0.5rem; border-radius: 999px; font-size: 0.72rem; font-weight: 600; }
+  .badge.success { background: rgba(61,220,132,0.15); color: var(--ok); }
+  .badge.failed { background: rgba(240,84,107,0.15); color: var(--bad); }
+  .badge.running { background: rgba(245,185,66,0.15); color: var(--warn); }
+  .empty-note { color: var(--muted); font-style: italic; text-align: center; }
+</style>
+</head>
+<body>
+<div class="container">
+  <h1>IPTV Playlist Manager</h1>
+  <div class="actions">
+    <a href="/playlist/master.m3u">master.m3u</a>
+    <a href="/api/reports/html">HTML report</a>
+    <a href="/api/reports/json">JSON</a>
+    <a href="/api/reports/csv">CSV</a>
+    <a href="/api/reports/xlsx">Excel</a>
+    <button class="primary" onclick="triggerRun()">Trigger new run</button>
+  </div>
+  <table>
+    <thead>
+      <tr>
+        <th>ID</th><th>Started</th><th>Status</th><th>Channels</th>
+        <th>Online</th><th>Logos OK</th><th>Error</th>
+      </tr>
+    </thead>
+    <tbody>
+    {% for run in runs %}
+      <tr>
+        <td>{{ run.id }}</td>
+        <td>{{ run.started_at.strftime("%Y-%m-%d %H:%M UTC") }}</td>
+        <td><span class="badge {{ run.status.value }}">{{ run.status.value }}</span></td>
+        <td>{{ run.channels_before if run.channels_before is not none else "-" }} &rarr; {{ run.channels_after if run.channels_after is not none else "-" }}</td>
+        <td>{{ run.online_count if run.online_count is not none else "-" }}</td>
+        <td>{{ run.logos_reachable if run.logos_reachable is not none else "-" }}</td>
+        <td>{{ run.error_message or "-" }}</td>
+      </tr>
+    {% else %}
+      <tr><td colspan="7" class="empty-note">No pipeline runs yet.</td></tr>
+    {% endfor %}
+    </tbody>
+  </table>
+</div>
+<script>
+async function triggerRun() {
+  const key = prompt("Enter API key:");
+  if (!key) return;
+  try {
+    const res = await fetch("/api/pipeline/run", { method: "POST", headers: { "X-API-Key": key } });
+    if (res.ok) {
+      alert("Pipeline run triggered.");
+      location.reload();
+    } else {
+      alert("Failed: HTTP " + res.status);
+    }
+  } catch (err) {
+    alert("Request failed: " + err);
+  }
+}
+</script>
+</body>
+</html>

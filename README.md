@@ -67,13 +67,50 @@ iptv-manager report --epg path/to/epg.xml       # pipeline penuh + laporan
 untuk merge + validate + check-logos + (opsional) check-epg, lalu
 menulis laporan ke `reports/report.{html,json,csv,xlsx}`.
 
+## Self-hosting: REST API, Dashboard, Scheduler (opsional)
+
+Selain lewat GitHub Actions, kamu bisa menjalankan sistem ini sebagai
+server sendiri (VPS, home server, dll):
+
+```bash
+cp .env.example .env
+# isi minimal: IPTV_API_KEY=<kunci-rahasiamu>
+iptv-manager serve
+```
+
+Ini akan membuka:
+- **Dashboard** di `http://localhost:8000/` — riwayat setiap pipeline
+  run (tabel), tombol "Trigger new run", dan tautan unduh
+  `master.m3u`/laporan.
+- **REST API**:
+  - `POST /api/pipeline/run` (butuh header `X-API-Key`) — memicu
+    pipeline penuh di background, langsung balas `run_id`.
+  - `GET /api/pipeline/runs` — riwayat run (tersimpan di SQLite,
+    `data/iptv.db`).
+  - `GET /api/pipeline/runs/{id}` — detail satu run.
+  - `GET /playlist/master.m3u` — sajikan master playlist langsung dari
+    proses ini (alternatif ke URL raw GitHub/Pages, kalau kamu
+    self-host).
+  - `GET /api/reports/{html|json|csv|xlsx}` — unduh laporan terakhir.
+  - `GET /docs` — dokumentasi API interaktif (bawaan FastAPI/Swagger).
+- **Scheduler background** (opsional, `IPTV_SCHEDULER_ENABLED=true`)
+  — menjalankan pipeline otomatis tiap `IPTV_SCHEDULER_INTERVAL_MINUTES`
+  menit, tanpa bergantung pada GitHub Actions sama sekali.
+
+Proteksi:
+- Endpoint yang **mengubah data** (`POST /api/pipeline/run`) selalu
+  butuh `X-API-Key` yang cocok dengan `IPTV_API_KEY`.
+- Dashboard (baca-saja) **terbuka secara default**; isi
+  `IPTV_DASHBOARD_USERNAME` + `IPTV_DASHBOARD_PASSWORD` untuk
+  menguncinya dengan HTTP Basic Auth.
+
 ## Status Pengembangan
 
 - [x] **Phase 1** — Arsitektur, struktur folder, konfigurasi, inisialisasi
 - [x] **Phase 2** — Playlist parser, merger, duplicate detection
 - [x] **Phase 3** — Stream validator, XMLTV validator, logo validator
 - [x] **Phase 4** — Report generator, GitHub Actions automation
-- [ ] **Phase 5** — Web dashboard, REST API, auth, scheduler
+- [x] **Phase 5** — Web dashboard, REST API, auth, scheduler
 
 ## Instalasi (development)
 
@@ -81,6 +118,6 @@ menulis laporan ke `reports/report.{html,json,csv,xlsx}`.
 python3.13 -m venv .venv
 source .venv/bin/activate
 pip install -e ".[dev]"
-cp .env.example .env   # lalu isi IPTV_GITHUB_REPOSITORY dst.
+cp .env.example .env   # lalu isi IPTV_GITHUB_REPOSITORY, IPTV_API_KEY, dst.
 pytest
 ```
