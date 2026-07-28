@@ -28,6 +28,7 @@ _EXTINF_RE = re.compile(
     re.VERBOSE,
 )
 _ATTR_RE = re.compile(r"""([\w-]+)=(?:"([^"]*)"|'([^']*)')""")
+_VLCOPT_RE = re.compile(r"^\#EXTVLCOPT:\s*([\w-]+)=(.*)$")
 
 # Attributes modeled explicitly on Channel; anything else in an
 # #EXTINF line is preserved in Channel.extra_attrs so no metadata is
@@ -45,6 +46,7 @@ class M3UParser:
 
         saw_header = False
         pending_extinf: dict | None = None
+        pending_vlc_opts: dict[str, str] = {}
 
         for line_no, raw_line in enumerate(lines, start=1):
             line = raw_line.strip("\r").strip()
@@ -62,14 +64,33 @@ class M3UParser:
                         f"line {line_no}: malformed #EXTINF, entry skipped: {line!r}"
                     )
                     pending_extinf = None
+                    pending_vlc_opts = {}
                     continue
                 pending_extinf = self._parse_extinf(match)
+                pending_vlc_opts = {}
+                continue
+
+            if line.startswith("#EXTVLCOPT"):
+                # e.g. #EXTVLCOPT:http-user-agent=Mozilla/5.0 ...
+                # or   #EXTVLCOPT:http-referrer=https://example.com/
+                # Many providers reject requests missing these headers,
+                # so they're captured and reattached to the channel
+                # rather than being dropped as an unknown directive.
+                vlc_match = _VLCOPT_RE.match(line)
+                if vlc_match and pending_extinf is not None:
+                    key, value = vlc_match.group(1).lower(), vlc_match.group(2).strip()
+                    pending_vlc_opts[key] = value
+                else:
+                    playlist.warnings.append(
+                        f"line {line_no}: #EXTVLCOPT with no preceding #EXTINF "
+                        f"or malformed, ignored: {line!r}"
+                    )
                 continue
 
             if line.startswith("#"):
-                # Other directives (#EXTGRP, #EXTVLCOPT, #EXTALB, ...)
-                # aren't modeled yet - safely ignored rather than
-                # treated as an error.
+                # Other directives (#EXTGRP, #EXTALB, ...) aren't
+                # modeled yet - safely ignored rather than treated as
+                # an error.
                 continue
 
             # A non-comment, non-empty line is the stream URL.
@@ -81,9 +102,10 @@ class M3UParser:
                 continue
 
             channel = self._build_channel(
-                pending_extinf, line, category, line_no, playlist.warnings
+                pending_extinf, line, category, line_no, playlist.warnings, pending_vlc_opts
             )
             pending_extinf = None
+            pending_vlc_opts = {}
             if channel is not None:
                 playlist.add_channel(channel)
 
@@ -113,6 +135,7 @@ class M3UParser:
         category: str | None,
         line_no: int,
         warnings: list[str],
+        vlc_opts: dict[str, str] | None = None,
     ) -> Channel | None:
         attrs: dict[str, str] = extinf["attrs"]
         try:
@@ -136,6 +159,7 @@ class M3UParser:
             duration=extinf["duration"],
             source_category=category,
             extra_attrs=extra_attrs,
+            vlc_opts=dict(vlc_opts) if vlc_opts else {},
         )
 
     def serialize(self, playlist: Playlist) -> str:
@@ -155,6 +179,8 @@ class M3UParser:
             attrs_str = (" " + " ".join(attr_parts)) if attr_parts else ""
             duration = _format_duration(channel.duration)
             lines.append(f"#EXTINF:{duration}{attrs_str},{channel.name}")
+            for key, value in channel.vlc_opts.items():
+                lines.append(f"#EXTVLCOPT:{key}={value}")
             lines.append(str(channel.url))
 
         return "\n".join(lines) + "\n"
