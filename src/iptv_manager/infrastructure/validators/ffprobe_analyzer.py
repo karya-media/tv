@@ -49,7 +49,7 @@ class FFprobeAnalyzer:
                 stdout, _stderr = await asyncio.wait_for(
                     process.communicate(), timeout=self._timeout
                 )
-            except asyncio.TimeoutError:
+            except TimeoutError:
                 process.kill()
                 await process.wait()
                 return None
@@ -84,7 +84,8 @@ def parse_ffprobe_json(data: dict) -> StreamMediaInfo:
         if width and height:
             resolution = f"{width}x{height}"
         video_codec = video_stream.get("codec_name")
-        fps = _parse_frame_rate(video_stream.get("avg_frame_rate") or video_stream.get("r_frame_rate"))
+        raw_frame_rate = video_stream.get("avg_frame_rate") or video_stream.get("r_frame_rate")
+        fps = _parse_frame_rate(raw_frame_rate)
 
     audio_codec = audio_stream.get("codec_name") if audio_stream else None
     audio_channels = audio_stream.get("channels") if audio_stream else None

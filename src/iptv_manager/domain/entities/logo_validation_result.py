@@ -21,7 +21,7 @@ class LogoValidationResult:
     error_message: str | None = None
 
     @classmethod
-    def missing(cls, channel: Channel) -> "LogoValidationResult":
+    def missing(cls, channel: Channel) -> LogoValidationResult:
         """The channel has no logo_url at all - distinct from having one
         that's unreachable."""
         return cls(channel=channel, reachable=False, error_message="no logo_url set")

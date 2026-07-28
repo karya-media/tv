@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>IPTV Playlist Validation Report</title>
+<style>
+  :root {
+    --bg: #0f1115;
+    --panel: #171a21;
+    --border: #262b36;
+    --text: #e6e8ee;
+    --muted: #8b93a7;
+    --ok: #3ddc84;
+    --warn: #f5b942;
+    --bad: #f0546b;
+    --accent: #5b8cff;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    padding: 2.5rem 1.5rem;
+    background: var(--bg);
+    color: var(--text);
+    font-family: -apple-system, "Segoe UI", Roboto, sans-serif;
+    line-height: 1.5;
+  }
+  .container { max-width: 1100px; margin: 0 auto; }
+  h1 { font-size: 1.6rem; margin-bottom: 0.25rem; }
+  .meta { color: var(--muted); font-size: 0.9rem; margin-bottom: 2rem; }
+  h2 {
+    font-size: 1.1rem;
+    margin-top: 2.5rem;
+    margin-bottom: 0.75rem;
+    padding-bottom: 0.4rem;
+    border-bottom: 1px solid var(--border);
+  }
+  .stat-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+    gap: 0.75rem;
+    margin-bottom: 1rem;
+  }
+  .stat-card {
+    background: var(--panel);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 1rem;
+  }
+  .stat-card .value { font-size: 1.6rem; font-weight: 700; }
+  .stat-card .label { color: var(--muted); font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.03em; }
+  .value.ok { color: var(--ok); }
+  .value.bad { color: var(--bad); }
+  .value.warn { color: var(--warn); }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    background: var(--panel);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    overflow: hidden;
+    font-size: 0.85rem;
+  }
+  th, td {
+    text-align: left;
+    padding: 0.55rem 0.8rem;
+    border-bottom: 1px solid var(--border);
+  }
+  th { color: var(--muted); font-weight: 600; text-transform: uppercase; font-size: 0.72rem; letter-spacing: 0.03em; }
+  tr:last-child td { border-bottom: none; }
+  .badge {
+    display: inline-block;
+    padding: 0.15rem 0.5rem;
+    border-radius: 999px;
+    font-size: 0.72rem;
+    font-weight: 600;
+  }
+  .badge.online { background: rgba(61,220,132,0.15); color: var(--ok); }
+  .badge.offline, .badge.error { background: rgba(240,84,107,0.15); color: var(--bad); }
+  .badge.timeout, .badge.dns_error, .badge.ssl_error, .badge.geo_restricted { background: rgba(245,185,66,0.15); color: var(--warn); }
+  .empty-note { color: var(--muted); font-style: italic; font-size: 0.85rem; }
+  .scroll { max-height: 420px; overflow-y: auto; border-radius: 10px; }
+</style>
+</head>
+<body>
+<div class="container">
+  <h1>IPTV Playlist Validation Report</h1>
+  <div class="meta">
+    Master playlist: <strong>{{ report.master_playlist_name }}</strong>
+    &middot; Generated at {{ report.generated_at.strftime("%Y-%m-%d %H:%M UTC") }}
+  </div>
+
+  {% if report.merge_result %}
+  <h2>Merge Summary</h2>
+  <div class="stat-grid">
+    <div class="stat-card"><div class="value">{{ report.merge_result.total_channels_before }}</div><div class="label">Before dedup</div></div>
+    <div class="stat-card"><div class="value ok">{{ report.merge_result.total_channels_after }}</div><div class="label">After dedup</div></div>
+    <div class="stat-card"><div class="value warn">{{ report.merge_result.removed_duplicate_url_count }}</div><div class="label">Duplicate URLs removed</div></div>
+    <div class="stat-card"><div class="value warn">{{ report.merge_result.duplicate_tvg_ids | length }}</div><div class="label">Duplicate tvg-id groups</div></div>
+  </div>
+  {% if report.merge_result.master.warnings %}
+  <div class="scroll">
+  <table>
+    <thead><tr><th>Parser Warning</th></tr></thead>
+    <tbody>
+    {% for warning in report.merge_result.master.warnings %}
+      <tr><td>{{ warning }}</td></tr>
+    {% endfor %}
+    </tbody>
+  </table>
+  </div>
+  {% endif %}
+  {% endif %}
+
+  {% if report.stream_summary %}
+  <h2>Stream Validation</h2>
+  <div class="stat-grid">
+    <div class="stat-card"><div class="value">{{ report.stream_summary.total }}</div><div class="label">Total streams</div></div>
+    <div class="stat-card"><div class="value ok">{{ report.stream_summary.online_count }}</div><div class="label">Online</div></div>
+    <div class="stat-card"><div class="value bad">{{ report.stream_summary.offline_count }}</div><div class="label">Offline / issues</div></div>
+  </div>
+  <div class="scroll">
+  <table>
+    <thead><tr><th>Channel</th><th>Group</th><th>Status</th><th>HTTP</th><th>Response Time</th><th>Detail</th></tr></thead>
+    <tbody>
+    {% for result in report.stream_summary.results %}
+      <tr>
+        <td>{{ result.channel.name }}</td>
+        <td>{{ result.channel.group_title }}</td>
+        <td><span class="badge {{ result.status.value }}">{{ result.status.value }}</span></td>
+        <td>{{ result.http_status or "-" }}</td>
+        <td>{{ "%.0f ms"|format(result.response_time_ms) if result.response_time_ms else "-" }}</td>
+        <td>{{ result.error_message or "-" }}</td>
+      </tr>
+    {% endfor %}
+    </tbody>
+  </table>
+  </div>
+  {% endif %}
+
+  {% if report.logo_summary %}
+  <h2>Logo Validation</h2>
+  <div class="stat-grid">
+    <div class="stat-card"><div class="value">{{ report.logo_summary.total }}</div><div class="label">Total channels</div></div>
+    <div class="stat-card"><div class="value ok">{{ report.logo_summary.reachable_count }}</div><div class="label">Reachable</div></div>
+    <div class="stat-card"><div class="value warn">{{ report.logo_summary.missing_count }}</div><div class="label">Missing</div></div>
+    <div class="stat-card"><div class="value bad">{{ report.logo_summary.unreachable_count }}</div><div class="label">Unreachable</div></div>
+  </div>
+  {% endif %}
+
+  {% if report.merge_result and report.merge_result.duplicate_urls %}
+  <h2>Duplicate Stream URLs (removed)</h2>
+  <div class="scroll">
+  <table>
+    <thead><tr><th>Kept</th><th>Removed</th></tr></thead>
+    <tbody>
+    {% for group in report.merge_result.duplicate_urls %}
+      {% for removed in group.removed %}
+      <tr><td>{{ group.kept.name }}</td><td>{{ removed.name }}</td></tr>
+      {% endfor %}
+    {% endfor %}
+    </tbody>
+  </table>
+  </div>
+  {% endif %}
+
+  {% if report.epg_comparison %}
+  <h2>XMLTV / EPG Comparison</h2>
+  <div class="stat-grid">
+    <div class="stat-card"><div class="value warn">{{ report.epg_comparison.missing_tvg_id | length }}</div><div class="label">Missing tvg-id</div></div>
+    <div class="stat-card"><div class="value bad">{{ report.epg_comparison.invalid_tvg_id | length }}</div><div class="label">Invalid tvg-id</div></div>
+    <div class="stat-card"><div class="value warn">{{ report.epg_comparison.duplicate_tvg_id | length }}</div><div class="label">Duplicate tvg-id</div></div>
+    <div class="stat-card"><div class="value">{{ report.epg_comparison.unused_epg_entries | length }}</div><div class="label">Unused EPG entries</div></div>
+  </div>
+  {% if report.epg_comparison.invalid_tvg_id %}
+  <div class="scroll">
+  <table>
+    <thead><tr><th>Channel</th><th>tvg-id</th></tr></thead>
+    <tbody>
+    {% for channel in report.epg_comparison.invalid_tvg_id %}
+      <tr><td>{{ channel.name }}</td><td>{{ channel.tvg_id }}</td></tr>
+    {% endfor %}
+    </tbody>
+  </table>
+  </div>
+  {% endif %}
+  {% endif %}
+
+</div>
+</body>
+</html>

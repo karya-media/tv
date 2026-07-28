@@ -27,7 +27,7 @@ class StreamUrl:
     host: str | None
 
     @classmethod
-    def parse(cls, raw: str | None) -> "StreamUrl":
+    def parse(cls, raw: str | None) -> StreamUrl:
         if raw is None:
             raise InvalidStreamUrlError("stream URL is missing")
         cleaned = raw.strip()

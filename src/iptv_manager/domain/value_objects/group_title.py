@@ -21,7 +21,7 @@ class GroupTitle:
     value: str
 
     @classmethod
-    def parse(cls, raw: str | None) -> "GroupTitle":
+    def parse(cls, raw: str | None) -> GroupTitle:
         if raw is None:
             return cls(DEFAULT_GROUP)
         cleaned = _WHITESPACE.sub(" ", raw).strip()

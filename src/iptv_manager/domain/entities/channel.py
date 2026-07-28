@@ -8,8 +8,8 @@ methods rather than mutating the original in place.
 
 from __future__ import annotations
 
+from collections.abc import Mapping
 from dataclasses import dataclass, field, replace
-from typing import Mapping
 
 from iptv_manager.domain.value_objects.group_title import GroupTitle
 from iptv_manager.domain.value_objects.stream_url import StreamUrl
@@ -36,10 +36,10 @@ class Channel:
     source_category: str | None = None
     extra_attrs: Mapping[str, str] = field(default_factory=dict)
 
-    def with_group_title(self, group_title: GroupTitle) -> "Channel":
+    def with_group_title(self, group_title: GroupTitle) -> Channel:
         return replace(self, group_title=group_title)
 
-    def with_source_category(self, category: str) -> "Channel":
+    def with_source_category(self, category: str) -> Channel:
         return replace(self, source_category=category)
 
     @property

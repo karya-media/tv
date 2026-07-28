@@ -27,10 +27,10 @@ class TvgId:
 
     value: str
 
-    EMPTY: ClassVar["TvgId"]
+    EMPTY: ClassVar[TvgId]
 
     @classmethod
-    def parse(cls, raw: str | None) -> "TvgId":
+    def parse(cls, raw: str | None) -> TvgId:
         if raw is None:
             return cls.EMPTY
         cleaned = raw.strip()

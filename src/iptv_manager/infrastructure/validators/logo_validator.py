@@ -53,7 +53,7 @@ class LogoImageValidator:
                 return LogoValidationResult(
                     channel=channel, reachable=False, error_message=str(exc)
                 )
-            except asyncio.TimeoutError:
+            except TimeoutError:
                 return LogoValidationResult(
                     channel=channel, reachable=False, error_message="request timed out"
                 )
@@ -70,7 +70,7 @@ class LogoImageValidator:
                 )
         except aiohttp.ClientError as exc:
             return LogoValidationResult(channel=channel, reachable=False, error_message=str(exc))
-        except asyncio.TimeoutError:
+        except TimeoutError:
             return LogoValidationResult(
                 channel=channel, reachable=False, error_message="request timed out"
             )

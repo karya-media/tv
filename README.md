@@ -38,12 +38,41 @@ bisa diganti tanpa merombak logic inti.
 4. Kamu masukkan salah satu URL itu ke aplikasi pemutar (VLC, TiviMate,
    dll) — link-nya tidak pernah berubah, isinya yang otomatis ter-update.
 
+## Setup GitHub Actions & Pages (sekali saja)
+
+1. Push repo ini ke GitHub (lihat instruksi push di bawah).
+2. **Aktifkan GitHub Pages** (agar URL `github.io` benar-benar hidup):
+   Repo → Settings → Pages → Source: **Deploy from a branch** → Branch:
+   `main` → Folder: **/docs** → Save.
+3. Selesai. Workflow `.github/workflows/pipeline.yml` akan otomatis
+   berjalan setiap kali kamu push perubahan ke `data/categories/**`,
+   setiap 12 jam (re-validasi stream), atau bisa dipicu manual lewat
+   tab **Actions → IPTV Playlist Pipeline → Run workflow**.
+4. Setiap run akan: merge kategori → validasi stream → validasi logo →
+   generate laporan (HTML/JSON/CSV/Excel) → commit balik
+   `data/master/master.m3u`, `docs/master.m3u`, dan `reports/` ke repo.
+
+## Perintah CLI
+
+```bash
+iptv-manager import sports path/to/sports.m3u   # atau URL http(s)
+iptv-manager merge                              # gabungkan semua kategori
+iptv-manager validate                           # cek status HTTP tiap stream
+iptv-manager check-logos                        # cek logo bisa diakses
+iptv-manager check-epg path/to/epg.xml          # bandingkan tvg-id vs XMLTV
+iptv-manager report --epg path/to/epg.xml       # pipeline penuh + laporan
+```
+
+`report` adalah perintah yang dipakai GitHub Actions — sekali jalan
+untuk merge + validate + check-logos + (opsional) check-epg, lalu
+menulis laporan ke `reports/report.{html,json,csv,xlsx}`.
+
 ## Status Pengembangan
 
 - [x] **Phase 1** — Arsitektur, struktur folder, konfigurasi, inisialisasi
-- [ ] **Phase 2** — Playlist parser, merger, duplicate detection
-- [ ] **Phase 3** — Stream validator, XMLTV validator, logo validator
-- [ ] **Phase 4** — Report generator, GitHub Actions automation
+- [x] **Phase 2** — Playlist parser, merger, duplicate detection
+- [x] **Phase 3** — Stream validator, XMLTV validator, logo validator
+- [x] **Phase 4** — Report generator, GitHub Actions automation
 - [ ] **Phase 5** — Web dashboard, REST API, auth, scheduler
 
 ## Instalasi (development)

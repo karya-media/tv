@@ -53,7 +53,7 @@ class HttpStreamValidator:
     async def validate(self, channel: Channel) -> StreamValidationResult:
         async with self._semaphore:
             last_result: StreamValidationResult | None = None
-            for attempt in range(self._retries):
+            for _attempt in range(self._retries):
                 last_result = await self._validate_once(channel)
                 if last_result.is_online:
                     return last_result
@@ -82,7 +82,7 @@ class HttpStreamValidator:
                     # back to GET rather than treating this as a failure.
                     return None
                 return self._result_from_response(channel, response, elapsed_ms)
-        except (aiohttp.ClientResponseError,):
+        except aiohttp.ClientResponseError:
             return None  # fall back to GET
         except Exception:  # noqa: BLE001 - classified centrally in _try_get
             return None  # give GET a chance before giving up
@@ -98,10 +98,10 @@ class HttpStreamValidator:
                 # live stream - read one small chunk, then stop.
                 try:
                     await response.content.read(_PROBE_CHUNK_BYTES)
-                except (aiohttp.ClientPayloadError, asyncio.TimeoutError):
+                except (TimeoutError, aiohttp.ClientPayloadError):
                     pass  # headers already told us enough
                 return self._result_from_response(channel, response, elapsed_ms)
-        except asyncio.TimeoutError:
+        except TimeoutError:
             return StreamValidationResult(
                 channel=channel, status=StreamStatus.TIMEOUT, error_message="request timed out"
             )

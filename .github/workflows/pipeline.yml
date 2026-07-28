@@ -1,0 +1,68 @@
+name: IPTV Playlist Pipeline
+
+# Runs the full pipeline: merge every category playlist, validate
+# streams, validate logos, generate reports, then commit the results
+# back to the repository. Because data/master/master.m3u and
+# docs/master.m3u are committed to `main`, the public playlist URLs
+# (raw.githubusercontent.com and GitHub Pages) update automatically -
+# no separate "deploy" step is needed.
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "data/categories/**"
+  schedule:
+    # Re-validate streams twice a day even if no category file changed
+    # (streams that were online yesterday can go offline overnight).
+    - cron: "0 */12 * * *"
+  workflow_dispatch: {} # manual "Run workflow" button in the Actions tab
+
+permissions:
+  contents: write # required to commit the updated playlist/reports back
+
+concurrency:
+  group: iptv-pipeline-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  pipeline:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+
+      - name: Install FFmpeg (provides ffprobe)
+        run: sudo apt-get update -y && sudo apt-get install -y ffmpeg
+
+      - name: Install project
+        run: pip install -e .
+
+      - name: Run pipeline (merge, validate, logos, report)
+        id: pipeline
+        run: |
+          iptv-manager report --formats html,json,csv,xlsx
+
+      - name: Commit and push updated playlist/reports
+        run: |
+          git config user.name "iptv-playlist-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/master docs/master.m3u reports
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "chore: automated playlist merge, validation, and report [skip ci]"
+            git push
+          fi
+
+      - name: Upload reports as workflow artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: validation-reports
+          path: reports/
+          retention-days: 30

@@ -1,5 +1,5 @@
 """CLI entrypoints, primarily invoked by GitHub Actions workflows
-(wired in Phase 4) but equally usable by hand.
+but equally usable by hand.
 
 Commands:
     iptv-manager import CATEGORY SOURCE   - import one category playlist
@@ -7,29 +7,50 @@ Commands:
     iptv-manager validate                 - validate every stream in master.m3u
     iptv-manager check-logos              - validate every channel's logo image
     iptv-manager check-epg XMLTV_SOURCE   - compare master.m3u tvg-ids against an XMLTV EPG
+    iptv-manager report                   - full pipeline (merge+validate+logos[+epg]) -> reports/
 """
 
 from __future__ import annotations
 
 import asyncio
+from pathlib import Path
 
 import typer
 
+from iptv_manager.application.dto.validation_report import ValidationReport
 from iptv_manager.application.use_cases.compare_with_xmltv import CompareWithXMLTVUseCase
+from iptv_manager.application.use_cases.generate_report import GenerateReportUseCase
 from iptv_manager.application.use_cases.import_playlist import ImportPlaylistUseCase
-from iptv_manager.application.use_cases.merge_playlists import MergePlaylistsUseCase
-from iptv_manager.application.use_cases.validate_logos import ValidateLogosUseCase
-from iptv_manager.application.use_cases.validate_streams import ValidateStreamsUseCase
-from iptv_manager.config.settings import PublishTarget, get_settings
+from iptv_manager.application.use_cases.merge_playlists import MergePlaylistsUseCase, MergeResult
+from iptv_manager.application.use_cases.validate_logos import (
+    LogoValidationSummary,
+    ValidateLogosUseCase,
+)
+from iptv_manager.application.use_cases.validate_streams import (
+    StreamValidationSummary,
+    ValidateStreamsUseCase,
+)
+from iptv_manager.config.settings import PublishTarget, Settings, get_settings
 from iptv_manager.domain.entities.stream_validation_result import StreamStatus
 from iptv_manager.infrastructure.parsers.m3u_parser import M3UParser
 from iptv_manager.infrastructure.parsers.xmltv_parser import XMLTVParser
+from iptv_manager.infrastructure.reports.csv_report_writer import CSVReportWriter
+from iptv_manager.infrastructure.reports.excel_report_writer import ExcelReportWriter
+from iptv_manager.infrastructure.reports.html_report_writer import HTMLReportWriter
+from iptv_manager.infrastructure.reports.json_report_writer import JSONReportWriter
 from iptv_manager.infrastructure.sources.local_file_source import LocalFilePlaylistSource
 from iptv_manager.infrastructure.sources.remote_url_source import RemoteUrlPlaylistSource
 from iptv_manager.infrastructure.validators.http_stream_validator import HttpStreamValidator
 from iptv_manager.infrastructure.validators.logo_validator import LogoImageValidator
 
 app = typer.Typer(help="IPTV Playlist Management & Validation System CLI")
+
+_REPORT_WRITERS = {
+    "html": ("report.html", HTMLReportWriter),
+    "json": ("report.json", JSONReportWriter),
+    "csv": ("report.csv", CSVReportWriter),
+    "xlsx": ("report.xlsx", ExcelReportWriter),
+}
 
 
 def _is_url(source: str) -> bool:
@@ -67,6 +88,41 @@ def import_category(
         typer.echo(f"  warning: {warning}")
 
 
+def _load_category_playlists(
+    settings: Settings, parser: M3UParser
+) -> tuple[list[Path], list]:
+    category_files = sorted(
+        set(settings.categories_path.glob("*.m3u")) | set(settings.categories_path.glob("*.m3u8"))
+    )
+    playlists = []
+    for path in category_files:
+        source = LocalFilePlaylistSource(path)
+        raw_text = asyncio.run(source.fetch())
+        playlists.append(parser.parse(raw_text, name=path.stem, category=path.stem))
+    return category_files, playlists
+
+
+def _merge_and_publish(settings: Settings, parser: M3UParser) -> tuple[int, MergeResult]:
+    """Shared by `merge` and `report`: load every category file, merge
+    them, and write the resulting master playlist to disk (and to
+    docs/ for GitHub Pages, per IPTV_PUBLISH_TARGET)."""
+    category_files, playlists = _load_category_playlists(settings, parser)
+
+    if not category_files:
+        typer.echo(f"No category playlists found in {settings.categories_path}", err=True)
+        raise typer.Exit(code=1)
+
+    result = MergePlaylistsUseCase().execute(playlists, master_name="master")
+
+    settings.master_playlist_path.write_text(parser.serialize(result.master), encoding="utf-8")
+    if settings.publish_target in (PublishTarget.PAGES_ONLY, PublishTarget.BOTH):
+        settings.docs_master_playlist_path.write_text(
+            parser.serialize(result.master), encoding="utf-8"
+        )
+
+    return len(category_files), result
+
+
 @app.command("merge")
 def merge_categories() -> None:
     """Merge every category playlist under data/categories/ into a
@@ -77,30 +133,9 @@ def merge_categories() -> None:
     settings.ensure_directories()
 
     parser = M3UParser()
-    category_files = sorted(
-        set(settings.categories_path.glob("*.m3u")) | set(settings.categories_path.glob("*.m3u8"))
-    )
+    file_count, result = _merge_and_publish(settings, parser)
 
-    if not category_files:
-        typer.echo(f"No category playlists found in {settings.categories_path}", err=True)
-        raise typer.Exit(code=1)
-
-    playlists = []
-    for path in category_files:
-        source = LocalFilePlaylistSource(path)
-        raw_text = asyncio.run(source.fetch())
-        playlists.append(parser.parse(raw_text, name=path.stem, category=path.stem))
-
-    result = MergePlaylistsUseCase().execute(playlists, master_name="master")
-
-    settings.master_playlist_path.write_text(parser.serialize(result.master), encoding="utf-8")
-
-    if settings.publish_target in (PublishTarget.PAGES_ONLY, PublishTarget.BOTH):
-        settings.docs_master_playlist_path.write_text(
-            parser.serialize(result.master), encoding="utf-8"
-        )
-
-    typer.echo(f"Merged {len(category_files)} category playlist(s)")
+    typer.echo(f"Merged {file_count} category playlist(s)")
     typer.echo(f"Channels before dedup: {result.total_channels_before}")
     typer.echo(f"Channels after dedup:  {result.total_channels_after}")
     typer.echo(f"Duplicate URLs removed: {result.removed_duplicate_url_count}")
@@ -238,6 +273,106 @@ def check_epg(
         names = ", ".join(c.name for c in group.channels)
         typer.echo(f"  - tvg-id={group.tvg_id!r}: {names}")
     typer.echo(f"Unused EPG entries: {len(result.unused_epg_entries)}")
+
+
+@app.command("report")
+def generate_report(
+    formats: str = typer.Option(
+        "html,json,csv,xlsx", "--formats", help="Comma-separated: html,json,csv,xlsx"
+    ),
+    epg_source: str = typer.Option(
+        "", "--epg", help="Optional local file path or http(s) URL to an XMLTV file"
+    ),
+    skip_streams: bool = typer.Option(
+        False, "--skip-streams", help="Skip stream validation (faster, e.g. for quick re-merges)"
+    ),
+    skip_logos: bool = typer.Option(False, "--skip-logos", help="Skip logo validation"),
+) -> None:
+    """Run the full pipeline - merge categories, validate streams,
+    validate logos, and (if --epg is given) compare against an XMLTV
+    EPG - then write the results to reports/ in every requested
+    format. This is the single command GitHub Actions calls."""
+    settings = get_settings()
+    settings.ensure_directories()
+
+    parser = M3UParser()
+    file_count, merge_result = _merge_and_publish(settings, parser)
+    typer.echo(
+        f"Merged {file_count} category playlist(s): "
+        f"{merge_result.total_channels_before} -> {merge_result.total_channels_after} channels"
+    )
+
+    stream_summary: StreamValidationSummary | None = None
+    if not skip_streams:
+        validator = HttpStreamValidator(
+            timeout_seconds=settings.validation_timeout_seconds,
+            max_concurrency=settings.validation_max_concurrency,
+            user_agent=settings.user_agent,
+            retries=settings.validation_retries,
+        )
+        stream_summary = asyncio.run(
+            ValidateStreamsUseCase(validator=validator).execute(merge_result.master)
+        )
+        typer.echo(
+            f"Validated streams: {stream_summary.online_count}/{stream_summary.total} online"
+        )
+
+    logo_summary: LogoValidationSummary | None = None
+    if not skip_logos:
+        logo_validator = LogoImageValidator(
+            timeout_seconds=settings.validation_timeout_seconds,
+            max_concurrency=settings.validation_max_concurrency,
+            user_agent=settings.user_agent,
+        )
+        logo_summary = asyncio.run(
+            ValidateLogosUseCase(validator=logo_validator).execute(merge_result.master)
+        )
+        typer.echo(
+            f"Checked logos: {logo_summary.reachable_count}/{logo_summary.total} reachable"
+        )
+
+    epg_comparison = None
+    if epg_source:
+        source = (
+            RemoteUrlPlaylistSource(
+                epg_source,
+                timeout=settings.validation_timeout_seconds,
+                user_agent=settings.user_agent,
+            )
+            if _is_url_generic(epg_source)
+            else LocalFilePlaylistSource(epg_source)
+        )
+        raw_xmltv = asyncio.run(source.fetch())
+        epg_channels = XMLTVParser().parse(raw_xmltv)
+        epg_comparison = CompareWithXMLTVUseCase().execute(merge_result.master, epg_channels)
+        typer.echo(
+            f"Compared against {len(epg_channels)} EPG channel(s): "
+            f"{len(epg_comparison.invalid_tvg_id)} invalid tvg-id, "
+            f"{len(epg_comparison.unused_epg_entries)} unused EPG entries"
+        )
+
+    report: ValidationReport = GenerateReportUseCase().execute(
+        master_playlist_name="master",
+        merge_result=merge_result,
+        stream_summary=stream_summary,
+        logo_summary=logo_summary,
+        epg_comparison=epg_comparison,
+    )
+
+    requested_formats = [f.strip().lower() for f in formats.split(",") if f.strip()]
+    unknown = set(requested_formats) - set(_REPORT_WRITERS)
+    if unknown:
+        typer.echo(f"Unknown format(s): {', '.join(sorted(unknown))}", err=True)
+        raise typer.Exit(code=1)
+
+    reports_dir = settings.project_root / settings.reports_dir
+    reports_dir.mkdir(parents=True, exist_ok=True)
+
+    for fmt in requested_formats:
+        filename, writer_cls = _REPORT_WRITERS[fmt]
+        output_path: Path = reports_dir / filename
+        writer_cls().write(report, output_path)
+        typer.echo(f"Wrote {output_path}")
 
 
 if __name__ == "__main__":
