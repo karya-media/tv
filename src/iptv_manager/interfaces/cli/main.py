@@ -3,6 +3,7 @@ but equally usable by hand.
 
 Commands:
     iptv-manager import CATEGORY SOURCE   - import one category playlist
+    iptv-manager sync-sources              - re-import every category listed in data/sources.txt
     iptv-manager merge                    - merge all categories into master.m3u
     iptv-manager validate                 - validate every stream in master.m3u
     iptv-manager check-logos              - validate every channel's logo image
@@ -22,6 +23,7 @@ from iptv_manager.application.use_cases.compare_with_xmltv import CompareWithXML
 from iptv_manager.application.use_cases.generate_report import GenerateReportUseCase
 from iptv_manager.application.use_cases.import_playlist import ImportPlaylistUseCase
 from iptv_manager.application.use_cases.merge_playlists import MergePlaylistsUseCase, MergeResult
+from iptv_manager.application.use_cases.sync_sources import SyncSourcesUseCase
 from iptv_manager.application.use_cases.validate_logos import (
     LogoValidationSummary,
     ValidateLogosUseCase,
@@ -40,6 +42,7 @@ from iptv_manager.infrastructure.reports.html_report_writer import HTMLReportWri
 from iptv_manager.infrastructure.reports.json_report_writer import JSONReportWriter
 from iptv_manager.infrastructure.sources.local_file_source import LocalFilePlaylistSource
 from iptv_manager.infrastructure.sources.remote_url_source import RemoteUrlPlaylistSource
+from iptv_manager.infrastructure.sources.sources_file import parse_sources_file
 from iptv_manager.infrastructure.validators.http_stream_validator import HttpStreamValidator
 from iptv_manager.infrastructure.validators.logo_validator import LogoImageValidator
 
@@ -86,6 +89,52 @@ def import_category(
     typer.echo(f"Imported {len(playlist)} channel(s) into {output_path}")
     for warning in playlist.warnings:
         typer.echo(f"  warning: {warning}")
+
+
+@app.command("sync-sources")
+def sync_sources() -> None:
+    """Re-import every category listed in data/sources.txt from its
+    remote URL, overwriting only that category's own file under
+    data/categories/. Categories not listed in sources.txt (e.g.
+    manually curated playlists) are never touched.
+
+    Safe to run on a schedule (see .github/workflows/pipeline.yml):
+    one source failing to fetch is reported and skipped, it doesn't
+    abort the sync for the others, and it doesn't fail the whole
+    command (exit code 0) unless every configured source failed.
+    """
+    settings = get_settings()
+    settings.ensure_directories()
+
+    sources_path = settings.project_root / "data" / "sources.txt"
+    entries = parse_sources_file(sources_path)
+
+    if not entries:
+        typer.echo(f"No sources configured in {sources_path} - nothing to sync.")
+        return
+
+    parser = M3UParser()
+    use_case = SyncSourcesUseCase(
+        parser=parser,
+        timeout_seconds=settings.validation_timeout_seconds,
+        user_agent=settings.user_agent,
+    )
+    result, serialized_by_name = asyncio.run(use_case.execute(entries))
+
+    for name, text in serialized_by_name.items():
+        output_path = settings.categories_path / f"{name}.m3u"
+        output_path.write_text(text, encoding="utf-8")
+
+    for entry in result.succeeded:
+        typer.echo(f"  ok    {entry.name}: {entry.channel_count} channel(s) from {entry.url}")
+    for entry in result.failed:
+        typer.echo(f"  FAIL  {entry.name}: {entry.error} ({entry.url})", err=True)
+
+    typer.echo(
+        f"Synced {len(result.succeeded)}/{len(entries)} source(s)."
+    )
+    if result.failed and not result.succeeded:
+        raise typer.Exit(code=1)
 
 
 def _load_category_playlists(

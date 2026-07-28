@@ -1,0 +1,1 @@
+beetv_sync=https://beetv.my.id/
