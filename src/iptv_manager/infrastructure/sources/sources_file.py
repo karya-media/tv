@@ -35,6 +35,7 @@ def parse_sources_file(path: Path) -> list[SourceEntry]:
         return []
 
     entries: list[SourceEntry] = []
+    seen_names: dict[str, int] = {}  # name -> line number first seen on
     text = path.read_text(encoding="utf-8-sig")  # tolerate a BOM from Notepad etc.
 
     for line_no, raw_line in enumerate(text.splitlines(), start=1):
@@ -64,6 +65,17 @@ def parse_sources_file(path: Path) -> list[SourceEntry]:
                 f"{path}:{line_no}: name must be a plain filename stem, no path separators: "
                 f"{raw_line!r}"
             )
+        if name in seen_names:
+            # Two sources writing to the same data/categories/<name>.m3u
+            # would silently overwrite each other - one source's
+            # channels would vanish before merge ever sees them. Fail
+            # loudly instead, so this is caught at commit/CI time.
+            raise SourcesFileError(
+                f"{path}:{line_no}: duplicate source name {name!r} "
+                f"(first used on line {seen_names[name]}) - each source needs a "
+                f"unique name, otherwise one output file silently overwrites the other"
+            )
+        seen_names[name] = line_no
 
         entries.append(SourceEntry(name=name, url=url))
 
