@@ -1,3 +1,4 @@
 beetv=https://beetv.my.id/
 iptv_indonesia=https://raw.githubusercontent.com/mubin-asrori/iptv-indonesia/main/data.m3u
 itz_play=https://raw.githubusercontent.com/Fireredst/Itz-Play/refs/heads/main/Play.m3u
+iptv-org=https://iptv-org.github.io/iptv/index.m3u   link tv sak dunia enek
