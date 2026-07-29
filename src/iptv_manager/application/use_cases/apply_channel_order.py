@@ -26,8 +26,8 @@ class ApplyChannelOrderUseCase:
     """Pure domain logic, no I/O - the caller reads
     data/channel_order.txt and passes in the parsed name list."""
 
-    def execute(self, playlist: Playlist, priority_names: list[str]) -> Playlist:
-        if not priority_names:
+    def execute(self, priority_slots: list[list[str]], playlist: Playlist) -> Playlist:
+        if not priority_slots:
             return playlist
 
         channels = list(playlist)
@@ -42,15 +42,22 @@ class ApplyChannelOrderUseCase:
         placed = [False] * len(channels)
         ordered: list[Channel] = []
 
-        seen_priority_keys: set[str] = set()
-        for name in priority_names:
-            key = _normalize(name)
-            if key in seen_priority_keys:
-                continue  # duplicate line in channel_order.txt, ignore the repeat
-            seen_priority_keys.add(key)
-            for index in indices_by_name.get(key, []):
+        already_matched_indices: set[int] = set()
+        for alternatives in priority_slots:
+            # A slot's alternatives may match different channels (or
+            # the same one twice under different spellings) - collect
+            # every matching index first, then place them in their
+            # original relative order, once each.
+            slot_indices: set[int] = set()
+            for name in alternatives:
+                key = _normalize(name)
+                for index in indices_by_name.get(key, []):
+                    slot_indices.add(index)
+
+            for index in sorted(slot_indices - already_matched_indices):
                 ordered.append(channels[index])
                 placed[index] = True
+                already_matched_indices.add(index)
 
         # Everything not pinned keeps its original relative order,
         # appended after every pinned channel.

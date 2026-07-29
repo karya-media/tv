@@ -166,9 +166,9 @@ def _merge_and_publish(settings: Settings, parser: M3UParser) -> tuple[int, Merg
     result = MergePlaylistsUseCase().execute(playlists, master_name="master")
 
     order_path = settings.project_root / "data" / "channel_order.txt"
-    priority_names = parse_channel_order_file(order_path)
-    if priority_names:
-        result.master = ApplyChannelOrderUseCase().execute(result.master, priority_names)
+    priority_slots = parse_channel_order_file(order_path)
+    if priority_slots:
+        result.master = ApplyChannelOrderUseCase().execute(priority_slots, result.master)
 
     settings.master_playlist_path.write_text(parser.serialize(result.master), encoding="utf-8")
     if settings.publish_target in (PublishTarget.PAGES_ONLY, PublishTarget.BOTH):
