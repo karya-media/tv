@@ -2,14 +2,18 @@
 
 Handles the real-world messiness of IPTV playlists: UTF-8 with or
 without a BOM, CRLF/LF/CR line endings, a missing #EXTM3U header,
-#EXTINF attributes in any order and with single or double quotes, and
-#EXTINF lines with a missing/malformed display name. A single bad line
-never aborts parsing of the whole file - it's repaired where possible,
-or skipped with a warning recorded on the resulting Playlist.
+#EXTINF attributes in any order and with single or double quotes,
+#EXTINF lines with a missing/malformed display name, and HTML-entity
+encoded URLs/attribute values (e.g. some playlist exporters emit
+"&amp;" instead of "&" in a stream URL's query string, which silently
+breaks the stream unless unescaped). A single bad line never aborts
+parsing of the whole file - it's repaired where possible, or skipped
+with a warning recorded on the resulting Playlist.
 """
 
 from __future__ import annotations
 
+import html
 import re
 
 from iptv_manager.domain.entities.channel import Channel
@@ -78,7 +82,8 @@ class M3UParser:
                 # rather than being dropped as an unknown directive.
                 vlc_match = _VLCOPT_RE.match(line)
                 if vlc_match and pending_extinf is not None:
-                    key, value = vlc_match.group(1).lower(), vlc_match.group(2).strip()
+                    key = vlc_match.group(1).lower()
+                    value = html.unescape(vlc_match.group(2).strip())
                     pending_vlc_opts[key] = value
                 else:
                     playlist.warnings.append(
@@ -121,11 +126,11 @@ class M3UParser:
         for attr_match in _ATTR_RE.finditer(match.group("attrs") or ""):
             key = attr_match.group(1).lower()
             value = attr_match.group(2) if attr_match.group(2) is not None else attr_match.group(3)
-            attrs[key] = value
+            attrs[key] = html.unescape(value)
         return {
             "duration": float(match.group("duration")),
             "attrs": attrs,
-            "name": match.group("name").strip(),
+            "name": html.unescape(match.group("name").strip()),
         }
 
     def _build_channel(
@@ -139,7 +144,7 @@ class M3UParser:
     ) -> Channel | None:
         attrs: dict[str, str] = extinf["attrs"]
         try:
-            url = StreamUrl.parse(url_line)
+            url = StreamUrl.parse(html.unescape(url_line))
         except InvalidStreamUrlError as exc:
             warnings.append(f"line {line_no}: invalid stream URL, entry skipped: {exc}")
             return None

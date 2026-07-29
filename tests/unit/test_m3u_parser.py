@@ -87,6 +87,119 @@ class TestParseRepair:
         channel = playlist.channels[0]
         assert channel.extra_attrs == {"tvg-country": "US", "tvg-language": "English"}
 
+    def test_html_entities_in_url_are_unescaped(self, parser: M3UParser):
+        # Real-world bug found in a user-supplied playlist export: the
+        # URL's query string had "&amp;" instead of "&", which silently
+        # breaks every parameter after the first when a player uses it
+        # literally instead of HTML-decoding it first.
+        raw = (
+            "#EXTM3U\n"
+            '#EXTINF:-1 group-title="Y",tvOne\n'
+            "https://example.com/01.m3u8?app_type=web&amp;userid=abc&amp;chname=tvOne\n"
+        )
+        playlist = parser.parse(raw, name="entities")
+        assert str(playlist.channels[0].url) == (
+            "https://example.com/01.m3u8?app_type=web&userid=abc&chname=tvOne"
+        )
+
+    def test_html_entities_in_extinf_attrs_are_unescaped(self, parser: M3UParser):
+        raw = (
+            "#EXTM3U\n"
+            '#EXTINF:-1 tvg-name="AT&amp;T Sports" group-title="Y",AT&amp;T Sports\n'
+            "http://example.com/z.m3u8\n"
+        )
+        playlist = parser.parse(raw, name="entities")
+        channel = playlist.channels[0]
+        assert channel.tvg_name == "AT&T Sports"
+        assert channel.name == "AT&T Sports"
+
+    def test_html_entities_in_vlcopt_are_unescaped(self, parser: M3UParser):
+        raw = (
+            "#EXTM3U\n"
+            '#EXTINF:-1 group-title="Y",Z\n'
+            "#EXTVLCOPT:http-referrer=https://example.com/watch?id=1&amp;ref=2\n"
+            "http://example.com/z.m3u8\n"
+        )
+        playlist = parser.parse(raw, name="entities")
+        channel = playlist.channels[0]
+        assert channel.vlc_opts["http-referrer"] == "https://example.com/watch?id=1&ref=2"
+
+    def test_duplicate_url_detected_after_html_unescape(self, parser: M3UParser):
+        # Two entries that are the *same* stream once entities are
+        # decoded must produce the same normalized_key, so merge-time
+        # dedup catches them - this was the actual user-visible symptom
+        # of the bug (tvOne appeared twice in the merged master.m3u).
+        clean = (
+            "#EXTM3U\n"
+            '#EXTINF:-1 group-title="Y",tvOne\n'
+            "https://example.com/01.m3u8?app_type=web&userid=abc&chname=tvOne\n"
+        )
+        escaped = (
+            "#EXTM3U\n"
+            '#EXTINF:-1 group-title="Y",tvOne\n'
+            "https://example.com/01.m3u8?app_type=web&amp;userid=abc&amp;chname=tvOne\n"
+        )
+        channel_a = parser.parse(clean, name="a").channels[0]
+        channel_b = parser.parse(escaped, name="b").channels[0]
+        assert channel_a.url.normalized_key == channel_b.url.normalized_key
+
+
+class TestVlcOpts:
+    def test_vlc_opts_captured_on_channel(self, parser: M3UParser):
+        raw = (
+            "#EXTM3U\n"
+            '#EXTINF:-1 group-title="Y",Z\n'
+            "#EXTVLCOPT:http-user-agent=Mozilla/5.0\n"
+            "#EXTVLCOPT:http-referrer=https://example.com/\n"
+            "http://example.com/z.m3u8\n"
+        )
+        playlist = parser.parse(raw, name="vlc")
+        channel = playlist.channels[0]
+        assert channel.vlc_opts == {
+            "http-user-agent": "Mozilla/5.0",
+            "http-referrer": "https://example.com/",
+        }
+
+    def test_vlc_opts_default_empty_when_absent(self, parser: M3UParser):
+        raw = "#EXTM3U\n" '#EXTINF:-1 group-title="Y",Z\n' "http://example.com/z.m3u8\n"
+        playlist = parser.parse(raw, name="no-vlc")
+        assert playlist.channels[0].vlc_opts == {}
+
+    def test_vlc_opt_with_no_preceding_extinf_warns(self, parser: M3UParser):
+        raw = "#EXTM3U\n#EXTVLCOPT:http-user-agent=Mozilla/5.0\nhttp://example.com/z.m3u8\n"
+        playlist = parser.parse(raw, name="orphan-vlc")
+        assert any("EXTVLCOPT" in w for w in playlist.warnings)
+        # The URL after the orphan EXTVLCOPT still has no preceding
+        # #EXTINF either, so it's skipped too - zero channels parsed.
+        assert len(playlist) == 0
+
+    def test_vlc_opts_do_not_leak_between_channels(self, parser: M3UParser):
+        raw = (
+            "#EXTM3U\n"
+            '#EXTINF:-1 group-title="Y",First\n'
+            "#EXTVLCOPT:http-user-agent=Agent1\n"
+            "http://example.com/first.m3u8\n"
+            '#EXTINF:-1 group-title="Y",Second\n'
+            "http://example.com/second.m3u8\n"
+        )
+        playlist = parser.parse(raw, name="no-leak")
+        assert playlist.channels[0].vlc_opts == {"http-user-agent": "Agent1"}
+        assert playlist.channels[1].vlc_opts == {}
+
+    def test_vlc_opts_round_trip_through_serialize(self, parser: M3UParser):
+        raw = (
+            "#EXTM3U\n"
+            '#EXTINF:-1 group-title="Y",Z\n'
+            "#EXTVLCOPT:http-user-agent=Mozilla/5.0\n"
+            "http://example.com/z.m3u8\n"
+        )
+        playlist = parser.parse(raw, name="vlc")
+        serialized = parser.serialize(playlist)
+        assert "#EXTVLCOPT:http-user-agent=Mozilla/5.0" in serialized
+
+        reparsed = parser.parse(serialized, name="vlc")
+        assert reparsed.channels[0].vlc_opts == {"http-user-agent": "Mozilla/5.0"}
+
 
 class TestSerialize:
     def test_round_trip_preserves_channel_count(self, parser: M3UParser):
