@@ -21,9 +21,12 @@ Garuda TV
 MDTV
 RTV
 RCTI World
-BTV|BTV (Alt 2)|B+ TV
+BTV|BTV (Alt 2)
 Nusantara TV (NTV)|Nusantara TV (Alt 2)|Nusantara TV
 Berita Satu
+JTV Kediri|JTV Madiun|JTV Madura (480p) [Not 24/7]|JTV Malang
+Madu TV
+Hanacaraka TV
 DAAI TV
 Mentari TV
 Magna Channel
@@ -31,7 +34,6 @@ BN Channel
 VTV
 Smile TV
 RRI Net
-Hanacaraka TV
 Green TV
 TVKU
 RodjaTV|Rodja TV
@@ -42,7 +44,6 @@ Nabawi TV
 TVMU
 MTA TV|MTA TV (Alt 2)
 SurauTV|Surau TV
-Madu TV
 Salam TV
 U Channel
 Light Channel (480p) [Not 24/7]|Light Channel (576p) [Not 24/7]
@@ -201,10 +202,6 @@ Jaya TV
 Jek TV (720p) [Not 24/7]
 JITV Jogja
 Jogja Istimewa TV
-JTV Kediri
-JTV Madiun
-JTV Madura (480p) [Not 24/7]
-JTV Malang
 Jupnas Gizi (MBG TV)
 Cartoonito
 Cartoon Network
@@ -242,88 +239,7 @@ New TV Comprehensive
 New TV Finance
 New TV Variety
 Nick Jr. Indonesia
-Online TV Nusantara (720p) [Not 24/7]
-Pegadaian Championship|Pegadaian Championship (Alt 2)|Pegadaian Championship (Alt 3)|Pegadaian Championship (Alt 4)|Pegadaian Championship (Alt 5)
-Pegadaian Championshipe
-PJTV
-PKTV
-PONTV
-Prambors
-And Pictures
-AVA Family
-AXN
-CCM
-Galaxy
-Galaxy Premium
-GOLDMINES MOVIES
-HBO+
-HBO 2
-HBOMAX PREMIERE 1
-HBOMAX PREMIERE 10
-HBOMAX PREMIERE 2
-HBOMAX PREMIERE 3
-HBOMAX PREMIERE 4
-HBOMAX PREMIERE 5
-HBO Mundi
-HBO XTREME
-HITS
-HITS Movies
-KIX
-MN Plus
-MNX HD
-Movies Now
-Rock Action
-Rock Entertainment
-Runtime Terror
-SONY MAX
-SONY PIX
-TAP MOVIES
-Thrill
-TVN
-TVN MOVIES
-Universal Movies
-Zee Anmol Cinema
-Zee Bioskop
-Zee Bollywood
-A SPOR
-CCTV16
-CCTV5|CCTV5+
-Mono 29
-Sportv 1
-Prima TV
-Puja TV Aceh (1080p) [Not 24/7]
-Radar Tasikmalaya TV (720p) [Not 24/7]
-Rajawali TV (576i)
-Rakyat Bengkulu TV
-RCTV
-Rinjani TV
-Salira TV
-Sampit TV (720p) [Not 24/7]
-Sangaji TV|Sangaji TV (Alt 2)
-Selaparang TV
-Simpang5 TV (360p) [Not 24/7]
-SMTV
-Soccer Channel
-ESPN 2 HD
-ESPN 3 HD
-ESPN 4 HD
-ESPN 5 HD
-ESPN 6 HD
-ESPN SD
-Sportstars 3
-SPOTV
-SPOTV 2
-Stara TV
-Stara TV Bandung
-Stara TV Bojonegoro
-Stara TV Cianjur
-Stara TV Jakarta
-Stara TV Malang
-Stara TV Parahyangan
-STV (720p) [Not 24/7]
-Sultra TV (720p) [Not 24/7]
-The Indonesia Channel
-Tribunnews.Com
+
 TV 10
 TV9
 TVRI NTB
