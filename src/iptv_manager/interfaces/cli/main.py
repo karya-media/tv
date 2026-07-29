@@ -34,6 +34,7 @@ from iptv_manager.application.use_cases.validate_streams import (
     ValidateStreamsUseCase,
 )
 from iptv_manager.config.settings import PublishTarget, Settings, get_settings
+from iptv_manager.domain.entities.playlist import Playlist
 from iptv_manager.domain.entities.stream_validation_result import StreamStatus
 from iptv_manager.infrastructure.parsers.m3u_parser import M3UParser
 from iptv_manager.infrastructure.parsers.xmltv_parser import XMLTVParser
@@ -44,6 +45,7 @@ from iptv_manager.infrastructure.reports.json_report_writer import JSONReportWri
 from iptv_manager.infrastructure.sources.local_file_source import LocalFilePlaylistSource
 from iptv_manager.infrastructure.sources.remote_url_source import RemoteUrlPlaylistSource
 from iptv_manager.infrastructure.sources.channel_order_file import parse_channel_order_file
+from iptv_manager.infrastructure.sources.playlist_bundles_file import parse_playlist_bundles_file
 from iptv_manager.infrastructure.sources.sources_file import parse_sources_file
 from iptv_manager.infrastructure.validators.http_stream_validator import HttpStreamValidator
 from iptv_manager.infrastructure.validators.logo_validator import LogoImageValidator
@@ -155,28 +157,80 @@ def _load_category_playlists(
 
 def _merge_and_publish(settings: Settings, parser: M3UParser) -> tuple[int, MergeResult]:
     """Shared by `merge` and `report`: load every category file, merge
-    them, and write the resulting master playlist to disk (and to
-    docs/ for GitHub Pages, per IPTV_PUBLISH_TARGET)."""
+    ALL of them into one comprehensive result (used for validation and
+    the report - every channel that exists anywhere gets checked),
+    then additionally publish one or more curated "bundles" per
+    data/playlists.txt (falling back to a single bundle containing
+    everything if that file doesn't exist).
+
+    Returns the comprehensive (all-categories) MergeResult - callers
+    that only care about validation/reporting can ignore that bundles
+    were published at all.
+    """
     category_files, playlists = _load_category_playlists(settings, parser)
 
     if not category_files:
         typer.echo(f"No category playlists found in {settings.categories_path}", err=True)
         raise typer.Exit(code=1)
 
-    result = MergePlaylistsUseCase().execute(playlists, master_name="master")
+    playlists_by_stem = {path.stem: playlist for path, playlist in zip(category_files, playlists)}
 
     order_path = settings.project_root / "data" / "channel_order.txt"
     priority_slots = parse_channel_order_file(order_path)
-    if priority_slots:
-        result.master = ApplyChannelOrderUseCase().execute(priority_slots, result.master)
 
-    settings.master_playlist_path.write_text(parser.serialize(result.master), encoding="utf-8")
-    if settings.publish_target in (PublishTarget.PAGES_ONLY, PublishTarget.BOTH):
-        settings.docs_master_playlist_path.write_text(
-            parser.serialize(result.master), encoding="utf-8"
+    # The comprehensive merge: every category, used for validation and
+    # the report so nothing ever goes unchecked just because it was
+    # left out of a bundle.
+    everything_result = MergePlaylistsUseCase().execute(playlists, master_name="master")
+    if priority_slots:
+        everything_result.master = ApplyChannelOrderUseCase().execute(
+            priority_slots, everything_result.master
         )
 
-    return len(category_files), result
+    bundles_path = settings.project_root / "data" / "playlists.txt"
+    bundle_stems = parse_playlist_bundles_file(bundles_path)
+    if not bundle_stems:
+        # No playlists.txt - historical behavior: one "master" bundle
+        # with every category file, published to the same paths as
+        # before this feature existed.
+        _publish_bundle(settings, parser, "master", everything_result.master)
+        return len(category_files), everything_result
+
+    for bundle_name, stems in bundle_stems.items():
+        bundle_playlists = []
+        for stem in stems:
+            playlist = playlists_by_stem.get(stem)
+            if playlist is None:
+                typer.echo(
+                    f"  warning: playlists.txt bundle {bundle_name!r} references unknown "
+                    f"category {stem!r} (no data/categories/{stem}.m3u) - skipped",
+                    err=True,
+                )
+                continue
+            bundle_playlists.append(playlist)
+
+        bundle_result = MergePlaylistsUseCase().execute(bundle_playlists, master_name=bundle_name)
+        if priority_slots:
+            bundle_result.master = ApplyChannelOrderUseCase().execute(
+                priority_slots, bundle_result.master
+            )
+        _publish_bundle(settings, parser, bundle_name, bundle_result.master)
+        typer.echo(
+            f"  bundle {bundle_name!r}: {len(bundle_result.master)} channel(s) "
+            f"from {len(bundle_playlists)}/{len(stems)} categor(y/ies)"
+        )
+
+    return len(category_files), everything_result
+
+
+def _publish_bundle(settings: Settings, parser: M3UParser, bundle_name: str, master: Playlist) -> None:
+    """Write one bundle's merged playlist to data/master/<name>.m3u
+    and, if Pages publishing is enabled, docs/<name>.m3u."""
+    output_path = settings.master_path / f"{bundle_name}.m3u"
+    output_path.write_text(parser.serialize(master), encoding="utf-8")
+    if settings.publish_target in (PublishTarget.PAGES_ONLY, PublishTarget.BOTH):
+        docs_path = settings.project_root / settings.docs_dir / f"{bundle_name}.m3u"
+        docs_path.write_text(parser.serialize(master), encoding="utf-8")
 
 
 @app.command("merge")
