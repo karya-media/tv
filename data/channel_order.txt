@@ -1,9 +1,331 @@
-# Daftar urutan prioritas channel di master.m3u.
-# Satu nama channel per baris, sesuai urutan yang kamu mau.
-# Nama harus PERSIS sama dengan nama channel di file M3U (huruf besar/kecil tidak masalah).
-# Channel yang tidak disebut di sini akan tetap muncul, ditaruh di akhir, urutan asli.
-#
-# Contoh:
-# RCTI
-# SCTV
-# Trans TV
+TVRI
+TVRI Nasional
+TVRI Sport
+TVRI World
+RCTI
+MNCTV
+GTV
+iNews
+SCTV
+Indosiar
+Moji
+ANTV
+Trans TV
+Trans 7
+TVONE|TvOne|TV One
+Metro TV|Metro TV (Alt 2)
+Kompas TV
+CNN Indonesia
+CNBC Indonesia
+Garuda TV
+MDTV
+RTV
+RCTI World
+BTV|BTV (Alt 2)|B+ TV
+Nusantara TV (NTV)|Nusantara TV (Alt 2)|Nusantara TV
+Berita Satu
+DAAI TV
+Mentari TV
+Magna Channel
+BN Channel
+VTV
+Smile TV
+RRI Net
+Hanacaraka TV
+Green TV
+TVKU
+RodjaTV|Rodja TV
+WesalTV|Wesal TV (720p) [Not 24/7]
+Insan TV
+Al-Bahjah TV
+Nabawi TV
+TVMU
+MTA TV|MTA TV (Alt 2)
+SurauTV|Surau TV
+Madu TV
+Salam TV
+U Channel
+Light Channel (480p) [Not 24/7]|Light Channel (576p) [Not 24/7]
+TVRI Aceh
+TVRI Sumatera Utara
+TVRI Sumatera Barat
+TVRI Riau|TVRI Riau (720p) [Not 24/7]
+TVRI Jambi
+TVRI Sumatera Selatan
+TVRI Bangka Belitung
+TVRI Bengkulu
+TVRI Lampung
+TVRI Jakarta
+TVRI Jawa Barat
+TVRI Jawa Tengah
+TVRI Jawa Timur
+TVRI Bali
+TVRI Kalimantan Barat
+TVRI Kalimantan Tengah
+TVRI Kalimantan Selatan
+TVRI Kalimantan Timur
+TVRI Sulawesi Utara
+TVRI Gorontalo
+TVRI Sulawesi Tengah
+TVRI Sulawesi Barat
+TVRI Sulawesi Selatan
+TVRI Sulawesi Tenggara
+TVRI Maluku
+TVRI Papua
+TVRI Papua Barat
+Jak tv|JAKTV|Jak TV
+Elshinta TV
+Bandung TV
+MQTV|MQTV (720p) [Not 24/7]
+IMTV
+Banten TV
+Jogjatv|Jogja TV
+TATV|TATV (720p) [Not 24/7]
+Semarang TV
+BMS TV
+JTV
+Sakti TV
+Dhoho TV
+Surabaya TV
+BBS TV 불교|BBS TV
+Bali TV
+Timor TV
+Padang TV (720p) [Not 24/7]
+Batam TV (480p) [Not 24/7]
+Jambi TV
+Bungo TV
+BETV
+Sriwijaya TV (720p) [Not 24/7]
+Radar Lampung TV
+Tegar TV Lampung (480p) [Not 24/7] [Geo-blocked]
+Duta TV
+Banjar TV
+Balikpapan TV
+Celebes TV [Not 24/7]
+Fajar TV (720p) [Not 24/7]
+Kids TV
+Music Channel
+VISION PRIME
+Live Streaming 1
+DensPlay|Dens Play [Geo-blocked]
+DensLifeandStyle
+DensFood Channel|Dens Food Channel [Geo-blocked]
+DensShowBiz|Dens ShowBiz [Geo-blocked]
+DensKnowledge
+Channel Jowo|Channel Jowo [Geo-blocked]
+My Cinema Europe HD
+Crema TV
+Qwest TV
+Stingray Classica
+Dance TV
+Motorvision+
+CNA
+NHK WORLD-JAPAN
+Al Jazeera English
+TRT World
+Russia Today (RT)
+WION
+FREEDOM
+Al Jazeera Arabic
+CCTV-4
+France 24
+TV5MONDE ASIE
+DW-TV
+DIM TV
+TBN
+CGTN Documentary
+Quran TV
+Sunna TV
+Jowo Channel
+JITV
+Magna TV|Magna TV (Alt 2)
+Oxygentv
+Bola | FIFA+
+MOTOGP
+Formula 1
+Piala dunia TVRI
+MOTOGP #2
+Live Event #1
+Live Event #2
+Live Event #3
+Sinpo TV|Sin Po TV
+SindoNews
+RODJA TV 2
+TV MUI
+TVRI Yogyakarta
+Riau TV (1080p) [Not 24/7]
+TV Tabalong
+AFBTV Kupang (1080p) [Not 24/7]
+Ahsan TV|Ahsan TV (Alt 2)
+AKTV (1080p) [Not 24/7]
+Al-Iman TV|Al-Iman TV (Alt 2)
+Alwafa Tarim TV (Am Media)
+Antara TV
+AshillTV
+Astha TV (1080p) [Not 24/7]
+Astro Blitar TV
+Atambua TV
+Biznet Adventure
+Biznet Kids
+Biznet Lifestyle
+Bri Super League|Bri Super League (Alt 2)|Bri Super League (Alt 3)|Bri Super League (Alt 4)|Bri Super League (Alt 5)
+BRTV
+Caruban TV
+JOWO
+Davika TV
+Dens Learning & Knowledge [Geo-blocked]
+Dens Life & Style [Geo-blocked]
+Dhamma TV
+DMI TV (576i)
+DM TV Malang
+dTVi
+Efarina TV
+Ficom Channel
+Fight Sports
+GTV World
+Huma Betang TV (720p) [Not 24/7]
+I Am Channel
+IDX|IDX (Alt 2)
+IDX Channel
+Indosiana TV
+Izzah TV
+Jagantara TV
+Jakarta Globe News Channel
+Jawa Pos TV|Jawa Pos TV (Alt 2)
+Jawa Pos TV Bali
+Jawa Pos TV Jakarta
+Jawa Pos TV Madiun
+Jawa Pos TV Magelang
+Jawa Pos TV Semarang
+Jaya TV
+Jek TV (720p) [Not 24/7]
+JITV Jogja
+Jogja Istimewa TV
+JTV Kediri
+JTV Madiun
+JTV Madura (480p) [Not 24/7]
+JTV Malang
+Jupnas Gizi (MBG TV)
+Cartoonito
+Cartoon Network
+Dreamworks HD
+FunPlanet
+Horee!
+Kartoon Channel!
+MyKidz|My Kidz
+KARTUN ANAK: TG Junior
+Kawanua TV
+Kilisuci TV
+Kilisuci TV Kediri
+KTV
+LINGKARTV
+LIVE MADINAH 1
+Madani TV
+Madinah Live (Saudi Arabia)
+Makkah Live (Saudi Arabia)
+Matrix TV Yogyakarta
+MAX Eats
+MAX Kids
+MAX Reels
+MAX Sports
+MAX Streak
+Metro Globe Network
+MGI TV (720p) [Geo-blocked]
+MGSTV (360p) [Not 24/7]
+MNCTV World
+Music Information Channel
+My Cinema [Geo-blocked]
+My Family [Geo-blocked]
+Naajiya TV
+Nasional Tv
+New TV Comprehensive
+New TV Finance
+New TV Variety
+Nick Jr. Indonesia
+Online TV Nusantara (720p) [Not 24/7]
+Pegadaian Championship|Pegadaian Championship (Alt 2)|Pegadaian Championship (Alt 3)|Pegadaian Championship (Alt 4)|Pegadaian Championship (Alt 5)
+Pegadaian Championshipe
+PJTV
+PKTV
+PONTV
+Prambors
+And Pictures
+AVA Family
+AXN
+CCM
+Galaxy
+Galaxy Premium
+GOLDMINES MOVIES
+HBO+
+HBO 2
+HBOMAX PREMIERE 1
+HBOMAX PREMIERE 10
+HBOMAX PREMIERE 2
+HBOMAX PREMIERE 3
+HBOMAX PREMIERE 4
+HBOMAX PREMIERE 5
+HBO Mundi
+HBO XTREME
+HITS
+HITS Movies
+KIX
+MN Plus
+MNX HD
+Movies Now
+Rock Action
+Rock Entertainment
+Runtime Terror
+SONY MAX
+SONY PIX
+TAP MOVIES
+Thrill
+TVN
+TVN MOVIES
+Universal Movies
+Zee Anmol Cinema
+Zee Bioskop
+Zee Bollywood
+A SPOR
+CCTV16
+CCTV5|CCTV5+
+Mono 29
+Sportv 1
+Prima TV
+Puja TV Aceh (1080p) [Not 24/7]
+Radar Tasikmalaya TV (720p) [Not 24/7]
+Rajawali TV (576i)
+Rakyat Bengkulu TV
+RCTV
+Rinjani TV
+Salira TV
+Sampit TV (720p) [Not 24/7]
+Sangaji TV|Sangaji TV (Alt 2)
+Selaparang TV
+Simpang5 TV (360p) [Not 24/7]
+SMTV
+Soccer Channel
+ESPN 2 HD
+ESPN 3 HD
+ESPN 4 HD
+ESPN 5 HD
+ESPN 6 HD
+ESPN SD
+Sportstars 3
+SPOTV
+SPOTV 2
+Stara TV
+Stara TV Bandung
+Stara TV Bojonegoro
+Stara TV Cianjur
+Stara TV Jakarta
+Stara TV Malang
+Stara TV Parahyangan
+STV (720p) [Not 24/7]
+Sultra TV (720p) [Not 24/7]
+The Indonesia Channel
+Tribunnews.Com
+TV 10
+TV9
+TVRI NTB
+TVRI NTT
+UGTV
