@@ -1,1 +1,2 @@
 beetv_sync=https://beetv.my.id/
+data=https://raw.githubusercontent.com/mubin-asrori/iptv-indonesia/main/data.m3u
