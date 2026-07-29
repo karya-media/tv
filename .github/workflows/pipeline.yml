@@ -12,10 +12,14 @@ on:
     branches: [main]
     paths:
       - "data/categories/**"
+      - "data/sources.txt"
   schedule:
-    # Re-validate streams twice a day even if no category file changed
-    # (streams that were online yesterday can go offline overnight).
-    - cron: "0 */12 * * *"
+    # Every 6h: re-sync every URL listed in data/sources.txt (so
+    # category files derived from a remote source stay up to date
+    # automatically), then merge + re-validate + report as usual.
+    # Category files NOT listed in data/sources.txt (manually curated
+    # ones) are never touched by this step.
+    - cron: "0 */6 * * *"
   workflow_dispatch: {} # manual "Run workflow" button in the Actions tab
 
 permissions:
@@ -43,6 +47,10 @@ jobs:
       - name: Install project
         run: pip install -e .
 
+      - name: Sync auto-updating sources (data/sources.txt)
+        run: |
+          iptv-manager sync-sources
+
       - name: Run pipeline (merge, validate, logos, report)
         id: pipeline
         run: |
@@ -52,7 +60,7 @@ jobs:
         run: |
           git config user.name "iptv-playlist-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add data/master docs/master.m3u reports
+          git add data/categories data/master docs/master.m3u reports
           if git diff --cached --quiet; then
             echo "No changes to commit."
           else
