@@ -23,6 +23,7 @@ from iptv_manager.application.use_cases.compare_with_xmltv import CompareWithXML
 from iptv_manager.application.use_cases.generate_report import GenerateReportUseCase
 from iptv_manager.application.use_cases.import_playlist import ImportPlaylistUseCase
 from iptv_manager.application.use_cases.merge_playlists import MergePlaylistsUseCase, MergeResult
+from iptv_manager.application.use_cases.apply_channel_order import ApplyChannelOrderUseCase
 from iptv_manager.application.use_cases.sync_sources import SyncSourcesUseCase
 from iptv_manager.application.use_cases.validate_logos import (
     LogoValidationSummary,
@@ -42,6 +43,7 @@ from iptv_manager.infrastructure.reports.html_report_writer import HTMLReportWri
 from iptv_manager.infrastructure.reports.json_report_writer import JSONReportWriter
 from iptv_manager.infrastructure.sources.local_file_source import LocalFilePlaylistSource
 from iptv_manager.infrastructure.sources.remote_url_source import RemoteUrlPlaylistSource
+from iptv_manager.infrastructure.sources.channel_order_file import parse_channel_order_file
 from iptv_manager.infrastructure.sources.sources_file import parse_sources_file
 from iptv_manager.infrastructure.validators.http_stream_validator import HttpStreamValidator
 from iptv_manager.infrastructure.validators.logo_validator import LogoImageValidator
@@ -162,6 +164,11 @@ def _merge_and_publish(settings: Settings, parser: M3UParser) -> tuple[int, Merg
         raise typer.Exit(code=1)
 
     result = MergePlaylistsUseCase().execute(playlists, master_name="master")
+
+    order_path = settings.project_root / "data" / "channel_order.txt"
+    priority_names = parse_channel_order_file(order_path)
+    if priority_names:
+        result.master = ApplyChannelOrderUseCase().execute(result.master, priority_names)
 
     settings.master_playlist_path.write_text(parser.serialize(result.master), encoding="utf-8")
     if settings.publish_target in (PublishTarget.PAGES_ONLY, PublishTarget.BOTH):

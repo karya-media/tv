@@ -1,0 +1,9 @@
+# Daftar urutan prioritas channel di master.m3u.
+# Satu nama channel per baris, sesuai urutan yang kamu mau.
+# Nama harus PERSIS sama dengan nama channel di file M3U (huruf besar/kecil tidak masalah).
+# Channel yang tidak disebut di sini akan tetap muncul, ditaruh di akhir, urutan asli.
+#
+# Contoh:
+# RCTI
+# SCTV
+# Trans TV

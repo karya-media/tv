@@ -13,6 +13,7 @@ on:
     paths:
       - "data/categories/**"
       - "data/sources.txt"
+      - "data/channel_order.txt"
   schedule:
     # Every 6h: re-sync every URL listed in data/sources.txt (so
     # category files derived from a remote source stay up to date
