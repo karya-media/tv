@@ -12,7 +12,7 @@ Moji
 ANTV
 Trans TV
 Trans 7
-TVONE|TvOne|TV One
+TVONE|TvOne
 Metro TV|Metro TV (Alt 2)
 Kompas TV
 CNN Indonesia
