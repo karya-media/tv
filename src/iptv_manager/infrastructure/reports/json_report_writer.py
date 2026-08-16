@@ -12,6 +12,7 @@ from __future__ import annotations
 
 import json
 from pathlib import Path
+from typing import Any
 
 from iptv_manager.application.dto.validation_report import ValidationReport
 from iptv_manager.domain.entities.channel import Channel
@@ -19,7 +20,7 @@ from iptv_manager.domain.entities.logo_validation_result import LogoValidationRe
 from iptv_manager.domain.entities.stream_validation_result import StreamValidationResult
 
 
-def _channel_to_dict(channel: Channel) -> dict:
+def _channel_to_dict(channel: Channel) -> dict[str, Any]:
     return {
         "name": channel.name,
         "url": str(channel.url),
@@ -30,7 +31,7 @@ def _channel_to_dict(channel: Channel) -> dict:
     }
 
 
-def _stream_result_to_dict(result: StreamValidationResult) -> dict:
+def _stream_result_to_dict(result: StreamValidationResult) -> dict[str, Any]:
     return {
         "channel": _channel_to_dict(result.channel),
         "status": result.status.value,
@@ -42,7 +43,7 @@ def _stream_result_to_dict(result: StreamValidationResult) -> dict:
     }
 
 
-def _logo_result_to_dict(result: LogoValidationResult) -> dict:
+def _logo_result_to_dict(result: LogoValidationResult) -> dict[str, Any]:
     return {
         "channel": _channel_to_dict(result.channel),
         "reachable": result.reachable,
@@ -53,7 +54,7 @@ def _logo_result_to_dict(result: LogoValidationResult) -> dict:
 
 class JSONReportWriter:
     def write(self, report: ValidationReport, path: Path) -> None:
-        data: dict = {
+        data: dict[str, Any] = {
             "generated_at": report.generated_at.isoformat(),
             "master_playlist_name": report.master_playlist_name,
         }

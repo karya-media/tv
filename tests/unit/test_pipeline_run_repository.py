@@ -3,7 +3,7 @@ temporary SQLite database file (not mocked) so the actual SQL and
 schema are exercised.
 """
 
-from datetime import datetime, timezone
+from datetime import UTC, datetime
 from pathlib import Path
 
 import pytest
@@ -28,7 +28,7 @@ def repository(tmp_path: Path) -> SQLAlchemyPipelineRunRepository:
 
 
 def _new_run(status: PipelineRunStatus = PipelineRunStatus.RUNNING) -> PipelineRun:
-    return PipelineRun(id=None, started_at=datetime.now(timezone.utc), status=status)
+    return PipelineRun(id=None, started_at=datetime.now(UTC), status=status)
 
 
 @pytest.mark.asyncio
@@ -56,7 +56,7 @@ async def test_update_persists_changes(repository: SQLAlchemyPipelineRunReposito
     saved = await repository.save(_new_run())
     saved.status = PipelineRunStatus.SUCCESS
     saved.channels_after = 42
-    saved.finished_at = datetime.now(timezone.utc)
+    saved.finished_at = datetime.now(UTC)
 
     updated = await repository.update(saved)
     assert updated.status == PipelineRunStatus.SUCCESS
@@ -86,11 +86,15 @@ async def test_list_recent_orders_newest_first(repository: SQLAlchemyPipelineRun
     import asyncio
 
     first = await repository.save(
-        PipelineRun(id=None, started_at=datetime(2026, 1, 1, tzinfo=timezone.utc), status=PipelineRunStatus.SUCCESS)
+        PipelineRun(
+            id=None, started_at=datetime(2026, 1, 1, tzinfo=UTC), status=PipelineRunStatus.SUCCESS
+        )
     )
     await asyncio.sleep(0)  # yield control, no real ordering dependency needed
     second = await repository.save(
-        PipelineRun(id=None, started_at=datetime(2026, 1, 2, tzinfo=timezone.utc), status=PipelineRunStatus.SUCCESS)
+        PipelineRun(
+            id=None, started_at=datetime(2026, 1, 2, tzinfo=UTC), status=PipelineRunStatus.SUCCESS
+        )
     )
 
     runs = await repository.list_recent(limit=10)

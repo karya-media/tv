@@ -77,6 +77,7 @@ async def execute_and_persist(
         report = await RunFullPipelineUseCase(
             stream_validator=stream_validator, logo_validator=logo_validator
         ).execute(playlists)
+        assert report.merge_result is not None  # merge always runs in the full pipeline
 
         master_text = parser.serialize(report.merge_result.master)
         settings.master_playlist_path.write_text(master_text, encoding="utf-8")

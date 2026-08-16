@@ -26,7 +26,11 @@ def test_summary_sheet_contains_merge_counts(tmp_path: Path):
     output = tmp_path / "report.xlsx"
     ExcelReportWriter().write(build_full_report(), output)
     wb = load_workbook(output)
-    values = [row[1] for row in wb["Summary"].iter_rows(values_only=True) if row[0] == "Channels after dedup"]
+    values = [
+        row[1]
+        for row in wb["Summary"].iter_rows(values_only=True)
+        if row[0] == "Channels after dedup"
+    ]
     assert values == [2]
 
 

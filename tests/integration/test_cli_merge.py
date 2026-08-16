@@ -8,8 +8,8 @@ from pathlib import Path
 import pytest
 from typer.testing import CliRunner
 
-from iptv_manager.config.settings import Settings, get_settings
 import iptv_manager.interfaces.cli.main as cli_main
+from iptv_manager.config.settings import Settings, get_settings
 
 runner = CliRunner()
 

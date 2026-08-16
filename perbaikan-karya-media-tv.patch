@@ -1,0 +1,239 @@
+diff --git a/.github/workflows/ci.yml b/.github/workflows/ci.yml
+new file mode 100644
+index 0000000..da4b29b
+--- /dev/null
++++ b/.github/workflows/ci.yml
+@@ -0,0 +1,47 @@
++name: CI
++
++# Lints, type-checks, and tests every change to the application code.
++# Unlike pipeline.yml (which only runs on data/** changes and commits
++# the merged playlist back to main), this workflow guards src/ and
++# tests/ so a broken change can never reach main unnoticed.
++
++on:
++  push:
++    branches: [main]
++    paths:
++      - "src/**"
++      - "tests/**"
++      - "pyproject.toml"
++  pull_request:
++    paths:
++      - "src/**"
++      - "tests/**"
++      - "pyproject.toml"
++
++concurrency:
++  group: ci-${{ github.ref }}
++  cancel-in-progress: true
++
++jobs:
++  check:
++    runs-on: ubuntu-latest
++    steps:
++      - name: Checkout
++        uses: actions/checkout@v4
++
++      - name: Set up Python
++        uses: actions/setup-python@v5
++        with:
++          python-version: "3.13"
++
++      - name: Install project (with dev dependencies)
++        run: pip install -e ".[dev]"
++
++      - name: Lint
++        run: ruff check src tests
++
++      - name: Type-check
++        run: mypy src
++
++      - name: Test
++        run: pytest
+diff --git a/.github/workflows/pipeline.yml b/.github/workflows/pipeline.yml
+index 6c23c7a..0aed491 100644
+--- a/.github/workflows/pipeline.yml
++++ b/.github/workflows/pipeline.yml
+@@ -46,7 +46,13 @@ jobs:
+         run: sudo apt-get update -y && sudo apt-get install -y ffmpeg
+ 
+       - name: Install project
+-        run: pip install -e .
++        run: pip install -e ".[dev]"
++
++      - name: Lint, type-check, and test before touching main
++        run: |
++          ruff check src tests
++          mypy src
++          pytest
+ 
+       - name: Sync auto-updating sources (data/sources.txt)
+         run: |
+diff --git a/pyproject.toml b/pyproject.toml
+index 0454ba4..d619f49 100644
+--- a/pyproject.toml
++++ b/pyproject.toml
+@@ -3,7 +3,7 @@ name = "iptv-playlist-manager"
+ version = "0.1.0"
+ description = "IPTV Playlist Management & Validation System"
+ readme = "README.md"
+-requires-python = ">=3.13"
++requires-python = ">=3.11"
+ license = { text = "MIT" }
+ 
+ dependencies = [
+@@ -64,6 +64,6 @@ select = ["E", "F", "I", "UP", "B", "ASYNC"]
+ ignore = ["B008"]  # FastAPI's Depends() pattern requires function calls in argument defaults
+ 
+ [tool.mypy]
+-python_version = "3.13"
++python_version = "3.11"
+ strict = true
+ packages = ["iptv_manager"]
+diff --git a/src/iptv_manager/domain/value_objects/group_title.py b/src/iptv_manager/domain/value_objects/group_title.py
+index 67a7521..9f8ecc4 100644
+--- a/src/iptv_manager/domain/value_objects/group_title.py
++++ b/src/iptv_manager/domain/value_objects/group_title.py
+@@ -2,8 +2,9 @@
+ 
+ Normalizes a channel's group-title (its category label) so the same
+ category doesn't end up split across variants like "Sports",
+-" sports " (extra whitespace), or an empty string in the merged
+-playlist.
++" sports " (extra whitespace), an empty string, an emoji-prefixed
++label, a duplicated ";"-separated segment, or a meaningless
++placeholder like "Undefined"/"General" in the merged playlist.
+ """
+ 
+ from __future__ import annotations
+@@ -13,8 +14,23 @@ from dataclasses import dataclass
+ 
+ _WHITESPACE = re.compile(r"\s+")
+ 
++# Common pictographic/symbol ranges seen prefixed onto source group-titles
++# (e.g. "📺 Nasional", "🔓 Dens TV", "🔭 CCTV").
++_EMOJI = re.compile(
++    "["
++    "\U0001f300-\U0001faff"
++    "\U00002600-\U000027bf"
++    "\U0001f1e6-\U0001f1ff"
++    "]+"
++)
++
+ DEFAULT_GROUP = "Uncategorized"
+ 
++# Placeholder labels from upstream sources that carry no real category
++# information and should collapse to DEFAULT_GROUP instead of being kept
++# verbatim.
++_FALLBACK_LABELS = {"undefined", "general", "unknown", "n/a", "-", "none"}
++
+ 
+ @dataclass(frozen=True, slots=True)
+ class GroupTitle:
+@@ -24,8 +40,31 @@ class GroupTitle:
+     def parse(cls, raw: str | None) -> GroupTitle:
+         if raw is None:
+             return cls(DEFAULT_GROUP)
+-        cleaned = _WHITESPACE.sub(" ", raw).strip()
+-        return cls(cleaned) if cleaned else cls(DEFAULT_GROUP)
++
++        cleaned = _EMOJI.sub("", raw)
++        cleaned = _WHITESPACE.sub(" ", cleaned).strip()
++        cleaned = cleaned.strip(" ;")
++
++        if ";" in cleaned:
++            cleaned = cls._dedupe_segments(cleaned)
++
++        if not cleaned or cleaned.lower() in _FALLBACK_LABELS:
++            return cls(DEFAULT_GROUP)
++
++        return cls(cleaned)
++
++    @staticmethod
++    def _dedupe_segments(value: str) -> str:
++        """Collapse repeated ';'-separated segments, preserving order.
++
++        "Indonesia;Lainnya;Lainnya" -> "Indonesia;Lainnya"
++        """
++        seen: list[str] = []
++        for part in value.split(";"):
++            part = part.strip()
++            if part and part not in seen:
++                seen.append(part)
++        return ";".join(seen)
+ 
+     def __str__(self) -> str:
+         return self.value
+diff --git a/src/iptv_manager/infrastructure/validators/logo_validator.py b/src/iptv_manager/infrastructure/validators/logo_validator.py
+index 6f97a23..34b447f 100644
+--- a/src/iptv_manager/infrastructure/validators/logo_validator.py
++++ b/src/iptv_manager/infrastructure/validators/logo_validator.py
+@@ -31,19 +31,21 @@ class LogoImageValidator:
+         self._user_agent = user_agent
+ 
+     async def validate(self, channel: Channel) -> LogoValidationResult:
+-        if not channel.has_logo:
++        if not channel.has_logo or channel.logo_url is None:
+             return LogoValidationResult.missing(channel)
+ 
++        logo_url: str = channel.logo_url
++
+         async with self._semaphore:
+             headers = {"User-Agent": self._user_agent}
+             try:
+                 async with aiohttp.ClientSession(
+                     timeout=self._timeout, headers=headers
+                 ) as session:
+-                    async with session.head(channel.logo_url, allow_redirects=True) as response:
++                    async with session.head(logo_url, allow_redirects=True) as response:
+                         if response.status == 405:
+                             # Some image hosts reject HEAD; fall back to GET.
+-                            return await self._validate_via_get(session, channel)
++                            return await self._validate_via_get(session, channel, logo_url)
+                         return LogoValidationResult(
+                             channel=channel,
+                             reachable=200 <= response.status < 400,
+@@ -59,10 +61,10 @@ class LogoImageValidator:
+                 )
+ 
+     async def _validate_via_get(
+-        self, session: aiohttp.ClientSession, channel: Channel
++        self, session: aiohttp.ClientSession, channel: Channel, logo_url: str
+     ) -> LogoValidationResult:
+         try:
+-            async with session.get(channel.logo_url, allow_redirects=True) as response:
++            async with session.get(logo_url, allow_redirects=True) as response:
+                 return LogoValidationResult(
+                     channel=channel,
+                     reachable=200 <= response.status < 400,
+diff --git a/tests/unit/test_value_objects.py b/tests/unit/test_value_objects.py
+index 7bbad4a..9b26e02 100644
+--- a/tests/unit/test_value_objects.py
++++ b/tests/unit/test_value_objects.py
+@@ -69,3 +69,25 @@ class TestGroupTitle:
+ 
+     def test_collapses_internal_whitespace(self):
+         assert str(GroupTitle.parse("  Sports   HD  ")) == "Sports HD"
++
++    def test_strips_emoji_prefix(self):
++        assert str(GroupTitle.parse("📺 Nasional")) == "Nasional"
++        assert str(GroupTitle.parse("🔓 Dens TV")) == "Dens TV"
++        assert str(GroupTitle.parse("🔭 CCTV")) == "CCTV"
++
++    def test_dedupes_repeated_segments(self):
++        assert (
++            str(GroupTitle.parse("Indonesia;Lainnya;Lainnya"))
++            == "Indonesia;Lainnya"
++        )
++
++    def test_placeholder_labels_use_default(self):
++        assert str(GroupTitle.parse("Undefined")) == DEFAULT_GROUP
++        assert str(GroupTitle.parse("General")) == DEFAULT_GROUP
++        assert str(GroupTitle.parse("undefined")) == DEFAULT_GROUP
++
++    def test_preserves_meaningful_multi_segment_title(self):
++        assert (
++            str(GroupTitle.parse("Indonesia;Nasional"))
++            == "Indonesia;Nasional"
++        )

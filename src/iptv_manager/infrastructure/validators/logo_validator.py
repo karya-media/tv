@@ -31,8 +31,10 @@ class LogoImageValidator:
         self._user_agent = user_agent
 
     async def validate(self, channel: Channel) -> LogoValidationResult:
-        if not channel.has_logo:
+        if not channel.has_logo or channel.logo_url is None:
             return LogoValidationResult.missing(channel)
+
+        logo_url: str = channel.logo_url
 
         async with self._semaphore:
             headers = {"User-Agent": self._user_agent}
@@ -40,10 +42,10 @@ class LogoImageValidator:
                 async with aiohttp.ClientSession(
                     timeout=self._timeout, headers=headers
                 ) as session:
-                    async with session.head(channel.logo_url, allow_redirects=True) as response:
+                    async with session.head(logo_url, allow_redirects=True) as response:
                         if response.status == 405:
                             # Some image hosts reject HEAD; fall back to GET.
-                            return await self._validate_via_get(session, channel)
+                            return await self._validate_via_get(session, channel, logo_url)
                         return LogoValidationResult(
                             channel=channel,
                             reachable=200 <= response.status < 400,
@@ -59,10 +61,10 @@ class LogoImageValidator:
                 )
 
     async def _validate_via_get(
-        self, session: aiohttp.ClientSession, channel: Channel
+        self, session: aiohttp.ClientSession, channel: Channel, logo_url: str
     ) -> LogoValidationResult:
         try:
-            async with session.get(channel.logo_url, allow_redirects=True) as response:
+            async with session.get(logo_url, allow_redirects=True) as response:
                 return LogoValidationResult(
                     channel=channel,
                     reachable=200 <= response.status < 400,

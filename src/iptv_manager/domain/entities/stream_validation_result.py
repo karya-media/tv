@@ -11,12 +11,12 @@ stream is fine but blocked for the validator's network location.
 from __future__ import annotations
 
 from dataclasses import dataclass
-from enum import Enum
+from enum import StrEnum
 
 from iptv_manager.domain.entities.channel import Channel
 
 
-class StreamStatus(str, Enum):
+class StreamStatus(StrEnum):
     ONLINE = "online"
     OFFLINE = "offline"
     TIMEOUT = "timeout"

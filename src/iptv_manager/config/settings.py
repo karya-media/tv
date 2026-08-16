@@ -12,7 +12,7 @@ Usage:
 
 from __future__ import annotations
 
-from enum import Enum
+from enum import StrEnum
 from functools import lru_cache
 from pathlib import Path
 
@@ -20,13 +20,13 @@ from pydantic import Field, field_validator
 from pydantic_settings import BaseSettings, SettingsConfigDict
 
 
-class Environment(str, Enum):
+class Environment(StrEnum):
     DEVELOPMENT = "development"
     TESTING = "testing"
     PRODUCTION = "production"
 
 
-class PublishTarget(str, Enum):
+class PublishTarget(StrEnum):
     """Where the master playlist gets published to.
 
     RAW_ONLY   -> only raw.githubusercontent.com

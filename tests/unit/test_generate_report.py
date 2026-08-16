@@ -1,6 +1,6 @@
 """Unit tests for application.use_cases.generate_report."""
 
-from datetime import datetime, timezone
+from datetime import datetime
 
 from iptv_manager.application.use_cases.generate_report import GenerateReportUseCase
 from tests.unit.report_test_helpers import build_full_report, build_minimal_report

@@ -15,15 +15,16 @@ from __future__ import annotations
 
 import asyncio
 from pathlib import Path
+from typing import Protocol
 
 import typer
 
 from iptv_manager.application.dto.validation_report import ValidationReport
+from iptv_manager.application.use_cases.apply_channel_order import ApplyChannelOrderUseCase
 from iptv_manager.application.use_cases.compare_with_xmltv import CompareWithXMLTVUseCase
 from iptv_manager.application.use_cases.generate_report import GenerateReportUseCase
 from iptv_manager.application.use_cases.import_playlist import ImportPlaylistUseCase
 from iptv_manager.application.use_cases.merge_playlists import MergePlaylistsUseCase, MergeResult
-from iptv_manager.application.use_cases.apply_channel_order import ApplyChannelOrderUseCase
 from iptv_manager.application.use_cases.sync_sources import SyncSourcesUseCase
 from iptv_manager.application.use_cases.validate_logos import (
     LogoValidationSummary,
@@ -42,17 +43,22 @@ from iptv_manager.infrastructure.reports.csv_report_writer import CSVReportWrite
 from iptv_manager.infrastructure.reports.excel_report_writer import ExcelReportWriter
 from iptv_manager.infrastructure.reports.html_report_writer import HTMLReportWriter
 from iptv_manager.infrastructure.reports.json_report_writer import JSONReportWriter
-from iptv_manager.infrastructure.sources.local_file_source import LocalFilePlaylistSource
-from iptv_manager.infrastructure.sources.remote_url_source import RemoteUrlPlaylistSource
 from iptv_manager.infrastructure.sources.channel_order_file import parse_channel_order_file
+from iptv_manager.infrastructure.sources.local_file_source import LocalFilePlaylistSource
 from iptv_manager.infrastructure.sources.playlist_bundles_file import parse_playlist_bundles_file
+from iptv_manager.infrastructure.sources.remote_url_source import RemoteUrlPlaylistSource
 from iptv_manager.infrastructure.sources.sources_file import parse_sources_file
 from iptv_manager.infrastructure.validators.http_stream_validator import HttpStreamValidator
 from iptv_manager.infrastructure.validators.logo_validator import LogoImageValidator
 
 app = typer.Typer(help="IPTV Playlist Management & Validation System CLI")
 
-_REPORT_WRITERS = {
+class _ReportWriter(Protocol):
+    def __init__(self) -> None: ...
+    def write(self, report: ValidationReport, path: Path) -> None: ...
+
+
+_REPORT_WRITERS: dict[str, tuple[str, type[_ReportWriter]]] = {
     "html": ("report.html", HTMLReportWriter),
     "json": ("report.json", JSONReportWriter),
     "csv": ("report.csv", CSVReportWriter),
@@ -143,11 +149,11 @@ def sync_sources() -> None:
 
 def _load_category_playlists(
     settings: Settings, parser: M3UParser
-) -> tuple[list[Path], list]:
+) -> tuple[list[Path], list[Playlist]]:
     category_files = sorted(
         set(settings.categories_path.glob("*.m3u")) | set(settings.categories_path.glob("*.m3u8"))
     )
-    playlists = []
+    playlists: list[Playlist] = []
     for path in category_files:
         source = LocalFilePlaylistSource(path)
         raw_text = asyncio.run(source.fetch())
@@ -173,7 +179,10 @@ def _merge_and_publish(settings: Settings, parser: M3UParser) -> tuple[int, Merg
         typer.echo(f"No category playlists found in {settings.categories_path}", err=True)
         raise typer.Exit(code=1)
 
-    playlists_by_stem = {path.stem: playlist for path, playlist in zip(category_files, playlists)}
+    playlists_by_stem = {
+        path.stem: playlist
+        for path, playlist in zip(category_files, playlists, strict=True)
+    }
 
     order_path = settings.project_root / "data" / "channel_order.txt"
     priority_slots = parse_channel_order_file(order_path)
@@ -223,7 +232,9 @@ def _merge_and_publish(settings: Settings, parser: M3UParser) -> tuple[int, Merg
     return len(category_files), everything_result
 
 
-def _publish_bundle(settings: Settings, parser: M3UParser, bundle_name: str, master: Playlist) -> None:
+def _publish_bundle(
+    settings: Settings, parser: M3UParser, bundle_name: str, master: Playlist
+) -> None:
     """Write one bundle's merged playlist to data/master/<name>.m3u
     and, if Pages publishing is enabled, docs/<name>.m3u."""
     output_path = settings.master_path / f"{bundle_name}.m3u"

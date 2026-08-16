@@ -8,8 +8,8 @@ import asyncio
 
 import aiohttp
 import pytest
-from aioresponses import aioresponses
 from aiohttp.client_reqrep import ConnectionKey
+from aioresponses import aioresponses
 
 from iptv_manager.domain.entities.channel import Channel
 from iptv_manager.domain.entities.stream_validation_result import StreamStatus
@@ -115,8 +115,8 @@ async def test_connection_refused_is_offline():
 @pytest.mark.asyncio
 async def test_timeout_reported():
     with aioresponses() as mocked:
-        mocked.head(STREAM_URL, exception=asyncio.TimeoutError())
-        mocked.get(STREAM_URL, exception=asyncio.TimeoutError())
+        mocked.head(STREAM_URL, exception=TimeoutError())
+        mocked.get(STREAM_URL, exception=TimeoutError())
         validator = HttpStreamValidator(retries=1)
         result = await validator.validate(_channel())
 
@@ -127,8 +127,8 @@ async def test_timeout_reported():
 async def test_retry_succeeds_on_second_attempt():
     with aioresponses() as mocked:
         # First HEAD attempt fails outright, second attempt succeeds.
-        mocked.head(STREAM_URL, exception=asyncio.TimeoutError())
-        mocked.get(STREAM_URL, exception=asyncio.TimeoutError())
+        mocked.head(STREAM_URL, exception=TimeoutError())
+        mocked.get(STREAM_URL, exception=TimeoutError())
         mocked.head(STREAM_URL, status=200)
 
         validator = HttpStreamValidator(retries=2)

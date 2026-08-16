@@ -29,6 +29,7 @@ async def trigger_pipeline_run(
     immediately with a run id the caller can poll via GET
     /api/pipeline/runs/{run_id}."""
     run = await create_running_run(run_repository)
+    assert run.id is not None  # save() always persists and assigns an id
     background_tasks.add_task(
         execute_and_persist, run, settings=settings, run_repository=run_repository
     )

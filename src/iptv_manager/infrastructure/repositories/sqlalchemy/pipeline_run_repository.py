@@ -5,7 +5,7 @@ from __future__ import annotations
 import asyncio
 
 from sqlalchemy import select
-from sqlalchemy.orm import sessionmaker
+from sqlalchemy.orm import Session, sessionmaker
 
 from iptv_manager.domain.entities.pipeline_run import PipelineRun, PipelineRunStatus
 from iptv_manager.infrastructure.repositories.sqlalchemy.models import PipelineRunModel
@@ -20,7 +20,7 @@ class SQLAlchemyPipelineRunRepository:
     LocalFilePlaylistSource for local file I/O.
     """
 
-    def __init__(self, session_factory: sessionmaker) -> None:
+    def __init__(self, session_factory: sessionmaker[Session]) -> None:
         self._session_factory = session_factory
 
     async def save(self, run: PipelineRun) -> PipelineRun:
