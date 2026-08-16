@@ -12,7 +12,9 @@ def test_full_report_produces_all_sections(tmp_path: Path):
     JSONReportWriter().write(build_full_report(), output)
     data = json.loads(output.read_text(encoding="utf-8"))
 
-    assert set(data.keys()) >= {"generated_at", "master_playlist_name", "merge", "streams", "logos", "epg"}
+    assert set(data.keys()) >= {
+        "generated_at", "master_playlist_name", "merge", "streams", "logos", "epg"
+    }
 
 
 def test_merge_section_values(tmp_path: Path):

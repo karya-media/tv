@@ -6,7 +6,7 @@ and hermetic.
 
 from __future__ import annotations
 
-from datetime import datetime, timezone
+from datetime import UTC, datetime
 
 from iptv_manager.application.dto.validation_report import ValidationReport
 from iptv_manager.application.use_cases.compare_with_xmltv import (
@@ -33,7 +33,9 @@ from iptv_manager.domain.value_objects.stream_url import StreamUrl
 from iptv_manager.domain.value_objects.tvg_id import TvgId
 
 
-def make_channel(name: str, url: str, tvg_id: str | None = None, logo_url: str | None = None) -> Channel:
+def make_channel(
+    name: str, url: str, tvg_id: str | None = None, logo_url: str | None = None
+) -> Channel:
     return Channel(
         name=name,
         url=StreamUrl.parse(url),
@@ -55,7 +57,9 @@ def build_full_report() -> ValidationReport:
         master=master,
         total_channels_before=3,
         total_channels_after=2,
-        duplicate_urls=[DuplicateUrlGroup(key="http://x.com/espn.m3u8", kept=espn, removed=[dup_removed])],
+        duplicate_urls=[
+            DuplicateUrlGroup(key="http://x.com/espn.m3u8", kept=espn, removed=[dup_removed])
+        ],
         duplicate_tvg_ids=[DuplicateTvgIdGroup(tvg_id="espn.us", channels=[espn, dup_removed])],
     )
 
@@ -85,7 +89,7 @@ def build_full_report() -> ValidationReport:
     )
 
     return ValidationReport(
-        generated_at=datetime(2026, 7, 28, 10, 0, tzinfo=timezone.utc),
+        generated_at=datetime(2026, 7, 28, 10, 0, tzinfo=UTC),
         master_playlist_name="master",
         merge_result=merge_result,
         stream_summary=stream_summary,
@@ -101,7 +105,7 @@ def build_minimal_report() -> ValidationReport:
     master = Playlist(name="master", channels=[channel])
     merge_result = MergeResult(master=master, total_channels_before=1, total_channels_after=1)
     return ValidationReport(
-        generated_at=datetime(2026, 7, 28, 10, 0, tzinfo=timezone.utc),
+        generated_at=datetime(2026, 7, 28, 10, 0, tzinfo=UTC),
         master_playlist_name="master",
         merge_result=merge_result,
     )

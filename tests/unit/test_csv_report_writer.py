@@ -52,4 +52,6 @@ def test_header_row_matches_expected_fieldnames(tmp_path: Path):
     CSVReportWriter().write(build_full_report(), output)
     with output.open(encoding="utf-8") as f:
         header = f.readline().strip()
-    assert header == "name,group_title,tvg_id,url,stream_status,http_status,response_time_ms,logo_status"
+    assert header == (
+        "name,group_title,tvg_id,url,stream_status,http_status,response_time_ms,logo_status"
+    )

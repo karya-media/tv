@@ -1,5 +1,6 @@
 """Unit tests for infrastructure.reports.html_report_writer."""
 
+from datetime import UTC
 from pathlib import Path
 
 from iptv_manager.infrastructure.reports.html_report_writer import HTMLReportWriter
@@ -33,7 +34,7 @@ def test_sections_only_render_when_data_present(tmp_path: Path):
 
 
 def test_autoescape_prevents_html_injection_from_channel_names(tmp_path: Path):
-    from datetime import datetime, timezone
+    from datetime import datetime
 
     from iptv_manager.application.dto.validation_report import ValidationReport
     from iptv_manager.application.use_cases.merge_playlists import DuplicateUrlGroup, MergeResult
@@ -52,7 +53,7 @@ def test_autoescape_prevents_html_injection_from_channel_names(tmp_path: Path):
         ],
     )
     report = ValidationReport(
-        generated_at=datetime(2026, 7, 28, tzinfo=timezone.utc),
+        generated_at=datetime(2026, 7, 28, tzinfo=UTC),
         master_playlist_name="master",
         merge_result=merge_result,
     )

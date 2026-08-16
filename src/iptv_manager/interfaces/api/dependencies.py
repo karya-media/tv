@@ -14,4 +14,5 @@ from iptv_manager.domain.ports.pipeline_run_repository import PipelineRunReposit
 
 
 def get_run_repository(request: Request) -> PipelineRunRepository:
-    return request.app.state.run_repository
+    repository: PipelineRunRepository = request.app.state.run_repository
+    return repository

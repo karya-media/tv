@@ -25,6 +25,7 @@ class ExcelReportWriter:
     def write(self, report: ValidationReport, path: Path) -> None:
         workbook = Workbook()
         summary_sheet = workbook.active
+        assert summary_sheet is not None
         summary_sheet.title = "Summary"
         self._write_summary_sheet(summary_sheet, report)
 
@@ -90,6 +91,7 @@ class ExcelReportWriter:
             cell.font = _HEADER_FONT
 
     def _write_streams_sheet(self, ws: Worksheet, report: ValidationReport) -> None:
+        assert report.stream_summary is not None
         self._header_row(
             ws, ["Name", "Group", "URL", "Status", "HTTP Status", "Response Time (ms)", "Error"]
         )
@@ -107,6 +109,7 @@ class ExcelReportWriter:
             )
 
     def _write_logos_sheet(self, ws: Worksheet, report: ValidationReport) -> None:
+        assert report.logo_summary is not None
         self._header_row(ws, ["Name", "Logo URL", "Reachable", "HTTP Status", "Error"])
         for result in report.logo_summary.results:
             ws.append(
@@ -120,6 +123,7 @@ class ExcelReportWriter:
             )
 
     def _write_duplicates_sheet(self, ws: Worksheet, report: ValidationReport) -> None:
+        assert report.merge_result is not None
         self._header_row(ws, ["Duplicate URL", "Kept Channel", "Removed Channel"])
         for group in report.merge_result.duplicate_urls:
             for removed in group.removed:
@@ -127,6 +131,7 @@ class ExcelReportWriter:
 
     def _write_epg_sheet(self, ws: Worksheet, report: ValidationReport) -> None:
         epg = report.epg_comparison
+        assert epg is not None
         self._header_row(ws, ["Issue Type", "Channel / EPG ID", "Detail"])
         for channel in epg.missing_tvg_id:
             ws.append(["Missing tvg-id", channel.name, ""])

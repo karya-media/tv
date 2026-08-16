@@ -13,6 +13,7 @@ from __future__ import annotations
 
 import asyncio
 import json
+from typing import Any
 
 from iptv_manager.domain.entities.stream_media_info import StreamMediaInfo
 
@@ -65,7 +66,7 @@ class FFprobeAnalyzer:
             return parse_ffprobe_json(data)
 
 
-def parse_ffprobe_json(data: dict) -> StreamMediaInfo:
+def parse_ffprobe_json(data: dict[str, Any]) -> StreamMediaInfo:
     """Pure transform: raw `ffprobe -show_format -show_streams` JSON
     output -> StreamMediaInfo. No subprocess, no I/O - fully unit
     testable with hand-written fixture dicts."""

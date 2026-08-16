@@ -15,6 +15,7 @@ from __future__ import annotations
 
 import html
 import re
+from typing import Any
 
 from iptv_manager.domain.entities.channel import Channel
 from iptv_manager.domain.entities.playlist import Playlist
@@ -49,7 +50,7 @@ class M3UParser:
         lines = text.split("\n")
 
         saw_header = False
-        pending_extinf: dict | None = None
+        pending_extinf: dict[str, Any] | None = None
         pending_vlc_opts: dict[str, str] = {}
 
         for line_no, raw_line in enumerate(lines, start=1):
@@ -121,7 +122,7 @@ class M3UParser:
 
         return playlist
 
-    def _parse_extinf(self, match: re.Match) -> dict:
+    def _parse_extinf(self, match: re.Match[str]) -> dict[str, Any]:
         attrs: dict[str, str] = {}
         for attr_match in _ATTR_RE.finditer(match.group("attrs") or ""):
             key = attr_match.group(1).lower()
@@ -135,7 +136,7 @@ class M3UParser:
 
     def _build_channel(
         self,
-        extinf: dict,
+        extinf: dict[str, Any],
         url_line: str,
         category: str | None,
         line_no: int,

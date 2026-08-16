@@ -50,10 +50,16 @@ class CSVReportWriter:
         rows: list[dict[str, str | float | None]] = []
 
         if report.stream_summary is not None:
-            for result in report.stream_summary.results:
-                rows.append(self._row(result.channel, logo_by_url, status=result.status.value,
-                                       http_status=result.http_status,
-                                       response_time_ms=result.response_time_ms))
+            for stream_result in report.stream_summary.results:
+                rows.append(
+                    self._row(
+                        stream_result.channel,
+                        logo_by_url,
+                        status=stream_result.status.value,
+                        http_status=stream_result.http_status,
+                        response_time_ms=stream_result.response_time_ms,
+                    )
+                )
         elif report.merge_result is not None:
             for channel in report.merge_result.master:
                 rows.append(self._row(channel, logo_by_url))

@@ -30,6 +30,8 @@ dev = [
     "ruff>=0.6",
     "mypy>=1.11",
     "aioresponses>=0.7",   # mocking aiohttp in tests
+    "lxml-stubs>=0.5",     # type stubs for lxml (used by xmltv_parser.py)
+    "types-openpyxl>=3.1", # type stubs for openpyxl (used by excel_report_writer.py)
 ]
 postgres = [
     "asyncpg>=0.29",
@@ -67,3 +69,8 @@ ignore = ["B008"]  # FastAPI's Depends() pattern requires function calls in argu
 python_version = "3.11"
 strict = true
 packages = ["iptv_manager"]
+
+# apscheduler ships no type stubs and none are published on PyPI.
+[[tool.mypy.overrides]]
+module = "apscheduler.*"
+ignore_missing_imports = true

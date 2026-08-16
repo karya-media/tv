@@ -2,8 +2,8 @@
 
 import aiohttp
 import pytest
-from aioresponses import aioresponses
 from aiohttp.client_reqrep import ConnectionKey
+from aioresponses import aioresponses
 
 from iptv_manager.domain.entities.channel import Channel
 from iptv_manager.domain.value_objects.group_title import GroupTitle
