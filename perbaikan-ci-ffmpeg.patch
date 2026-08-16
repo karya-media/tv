@@ -1,0 +1,14 @@
+diff --git a/.github/workflows/ci.yml b/.github/workflows/ci.yml
+index da4b29b..a056f49 100644
+--- a/.github/workflows/ci.yml
++++ b/.github/workflows/ci.yml
+@@ -34,6 +34,9 @@ jobs:
+         with:
+           python-version: "3.13"
+ 
++      - name: Install FFmpeg (provides ffprobe, needed by the test suite)
++        run: sudo apt-get update -y && sudo apt-get install -y ffmpeg
++
+       - name: Install project (with dev dependencies)
+         run: pip install -e ".[dev]"
+ 
