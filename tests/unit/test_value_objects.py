@@ -69,3 +69,25 @@ class TestGroupTitle:
 
     def test_collapses_internal_whitespace(self):
         assert str(GroupTitle.parse("  Sports   HD  ")) == "Sports HD"
+
+    def test_strips_emoji_prefix(self):
+        assert str(GroupTitle.parse("📺 Nasional")) == "Nasional"
+        assert str(GroupTitle.parse("🔓 Dens TV")) == "Dens TV"
+        assert str(GroupTitle.parse("🔭 CCTV")) == "CCTV"
+
+    def test_dedupes_repeated_segments(self):
+        assert (
+            str(GroupTitle.parse("Indonesia;Lainnya;Lainnya"))
+            == "Indonesia;Lainnya"
+        )
+
+    def test_placeholder_labels_use_default(self):
+        assert str(GroupTitle.parse("Undefined")) == DEFAULT_GROUP
+        assert str(GroupTitle.parse("General")) == DEFAULT_GROUP
+        assert str(GroupTitle.parse("undefined")) == DEFAULT_GROUP
+
+    def test_preserves_meaningful_multi_segment_title(self):
+        assert (
+            str(GroupTitle.parse("Indonesia;Nasional"))
+            == "Indonesia;Nasional"
+        )

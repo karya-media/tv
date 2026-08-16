@@ -3,7 +3,7 @@ name = "iptv-playlist-manager"
 version = "0.1.0"
 description = "IPTV Playlist Management & Validation System"
 readme = "README.md"
-requires-python = ">=3.13"
+requires-python = ">=3.11"
 license = { text = "MIT" }
 
 dependencies = [
@@ -64,6 +64,6 @@ select = ["E", "F", "I", "UP", "B", "ASYNC"]
 ignore = ["B008"]  # FastAPI's Depends() pattern requires function calls in argument defaults
 
 [tool.mypy]
-python_version = "3.13"
+python_version = "3.11"
 strict = true
 packages = ["iptv_manager"]
