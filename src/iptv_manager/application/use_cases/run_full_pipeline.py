@@ -17,6 +17,7 @@ from __future__ import annotations
 from dataclasses import dataclass
 
 from iptv_manager.application.dto.validation_report import ValidationReport
+from iptv_manager.application.use_cases.categorize_by_country import CategorizeByCountryUseCase
 from iptv_manager.application.use_cases.compare_with_xmltv import CompareWithXMLTVUseCase
 from iptv_manager.application.use_cases.generate_report import GenerateReportUseCase
 from iptv_manager.application.use_cases.merge_playlists import MergePlaylistsUseCase
@@ -40,6 +41,7 @@ class RunFullPipelineUseCase:
         epg_channels: list[EPGChannel] | None = None,
     ) -> ValidationReport:
         merge_result = MergePlaylistsUseCase().execute(category_playlists, master_name="master")
+        merge_result.master = CategorizeByCountryUseCase().execute(merge_result.master)
 
         stream_summary = None
         if self.stream_validator is not None:
