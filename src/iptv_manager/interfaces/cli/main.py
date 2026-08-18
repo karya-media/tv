@@ -21,6 +21,7 @@ import typer
 
 from iptv_manager.application.dto.validation_report import ValidationReport
 from iptv_manager.application.use_cases.apply_channel_order import ApplyChannelOrderUseCase
+from iptv_manager.application.use_cases.categorize_by_country import CategorizeByCountryUseCase
 from iptv_manager.application.use_cases.compare_with_xmltv import CompareWithXMLTVUseCase
 from iptv_manager.application.use_cases.generate_report import GenerateReportUseCase
 from iptv_manager.application.use_cases.import_playlist import ImportPlaylistUseCase
@@ -191,6 +192,7 @@ def _merge_and_publish(settings: Settings, parser: M3UParser) -> tuple[int, Merg
     # the report so nothing ever goes unchecked just because it was
     # left out of a bundle.
     everything_result = MergePlaylistsUseCase().execute(playlists, master_name="master")
+    everything_result.master = CategorizeByCountryUseCase().execute(everything_result.master)
     if priority_slots:
         everything_result.master = ApplyChannelOrderUseCase().execute(
             priority_slots, everything_result.master
@@ -219,6 +221,7 @@ def _merge_and_publish(settings: Settings, parser: M3UParser) -> tuple[int, Merg
             bundle_playlists.append(playlist)
 
         bundle_result = MergePlaylistsUseCase().execute(bundle_playlists, master_name=bundle_name)
+        bundle_result.master = CategorizeByCountryUseCase().execute(bundle_result.master)
         if priority_slots:
             bundle_result.master = ApplyChannelOrderUseCase().execute(
                 priority_slots, bundle_result.master
