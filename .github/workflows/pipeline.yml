@@ -60,6 +60,11 @@ jobs:
 
       - name: Run pipeline (merge, validate, logos, report)
         id: pipeline
+        env:
+          # Public XMLTV URL - not a secret, so it lives here directly
+          # rather than in GitHub Secrets. Written into master.m3u's
+          # "#EXTM3U url-tvg=..." header so players auto-load a guide.
+          IPTV_EPG_URL: "https://epgshare01.online/epgshare01/epg_ripper_ALL_SOURCES1.xml.gz"
         run: |
           iptv-manager report --formats html,json,csv,xlsx
 
