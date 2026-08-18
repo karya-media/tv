@@ -68,6 +68,13 @@ class Settings(BaseSettings):
 
     master_playlist_filename: str = "master.m3u"
 
+    # --- EPG ---
+    # Public XMLTV URL (optionally gzipped) written into the master
+    # playlist's `#EXTM3U url-tvg="..."` header, so players (TiviMate,
+    # IPTV Smarters, Kodi, VLC) auto-load a program guide. Leave unset
+    # to omit the attribute entirely.
+    epg_url: str | None = None
+
     # --- Playlist parsing/repair ---
     default_encoding: str = "utf-8"
     strip_bom: bool = True

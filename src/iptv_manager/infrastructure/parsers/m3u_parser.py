@@ -168,8 +168,16 @@ class M3UParser:
             vlc_opts=dict(vlc_opts) if vlc_opts else {},
         )
 
-    def serialize(self, playlist: Playlist) -> str:
-        lines = ["#EXTM3U"]
+    def serialize(self, playlist: Playlist, epg_url: str | None = None) -> str:
+        """Render a Playlist back to M3U text.
+
+        If epg_url is given, it's emitted as a `url-tvg` attribute on
+        the `#EXTM3U` header line - the de-facto standard most players
+        (TiviMate, IPTV Smarters, Kodi, VLC) read to auto-load a
+        program guide (XMLTV, optionally gzipped) for the playlist.
+        """
+        header = f'#EXTM3U url-tvg="{epg_url}"' if epg_url else "#EXTM3U"
+        lines = [header]
         for channel in playlist:
             attr_parts: list[str] = []
             if channel.tvg_id.is_present:

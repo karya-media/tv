@@ -241,10 +241,11 @@ def _publish_bundle(
     """Write one bundle's merged playlist to data/master/<name>.m3u
     and, if Pages publishing is enabled, docs/<name>.m3u."""
     output_path = settings.master_path / f"{bundle_name}.m3u"
-    output_path.write_text(parser.serialize(master), encoding="utf-8")
+    serialized = parser.serialize(master, epg_url=settings.epg_url)
+    output_path.write_text(serialized, encoding="utf-8")
     if settings.publish_target in (PublishTarget.PAGES_ONLY, PublishTarget.BOTH):
         docs_path = settings.project_root / settings.docs_dir / f"{bundle_name}.m3u"
-        docs_path.write_text(parser.serialize(master), encoding="utf-8")
+        docs_path.write_text(serialized, encoding="utf-8")
 
 
 @app.command("merge")

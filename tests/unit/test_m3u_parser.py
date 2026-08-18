@@ -223,3 +223,21 @@ class TestSerialize:
         playlist = parser.parse(raw, name="extra")
         serialized = parser.serialize(playlist)
         assert 'tvg-country="US"' in serialized
+
+    def test_serialize_without_epg_url_omits_url_tvg(self, parser: M3UParser):
+        raw = FIXTURES.joinpath("sports.m3u").read_text(encoding="utf-8")
+        playlist = parser.parse(raw, name="sports")
+        assert parser.serialize(playlist).startswith("#EXTM3U\n")
+
+    def test_serialize_with_epg_url_adds_url_tvg_header(self, parser: M3UParser):
+        raw = FIXTURES.joinpath("sports.m3u").read_text(encoding="utf-8")
+        playlist = parser.parse(raw, name="sports")
+        serialized = parser.serialize(playlist, epg_url="https://example.com/epg.xml.gz")
+        assert serialized.startswith('#EXTM3U url-tvg="https://example.com/epg.xml.gz"\n')
+
+    def test_epg_url_header_round_trips_through_parse(self, parser: M3UParser):
+        raw = FIXTURES.joinpath("sports.m3u").read_text(encoding="utf-8")
+        playlist = parser.parse(raw, name="sports")
+        serialized = parser.serialize(playlist, epg_url="https://example.com/epg.xml.gz")
+        reparsed = parser.parse(serialized, name="sports")
+        assert len(reparsed) == len(playlist)
