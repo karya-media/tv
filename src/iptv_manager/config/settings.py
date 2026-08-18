@@ -86,7 +86,6 @@ class Settings(BaseSettings):
     github_repository: str | None = None  # e.g. "username/iptv-repo"
     github_branch: str = "main"
     publish_target: PublishTarget = PublishTarget.BOTH
-    github_token: str | None = Field(default=None, repr=False)
 
     # --- Persistence (Phase 5: pipeline run history) ---
     database_url: str | None = None  # if unset, derived from data_dir (SQLite)
