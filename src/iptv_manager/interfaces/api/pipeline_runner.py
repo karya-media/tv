@@ -79,7 +79,7 @@ async def execute_and_persist(
         ).execute(playlists)
         assert report.merge_result is not None  # merge always runs in the full pipeline
 
-        master_text = parser.serialize(report.merge_result.master)
+        master_text = parser.serialize(report.merge_result.master, epg_url=settings.epg_url)
         settings.master_playlist_path.write_text(master_text, encoding="utf-8")
         if settings.publish_target in (PublishTarget.PAGES_ONLY, PublishTarget.BOTH):
             settings.docs_master_playlist_path.write_text(master_text, encoding="utf-8")
