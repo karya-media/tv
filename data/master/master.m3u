@@ -83,10 +83,10 @@ https://beetv.my.id/xstreamx/vd.m3u8?ch=antv
 #EXTVLCOPT:http-referrer=https://20.detik.com/
 https://video.detik.com/transtv/smil:transtv.smil/playlist.m3u8
 #EXTINF:-1 tvg-name="TransTV.id" tvg-logo="https://images.indihometv.com/logo_transtv_ver2.png" group-title="Nasional",Trans TV
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36
+#EXTVLCOPT:http-user-agent=ExoPlayer/2.19.1 (Linux; Android 15) Media3/1.6.0
 #EXTVLCOPT:http-origin=https://20.detik.com
 #EXTVLCOPT:http-referrer=https://20.detik.com/
-https://video.detik.com/transtv-sec/smil:transtv.smil/playlist.m3u8?wowzatokenstarttime=0&wowzatokenendtime=1786759677497&wowzatokenhash=Ujdu6voZrRSzfo-oQLxPhh-m27im1URHFPL33rJhF4k%3D
+https://video.detik.com/transtv-sec/smil:transtv.smil/playlist.m3u8?wowzatokenstarttime=0&wowzatokenendtime=1787211547655&wowzatokenhash=BnffG6c5WFVF1xe0hah67JGiG4nR3kV966dGjB2fdEk%3D
 #EXTINF:-1 tvg-id="Trans7.id" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/96/Logo_Trans7.png" group-title="Indonesia;Nasional" http-referrer="https://20.detik.com/" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36",Trans 7
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://20.detik.com/
