@@ -21,6 +21,7 @@ from iptv_manager.application.use_cases.backfill_tvg_id import BackfillTvgIdFrom
 from iptv_manager.application.use_cases.categorize_by_country import CategorizeByCountryUseCase
 from iptv_manager.application.use_cases.compare_with_xmltv import CompareWithXMLTVUseCase
 from iptv_manager.application.use_cases.generate_report import GenerateReportUseCase
+from iptv_manager.application.use_cases.match_tvg_id_from_epg import MatchTvgIdFromEpgUseCase
 from iptv_manager.application.use_cases.merge_playlists import MergePlaylistsUseCase
 from iptv_manager.application.use_cases.validate_logos import ValidateLogosUseCase
 from iptv_manager.application.use_cases.validate_streams import ValidateStreamsUseCase
@@ -43,6 +44,10 @@ class RunFullPipelineUseCase:
     ) -> ValidationReport:
         merge_result = MergePlaylistsUseCase().execute(category_playlists, master_name="master")
         merge_result.master = BackfillTvgIdFromExactNameUseCase().execute(merge_result.master)
+        if epg_channels is not None:
+            merge_result.master = MatchTvgIdFromEpgUseCase().execute(
+                merge_result.master, epg_channels
+            )
         merge_result.master = CategorizeByCountryUseCase().execute(merge_result.master)
 
         stream_summary = None

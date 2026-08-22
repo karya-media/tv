@@ -26,6 +26,7 @@ from iptv_manager.application.use_cases.categorize_by_country import CategorizeB
 from iptv_manager.application.use_cases.compare_with_xmltv import CompareWithXMLTVUseCase
 from iptv_manager.application.use_cases.generate_report import GenerateReportUseCase
 from iptv_manager.application.use_cases.import_playlist import ImportPlaylistUseCase
+from iptv_manager.application.use_cases.match_tvg_id_from_epg import MatchTvgIdFromEpgUseCase
 from iptv_manager.application.use_cases.merge_playlists import MergePlaylistsUseCase, MergeResult
 from iptv_manager.application.use_cases.sync_sources import SyncSourcesUseCase
 from iptv_manager.application.use_cases.validate_logos import (
@@ -472,7 +473,15 @@ def generate_report(
         )
         raw_xmltv = asyncio.run(source.fetch())
         epg_channels = XMLTVParser().parse(raw_xmltv)
+        merge_result.master = MatchTvgIdFromEpgUseCase().execute(merge_result.master, epg_channels)
         epg_comparison = CompareWithXMLTVUseCase().execute(merge_result.master, epg_channels)
+        # tvg-id may have just changed above - re-serialize master.m3u
+        # (already written once inside _merge_and_publish) so the
+        # newly-filled tvg-ids actually reach the published file.
+        updated_master_text = parser.serialize(merge_result.master, epg_url=settings.epg_url)
+        settings.master_playlist_path.write_text(updated_master_text, encoding="utf-8")
+        if settings.publish_target in (PublishTarget.PAGES_ONLY, PublishTarget.BOTH):
+            settings.docs_master_playlist_path.write_text(updated_master_text, encoding="utf-8")
         typer.echo(
             f"Compared against {len(epg_channels)} EPG channel(s): "
             f"{len(epg_comparison.invalid_tvg_id)} invalid tvg-id, "
