@@ -74,6 +74,11 @@ class Settings(BaseSettings):
     # IPTV Smarters, Kodi, VLC) auto-load a program guide. Leave unset
     # to omit the attribute entirely.
     epg_url: str | None = None
+    # Separate, more generous timeout for fetching that same URL when
+    # used for --epg tvg-id matching: EPG files (especially aggregated
+    # multi-source ones) can be tens of megabytes, much larger than a
+    # single stream's validation request.
+    epg_fetch_timeout_seconds: float = 60.0
 
     # --- Playlist parsing/repair ---
     default_encoding: str = "utf-8"

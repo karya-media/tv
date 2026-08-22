@@ -7,9 +7,19 @@ missing User-Agent header).
 
 from __future__ import annotations
 
+import gzip
+
 import httpx
 
 _FALLBACK_ENCODINGS = ("utf-8-sig", "utf-16", "cp1252")
+
+# The first two bytes of a gzip stream (RFC 1952 magic number). Used to
+# detect a *file-level* gzip (e.g. a URL ending in ".xml.gz" or
+# ".m3u.gz" served as-is) which httpx does NOT auto-decompress - that
+# only happens for transport-level "Content-Encoding: gzip", a
+# different thing from the response body itself being a stored .gz
+# file.
+_GZIP_MAGIC = b"\x1f\x8b"
 
 
 class PlaylistFetchError(RuntimeError):
@@ -52,6 +62,13 @@ class RemoteUrlPlaylistSource:
         return self._decode(response.content)
 
     def _decode(self, raw_bytes: bytes) -> str:
+        if raw_bytes.startswith(_GZIP_MAGIC):
+            try:
+                raw_bytes = gzip.decompress(raw_bytes)
+            except OSError as exc:
+                raise PlaylistFetchError(
+                    f"looked gzip-compressed but failed to decompress: {self._url}"
+                ) from exc
         for encoding in _FALLBACK_ENCODINGS:
             try:
                 return raw_bytes.decode(encoding)

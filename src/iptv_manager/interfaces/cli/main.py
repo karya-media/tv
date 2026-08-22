@@ -379,7 +379,7 @@ def check_epg(
     epg_source = (
         RemoteUrlPlaylistSource(
             xmltv_source,
-            timeout=settings.validation_timeout_seconds,
+            timeout=settings.epg_fetch_timeout_seconds,
             user_agent=settings.user_agent,
         )
         if _is_url_generic(xmltv_source)
@@ -465,7 +465,7 @@ def generate_report(
         source = (
             RemoteUrlPlaylistSource(
                 epg_source,
-                timeout=settings.validation_timeout_seconds,
+                timeout=settings.epg_fetch_timeout_seconds,
                 user_agent=settings.user_agent,
             )
             if _is_url_generic(epg_source)
