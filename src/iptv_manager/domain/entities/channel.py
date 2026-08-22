@@ -44,6 +44,9 @@ class Channel:
     def with_group_title(self, group_title: GroupTitle) -> Channel:
         return replace(self, group_title=group_title)
 
+    def with_tvg_id(self, tvg_id: TvgId) -> Channel:
+        return replace(self, tvg_id=tvg_id)
+
     def with_source_category(self, category: str) -> Channel:
         return replace(self, source_category=category)
 

@@ -19,10 +19,9 @@ Matching happens in two passes:
 
 2. Prefix fallback: any channel *still unplaced* after pass 1 whose
    name starts with a slot's first ("primary") alternative, followed
-   by a clear word boundary (space, "+", "-", "(", ".", or a digit),
-   is pinned to that slot too - so a brand-new source spelling like
-   "RCTI Prime" or "RCTI3" gets grouped automatically without needing
-   to be listed by hand.
+   by a clear word boundary (space, "+", "-", "(", or "."), is pinned
+   to that slot too - so a brand-new source spelling like "RCTI Prime"
+   gets grouped automatically without needing to be listed by hand.
 
    Pass 2 only runs after *all* of pass 1 has completed for every
    slot, so a channel with its own explicit slot elsewhere in the
@@ -38,9 +37,16 @@ from iptv_manager.domain.entities.playlist import Playlist
 
 # Characters that may immediately follow a slot's primary name for a
 # prefix match to count - i.e. a real word boundary, not the middle of
-# a longer, unrelated channel name (e.g. "RCTI" must not match inside
-# "RCTINews").
-_PREFIX_BOUNDARY_CHARS = " +-().0123456789"
+# a longer, unrelated channel name. Deliberately excludes bare digits:
+# real-world brand collisions exist where a *different* broadcaster
+# happens to share a name prefix followed directly by a number (e.g.
+# Vietnam's "SCTV11".."SCTV19" vs. Indonesia's "SCTV" - confirmed via
+# their differing tvg-id country suffixes, ".vn" vs ".id"). Requiring
+# an explicit separator (space, "+", "-", "(", ".") before any digit
+# avoids that class of false positive; "RCTI 2" still matches (space
+# before the digit), "SCTV11" no longer does (digit right after the
+# letters, no separator).
+_PREFIX_BOUNDARY_CHARS = " +-()."
 
 
 def _normalize(name: str) -> str:
