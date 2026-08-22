@@ -21,7 +21,7 @@ https://ott-balancer.tvri.go.id/live/eds/TVRIWorld/hls/TVRIWorld.m3u8
 https://ott-balancer.tvri.go.id/live/eds/Nasional/hls/Nasional.m3u8
 #EXTINF:-1 tvg-id="TVRISport.id" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZ1VJ8fS-Oh63MRSY0_9NSxm457-gypcqjOA&s" group-title="Indonesia;Nasional" http-referrer="" http-user-agent="",TVRI Sport
 https://ott-balancer.tvri.go.id/live/eds/SportHD/hls/SportHD.m3u8
-#EXTINF:-1 tvg-logo="https://picture.dens.tv/wp/img/tvchannels_v1/340x160/1687501750_tvchannels_v1.jpg" group-title="Dens TV",TVRI Sport
+#EXTINF:-1 tvg-id="TVRISport.id" tvg-logo="https://picture.dens.tv/wp/img/tvchannels_v1/340x160/1687501750_tvchannels_v1.jpg" group-title="Indonesia;Dens TV",TVRI Sport
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=http://www.dens.tv/
 https://op-flashcon-digdayahd-1.dens.tv/h/h19/index.m3u8?app_type=web&userid=lite&chname=TVRI_Sport
@@ -31,7 +31,7 @@ https://cdnbal1.indihometv.com/atm/DASH/tvriworld/tvriworld-avc1_2500000=7-32777
 #EXTVLCOPT:http-user-agent=android-R+
 #EXTVLCOPT:http-referrer=https://www.rctiplus.com/
 https://r-plus.sedotcw3.workers.dev/index.m3u8?id=rcti
-#EXTINF:-1 tvg-name="RCTI.id" tvg-logo="https://images.indihometv.com/assets/logo_rcti_hd.png" group-title="Nasional",RCTI
+#EXTINF:-1 tvg-id="RCTI.id" tvg-name="RCTI.id" tvg-logo="https://images.indihometv.com/assets/logo_rcti_hd.png" group-title="Indonesia;Nasional",RCTI
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://www.rctiplus.com/
 https://beetv.my.id/xstreamx/rctiplus.m3u8?ch=rcti
@@ -41,7 +41,7 @@ https://mncmedia.malingtv.workers.dev/rcti.m3u8
 #EXTVLCOPT:http-user-agent=android-R+
 #EXTVLCOPT:http-referrer=https://www.rctiplus.com/
 https://r-plus.sedotcw3.workers.dev/index.m3u8?id=mnctv
-#EXTINF:-1 tvg-name="MNCTV.id" tvg-logo="https://images.indihometv.com/assets/logo_mnc_hd.png" group-title="Nasional",MNCTV
+#EXTINF:-1 tvg-id="MNCTV.id" tvg-name="MNCTV.id" tvg-logo="https://images.indihometv.com/assets/logo_mnc_hd.png" group-title="Indonesia;Nasional",MNCTV
 #EXTVLCOPT:http-user-agent=android-R+
 #EXTVLCOPT:http-referrer=https://www.rctiplus.com/
 https://beetv.my.id/xstreamx/rctiplus.m3u8?ch=mnctv
@@ -51,7 +51,7 @@ https://mncmedia.malingtv.workers.dev/mnctv.m3u8
 #EXTVLCOPT:http-user-agent=android-R+
 #EXTVLCOPT:http-referrer=https://www.rctiplus.com/
 https://r-plus.sedotcw3.workers.dev/index.m3u8?id=gtv
-#EXTINF:-1 tvg-name="GTV.id" tvg-logo="https://images.indihometv.com/assets/logo_gtv_hd.png" group-title="Nasional",GTV
+#EXTINF:-1 tvg-id="GTV.id" tvg-name="GTV.id" tvg-logo="https://images.indihometv.com/assets/logo_gtv_hd.png" group-title="Indonesia;Nasional",GTV
 #EXTVLCOPT:http-user-agent=android-R+
 #EXTVLCOPT:http-referrer=https://www.rctiplus.com/
 https://beetv.my.id/xstreamx/rctiplus.m3u8?ch=gtv
@@ -64,7 +64,7 @@ https://mncmedia.malingtv.workers.dev/gtv.m3u8
 #EXTVLCOPT:http-user-agent=android-R+
 #EXTVLCOPT:http-referrer=https://www.rctiplus.com/
 https://r-plus.sedotcw3.workers.dev/index.m3u8?id=inews
-#EXTINF:-1 tvg-name="iNews.id" tvg-logo="https://images.indihometv.com/logo_inews_big.png" group-title="Nasional",iNews
+#EXTINF:-1 tvg-id="iNews.id" tvg-name="iNews.id" tvg-logo="https://images.indihometv.com/logo_inews_big.png" group-title="Indonesia;Nasional",iNews
 #EXTVLCOPT:http-user-agent=android-R+
 #EXTVLCOPT:http-referrer=https://www.rctiplus.com/
 https://beetv.my.id/xstreamx/rctiplus.m3u8?ch=inews
@@ -76,7 +76,7 @@ https://mncmedia.malingtv.workers.dev/inews.m3u8
 https://live.i-news.tv/hls/stream.m3u8
 #EXTINF:-1 tvg-id="SCTV.id" tvg-logo="https://i.imgur.com/9nGJaOL.jpeg" group-title="Indonesia;Nasional" http-referrer="" http-user-agent="",SCTV
 http://202.169.224.202:8800/udp/239.9.1.29:1234
-#EXTINF:-1 tvg-name="SCTV.id" tvg-logo="https://images.indihometv.com/logo_sctv_ver2.png" group-title="Nasional",SCTV
+#EXTINF:-1 tvg-id="SCTV.id" tvg-name="SCTV.id" tvg-logo="https://images.indihometv.com/logo_sctv_ver2.png" group-title="Indonesia;Nasional",SCTV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://www.vidio.com/
 https://beetv.my.id/xstreamx/vd.m3u8?ch=sctv
@@ -84,39 +84,9 @@ https://beetv.my.id/xstreamx/vd.m3u8?ch=sctv
 #EXTVLCOPT:http-referrer=https://www.dens.tv/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 Windows NT 10.0; Win64; x64 AppleWebKit/537.36 KHTML, like Gecko Chrome/144.0.0.0 Safari/537.36
 https://op-group1-swiftservehd-1.dens.tv/h/h217/index.m3u8
-#EXTINF:-1 tvg-id="SCTV2.vnSD" tvg-logo="https://i.imgur.com/8i5DXIg.png" group-title="Vietnam;Uncategorized",SCTV2 (720p)
-https://liveh12.vtvprime.vn/hls/SCTV2/index.m3u8
-#EXTINF:-1 tvg-id="SCTV3.vnSD" tvg-logo="https://i.imgur.com/tfk298I.png" group-title="Vietnam;Uncategorized",SCTV3 (720p)
-https://vtvgolive-sctvdrm.vtvdigital.vn/bsod999cuteptgyoutuber/1234567890/manifest/sctv3/master.m3u8
-#EXTINF:-1 tvg-id="SCTV4.vnSD" tvg-logo="https://i.imgur.com/qkZhzQq.png" group-title="Vietnam;Uncategorized",SCTV4 (720p)
-https://vtvgolive-sctvdrm.vtvdigital.vn/manifest/sctv4/master.m3u8
-#EXTINF:-1 tvg-id="SCTV5.vnHD" tvg-logo="https://i.imgur.com/FYLs4yu.png" group-title="Vietnam;Uncategorized",SCTV5 (720p)
-https://liveh34.vtvprime.vn/hls/SCTV5/01.m3u8?note=TheWavesIPTV
-#EXTINF:-1 tvg-id="SCTV6.vnSD" tvg-logo="https://i.imgur.com/2oOVS42.png" group-title="Vietnam;Uncategorized",SCTV6 (1080p) [Geo-blocked]
-https://live.fptplay53.net/epzhd2/film360_vhls.smil/chunklist.m3u8
-#EXTINF:-1 tvg-id="SCTV7.vnSD" tvg-logo="https://i.imgur.com/xbIUZYd.png" group-title="Vietnam;Uncategorized",SCTV7 (720p)
-https://vtvgolive-sctvdrm.vtvdigital.vn/manifest/sctv7/master.m3u8
-#EXTINF:-1 tvg-id="SCTV9.vnSD" tvg-logo="https://i.imgur.com/OJMbhow.png" group-title="Vietnam;Uncategorized",SCTV9 (720p)
-https://vtvgolive-sctvdrm.vtvdigital.vn/manifest/sctv9/master.m3u8
-#EXTINF:-1 tvg-id="SCTV11.vnSD" tvg-logo="https://i.imgur.com/ZmFfy9o.png" group-title="Vietnam;Uncategorized",SCTV11 (720p)
-https://vtvgolive-sctvdrm.vtvdigital.vn/manifest/sctv11/master.m3u8
-#EXTINF:-1 tvg-id="SCTV12.vnSD" tvg-logo="https://i.imgur.com/5pDFkH0.png" group-title="Vietnam;Uncategorized",SCTV12 (720p)
-https://vtvgolive-sctvdrm.vtvdigital.vn/manifest/sctv12/master.m3u8
-#EXTINF:-1 tvg-id="SCTV13.vnSD" tvg-logo="https://i.imgur.com/aoz1iDw.png" group-title="Vietnam;Uncategorized",SCTV13 (720p)
-https://vtvgolive-sctvdrm.vtvdigital.vn/manifest/sctv13/master.m3u8
-#EXTINF:-1 tvg-id="SCTV14.vnSD" tvg-logo="https://i.imgur.com/rIqmRNK.png" group-title="Vietnam;Uncategorized",SCTV14 (720p)
-https://vtvgolive-sctvdrm.vtvdigital.vn/manifest/sctv14/master.m3u8
-#EXTINF:-1 tvg-id="SCTV16.vnSD" tvg-logo="https://i.imgur.com/ldCYtvt.png" group-title="Vietnam;Uncategorized",SCTV16 (720p)
-https://vtvgolive-sctvdrm.vtvdigital.vn/manifest/sctv16/master.m3u8
-#EXTINF:-1 tvg-id="SCTV18.vnSD" tvg-logo="https://i.imgur.com/FfUSlgI.png" group-title="Vietnam;Uncategorized",SCTV18 (720p)
-https://vtvgolive-sctvdrm.vtvdigital.vn/manifest/sctv18/master.m3u8
-#EXTINF:-1 tvg-id="SCTV19.vnSD" tvg-logo="https://i.imgur.com/yBAFZRs.png" group-title="Vietnam;Uncategorized",SCTV19 (720p)
-https://vtvgolive-sctvdrm.vtvdigital.vn/manifest/sctv19/master.m3u8
-#EXTINF:-1 tvg-id="SCTV20.vnSD" tvg-logo="https://i.imgur.com/7ABZhfZ.png" group-title="Vietnam;Uncategorized",SCTV20 (720p)
-https://vtvgolive-sctvdrm.vtvdigital.vn/manifest/sctv20/master.m3u8
 #EXTINF:-1 tvg-id="Indosiar.id" tvg-logo="https://i.imgur.com/SjCylM5.jpeg" group-title="Indonesia;Nasional" http-referrer="" http-user-agent="",Indosiar
 http://202.169.224.202:8800/udp/239.9.1.25:1234
-#EXTINF:-1 tvg-name="Indosiar.id" tvg-logo="https://images.indihometv.com/logo_indosiar_ver2.png" group-title="Nasional",Indosiar
+#EXTINF:-1 tvg-id="Indosiar.id" tvg-name="Indosiar.id" tvg-logo="https://images.indihometv.com/logo_indosiar_ver2.png" group-title="Indonesia;Nasional",Indosiar
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-origin=https://teagan.mvksstick9uq6cprotection.cfd
 #EXTVLCOPT:http-referrer=https://teagan.mvksstick9uq6cprotection.cfd/
@@ -124,7 +94,7 @@ https://beetv.my.id/rbtv/indosiar.m3u
 #EXTINF:-1 tvg-id="Moji.id" tvg-logo="https://raw.githubusercontent.com/apistech/project/refs/heads/main/logo/image_ch_moji.png" group-title="Indonesia;Nasional" http-referrer="" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36 Edg/150.0.0.0",Moji
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36 Edg/150.0.0.0
 https://op-flashcon-digdayahd-1.dens.tv/h/h207/index.m3u8
-#EXTINF:-1 tvg-name="MOJI.id" tvg-logo="https://images.indihometv.com/logo_ochannel_ver1.png" group-title="Nasional",Moji
+#EXTINF:-1 tvg-id="Moji.id" tvg-name="MOJI.id" tvg-logo="https://images.indihometv.com/logo_ochannel_ver1.png" group-title="Indonesia;Nasional",Moji
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-origin=https://may.2f17ubowlsjn46easier.cfd
 #EXTVLCOPT:http-referrer=https://may.2f17ubowlsjn46easier.cfd/
@@ -137,7 +107,7 @@ https://op-group1-swiftservehd-1.dens.tv/h/h207/index.m3u8
 #EXTVLCOPT:http-user-agent=VidioPlayer/6.31.6
 #EXTVLCOPT:http-referrer=http://www.vidio.com/
 http://tvratu.my.id/nissa/index.mpd?id=782&type=dash
-#EXTINF:-1 tvg-name="ANTV.id" tvg-logo="https://images.indihometv.com/logo_antvnew_big.png" group-title="Nasional",ANTV
+#EXTINF:-1 tvg-id="ANTV.id" tvg-name="ANTV.id" tvg-logo="https://images.indihometv.com/logo_antvnew_big.png" group-title="Indonesia;Nasional",ANTV
 #EXTVLCOPT:http-referrer=https://www.vidio.com/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36
 https://beetv.my.id/xstreamx/vd.m3u8?ch=antv
@@ -150,7 +120,7 @@ http://103.58.160.157:8278/720-ANTV/playlist.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://20.detik.com/
 https://video.detik.com/transtv/smil:transtv.smil/playlist.m3u8
-#EXTINF:-1 tvg-name="TransTV.id" tvg-logo="https://images.indihometv.com/logo_transtv_ver2.png" group-title="Nasional",Trans TV
+#EXTINF:-1 tvg-id="TransTV.id" tvg-name="TransTV.id" tvg-logo="https://images.indihometv.com/logo_transtv_ver2.png" group-title="Indonesia;Nasional",Trans TV
 #EXTVLCOPT:http-user-agent=ExoPlayer/2.19.1 (Linux; Android 15) Media3/1.6.0
 #EXTVLCOPT:http-origin=https://20.detik.com
 #EXTVLCOPT:http-referrer=https://20.detik.com/
@@ -161,7 +131,7 @@ https://video.detik.com/transtv-sec/smil:transtv.smil/playlist.m3u8?wowzatokenst
 https://video.detik.com/trans7/smil:trans7.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="tvOne.id" tvg-logo="https://i.imgur.com/c1Nykgw.jpeg" group-title="Indonesia;Nasional" http-referrer="" http-user-agent="",TvOne
 https://op-flashcon-digdayahd-1.dens.tv/h/h40/01.m3u8
-#EXTINF:-1 tvg-name="tvOne.id" tvg-logo="https://images.indihometv.com/logo_tvonenew_big.png" group-title="Nasional",TVONE
+#EXTINF:-1 tvg-id="tvOne.id" tvg-name="tvOne.id" tvg-logo="https://images.indihometv.com/logo_tvonenew_big.png" group-title="Indonesia;Nasional",TVONE
 #EXTVLCOPT:http-referrer=https://www.dens.tv/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36
 https://op-flashcon-digdayahd-1.dens.tv/h/h40/01.m3u8?app_type=web&userid=wnctpm5uf2j&chname=tvOne
@@ -176,11 +146,11 @@ https://edge.medcom.id/live-edge/smil:metro.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="Metro.TV.id" tvg-logo="https://raw.githubusercontent.com/apistech/project/refs/heads/main/logo/image_ch_metrotv.png" group-title="Indonesia;Nasional" http-referrer="" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36 Edg/150.0.0.0",Metro TV (Alt 2)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36 Edg/150.0.0.0
 https://op-flashcon-digdayahd-1.dens.tv/h/h12/index.m3u8
-#EXTINF:-1 tvg-name="MetroTV.id" tvg-logo="https://images.indihometv.com/logo_metrotv_ver1.png" group-title="Nasional",Metro TV
+#EXTINF:-1 tvg-id="Metro.TV.id" tvg-name="MetroTV.id" tvg-logo="https://images.indihometv.com/logo_metrotv_ver1.png" group-title="Indonesia;Nasional",Metro TV
 #EXTVLCOPT:http-referrer=https://www.dens.tv/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36
 https://op-flashcon-digdayahd-1.dens.tv/h/h12/01.m3u8
-#EXTINF:-1 tvg-logo="https://picture.dens.tv/wp/img/tvchannels_v1/340x160/1687501451_tvchannels_v1.jpg" group-title="Dens TV",Metro TV
+#EXTINF:-1 tvg-id="Metro.TV.id" tvg-logo="https://picture.dens.tv/wp/img/tvchannels_v1/340x160/1687501451_tvchannels_v1.jpg" group-title="Indonesia;Dens TV",Metro TV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=http://www.dens.tv/
 https://op-flashcon-digdayahd-1.dens.tv/h/h12/index.m3u8?app_type=web&userid=lite&chname=Metro_TV
@@ -192,7 +162,7 @@ https://s.emisoras.tv:8081/metrotv/index.m3u8
 https://mercury.streambridge.link:8042/telugu/metrotv/index.m3u8
 #EXTINF:-1 tvg-id="Kompas.TV.id" tvg-logo="https://i.imgur.com/WYPWQHg.jpeg" group-title="Indonesia;Nasional" http-referrer="" http-user-agent="",Kompas TV
 https://cdnbal1.indihometv.com/atm/DASH/KOMPAS_TV/KOMPAS_TV-avc1_2500000=7-3277707030000000.mpd
-#EXTINF:-1 tvg-name="kompastv" tvg-logo="https://images.indihometv.com/logo_kompastv_big.png" group-title="Nasional",Kompas TV
+#EXTINF:-1 tvg-id="Kompas.TV.id" tvg-name="kompastv" tvg-logo="https://images.indihometv.com/logo_kompastv_big.png" group-title="Indonesia;Nasional",Kompas TV
 #EXTVLCOPT:http-referrer=https://www.dens.tv/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36
 https://op-flashcon-digdayahd-1.dens.tv/s/s104/01.m3u8
@@ -216,7 +186,7 @@ https://hgmtv.com:19360/garudatvlivestreaming/garudatvlivestreaming.m3u8
 https://op-flashcon-digdayahd-1.dens.tv/h/h223/02.m3u8
 #EXTINF:-1 tvg-id="MDTV.id" tvg-logo="https://i.imgur.com/oaBCedP.jpeg" group-title="Indonesia;Nasional" http-referrer="" http-user-agent="",MDTV
 http://202.150.161.212:5000/live/channel31/playlist.m3u8
-#EXTINF:-1 tvg-name="MDTV.id" tvg-logo="https://images.indihometv.com/logo_net_big1.png" group-title="Nasional",MDTV
+#EXTINF:-1 tvg-id="MDTV.id" tvg-name="MDTV.id" tvg-logo="https://images.indihometv.com/logo_net_big1.png" group-title="Indonesia;Nasional",MDTV
 #EXTVLCOPT:http-referrer=http://www.dens.tv/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36
 https://op-flashcon-digdayahd-1.dens.tv/h/h223/index.m3u8?app_type=web&userid=lite&chname=MDTV
@@ -224,7 +194,7 @@ https://op-flashcon-digdayahd-1.dens.tv/h/h223/index.m3u8?app_type=web&userid=li
 https://wahyu1ptv.pages.dev/MDTV-HD.m3u8
 #EXTINF:-1 tvg-id="RTV.id" tvg-logo="https://i.imgur.com/RygqpXd.jpeg" group-title="Indonesia;Nasional" http-referrer="" http-user-agent="",RTV
 https://op-flashcon-digdayahd-1.dens.tv/h/h10/01.m3u8
-#EXTINF:-1 tvg-logo="https://picture.dens.tv/wp/img/tvchannels_v1/340x160/1687501653_tvchannels_v1.jpg" group-title="Dens TV",RTV
+#EXTINF:-1 tvg-id="RTV.id" tvg-logo="https://picture.dens.tv/wp/img/tvchannels_v1/340x160/1687501653_tvchannels_v1.jpg" group-title="Indonesia;Dens TV",RTV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=http://www.dens.tv/
 https://op-flashcon-digdayahd-1.dens.tv/h/h10/index.m3u8?app_type=web&userid=lite&chname=RTV
@@ -236,10 +206,6 @@ http://tvsen5.aynascope.net/RtvHD/index.m3u8
 https://rtv-stream2.a04f922e9e85c8d25ebfeae3dfd22a67.com/rtv/rtv.m3u8
 #EXTINF:-1 tvg-id="RTV1.nlSD" tvg-logo="https://i.imgur.com/lRCsPWT.png" group-title="Netherlands;Uncategorized",RTV 1 (720p)
 https://dy7fxpkq4ggk8.cloudfront.net/nlpo/clr-nlpo/rtv1/index.m3u8
-#EXTINF:-1 tvg-id="RTV21.xkSD" tvg-logo="https://i.imgur.com/AqQltGh.png" group-title="Kosovo;Uncategorized",RTV21
-https://gjirafa-video-live.gjirafa.net/gjvideo-live/2cz-npl-jfn-9he/tracks-v2a1/mono.m3u8
-#EXTINF:-1 tvg-id="RTV38.itSD" tvg-logo="https://i.imgur.com/YOlwudm.png" group-title="Italy;Uncategorized",RTV38 (576p)
-https://845d8509d2cb4f249dd0b2ae5755b6c2.msvdn.net/rtv38/rtv38_live_main/mainabr/rtv38_live_main/main_576/chunks_dvr.m3u8
 #EXTINF:-1 tvg-id="RTVArnhemTV.nlSD" group-title="Netherlands;Uncategorized",RTV Arnhem (480p) [Not 24/7]
 https://ms2.mx-cd.net/tv/163-669433/RTV_Arnhem.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="RTVBap.rsSD" tvg-logo="https://i.imgur.com/TBAtPH6.png" group-title="Serbia;Uncategorized",RTV Bap (480p)
@@ -322,7 +288,7 @@ http://ms7.mx-cd.net/tv/212-1299944/RTV-Zulthe.smil/playlist.m3u8
 https://d3b0v7fggu5zwm.cloudfront.net/out/v1/ac934bd649dc47f699f793634de01635/index.mpd
 #EXTINF:-1 tvg-id="BTV.id" tvg-logo="https://i.imgur.com/zCbm66c.jpeg" group-title="Indonesia;Nasional" http-referrer="" http-user-agent="",BTV (Alt 2)
 https://cdnbal1.indihometv.com/atm/DASH/beritasatu/beritasatu-avc1_2500000=7-3277707030000000.mpd
-#EXTINF:-1 tvg-logo="https://picture.dens.tv/wp/img/tvchannels_v1/340x160/1735687940_tvchannels_v1.jpeg" group-title="Dens TV",BTV
+#EXTINF:-1 tvg-id="bTV.bgSD" tvg-logo="https://picture.dens.tv/wp/img/tvchannels_v1/340x160/1735687940_tvchannels_v1.jpeg" group-title="Bulgaria;Dens TV",BTV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=http://www.dens.tv/
 https://op-flashcon-digdayaxenkoda.dens.tv/e6550891-6bef-42e1-bab9-13bf4af739ce/stream.m3u8?app_type=web&userid=lite&chname=BTV
@@ -383,7 +349,7 @@ https://re1.siar.us/madutv/hd720/playlist.m3u8
 https://d1vckova5fh9mt.cloudfront.net/out/v1/17c724036c5f4615bd0b8093126b5c44/index.mpd
 #EXTINF:-1 tvg-id="DAAITV.id" tvg-logo="https://i.imgur.com/YC7JCHo.png" group-title="Indonesia;Nasional" http-referrer="" http-user-agent="",DAAI TV
 https://pull.daaiplus.com/live-DAAIPLUS/live-DAAIPLUS_HD.m3u8
-#EXTINF:-1 tvg-logo="https://picture.dens.tv/wp/img/tvchannels_v1/340x160/1687501817_tvchannels_v1.jpg" group-title="Dens TV",DAAI TV
+#EXTINF:-1 tvg-id="DAAITV.id" tvg-logo="https://picture.dens.tv/wp/img/tvchannels_v1/340x160/1687501817_tvchannels_v1.jpg" group-title="Indonesia;Dens TV",DAAI TV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=http://www.dens.tv/
 https://op-flashcon-digdayahd-1.dens.tv/h/h16/index.m3u8?app_type=web&userid=lite&chname=DAAI_TV
@@ -405,32 +371,6 @@ https://d3q93l5bumjyoq.cloudfront.net/index.m3u8
 http://103.66.62.83:8000/play/a00c/index.m3u8
 #EXTINF:-1 tvg-id="VTV.mvSD" tvg-logo="https://i.imgur.com/6bY9Umo.png" group-title="Maldives;News",VTV (1080p) [Not 24/7]
 https://vtvstream.vnews.mv/vtvlive/vmedia/playlist.m3u8
-#EXTINF:-1 tvg-id="VTV1.vnHD" tvg-logo="https://i.imgur.com/vZYlGIW.png" group-title="Vietnam;Uncategorized",VTV1 HD (1080p)
-https://live-a.fptplay53.net/live/media/vtv1/live247-hls-avc/index.m3u8
-#EXTINF:-1 tvg-id="VTV2.vnHD" tvg-logo="https://i.imgur.com/qWWpYRR.png" group-title="Vietnam;Uncategorized",VTV2 HD (1080p)
-https://live-a.fptplay53.net/live/media/vtv2/live247-hls-avc/index.m3u8
-#EXTINF:-1 tvg-id="VTV3.vnHD" tvg-logo="https://i.imgur.com/4lJG1fu.png" group-title="Vietnam;Uncategorized",VTV3 HD (1080p)
-https://live-a.fptplay53.net/live/media/vtv3/live247-hls-avc/index.m3u8
-#EXTINF:-1 tvg-id="VTV4.vnHD" tvg-logo="https://i.imgur.com/WsLLmR2.png" group-title="Vietnam;Uncategorized",VTV4 HD (1080p)
-https://live-a.fptplay53.net/live/media/vtv4/live247-hls-avc/index.m3u8
-#EXTINF:-1 tvg-id="VTV5.vnHD" tvg-logo="https://i.imgur.com/Vnnna1C.png" group-title="Vietnam;Uncategorized",VTV5 HD (1080p)
-https://live-a.fptplay53.net/live/media/vtv5/live247-hls-avc/index.m3u8
-#EXTINF:-1 tvg-id="VTV5TayNamBo.vnHD" tvg-logo="https://i.imgur.com/xiuHjEQ.png" group-title="Vietnam;Uncategorized",VTV5 Tay Nam Bo HD (1080p)
-https://live-a.fptplay53.net/live/media/vtv5tnb/live-hls-avc/index.m3u8
-#EXTINF:-1 tvg-id="VTV5TayNguyen.vnHD" tvg-logo="https://i.imgur.com/Hlcnqqt.png" group-title="Vietnam;Uncategorized",VTV5 Tay Nguyen HD (1080p)
-https://vips-livecdn.fptplay.net/live/media/vtv5tn/live-hls-avc/index.m3u8
-#EXTINF:-1 tvg-id="VTV6.vnHD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/VTV6_logo_2026_final.svg/960px-VTV6_logo_2026_final.svg.png" group-title="Vietnam;Sports",VTV6 (1080p)
-https://live-a.fptplay53.net/live/media/vtv6/live247-hls-avc/index.m3u8
-#EXTINF:-1 tvg-id="VTV7.vnHD" tvg-logo="https://i.imgur.com/ZwoP823.png" group-title="Vietnam;Uncategorized",VTV7 HD (1080p)
-https://live-a.fptplay53.net/live/media/vtv7/live247-hls-avc/index.m3u8
-#EXTINF:-1 tvg-id="VTV8.vnHD" tvg-logo="https://i.imgur.com/rf9adGJ.png" group-title="Vietnam;Uncategorized",VTV8 HD (1080p)
-https://live-a.fptplay53.net/live/media/vtv8/live247-hls-avc/index.m3u8
-#EXTINF:-1 tvg-id="VTV9.vnHD" tvg-logo="https://i.imgur.com/QiY55sy.png" group-title="Vietnam;Uncategorized",VTV9 HD (1080p)
-https://live-a.fptplay53.net/live/media/vtv9/live247-hls-avc/index.m3u8
-#EXTINF:-1 tvg-id="VTV10.vnHD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/VTV10_logo_2026.png/960px-VTV10_logo_2026.png" group-title="Vietnam;Uncategorized",VTV10 (1080p)
-https://live-a.fptplay53.net/live/media/vtv10/live247-hls-avc/index.m3u8
-#EXTINF:-1 tvg-id="VTV10.vnSD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/VTV10_logo_2026.png/960px-VTV10_logo_2026.png" group-title="Vietnam;Uncategorized",VTV10 (1080p) [Geo-blocked]
-https://live.fptplay53.net/fnxhd1/vtvcantho_vhls.smil/chunklist.m3u8
 #EXTINF:-1 tvg-id="VTVCanal17.boSD" tvg-logo="https://i.imgur.com/TUhFzql.png" group-title="Bolivia;Religious",VTV Canal 17 (720p) [Not 24/7]
 https://solo.disfrutaenlared.com:1936/vtvcanal/vtvcanal/playlist.m3u8
 #EXTINF:-1 tvg-id="VTVCanal32.doSD" tvg-logo="https://i.imgur.com/qjm4B0J.png" group-title="Dominican Republic;Uncategorized",VTV Canal 32 (1080p)
@@ -451,7 +391,7 @@ https://tvku.tv/hlsstream/hls/live.m3u8
 https://wahyu1ptv.pages.dev/RodjaTV-HD.m3u8
 #EXTINF:-1 tvg-id="Rodja.TV.id" tvg-logo="https://i.imgur.com/XwCeHlC.png" group-title="Indonesia" http-referrer="" http-user-agent="",Rodja TV
 https://rodjatv.com/rodjatv/live.m3u8
-#EXTINF:-1 tvg-logo="https://picture.dens.tv/wp/img/tvchannels_v1/340x160/1687501810_tvchannels_v1.jpg" group-title="Dens TV",RodjaTV
+#EXTINF:-1 tvg-id="Rodja.TV.id" tvg-logo="https://picture.dens.tv/wp/img/tvchannels_v1/340x160/1687501810_tvchannels_v1.jpg" group-title="Indonesia;Dens TV",RodjaTV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=http://www.dens.tv/
 https://op-flashcon-digdayahd-1.dens.tv/h/h233/index.m3u8?app_type=web&userid=lite&chname=RodjaTV
@@ -550,7 +490,7 @@ https://indihuy.streamized.net/atm/DASH/JAK_TV/manifest.mpd
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://www.dens.tv/
 https://op-flashcon-digdayahd-1.dens.tv/s/s123/S4/mnf.m3u8
-#EXTINF:-1 tvg-logo="https://picture.dens.tv/wp/img/tvchannels_v1/340x160/1687501805_tvchannels_v1.jpg" group-title="Dens TV",Jak tv
+#EXTINF:-1 tvg-id="JakTV.id" tvg-logo="https://picture.dens.tv/wp/img/tvchannels_v1/340x160/1687501805_tvchannels_v1.jpg" group-title="Indonesia;Dens TV",Jak tv
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=http://www.dens.tv/
 https://op-flashcon-digdayahd-1.dens.tv/h/h218/index.m3u8?app_type=web&userid=lite&chname=Jak_tv
@@ -896,7 +836,7 @@ https://op-flashcon-digdayahd-1.dens.tv/h/h24/02.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0
 #EXTVLCOPT:http-referrer=http://www.dens.tv/
 https://op-group1-swiftservehd-1.dens.tv/h/h24/02.m3u8
-#EXTINF:-1 tvg-name="IDX.id" tvg-logo="https://beetv.my.id/logo/magna.png" group-title="Nasional",Magna TV
+#EXTINF:-1 tvg-id="MagnaTV.id" tvg-name="IDX.id" tvg-logo="https://beetv.my.id/logo/magna.png" group-title="Indonesia;Nasional",Magna TV
 https://edge.medcom.id/live-edge/smil:magna.smil/playlist.m3u8
 #EXTINF:-1 tvg-name="OKTV.id" tvg-logo="https://beetv.my.id/logo/vtv.png" group-title="Nasional",Oxygentv
 #EXTVLCOPT:http-referrer=https://oxygentv.id/
@@ -1213,11 +1153,6 @@ https://indihuy.streamized.net/atm/DASH/newtvvariety/manifest.mpd
 https://video1.earthcam.com/myearthcam/641f889a7774a38d5fc93dc76c4aeded.flv/playlist.m3u8
 #EXTINF:-1 tvg-id="TV10SanJuan.doSD" tvg-logo="https://i.imgur.com/e2BXUdH.png" group-title="Dominican Republic;Uncategorized",TV 10 San Juan (720p) [Not 24/7]
 https://59d39900ebfb8.streamlock.net/tv10sanjuan/tv10sanjuan/playlist.m3u8
-#EXTINF:-1 tvg-id="TV100.grSD" tvg-logo="https://i.imgur.com/OBH2DfE.png" group-title="Greece;Uncategorized",TV 100 (720p)
-https://gwebstream.net/hls/master.m3u8
-#EXTINF:-1 tvg-id="TV100.trSD" tvg-logo="https://upload.wikimedia.org/wikipedia/tr/thumb/0/0f/TV100_logo.png/960px-TV100_logo.png" group-title="Turkiye;Uncategorized" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 VLC/3.0.21 LibVLC/3.0.21",TV 100
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 VLC/3.0.21 LibVLC/3.0.21
-https://7nyaler.streamhostingcdn.top/stream/46/index.m3u8
 #EXTINF:-1 tvg-id="TV9.in" group-title="India;Indonesia;Lainnya;RELIGION" http-referrer="" http-user-agent="",TV9
 https://5bf7b725107e5.streamlock.net/tv9/tv9/playlist.m3u8
 #EXTINF:-1 tvg-id="TV9.mySD" tvg-logo="https://i.imgur.com/Krh1F8d.png" group-title="Malaysia;Uncategorized",TV9
@@ -2662,7 +2597,7 @@ https://stream.ads.ottera.tv/playlist.m3u8?content_livestream=1&network_id=6074
 https://stream.ads.ottera.tv/playlist.m3u8?content_livestream=1&network_id=6073
 #EXTINF:-1 group-title="Uncategorized",Afroland Top 10 (948p)
 https://stream.ads.ottera.tv/playlist.m3u8?content_livestream=1&network_id=6098
-#EXTINF:-1 group-title="Uncategorized",AfroLandTV (1080p)
+#EXTINF:-1 tvg-id="AfroLandTV.usSD" group-title="United States;Uncategorized",AfroLandTV (1080p)
 https://stream.ads.ottera.tv/playlist.m3u8?content_livestream=1&network_id=844
 #EXTINF:-1 tvg-id="AfroLandTV.usSD" tvg-logo="https://i.imgur.com/jvnkrEF.png" group-title="United States;Entertainment",AfroLandTV (1080p)
 https://alt-al.otteravision.com/alt/al/al.m3u8
@@ -2967,7 +2902,7 @@ https://jmp2.uk/plu-66d71f8ee5de930008016f83.m3u8
 https://jmp2.uk/plu-66d9aa4315d2c60008d4ac40.m3u8
 #EXTINF:-1 group-title="Uncategorized",Alien Nation (1080p)
 https://linear-888.frequency.stream/dist/xumo/888/hls/master/playlist.m3u8
-#EXTINF:-1 group-title="Uncategorized",Alien Nation by DUST (1080p)
+#EXTINF:-1 tvg-id="DUST.usSD" group-title="United States;Uncategorized",Alien Nation by DUST (1080p)
 https://aegis-cloudfront-1.tubi.video/baa32c24-e707-4bf8-9f81-d26eb6baa3dc/playlist.m3u8
 #EXTINF:-1 tvg-id="DUST.usSD" tvg-logo="https://i.imgur.com/FxYhME9.png" group-title="United States;Movies",Alien Nation by DUST (1080p)
 https://dqi7ayt2o24fn.cloudfront.net/playlist.m3u8
@@ -6167,7 +6102,7 @@ https://cbsn-mia.cbsnstream.cbsnews.com/out/v1/ac174b7938264d24ae27e56f6584bca0/
 https://cbsn-min.cbsnstream.cbsnews.com/out/v1/76518f06941246ba810c8d175600bf74/master.m3u8
 #EXTINF:-1 tvg-id="CBSNewsNewYork.usSD" tvg-logo="https://i.imgur.com/bpc4v0u.png" group-title="United States;News",CBS News New York (720p)
 https://cbsn-ny.cbsnstream.cbsnews.com/out/v1/ec3897d58a9b45129a77d67aa247d136/master.m3u8
-#EXTINF:-1 group-title="Uncategorized",CBS News Philadelphia (720p)
+#EXTINF:-1 tvg-id="CBSNewsPhilly.usSD" group-title="United States;Uncategorized",CBS News Philadelphia (720p)
 https://jmp2.uk/plu-5eb1b05ea168cc000767ba67.m3u8
 #EXTINF:-1 tvg-id="CBSNewsPhilly.usSD" tvg-logo="https://i.imgur.com/FmtTbNY.png" group-title="United States;News",CBS News Philadelphia (720p)
 https://cbsn-phi.cbsnstream.cbsnews.com/out/v1/5c9ad3e215984b0e9ad845b335216b72/master.m3u8
@@ -7045,7 +6980,7 @@ https://stream1.antenaplay.ro/live/ComedyPlay/chunklist.m3u8
 https://streams2.sofast.tv/WiseM3U8_27/sofast/cleanhls/master.m3u8
 #EXTINF:-1 tvg-id="ComedyTV.geSD" tvg-logo="https://i.imgur.com/i1TANKv.png" group-title="Georgia;Comedy",Comedy TV
 http://31.146.5.178:8087/play/a00b/index.m3u8
-#EXTINF:-1 group-title="Uncategorized",Comercio TV (1080p)
+#EXTINF:-1 tvg-id="ComercioTV.usSD" group-title="United States;Uncategorized",Comercio TV (1080p)
 https://amg00082-amg00082c1-distrotv-us-7248.playouts.now.amagi.tv/playlist/amg00082-tarima-comercio-distrotvus/playlist.m3u8
 #EXTINF:-1 tvg-id="ComercioTV.usSD" tvg-logo="https://www.amagi.com/hubfs/Group%202-3.png" group-title="United States;Uncategorized",Comercio TV (1080p)
 https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=16960
@@ -7407,7 +7342,7 @@ https://d2j2obpavpuw3t.cloudfront.net/CuriosityAnimales.m3u8
 https://d2bvy2sb4c0dbv.cloudfront.net/CuriosityEspanol.m3u8
 #EXTINF:-1 group-title="Uncategorized",Curiosity Motores (1080p)
 https://d5ts03kapml2e.cloudfront.net/CuriosityMotores.m3u8
-#EXTINF:-1 group-title="Uncategorized",Curiosity Now (1080p)
+#EXTINF:-1 tvg-id="CuriosityNOW.deEN" group-title="Germany;Uncategorized",Curiosity Now (1080p)
 https://amg00170-curiositystream-amg00170c3-rakuten-us-2289.playouts.now.amagi.tv/playlist/amg00170-curiositystreamllcfast-curiositynowrow-rakutenus/playlist.m3u8
 #EXTINF:-1 tvg-id="CuriosityNOW.deEN" tvg-logo="https://i.imgur.com/gJ9eMaG.png" group-title="Germany;Documentary",Curiosity Now (1080p)
 https://amg00170-amg00170c4-samsung-gb-4232.playouts.now.amagi.tv/playlist.m3u8
@@ -9422,7 +9357,7 @@ http://hls127.freeott.top:8080/1muz_HD/video.m3u8
 https://uni01rtmp.tulix.tv/firstlight/firstlight.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="FishTV.brSD" tvg-logo="https://www.fishtv.com/public/site/images/logos/fishtv.svg" group-title="Brazil;Outdoor",Fish TV (720p)
 http://45.162.64.114/FISH_TV/index.m3u8
-#EXTINF:-1 group-title="Uncategorized" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0",FITE 24/7 (1080p)
+#EXTINF:-1 tvg-id="FITE247.usSD" group-title="United States;Uncategorized" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0",FITE 24/7 (1080p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0
 https://d3d85c7qkywguj.cloudfront.net/v1/master/9d062541f2ff39b5c0f48b743c6411d25f62fc25/FiteTV-DistroTV/263.m3u8?ads.vf=d4xngnNL060
 #EXTINF:-1 tvg-id="FITE247.usSD" tvg-logo="https://i.imgur.com/ESV6qgH.png" group-title="United States;Sports",FITE 24/7 (1080p)
@@ -9461,7 +9396,7 @@ https://d3795432.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/U2Ftc3
 https://d21mkcgtx2frod.cloudfront.net/v1/aenetworks_flippingnation_1/samsungheadend_us/latest/main/hls/playlist.m3u8
 #EXTINF:-1 tvg-id="FloHockey.usHD" tvg-logo="https://images.fubo.tv/channel-config-ui/station-logos/on-dark/flohockey-white.png" group-title="United States;Sports",FloHockey 24/7 (1080p)
 https://amg02278-amg02278c2-flosports-worldwide-9916.playouts.now.amagi.tv/playlist.m3u8
-#EXTINF:-1 group-title="Uncategorized",FloRacing 24/7 (1080p)
+#EXTINF:-1 tvg-id="FloRacing.usHD" group-title="United States;Uncategorized",FloRacing 24/7 (1080p)
 https://amg02278-amg02278c1-distrotv-us-7534.playouts.now.amagi.tv/playlist/amg02278-flosports-floracing24x7-distrotvus/playlist.m3u8
 #EXTINF:-1 tvg-id="FloRacing.usHD" tvg-logo="https://images.fubo.tv/channel-config-ui/station-logos/on-dark/floracing-white.png" group-title="United States;Sports",FloRacing 24/7 (1080p)
 https://amg02278-amg02278c1-flosports-worldwide-7592.playouts.now.amagi.tv/playlist.m3u8
@@ -12826,7 +12761,7 @@ http://138.255.2.6:8084/LIFETIME/index.m3u8
 https://jmp2.uk/plu-63335b193583440007c859fb.m3u8
 #EXTINF:-1 group-title="Uncategorized",Lifetime Movie Favorites (720p) [Geo-blocked]
 https://pb-137agpk5fqieb.akamaized.net/v1/aenetworks_holidaymoviefavorites_1/samsungheadend_us/latest/main/hls/playlist.m3u8
-#EXTINF:-1 group-title="Uncategorized",Lifetime Movies (1080p)
+#EXTINF:-1 tvg-id="LifetimeMovies.usEast" group-title="United States;Uncategorized",Lifetime Movies (1080p)
 https://amg00276-amg00276c21-samsung-gb-5270.playouts.now.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="LifetimeMovies.usEast" tvg-logo="https://i.imgur.com/BWmqYTO.png" group-title="United States;Movies",Lifetime Movies (1080p)
 http://23.237.104.106:8080/USA_LMN/index.m3u8
@@ -15100,11 +15035,11 @@ https://mumt01.tangotv.in/O5aw8Zn3NETWORK10/index.m3u8
 https://cdn-dvr.ntv.ru/Nevskiy/index.m3u8
 #EXTINF:-1 tvg-id="NCTV79.usSD" tvg-logo="https://i.imgur.com/64sZVF9.jpg" group-title="United States;Uncategorized",New Canaan Television 79 (NCTV79) (New Canaan CT) (1080p)
 https://livestream.telvue.com/nctv791/f7b44cfafd5c52223d5498196c8a2e7b.sdp/playlist.m3u8
-#EXTINF:-1 group-title="Uncategorized",NEW KMOVIES (1080p)
+#EXTINF:-1 tvg-id="NEWKMOVIES.usSD" group-title="United States;Uncategorized",NEW KMOVIES (1080p)
 https://ads.its-newid.net/api/manifest.m3u8?ads.service_id=USAJ30000122O&channel_id=newid_342&tp=samsung_tvplus
 #EXTINF:-1 tvg-id="NEWKMOVIES.usSD" tvg-logo="https://i.imgur.com/wCgirjc.png" group-title="United States;Movies",NEW KMOVIES (1080p)
 https://ads.its-newid.net/api/manifest.m3u8?ads.service_id=GB1700007PK&channel_id=newid_343&tp=samsung_tvplus
-#EXTINF:-1 group-title="Uncategorized",NEW KPOP (1080p)
+#EXTINF:-1 tvg-id="NEWKPOP.usSD" group-title="United States;Uncategorized",NEW KPOP (1080p)
 https://ads.its-newid.net/api/manifest.m3u8?ads.service_id=USAJ3000013FJ&channel_id=newid_338&tp=samsung_tvplus
 #EXTINF:-1 tvg-id="NEWKPOP.usSD" tvg-logo="https://i.imgur.com/B7ILXMc.png" group-title="United States;Music",NEW KPOP (1080p)
 https://ads.its-newid.net/api/manifest.m3u8?ads.service_id=GB17000088V&channel_id=newid_086&tp=samsung_tvplus
@@ -19477,6 +19412,10 @@ https://5f204aff97bee.streamlock.net/RTTRlive/livestream/playlist.m3u8
 https://cloudvideo.servers10.com:19360/8212/8212.m3u8
 #EXTINF:-1 tvg-id="RTU.ecSD" tvg-logo="https://i.imgur.com/1OWvMP4.png" group-title="Ecuador;News",RTU (1080p)
 http://45.224.97.181:9999/RTU/index.m3u8
+#EXTINF:-1 tvg-id="RTV21.xkSD" tvg-logo="https://i.imgur.com/AqQltGh.png" group-title="Kosovo;Uncategorized",RTV21
+https://gjirafa-video-live.gjirafa.net/gjvideo-live/2cz-npl-jfn-9he/tracks-v2a1/mono.m3u8
+#EXTINF:-1 tvg-id="RTV38.itSD" tvg-logo="https://i.imgur.com/YOlwudm.png" group-title="Italy;Uncategorized",RTV38 (576p)
+https://845d8509d2cb4f249dd0b2ae5755b6c2.msvdn.net/rtv38/rtv38_live_main/mainabr/rtv38_live_main/main_576/chunks_dvr.m3u8
 #EXTINF:-1 tvg-id="RTVC.ciSD" tvg-logo="https://i.imgur.com/oXuSkHz.png" group-title="Ivory Coast;Religious",RTVC (720p)
 https://cdn140m.panaccess.com/HLS/RTVC/index.m3u8
 #EXTINF:-1 tvg-id="RTVCCardedeu.esSD" tvg-logo="https://i.imgur.com/rrCJyza.png" group-title="Spain;Uncategorized" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36 CrKey/1.44.191160",RTVC Cardedeu (1080p)
@@ -19926,6 +19865,36 @@ https://jmp2.uk/plu-63a1c9c2847a090007f248da.m3u8
 https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=2240
 #EXTINF:-1 tvg-id="ScrippsNews.usSD" tvg-logo="https://i.imgur.com/W0Jvi5o.png" group-title="United States;News",Scripps News (1080p)
 https://aegis-cloudfront-1.tubi.video/7e1c26b7-7975-4240-9a4f-480eaa8f3ea4/playlist.m3u8
+#EXTINF:-1 tvg-id="SCTV2.vnSD" tvg-logo="https://i.imgur.com/8i5DXIg.png" group-title="Vietnam;Uncategorized",SCTV2 (720p)
+https://liveh12.vtvprime.vn/hls/SCTV2/index.m3u8
+#EXTINF:-1 tvg-id="SCTV3.vnSD" tvg-logo="https://i.imgur.com/tfk298I.png" group-title="Vietnam;Uncategorized",SCTV3 (720p)
+https://vtvgolive-sctvdrm.vtvdigital.vn/bsod999cuteptgyoutuber/1234567890/manifest/sctv3/master.m3u8
+#EXTINF:-1 tvg-id="SCTV4.vnSD" tvg-logo="https://i.imgur.com/qkZhzQq.png" group-title="Vietnam;Uncategorized",SCTV4 (720p)
+https://vtvgolive-sctvdrm.vtvdigital.vn/manifest/sctv4/master.m3u8
+#EXTINF:-1 tvg-id="SCTV5.vnHD" tvg-logo="https://i.imgur.com/FYLs4yu.png" group-title="Vietnam;Uncategorized",SCTV5 (720p)
+https://liveh34.vtvprime.vn/hls/SCTV5/01.m3u8?note=TheWavesIPTV
+#EXTINF:-1 tvg-id="SCTV6.vnSD" tvg-logo="https://i.imgur.com/2oOVS42.png" group-title="Vietnam;Uncategorized",SCTV6 (1080p) [Geo-blocked]
+https://live.fptplay53.net/epzhd2/film360_vhls.smil/chunklist.m3u8
+#EXTINF:-1 tvg-id="SCTV7.vnSD" tvg-logo="https://i.imgur.com/xbIUZYd.png" group-title="Vietnam;Uncategorized",SCTV7 (720p)
+https://vtvgolive-sctvdrm.vtvdigital.vn/manifest/sctv7/master.m3u8
+#EXTINF:-1 tvg-id="SCTV9.vnSD" tvg-logo="https://i.imgur.com/OJMbhow.png" group-title="Vietnam;Uncategorized",SCTV9 (720p)
+https://vtvgolive-sctvdrm.vtvdigital.vn/manifest/sctv9/master.m3u8
+#EXTINF:-1 tvg-id="SCTV11.vnSD" tvg-logo="https://i.imgur.com/ZmFfy9o.png" group-title="Vietnam;Uncategorized",SCTV11 (720p)
+https://vtvgolive-sctvdrm.vtvdigital.vn/manifest/sctv11/master.m3u8
+#EXTINF:-1 tvg-id="SCTV12.vnSD" tvg-logo="https://i.imgur.com/5pDFkH0.png" group-title="Vietnam;Uncategorized",SCTV12 (720p)
+https://vtvgolive-sctvdrm.vtvdigital.vn/manifest/sctv12/master.m3u8
+#EXTINF:-1 tvg-id="SCTV13.vnSD" tvg-logo="https://i.imgur.com/aoz1iDw.png" group-title="Vietnam;Uncategorized",SCTV13 (720p)
+https://vtvgolive-sctvdrm.vtvdigital.vn/manifest/sctv13/master.m3u8
+#EXTINF:-1 tvg-id="SCTV14.vnSD" tvg-logo="https://i.imgur.com/rIqmRNK.png" group-title="Vietnam;Uncategorized",SCTV14 (720p)
+https://vtvgolive-sctvdrm.vtvdigital.vn/manifest/sctv14/master.m3u8
+#EXTINF:-1 tvg-id="SCTV16.vnSD" tvg-logo="https://i.imgur.com/ldCYtvt.png" group-title="Vietnam;Uncategorized",SCTV16 (720p)
+https://vtvgolive-sctvdrm.vtvdigital.vn/manifest/sctv16/master.m3u8
+#EXTINF:-1 tvg-id="SCTV18.vnSD" tvg-logo="https://i.imgur.com/FfUSlgI.png" group-title="Vietnam;Uncategorized",SCTV18 (720p)
+https://vtvgolive-sctvdrm.vtvdigital.vn/manifest/sctv18/master.m3u8
+#EXTINF:-1 tvg-id="SCTV19.vnSD" tvg-logo="https://i.imgur.com/yBAFZRs.png" group-title="Vietnam;Uncategorized",SCTV19 (720p)
+https://vtvgolive-sctvdrm.vtvdigital.vn/manifest/sctv19/master.m3u8
+#EXTINF:-1 tvg-id="SCTV20.vnSD" tvg-logo="https://i.imgur.com/7ABZhfZ.png" group-title="Vietnam;Uncategorized",SCTV20 (720p)
+https://vtvgolive-sctvdrm.vtvdigital.vn/manifest/sctv20/master.m3u8
 #EXTINF:-1 tvg-id="SCVTV.usSD" tvg-logo="https://i.imgur.com/qEsZbZz.png" group-title="United States;Uncategorized",SCVTV (Santa Clarita CA) (1080p)
 https://reflect-scvtv.cablecast.tv/live-2/live/live.m3u8
 #EXTINF:-1 group-title="Uncategorized",Se og Hør – rød løber
@@ -21129,7 +21098,7 @@ https://lotus.stingray.com/manifest/ose-010ads-montreal/samsungtvplus/master.m3u
 https://lotus.stingray.com/manifest/ose-013ads-montreal/samsungtvplus/master.m3u8
 #EXTINF:-1 group-title="Uncategorized",Stingray Franco Retro (1080p)
 https://lotus.stingray.com/manifest/ose-043ads-montreal/samsungtvplus/master.m3u8
-#EXTINF:-1 group-title="Uncategorized",Stingray Greatest Hits (1080p)
+#EXTINF:-1 tvg-id="StingrayGreatestHits.caPoland" group-title="Canada;Uncategorized",Stingray Greatest Hits (1080p)
 https://lotus.stingray.com/manifest/ose-455ads-montreal/samsungtvplus/master.m3u8
 #EXTINF:-1 tvg-id="StingrayGreatestHits.caPoland" group-title="Canada;Music",Stingray Greatest Hits (1080p)
 https://d39g1vxj2ef6in.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-rakuten-stitched/master.m3u8?ads.xumo_channelId=88883053
@@ -22886,7 +22855,7 @@ https://streamingcws30.com/tn8/videotn8/playlist.m3u8
 https://d3qt8k30mpy8xx.cloudfront.net/ts:abr.m3u8
 #EXTINF:-1 group-title="Uncategorized",TNA Wrestling (1080p)
 https://dpltey7dr5q2g.cloudfront.net/TNA_Wrestling.m3u8
-#EXTINF:-1 group-title="Uncategorized",TNA Wrestling (720p)
+#EXTINF:-1 tvg-id="TNAWrestlingChannel.plSD" group-title="Poland;Uncategorized",TNA Wrestling (720p)
 https://jmp2.uk/plu-62ea4dadce395f0007086df2.m3u8
 #EXTINF:-1 tvg-id="TNAWrestlingChannel.plSD" tvg-logo="https://provider-static.plex.tv/epg/cms/production/5d4f68c3-82af-45e7-b2c4-39aff69f3ce0/TNAWrestling_Plex_LogoforDarkBG_1500x1000_-_Alex_TushinghamRDX.png" group-title="Poland;Uncategorized",TNA Wrestling (720p)
 https://jmp2.uk/plu-59b722526996084038c01e1b.m3u8
@@ -23116,7 +23085,7 @@ https://channels.trace.plus/Traceprod/TRACE_SPORT_STARS_sd/index.m3u8
 https://channels.trace.plus/Traceprod/TERANGA_hd/index.m3u8
 #EXTINF:-1 tvg-id="TraceToca.frSD" tvg-logo="https://i.imgur.com/6SpWnBR.png" group-title="France;Music",Trace Toca (1080p)
 https://channels.trace.plus/Traceprod/TOCA_hd/index.m3u8
-#EXTINF:-1 group-title="Uncategorized",TRACE UK (1080p)
+#EXTINF:-1 tvg-id="TraceUK.ukHD" group-title="United Kingdom;Uncategorized",TRACE UK (1080p)
 https://amg01131-tracetv-amg01131c5-stirr-us-4389.playouts.now.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="TraceUK.ukHD" tvg-logo="https://a.jsrdn.com/hls/23073/trace-uk/logo_20240627_183320_70.png" group-title="United Kingdom;Music",Trace UK (1080p)
 https://channels.trace.plus/Traceprod/UK_FAST_hd/index.m3u8
@@ -23506,6 +23475,11 @@ https://hdbox.chunklistv.com/live?stream=3abn-nicaragua
 https://edge1.socialsmart.tv/tv52/bant1/playlist.m3u8
 #EXTINF:-1 tvg-id="TV78.frSD" tvg-logo="https://i.imgur.com/stzE1Ij.png" group-title="France;Uncategorized",TV78 (720p)
 https://streamtv.cdn.dvmr.fr/TV78/ngrp:tv78.stream_all/master.m3u8
+#EXTINF:-1 tvg-id="TV100.grSD" tvg-logo="https://i.imgur.com/OBH2DfE.png" group-title="Greece;Uncategorized",TV 100 (720p)
+https://gwebstream.net/hls/master.m3u8
+#EXTINF:-1 tvg-id="TV100.trSD" tvg-logo="https://upload.wikimedia.org/wikipedia/tr/thumb/0/0f/TV100_logo.png/960px-TV100_logo.png" group-title="Turkiye;Uncategorized" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 VLC/3.0.21 LibVLC/3.0.21",TV 100
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 VLC/3.0.21 LibVLC/3.0.21
+https://7nyaler.streamhostingcdn.top/stream/46/index.m3u8
 #EXTINF:-1 tvg-id="TV264.trSD" tvg-logo="https://i.imgur.com/tudXdOZ.png" group-title="Turkiye;Uncategorized",TV 264 (1080p)
 https://b01c02nl.mediatriple.net/videoonlylive/mtdxkkitgbrckilive/broadcast_5ee244263fd6d.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="TV1000.bgSD" tvg-logo="https://i.imgur.com/GHNsctR.png" group-title="Bulgaria;Movies" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.3",TV1000
@@ -25365,6 +25339,32 @@ https://vsin-sgrewind.streamguys1.com/scte/live-2k/playlist.m3u8
 https://jk3lzkn4lw79-hls-live.5centscdn.com/VTN2/bcaafe9ad8d42834b08e762ac58596b8.sdp/playlist.m3u8
 #EXTINF:-1 tvg-id="VTU.inSD" tvg-logo="https://i.imgur.com/zMwZRGJ.png" group-title="India;Uncategorized",VTU (1080p)
 https://lbgo.bozztv.com/ssh101/ssh101/afghantheatretv/playlist.m3u8
+#EXTINF:-1 tvg-id="VTV1.vnHD" tvg-logo="https://i.imgur.com/vZYlGIW.png" group-title="Vietnam;Uncategorized",VTV1 HD (1080p)
+https://live-a.fptplay53.net/live/media/vtv1/live247-hls-avc/index.m3u8
+#EXTINF:-1 tvg-id="VTV2.vnHD" tvg-logo="https://i.imgur.com/qWWpYRR.png" group-title="Vietnam;Uncategorized",VTV2 HD (1080p)
+https://live-a.fptplay53.net/live/media/vtv2/live247-hls-avc/index.m3u8
+#EXTINF:-1 tvg-id="VTV3.vnHD" tvg-logo="https://i.imgur.com/4lJG1fu.png" group-title="Vietnam;Uncategorized",VTV3 HD (1080p)
+https://live-a.fptplay53.net/live/media/vtv3/live247-hls-avc/index.m3u8
+#EXTINF:-1 tvg-id="VTV4.vnHD" tvg-logo="https://i.imgur.com/WsLLmR2.png" group-title="Vietnam;Uncategorized",VTV4 HD (1080p)
+https://live-a.fptplay53.net/live/media/vtv4/live247-hls-avc/index.m3u8
+#EXTINF:-1 tvg-id="VTV5.vnHD" tvg-logo="https://i.imgur.com/Vnnna1C.png" group-title="Vietnam;Uncategorized",VTV5 HD (1080p)
+https://live-a.fptplay53.net/live/media/vtv5/live247-hls-avc/index.m3u8
+#EXTINF:-1 tvg-id="VTV5TayNamBo.vnHD" tvg-logo="https://i.imgur.com/xiuHjEQ.png" group-title="Vietnam;Uncategorized",VTV5 Tay Nam Bo HD (1080p)
+https://live-a.fptplay53.net/live/media/vtv5tnb/live-hls-avc/index.m3u8
+#EXTINF:-1 tvg-id="VTV5TayNguyen.vnHD" tvg-logo="https://i.imgur.com/Hlcnqqt.png" group-title="Vietnam;Uncategorized",VTV5 Tay Nguyen HD (1080p)
+https://vips-livecdn.fptplay.net/live/media/vtv5tn/live-hls-avc/index.m3u8
+#EXTINF:-1 tvg-id="VTV6.vnHD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/VTV6_logo_2026_final.svg/960px-VTV6_logo_2026_final.svg.png" group-title="Vietnam;Sports",VTV6 (1080p)
+https://live-a.fptplay53.net/live/media/vtv6/live247-hls-avc/index.m3u8
+#EXTINF:-1 tvg-id="VTV7.vnHD" tvg-logo="https://i.imgur.com/ZwoP823.png" group-title="Vietnam;Uncategorized",VTV7 HD (1080p)
+https://live-a.fptplay53.net/live/media/vtv7/live247-hls-avc/index.m3u8
+#EXTINF:-1 tvg-id="VTV8.vnHD" tvg-logo="https://i.imgur.com/rf9adGJ.png" group-title="Vietnam;Uncategorized",VTV8 HD (1080p)
+https://live-a.fptplay53.net/live/media/vtv8/live247-hls-avc/index.m3u8
+#EXTINF:-1 tvg-id="VTV9.vnHD" tvg-logo="https://i.imgur.com/QiY55sy.png" group-title="Vietnam;Uncategorized",VTV9 HD (1080p)
+https://live-a.fptplay53.net/live/media/vtv9/live247-hls-avc/index.m3u8
+#EXTINF:-1 tvg-id="VTV10.vnHD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/VTV10_logo_2026.png/960px-VTV10_logo_2026.png" group-title="Vietnam;Uncategorized",VTV10 (1080p)
+https://live-a.fptplay53.net/live/media/vtv10/live247-hls-avc/index.m3u8
+#EXTINF:-1 tvg-id="VTV10.vnSD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/VTV10_logo_2026.png/960px-VTV10_logo_2026.png" group-title="Vietnam;Uncategorized",VTV10 (1080p) [Geo-blocked]
+https://live.fptplay53.net/fnxhd1/vtvcantho_vhls.smil/chunklist.m3u8
 #EXTINF:-1 tvg-id="VyasChannel.inSD" tvg-logo="https://www.yupptv.com/seo_img/UGC_GEC_big.jpg" group-title="India;Education",Vyas NIC (576p)
 https://playhls.media.nic.in/hls/live/vyas/vyas.m3u8
 #EXTINF:-1 tvg-id="VychodoceskaTV.czSD" tvg-logo="https://i.imgur.com/4Wwptd3.png" group-title="Czech Republic;Uncategorized",Východočeská TV (1080p)
@@ -25432,11 +25432,11 @@ https://tgn2.bozztv.com/watc57/watc57-1/watc57-1/index.m3u8
 https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=2245
 #EXTINF:-1 tvg-id="WatchitScream.usSD" tvg-logo="https://i.imgur.com/bz3Caum.png" group-title="United States;Movies",Watch it Scream! (720p)
 https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=2246
-#EXTINF:-1 group-title="Uncategorized",Waterbear (1080p)
+#EXTINF:-1 tvg-id="WaterBear.chSD" group-title="Switzerland;Uncategorized",Waterbear (1080p)
 https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01415-waterbearnetwor-waterbear-samsungnl/playlist.m3u8
-#EXTINF:-1 group-title="Uncategorized",Waterbear (1080p)
+#EXTINF:-1 tvg-id="WaterBear.chSD" group-title="Switzerland;Uncategorized",Waterbear (1080p)
 https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01415-waterbearnetwor-waterbear-samsungse/playlist.m3u8
-#EXTINF:-1 group-title="Uncategorized",Waterbear (1080p)
+#EXTINF:-1 tvg-id="WaterBear.chSD" group-title="Switzerland;Uncategorized",Waterbear (1080p)
 https://waterbear-waterbear-rakuten.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="WaterBear.chSD" tvg-logo="https://framerusercontent.com/images/41VQQ7F0fYlp1MX1N4Ixog5QnPI.png" group-title="Switzerland;Documentary;Outdoor",WaterBear (1080p)
 https://amg01415-waterbearnetwor-waterbear-samsunguk-1h0y8.amagi.tv/playlist/amg01415-waterbearnetwor-waterbear-samsunguk/playlist.m3u8
@@ -25965,7 +25965,7 @@ https://d726x48n2pd5h.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a
 https://amg01243-xitenetworksint-hitsuk-samsunguk-mvovq.amagi.tv/playlist/amg01243-xitenetworksint-hitsuk-samsunguk/playlist.m3u8
 #EXTINF:-1 tvg-id="XITEJustChill.nlUS" tvg-logo="https://provider-static.plex.tv/epg/cms/production/927dd614-017d-49dd-9eb9-0ed79d09084e/xitejustchill_logo_light_-_Arlette_FiranRDX.png" group-title="Netherlands;Music",XITE Just Chill (1080p)
 https://dvnftgdlbnemm.cloudfront.net/XITE_Just_Chill.m3u8
-#EXTINF:-1 group-title="Uncategorized",XITE Nuevo Latino (1080p)
+#EXTINF:-1 tvg-id="XITENuevoLatino.usSD" group-title="United States;Uncategorized",XITE Nuevo Latino (1080p)
 https://d3bsgqzbpkrvbb.cloudfront.net/XITE_Nuevo_Latino.m3u8
 #EXTINF:-1 tvg-id="XITENuevoLatino.usSD" tvg-logo="https://i.imgur.com/2qyl2y3.png" group-title="United States;Music",XITE Nuevo Latino (1080p)
 https://d3bsgqzbpkrvbb.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-w288eaw03izg1/XITE_Nuevo_Latino.m3u8
@@ -25975,7 +25975,7 @@ https://pb-bakywpoa0kn1n.akamaized.net/XITE_RnB_Classic_Jams.m3u8
 https://dw2m7yrngfg8c.cloudfront.net/XITE_Reggae_Vibes.m3u8
 #EXTINF:-1 tvg-id="XITERockxMetal.nlUS" tvg-logo="https://i.imgur.com/uIIUIuN.png" group-title="Netherlands;Music",XITE Rock x Metal (1080p)
 https://d198ro05q94rc4.cloudfront.net/XITE_Rock_On.m3u8
-#EXTINF:-1 group-title="Uncategorized",XITE Siempre Latino (1080p)
+#EXTINF:-1 tvg-id="XITESiempreLatino.usSD" group-title="United States;Uncategorized",XITE Siempre Latino (1080p)
 https://d1xc25jm9e0l4b.cloudfront.net/XITE_Siempre_Latino.m3u8
 #EXTINF:-1 tvg-id="XITESiempreLatino.usSD" tvg-logo="https://i.imgur.com/bwmIEgG.png" group-title="United States;Music",XITE Siempre Latino (1080p)
 https://d1xc25jm9e0l4b.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-xplkt8i7m24dc/XITE_Siempre_Latino.m3u8
@@ -27329,7 +27329,7 @@ http://117.169.120.140:8080/live/xizangstv/.m3u8
 http://183.207.249.16/PLTV/3/224/3221225523/index.m3u8
 #EXTINF:-1 group-title="Uncategorized",贝爷影厅
 http://epg.112114.xyz/douyu/252802
-#EXTINF:-1 group-title="Uncategorized",贵州卫视 (576p)
+#EXTINF:-1 tvg-id="GuizhouTV.cnSD" group-title="China;Uncategorized",贵州卫视 (576p)
 http://39.134.115.163:8080/PLTV/88888910/224/3221225728/index.m3u8
 #EXTINF:-1 tvg-id="GuizhouTV.cnSD" tvg-logo="https://i.imgur.com/nkcKCdr.png" group-title="China;Uncategorized",贵州卫视 (576p)
 http://183.207.248.71/gitv/live1/G_GUIZHOU/G_GUIZHOU
