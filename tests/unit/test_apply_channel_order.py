@@ -58,9 +58,18 @@ class TestPrefixFallback:
         assert set(_names(result)[:2]) == {"RCTI Prime", "RCTI"}
         assert _names(result)[2] == "Other"
 
-    def test_digit_suffix_with_no_separator_counts_as_a_boundary(self):
-        result = _run([["RCTI"]], "RCTI3", "Other")
-        assert _names(result) == ["RCTI3", "Other"]
+    def test_digit_directly_after_name_is_not_a_boundary(self):
+        # Confirmed real-world case: Vietnam's "SCTV11".."SCTV19" are
+        # a *different* broadcaster from Indonesia's "SCTV" (different
+        # tvg-id country suffix) that happens to share the brand
+        # prefix with no separator. Must not be grouped together.
+        result = _run([["SCTV"]], "SCTV11 (720p)", "SCTV", "Other")
+        assert _names(result) == ["SCTV", "SCTV11 (720p)", "Other"]
+
+    def test_digit_after_a_separator_still_matches(self):
+        result = _run([["RCTI"]], "RCTI 2", "Other", "RCTI")
+        assert set(_names(result)[:2]) == {"RCTI 2", "RCTI"}
+        assert _names(result)[2] == "Other"
 
     def test_unrelated_channel_sharing_a_letter_prefix_is_not_matched(self):
         # "RCTINews" has no word boundary after "RCTI" - must not be
