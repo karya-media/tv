@@ -77,7 +77,20 @@ jobs:
             echo "No changes to commit."
           else
             git commit -m "chore: automated playlist merge, validation, and report [skip ci]"
-            git push
+            # main can move between this job's checkout and this push
+            # (e.g. a PR merging concurrently) - retry with a rebase
+            # instead of failing the whole run over a race condition.
+            for attempt in 1 2 3 4 5; do
+              if git push; then
+                break
+              fi
+              echo "Push rejected (attempt $attempt/5) - pulling and retrying..."
+              git pull --rebase origin main
+              if [ "$attempt" = "5" ]; then
+                echo "::error::Failed to push after 5 attempts."
+                exit 1
+              fi
+            done
           fi
 
       - name: Upload reports as workflow artifact
