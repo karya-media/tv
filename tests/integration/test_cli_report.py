@@ -111,3 +111,30 @@ def test_report_command_fails_cleanly_with_no_categories(tmp_path: Path, monkeyp
     result = runner.invoke(cli_main.app, ["report", "--skip-streams", "--skip-logos"])
     assert result.exit_code == 1
     get_settings.cache_clear()
+
+
+def test_report_command_survives_a_broken_epg_source(isolated_settings: Settings, tmp_path: Path):
+    """A slow/unreachable/malformed EPG source must not take down the
+    whole report - the merge/stream/logo results are still valid and
+    worth publishing. Simulated here with a nonexistent local path,
+    which raises the same PlaylistFetchError family a real network
+    failure or timeout would."""
+    missing_epg_path = tmp_path / "does-not-exist.xml"
+    result = runner.invoke(
+        cli_main.app,
+        [
+            "report",
+            "--skip-streams",
+            "--skip-logos",
+            "--formats",
+            "json",
+            "--epg",
+            str(missing_epg_path),
+        ],
+    )
+    assert result.exit_code == 0, result.output
+    assert "EPG matching skipped due to an error" in result.output
+
+    reports_dir = isolated_settings.project_root / isolated_settings.reports_dir
+    assert (reports_dir / "report.json").exists()
+    assert isolated_settings.master_playlist_path.exists()

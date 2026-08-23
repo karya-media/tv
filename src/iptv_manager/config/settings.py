@@ -78,7 +78,7 @@ class Settings(BaseSettings):
     # used for --epg tvg-id matching: EPG files (especially aggregated
     # multi-source ones) can be tens of megabytes, much larger than a
     # single stream's validation request.
-    epg_fetch_timeout_seconds: float = 60.0
+    epg_fetch_timeout_seconds: float = 120.0
 
     # --- Playlist parsing/repair ---
     default_encoding: str = "utf-8"
