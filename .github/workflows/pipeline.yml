@@ -28,7 +28,15 @@ permissions:
 
 concurrency:
   group: iptv-pipeline-${{ github.ref }}
-  cancel-in-progress: true
+  # Queue instead of killing an in-progress run: this pipeline now
+  # does real, potentially slow work (validating thousands of streams,
+  # fetching a large EPG file) - cancelling it mid-way wastes that work
+  # and surfaces as a confusing "Error: The operation was canceled."
+  # rather than a real failure. A scheduled run and a manual "Run
+  # workflow" click share this same group (both trigger on the same
+  # ref), so this also protects against accidentally cancelling one by
+  # triggering the other while it's still running.
+  cancel-in-progress: false
 
 jobs:
   pipeline:

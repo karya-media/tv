@@ -462,31 +462,43 @@ def generate_report(
 
     epg_comparison = None
     if epg_source:
-        source = (
-            RemoteUrlPlaylistSource(
-                epg_source,
-                timeout=settings.epg_fetch_timeout_seconds,
-                user_agent=settings.user_agent,
+        try:
+            source = (
+                RemoteUrlPlaylistSource(
+                    epg_source,
+                    timeout=settings.epg_fetch_timeout_seconds,
+                    user_agent=settings.user_agent,
+                )
+                if _is_url_generic(epg_source)
+                else LocalFilePlaylistSource(epg_source)
             )
-            if _is_url_generic(epg_source)
-            else LocalFilePlaylistSource(epg_source)
-        )
-        raw_xmltv = asyncio.run(source.fetch())
-        epg_channels = XMLTVParser().parse(raw_xmltv)
-        merge_result.master = MatchTvgIdFromEpgUseCase().execute(merge_result.master, epg_channels)
-        epg_comparison = CompareWithXMLTVUseCase().execute(merge_result.master, epg_channels)
-        # tvg-id may have just changed above - re-serialize master.m3u
-        # (already written once inside _merge_and_publish) so the
-        # newly-filled tvg-ids actually reach the published file.
-        updated_master_text = parser.serialize(merge_result.master, epg_url=settings.epg_url)
-        settings.master_playlist_path.write_text(updated_master_text, encoding="utf-8")
-        if settings.publish_target in (PublishTarget.PAGES_ONLY, PublishTarget.BOTH):
-            settings.docs_master_playlist_path.write_text(updated_master_text, encoding="utf-8")
-        typer.echo(
-            f"Compared against {len(epg_channels)} EPG channel(s): "
-            f"{len(epg_comparison.invalid_tvg_id)} invalid tvg-id, "
-            f"{len(epg_comparison.unused_epg_entries)} unused EPG entries"
-        )
+            raw_xmltv = asyncio.run(source.fetch())
+            epg_channels = XMLTVParser().parse(raw_xmltv)
+            merge_result.master = MatchTvgIdFromEpgUseCase().execute(
+                merge_result.master, epg_channels
+            )
+            epg_comparison = CompareWithXMLTVUseCase().execute(merge_result.master, epg_channels)
+            # tvg-id may have just changed above - re-serialize
+            # master.m3u (already written once inside
+            # _merge_and_publish) so the newly-filled tvg-ids actually
+            # reach the published file.
+            updated_master_text = parser.serialize(merge_result.master, epg_url=settings.epg_url)
+            settings.master_playlist_path.write_text(updated_master_text, encoding="utf-8")
+            if settings.publish_target in (PublishTarget.PAGES_ONLY, PublishTarget.BOTH):
+                settings.docs_master_playlist_path.write_text(
+                    updated_master_text, encoding="utf-8"
+                )
+            typer.echo(
+                f"Compared against {len(epg_channels)} EPG channel(s): "
+                f"{len(epg_comparison.invalid_tvg_id)} invalid tvg-id, "
+                f"{len(epg_comparison.unused_epg_entries)} unused EPG entries"
+            )
+        except Exception as exc:  # noqa: BLE001 - EPG is best-effort, never fatal
+            # A slow/unreachable/malformed third-party EPG source must
+            # never take down the whole report - the merge/stream/logo
+            # results above are still valid and worth publishing.
+            typer.echo(f"EPG matching skipped due to an error: {exc}", err=True)
+            epg_comparison = None
 
     report: ValidationReport = GenerateReportUseCase().execute(
         master_playlist_name="master",
