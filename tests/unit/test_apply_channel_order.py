@@ -6,10 +6,15 @@ from iptv_manager.application.use_cases.apply_channel_order import (
 from iptv_manager.domain.entities.channel import Channel
 from iptv_manager.domain.entities.playlist import Playlist
 from iptv_manager.domain.value_objects.stream_url import StreamUrl
+from iptv_manager.domain.value_objects.tvg_id import TvgId
 
 
-def _channel(name: str) -> Channel:
-    return Channel(name=name, url=StreamUrl.parse(f"http://example.com/{name}.m3u8"))
+def _channel(name: str, tvg_id: str | None = None) -> Channel:
+    return Channel(
+        name=name,
+        url=StreamUrl.parse(f"http://example.com/{name}.m3u8"),
+        tvg_id=TvgId.parse(tvg_id),
+    )
 
 
 def _names(playlist: Playlist) -> list[str]:
@@ -115,3 +120,67 @@ class TestPrefixFallback:
         assert set(_names(result)[:3]) == {"RCTI Prime", "RCTI 2", "RCTI"}
         assert _names(result)[3] == "MNCTV"
         assert _names(result)[4] == "RCTI World"
+
+
+class TestCountryGuard:
+    """A textual word-boundary match alone isn't enough evidence: a
+    channel whose tvg-id confirms it's from a specific, different
+    country must never be pulled into another country's slot just
+    because it happens to share a common word as a name prefix."""
+
+    def test_foreign_channel_with_word_boundary_is_not_swept_in(self):
+        # Real case: India's "INews (720p)" and Iraq's "iNEWS TV" both
+        # satisfy the plain textual prefix rule against Indonesia's
+        # "iNews" slot.
+        playlist = Playlist(
+            name="test",
+            channels=[
+                _channel("Other"),
+                _channel("INews (720p)", tvg_id="INews.inSD"),
+                _channel("iNEWS TV (1080p)", tvg_id="INews.iqSD"),
+                _channel("iNews", tvg_id="iNews.id"),
+            ],
+        )
+        result = ApplyChannelOrderUseCase().execute([["iNews"]], playlist)
+        assert _names(result)[0] == "iNews"
+        assert set(_names(result)[1:]) == {"Other", "INews (720p)", "iNEWS TV (1080p)"}
+
+    def test_channel_with_no_derivable_country_still_matches(self):
+        # No tvg-id at all - still allowed through, since this is
+        # exactly the "genuinely new, unlisted Indonesian variant"
+        # case the prefix fallback exists for.
+        playlist = Playlist(
+            name="test",
+            channels=[
+                _channel("Other"),
+                _channel("iNews Prime"),
+                _channel("iNews", tvg_id="iNews.id"),
+            ],
+        )
+        result = ApplyChannelOrderUseCase().execute([["iNews"]], playlist)
+        assert set(_names(result)[:2]) == {"iNews Prime", "iNews"}
+        assert _names(result)[2] == "Other"
+
+    def test_channel_confirmed_indonesian_still_matches(self):
+        playlist = Playlist(
+            name="test",
+            channels=[
+                _channel("Other"),
+                _channel("iNews Prime", tvg_id="iNewsPrime.id"),
+                _channel("iNews", tvg_id="iNews.id"),
+            ],
+        )
+        result = ApplyChannelOrderUseCase().execute([["iNews"]], playlist)
+        assert set(_names(result)[:2]) == {"iNews Prime", "iNews"}
+        assert _names(result)[2] == "Other"
+
+    def test_exact_match_is_never_blocked_by_the_country_guard(self):
+        # The guard only applies to the *prefix fallback* (pass 2) -
+        # an exact listed alternative always wins regardless of
+        # tvg-id, since the user explicitly named it.
+        playlist = Playlist(
+            name="test",
+            channels=[_channel("Other"), _channel("TV One", tvg_id="TVOne.ukSD")],
+        )
+        result = ApplyChannelOrderUseCase().execute([["TV One"]], playlist)
+        assert _names(result) == ["TV One", "Other"]
