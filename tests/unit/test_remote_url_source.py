@@ -38,3 +38,15 @@ def test_gzip_detection_does_not_misfire_on_plain_text():
     # be mistaken for gzip and mangled.
     result = _source()._decode(b"hello world")
     assert result == "hello world"
+
+
+def test_maybe_decompress_leaves_plain_bytes_unchanged():
+    # Shared by fetch() (via _decode) and fetch_bytes() - the bytes
+    # path used for large XMLTV sources to avoid a str round-trip.
+    assert _source()._maybe_decompress(b"plain content") == b"plain content"
+
+
+def test_maybe_decompress_decompresses_gzip_bytes():
+    original = b"some raw xml content"
+    compressed = gzip.compress(original)
+    assert _source()._maybe_decompress(compressed) == original

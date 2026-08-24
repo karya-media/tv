@@ -68,3 +68,14 @@ def test_completely_non_xml_input_yields_empty_list_without_raising(parser: XMLT
 
 def test_empty_string_yields_empty_list(parser: XMLTVParser):
     assert parser.parse("") == []
+
+
+def test_parses_raw_bytes_directly_without_a_str_round_trip(parser: XMLTVParser):
+    raw_bytes = FIXTURES.joinpath("epg.xml").read_bytes()
+    channels = parser.parse(raw_bytes)
+    ids = {c.id for c in channels}
+    assert ids == {"espn.us", "cnn.us", "unused.channel.us"}
+
+
+def test_empty_bytes_yields_empty_list(parser: XMLTVParser):
+    assert parser.parse(b"") == []
