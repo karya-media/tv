@@ -1,7 +1,3 @@
-TVRI
-TVRI Nasional
-TVRI Sport
-TVRI World
 RCTI|RCTI HD|RCTI HD (720p)|RCTI 2|RCTI Vision+|RCTI V+|RCTI R+|RCTI.id
 MNCTV
 GTV
@@ -47,6 +43,10 @@ SurauTV|Surau TV
 Salam TV
 U Channel
 Light Channel (480p) [Not 24/7]|Light Channel (576p) [Not 24/7]
+TVRI
+TVRI Nasional
+TVRI Sport
+TVRI World
 TVRI Aceh
 TVRI Sumatera Utara
 TVRI Sumatera Barat
@@ -239,7 +239,6 @@ New TV Comprehensive
 New TV Finance
 New TV Variety
 Nick Jr. Indonesia
-
 TV 10
 TV9
 TVRI NTB
