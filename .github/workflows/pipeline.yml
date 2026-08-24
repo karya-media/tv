@@ -72,9 +72,18 @@ jobs:
           # Public XMLTV URL - not a secret, so it lives here directly
           # rather than in GitHub Secrets. Written into master.m3u's
           # "#EXTM3U url-tvg=..." header so players auto-load a guide.
+          #
+          # Deliberately NOT passed to `report --epg`: the tvg-id
+          # matching feature is fully implemented and tested (see
+          # MatchTvgIdFromEpgUseCase / `iptv-manager check-epg`), but
+          # this specific aggregated source is large enough that
+          # fetching+parsing it here reliably killed the job (OOM /
+          # cancelled, even after streaming-friendly bytes parsing).
+          # Run it manually with a smaller/more targeted XMLTV source
+          # instead: `iptv-manager report --epg <url-or-path>`.
           IPTV_EPG_URL: "https://epgshare01.online/epgshare01/epg_ripper_ALL_SOURCES1.xml.gz"
         run: |
-          iptv-manager report --formats html,json,csv,xlsx --epg "$IPTV_EPG_URL"
+          iptv-manager report --formats html,json,csv,xlsx
 
       - name: Commit and push updated playlist/reports
         run: |
