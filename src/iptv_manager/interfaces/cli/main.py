@@ -352,6 +352,21 @@ def _is_url_generic(source: str) -> bool:
     return source.startswith("http://") or source.startswith("https://")
 
 
+async def _fetch_epg_content(
+    source: RemoteUrlPlaylistSource | LocalFilePlaylistSource,
+) -> str | bytes:
+    """Fetch an XMLTV EPG source, preferring the memory-lighter bytes
+    path (RemoteUrlPlaylistSource.fetch_bytes()) when available - a
+    large aggregated EPG file decompressed and text-decoded twice over
+    is the difference between this succeeding and the process being
+    OOM-killed on a memory-constrained CI runner. LocalFilePlaylistSource
+    has no such method (local files are assumed small); fall back to
+    its normal str fetch() in that case."""
+    if isinstance(source, RemoteUrlPlaylistSource):
+        return await source.fetch_bytes()
+    return await source.fetch()
+
+
 @app.command("check-epg")
 def check_epg(
     xmltv_source: str = typer.Argument(
@@ -385,7 +400,7 @@ def check_epg(
         if _is_url_generic(xmltv_source)
         else LocalFilePlaylistSource(xmltv_source)
     )
-    raw_xmltv = asyncio.run(epg_source.fetch())
+    raw_xmltv = asyncio.run(_fetch_epg_content(epg_source))
     epg_channels = XMLTVParser().parse(raw_xmltv)
 
     result = CompareWithXMLTVUseCase().execute(playlist, epg_channels)
@@ -472,7 +487,7 @@ def generate_report(
                 if _is_url_generic(epg_source)
                 else LocalFilePlaylistSource(epg_source)
             )
-            raw_xmltv = asyncio.run(source.fetch())
+            raw_xmltv = asyncio.run(_fetch_epg_content(source))
             epg_channels = XMLTVParser().parse(raw_xmltv)
             merge_result.master = MatchTvgIdFromEpgUseCase().execute(
                 merge_result.master, epg_channels

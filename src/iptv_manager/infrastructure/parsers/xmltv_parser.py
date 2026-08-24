@@ -28,12 +28,19 @@ class XMLTVParseError(ValueError):
 class XMLTVParser:
     """Concrete implementation of domain.ports.EPGParser."""
 
-    def parse(self, raw_text: str) -> list[EPGChannel]:
+    def parse(self, raw_content: str | bytes) -> list[EPGChannel]:
         channels: list[EPGChannel] = []
-        if not raw_text or not raw_text.strip():
+        if not raw_content or not raw_content.strip():
             return channels
         try:
-            stream = BytesIO(raw_text.encode("utf-8"))
+            # bytes go straight to lxml, which detects the document's
+            # real encoding from its XML declaration - this also
+            # avoids holding a second full-size copy of a large file
+            # in memory just to re-encode text back to bytes.
+            raw_bytes = (
+                raw_content if isinstance(raw_content, bytes) else raw_content.encode("utf-8")
+            )
+            stream = BytesIO(raw_bytes)
             context = etree.iterparse(
                 stream, events=("end",), tag="channel", recover=True
             )

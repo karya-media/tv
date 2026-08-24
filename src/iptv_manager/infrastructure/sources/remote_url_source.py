@@ -61,14 +61,46 @@ class RemoteUrlPlaylistSource:
 
         return self._decode(response.content)
 
+    async def fetch_bytes(self) -> bytes:
+        """Like fetch(), but returns raw (gzip-decompressed if needed)
+        bytes without ever text-decoding them.
+
+        Meant for large XML sources (e.g. an aggregated multi-source
+        XMLTV EPG file, which can decompress to several hundred MB or
+        more): lxml can parse bytes directly and detect the document's
+        real encoding itself, so skipping the str round-trip avoids
+        holding two more full-size copies of the content in memory at
+        once - the difference between this succeeding and the process
+        being OOM-killed on a memory-constrained CI runner.
+        """
+        headers = {"User-Agent": self._user_agent}
+        try:
+            async with httpx.AsyncClient(timeout=self._timeout, follow_redirects=True) as client:
+                response = await client.get(self._url, headers=headers)
+                response.raise_for_status()
+        except httpx.TimeoutException as exc:
+            raise PlaylistFetchError(f"timed out fetching {self._url}") from exc
+        except httpx.HTTPStatusError as exc:
+            raise PlaylistFetchError(
+                f"HTTP {exc.response.status_code} fetching {self._url}"
+            ) from exc
+        except httpx.HTTPError as exc:
+            raise PlaylistFetchError(f"failed to fetch {self._url}: {exc}") from exc
+
+        return self._maybe_decompress(response.content)
+
+    def _maybe_decompress(self, raw_bytes: bytes) -> bytes:
+        if not raw_bytes.startswith(_GZIP_MAGIC):
+            return raw_bytes
+        try:
+            return gzip.decompress(raw_bytes)
+        except OSError as exc:
+            raise PlaylistFetchError(
+                f"looked gzip-compressed but failed to decompress: {self._url}"
+            ) from exc
+
     def _decode(self, raw_bytes: bytes) -> str:
-        if raw_bytes.startswith(_GZIP_MAGIC):
-            try:
-                raw_bytes = gzip.decompress(raw_bytes)
-            except OSError as exc:
-                raise PlaylistFetchError(
-                    f"looked gzip-compressed but failed to decompress: {self._url}"
-                ) from exc
+        raw_bytes = self._maybe_decompress(raw_bytes)
         for encoding in _FALLBACK_ENCODINGS:
             try:
                 return raw_bytes.decode(encoding)
