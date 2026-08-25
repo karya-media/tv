@@ -1,2 +1,3 @@
 beetv=https://beetv.my.id/
 iptv-org=https://iptv-org.github.io/iptv/index.m3u
+Kitkat=https://raw.githubusercontent.com/Bluestraveller13/super-duper-spork/refs/heads/main/KITKATJOSS
