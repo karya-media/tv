@@ -89,6 +89,64 @@ def _is_confirmed_foreign(channel: Channel) -> bool:
     return country is not None and country != _TARGET_COUNTRY
 
 
+def group_channels_by_slot(
+    priority_slots: list[list[str]], channels: list[Channel]
+) -> list[list[int]]:
+    """For each priority slot (in file order), return the indices of
+    every channel matched to it - exact alternatives first, then the
+    country-guarded prefix fallback - in their original relative
+    order. A channel matches at most one slot (the earliest one it's
+    eligible for).
+
+    Shared by ApplyChannelOrderUseCase (uses this to decide display
+    order) and LimitChannelVariantsUseCase (uses the same grouping to
+    decide which near-duplicate variants of one channel to keep) so
+    the two can never disagree about which channels belong together.
+    """
+    indices_by_name: dict[str, list[int]] = {}
+    for index, channel in enumerate(channels):
+        indices_by_name.setdefault(_normalize(channel.name), []).append(index)
+
+    def exact_matches(alternatives: list[str]) -> set[int]:
+        matches: set[int] = set()
+        for name in alternatives:
+            matches.update(indices_by_name.get(_normalize(name), []))
+        return matches
+
+    # Every index that's an exact match for *some* slot, computed up
+    # front across the whole file - not just the slots seen so far.
+    # This is what lets a channel with its own explicit slot later in
+    # the file (e.g. "RCTI World") stay reserved for that slot even
+    # while an earlier slot ("RCTI") is being placed, so its prefix
+    # rule never has a chance to steal it.
+    exact_claimed: set[int] = set()
+    for alternatives in priority_slots:
+        exact_claimed |= exact_matches(alternatives)
+
+    placed = [False] * len(channels)
+    groups: list[list[int]] = []
+
+    for alternatives in priority_slots:
+        if not alternatives:
+            groups.append([])
+            continue
+        primary = alternatives[0]
+        slot_indices = exact_matches(alternatives) | {
+            index
+            for index, channel in enumerate(channels)
+            if index not in exact_claimed
+            and not placed[index]
+            and not _is_confirmed_foreign(channel)
+            and _is_prefix_match(channel.name, primary)
+        }
+        group = sorted(i for i in slot_indices if not placed[i])
+        for index in group:
+            placed[index] = True
+        groups.append(group)
+
+    return groups
+
+
 class ApplyChannelOrderUseCase:
     """Pure domain logic, no I/O - the caller reads
     data/channel_order.txt and passes in the parsed name list."""
@@ -98,52 +156,15 @@ class ApplyChannelOrderUseCase:
             return playlist
 
         channels = list(playlist)
+        groups = group_channels_by_slot(priority_slots, channels)
 
-        # Group channel *indices* (not values) by normalized name, so
-        # placement is unambiguous even if two channels are otherwise
-        # identical - no reliance on Channel equality/hashing.
-        indices_by_name: dict[str, list[int]] = {}
-        for index, channel in enumerate(channels):
-            indices_by_name.setdefault(_normalize(channel.name), []).append(index)
-
-        def exact_matches(alternatives: list[str]) -> set[int]:
-            matches: set[int] = set()
-            for name in alternatives:
-                matches.update(indices_by_name.get(_normalize(name), []))
-            return matches
-
-        # Every index that's an exact match for *some* slot, computed
-        # up front across the whole file - not just the slots seen so
-        # far. This is what lets a channel with its own explicit slot
-        # later in the file (e.g. "RCTI World") stay reserved for that
-        # slot even while an earlier slot ("RCTI") is being placed, so
-        # its prefix rule never has a chance to steal it.
-        exact_claimed: set[int] = set()
-        for alternatives in priority_slots:
-            exact_claimed |= exact_matches(alternatives)
-
-        placed = [False] * len(channels)
-        ordered: list[Channel] = []
-
-        for alternatives in priority_slots:
-            if not alternatives:
-                continue
-            primary = alternatives[0]
-            slot_indices = exact_matches(alternatives) | {
-                index
-                for index, channel in enumerate(channels)
-                if index not in exact_claimed
-                and not placed[index]
-                and not _is_confirmed_foreign(channel)
-                and _is_prefix_match(channel.name, primary)
-            }
-            for index in sorted(i for i in slot_indices if not placed[i]):
-                ordered.append(channels[index])
-                placed[index] = True
-
+        placed_indices = {index for group in groups for index in group}
+        ordered = [channels[index] for group in groups for index in group]
         # Everything not pinned keeps its original relative order,
         # appended after every pinned channel.
-        ordered.extend(channel for index, channel in enumerate(channels) if not placed[index])
+        ordered.extend(
+            channel for index, channel in enumerate(channels) if index not in placed_indices
+        )
 
         return Playlist(
             name=playlist.name,
