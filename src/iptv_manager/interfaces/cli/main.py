@@ -26,6 +26,10 @@ from iptv_manager.application.use_cases.categorize_by_country import CategorizeB
 from iptv_manager.application.use_cases.compare_with_xmltv import CompareWithXMLTVUseCase
 from iptv_manager.application.use_cases.generate_report import GenerateReportUseCase
 from iptv_manager.application.use_cases.import_playlist import ImportPlaylistUseCase
+from iptv_manager.application.use_cases.limit_channel_variants import (
+    LimitChannelVariantsUseCase,
+    online_urls_from_results,
+)
 from iptv_manager.application.use_cases.match_tvg_id_from_epg import MatchTvgIdFromEpgUseCase
 from iptv_manager.application.use_cases.merge_playlists import MergePlaylistsUseCase, MergeResult
 from iptv_manager.application.use_cases.sync_sources import SyncSourcesUseCase
@@ -431,6 +435,16 @@ def generate_report(
         False, "--skip-streams", help="Skip stream validation (faster, e.g. for quick re-merges)"
     ),
     skip_logos: bool = typer.Option(False, "--skip-logos", help="Skip logo validation"),
+    max_variants: int = typer.Option(
+        2,
+        "--max-variants",
+        help=(
+            "Cap each data/channel_order.txt family (e.g. RCTI, RCTI HD, RCTI 2, "
+            "RCTI Vision+) to this many channels, preferring ones stream validation "
+            "confirmed are online. 0 disables capping. Ignored with --skip-streams, "
+            "since there'd be no playability signal to rank variants by."
+        ),
+    ),
 ) -> None:
     """Run the full pipeline - merge categories, validate streams,
     validate logos, and (if --epg is given) compare against an XMLTV
@@ -460,6 +474,36 @@ def generate_report(
         typer.echo(
             f"Validated streams: {stream_summary.online_count}/{stream_summary.total} online"
         )
+
+        if max_variants > 0:
+            order_path = settings.project_root / "data" / "channel_order.txt"
+            priority_slots = parse_channel_order_file(order_path)
+            if priority_slots:
+                before_count = len(merge_result.master)
+                merge_result.master = LimitChannelVariantsUseCase().execute(
+                    priority_slots,
+                    merge_result.master,
+                    online_urls=online_urls_from_results(stream_summary.results),
+                    max_variants=max_variants,
+                )
+                dropped_count = before_count - len(merge_result.master)
+                if dropped_count:
+                    typer.echo(
+                        f"Limited channel variants: dropped {dropped_count} extra "
+                        f"copy/copies (kept up to {max_variants} per family, "
+                        "preferring online ones)"
+                    )
+                # The extras above were already written to master.m3u
+                # inside _merge_and_publish - re-serialize now that
+                # they're gone from the in-memory playlist.
+                updated_master_text = parser.serialize(
+                    merge_result.master, epg_url=settings.epg_url
+                )
+                settings.master_playlist_path.write_text(updated_master_text, encoding="utf-8")
+                if settings.publish_target in (PublishTarget.PAGES_ONLY, PublishTarget.BOTH):
+                    settings.docs_master_playlist_path.write_text(
+                        updated_master_text, encoding="utf-8"
+                    )
 
     logo_summary: LogoValidationSummary | None = None
     if not skip_logos:

@@ -138,3 +138,62 @@ def test_report_command_survives_a_broken_epg_source(isolated_settings: Settings
     reports_dir = isolated_settings.project_root / isolated_settings.reports_dir
     assert (reports_dir / "report.json").exists()
     assert isolated_settings.master_playlist_path.exists()
+
+
+class _FakeStreamValidator:
+    """Deterministic stand-in for HttpStreamValidator - no real
+    network calls, so this stays a hermetic test. Every channel whose
+    URL is in `online_urls` is reported ONLINE; everything else is
+    OFFLINE."""
+
+    def __init__(self, online_urls: set[str]) -> None:
+        self._online_urls = online_urls
+
+    async def validate(self, channel):  # noqa: ANN001, ANN201 - matches StreamValidator Protocol
+        from iptv_manager.domain.entities.stream_validation_result import (
+            StreamStatus,
+            StreamValidationResult,
+        )
+
+        status = (
+            StreamStatus.ONLINE if channel.url.raw in self._online_urls else StreamStatus.OFFLINE
+        )
+        return StreamValidationResult(channel=channel, status=status)
+
+
+def test_report_command_limits_variants_to_online_ones(tmp_path: Path, monkeypatch):
+    get_settings.cache_clear()
+    settings = Settings(project_root=tmp_path, github_repository=None)
+    settings.ensure_directories()
+    rcti_m3u = (
+        "#EXTM3U\n"
+        '#EXTINF:-1 tvg-id="RCTI.id" group-title="Indonesia;Nasional",RCTI\n'
+        "http://example.com/rcti1.m3u8\n"
+        '#EXTINF:-1 group-title="Indonesia;Nasional",RCTI HD\n'
+        "http://example.com/rcti2.m3u8\n"
+        '#EXTINF:-1 group-title="Indonesia;Nasional",RCTI 2\n'
+        "http://example.com/rcti3.m3u8\n"
+    )
+    (settings.categories_path / "national.m3u").write_text(rcti_m3u, encoding="utf-8")
+    order_path = settings.project_root / "data" / "channel_order.txt"
+    order_path.parent.mkdir(parents=True, exist_ok=True)
+    order_path.write_text("RCTI|RCTI HD|RCTI 2\n", encoding="utf-8")
+    monkeypatch.setattr(cli_main, "get_settings", lambda: settings)
+    # Only two of the three RCTI variants are "online".
+    monkeypatch.setattr(
+        cli_main,
+        "HttpStreamValidator",
+        lambda **_kwargs: _FakeStreamValidator(
+            online_urls={"http://example.com/rcti1.m3u8", "http://example.com/rcti3.m3u8"}
+        ),
+    )
+
+    result = runner.invoke(cli_main.app, ["report", "--skip-logos", "--formats", "json"])
+    assert result.exit_code == 0, result.output
+    assert "Limited channel variants" in result.output
+
+    master_text = settings.master_playlist_path.read_text(encoding="utf-8")
+    assert "RCTI HD" not in master_text
+    assert "rcti1.m3u8" in master_text
+    assert "rcti3.m3u8" in master_text
+    get_settings.cache_clear()
