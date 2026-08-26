@@ -359,8 +359,8 @@ https://ams.juraganstreaming.com:5443/LiveApp/streams/celebesmedia.m3u8
 http://122.248.43.242:1935/FAJARTV/_definst_/myStream/playlist.m3u8
 #EXTINF:-1 tvg-id="KidsTV.id" tvg-logo="https://i.imgur.com/B5YiUIP.png" group-title="Indonesia;Pay TV & Tematis" http-referrer="" http-user-agent="",Kids TV
 http://de.russkoe-iptv.com:88/s/s-e3dc39e0/kids-tv-hd.m3u8
-#EXTINF:-1 tvg-id="KidsTV.idSD" tvg-logo="https://i.imgur.com/B5YiUIP.png" group-title="Indonesia;Kids",Kids TV
-http://origin5.mediacdn.ru/live/kidstv/index.m3u8
+#EXTINF:-1 tvg-id="KidsTV.id" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/2a/Logo_Kids_TV.png" group-title="Indonesia;Pay TV & Tematis" http-referrer="" http-user-agent="",Kids TV
+https://d3b0v7fggu5zwm.cloudfront.net/out/v1/9041826689ae4f9c9619576d411fa989/index.mpd
 #EXTINF:-1 tvg-logo="https://i.imgur.com/nadVCxM.png" group-title="Indonesia;Pay TV & Tematis" http-referrer="" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36",Music Channel
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
 https://aes.m3u8simplu.workers.dev/musicchannel/index.m3u8
