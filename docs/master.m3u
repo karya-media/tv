@@ -688,7 +688,7 @@ https://v3.siar.us/ficomchannel/live/playlist.m3u8
 https://d2tjypxxy769fn.cloudfront.net/out/v1/73b7057c72da4615888a11b02a6cbb3c/index.mpd
 #EXTINF:-1 tvg-id="Fight.Sports.id" tvg-logo="https://mimipipi22.github.io/logo/sports/fightsports.jpg" group-title="Indonesia;INDIHOME",FIGHT SPORTS
 https://cdnbal1.indihometv.com/atm/DASH/fightsport/master.mpd
-#EXTINF:-1 tvg-id="HumaBetangTV.id" tvg-logo="https://i.imgur.com/xBTqOEu.png" group-title="Indonesia;Lainnya;NEWS" http-referrer="" http-user-agent="",Huma Betang TV (720p) [Not 24/7]
+#EXTINF:-1 tvg-id="HumaBetangTV.id" tvg-logo="https://i.imgur.com/xBTqOEu.png" group-title="Indonesia;NEWS" http-referrer="" http-user-agent="",Huma Betang TV (720p) [Not 24/7]
 https://v3.siar.us/humabetangtv/live/playlist.m3u8
 #EXTINF:-1 tvg-id="IAmChannel.id" tvg-logo="https://i.imgur.com/Gg6OcGT.png" group-title="Indonesia;Lainnya;RELIGION" http-referrer="https://iamchannel.org/" http-user-agent="",I Am Channel
 #EXTVLCOPT:http-referrer=https://iamchannel.org/
@@ -751,7 +751,7 @@ https://d3b0v7fggu5zwm.cloudfront.net/out/v1/7518da9041c4414d86f173daa719152e/in
 https://cdn10jtedge.indihometv.com/atm/DASH/indikids/indikids-avc1_2500000=7-3277707030000000.mpd
 #EXTINF:-1 tvg-id="Horee.id" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/0/0e/HOREE_logo.png/revision/latest?cb=20180705160440" group-title="Indonesia;KARTUN ANAK" http-referrer="" http-user-agent="",Horee!
 https://atemecdnbalancer-voe.sysln.id/live/eds/HoreeHD/mediampd/HoreeHD.mpd
-#EXTINF:-1 tvg-id="556893" tvg-logo="https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='9358834'&EntityType='Item'&EntityId='556893'&Width=350&Height=250" group-title="Indonesia;Lainnya;KARTUN ANAK" http-referrer="" http-user-agent="",Kartoon Channel!
+#EXTINF:-1 tvg-id="556893" tvg-logo="https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='9358834'&EntityType='Item'&EntityId='556893'&Width=350&Height=250" group-title="KARTUN ANAK" http-referrer="" http-user-agent="",Kartoon Channel!
 https://d29ecfnk3jwkp9.cloudfront.net/out/v1/f246ce87793444d9bbbc56f244ec3c2c/manifest.mpd
 #EXTINF:-1 tvg-id="Mykidz" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/6/6d/M_Kidz.png/revision/latest?cb=20200201131221" group-title="Kids Channel" tvg-url="https://raw.githubusercontent.com/apistech/project/refs/heads/main/epgs/guide.xml",MyKidz
 https://cdnbal1.indihometv.com/atm/DASH/mykids/manifest.mpd
