@@ -55,3 +55,20 @@ def test_unrecognized_tvg_id_suffix_is_left_unchanged():
 def test_uncategorized_channel_still_gets_country_prefix():
     result = _run(_channel("Some US Channel", "SomeChannel.usSD", None))
     assert str(result.channels[0].group_title) == "United States;Uncategorized"
+
+
+def test_conflicting_pre_existing_country_is_trusted_over_tvg_id():
+    # Real case: TV9 (an Indonesian local channel) was hand-tagged
+    # group-title="Indonesia;..." but carried a mistaken tvg-id
+    # suffix ".in" (India's ISO code, likely meant to be Indonesia's
+    # ".id"). The already-curated "Indonesia" category must win rather
+    # than being overwritten/prefixed with a derived "India".
+    result = _run(_channel("TV9", "TV9.in", "Indonesia;Lainnya;RELIGION"))
+    assert str(result.channels[0].group_title) == "Indonesia;Lainnya;RELIGION"
+
+
+def test_matching_pre_existing_country_is_still_allowed_through():
+    # Not blocked by the guard when the derived and existing country
+    # actually agree - this is the normal, common case.
+    result = _run(_channel("RCTI", "RCTI.id", "Indonesia;Nasional"))
+    assert str(result.channels[0].group_title) == "Indonesia;Nasional"
