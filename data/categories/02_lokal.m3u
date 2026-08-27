@@ -123,7 +123,7 @@ https://indihuy.streamized.net/atm/DASH/JAK_TV/manifest.mpd
 #EXTINF:-1 tvg-id="ElshintaTV.id" tvg-logo="https://i.imgur.com/x5uoy2H.png" group-title="Indonesia;Lokal - DKI Jakarta & Banten & Jawa Barat" http-referrer="" http-user-agent="",Elshinta TV
 https://ams.juraganstreaming.com:5443/LiveApp/streams/elshintatv.m3u8
 
-#EXTINF:-1 tvg-id="ElshintaTV.in" tvg-logo="https://iili.io/JbtnQjI.png" group-title="Indonesia;Lokal - DKI Jakarta & Banten & Jawa Barat" http-referrer="http://www.dens.tv/" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36",Elshinta TV
+#EXTINF:-1 tvg-id="ElshintaTV.id" tvg-logo="https://iili.io/JbtnQjI.png" group-title="Indonesia;Lokal - DKI Jakarta & Banten & Jawa Barat" http-referrer="http://www.dens.tv/" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36",Elshinta TV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36
 #EXTVLCOPT:http-referrer=http://www.dens.tv/
 http://op-group2-swiftservesd-1.dens.tv/s/s12/index.m3u8
@@ -131,7 +131,7 @@ http://op-group2-swiftservesd-1.dens.tv/s/s12/index.m3u8
 #EXTINF:-1 tvg-id="BandungTV.id" tvg-logo="https://static.mncnow.id/images/channel/d4154d1c/d082_r32.jpg" group-title="Indonesia;Lokal - DKI Jakarta & Banten & Jawa Barat" http-referrer="" http-user-agent="",Bandung TV
 https://d3b0v7fggu5zwm.cloudfront.net/out/v1/f16b53f0d5ed459da208c459049c9bb0/index.mpd
 
-#EXTINF:-1 tvg-id="BandungTV.in" tvg-logo="https://iili.io/Jbtnh2j.png" group-title="Indonesia;Lokal - DKI Jakarta & Banten & Jawa Barat" http-referrer="https://www.visionplus.id/" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36",Bandung TV
+#EXTINF:-1 tvg-id="BandungTV.id" tvg-logo="https://iili.io/Jbtnh2j.png" group-title="Indonesia;Lokal - DKI Jakarta & Banten & Jawa Barat" http-referrer="https://www.visionplus.id/" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36",Bandung TV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
 #EXTVLCOPT:http-referrer=https://www.visionplus.id/
 http://202.150.153.254:65500/bandungtvWEBSITE.m3u8
@@ -145,11 +145,11 @@ https://5bf7b725107e5.streamlock.net/mqtv/mqtv/chunklist_w1120365025.m3u8
 #EXTINF:-1 tvg-id="MQTV.id" tvg-logo="https://i.imgur.com/d8dQo6E.png" group-title="Indonesia;Lokal - DKI Jakarta & Banten & Jawa Barat" http-referrer="" http-user-agent="",MQTV (720p) [Not 24/7]
 https://5bf7b725107e5.streamlock.net/mqtv/mqtv/playlist.m3u8
 
-#EXTINF:-1 tvg-id="IMTV.in" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmWF5iy7pz8qWStADdt3lRs1bQb465KYE7Yg&s" group-title="Indonesia;Lokal - DKI Jakarta & Banten & Jawa Barat" http-referrer="" http-user-agent="OTTNavigator/1.7.1.6 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1",IMTV
+#EXTINF:-1 tvg-id="IMTV.id" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmWF5iy7pz8qWStADdt3lRs1bQb465KYE7Yg&s" group-title="Indonesia;Lokal - DKI Jakarta & Banten & Jawa Barat" http-referrer="" http-user-agent="OTTNavigator/1.7.1.6 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1",IMTV
 #EXTVLCOPT:http-user-agent=OTTNavigator/1.7.1.6 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
 https://5bf7b725107e5.streamlock.net/imtv/imtv/playlist.m3u8
 
-#EXTINF:-1 tvg-id="BantenTV.in" tvg-logo="https://iili.io/JbtnwkQ.png" group-title="Indonesia;Lokal - DKI Jakarta & Banten & Jawa Barat" http-referrer="" http-user-agent="",Banten TV
+#EXTINF:-1 tvg-id="BantenTV.id" tvg-logo="https://iili.io/JbtnwkQ.png" group-title="Indonesia;Lokal - DKI Jakarta & Banten & Jawa Barat" http-referrer="" http-user-agent="",Banten TV
 https://5bf7b725107e5.streamlock.net/bantentv/bantentv/playlist.m3u8
 
 
@@ -387,7 +387,7 @@ https://d2tjypxxy769fn.cloudfront.net/out/v1/44a2d1ab71a740babb233cf14832c59d/in
 http://122.248.43.242:1935/TIMORTV/_definst_/myStream/playlist.m3u8
 
 
-#EXTINF:-1 tvg-id="JogjaTV.in" tvg-logo="https://iili.io/Jbto3jS.png" group-title="Indonesia;Lokal - Jawa Tengah & DI Yogyakarta" http-referrer="" http-user-agent="",Jogja TV
+#EXTINF:-1 tvg-id="JogjaTV.id" tvg-logo="https://iili.io/Jbto3jS.png" group-title="Indonesia;Lokal - Jawa Tengah & DI Yogyakarta" http-referrer="" http-user-agent="",Jogja TV
 https://stream.jogjatv.co.id/jtvlive/stream/index.m3u8
 
 #EXTINF:-1 tvg-id="MTATV.id" tvg-logo="https://iili.io/Jbtnakl.png" group-title="Indonesia;Lokal - Jawa Tengah & DI Yogyakarta" http-referrer="" http-user-agent="",TATV
@@ -399,10 +399,10 @@ https://v2.siar.us/tatv/live.sdp/playlist.m3u8
 #EXTINF:-1 tvg-id="SemarangTV.id" tvg-logo="https://i.imgur.com/KFC2WSB.png" group-title="Indonesia;Lokal - Jawa Tengah & DI Yogyakarta" http-referrer="" http-user-agent="",Semarang TV
 http://116.254.112.74/hls/cakralive.m3u8
 
-#EXTINF:-1 tvg-id="SemarangTV.in" tvg-logo="https://iili.io/JbtnA1s.png" group-title="Indonesia;Lokal - Jawa Tengah & DI Yogyakarta" http-referrer="" http-user-agent="",Semarang TV
+#EXTINF:-1 tvg-id="SemarangTV.id" tvg-logo="https://iili.io/JbtnA1s.png" group-title="Indonesia;Lokal - Jawa Tengah & DI Yogyakarta" http-referrer="" http-user-agent="",Semarang TV
 http://116.254.112.74:80/hls/cakralive.m3u8
 
-#EXTINF:-1 tvg-id="BMSTV.in" tvg-logo="https://iili.io/JbtnSCF.png" group-title="Indonesia;Lokal - Jawa Tengah & DI Yogyakarta" http-referrer="" http-user-agent="",BMS TV
+#EXTINF:-1 tvg-id="BMSTV.id" tvg-logo="https://iili.io/JbtnSCF.png" group-title="Indonesia;Lokal - Jawa Tengah & DI Yogyakarta" http-referrer="" http-user-agent="",BMS TV
 https://5bf7b725107e5.streamlock.net/bmstv/bmstv/playlist.m3u8
 
 #EXTINF:-1 tvg-id="AhsanTV.id" tvg-logo="https://i.imgur.com/dZdUbYd.png" group-title="Indonesia;Lainnya;RELIGION" http-referrer="" http-user-agent="",Ahsan TV
@@ -420,7 +420,7 @@ https://tv.aliman.id/aliman/live.m3u8
 #EXTINF:-1 tvg-id="AlWafaTarim.id" tvg-logo="https://i.ibb.co/3yfMjmf/logo-3.png" group-title="Indonesia;Lainnya;RELIGION" http-referrer="" http-user-agent="",Alwafa Tarim TV (Am Media)
 https://ammedia.siar.us/ammedia/live/playlist.m3u8
 
-#EXTINF:-1 tvg-id="AshillTV.in" tvg-logo="https://raw.githubusercontent.com/whs4030/Logo/refs/heads/main/AshiilTV.png" group-title="Indonesia;Lainnya;RELIGION" http-referrer="" http-user-agent="",AshillTV
+#EXTINF:-1 tvg-id="AshillTV.id" tvg-logo="https://raw.githubusercontent.com/whs4030/Logo/refs/heads/main/AshiilTV.png" group-title="Indonesia;Lainnya;RELIGION" http-referrer="" http-user-agent="",AshillTV
 https://wahyu1ptv.pages.dev/AshiilTV-HD.m3u8
 
 #EXTINF:-1 tvg-id="DMITV.id" tvg-logo="https://static.promediateknologi.id/promedia/network/1167/desktop/images/logo.png" group-title="Indonesia;Lainnya;RELIGION" http-referrer="" http-user-agent="",DMI TV (576i)
@@ -453,10 +453,10 @@ https://tv.rodja.live/tasik/ngrp:mgitv_all/playlist.m3u8
 #EXTVLCOPT:http-referrer=https://www.naajiyatv.com/tonton
 https://www.naajiyatv.com/live/livestream.m3u8
 
-#EXTINF:-1 tvg-id="TV10.in" tvg-logo="" group-title="Indonesia;Lainnya;RELIGION" http-referrer="" http-user-agent="",TV 10
+#EXTINF:-1 tvg-id="TV10.id" tvg-logo="" group-title="Indonesia;Lainnya;RELIGION" http-referrer="" http-user-agent="",TV 10
 https://video1.earthcam.com/myearthcam/641f889a7774a38d5fc93dc76c4aeded.flv/playlist.m3u8
 
-#EXTINF:-1 tvg-id="TV9.in" tvg-logo="" group-title="Indonesia;Lainnya;RELIGION" http-referrer="" http-user-agent="",TV9
+#EXTINF:-1 tvg-id="TV9.id" tvg-logo="" group-title="Indonesia;Lainnya;RELIGION" http-referrer="" http-user-agent="",TV9
 https://5bf7b725107e5.streamlock.net/tv9/tv9/playlist.m3u8
 
 #EXTINF:-1 tvg-id="JTV.id" tvg-logo="https://static.mncnow.id/images/channel/9e658daa/252e_r32.jpg" group-title="Indonesia;Lokal - Jawa Timur" http-referrer="" http-user-agent="ExoPlayerDemo/2.15.1 (Linux; Android 13) ExoPlayerLib/2.15.1",JTV
@@ -469,15 +469,15 @@ http://122.248.43.242:1935/JTVSURABAYA/_definst_/myStream/playlist.m3u8
 #EXTINF:-1 tvg-id="SaktiTV" tvg-logo="https://i.imgur.com/IDNjMfQ.png" group-title="Indonesia;Lokal - Jawa Timur" http-referrer="" http-user-agent="",Sakti TV
 https://saktitv.siar.us/saktitv/live/playlist.m3u8
 
-#EXTINF:-1 tvg-id="DhohoTV.in" tvg-logo="https://upload.wikimedia.org/wikipedia/id/8/86/DhohoTV.png" group-title="Indonesia;Lokal - Jawa Timur" http-referrer="" http-user-agent="Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.100 Safari/537.36",Dhoho TV
+#EXTINF:-1 tvg-id="DhohoTV.id" tvg-logo="https://upload.wikimedia.org/wikipedia/id/8/86/DhohoTV.png" group-title="Indonesia;Lokal - Jawa Timur" http-referrer="" http-user-agent="Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.100 Safari/537.36",Dhoho TV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.100 Safari/537.36
 https://dhohotv.siar.us/dhohotv/live/playlist.m3u8?checkedby:iptvcat.com
 
-#EXTINF:-1 tvg-id="DhohoTV2.in" tvg-logo="https://imgs.search.brave.com/2l424MY67Zj1YYcsreW8IV9oLfCYNI1X2XJdW8kMkd4/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly91cGxv/YWQud2lraW1lZGlh/Lm9yZy93aWtpcGVk/aWEvaWQvdGh1bWIv/OC84Ni9EaG9ob1RW/LnBuZy8yMDBweC1E/aG9ob1RWLnBuZw" group-title="Indonesia;Lokal - Jawa Timur" http-referrer="" http-user-agent="ExoPlayerDemo/2.15.1 (Linux; Android 13) ExoPlayerLib/2.15.1",Dhoho TV
+#EXTINF:-1 tvg-id="DhohoTV2.id" tvg-logo="https://imgs.search.brave.com/2l424MY67Zj1YYcsreW8IV9oLfCYNI1X2XJdW8kMkd4/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly91cGxv/YWQud2lraW1lZGlh/Lm9yZy93aWtpcGVk/aWEvaWQvdGh1bWIv/OC84Ni9EaG9ob1RW/LnBuZy8yMDBweC1E/aG9ob1RWLnBuZw" group-title="Indonesia;Lokal - Jawa Timur" http-referrer="" http-user-agent="ExoPlayerDemo/2.15.1 (Linux; Android 13) ExoPlayerLib/2.15.1",Dhoho TV
 #EXTVLCOPT:http-user-agent=ExoPlayerDemo/2.15.1 (Linux; Android 13) ExoPlayerLib/2.15.1
 https://dhohotv.siar.us/dhohotv/live/playlist.m3u8
 
-#EXTINF:-1 tvg-id="SurabayaTV.in" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/a/aa/Surabaya_TV_%282017%29.png" group-title="Indonesia;Lokal - Jawa Timur" http-referrer="" http-user-agent="",Surabaya TV
+#EXTINF:-1 tvg-id="SurabayaTV.id" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/a/aa/Surabaya_TV_%282017%29.png" group-title="Indonesia;Lokal - Jawa Timur" http-referrer="" http-user-agent="",Surabaya TV
 https://e.siar.us/live/surabayatv.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/Iotkspd.png" group-title="Indonesia;Lokal - Jawa Timur" http-referrer="" http-user-agent="",BBS TV 불교
@@ -490,10 +490,10 @@ https://bbstv.ug/hls/ch01/index.m3u8
 #EXTINF:-1 tvg-id="DutaTV" tvg-logo="https://i.imgur.com/B4JW54M.png" group-title="Indonesia;Lokal - Kalimantan" http-referrer="" http-user-agent="",Duta TV
 https://dutatv.siar.us/dutatv/live/playlist.m3u8
 
-#EXTINF:-1 tvg-id="BanjarTV.in" tvg-logo="https://iili.io/JbtnNpV.png" group-title="Indonesia;Lokal - Kalimantan" http-referrer="" http-user-agent="",Banjar TV
+#EXTINF:-1 tvg-id="BanjarTV.id" tvg-logo="https://iili.io/JbtnNpV.png" group-title="Indonesia;Lokal - Kalimantan" http-referrer="" http-user-agent="",Banjar TV
 https://banjartv.siar.us/banjartv/live/playlist.m3u8
 
-#EXTINF:-1 tvg-id="TVTabalong.in" tvg-logo="https://tvtabalong.com/wp-content/uploads/2022/03/logo-tv-tabalong.png" group-title="Indonesia;Lokal - Kalimantan" http-referrer="" http-user-agent="Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.100 Safari/537.36",TV Tabalong
+#EXTINF:-1 tvg-id="TVTabalong.id" tvg-logo="https://tvtabalong.com/wp-content/uploads/2022/03/logo-tv-tabalong.png" group-title="Indonesia;Lokal - Kalimantan" http-referrer="" http-user-agent="Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.100 Safari/537.36",TV Tabalong
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.100 Safari/537.36
 https://5bf7b725107e5.streamlock.net/tvtabalong/tvtabalong/playlist.m3u8
 
@@ -520,10 +520,10 @@ http://122.248.43.242:1935/BATAMTV/_definst_/myStream/playlist.m3u8
 #EXTINF:-1 tvg-id="JambiTV.id" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/1/15/Jambi_TV.png" group-title="Indonesia;Lokal - Sumatera" http-referrer="" http-user-agent="",Jambi TV
 https://jambitv.globaldigitalcore.com/hls/sah5tu7Eiveepohyieyie3OoteL2anga.m3u8
 
-#EXTINF:-1 tvg-id="BungoTV.in" tvg-logo="https://upload.wikimedia.org/wikipedia/id/f/f1/Bungo_TV.png" group-title="Indonesia;Lokal - Sumatera" http-referrer="" http-user-agent="",Bungo TV
+#EXTINF:-1 tvg-id="BungoTV.id" tvg-logo="https://upload.wikimedia.org/wikipedia/id/f/f1/Bungo_TV.png" group-title="Indonesia;Lokal - Sumatera" http-referrer="" http-user-agent="",Bungo TV
 https://5bf7b725107e5.streamlock.net/bungotv/bungotv/playlist.m3u8
 
-#EXTINF:-1 tvg-id="BETV.in" tvg-logo="https://iili.io/Jbtn43J.png" group-title="Indonesia;Lokal - Sumatera" http-referrer="" http-user-agent="YouTV/1.5.6-prod.release (Linux;Android 7.1.1) ExoPlayerLib/2.12.3",BETV
+#EXTINF:-1 tvg-id="BETV.id" tvg-logo="https://iili.io/Jbtn43J.png" group-title="Indonesia;Lokal - Sumatera" http-referrer="" http-user-agent="YouTV/1.5.6-prod.release (Linux;Android 7.1.1) ExoPlayerLib/2.12.3",BETV
 #EXTVLCOPT:http-user-agent=YouTV/1.5.6-prod.release (Linux;Android 7.1.1) ExoPlayerLib/2.12.3
 https://flv.intechmedia.net/live/ch58.m3u8
 
@@ -548,7 +548,7 @@ https://d3b0v7fggu5zwm.cloudfront.net/out/v1/9041826689ae4f9c9619576d411fa989/in
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
 https://aes.m3u8simplu.workers.dev/musicchannel/index.m3u8
 
-#EXTINF:-1 tvg-id="VISIONPRIME.in" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqrF7FTHRf_GsJjT2yYgdczJtqnkyvmPttoA&s" group-title="Indonesia;Pay TV & Tematis" http-referrer="https://visionplus.id" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36",VISION PRIME
+#EXTINF:-1 tvg-id="VISIONPRIME.id" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqrF7FTHRf_GsJjT2yYgdczJtqnkyvmPttoA&s" group-title="Indonesia;Pay TV & Tematis" http-referrer="https://visionplus.id" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36",VISION PRIME
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://visionplus.id
 https://d2xz2v5wuvgur6.cloudfront.net/out/v1/873c24d3946048f68e459250f1d2fd98/index.mpd
@@ -578,7 +578,7 @@ https://rodjatv.com/rodjatv/live.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36
 http://op-group1-swiftservesd-1.dens.tv/s/s14/index.m3u8?app_type=web&amp;userid=wnctpm5uf2j&amp;chname=RodjaTV
 
-#EXTINF:-1 tvg-id="WesalTV.in" tvg-logo="https://raw.githubusercontent.com/whs4030/Logo/refs/heads/main/Wesal_TV.png" group-title="Indonesia;" http-referrer="" http-user-agent="",WesalTV
+#EXTINF:-1 tvg-id="WesalTV.id" tvg-logo="https://raw.githubusercontent.com/whs4030/Logo/refs/heads/main/Wesal_TV.png" group-title="Indonesia;" http-referrer="" http-user-agent="",WesalTV
 https://wahyu1ptv.pages.dev/WesalTV-HD.m3u8
 
 #EXTINF:-1 tvg-id="WesalTV.id" tvg-logo="https://i.imgur.com/Uv8RWks.png" group-title="Indonesia;" http-referrer="" http-user-agent="",Wesal TV (720p) [Not 24/7]
@@ -593,10 +593,10 @@ http://202.150.161.117:8000/play/AlBahjahTV
 #EXTINF:-1 tvg-id="NabawiTV.id" tvg-logo="https://i.imgur.com/O8WONFB.png" group-title="Indonesia;" http-referrer="" http-user-agent="",Nabawi TV
 http://202.150.161.117:8000/play/NabawiTV
 
-#EXTINF:-1 tvg-id="TVMU.in" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS67qwW1u1F-sEku-oDwde7WLWIykjwyu3uOA&s" group-title="Indonesia;" http-referrer="" http-user-agent="",TVMU
+#EXTINF:-1 tvg-id="TVMU.id" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS67qwW1u1F-sEku-oDwde7WLWIykjwyu3uOA&s" group-title="Indonesia;" http-referrer="" http-user-agent="",TVMU
 https://e.siar.us/live/tvmu.m3u8
 
-#EXTINF:-1 tvg-id="TVMUI.in" tvg-logo="https://upload.wikimedia.org/wikipedia/id/thumb/0/0d/TV_MUI.png/640px-TV_MUI.png" group-title="Indonesia;" http-referrer="" http-user-agent="",TV MUI
+#EXTINF:-1 tvg-id="TVMUI.id" tvg-logo="https://upload.wikimedia.org/wikipedia/id/thumb/0/0d/TV_MUI.png/640px-TV_MUI.png" group-title="Indonesia;" http-referrer="" http-user-agent="",TV MUI
 https://mui.siar.us/mui/live/playlist.m3u8
 
 #EXTINF:-1 tvg-id="TVMUI.id" tvg-logo="https://i.imgur.com/vWtViyC.png" group-title="Indonesia;" http-referrer="maxstream.tv/tv-channels" http-user-agent="",TV MUI
@@ -610,13 +610,13 @@ https://cdnbal1.indihometv.com/atm/DASH/mtatv/manifest.mpd
 #EXTVLCOPT:http-referrer=maxstream.tv/tv-channels
 https://indihuy.streamized.net/atm/DASH/mtatv/manifest.mpd
 
-#EXTINF:-1 tvg-id="SurauTV.in" tvg-logo="https://raw.githubusercontent.com/whs4030/Logo/refs/heads/main/SurauTV.png" group-title="Indonesia;" http-referrer="" http-user-agent="",SurauTV
+#EXTINF:-1 tvg-id="SurauTV.id" tvg-logo="https://raw.githubusercontent.com/whs4030/Logo/refs/heads/main/SurauTV.png" group-title="Indonesia;" http-referrer="" http-user-agent="",SurauTV
 https://wahyu1ptv.pages.dev/SurauTV-HD.m3u8
 
 #EXTINF:-1 tvg-id="SurauTV.id" tvg-logo="https://i.imgur.com/CKoxcWL.png" group-title="Indonesia;" http-referrer="" http-user-agent="",Surau TV
 https://surautv.siar.us/live/surautv.m3u8
 
-#EXTINF:-1 tvg-id="MaduTV.in" tvg-logo="https://upload.wikimedia.org/wikipedia/id/a/a8/Logo_Madu_TV_2021.png" group-title="Indonesia;" http-referrer="" http-user-agent="",Madu TV
+#EXTINF:-1 tvg-id="MaduTV.id" tvg-logo="https://upload.wikimedia.org/wikipedia/id/a/a8/Logo_Madu_TV_2021.png" group-title="Indonesia;" http-referrer="" http-user-agent="",Madu TV
 https://re1.siar.us/madutv/hd720/playlist.m3u8
 
 #EXTINF:-1 tvg-id="SalamTV.id" tvg-logo="https://i.imgur.com/00Ifzgo.png" group-title="Indonesia;" http-referrer="" http-user-agent="",Salam TV
@@ -650,91 +650,91 @@ https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxI
 #EXTINF:-1 tvg-id="TVKU.id" tvg-logo="https://i.imgur.com/BAklJGy.png" group-title="Indonesia;Pemerintah & Edukasi" http-referrer="" http-user-agent="",TVKU
 https://tvku.tv/hlsstream/hls/live.m3u8
 
-#EXTINF:-1 tvg-id="TVRIAceh.in" tvg-logo="https://iili.io/JmF1BWb.png" group-title="Indonesia;" http-referrer="" http-user-agent="",TVRI Aceh
+#EXTINF:-1 tvg-id="TVRIAceh.id" tvg-logo="https://iili.io/JmF1BWb.png" group-title="Indonesia;" http-referrer="" http-user-agent="",TVRI Aceh
 https://ott-balancer.tvri.go.id/live/eds/Aceh/hls/Aceh.m3u8
 
-#EXTINF:-1 tvg-id="TVRISumateraUtara.in" tvg-logo="https://iili.io/JmF1oqx.png" group-title="Indonesia;" http-referrer="" http-user-agent="",TVRI Sumatera Utara
+#EXTINF:-1 tvg-id="TVRISumateraUtara.id" tvg-logo="https://iili.io/JmF1oqx.png" group-title="Indonesia;" http-referrer="" http-user-agent="",TVRI Sumatera Utara
 https://ott-balancer.tvri.go.id/live/eds/Sumut/hls/Sumut.m3u8
 
-#EXTINF:-1 tvg-id="TVRISumateraBarat.in" tvg-logo="https://iili.io/JmF1357.png" group-title="Indonesia;" http-referrer="" http-user-agent="",TVRI Sumatera Barat
+#EXTINF:-1 tvg-id="TVRISumateraBarat.id" tvg-logo="https://iili.io/JmF1357.png" group-title="Indonesia;" http-referrer="" http-user-agent="",TVRI Sumatera Barat
 https://ott-balancer.tvri.go.id/live/eds/Sumbar/hls/Sumbar.m3u8
 
-#EXTINF:-1 tvg-id="TVRIRiau.in" tvg-logo="https://iili.io/JmF1S7S.png" group-title="Indonesia;" http-referrer="" http-user-agent="",TVRI Riau
+#EXTINF:-1 tvg-id="TVRIRiau.id" tvg-logo="https://iili.io/JmF1S7S.png" group-title="Indonesia;" http-referrer="" http-user-agent="",TVRI Riau
 https://ott-balancer.tvri.go.id/live/eds/Riau/hlstl/Riau.m3u8
 
 #EXTINF:-1 tvg-id="TVRI.id" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/TVRILogo2019.svg/960px-TVRILogo2019.svg.png" group-title="Indonesia;" http-referrer="" http-user-agent="",TVRI Riau (720p) [Not 24/7]
 https://ott-balancer.tvri.go.id/live/eds/Riau/hls/Riau.m3u8
 
-#EXTINF:-1 tvg-id="TVRIJambi.in" tvg-logo="https://iili.io/JmF1RmF.png" group-title="Indonesia;" http-referrer="" http-user-agent="",TVRI Jambi
+#EXTINF:-1 tvg-id="TVRIJambi.id" tvg-logo="https://iili.io/JmF1RmF.png" group-title="Indonesia;" http-referrer="" http-user-agent="",TVRI Jambi
 https://ott-balancer.tvri.go.id/live/eds/Jambi/hls/Jambi.m3u8
 
-#EXTINF:-1 tvg-id="TVRISumateraSelatan.in" tvg-logo="https://iili.io/JmF12JS.png" group-title="Indonesia;" http-referrer="" http-user-agent="",TVRI Sumatera Selatan
+#EXTINF:-1 tvg-id="TVRISumateraSelatan.id" tvg-logo="https://iili.io/JmF12JS.png" group-title="Indonesia;" http-referrer="" http-user-agent="",TVRI Sumatera Selatan
 https://ott-balancer.tvri.go.id/live/eds/Sumsel/hls/Sumsel.m3u8
 
-#EXTINF:-1 tvg-id="TVRIBangkaBelitung.in" tvg-logo="https://iili.io/JmF1zgV.png" group-title="Indonesia;" http-referrer="" http-user-agent="",TVRI Bangka Belitung
+#EXTINF:-1 tvg-id="TVRIBangkaBelitung.id" tvg-logo="https://iili.io/JmF1zgV.png" group-title="Indonesia;" http-referrer="" http-user-agent="",TVRI Bangka Belitung
 https://ott-balancer.tvri.go.id/live/eds/Babel/hls/Babel.m3u8
 
-#EXTINF:-1 tvg-id="TVRIBengkulu.in" tvg-logo="https://iili.io/JmF1TdB.png" group-title="Indonesia;" http-referrer="" http-user-agent="",TVRI Bengkulu
+#EXTINF:-1 tvg-id="TVRIBengkulu.id" tvg-logo="https://iili.io/JmF1TdB.png" group-title="Indonesia;" http-referrer="" http-user-agent="",TVRI Bengkulu
 https://ott-balancer.tvri.go.id/live/eds/Bengkulu/hls/Bengkulu.m3u8
 
-#EXTINF:-1 tvg-id="TVRILampung.in" tvg-logo="https://iili.io/JmF1krl.png" group-title="Indonesia;" http-referrer="" http-user-agent="",TVRI Lampung
+#EXTINF:-1 tvg-id="TVRILampung.id" tvg-logo="https://iili.io/JmF1krl.png" group-title="Indonesia;" http-referrer="" http-user-agent="",TVRI Lampung
 https://ott-balancer.tvri.go.id/live/eds/Lampung/hls/Lampung.m3u8
 
-#EXTINF:-1 tvg-id="TVRIJakarta.in" tvg-logo="https://iili.io/JmF17zg.png" group-title="Indonesia;" http-referrer="" http-user-agent="",TVRI Jakarta
+#EXTINF:-1 tvg-id="TVRIJakarta.id" tvg-logo="https://iili.io/JmF17zg.png" group-title="Indonesia;" http-referrer="" http-user-agent="",TVRI Jakarta
 https://ott-balancer.tvri.go.id/live/eds/DKI/hls/DKI.m3u8
 
-#EXTINF:-1 tvg-id="TVRIJawaBarat.in" tvg-logo="https://iili.io/JmF1YXa.png" group-title="Indonesia;" http-referrer="" http-user-agent="",TVRI Jawa Barat
+#EXTINF:-1 tvg-id="TVRIJawaBarat.id" tvg-logo="https://iili.io/JmF1YXa.png" group-title="Indonesia;" http-referrer="" http-user-agent="",TVRI Jawa Barat
 https://ott-balancer.tvri.go.id/live/eds/Jabar/hls/Jabar.m3u8
 
-#EXTINF:-1 tvg-id="TVRIJawaTengah.in" tvg-logo="https://iili.io/JmF1GdN.png" group-title="Indonesia;" http-referrer="" http-user-agent="",TVRI Jawa Tengah
+#EXTINF:-1 tvg-id="TVRIJawaTengah.id" tvg-logo="https://iili.io/JmF1GdN.png" group-title="Indonesia;" http-referrer="" http-user-agent="",TVRI Jawa Tengah
 https://ott-balancer.tvri.go.id/live/eds/Jateng/hls/Jateng.m3u8
 
-#EXTINF:-1 tvg-id="TVRIYogyakarta.in" tvg-logo="https://iili.io/JmF1Csj.png" group-title="Indonesia;" http-referrer="" http-user-agent="",TVRI Yogyakarta
+#EXTINF:-1 tvg-id="TVRIYogyakarta.id" tvg-logo="https://iili.io/JmF1Csj.png" group-title="Indonesia;" http-referrer="" http-user-agent="",TVRI Yogyakarta
 https://ott-balancer.tvri.go.id/live/eds/Jogjakarta/hls/Jogjakarta.m3u8
 
-#EXTINF:-1 tvg-id="TVRIJawaTimur.in" tvg-logo="https://iili.io/JmF101R.png" group-title="Indonesia;" http-referrer="" http-user-agent="",TVRI Jawa Timur
+#EXTINF:-1 tvg-id="TVRIJawaTimur.id" tvg-logo="https://iili.io/JmF101R.png" group-title="Indonesia;" http-referrer="" http-user-agent="",TVRI Jawa Timur
 https://ott-balancer.tvri.go.id/live/eds/Jatim/hls/Jatim.m3u8
 
-#EXTINF:-1 tvg-id="TVRIBali.in" tvg-logo="https://iili.io/JmF1x0Q.png" group-title="Indonesia;" http-referrer="" http-user-agent="",TVRI Bali
+#EXTINF:-1 tvg-id="TVRIBali.id" tvg-logo="https://iili.io/JmF1x0Q.png" group-title="Indonesia;" http-referrer="" http-user-agent="",TVRI Bali
 https://ott-balancer.tvri.go.id/live/eds/Bali/hls/Bali.m3u8
 
-#EXTINF:-1 tvg-id="TVRIKalimantanBarat.in" tvg-logo="https://iili.io/JmF1M7I.png" group-title="Indonesia;" http-referrer="" http-user-agent="",TVRI Kalimantan Barat
+#EXTINF:-1 tvg-id="TVRIKalimantanBarat.id" tvg-logo="https://iili.io/JmF1M7I.png" group-title="Indonesia;" http-referrer="" http-user-agent="",TVRI Kalimantan Barat
 https://ott-balancer.tvri.go.id/live/eds/Kalbar/hls/Kalbar.m3u8
 
-#EXTINF:-1 tvg-id="TVRIKalimantanTengah.in" tvg-logo="https://iili.io/JmF1hIn.png" group-title="Indonesia;" http-referrer="" http-user-agent="",TVRI Kalimantan Tengah
+#EXTINF:-1 tvg-id="TVRIKalimantanTengah.id" tvg-logo="https://iili.io/JmF1hIn.png" group-title="Indonesia;" http-referrer="" http-user-agent="",TVRI Kalimantan Tengah
 https://ott-balancer.tvri.go.id/live/eds/Kalteng/hls/Kalteng.m3u8
 
-#EXTINF:-1 tvg-id="TVRIKalimantanSelatan.in" tvg-logo="https://iili.io/JmF1WmX.png" group-title="Indonesia;" http-referrer="" http-user-agent="",TVRI Kalimantan Selatan
+#EXTINF:-1 tvg-id="TVRIKalimantanSelatan.id" tvg-logo="https://iili.io/JmF1WmX.png" group-title="Indonesia;" http-referrer="" http-user-agent="",TVRI Kalimantan Selatan
 https://ott-balancer.tvri.go.id/live/eds/Kalsel/hls/Kalsel.m3u8
 
-#EXTINF:-1 tvg-id="TVRIKalimantanTimur.in" tvg-logo="https://iili.io/JmF1jXs.png" group-title="Indonesia;" http-referrer="" http-user-agent="",TVRI Kalimantan Timur
+#EXTINF:-1 tvg-id="TVRIKalimantanTimur.id" tvg-logo="https://iili.io/JmF1jXs.png" group-title="Indonesia;" http-referrer="" http-user-agent="",TVRI Kalimantan Timur
 https://ott-balancer.tvri.go.id/live/eds/Kaltim/hls/Kaltim.m3u8
 
-#EXTINF:-1 tvg-id="TVRISulawesiUtara.in" tvg-logo="https://iili.io/JmF1Fe9.png" group-title="Indonesia;" http-referrer="" http-user-agent="",TVRI Sulawesi Utara
+#EXTINF:-1 tvg-id="TVRISulawesiUtara.id" tvg-logo="https://iili.io/JmF1Fe9.png" group-title="Indonesia;" http-referrer="" http-user-agent="",TVRI Sulawesi Utara
 https://ott-balancer.tvri.go.id/live/eds/Sulut/hls/Sulut.m3u8
 
-#EXTINF:-1 tvg-id="TVRIGorontalo.in" tvg-logo="https://iili.io/JmF1Ae1.png" group-title="Indonesia;" http-referrer="" http-user-agent="",TVRI Gorontalo
+#EXTINF:-1 tvg-id="TVRIGorontalo.id" tvg-logo="https://iili.io/JmF1Ae1.png" group-title="Indonesia;" http-referrer="" http-user-agent="",TVRI Gorontalo
 https://ott-balancer.tvri.go.id/live/eds/Gorontalo/hls/Gorontalo.m3u8
 
-#EXTINF:-1 tvg-id="TVRISulawesiTengah.in" tvg-logo="https://iili.io/JmF1t2V.png" group-title="Indonesia;" http-referrer="" http-user-agent="",TVRI Sulawesi Tengah
+#EXTINF:-1 tvg-id="TVRISulawesiTengah.id" tvg-logo="https://iili.io/JmF1t2V.png" group-title="Indonesia;" http-referrer="" http-user-agent="",TVRI Sulawesi Tengah
 https://ott-balancer.tvri.go.id/live/eds/Sulteng/hls/Sulteng.m3u8
 
-#EXTINF:-1 tvg-id="TVRISulawesiBarat.in" tvg-logo="https://iili.io/JmF1PLb.png" group-title="Indonesia;" http-referrer="" http-user-agent="",TVRI Sulawesi Barat
+#EXTINF:-1 tvg-id="TVRISulawesiBarat.id" tvg-logo="https://iili.io/JmF1PLb.png" group-title="Indonesia;" http-referrer="" http-user-agent="",TVRI Sulawesi Barat
 https://ott-balancer.tvri.go.id/live/eds/Sulbar/hls/Sulbar.m3u8
 
-#EXTINF:-1 tvg-id="TVRISulawesiSelatan.in" tvg-logo="https://iili.io/JmF16hu.png" group-title="Indonesia;" http-referrer="" http-user-agent="",TVRI Sulawesi Selatan
+#EXTINF:-1 tvg-id="TVRISulawesiSelatan.id" tvg-logo="https://iili.io/JmF16hu.png" group-title="Indonesia;" http-referrer="" http-user-agent="",TVRI Sulawesi Selatan
 https://ott-balancer.tvri.go.id/live/eds/Sulsel/hls/Sulsel.m3u8
 
-#EXTINF:-1 tvg-id="TVRISulawesiTenggara.in" tvg-logo="https://iili.io/JmF1Kbe.png" group-title="Indonesia;" http-referrer="" http-user-agent="",TVRI Sulawesi Tenggara
+#EXTINF:-1 tvg-id="TVRISulawesiTenggara.id" tvg-logo="https://iili.io/JmF1Kbe.png" group-title="Indonesia;" http-referrer="" http-user-agent="",TVRI Sulawesi Tenggara
 https://ott-balancer.tvri.go.id/live/eds/Sultra/hls/Sultra.m3u8
 
-#EXTINF:-1 tvg-id="TVRIMaluku.in" tvg-logo="https://iili.io/JmF1wLG.png" group-title="Indonesia;" http-referrer="" http-user-agent="",TVRI Maluku
+#EXTINF:-1 tvg-id="TVRIMaluku.id" tvg-logo="https://iili.io/JmF1wLG.png" group-title="Indonesia;" http-referrer="" http-user-agent="",TVRI Maluku
 https://ott-balancer.tvri.go.id/live/eds/Ambon/hls/Ambon.m3u8
 
-#EXTINF:-1 tvg-id="TVRIPapua.in" tvg-logo="https://iili.io/JmF1822.png" group-title="Indonesia;" http-referrer="" http-user-agent="",TVRI Papua
+#EXTINF:-1 tvg-id="TVRIPapua.id" tvg-logo="https://iili.io/JmF1822.png" group-title="Indonesia;" http-referrer="" http-user-agent="",TVRI Papua
 https://ott-balancer.tvri.go.id/live/eds/Papua/hls/Papua.m3u8
 
-#EXTINF:-1 tvg-id="TVRIPapuaBarat.in" tvg-logo="https://iili.io/d9HAivV.png" group-title="Indonesia;" http-referrer="" http-user-agent="",TVRI Papua Barat
+#EXTINF:-1 tvg-id="TVRIPapuaBarat.id" tvg-logo="https://iili.io/d9HAivV.png" group-title="Indonesia;" http-referrer="" http-user-agent="",TVRI Papua Barat
 https://ott-balancer.tvri.go.id/live/eds/Pabar/hls/Pabar.m3u8
 
 
