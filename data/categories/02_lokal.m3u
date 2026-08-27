@@ -49,7 +49,7 @@ https://cdn10jtedge.indihometv.com/atm/DASH/indikids/indikids-avc1_2500000=7-327
 #EXTINF:-1 tvg-id="Horee.id" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/0/0e/HOREE_logo.png/revision/latest?cb=20180705160440" group-title="KARTUN ANAK" http-referrer="" http-user-agent="",Horee!
 https://atemecdnbalancer-voe.sysln.id/live/eds/HoreeHD/mediampd/HoreeHD.mpd
 
-#EXTINF:-1 tvg-id="556893" tvg-logo="https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='9358834'&EntityType='Item'&EntityId='556893'&Width=350&Height=250" group-title="Indonesia;Lainnya;KARTUN ANAK" http-referrer="" http-user-agent="",Kartoon Channel!
+#EXTINF:-1 tvg-id="556893" tvg-logo="https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='9358834'&EntityType='Item'&EntityId='556893'&Width=350&Height=250" group-title="KARTUN ANAK" http-referrer="" http-user-agent="",Kartoon Channel!
 https://d29ecfnk3jwkp9.cloudfront.net/out/v1/f246ce87793444d9bbbc56f244ec3c2c/manifest.mpd
 
 #EXTINF:-1 tvg-id="My Kidz" tvg-logo="https://www.mncvision.id/userfiles/image/ARTIKEL%20MNC%20VISION/MY%20KIDS.png" group-title="KARTUN ANAK" http-referrer="" http-user-agent="",MyKidz
@@ -110,7 +110,7 @@ https://indihuy.streamized.net/atm/DASH/pramborstv/manifest.mpd
 #EXTVLCOPT:http-referrer=maxstream.tv/tv-channels
 https://indihuy.streamized.net/atm/DASH/antara/manifest.mpd
 
-#EXTINF:-1 tvg-id="HumaBetangTV.id" tvg-logo="https://i.imgur.com/xBTqOEu.png" group-title="Indonesia;Lainnya;NEWS" http-referrer="" http-user-agent="",Huma Betang TV (720p) [Not 24/7]
+#EXTINF:-1 tvg-id="HumaBetangTV.id" tvg-logo="https://i.imgur.com/xBTqOEu.png" group-title="NEWS" http-referrer="" http-user-agent="",Huma Betang TV (720p) [Not 24/7]
 https://v3.siar.us/humabetangtv/live/playlist.m3u8
 
 #EXTINF:-1 tvg-id="JakartaGlobeNewsChannel.id" tvg-logo="https://i.postimg.cc/B6GFBy9C/In_Shot_20260121_203812695.png" group-title="NEWS" http-referrer="" http-user-agent="",Jakarta Globe News Channel
