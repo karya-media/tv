@@ -1,4 +1,4 @@
-RCTI|RCTI HD|RCTI 2|RCTI Vision+|RCTI V+|RCTI R+|RCTI.id
+RCTI|RCTI HD|RCTI HD (720p)|RCTI 2|RCTI Vision+|RCTI V+|RCTI R+|RCTI.id
 MNCTV
 GTV
 iNews
@@ -8,7 +8,7 @@ Moji
 ANTV
 Trans TV
 Trans7|Trans 7
-TVONE|TvOne
+TVONE|TvOne|TV One
 Metro TV|Metro TV (Alt 2)
 Kompas TV
 CNN Indonesia
@@ -19,9 +19,10 @@ RTV
 RCTI World
 BTV|BTV (Alt 2)
 Nusantara TV (NTV)|Nusantara TV (Alt 2)|Nusantara TV
-Berita Satu
+Berita Satu|BeritaSatu (1080p)
 JTV Kediri|JTV Madiun|JTV Madura (480p) [Not 24/7]|JTV Malang
 Madu TV
+TV9
 Hanacaraka TV
 DAAI TV
 Mentari TV
@@ -38,7 +39,7 @@ Insan TV
 Al-Bahjah TV
 Nabawi TV
 TVMU
-MTA TV|MTA TV (Alt 2)
+MTA TV|MTA TV (Alt 2)|MTA TV
 SurauTV|Surau TV
 Salam TV
 U Channel
@@ -72,6 +73,8 @@ TVRI Sulawesi Barat
 TVRI Sulawesi Selatan
 TVRI Sulawesi Tenggara
 TVRI Maluku
+TVRI NTB
+TVRI NTT
 TVRI Papua
 TVRI Papua Barat
 Jak tv|JAKTV|Jak TV
@@ -149,6 +152,8 @@ MOTOGP #2
 Live Event #1
 Live Event #2
 Live Event #3
+Pegadaian Championship|Pegadaian Championship (Alt 2)|Pegadaian Championship (Alt 3)|Pegadaian Championship (Alt 4)|Pegadaian Championship (Alt 5)|Pegadaian Championshipe
+Volleyball|Volleyball (Alt 2)
 Sinpo TV|Sin Po TV
 SindoNews
 RODJA TV 2
@@ -239,8 +244,61 @@ New TV Comprehensive
 New TV Finance
 New TV Variety
 Nick Jr. Indonesia
-TV 10
-TV9
-TVRI NTB
-TVRI NTT
 UGTV
+Rock Action|ROCK ACTION
+Rock Entertainment|ROCK ENTERTAINMENT
+Sangaji TV|Sangaji TV (Alt 2)
+Thrill|THRILL
+Stara TV
+Stara TV Bandung
+Stara TV Bojonegoro
+Stara TV Cianjur
+Stara TV Jakarta
+Stara TV Malang
+Stara TV Parahyangan
+B+ TV
+BIOSKOP INDONESIA
+CCM
+CITRA ENTERTAINMENT
+Citra Muslim
+Crime Investigation (V+)
+E International Asia
+E International Europe
+Galaxy
+Galaxy Premium
+Groovia Kanal
+Groovia Kids
+HBO+
+LIFE (V+)
+Lifetime
+Online TV Nusantara
+PJTV
+PKTV
+PONTV
+Prambors
+Puja TV Aceh
+Radar Tasikmalaya TV
+Rajawali TV
+Rakyat Bengkulu TV
+Rinjani TV
+Salira TV
+Sampit TV
+SMTV
+SPOTV
+SPOTV 2
+STV
+Selaparang TV
+Simpang5 TV
+Soccer Channel
+Sultra TV
+TAP MOVIES
+TVN MOVIES
+TVR Parlemen
+The Indonesia Channel
+Universal Movies
+YOY International
+Zee Anmol Cinema
+Zee Bioskop|Z Bioskop
+Zee Bollywood
+RCTI HD (720p)
+MNCTV HD (720p)
