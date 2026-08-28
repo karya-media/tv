@@ -33,6 +33,28 @@ class TestParseBasic:
         assert playlist.warnings == []
 
 
+class TestHeaderUrlTvg:
+    def test_captures_url_tvg_from_header(self, parser: M3UParser):
+        raw = '#EXTM3U url-tvg="https://example.com/epg.xml.gz"\n'
+        playlist = parser.parse(raw, name="test")
+        assert playlist.epg_url == "https://example.com/epg.xml.gz"
+
+    def test_captures_single_quoted_url_tvg(self, parser: M3UParser):
+        raw = "#EXTM3U url-tvg='https://example.com/epg.xml'\n"
+        playlist = parser.parse(raw, name="test")
+        assert playlist.epg_url == "https://example.com/epg.xml"
+
+    def test_no_url_tvg_leaves_epg_url_none(self, parser: M3UParser):
+        raw = "#EXTM3U\n"
+        playlist = parser.parse(raw, name="test")
+        assert playlist.epg_url is None
+
+    def test_missing_header_entirely_leaves_epg_url_none(self, parser: M3UParser):
+        raw = FIXTURES.joinpath("sports.m3u").read_text(encoding="utf-8")
+        playlist = parser.parse(raw, name="test")
+        assert playlist.epg_url is None
+
+
 class TestParseRepair:
     def test_strips_bom(self, parser: M3UParser):
         raw = FIXTURES.joinpath("news.m3u").read_text(encoding="utf-8-sig")
