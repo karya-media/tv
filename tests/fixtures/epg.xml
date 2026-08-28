@@ -13,5 +13,19 @@
   </channel>
   <programme start="20260727100000 +0000" stop="20260727110000 +0000" channel="espn.us">
     <title>SportsCenter</title>
+    <desc>Daily sports news roundup.</desc>
+    <category>Sports</category>
+  </programme>
+  <programme start="20260727110000 +0000" stop="20260727120000 +0000" channel="espn.us">
+    <title>NBA Tonight</title>
+  </programme>
+  <programme start="20260727100000 +0000" channel="cnn.us">
+    <title>CNN Newsroom</title>
+  </programme>
+  <programme start="20260727100000 +0000" stop="20260727103000 +0000" channel="unused.channel.us">
+    <title>Not wanted, should never be parsed</title>
+  </programme>
+  <programme start="20260727100000 +0000" stop="20260727103000 +0000" channel="not-even-a-known-channel.xx">
+    <title>Also not wanted</title>
   </programme>
 </tv>

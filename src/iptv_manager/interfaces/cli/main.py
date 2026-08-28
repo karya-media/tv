@@ -31,6 +31,7 @@ from iptv_manager.application.use_cases.limit_channel_variants import (
     online_urls_from_results,
 )
 from iptv_manager.application.use_cases.match_tvg_id_from_epg import MatchTvgIdFromEpgUseCase
+from iptv_manager.application.use_cases.merge_epg_sources import MergeEPGSourcesUseCase
 from iptv_manager.application.use_cases.merge_playlists import MergePlaylistsUseCase, MergeResult
 from iptv_manager.application.use_cases.sync_sources import SyncSourcesUseCase
 from iptv_manager.application.use_cases.validate_logos import (
@@ -42,6 +43,8 @@ from iptv_manager.application.use_cases.validate_streams import (
     ValidateStreamsUseCase,
 )
 from iptv_manager.config.settings import PublishTarget, Settings, get_settings
+from iptv_manager.domain.entities.epg_channel import EPGChannel
+from iptv_manager.domain.entities.epg_programme import EPGProgramme
 from iptv_manager.domain.entities.playlist import Playlist
 from iptv_manager.domain.entities.stream_validation_result import StreamStatus
 from iptv_manager.infrastructure.parsers.m3u_parser import M3UParser
@@ -50,7 +53,9 @@ from iptv_manager.infrastructure.reports.csv_report_writer import CSVReportWrite
 from iptv_manager.infrastructure.reports.excel_report_writer import ExcelReportWriter
 from iptv_manager.infrastructure.reports.html_report_writer import HTMLReportWriter
 from iptv_manager.infrastructure.reports.json_report_writer import JSONReportWriter
+from iptv_manager.infrastructure.serializers.xmltv_writer import write_xmltv
 from iptv_manager.infrastructure.sources.channel_order_file import parse_channel_order_file
+from iptv_manager.infrastructure.sources.epg_sources_file import parse_epg_sources_file
 from iptv_manager.infrastructure.sources.local_file_source import LocalFilePlaylistSource
 from iptv_manager.infrastructure.sources.playlist_bundles_file import parse_playlist_bundles_file
 from iptv_manager.infrastructure.sources.remote_url_source import RemoteUrlPlaylistSource
@@ -369,6 +374,84 @@ async def _fetch_epg_content(
     if isinstance(source, RemoteUrlPlaylistSource):
         return await source.fetch_bytes()
     return await source.fetch()
+
+
+@app.command("merge-epg")
+def merge_epg() -> None:
+    """Fetch every XMLTV source listed in data/epg_sources.txt,
+    combine them into one EPG (see MergeEPGSourcesUseCase), and write
+    it to data/epg/epg.xml.
+
+    Filtered to only the channels actually present in master.m3u -
+    keeps the output small and safe to process, instead of repeating
+    the out-of-memory problem a full multi-source aggregate (every
+    channel in the world, not just the ones in this playlist) caused
+    earlier in this project. Point IPTV_EPG_URL / the `epg_url`
+    setting at this file's raw.githubusercontent.com URL once
+    committed, to use it for master.m3u's "#EXTM3U url-tvg=..."
+    header instead of a third-party source.
+    """
+    settings = get_settings()
+
+    if not settings.master_playlist_path.is_file():
+        typer.echo(
+            f"No master playlist found at {settings.master_playlist_path}. "
+            "Run `iptv-manager merge` first.",
+            err=True,
+        )
+        raise typer.Exit(code=1)
+
+    epg_sources_path = settings.project_root / "data" / "epg_sources.txt"
+    urls = parse_epg_sources_file(epg_sources_path)
+    if not urls:
+        typer.echo(
+            f"No EPG sources listed in {epg_sources_path} "
+            "(one XMLTV URL per line). Nothing to merge.",
+            err=True,
+        )
+        raise typer.Exit(code=1)
+
+    m3u_parser = M3UParser()
+    master = m3u_parser.parse(
+        settings.master_playlist_path.read_text(encoding="utf-8"), name="master"
+    )
+    wanted_channel_ids = {channel.tvg_id.value for channel in master if channel.has_tvg_id}
+    typer.echo(f"Wanted channel ids from master.m3u: {len(wanted_channel_ids)}")
+
+    xmltv_parser = XMLTVParser()
+    parsed_sources: list[tuple[list[EPGChannel], list[EPGProgramme]]] = []
+    for url in urls:
+        source: RemoteUrlPlaylistSource | LocalFilePlaylistSource = (
+            RemoteUrlPlaylistSource(
+                url, timeout=settings.epg_fetch_timeout_seconds, user_agent=settings.user_agent
+            )
+            if _is_url_generic(url)
+            else LocalFilePlaylistSource(url)
+        )
+        try:
+            raw_content = asyncio.run(_fetch_epg_content(source))
+            channels, programmes = xmltv_parser.parse_channels_and_programmes(
+                raw_content, wanted_channel_ids=wanted_channel_ids
+            )
+        except Exception as exc:  # noqa: BLE001 - one bad source must never sink the merge
+            typer.echo(f"Skipped {url}: {exc}", err=True)
+            continue
+        typer.echo(f"{url}: {len(channels)} channel(s), {len(programmes)} programme(s)")
+        parsed_sources.append((channels, programmes))
+
+    if not parsed_sources:
+        typer.echo("No EPG source could be fetched successfully.", err=True)
+        raise typer.Exit(code=1)
+
+    result = MergeEPGSourcesUseCase().execute(parsed_sources)
+    typer.echo(
+        f"Merged: {len(result.channels)} channel(s), {len(result.programmes)} programme(s)"
+    )
+
+    output_path = settings.epg_path / "epg.xml"
+    output_path.parent.mkdir(parents=True, exist_ok=True)
+    output_path.write_bytes(write_xmltv(result.channels, result.programmes))
+    typer.echo(f"Wrote {output_path}")
 
 
 @app.command("check-epg")

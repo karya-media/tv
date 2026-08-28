@@ -1,0 +1,7 @@
+# Daftar sumber EPG (XMLTV) yang akan digabung oleh `iptv-manager merge-epg`.
+# Satu URL per baris. Baris kosong dan baris berawalan # diabaikan.
+# Urutan menentukan prioritas: sumber yang lebih awal menang jika ada
+# channel/jadwal acara yang sama dari beberapa sumber.
+#
+# Contoh (hapus tanda # di depan untuk mengaktifkan):
+# https://epgshare01.online/epgshare01/epg_ripper_ALL_SOURCES1.xml.gz
