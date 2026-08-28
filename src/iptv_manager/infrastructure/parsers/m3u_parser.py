@@ -34,6 +34,7 @@ _EXTINF_RE = re.compile(
 )
 _ATTR_RE = re.compile(r"""([\w-]+)=(?:"([^"]*)"|'([^']*)')""")
 _VLCOPT_RE = re.compile(r"^\#EXTVLCOPT:\s*([\w-]+)=(.*)$")
+_HEADER_URL_TVG_RE = re.compile(r"""\burl-tvg=(?:"([^"]*)"|'([^']*)')""")
 
 # Attributes modeled explicitly on Channel; anything else in an
 # #EXTINF line is preserved in Channel.extra_attrs so no metadata is
@@ -60,6 +61,9 @@ class M3UParser:
 
             if line.startswith("#EXTM3U"):
                 saw_header = True
+                header_match = _HEADER_URL_TVG_RE.search(line)
+                if header_match:
+                    playlist.epg_url = header_match.group(1) or header_match.group(2)
                 continue
 
             if line.startswith("#EXTINF"):

@@ -378,7 +378,8 @@ async def _fetch_epg_content(
 
 @app.command("merge-epg")
 def merge_epg() -> None:
-    """Fetch every XMLTV source listed in data/epg_sources.txt,
+    """Fetch every XMLTV source listed in data/epg_sources.txt *plus*
+    any distinct url-tvg header found in data/categories/*.m3u files,
     combine them into one EPG (see MergeEPGSourcesUseCase), and write
     it to data/epg/epg.xml.
 
@@ -401,17 +402,42 @@ def merge_epg() -> None:
         )
         raise typer.Exit(code=1)
 
+    m3u_parser = M3UParser()
+
     epg_sources_path = settings.project_root / "data" / "epg_sources.txt"
-    urls = parse_epg_sources_file(epg_sources_path)
+    urls = list(parse_epg_sources_file(epg_sources_path))
+
+    # Auto-discover: any category file (data/categories/*.m3u) may
+    # declare its own "#EXTM3U url-tvg=..." header - e.g. a
+    # hand-curated or uploaded file that already names a preferred EPG
+    # source. These are picked up automatically so the same URL never
+    # has to be copied into epg_sources.txt by hand, and so a *new*
+    # category file with a *different* declared source is honored
+    # without any extra configuration step. Explicit epg_sources.txt
+    # entries still come first (win on conflict); auto-discovered ones
+    # are appended afterward, deduplicated by URL, in filename order.
+    discovered: list[str] = []
+    for category_path in sorted(settings.categories_path.glob("*.m3u")) + sorted(
+        settings.categories_path.glob("*.m3u8")
+    ):
+        header_playlist = m3u_parser.parse(
+            category_path.read_text(encoding="utf-8", errors="replace"), name=category_path.stem
+        )
+        if header_playlist.epg_url and header_playlist.epg_url not in urls:
+            discovered.append(header_playlist.epg_url)
+            typer.echo(f"Discovered EPG source in {category_path.name}: {header_playlist.epg_url}")
+    for url in discovered:
+        if url not in urls:
+            urls.append(url)
+
     if not urls:
         typer.echo(
-            f"No EPG sources listed in {epg_sources_path} "
-            "(one XMLTV URL per line). Nothing to merge.",
+            f"No EPG sources found - none listed in {epg_sources_path}, and no "
+            "data/categories/*.m3u file declares its own url-tvg header. Nothing to merge.",
             err=True,
         )
         raise typer.Exit(code=1)
 
-    m3u_parser = M3UParser()
     master = m3u_parser.parse(
         settings.master_playlist_path.read_text(encoding="utf-8"), name="master"
     )

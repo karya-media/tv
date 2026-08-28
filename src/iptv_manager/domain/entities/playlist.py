@@ -24,6 +24,13 @@ class Playlist:
     channels: list[Channel] = field(default_factory=list)
     category: str | None = None
     warnings: list[str] = field(default_factory=list)
+    # The `url-tvg` attribute on this file's own "#EXTM3U ..." header,
+    # if it had one - a source file's stated EPG preference, captured
+    # so callers (see merge-epg's auto-discovery) can use it without
+    # having to re-read/re-parse the raw file themselves. Not carried
+    # forward automatically through merges; a use case that cares
+    # about it reads it explicitly per source playlist.
+    epg_url: str | None = None
 
     def add_channel(self, channel: Channel) -> None:
         self.channels.append(channel)
