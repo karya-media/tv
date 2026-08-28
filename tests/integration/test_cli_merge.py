@@ -79,3 +79,56 @@ def test_merge_command_fails_cleanly_with_no_category_files(tmp_path: Path, monk
 
     assert result.exit_code == 1
     get_settings.cache_clear()
+
+
+class TestPlaylistBundles:
+    def test_playlists_txt_publishes_multiple_named_bundles(self, isolated_settings: Settings):
+        (isolated_settings.project_root / "data" / "playlists.txt").write_text(
+            "everything=sports,news\nsports_only=sports\n", encoding="utf-8"
+        )
+
+        result = runner.invoke(cli_main.app, ["merge"])
+
+        assert result.exit_code == 0, result.output
+        everything_path = isolated_settings.master_path / "everything.m3u"
+        sports_only_path = isolated_settings.master_path / "sports_only.m3u"
+        assert everything_path.exists()
+        assert sports_only_path.exists()
+        assert sports_only_path.read_text(encoding="utf-8").count("#EXTINF") == 1
+        assert everything_path.read_text(encoding="utf-8").count("#EXTINF") == 2
+
+    def test_warns_about_a_bundle_referencing_an_unknown_category(
+        self, isolated_settings: Settings
+    ):
+        (isolated_settings.project_root / "data" / "playlists.txt").write_text(
+            "master=sports,does_not_exist\n", encoding="utf-8"
+        )
+
+        result = runner.invoke(cli_main.app, ["merge"])
+
+        assert result.exit_code == 0, result.output
+        assert "does_not_exist" in result.output
+        assert "unknown" in result.output
+
+    def test_warns_about_a_category_not_referenced_by_any_bundle(
+        self, isolated_settings: Settings
+    ):
+        # "news" exists in data/categories/ but no bundle mentions it.
+        (isolated_settings.project_root / "data" / "playlists.txt").write_text(
+            "master=sports\n", encoding="utf-8"
+        )
+
+        result = runner.invoke(cli_main.app, ["merge"])
+
+        assert result.exit_code == 0, result.output
+        assert "news" in result.output
+        assert "playlists.txt bundle" in result.output
+
+    def test_no_playlists_txt_falls_back_to_a_single_master_bundle(
+        self, isolated_settings: Settings
+    ):
+        result = runner.invoke(cli_main.app, ["merge"])
+
+        assert result.exit_code == 0, result.output
+        assert isolated_settings.master_playlist_path.exists()
+        assert not (isolated_settings.master_path / "sports_only.m3u").exists()
