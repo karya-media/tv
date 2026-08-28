@@ -1,0 +1,16 @@
+# Konfigurasi "bundle" - membagi hasil merge jadi beberapa file .m3u
+# terpisah, bukan cuma satu master.m3u besar.
+#
+# Format: nama_bundle=stem1,stem2,stem3
+# ("stem" = nama file di data/categories/ tanpa .m3u)
+#
+# Setiap bundle akan menghasilkan file terpisah di:
+#   data/master/<nama_bundle>.m3u
+#   docs/<nama_bundle>.m3u (kalau publish ke GitHub Pages aktif)
+
+# Semua channel (perilaku sama seperti master.m3u sekarang - URL lama tetap jalan)
+master=01_Nasional,02_lokal,03_TVRI Daerah,beetv,c_tv,iptv-org
+
+# Cuma channel Indonesia asli - lebih kecil, lebih stabil untuk player
+# yang membatasi jumlah channel
+indonesia=01_Nasional,02_lokal,03_TVRI Daerah
