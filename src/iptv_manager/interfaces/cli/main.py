@@ -245,6 +245,22 @@ def _merge_and_publish(settings: Settings, parser: M3UParser) -> tuple[int, Merg
             f"from {len(bundle_playlists)}/{len(stems)} categor(y/ies)"
         )
 
+    # A category file that isn't referenced by *any* bundle is still
+    # validated/reported on (everything_result covers it), but never
+    # appears in any published .m3u - easy to miss, since nothing else
+    # would otherwise say so. Flag it explicitly rather than let it go
+    # silently unpublished.
+    referenced_stems = {stem for stems in bundle_stems.values() for stem in stems}
+    orphaned_stems = sorted(set(playlists_by_stem) - referenced_stems)
+    if orphaned_stems:
+        typer.echo(
+            "  warning: these category file(s) aren't listed in any "
+            f"data/playlists.txt bundle, so they won't appear in any published "
+            f"playlist (add their stem to a bundle line to include them): "
+            f"{', '.join(orphaned_stems)}",
+            err=True,
+        )
+
     return len(category_files), everything_result
 
 
