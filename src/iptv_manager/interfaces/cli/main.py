@@ -43,6 +43,7 @@ from iptv_manager.application.use_cases.validate_streams import (
     ValidateStreamsUseCase,
 )
 from iptv_manager.config.settings import PublishTarget, Settings, get_settings
+from iptv_manager.domain.entities.channel import Channel
 from iptv_manager.domain.entities.epg_channel import EPGChannel
 from iptv_manager.domain.entities.epg_programme import EPGProgramme
 from iptv_manager.domain.entities.playlist import Playlist
@@ -211,17 +212,19 @@ def _merge_and_publish(settings: Settings, parser: M3UParser) -> tuple[int, Merg
         )
 
     bundles_path = settings.project_root / "data" / "playlists.txt"
-    bundle_stems = parse_playlist_bundles_file(bundles_path)
-    if not bundle_stems:
+    bundle_specs = parse_playlist_bundles_file(bundles_path)
+    if not bundle_specs:
         # No playlists.txt - historical behavior: one "master" bundle
         # with every category file, published to the same paths as
         # before this feature existed.
         _publish_bundle(settings, parser, "master", everything_result.master)
         return len(category_files), everything_result
 
-    for bundle_name, stems in bundle_stems.items():
+    published_urls: set[str] = set()
+
+    for bundle_name, spec in bundle_specs.items():
         bundle_playlists = []
-        for stem in stems:
+        for stem in spec.stems:
             playlist = playlists_by_stem.get(stem)
             if playlist is None:
                 typer.echo(
@@ -232,32 +235,59 @@ def _merge_and_publish(settings: Settings, parser: M3UParser) -> tuple[int, Merg
                 continue
             bundle_playlists.append(playlist)
 
-        bundle_result = MergePlaylistsUseCase().execute(bundle_playlists, master_name=bundle_name)
-        bundle_result.master = BackfillTvgIdFromExactNameUseCase().execute(bundle_result.master)
-        bundle_result.master = CategorizeByCountryUseCase().execute(bundle_result.master)
+        stem_channels: list[Channel] = []
+        if bundle_playlists:
+            stem_result = MergePlaylistsUseCase().execute(bundle_playlists, master_name=bundle_name)
+            stem_result.master = BackfillTvgIdFromExactNameUseCase().execute(stem_result.master)
+            stem_result.master = CategorizeByCountryUseCase().execute(stem_result.master)
+            stem_channels = list(stem_result.master)
+
+        # "group:<prefix>" entries pull matching channels straight
+        # from everything_result.master - already fully processed
+        # (backfilled, country-tagged), so group-title matching is as
+        # accurate as it'll ever be, regardless of which category file
+        # a channel happened to come from.
+        seen_urls = {channel.url.raw for channel in stem_channels}
+        group_channels = [
+            channel
+            for channel in everything_result.master
+            if channel.url.raw not in seen_urls
+            and any(channel.group_title.matches_prefix(p) for p in spec.group_prefixes)
+        ]
+
+        bundle_channels = stem_channels + group_channels
+        if not bundle_channels:
+            typer.echo(f"  warning: bundle {bundle_name!r} matched no channels - skipped", err=True)
+            continue
+
+        bundle_master = Playlist(name=bundle_name, channels=bundle_channels)
         if priority_slots:
-            bundle_result.master = ApplyChannelOrderUseCase().execute(
-                priority_slots, bundle_result.master
-            )
-        _publish_bundle(settings, parser, bundle_name, bundle_result.master)
+            bundle_master = ApplyChannelOrderUseCase().execute(priority_slots, bundle_master)
+
+        _publish_bundle(settings, parser, bundle_name, bundle_master)
+        published_urls.update(channel.url.raw for channel in bundle_master)
         typer.echo(
-            f"  bundle {bundle_name!r}: {len(bundle_result.master)} channel(s) "
-            f"from {len(bundle_playlists)}/{len(stems)} categor(y/ies)"
+            f"  bundle {bundle_name!r}: {len(bundle_master)} channel(s) "
+            f"({len(stem_channels)} from {len(bundle_playlists)}/{len(spec.stems)} "
+            f"categor(y/ies), {len(group_channels)} from "
+            f"{len(spec.group_prefixes)} group prefix(es))"
         )
 
-    # A category file that isn't referenced by *any* bundle is still
-    # validated/reported on (everything_result covers it), but never
-    # appears in any published .m3u - easy to miss, since nothing else
-    # would otherwise say so. Flag it explicitly rather than let it go
-    # silently unpublished.
-    referenced_stems = {stem for stems in bundle_stems.values() for stem in stems}
-    orphaned_stems = sorted(set(playlists_by_stem) - referenced_stems)
+    # A category file whose channels never made it into *any* published
+    # bundle (neither by stem nor by a matching group prefix) is still
+    # validated/reported on (everything_result covers it), but easy to
+    # miss otherwise - flag it explicitly.
+    orphaned_stems = sorted(
+        stem
+        for stem, playlist in playlists_by_stem.items()
+        if playlist
+        and not any(channel.url.raw in published_urls for channel in playlist)
+    )
     if orphaned_stems:
         typer.echo(
-            "  warning: these category file(s) aren't listed in any "
-            f"data/playlists.txt bundle, so they won't appear in any published "
-            f"playlist (add their stem to a bundle line to include them): "
-            f"{', '.join(orphaned_stems)}",
+            "  warning: these category file(s) aren't covered by any "
+            f"data/playlists.txt bundle (by stem or group: prefix), so they won't "
+            f"appear in any published playlist: {', '.join(orphaned_stems)}",
             err=True,
         )
 

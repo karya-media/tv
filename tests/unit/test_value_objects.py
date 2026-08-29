@@ -91,3 +91,23 @@ class TestGroupTitle:
             str(GroupTitle.parse("Indonesia;Nasional"))
             == "Indonesia;Nasional"
         )
+
+    def test_matches_prefix_exact_value(self):
+        assert GroupTitle.parse("Indonesia").matches_prefix("Indonesia") is True
+
+    def test_matches_prefix_segment_boundary(self):
+        assert GroupTitle.parse("Indonesia;Nasional").matches_prefix("Indonesia") is True
+
+    def test_matches_prefix_is_case_insensitive(self):
+        assert GroupTitle.parse("indonesia;nasional").matches_prefix("INDONESIA") is True
+
+    def test_matches_prefix_rejects_partial_word_match(self):
+        # "IndonesiaXYZ" must not match prefix "Indonesia" - no segment
+        # boundary at that point, just a coincidental shared prefix.
+        assert GroupTitle.parse("IndonesiaXYZ;Nasional").matches_prefix("Indonesia") is False
+
+    def test_matches_prefix_rejects_unrelated_group(self):
+        assert GroupTitle.parse("United States;Movies").matches_prefix("Indonesia") is False
+
+    def test_matches_prefix_empty_prefix_never_matches(self):
+        assert GroupTitle.parse("Indonesia;Nasional").matches_prefix("") is False

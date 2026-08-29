@@ -1,8 +1,14 @@
 # Konfigurasi "bundle" - membagi hasil merge jadi beberapa file .m3u
 # terpisah, bukan cuma satu master.m3u besar.
 #
-# Format: nama_bundle=stem1,stem2,stem3
-# ("stem" = nama file di data/categories/ tanpa .m3u)
+# Format: nama_bundle=entry1,entry2,...
+# Setiap "entry" salah satu dari:
+#   - stem file (nama file di data/categories/ tanpa .m3u) - ambil
+#     SEMUA channel dari file itu
+#   - group:<prefix> - ambil channel APAPUN (dari file manapun) yang
+#     group-title-nya persis <prefix> atau diawali "<prefix>;" -
+#     misalnya "group:Indonesia" menangkap "Indonesia;Nasional",
+#     "Indonesia;Lokal", dst, dari SEMUA file sumber sekaligus
 #
 # Setiap bundle akan menghasilkan file terpisah di:
 #   data/master/<nama_bundle>.m3u
@@ -11,6 +17,7 @@
 # Semua channel (perilaku sama seperti master.m3u sekarang - URL lama tetap jalan)
 master=01_Nasional,02_lokal,03_TVRI Daerah,beetv,c_tv,iptv-org
 
-# Cuma channel Indonesia asli - lebih kecil, lebih stabil untuk player
-# yang membatasi jumlah channel
-indonesia=01_Nasional,02_lokal,03_TVRI Daerah
+# Semua channel yang ter-tag "Indonesia" - lebih akurat dari sekadar
+# stem file tertentu, karena ikut menangkap channel Indonesia yang
+# tersebar di file sumber lain (beetv, c_tv, iptv-org)
+indonesia=group:Indonesia
