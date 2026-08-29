@@ -68,3 +68,18 @@ class GroupTitle:
 
     def __str__(self) -> str:
         return self.value
+
+    def matches_prefix(self, prefix: str) -> bool:
+        """True if this group-title is exactly `prefix`, or starts
+        with `prefix` followed by a ";" segment boundary - matching
+        case-insensitively. Segment-based so "Indonesia" matches
+        "Indonesia;Nasional" but not a hypothetical "IndonesiaXYZ;...".
+        Used by data/playlists.txt's "group:<prefix>" bundle entries.
+        """
+        normalized_value = self.value.casefold()
+        normalized_prefix = prefix.strip().casefold()
+        if not normalized_prefix:
+            return False
+        return normalized_value == normalized_prefix or normalized_value.startswith(
+            f"{normalized_prefix};"
+        )
