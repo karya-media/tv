@@ -12,11 +12,17 @@ for anyone who wants the full set.
 
 Format (one bundle per line: name=comma,separated,entries):
 
-    master=01-nasional,02-olahraga,03-dens_tv,beetv
+    master=*
     indonesia=group:Indonesia
     everything_but_sports=01-nasional,group:United States,group:Germany
 
 Each comma-separated entry is one of:
+  - "*": every category stem currently in data/categories/, whatever
+    they are - so a bundle using this never needs updating just
+    because a new source (a new data/sources.txt entry or an
+    uploaded/renamed .m3u file) appeared. Must be the entry's exact
+    value; "*" combined with other entries on the same line is
+    redundant (and rejected) since it already covers everything.
   - A category stem: a data/categories/<stem>.m3u filename without the
     extension - every channel from that whole file is included.
   - "group:<prefix>": every channel anywhere (regardless of which
@@ -26,8 +32,8 @@ Each comma-separated entry is one of:
     case-insensitive and segment-based (so "group:Indonesia" does NOT
     match a hypothetical "IndonesiaXYZ;...").
 
-The two kinds can be freely mixed within one bundle line; a channel
-matched by both a stem and a group prefix is only included once.
+Entry kinds can be freely mixed within one bundle line (except "*",
+see above); a channel matched more than once is only included once.
 
 Whitespace around commas is ignored.
 
@@ -43,6 +49,7 @@ from dataclasses import dataclass, field
 from pathlib import Path
 
 _GROUP_PREFIX_MARKER = "group:"
+_ALL_STEMS_WILDCARD = "*"
 
 
 class PlaylistBundlesFileError(ValueError):
@@ -53,6 +60,7 @@ class PlaylistBundlesFileError(ValueError):
 class PlaylistBundle:
     stems: list[str] = field(default_factory=list)
     group_prefixes: list[str] = field(default_factory=list)
+    all_stems: bool = False
 
 
 def parse_playlist_bundles_file(path: Path) -> dict[str, PlaylistBundle]:
@@ -95,8 +103,11 @@ def parse_playlist_bundles_file(path: Path) -> dict[str, PlaylistBundle]:
 
         stems: list[str] = []
         group_prefixes: list[str] = []
+        all_stems = False
         for entry in entries:
-            if entry.lower().startswith(_GROUP_PREFIX_MARKER):
+            if entry == _ALL_STEMS_WILDCARD:
+                all_stems = True
+            elif entry.lower().startswith(_GROUP_PREFIX_MARKER):
                 prefix = entry[len(_GROUP_PREFIX_MARKER) :].strip()
                 if not prefix:
                     raise PlaylistBundlesFileError(
@@ -107,6 +118,14 @@ def parse_playlist_bundles_file(path: Path) -> dict[str, PlaylistBundle]:
             else:
                 stems.append(entry)
 
-        bundles[name] = PlaylistBundle(stems=stems, group_prefixes=group_prefixes)
+        if all_stems and (stems or group_prefixes):
+            raise PlaylistBundlesFileError(
+                f"{path}:{line_no}: bundle {name!r} combines '*' with other entries, which "
+                f"is redundant - '*' alone already means every category stem: {raw_line!r}"
+            )
+
+        bundles[name] = PlaylistBundle(
+            stems=stems, group_prefixes=group_prefixes, all_stems=all_stems
+        )
 
     return bundles

@@ -223,6 +223,17 @@ def _merge_and_publish(settings: Settings, parser: M3UParser) -> tuple[int, Merg
     published_urls: set[str] = set()
 
     for bundle_name, spec in bundle_specs.items():
+        if spec.all_stems:
+            # "*" - every category stem, already fully processed as
+            # part of everything_result.master. No need to re-merge.
+            _publish_bundle(settings, parser, bundle_name, everything_result.master)
+            published_urls.update(channel.url.raw for channel in everything_result.master)
+            typer.echo(
+                f"  bundle {bundle_name!r}: {len(everything_result.master)} channel(s) "
+                f"(all {len(category_files)} categor(y/ies), via '*')"
+            )
+            continue
+
         bundle_playlists = []
         for stem in spec.stems:
             playlist = playlists_by_stem.get(stem)
