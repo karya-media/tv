@@ -106,3 +106,24 @@ def test_tolerates_a_byte_order_mark(tmp_path):
     path.write_bytes("\ufeffmaster=sports\n".encode("utf-8"))
     result = parse_playlist_bundles_file(path)
     assert result == {"master": PlaylistBundle(stems=["sports"], group_prefixes=[])}
+
+
+def test_parses_the_all_stems_wildcard(tmp_path):
+    path = tmp_path / "playlists.txt"
+    path.write_text("master=*\n", encoding="utf-8")
+    result = parse_playlist_bundles_file(path)
+    assert result == {"master": PlaylistBundle(all_stems=True)}
+
+
+def test_wildcard_combined_with_a_stem_raises(tmp_path):
+    path = tmp_path / "playlists.txt"
+    path.write_text("master=*,sports\n", encoding="utf-8")
+    with pytest.raises(PlaylistBundlesFileError):
+        parse_playlist_bundles_file(path)
+
+
+def test_wildcard_combined_with_a_group_prefix_raises(tmp_path):
+    path = tmp_path / "playlists.txt"
+    path.write_text("master=*,group:Indonesia\n", encoding="utf-8")
+    with pytest.raises(PlaylistBundlesFileError):
+        parse_playlist_bundles_file(path)

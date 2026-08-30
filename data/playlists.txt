@@ -3,21 +3,20 @@
 #
 # Format: nama_bundle=entry1,entry2,...
 # Setiap "entry" salah satu dari:
+#   - "*" - SEMUA kategori otomatis, termasuk yang baru ditambahkan
+#     nanti (link baru di sources.txt atau file .m3u yang di-upload) -
+#     tidak perlu edit file ini lagi kalau tambah sumber baru
 #   - stem file (nama file di data/categories/ tanpa .m3u) - ambil
 #     SEMUA channel dari file itu
 #   - group:<prefix> - ambil channel APAPUN (dari file manapun) yang
-#     group-title-nya persis <prefix> atau diawali "<prefix>;" -
-#     misalnya "group:Indonesia" menangkap "Indonesia;Nasional",
-#     "Indonesia;Lokal", dst, dari SEMUA file sumber sekaligus
+#     group-title-nya persis <prefix> atau diawali "<prefix>;"
 #
 # Setiap bundle akan menghasilkan file terpisah di:
 #   data/master/<nama_bundle>.m3u
 #   docs/<nama_bundle>.m3u (kalau publish ke GitHub Pages aktif)
 
-# Semua channel (perilaku sama seperti master.m3u sekarang - URL lama tetap jalan)
-master=01_Nasional,02_lokal,03_TVRI Daerah,beetv,c_tv,iptv-org
+# Semua channel, otomatis ikut sumber baru kapan pun ditambahkan
+master=*
 
-# Semua channel yang ter-tag "Indonesia" - lebih akurat dari sekadar
-# stem file tertentu, karena ikut menangkap channel Indonesia yang
-# tersebar di file sumber lain (beetv, c_tv, iptv-org)
+# Semua channel yang ter-tag "Indonesia" dari sumber manapun
 indonesia=group:Indonesia

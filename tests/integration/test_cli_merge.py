@@ -210,3 +210,28 @@ class TestPlaylistBundles:
         assert result.exit_code == 0, result.output
         assert not (isolated_settings.master_path / "empty_bundle.m3u").exists()
         assert "matched no channels" in result.output
+
+    def test_wildcard_bundle_includes_every_category_automatically(
+        self, isolated_settings: Settings
+    ):
+        # A brand-new category file, never mentioned in playlists.txt,
+        # must still show up in a "*" bundle - that's the whole point:
+        # no manual update needed when a new source appears.
+        (isolated_settings.categories_path / "brand_new_source.m3u").write_text(
+            '#EXTM3U\n#EXTINF:-1 group-title="Other",Brand New Channel\n'
+            "http://example.com/stream/brand-new.m3u8\n",
+            encoding="utf-8",
+        )
+        (isolated_settings.project_root / "data" / "playlists.txt").write_text(
+            "everything=*\n", encoding="utf-8"
+        )
+
+        result = runner.invoke(cli_main.app, ["merge"])
+
+        assert result.exit_code == 0, result.output
+        everything_path = isolated_settings.master_path / "everything.m3u"
+        assert everything_path.exists()
+        assert "Brand New Channel" in everything_path.read_text(encoding="utf-8")
+        # A wildcard bundle covers every category by definition - no
+        # orphan warning should ever fire alongside it.
+        assert "playlists.txt bundle" not in result.output
