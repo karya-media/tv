@@ -16,7 +16,7 @@
 #   docs/<nama_bundle>.m3u (kalau publish ke GitHub Pages aktif)
 
 # Semua channel, otomatis ikut sumber baru kapan pun ditambahkan
-master=*
-
+master=group:Indonesia;Olahraga
+all=*
 # Semua channel yang ter-tag "Indonesia" dari sumber manapun
 indonesia=group:Indonesia
