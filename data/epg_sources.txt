@@ -5,3 +5,4 @@
 #
 # Contoh (hapus tanda # di depan untuk mengaktifkan):
 https://epgshare01.online/epgshare01/epg_ripper_ALL_SOURCES1.xml.gz
+https://raw.githubusercontent.com/AqFad2811/epg/main/indonesia.xml
