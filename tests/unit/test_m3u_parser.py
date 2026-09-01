@@ -89,6 +89,38 @@ class TestParseRepair:
         assert len(playlist) == 0
         assert any("no preceding #EXTINF" in w for w in playlist.warnings)
 
+    def test_attrs_with_no_separator_at_all_still_parse(self, parser: M3UParser):
+        # Real-world case (data/categories/02_lokal.m3u): some
+        # exporters emit attributes with zero separator between them.
+        raw = (
+            "#EXTM3U\n"
+            '#EXTINF:-1 tvg-id="DhammaTV.id"tvg-logo="https://x.com/l.png"'
+            'group-title="Indonesia;Lokal",Dhamma TV\n'
+            "https://example.com/dhamma.m3u8\n"
+        )
+        playlist = parser.parse(raw, name="lokal")
+        assert playlist.warnings == []
+        assert len(playlist) == 1
+        channel = playlist.channels[0]
+        assert channel.name == "Dhamma TV"
+        assert str(channel.tvg_id) == "DhammaTV.id"
+        assert str(channel.group_title) == "Indonesia;Lokal"
+
+    def test_attrs_separated_by_a_stray_colon_still_parse(self, parser: M3UParser):
+        # Also seen in the wild in the same file: some attributes
+        # separated by ":" instead of a space.
+        raw = (
+            "#EXTM3U\n"
+            '#EXTINF:-1 tvg-id="X.id":group-title="Indonesia;Lokal":'
+            'http-referrer="":http-user-agent="",Some Channel\n'
+            "https://example.com/x.m3u8\n"
+        )
+        playlist = parser.parse(raw, name="lokal")
+        assert playlist.warnings == []
+        assert len(playlist) == 1
+        assert str(playlist.channels[0].tvg_id) == "X.id"
+        assert str(playlist.channels[0].group_title) == "Indonesia;Lokal"
+
     def test_invalid_stream_url_skipped_with_warning(self, parser: M3UParser):
         raw = (
             "#EXTM3U\n"

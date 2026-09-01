@@ -26,12 +26,19 @@ from iptv_manager.domain.value_objects.tvg_id import TvgId
 _EXTINF_RE = re.compile(
     r"""^\#EXTINF:\s*
         (?P<duration>-?\d+(?:\.\d+)?)
-        (?P<attrs>(?:\s+[\w-]+=(?:"[^"]*"|'[^']*'))*)
+        (?P<attrs>(?:[\s:]*[\w-]+=(?:"[^"]*"|'[^']*'))*)
         \s*,\s*
         (?P<name>.*)$
     """,
     re.VERBOSE,
 )
+# Attribute separator is intentionally lenient ([\s:]* rather than
+# requiring at least one space): some real-world exporters emit
+# attrs with no separator at all (tvg-id="X"tvg-logo="Y") or with a
+# stray ":" instead of a space (group-title="X":http-referrer="Y").
+# Confirmed in the wild in data/categories/02_lokal.m3u - without
+# this, every #EXTINF line in that style of file failed to match at
+# all and its channel was silently dropped.
 _ATTR_RE = re.compile(r"""([\w-]+)=(?:"([^"]*)"|'([^']*)')""")
 _VLCOPT_RE = re.compile(r"^\#EXTVLCOPT:\s*([\w-]+)=(.*)$")
 _HEADER_URL_TVG_RE = re.compile(r"""\burl-tvg=(?:"([^"]*)"|'([^']*)')""")
