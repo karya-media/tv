@@ -19,3 +19,4 @@
 all=*
 # Semua channel yang ter-tag "Indonesia" dari sumber manapun
 indonesia=group:Indonesia
+master=group:Indonesia,group:Olahraga
