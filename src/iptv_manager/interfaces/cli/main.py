@@ -14,6 +14,7 @@ Commands:
 from __future__ import annotations
 
 import asyncio
+from collections.abc import Callable
 from pathlib import Path
 from typing import Protocol
 
@@ -175,16 +176,38 @@ def _load_category_playlists(
 
 
 def _merge_and_publish(settings: Settings, parser: M3UParser) -> tuple[int, MergeResult]:
-    """Shared by `merge` and `report`: load every category file, merge
-    ALL of them into one comprehensive result (used for validation and
-    the report - every channel that exists anywhere gets checked),
-    then additionally publish one or more curated "bundles" per
-    data/playlists.txt (falling back to a single bundle containing
-    everything if that file doesn't exist).
+    """Shared by `merge` and `report`: build the comprehensive
+    (all-categories) result, then immediately publish every bundle
+    from it.
 
-    Returns the comprehensive (all-categories) MergeResult - callers
-    that only care about validation/reporting can ignore that bundles
-    were published at all.
+    `report` calls _build_everything_result() and _publish_bundles()
+    separately instead of this, so it can run stream validation,
+    variant-limiting, and EPG matching on the comprehensive result
+    *before* bundles are split out and written - otherwise a bundle's
+    published file would reflect only the initial merge, not the
+    fully-processed data those extra steps produce.
+    """
+    category_file_count, everything_result, publish = _build_everything_result(settings, parser)
+    publish(everything_result)
+    return category_file_count, everything_result
+
+
+def _build_everything_result(
+    settings: Settings, parser: M3UParser
+) -> tuple[int, MergeResult, Callable[[MergeResult], None]]:
+    """Load every category file and merge ALL of them into one
+    comprehensive result (used for validation and the report - every
+    channel that exists anywhere gets checked, and this is also what
+    every bundle is ultimately built from).
+
+    Returns (category_file_count, everything_result, publish) - call
+    publish(everything_result) once you're done mutating
+    everything_result.master (stream validation, variant-limiting,
+    EPG matching, ...) to split it into and write every bundle from
+    data/playlists.txt (falling back to a single "master" bundle
+    containing everything if that file doesn't exist). Calling
+    publish() more than once, or not at all, is a caller bug - do it
+    exactly once, after all processing is finished.
     """
     category_files, playlists = _load_category_playlists(settings, parser)
 
@@ -193,8 +216,7 @@ def _merge_and_publish(settings: Settings, parser: M3UParser) -> tuple[int, Merg
         raise typer.Exit(code=1)
 
     playlists_by_stem = {
-        path.stem: playlist
-        for path, playlist in zip(category_files, playlists, strict=True)
+        path.stem: playlist for path, playlist in zip(category_files, playlists, strict=True)
     }
 
     order_path = settings.project_root / "data" / "channel_order.txt"
@@ -211,6 +233,26 @@ def _merge_and_publish(settings: Settings, parser: M3UParser) -> tuple[int, Merg
             priority_slots, everything_result.master
         )
 
+    def publish(result: MergeResult) -> None:
+        _publish_bundles(
+            settings, parser, result, category_files, playlists_by_stem, priority_slots
+        )
+
+    return len(category_files), everything_result, publish
+
+
+def _publish_bundles(
+    settings: Settings,
+    parser: M3UParser,
+    everything_result: MergeResult,
+    category_files: list[Path],
+    playlists_by_stem: dict[str, Playlist],
+    priority_slots: list[list[str]],
+) -> None:
+    """Split everything_result.master into every bundle named in
+    data/playlists.txt (stem-based, group:-based, "*", or any mix) and
+    write each one out. See _build_everything_result()'s docstring for
+    why this is a separate step instead of happening inline."""
     bundles_path = settings.project_root / "data" / "playlists.txt"
     bundle_specs = parse_playlist_bundles_file(bundles_path)
     if not bundle_specs:
@@ -218,7 +260,7 @@ def _merge_and_publish(settings: Settings, parser: M3UParser) -> tuple[int, Merg
         # with every category file, published to the same paths as
         # before this feature existed.
         _publish_bundle(settings, parser, "master", everything_result.master)
-        return len(category_files), everything_result
+        return
 
     published_urls: set[str] = set()
 
@@ -255,9 +297,11 @@ def _merge_and_publish(settings: Settings, parser: M3UParser) -> tuple[int, Merg
 
         # "group:<prefix>" entries pull matching channels straight
         # from everything_result.master - already fully processed
-        # (backfilled, country-tagged), so group-title matching is as
-        # accurate as it'll ever be, regardless of which category file
-        # a channel happened to come from.
+        # (backfilled, country-tagged, and - when called from `report`
+        # - stream-validated/variant-limited/EPG-matched too), so
+        # group-title matching is as accurate as it'll ever be,
+        # regardless of which category file a channel happened to
+        # come from.
         seen_urls = {channel.url.raw for channel in stem_channels}
         group_channels = [
             channel
@@ -291,8 +335,7 @@ def _merge_and_publish(settings: Settings, parser: M3UParser) -> tuple[int, Merg
     orphaned_stems = sorted(
         stem
         for stem, playlist in playlists_by_stem.items()
-        if playlist
-        and not any(channel.url.raw in published_urls for channel in playlist)
+        if playlist and not any(channel.url.raw in published_urls for channel in playlist)
     )
     if orphaned_stems:
         typer.echo(
@@ -301,8 +344,6 @@ def _merge_and_publish(settings: Settings, parser: M3UParser) -> tuple[int, Merg
             f"appear in any published playlist: {', '.join(orphaned_stems)}",
             err=True,
         )
-
-    return len(category_files), everything_result
 
 
 def _publish_bundle(
@@ -620,7 +661,7 @@ def generate_report(
     settings.ensure_directories()
 
     parser = M3UParser()
-    file_count, merge_result = _merge_and_publish(settings, parser)
+    file_count, merge_result, publish = _build_everything_result(settings, parser)
     typer.echo(
         f"Merged {file_count} category playlist(s): "
         f"{merge_result.total_channels_before} -> {merge_result.total_channels_after} channels"
@@ -659,17 +700,6 @@ def generate_report(
                         f"copy/copies (kept up to {max_variants} per family, "
                         "preferring online ones)"
                     )
-                # The extras above were already written to master.m3u
-                # inside _merge_and_publish - re-serialize now that
-                # they're gone from the in-memory playlist.
-                updated_master_text = parser.serialize(
-                    merge_result.master, epg_url=settings.epg_url
-                )
-                settings.master_playlist_path.write_text(updated_master_text, encoding="utf-8")
-                if settings.publish_target in (PublishTarget.PAGES_ONLY, PublishTarget.BOTH):
-                    settings.docs_master_playlist_path.write_text(
-                        updated_master_text, encoding="utf-8"
-                    )
 
     logo_summary: LogoValidationSummary | None = None
     if not skip_logos:
@@ -703,16 +733,6 @@ def generate_report(
                 merge_result.master, epg_channels
             )
             epg_comparison = CompareWithXMLTVUseCase().execute(merge_result.master, epg_channels)
-            # tvg-id may have just changed above - re-serialize
-            # master.m3u (already written once inside
-            # _merge_and_publish) so the newly-filled tvg-ids actually
-            # reach the published file.
-            updated_master_text = parser.serialize(merge_result.master, epg_url=settings.epg_url)
-            settings.master_playlist_path.write_text(updated_master_text, encoding="utf-8")
-            if settings.publish_target in (PublishTarget.PAGES_ONLY, PublishTarget.BOTH):
-                settings.docs_master_playlist_path.write_text(
-                    updated_master_text, encoding="utf-8"
-                )
             typer.echo(
                 f"Compared against {len(epg_channels)} EPG channel(s): "
                 f"{len(epg_comparison.invalid_tvg_id)} invalid tvg-id, "
@@ -724,6 +744,13 @@ def generate_report(
             # results above are still valid and worth publishing.
             typer.echo(f"EPG matching skipped due to an error: {exc}", err=True)
             epg_comparison = None
+
+    # Every bundle is split out of and written from merge_result.master
+    # *here*, now that stream validation, variant-limiting, and EPG
+    # matching have all finished mutating it - so every published file
+    # (master.m3u, and any other data/playlists.txt bundle) reflects
+    # the fully-processed data, not just the initial merge.
+    publish(merge_result)
 
     report: ValidationReport = GenerateReportUseCase().execute(
         master_playlist_name="master",
