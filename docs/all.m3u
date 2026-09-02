@@ -3,13 +3,11 @@
 #EXTVLCOPT:http-user-agent=android-R+
 #EXTVLCOPT:http-referrer=https://www.rctiplus.com/
 https://r-plus.sedotcw3.workers.dev/index.m3u8?id=rcti
-#EXTINF:-1 tvg-name="RCTI.id" tvg-logo="https://images.indihometv.com/assets/logo_rcti_hd.png" group-title="Nasional",RCTI
+#EXTINF:-1 tvg-id="RCTI.id" tvg-name="RCTI.id" tvg-logo="https://images.indihometv.com/assets/logo_rcti_hd.png" group-title="Indonesia;Nasional",RCTI
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://www.rctiplus.com/
 https://beetv.my.id/xstreamx/rctiplus.m3u8?ch=rcti
-#EXTINF:-1 tvg-id="RCTI" tvg-logo="https://thumbor.prod.vidiocdn.com/9c-sEWp6Du7DoWDn56cjma0gMpY=/230x230/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/665/337c4d.png" group-title="Indonesia Channels" tvg-url="https://raw.githubusercontent.com/apistech/project/refs/heads/main/epgs/guide.xml",RCTI
-https://d2xz2v5wuvgur6.cloudfront.net/out/v1/997ce8767b604fae9fce05379b3b8b3a/index.mpd
-#EXTINF:-1 tvg-logo="https://mimipipi22.github.io/logo/nasional/rcti.jpg" group-title="INDIHOME",RCTI
+#EXTINF:-1 tvg-id="RCTI.id" tvg-logo="https://mimipipi22.github.io/logo/nasional/rcti.jpg" group-title="Indonesia;INDIHOME",RCTI
 https://cdnbal1.indihometv.com/atm/DASH/rcti/master.mpd
 #EXTINF:-1 tvg-id="RCTI.idHD" tvg-logo="https://i.imgur.com/iLFx8ia.png" group-title="Indonesia;Uncategorized",RCTI HD (720p)
 https://mncmedia.malingtv.workers.dev/rcti.m3u8
@@ -27,13 +25,11 @@ https://cdnbal1.indihometv.com/atm/DASH/mnctv/master.mpd
 #EXTVLCOPT:http-user-agent=android-R+
 #EXTVLCOPT:http-referrer=https://www.rctiplus.com/
 https://r-plus.sedotcw3.workers.dev/index.m3u8?id=gtv
-#EXTINF:-1 tvg-name="GTV.id" tvg-logo="https://images.indihometv.com/assets/logo_gtv_hd.png" group-title="Nasional",GTV
+#EXTINF:-1 tvg-id="GTV.id" tvg-name="GTV.id" tvg-logo="https://images.indihometv.com/assets/logo_gtv_hd.png" group-title="Indonesia;Nasional",GTV
 #EXTVLCOPT:http-user-agent=android-R+
 #EXTVLCOPT:http-referrer=https://www.rctiplus.com/
 https://beetv.my.id/xstreamx/rctiplus.m3u8?ch=gtv
-#EXTINF:-1 tvg-id="GTV" tvg-logo="https://thumbor.prod.vidiocdn.com/6uEQ8IC06gH6XiMTVHtlRr1HAOE=/230x230/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/778/810229.png" group-title="Indonesia Channels" tvg-url="https://raw.githubusercontent.com/apistech/project/refs/heads/main/epgs/guide.xml",GTV
-https://d2tjypxxy769fn.cloudfront.net/out/v1/b8b9b1d5f80f45649b4a3619291551ab/index.mpd
-#EXTINF:-1 tvg-logo="https://mimipipi22.github.io/logo/nasional/gtv.jpg" group-title="INDIHOME",GTV
+#EXTINF:-1 tvg-id="GTV.id" tvg-logo="https://mimipipi22.github.io/logo/nasional/gtv.jpg" group-title="Indonesia;INDIHOME",GTV
 https://cdnbal1.indihometv.com/atm/DASH/globaltv/master.mpd
 #EXTINF:-1 tvg-id="GTV.idHD" tvg-logo="https://i.imgur.com/jjuKnYs.png" group-title="Indonesia;Uncategorized",GTV HD
 https://mncmedia.malingtv.workers.dev/gtv.m3u8
@@ -41,13 +37,11 @@ https://mncmedia.malingtv.workers.dev/gtv.m3u8
 #EXTVLCOPT:http-user-agent=android-R+
 #EXTVLCOPT:http-referrer=https://www.rctiplus.com/
 https://r-plus.sedotcw3.workers.dev/index.m3u8?id=inews
-#EXTINF:-1 tvg-name="iNews.id" tvg-logo="https://images.indihometv.com/logo_inews_big.png" group-title="Nasional",iNews
+#EXTINF:-1 tvg-id="iNews.id" tvg-name="iNews.id" tvg-logo="https://images.indihometv.com/logo_inews_big.png" group-title="Indonesia;Nasional",iNews
 #EXTVLCOPT:http-user-agent=android-R+
 #EXTVLCOPT:http-referrer=https://www.rctiplus.com/
 https://beetv.my.id/xstreamx/rctiplus.m3u8?ch=inews
-#EXTINF:-1 tvg-id="iNews" tvg-logo="https://thumbor.prod.vidiocdn.com/BmeGg2IWkB_FAVPDviCk8gP8qcw=/230x230/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/5409/c40666.png" group-title="Indonesia Channels" tvg-url="https://raw.githubusercontent.com/apistech/project/refs/heads/main/epgs/guide.xml",iNews
-https://d84q7nw4qf3j3.cloudfront.net/out/v1/34d8dd29eb1d4eba931c7c5ab5f4be09/index.mpd
-#EXTINF:-1 tvg-logo="https://mimipipi22.github.io/logo/nasional/inews.jpg" group-title="INDIHOME",INEWS
+#EXTINF:-1 tvg-id="iNews.id" tvg-logo="https://mimipipi22.github.io/logo/nasional/inews.jpg" group-title="Indonesia;INDIHOME",INEWS
 https://cdnbal1.indihometv.com/atm/DASH/inews/master.mpd
 #EXTINF:-1 tvg-id="SCTV.id" tvg-logo="https://i.imgur.com/9nGJaOL.jpeg" group-title="Indonesia" http-referrer="" http-user-agent="",SCTV
 http://202.169.224.202:8800/udp/239.9.1.29:1234
@@ -126,8 +120,6 @@ http://40.160.24.55/TV_ONE/index.m3u8
 #EXTVLCOPT:http-referrer=https://www.dens.tv/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36
 https://op-flashcon-digdayahd-1.dens.tv/h/h40/01.m3u8?app_type=web&userid=wnctpm5uf2j&chname=tvOne
-#EXTINF:-1 tvg-id="TVOne" tvg-logo="https://thumbor.prod.vidiocdn.com/APQ6a9vXvN6lU1zjeyL15IV_AJQ=/230x230/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/783/07750c.png" group-title="Indonesia Channels" tvg-url="https://raw.githubusercontent.com/apistech/project/refs/heads/main/epgs/guide.xml",TVOne (V+)
-https://d3b0v7fggu5zwm.cloudfront.net/out/v1/f3df48faafaf4198a65b9763140fce30/index.mpd
 #EXTINF:-1 tvg-id="TVOne" tvg-logo="https://thumbor.prod.vidiocdn.com/APQ6a9vXvN6lU1zjeyL15IV_AJQ=/230x230/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/783/07750c.png" group-title="Indonesia Channels" tvg-url="https://raw.githubusercontent.com/apistech/project/refs/heads/main/epgs/guide.xml",TVOne (DensTV)
 #EXTVLCOPT:http-user-agent=DENSGO/3.00.00 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
 #EXTVLCOPT:http-referrer=http://dens.tv
@@ -183,12 +175,10 @@ https://hgmtv.com:19360/garudatvlivestreaming/garudatvlivestreaming.m3u8
 https://op-flashcon-digdayahd-1.dens.tv/h/h223/02.m3u8
 #EXTINF:-1 tvg-id="MDTV.id" tvg-logo="https://i.imgur.com/oaBCedP.jpeg" group-title="Indonesia" http-referrer="" http-user-agent="",MDTV
 http://202.150.161.212:5000/live/channel31/playlist.m3u8
-#EXTINF:-1 tvg-name="MDTV.id" tvg-logo="https://images.indihometv.com/logo_net_big1.png" group-title="Nasional",MDTV
+#EXTINF:-1 tvg-id="MDTV.id" tvg-name="MDTV.id" tvg-logo="https://images.indihometv.com/logo_net_big1.png" group-title="Indonesia;Nasional",MDTV
 #EXTVLCOPT:http-referrer=http://www.dens.tv/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36
 https://op-flashcon-digdayahd-1.dens.tv/h/h223/index.m3u8?app_type=web&userid=lite&chname=MDTV
-#EXTINF:-1 tvg-id="MDTV" tvg-logo="https://thumbor.prod.vidiocdn.com/LCZH_yEBnTYEQzrU1pB7w7ev-Bw=/230x230/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/875/325605.png" group-title="Indonesia Channels" tvg-url="https://raw.githubusercontent.com/apistech/project/refs/heads/main/epgs/guide.xml",MDTV
-https://d3b0v7fggu5zwm.cloudfront.net/out/v1/3aefa03d32954b678e5faab6daa04b58/index.mpd
 #EXTINF:-1 tvg-id="MDTV.idHD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/MDTV_logo.svg/960px-MDTV_logo.svg.png" group-title="Indonesia;Uncategorized",MDTV (1080p)
 https://wahyu1ptv.pages.dev/MDTV-HD.m3u8
 #EXTINF:-1 tvg-id="RTV.id" tvg-logo="https://i.imgur.com/RygqpXd.jpeg" group-title="Indonesia;Entertainment" http-referrer="" http-user-agent="",RTV
@@ -1376,6 +1366,128 @@ http://gpxm88.top/BiGXCLD-2025-MAIO/xgAAA7R3FDxVP/354116.ts
 https://video1.earthcam.com/myearthcam/641f889a7774a38d5fc93dc76c4aeded.flv/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/JVZdVBa.jpeg" group-title="Indonesia;Lokal" http-referrer="" http-user-agent="",Tribunnews.Com
 https://d1zhs9dfs6uqpg.cloudfront.net/hls/X16J4FID/X16J4FID_720p30.m3u8
+#EXTINF:-1 tvg-name="Attack on Titan (Shingeki no Kyojin) Season 1 Episode 1" tvg-logo="https://gbr.sokuja.uk/wp-content/uploads/2022/10/sokuja-shingeki-no-kyojin-s1.webp" group-title="Sokuja;Aksi;Drama;Gore;Shounen",Attack on Titan (Shingeki no Kyojin) Season 1 Episode 1
+https://dl.nontony.uk/video2/SNK/SOKUJA_SnK--01.mp4
+#EXTINF:-1 tvg-name="Attack on Titan (Shingeki no Kyojin) Season 1 Episode 2" tvg-logo="https://gbr.sokuja.uk/wp-content/uploads/2022/10/sokuja-shingeki-no-kyojin-s1.webp" group-title="Sokuja;Aksi;Drama;Gore;Shounen",Attack on Titan (Shingeki no Kyojin) Season 1 Episode 2
+https://dl.nontony.uk/video2/SNK/SOKUJA_SnK--02.mp4
+#EXTINF:-1 tvg-name="Attack on Titan (Shingeki no Kyojin) Season 1 Episode 3" tvg-logo="https://gbr.sokuja.uk/wp-content/uploads/2022/10/sokuja-shingeki-no-kyojin-s1.webp" group-title="Sokuja;Aksi;Drama;Gore;Shounen",Attack on Titan (Shingeki no Kyojin) Season 1 Episode 3
+https://dl.nontony.uk/video2/SNK/SOKUJA_SnK--03.mp4
+#EXTINF:-1 tvg-name="Attack on Titan (Shingeki no Kyojin) Season 1 Episode 4" tvg-logo="https://gbr.sokuja.uk/wp-content/uploads/2022/10/sokuja-shingeki-no-kyojin-s1.webp" group-title="Sokuja;Aksi;Drama;Gore;Shounen",Attack on Titan (Shingeki no Kyojin) Season 1 Episode 4
+https://dl.nontony.uk/video2/SNK/SOKUJA_SnK--04.mp4
+#EXTINF:-1 tvg-name="Attack on Titan (Shingeki no Kyojin) Season 1 Episode 5" tvg-logo="https://gbr.sokuja.uk/wp-content/uploads/2022/10/sokuja-shingeki-no-kyojin-s1.webp" group-title="Sokuja;Aksi;Drama;Gore;Shounen",Attack on Titan (Shingeki no Kyojin) Season 1 Episode 5
+https://dl.nontony.uk/video2/SNK/SOKUJA_SnK--05.mp4
+#EXTINF:-1 tvg-name="Attack on Titan (Shingeki no Kyojin) Season 1 Episode 6" tvg-logo="https://gbr.sokuja.uk/wp-content/uploads/2022/10/sokuja-shingeki-no-kyojin-s1.webp" group-title="Sokuja;Aksi;Drama;Gore;Shounen",Attack on Titan (Shingeki no Kyojin) Season 1 Episode 6
+https://dl.nontony.uk/video2/SNK/SOKUJA_SnK--06.mp4
+#EXTINF:-1 tvg-name="Attack on Titan (Shingeki no Kyojin) Season 1 Episode 7" tvg-logo="https://gbr.sokuja.uk/wp-content/uploads/2022/10/sokuja-shingeki-no-kyojin-s1.webp" group-title="Sokuja;Aksi;Drama;Gore;Shounen",Attack on Titan (Shingeki no Kyojin) Season 1 Episode 7
+https://dl.nontony.uk/video2/SNK/SOKUJA_SnK--07.mp4
+#EXTINF:-1 tvg-name="Attack on Titan (Shingeki no Kyojin) Season 1 Episode 8" tvg-logo="https://gbr.sokuja.uk/wp-content/uploads/2022/10/sokuja-shingeki-no-kyojin-s1.webp" group-title="Sokuja;Aksi;Drama;Gore;Shounen",Attack on Titan (Shingeki no Kyojin) Season 1 Episode 8
+https://dl.nontony.uk/video2/SNK/SOKUJA_SnK--08.mp4
+#EXTINF:-1 tvg-name="Attack on Titan (Shingeki no Kyojin) Season 1 Episode 9" tvg-logo="https://gbr.sokuja.uk/wp-content/uploads/2022/10/sokuja-shingeki-no-kyojin-s1.webp" group-title="Sokuja;Aksi;Drama;Gore;Shounen",Attack on Titan (Shingeki no Kyojin) Season 1 Episode 9
+https://dl.nontony.uk/video2/SNK/SOKUJA_SnK--09.mp4
+#EXTINF:-1 tvg-name="Attack on Titan (Shingeki no Kyojin) Season 1 Episode 10" tvg-logo="https://gbr.sokuja.uk/wp-content/uploads/2022/10/sokuja-shingeki-no-kyojin-s1.webp" group-title="Sokuja;Aksi;Drama;Gore;Shounen",Attack on Titan (Shingeki no Kyojin) Season 1 Episode 10
+https://dl.nontony.uk/video2/SNK/SOKUJA_SnK--10.mp4
+#EXTINF:-1 tvg-name="Attack on Titan (Shingeki no Kyojin) Season 1 Episode 11" tvg-logo="https://gbr.sokuja.uk/wp-content/uploads/2022/10/sokuja-shingeki-no-kyojin-s1.webp" group-title="Sokuja;Aksi;Drama;Gore;Shounen",Attack on Titan (Shingeki no Kyojin) Season 1 Episode 11
+https://dl.nontony.uk/video2/SNK/SOKUJA_SnK--11.mp4
+#EXTINF:-1 tvg-name="Attack on Titan (Shingeki no Kyojin) Season 1 Episode 12" tvg-logo="https://gbr.sokuja.uk/wp-content/uploads/2022/10/sokuja-shingeki-no-kyojin-s1.webp" group-title="Sokuja;Aksi;Drama;Gore;Shounen",Attack on Titan (Shingeki no Kyojin) Season 1 Episode 12
+https://dl.nontony.uk/video2/SNK/SOKUJA_SnK--12.mp4
+#EXTINF:-1 tvg-name="Attack on Titan (Shingeki no Kyojin) Season 1 Episode 13" tvg-logo="https://gbr.sokuja.uk/wp-content/uploads/2022/10/sokuja-shingeki-no-kyojin-s1.webp" group-title="Sokuja;Aksi;Drama;Gore;Shounen",Attack on Titan (Shingeki no Kyojin) Season 1 Episode 13
+https://dl.nontony.uk/video2/SNK/SOKUJA_SnK--13.mp4
+#EXTINF:-1 tvg-name="Attack on Titan (Shingeki no Kyojin) Season 1 Episode 14" tvg-logo="https://gbr.sokuja.uk/wp-content/uploads/2022/10/sokuja-shingeki-no-kyojin-s1.webp" group-title="Sokuja;Aksi;Drama;Gore;Shounen",Attack on Titan (Shingeki no Kyojin) Season 1 Episode 14
+https://dl.nontony.uk/video2/SNK/SOKUJA_SnK--14.mp4
+#EXTINF:-1 tvg-name="Attack on Titan (Shingeki no Kyojin) Season 1 Episode 15" tvg-logo="https://gbr.sokuja.uk/wp-content/uploads/2022/10/sokuja-shingeki-no-kyojin-s1.webp" group-title="Sokuja;Aksi;Drama;Gore;Shounen",Attack on Titan (Shingeki no Kyojin) Season 1 Episode 15
+https://dl.nontony.uk/video2/SNK/SOKUJA_SnK--15.mp4
+#EXTINF:-1 tvg-name="Attack on Titan (Shingeki no Kyojin) Season 1 Episode 16" tvg-logo="https://gbr.sokuja.uk/wp-content/uploads/2022/10/sokuja-shingeki-no-kyojin-s1.webp" group-title="Sokuja;Aksi;Drama;Gore;Shounen",Attack on Titan (Shingeki no Kyojin) Season 1 Episode 16
+https://dl.nontony.uk/video2/SNK/SOKUJA_SnK--16.mp4
+#EXTINF:-1 tvg-name="Attack on Titan (Shingeki no Kyojin) Season 1 Episode 17" tvg-logo="https://gbr.sokuja.uk/wp-content/uploads/2022/10/sokuja-shingeki-no-kyojin-s1.webp" group-title="Sokuja;Aksi;Drama;Gore;Shounen",Attack on Titan (Shingeki no Kyojin) Season 1 Episode 17
+https://dl.nontony.uk/video2/SNK/SOKUJA_SnK--17.mp4
+#EXTINF:-1 tvg-name="Attack on Titan (Shingeki no Kyojin) Season 1 Episode 18" tvg-logo="https://gbr.sokuja.uk/wp-content/uploads/2022/10/sokuja-shingeki-no-kyojin-s1.webp" group-title="Sokuja;Aksi;Drama;Gore;Shounen",Attack on Titan (Shingeki no Kyojin) Season 1 Episode 18
+https://dl.nontony.uk/video2/SNK/SOKUJA_SnK--18.mp4
+#EXTINF:-1 tvg-name="Attack on Titan (Shingeki no Kyojin) Season 1 Episode 19" tvg-logo="https://gbr.sokuja.uk/wp-content/uploads/2022/10/sokuja-shingeki-no-kyojin-s1.webp" group-title="Sokuja;Aksi;Drama;Gore;Shounen",Attack on Titan (Shingeki no Kyojin) Season 1 Episode 19
+https://dl.nontony.uk/video2/SNK/SOKUJA_SnK--19.mp4
+#EXTINF:-1 tvg-name="Attack on Titan (Shingeki no Kyojin) Season 1 Episode 20" tvg-logo="https://gbr.sokuja.uk/wp-content/uploads/2022/10/sokuja-shingeki-no-kyojin-s1.webp" group-title="Sokuja;Aksi;Drama;Gore;Shounen",Attack on Titan (Shingeki no Kyojin) Season 1 Episode 20
+https://dl.nontony.uk/video2/SNK/SOKUJA_SnK--20.mp4
+#EXTINF:-1 tvg-name="Attack on Titan (Shingeki no Kyojin) Season 1 Episode 21" tvg-logo="https://gbr.sokuja.uk/wp-content/uploads/2022/10/sokuja-shingeki-no-kyojin-s1.webp" group-title="Sokuja;Aksi;Drama;Gore;Shounen",Attack on Titan (Shingeki no Kyojin) Season 1 Episode 21
+https://dl.nontony.uk/video2/SNK/SOKUJA_SnK--21.mp4
+#EXTINF:-1 tvg-name="Attack on Titan (Shingeki no Kyojin) Season 1 Episode 22" tvg-logo="https://gbr.sokuja.uk/wp-content/uploads/2022/10/sokuja-shingeki-no-kyojin-s1.webp" group-title="Sokuja;Aksi;Drama;Gore;Shounen",Attack on Titan (Shingeki no Kyojin) Season 1 Episode 22
+https://dl.nontony.uk/video2/SNK/SOKUJA_SnK--22.mp4
+#EXTINF:-1 tvg-name="Attack on Titan (Shingeki no Kyojin) Season 1 Episode 23" tvg-logo="https://gbr.sokuja.uk/wp-content/uploads/2022/10/sokuja-shingeki-no-kyojin-s1.webp" group-title="Sokuja;Aksi;Drama;Gore;Shounen",Attack on Titan (Shingeki no Kyojin) Season 1 Episode 23
+https://dl.nontony.uk/video2/SNK/SOKUJA_SnK--23.mp4
+#EXTINF:-1 tvg-name="Attack on Titan (Shingeki no Kyojin) Season 1 Episode 24" tvg-logo="https://gbr.sokuja.uk/wp-content/uploads/2022/10/sokuja-shingeki-no-kyojin-s1.webp" group-title="Sokuja;Aksi;Drama;Gore;Shounen",Attack on Titan (Shingeki no Kyojin) Season 1 Episode 24
+https://dl.nontony.uk/video2/SNK/SOKUJA_SnK--24.mp4
+#EXTINF:-1 tvg-name="Attack on Titan (Shingeki no Kyojin) Season 1 Episode 25" tvg-logo="https://gbr.sokuja.uk/wp-content/uploads/2022/10/sokuja-shingeki-no-kyojin-s1.webp" group-title="Sokuja;Aksi;Drama;Gore;Shounen",Attack on Titan (Shingeki no Kyojin) Season 1 Episode 25
+https://dl.nontony.uk/video2/SNK/SOKUJA_SnK--25_End.mp4
+#EXTINF:-1 tvg-name="Attack on Titan (Shingeki no Kyojin) Season 2 Episode 1" tvg-logo="https://gbr.sokuja.uk/wp-content/uploads/2024/03/SOKUJA-Shingeki_no_Kyojin_Season_2-3.jpg" group-title="Sokuja;Aksi;Drama;Gore;Shounen",Attack on Titan (Shingeki no Kyojin) Season 2 Episode 1
+https://dl.nontony.uk/video2/SNK/s2/sokuja.net-SNK.S2-1.720p.mp4
+#EXTINF:-1 tvg-name="Attack on Titan (Shingeki no Kyojin) Season 2 Episode 2" tvg-logo="https://gbr.sokuja.uk/wp-content/uploads/2024/03/SOKUJA-Shingeki_no_Kyojin_Season_2-3.jpg" group-title="Sokuja;Aksi;Drama;Gore;Shounen",Attack on Titan (Shingeki no Kyojin) Season 2 Episode 2
+https://dl.nontony.uk/video2/SNK/s2/sokuja.net-SNK.S2-2.720p.mp4
+#EXTINF:-1 tvg-name="Attack on Titan (Shingeki no Kyojin) Season 2 Episode 3" tvg-logo="https://gbr.sokuja.uk/wp-content/uploads/2024/03/SOKUJA-Shingeki_no_Kyojin_Season_2-3.jpg" group-title="Sokuja;Aksi;Drama;Gore;Shounen",Attack on Titan (Shingeki no Kyojin) Season 2 Episode 3
+https://dl.nontony.uk/video2/SNK/s2/sokuja.net-SNK.S2-3.720p.mp4
+#EXTINF:-1 tvg-name="Attack on Titan (Shingeki no Kyojin) Season 2 Episode 4" tvg-logo="https://gbr.sokuja.uk/wp-content/uploads/2024/03/SOKUJA-Shingeki_no_Kyojin_Season_2-3.jpg" group-title="Sokuja;Aksi;Drama;Gore;Shounen",Attack on Titan (Shingeki no Kyojin) Season 2 Episode 4
+https://dl.nontony.uk/video2/SNK/s2/sokuja.net-SNK.S2-4.720p.mp4
+#EXTINF:-1 tvg-name="Attack on Titan (Shingeki no Kyojin) Season 2 Episode 5" tvg-logo="https://gbr.sokuja.uk/wp-content/uploads/2024/03/SOKUJA-Shingeki_no_Kyojin_Season_2-3.jpg" group-title="Sokuja;Aksi;Drama;Gore;Shounen",Attack on Titan (Shingeki no Kyojin) Season 2 Episode 5
+https://dl.nontony.uk/video2/SNK/s2/sokuja.net-SNK.S2-5.720p.mp4
+#EXTINF:-1 tvg-name="Attack on Titan (Shingeki no Kyojin) Season 2 Episode 6" tvg-logo="https://gbr.sokuja.uk/wp-content/uploads/2024/03/SOKUJA-Shingeki_no_Kyojin_Season_2-3.jpg" group-title="Sokuja;Aksi;Drama;Gore;Shounen",Attack on Titan (Shingeki no Kyojin) Season 2 Episode 6
+https://dl.nontony.uk/video2/SNK/s2/sokuja.net-SNK.S2-6.720p.mp4
+#EXTINF:-1 tvg-name="Attack on Titan (Shingeki no Kyojin) Season 2 Episode 7" tvg-logo="https://gbr.sokuja.uk/wp-content/uploads/2024/03/SOKUJA-Shingeki_no_Kyojin_Season_2-3.jpg" group-title="Sokuja;Aksi;Drama;Gore;Shounen",Attack on Titan (Shingeki no Kyojin) Season 2 Episode 7
+https://dl.nontony.uk/video2/SNK/s2/sokuja.net-SNK.S2-7.720p.mp4
+#EXTINF:-1 tvg-name="Attack on Titan (Shingeki no Kyojin) Season 2 Episode 8" tvg-logo="https://gbr.sokuja.uk/wp-content/uploads/2024/03/SOKUJA-Shingeki_no_Kyojin_Season_2-3.jpg" group-title="Sokuja;Aksi;Drama;Gore;Shounen",Attack on Titan (Shingeki no Kyojin) Season 2 Episode 8
+https://dl.nontony.uk/video2/SNK/s2/sokuja.net-SNK.S2-8.720p.mp4
+#EXTINF:-1 tvg-name="Attack on Titan (Shingeki no Kyojin) Season 2 Episode 9" tvg-logo="https://gbr.sokuja.uk/wp-content/uploads/2024/03/SOKUJA-Shingeki_no_Kyojin_Season_2-3.jpg" group-title="Sokuja;Aksi;Drama;Gore;Shounen",Attack on Titan (Shingeki no Kyojin) Season 2 Episode 9
+https://dl.nontony.uk/video2/SNK/s2/sokuja.net-SNK.S2-9.720p.mp4
+#EXTINF:-1 tvg-name="Attack on Titan (Shingeki no Kyojin) Season 2 Episode 10" tvg-logo="https://gbr.sokuja.uk/wp-content/uploads/2024/03/SOKUJA-Shingeki_no_Kyojin_Season_2-3.jpg" group-title="Sokuja;Aksi;Drama;Gore;Shounen",Attack on Titan (Shingeki no Kyojin) Season 2 Episode 10
+https://dl.nontony.uk/video2/SNK/s2/sokuja.net-SNK.S2-10.720p.mp4
+#EXTINF:-1 tvg-name="Attack on Titan (Shingeki no Kyojin) Season 2 Episode 11" tvg-logo="https://gbr.sokuja.uk/wp-content/uploads/2024/03/SOKUJA-Shingeki_no_Kyojin_Season_2-3.jpg" group-title="Sokuja;Aksi;Drama;Gore;Shounen",Attack on Titan (Shingeki no Kyojin) Season 2 Episode 11
+https://dl.nontony.uk/video2/SNK/s2/sokuja.net-SNK.S2-11.720p.mp4
+#EXTINF:-1 tvg-name="Attack on Titan (Shingeki no Kyojin) Season 2 Episode 12" tvg-logo="https://gbr.sokuja.uk/wp-content/uploads/2024/03/SOKUJA-Shingeki_no_Kyojin_Season_2-3.jpg" group-title="Sokuja;Aksi;Drama;Gore;Shounen",Attack on Titan (Shingeki no Kyojin) Season 2 Episode 12
+https://dl.nontony.uk/video2/SNK/s2/sokuja.net-SNK.S2-12.720p-END.mp4
+#EXTINF:-1 tvg-name="Attack on Titan (Shingeki no Kyojin) Season 3 Episode 1" tvg-logo="https://gbr.sokuja.uk/wp-content/uploads/2024/03/SOKUJA-Shingeki_no_Kyojin_Season_3-1.jpg" group-title="Sokuja;Aksi;Drama;Gore;Shounen",Attack on Titan (Shingeki no Kyojin) Season 3 Episode 1
+https://dl.nontony.uk/video2/SNK/s3/sokuja.net-SNK.S3-1.720p.mp4
+#EXTINF:-1 tvg-name="Attack on Titan (Shingeki no Kyojin) Season 3 Episode 2" tvg-logo="https://gbr.sokuja.uk/wp-content/uploads/2024/03/SOKUJA-Shingeki_no_Kyojin_Season_3-1.jpg" group-title="Sokuja;Aksi;Drama;Gore;Shounen",Attack on Titan (Shingeki no Kyojin) Season 3 Episode 2
+https://dl.nontony.uk/video2/SNK/s3/sokuja.net-SNK.S3-2.720p.mp4
+#EXTINF:-1 tvg-name="Attack on Titan (Shingeki no Kyojin) Season 3 Episode 3" tvg-logo="https://gbr.sokuja.uk/wp-content/uploads/2024/03/SOKUJA-Shingeki_no_Kyojin_Season_3-1.jpg" group-title="Sokuja;Aksi;Drama;Gore;Shounen",Attack on Titan (Shingeki no Kyojin) Season 3 Episode 3
+https://dl.nontony.uk/video2/SNK/s3/sokuja.net-SNK.S3-3.720p.mp4
+#EXTINF:-1 tvg-name="Attack on Titan (Shingeki no Kyojin) Season 3 Episode 4" tvg-logo="https://gbr.sokuja.uk/wp-content/uploads/2024/03/SOKUJA-Shingeki_no_Kyojin_Season_3-1.jpg" group-title="Sokuja;Aksi;Drama;Gore;Shounen",Attack on Titan (Shingeki no Kyojin) Season 3 Episode 4
+https://dl.nontony.uk/video2/SNK/s3/sokuja.net-SNK.S3-4.720p.mp4
+#EXTINF:-1 tvg-name="Attack on Titan (Shingeki no Kyojin) Season 3 Episode 5" tvg-logo="https://gbr.sokuja.uk/wp-content/uploads/2024/03/SOKUJA-Shingeki_no_Kyojin_Season_3-1.jpg" group-title="Sokuja;Aksi;Drama;Gore;Shounen",Attack on Titan (Shingeki no Kyojin) Season 3 Episode 5
+https://dl.nontony.uk/video2/SNK/s3/sokuja.net-SNK.S3-5.720p.mp4
+#EXTINF:-1 tvg-name="Attack on Titan (Shingeki no Kyojin) Season 3 Episode 6" tvg-logo="https://gbr.sokuja.uk/wp-content/uploads/2024/03/SOKUJA-Shingeki_no_Kyojin_Season_3-1.jpg" group-title="Sokuja;Aksi;Drama;Gore;Shounen",Attack on Titan (Shingeki no Kyojin) Season 3 Episode 6
+https://dl.nontony.uk/video2/SNK/s3/sokuja.net-SNK.S3-6.720p.mp4
+#EXTINF:-1 tvg-name="Attack on Titan (Shingeki no Kyojin) Season 3 Episode 7" tvg-logo="https://gbr.sokuja.uk/wp-content/uploads/2024/03/SOKUJA-Shingeki_no_Kyojin_Season_3-1.jpg" group-title="Sokuja;Aksi;Drama;Gore;Shounen",Attack on Titan (Shingeki no Kyojin) Season 3 Episode 7
+https://dl.nontony.uk/video2/SNK/s3/sokuja.net-SNK.S3-7.720p.mp4
+#EXTINF:-1 tvg-name="Attack on Titan (Shingeki no Kyojin) Season 3 Episode 8" tvg-logo="https://gbr.sokuja.uk/wp-content/uploads/2024/03/SOKUJA-Shingeki_no_Kyojin_Season_3-1.jpg" group-title="Sokuja;Aksi;Drama;Gore;Shounen",Attack on Titan (Shingeki no Kyojin) Season 3 Episode 8
+https://dl.nontony.uk/video2/SNK/s3/sokuja.net-SNK.S3-8.720p.mp4
+#EXTINF:-1 tvg-name="Attack on Titan (Shingeki no Kyojin) Season 3 Episode 9" tvg-logo="https://gbr.sokuja.uk/wp-content/uploads/2024/03/SOKUJA-Shingeki_no_Kyojin_Season_3-1.jpg" group-title="Sokuja;Aksi;Drama;Gore;Shounen",Attack on Titan (Shingeki no Kyojin) Season 3 Episode 9
+https://dl.nontony.uk/video2/SNK/s3/sokuja.net-SNK.S3-9.720p.mp4
+#EXTINF:-1 tvg-name="Attack on Titan (Shingeki no Kyojin) Season 3 Episode 10" tvg-logo="https://gbr.sokuja.uk/wp-content/uploads/2024/03/SOKUJA-Shingeki_no_Kyojin_Season_3-1.jpg" group-title="Sokuja;Aksi;Drama;Gore;Shounen",Attack on Titan (Shingeki no Kyojin) Season 3 Episode 10
+https://dl.nontony.uk/video2/SNK/s3/sokuja.net-SNK.S3-10.720p.mp4
+#EXTINF:-1 tvg-name="Attack on Titan (Shingeki no Kyojin) Season 3 Episode 11" tvg-logo="https://gbr.sokuja.uk/wp-content/uploads/2024/03/SOKUJA-Shingeki_no_Kyojin_Season_3-1.jpg" group-title="Sokuja;Aksi;Drama;Gore;Shounen",Attack on Titan (Shingeki no Kyojin) Season 3 Episode 11
+https://dl.nontony.uk/video2/SNK/s3/sokuja.net-SNK.S3-11.720p.mp4
+#EXTINF:-1 tvg-name="Attack on Titan (Shingeki no Kyojin) Season 3 Episode 12" tvg-logo="https://gbr.sokuja.uk/wp-content/uploads/2024/03/SOKUJA-Shingeki_no_Kyojin_Season_3-1.jpg" group-title="Sokuja;Aksi;Drama;Gore;Shounen",Attack on Titan (Shingeki no Kyojin) Season 3 Episode 12
+https://dl.nontony.uk/video2/SNK/s3/sokuja.net-SNK.S3-12.720p-END.mp4
+#EXTINF:-1 tvg-name="Attack on Titan (Shingeki no Kyojin) Season 3 part2 Episode 1" tvg-logo="https://gbr.sokuja.uk/wp-content/uploads/2024/03/SOKUJA-Shingeki_no_Kyojin_Season_3_Part_2-1.jpg" group-title="Sokuja;Aksi;Drama;Gore;Shounen",Attack on Titan (Shingeki no Kyojin) Season 3 part2 Episode 1
+https://dl.nontony.uk/video2/SNK/s3.p2/sokuja.net-SNK.S3.P2-1.720p.mp4
+#EXTINF:-1 tvg-name="Attack on Titan (Shingeki no Kyojin) Season 3 part2 Episode 2" tvg-logo="https://gbr.sokuja.uk/wp-content/uploads/2024/03/SOKUJA-Shingeki_no_Kyojin_Season_3_Part_2-1.jpg" group-title="Sokuja;Aksi;Drama;Gore;Shounen",Attack on Titan (Shingeki no Kyojin) Season 3 part2 Episode 2
+https://dl.nontony.uk/video2/SNK/s3.p2/sokuja.net-SNK.S3.P2-2.720p.mp4
+#EXTINF:-1 tvg-name="Attack on Titan (Shingeki no Kyojin) Season 3 part2 Episode 3" tvg-logo="https://gbr.sokuja.uk/wp-content/uploads/2024/03/SOKUJA-Shingeki_no_Kyojin_Season_3_Part_2-1.jpg" group-title="Sokuja;Aksi;Drama;Gore;Shounen",Attack on Titan (Shingeki no Kyojin) Season 3 part2 Episode 3
+https://dl.nontony.uk/video2/SNK/s3.p2/sokuja.net-SNK.S3.P2-3.720p.mp4
+#EXTINF:-1 tvg-name="Attack on Titan (Shingeki no Kyojin) Season 3 part2 Episode 4" tvg-logo="https://gbr.sokuja.uk/wp-content/uploads/2024/03/SOKUJA-Shingeki_no_Kyojin_Season_3_Part_2-1.jpg" group-title="Sokuja;Aksi;Drama;Gore;Shounen",Attack on Titan (Shingeki no Kyojin) Season 3 part2 Episode 4
+https://dl.nontony.uk/video2/SNK/s3.p2/sokuja.net-SNK.S3.P2-4.720p.mp4
+#EXTINF:-1 tvg-name="Attack on Titan (Shingeki no Kyojin) Season 3 part2 Episode 5" tvg-logo="https://gbr.sokuja.uk/wp-content/uploads/2024/03/SOKUJA-Shingeki_no_Kyojin_Season_3_Part_2-1.jpg" group-title="Sokuja;Aksi;Drama;Gore;Shounen",Attack on Titan (Shingeki no Kyojin) Season 3 part2 Episode 5
+https://dl.nontony.uk/video2/SNK/s3.p2/sokuja.net-SNK.S3.P2-5.720p.mp4
+#EXTINF:-1 tvg-name="Attack on Titan (Shingeki no Kyojin) Season 3 part2 Episode 6" tvg-logo="https://gbr.sokuja.uk/wp-content/uploads/2024/03/SOKUJA-Shingeki_no_Kyojin_Season_3_Part_2-1.jpg" group-title="Sokuja;Aksi;Drama;Gore;Shounen",Attack on Titan (Shingeki no Kyojin) Season 3 part2 Episode 6
+https://dl.nontony.uk/video2/SNK/s3.p2/sokuja.net-SNK.S3.P2-6.720p.mp4
+#EXTINF:-1 tvg-name="Attack on Titan (Shingeki no Kyojin) Season 3 part2 Episode 7" tvg-logo="https://gbr.sokuja.uk/wp-content/uploads/2024/03/SOKUJA-Shingeki_no_Kyojin_Season_3_Part_2-1.jpg" group-title="Sokuja;Aksi;Drama;Gore;Shounen",Attack on Titan (Shingeki no Kyojin) Season 3 part2 Episode 7
+https://dl.nontony.uk/video2/SNK/s3.p2/sokuja.net-SNK.S3.P2-7.720p.mp4
+#EXTINF:-1 tvg-name="Attack on Titan (Shingeki no Kyojin) Season 3 part2 Episode 8" tvg-logo="https://gbr.sokuja.uk/wp-content/uploads/2024/03/SOKUJA-Shingeki_no_Kyojin_Season_3_Part_2-1.jpg" group-title="Sokuja;Aksi;Drama;Gore;Shounen",Attack on Titan (Shingeki no Kyojin) Season 3 part2 Episode 8
+https://dl.nontony.uk/video2/SNK/s3.p2/sokuja.net-SNK.S3.P2-8.720p.mp4
+#EXTINF:-1 tvg-name="Attack on Titan (Shingeki no Kyojin) Season 3 part2 Episode 9" tvg-logo="https://gbr.sokuja.uk/wp-content/uploads/2024/03/SOKUJA-Shingeki_no_Kyojin_Season_3_Part_2-1.jpg" group-title="Sokuja;Aksi;Drama;Gore;Shounen",Attack on Titan (Shingeki no Kyojin) Season 3 part2 Episode 9
+https://dl.nontony.uk/video2/SNK/s3.p2/sokuja.net-SNK.S3.P2-9.720p.mp4
+#EXTINF:-1 tvg-name="Attack on Titan (Shingeki no Kyojin) Season 3 part2 Episode 10" tvg-logo="https://gbr.sokuja.uk/wp-content/uploads/2024/03/SOKUJA-Shingeki_no_Kyojin_Season_3_Part_2-1.jpg" group-title="Sokuja;Aksi;Drama;Gore;Shounen",Attack on Titan (Shingeki no Kyojin) Season 3 part2 Episode 10
+https://dl.nontony.uk/video2/SNK/s3.p2/sokuja.net-SNK.S3.P2-10.720p-END.mp4
+#EXTINF:-1 tvg-name="Attack on Titan (Shingeki no Kyojin) Final Season  Kanketsu hen Episode 1" tvg-logo="https://gbr.sokuja.uk/wp-content/uploads/2023/07/Shingeki_no_Kyojin__The_Final_Season_-_Kanketsu-hen-2.jpg" group-title="Sokuja;Aksi;Drama;Gore;Shounen",Attack on Titan (Shingeki no Kyojin) Final Season  Kanketsu hen Episode 1
+https://dl.nontony.uk/video2/SNK/final.s4/sokuja.SNK.B1.720p.mp4
+#EXTINF:-1 tvg-name="Attack on Titan (Shingeki no Kyojin) Final Season  Kanketsu hen Episode 2" tvg-logo="https://gbr.sokuja.uk/wp-content/uploads/2023/07/Shingeki_no_Kyojin__The_Final_Season_-_Kanketsu-hen-2.jpg" group-title="Sokuja;Aksi;Drama;Gore;Shounen",Attack on Titan (Shingeki no Kyojin) Final Season  Kanketsu hen Episode 2
+https://dl.nontony.uk/video2/SNK/final.s4/sokuja.SNK.B2.720p.mp4
 #EXTINF:-1 tvg-name="Solo Leveling episode 1" tvg-logo="https://gbr.sokuja.uk/wp-content/uploads/2023/10/Ore_dake_Level_Up_na_Ken-.jpg" group-title="Sokuja;Aksi;Petualangan;Fantasi;Pemeran Dewasa;Urban Fantasi",Solo Leveling episode 1
 https://dl.nontony.uk/2024-winter/ore.dake.level/sokuja.net-ODLU-1.720p.mp4
 #EXTINF:-1 tvg-name="Solo Leveling episode 2" tvg-logo="https://gbr.sokuja.uk/wp-content/uploads/2023/10/Ore_dake_Level_Up_na_Ken-.jpg" group-title="Sokuja;Aksi;Petualangan;Fantasi;Pemeran Dewasa;Urban Fantasi",Solo Leveling episode 2
@@ -1754,8 +1866,6 @@ http://103.71.191.168/8889/hls/live.stream.m3u8
 http://103.71.191.168/8910/hls/live.stream.m3u8
 #EXTINF:-1 tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="CCTV",Sleman Kali Krasak
 http://103.71.191.168/8893/hls/live.stream.m3u8
-#EXTINF:-1 tvg-id="MNCTV" tvg-logo="https://thumbor.prod.vidiocdn.com/H-nyot3OCOIHY7qtKmguKyIUeBw=/230x230/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/870/ca65b5.png" group-title="Indonesia Channels" tvg-url="https://raw.githubusercontent.com/apistech/project/refs/heads/main/epgs/guide.xml",MNC TV
-https://d2xz2v5wuvgur6.cloudfront.net/out/v1/d6b026ad50f14b7f9af5ddd5450007d4/index.mpd
 #EXTINF:-1 tvg-id="TransTV" tvg-logo="https://thumbor.prod.vidiocdn.com/__j35q7LPpcS2EgkR7v8GpE4USQ=/230x230/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/733/ecaa60.png" group-title="Indonesia Channels" tvg-url="https://raw.githubusercontent.com/apistech/project/refs/heads/main/epgs/guide.xml",TransTV HD
 https://d2xz2v5wuvgur6.cloudfront.net/out/v1/7a69cfc9e135493f87ac4efd63000429/index.mpd
 #EXTINF:-1 tvg-id="CINEMAX" tvg-logo="https://iili.io/Ju79znp.png" group-title="HBO Group" tvg-url="https://raw.githubusercontent.com/apistech/project/refs/heads/main/epgs/guide.xml",Cinemax
