@@ -29,12 +29,10 @@ https://beetv.my.id/xstreamx/rctiplus.m3u8?ch=gtv
 https://r-plus.sedotcw3.workers.dev/index.m3u8?id=inews
 #EXTINF:-1 tvg-id="iNews.id" tvg-logo="https://mimipipi22.github.io/logo/nasional/inews.jpg" group-title="Indonesia;INDIHOME",INEWS
 https://cdnbal1.indihometv.com/atm/DASH/inews/master.mpd
-#EXTINF:-1 tvg-name="SCTV.id" tvg-logo="https://images.indihometv.com/logo_sctv_ver2.png" group-title="Nasional",SCTV
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://www.vidio.com/
-https://beetv.my.id/xstreamx/vd.m3u8?ch=sctv
 #EXTINF:-1 tvg-id="SCTV" tvg-logo="https://thumbor.prod.vidiocdn.com/kH-K9J4cROqL0TZrAyQhw7P5pBk=/230x230/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/204/4e9f5c.png" group-title="Indonesia Channels" tvg-url="https://raw.githubusercontent.com/apistech/project/refs/heads/main/epgs/guide.xml",SCTV
 https://cdnbal1.indihometv.com/atm/DASH/sctv/sctv-avc1_2500000=7-3277707030000000.mpd
+#EXTINF:-1 tvg-logo="https://mimipipi22.github.io/logo/nasional/sctv.jpg" group-title="INDIHOME",SCTV
+https://cdnbal1.indihometv.com/atm/DASH/sctv/master.mpd
 #EXTINF:-1 tvg-name="Indosiar.id" tvg-logo="https://images.indihometv.com/logo_indosiar_ver2.png" group-title="Nasional",Indosiar
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-origin=https://teagan.mvksstick9uq6cprotection.cfd
@@ -127,8 +125,10 @@ https://op-flashcon-digdayaxenkoda.dens.tv/e6550891-6bef-42e1-bab9-13bf4af739ce/
 #EXTINF:-1 tvg-id="Nusantara.TV.id" tvg-logo="https://raw.githubusercontent.com/apistech/project/refs/heads/main/logo/image_ch_nusantaratv.png" group-title="Indonesia" http-referrer="" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36 Edg/150.0.0.0",Nusantara TV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36 Edg/150.0.0.0
 https://op-flashcon-digdayahd-1.dens.tv/h/h37/index.m3u8
-#EXTINF:-1 tvg-id="Nusantara.TV.id" tvg-logo="https://i.imgur.com/EzirkhZ.jpeg" group-title="Indonesia" http-referrer="" http-user-agent="",Nusantara TV
-https://nusantaratv.siar.us/nusantaratv/live/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://picture.dens.tv/wp/img/tvchannels_v1/340x160/1728448171_tvchannels_v1.jpg" group-title="Dens TV",Nusantara TV (NTV)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=http://www.dens.tv/
+https://op-flashcon-digdayahd-1.dens.tv/h/h37/index.m3u8?app_type=web&userid=lite&chname=Nusantara_TV_NTV-
 #EXTINF:-1 tvg-logo="https://picture.dens.tv/wp/img/tvchannels_v1/340x160/1735687939_tvchannels_v1.jpeg" group-title="Dens TV",Berita Satu
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=http://www.dens.tv/
@@ -607,10 +607,10 @@ https://dfr80qz435crc.cloudfront.net/MNOP/Amagi/Caze/Caze_TV_BR/Caze_TV.m3u8
 #EXTINF:-1 tvg-id="SkySportsGPIT" tvg-logo="https://beetv.my.id/logo/sportstars.png" group-title="Olahraga",Live Event #3
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 https://dlhd.iclik.workers.dev/?channel=TSN4&play=1
-#EXTINF:-1 tvg-logo="https://i.imgur.com/OEqbYYe.jpeg" group-title="Indonesia;Olahraga" http-referrer="" http-user-agent="",Pegadaian Championship
-https://tvratu.my.id/vid/index.mpd?id=19541&type=dash
 #EXTINF:-1 tvg-logo="https://i.imgur.com/OEqbYYe.jpeg" group-title="Indonesia;Olahraga" http-referrer="" http-user-agent="",Pegadaian Championship (Alt 2)
 https://tvratu.my.id/vid/index.mpd?id=20833&type=dash
+#EXTINF:-1 tvg-logo="https://i.imgur.com/OEqbYYe.jpeg" group-title="Indonesia;Olahraga" http-referrer="" http-user-agent="",Pegadaian Championship (Alt 4)
+https://tvratu.my.id/vid/index.mpd?id=19542&type=dash
 #EXTINF:-1 tvg-logo="https://i.imgur.com/Q1QoQmA.jpeg" group-title="Indonesia;Olahraga" http-referrer="" http-user-agent="",Volleyball
 https://tvratu.my.id/vid/index.mpd?id=21178
 #EXTINF:-1 tvg-logo="https://i.imgur.com/xqPgGT4.jpeg" group-title="Indonesia;Olahraga" http-referrer="" http-user-agent="",Volleyball (Alt 2)
@@ -676,10 +676,10 @@ http://livestream.biznetvideo.net/biznet_adventure/smil:adventure.smil/playlist.
 http://livestream.biznetvideo.net/biznet_kids/smil:kids.smil/index.m3u8
 #EXTINF:-1 tvg-id="BiznetLifestyle.id" tvg-logo="https://i.imgur.com/XqUfQKA.png" group-title="Indonesia;LIFESTYLE" http-referrer="" http-user-agent="",Biznet Lifestyle
 http://livestream.biznetvideo.net/biznet_lifestyle/smil:lifestyle.smil/index.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/hk4Z8wi.jpeg" group-title="Indonesia;Olahraga" http-referrer="" http-user-agent="",Bri Super League
-https://tvratu.my.id/vid/index.mpd?id=205&type=dash
 #EXTINF:-1 tvg-logo="https://i.imgur.com/hk4Z8wi.jpeg" group-title="Indonesia;Olahraga" http-referrer="" http-user-agent="",Bri Super League (Alt 2)
 https://tvratu.my.id/vid/index.mpd?id=19353&type=dash
+#EXTINF:-1 tvg-logo="https://i.imgur.com/hk4Z8wi.jpeg" group-title="Indonesia;Olahraga" http-referrer="" http-user-agent="",Bri Super League (Alt 4)
+https://tvratu.my.id/vid/index.mpd?id=19354&type=dash
 #EXTINF:-1 tvg-id="BRTV.id" tvg-logo="https://upload.wikimedia.org/wikipedia/id/1/1f/Logo_BRTV.png" group-title="Indonesia;Lokal" http-referrer="" http-user-agent="",BRTV
 https://5bf7b725107e5.streamlock.net/brtv/brtv/playlist.m3u8
 #EXTINF:-1 tvg-id="CarubanTV.id" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/3/3a/CarubanTV%28Low-res%29.png" group-title="Indonesia;Lokal" http-referrer="https://stream.carubantv.id" http-user-agent="",Caruban TV
@@ -1339,6 +1339,228 @@ https://dl.sokuja.uk/2025-winter/solev2/SOKUJA.NET-SOLEV.S2-11.1080p.mp4
 https://dl.sokuja.uk/2025-winter/solev2/SOKUJA.NET-SOLEV.S2-12.1080p.mp4
 #EXTINF:-1 tvg-name="Solo Leveling Season 2: Arise from the Shadow Episode 13" tvg-logo="https://gbr.sokuja.uk/wp-content/uploads/2024/11/SOKUJA-Ore_dake_Level_Up_na_Ken_Season_2__Arise_from_the_Shadow.jpg" group-title="Sokuja;Aksi;Petualangan;Fantasi;Pemeran Dewasa;Urban Fantasi",Solo Leveling Season 2: Arise from the Shadow Episode 13
 https://dl.sokuja.uk/2025-winter/solev2/SOKUJA.NET-SOLEV.S2-13.END.1080p.mp4
+#EXTINF:-1 tvg-name="Tensei shitara Slime Datta Ken Episode 1" tvg-logo="https://gbr.sokuja.uk/wp-content/uploads/2022/08/sokuja-slime-dattaken.jpg" group-title="Sokuja;Petualangan;fantasi;Isekai;komedi;Mitologi;Reincarnasi",Tensei shitara Slime Datta Ken Episode 1
+https://dl.nontony.uk/video2/slime_datta_ken/SOKUJA_TenseiSlime--01_480p.mp4
+#EXTINF:-1 tvg-name="Tensei shitara Slime Datta Ken Episode 10" tvg-logo="https://gbr.sokuja.uk/wp-content/uploads/2022/08/sokuja-slime-dattaken.jpg" group-title="Sokuja;Petualangan;fantasi;Isekai;komedi;Mitologi;Reincarnasi",Tensei shitara Slime Datta Ken Episode 10
+https://dl.nontony.uk/video2/slime_datta_ken/SOKUJA_TenseiSlime--10_480p.mp4
+#EXTINF:-1 tvg-name="Tensei shitara Slime Datta Ken Episode 11" tvg-logo="https://gbr.sokuja.uk/wp-content/uploads/2022/08/sokuja-slime-dattaken.jpg" group-title="Sokuja;Petualangan;fantasi;Isekai;komedi;Mitologi;Reincarnasi",Tensei shitara Slime Datta Ken Episode 11
+https://dl.nontony.uk/video2/slime_datta_ken/SOKUJA_TenseiSlime--11_480p.mp4
+#EXTINF:-1 tvg-name="Tensei shitara Slime Datta Ken Episode 12" tvg-logo="https://gbr.sokuja.uk/wp-content/uploads/2022/08/sokuja-slime-dattaken.jpg" group-title="Sokuja;Petualangan;fantasi;Isekai;komedi;Mitologi;Reincarnasi",Tensei shitara Slime Datta Ken Episode 12
+https://dl.nontony.uk/video2/slime_datta_ken/SOKUJA_TenseiSlime--12_480p.mp4
+#EXTINF:-1 tvg-name="Tensei shitara Slime Datta Ken Episode 13" tvg-logo="https://gbr.sokuja.uk/wp-content/uploads/2022/08/sokuja-slime-dattaken.jpg" group-title="Sokuja;Petualangan;fantasi;Isekai;komedi;Mitologi;Reincarnasi",Tensei shitara Slime Datta Ken Episode 13
+https://dl.nontony.uk/video2/slime_datta_ken/SOKUJA_TenseiSlime--13_480p.mp4
+#EXTINF:-1 tvg-name="Tensei shitara Slime Datta Ken Episode 14" tvg-logo="https://gbr.sokuja.uk/wp-content/uploads/2022/08/sokuja-slime-dattaken.jpg" group-title="Sokuja;Petualangan;fantasi;Isekai;komedi;Mitologi;Reincarnasi",Tensei shitara Slime Datta Ken Episode 14
+https://dl.nontony.uk/video2/slime_datta_ken/SOKUJA_TenseiSlime--14_480p.mp4
+#EXTINF:-1 tvg-name="Tensei shitara Slime Datta Ken Episode 15" tvg-logo="https://gbr.sokuja.uk/wp-content/uploads/2022/08/sokuja-slime-dattaken.jpg" group-title="Sokuja;Petualangan;fantasi;Isekai;komedi;Mitologi;Reincarnasi",Tensei shitara Slime Datta Ken Episode 15
+https://dl.nontony.uk/video2/slime_datta_ken/SOKUJA_TenseiSlime--15_480p.mp4
+#EXTINF:-1 tvg-name="Tensei shitara Slime Datta Ken Episode 16" tvg-logo="https://gbr.sokuja.uk/wp-content/uploads/2022/08/sokuja-slime-dattaken.jpg" group-title="Sokuja;Petualangan;fantasi;Isekai;komedi;Mitologi;Reincarnasi",Tensei shitara Slime Datta Ken Episode 16
+https://dl.nontony.uk/video2/slime_datta_ken/SOKUJA_TenseiSlime--16_480p.mp4
+#EXTINF:-1 tvg-name="Tensei shitara Slime Datta Ken Episode 17" tvg-logo="https://gbr.sokuja.uk/wp-content/uploads/2022/08/sokuja-slime-dattaken.jpg" group-title="Sokuja;Petualangan;fantasi;Isekai;komedi;Mitologi;Reincarnasi",Tensei shitara Slime Datta Ken Episode 17
+https://dl.nontony.uk/video2/slime_datta_ken/SOKUJA_TenseiSlime--17_480p.mp4
+#EXTINF:-1 tvg-name="Tensei shitara Slime Datta Ken Episode 18" tvg-logo="https://gbr.sokuja.uk/wp-content/uploads/2022/08/sokuja-slime-dattaken.jpg" group-title="Sokuja;Petualangan;fantasi;Isekai;komedi;Mitologi;Reincarnasi",Tensei shitara Slime Datta Ken Episode 18
+https://dl.nontony.uk/video2/slime_datta_ken/SOKUJA_TenseiSlime--18_480p.mp4
+#EXTINF:-1 tvg-name="Tensei shitara Slime Datta Ken Episode 19" tvg-logo="https://gbr.sokuja.uk/wp-content/uploads/2022/08/sokuja-slime-dattaken.jpg" group-title="Sokuja;Petualangan;fantasi;Isekai;komedi;Mitologi;Reincarnasi",Tensei shitara Slime Datta Ken Episode 19
+https://dl.nontony.uk/video2/slime_datta_ken/SOKUJA_TenseiSlime--19_480p.mp4
+#EXTINF:-1 tvg-name="Tensei shitara Slime Datta Ken Episode 2" tvg-logo="https://gbr.sokuja.uk/wp-content/uploads/2022/08/sokuja-slime-dattaken.jpg" group-title="Sokuja;Petualangan;fantasi;Isekai;komedi;Mitologi;Reincarnasi",Tensei shitara Slime Datta Ken Episode 2
+https://dl.nontony.uk/video2/slime_datta_ken/SOKUJA_TenseiSlime--02_480p.mp4
+#EXTINF:-1 tvg-name="Tensei shitara Slime Datta Ken Episode 20" tvg-logo="https://gbr.sokuja.uk/wp-content/uploads/2022/08/sokuja-slime-dattaken.jpg" group-title="Sokuja;Petualangan;fantasi;Isekai;komedi;Mitologi;Reincarnasi",Tensei shitara Slime Datta Ken Episode 20
+https://dl.nontony.uk/video2/slime_datta_ken/SOKUJA_TenseiSlime--20_480p.mp4
+#EXTINF:-1 tvg-name="Tensei shitara Slime Datta Ken Episode 21" tvg-logo="https://gbr.sokuja.uk/wp-content/uploads/2022/08/sokuja-slime-dattaken.jpg" group-title="Sokuja;Petualangan;fantasi;Isekai;komedi;Mitologi;Reincarnasi",Tensei shitara Slime Datta Ken Episode 21
+https://dl.nontony.uk/video2/slime_datta_ken/SOKUJA_TenseiSlime--21_480p.mp4
+#EXTINF:-1 tvg-name="Tensei shitara Slime Datta Ken Episode 22" tvg-logo="https://gbr.sokuja.uk/wp-content/uploads/2022/08/sokuja-slime-dattaken.jpg" group-title="Sokuja;Petualangan;fantasi;Isekai;komedi;Mitologi;Reincarnasi",Tensei shitara Slime Datta Ken Episode 22
+https://dl.nontony.uk/video2/slime_datta_ken/SOKUJA_TenseiSlime--22_480p.mp4
+#EXTINF:-1 tvg-name="Tensei shitara Slime Datta Ken Episode 23" tvg-logo="https://gbr.sokuja.uk/wp-content/uploads/2022/08/sokuja-slime-dattaken.jpg" group-title="Sokuja;Petualangan;fantasi;Isekai;komedi;Mitologi;Reincarnasi",Tensei shitara Slime Datta Ken Episode 23
+https://dl.nontony.uk/video2/slime_datta_ken/SOKUJA_TenseiSlime--23_480p.mp4
+#EXTINF:-1 tvg-name="Tensei shitara Slime Datta Ken Episode 24" group-title="Sokuja;Petualangan;fantasi;Isekai;komedi;Mitologi;Reincarnasi",Tensei shitara Slime Datta Ken Episode 24
+https://dl.nontony.uk/video2/slime_datta_ken/SOKUJA_TenseiSlime--24_480p.mp4
+#EXTINF:-1 tvg-name="Tensei shitara Slime Datta Ken Episode 3" tvg-logo="https://gbr.sokuja.uk/wp-content/uploads/2022/08/sokuja-slime-dattaken.jpg" group-title="Sokuja;Petualangan;fantasi;Isekai;komedi;Mitologi;Reincarnasi",Tensei shitara Slime Datta Ken Episode 3
+https://dl.nontony.uk/video2/slime_datta_ken/SOKUJA_TenseiSlime--03_480p.mp4
+#EXTINF:-1 tvg-name="Tensei shitara Slime Datta Ken Episode 4" tvg-logo="https://gbr.sokuja.uk/wp-content/uploads/2022/08/sokuja-slime-dattaken.jpg" group-title="Sokuja;Petualangan;fantasi;Isekai;komedi;Mitologi;Reincarnasi",Tensei shitara Slime Datta Ken Episode 4
+https://dl.nontony.uk/video2/slime_datta_ken/SOKUJA_TenseiSlime--04_480p.mp4
+#EXTINF:-1 tvg-name="Tensei shitara Slime Datta Ken Episode 5" tvg-logo="https://gbr.sokuja.uk/wp-content/uploads/2022/08/sokuja-slime-dattaken.jpg" group-title="Sokuja;Petualangan;fantasi;Isekai;komedi;Mitologi;Reincarnasi",Tensei shitara Slime Datta Ken Episode 5
+https://dl.nontony.uk/video2/slime_datta_ken/SOKUJA_TenseiSlime--05_480p.mp4
+#EXTINF:-1 tvg-name="Tensei shitara Slime Datta Ken Episode 6" tvg-logo="https://gbr.sokuja.uk/wp-content/uploads/2022/08/sokuja-slime-dattaken.jpg" group-title="Sokuja;Petualangan;fantasi;Isekai;komedi;Mitologi;Reincarnasi",Tensei shitara Slime Datta Ken Episode 6
+https://dl.nontony.uk/video2/slime_datta_ken/SOKUJA_TenseiSlime--06_480p.mp4
+#EXTINF:-1 tvg-name="Tensei shitara Slime Datta Ken Episode 7" tvg-logo="https://gbr.sokuja.uk/wp-content/uploads/2022/08/sokuja-slime-dattaken.jpg" group-title="Sokuja;Petualangan;fantasi;Isekai;komedi;Mitologi;Reincarnasi",Tensei shitara Slime Datta Ken Episode 7
+https://dl.nontony.uk/video2/slime_datta_ken/SOKUJA_TenseiSlime--07_480p.mp4
+#EXTINF:-1 tvg-name="Tensei shitara Slime Datta Ken Episode 8" tvg-logo="https://gbr.sokuja.uk/wp-content/uploads/2022/08/sokuja-slime-dattaken.jpg" group-title="Sokuja;Petualangan;fantasi;Isekai;komedi;Mitologi;Reincarnasi",Tensei shitara Slime Datta Ken Episode 8
+https://dl.nontony.uk/video2/slime_datta_ken/SOKUJA_TenseiSlime--08_480p.mp4
+#EXTINF:-1 tvg-name="Tensei shitara Slime Datta Ken Episode 9" tvg-logo="https://gbr.sokuja.uk/wp-content/uploads/2022/08/sokuja-slime-dattaken.jpg" group-title="Sokuja;Petualangan;fantasi;Isekai;komedi;Mitologi;Reincarnasi",Tensei shitara Slime Datta Ken Episode 9
+https://dl.nontony.uk/video2/slime_datta_ken/SOKUJA_TenseiSlime--09_480p.mp4
+#EXTINF:-1 tvg-name="Tensei shitara Slime Datta Ken: Kanwa - Veldora Nikki" group-title="Sokuja;Petualangan;fantasi;Isekai;komedi;Mitologi;Reincarnasi",Tensei shitara Slime Datta Ken: Kanwa - Veldora Nikki
+https://dl.nontony.uk/video2/slime_datta_ken/SOKUJA_TenseiSlime--25_End_480p.mp4
+#EXTINF:-1 tvg-name="Tensura Nikki: Tensei shitara Slime Datta Ken episode 12" tvg-logo="https://gbr.sokuja.uk/wp-content/uploads/2022/08/sokuja-tensura-nikki.jpg" group-title="Sokuja;Petualangan;fantasi;Isekai;komedi;Mitologi;Reincarnasi",Tensura Nikki: Tensei shitara Slime Datta Ken episode 12
+https://dl.nontony.uk/video2/slime_datta_ken/TensuraNikki/SOKUJA_TsNikki--12_End_480p.mp4
+#EXTINF:-1 tvg-name="Tensei shitara Slime Datta Ken Movie 2: Soukai no Namida-hen" tvg-logo="https://x6.sokuja.uk/uploads/2026/06/tensei-shitara-slime-datta-ken-movie-2--soukai-no-1782565987661.webp" group-title="Sokuja;Petualangan;fantasi;Isekai;komedi;Mitologi;Reincarnasi;slice of live",Tensei shitara Slime Datta Ken Movie 2: Soukai no Namida-hen
+https://dl.sokuja.uk/2026-spring/slime-mov/SOKUJA.NET-TSSDK-M2.1080p-sdjkgblmfinlhjkwe.mp4
+#EXTINF:-1 tvg-name="Tensei shitara Slime Datta Ken Movie: Guren no Kizuna-hen" tvg-logo="https://gbr.sokuja.uk/wp-content/uploads/2022/11/Tensei_shitara_Slime_Datta_Ken_Movie__Guren_no_Kizuna-hen.jpg" group-title="Sokuja;Petualangan;fantasi;Isekai;komedi;Mitologi;Reincarnasi;slice of live",Tensei shitara Slime Datta Ken Movie: Guren no Kizuna-hen
+https://dl.nontony.uk/video2/slime_datta_ken/movie/SOKUJA.NET-TSSDK-Movie-720p.mp4
+#EXTINF:-1 tvg-name="Tensei shitara Slime Datta Ken Season 2 Episode 1" tvg-logo="https://gbr.sokuja.uk/wp-content/uploads/2022/08/sokuja-slime-s2-part1.jpg" group-title="Sokuja;Petualangan;fantasi;Isekai;komedi;Mitologi;Reincarnasi;slice of live",Tensei shitara Slime Datta Ken Season 2 Episode 1
+https://dl.nontony.uk/video2/slime_datta_ken/s2/SOKUJA_TenseiSlime.S2--1_480p.mp4
+#EXTINF:-1 tvg-name="Tensei shitara Slime Datta Ken Season 2 Episode 10" tvg-logo="https://gbr.sokuja.uk/wp-content/uploads/2022/08/sokuja-slime-s2-part1.jpg" group-title="Sokuja;Petualangan;fantasi;Isekai;komedi;Mitologi;Reincarnasi;slice of live",Tensei shitara Slime Datta Ken Season 2 Episode 10
+https://dl.nontony.uk/video2/slime_datta_ken/s2/SOKUJA_TenseiSlime.S2--10_480p.mp4
+#EXTINF:-1 tvg-name="Tensei shitara Slime Datta Ken Season 2 Episode 11" tvg-logo="https://gbr.sokuja.uk/wp-content/uploads/2022/08/sokuja-slime-s2-part1.jpg" group-title="Sokuja;Petualangan;fantasi;Isekai;komedi;Mitologi;Reincarnasi;slice of live",Tensei shitara Slime Datta Ken Season 2 Episode 11
+https://dl.nontony.uk/video2/slime_datta_ken/s2/SOKUJA_TenseiSlime.S2--11_480p.mp4
+#EXTINF:-1 tvg-name="Tensei shitara Slime Datta Ken Season 2 Episode 12" tvg-logo="https://gbr.sokuja.uk/wp-content/uploads/2022/08/sokuja-slime-s2-part1.jpg" group-title="Sokuja;Petualangan;fantasi;Isekai;komedi;Mitologi;Reincarnasi;slice of live",Tensei shitara Slime Datta Ken Season 2 Episode 12
+https://dl.nontony.uk/video2/slime_datta_ken/s2/SOKUJA_TenseiSlime.S2--12_480p.mp4
+#EXTINF:-1 tvg-name="Tensei shitara Slime Datta Ken Season 2 Episode 13" tvg-logo="https://gbr.sokuja.uk/wp-content/uploads/2022/08/1661755422-9214-118296.jpg" group-title="Sokuja;Petualangan;fantasi;Isekai;komedi;Mitologi;Reincarnasi;slice of live",Tensei shitara Slime Datta Ken Season 2 Episode 13
+https://dl.nontony.uk/video2/slime_datta_ken/s2/SOKUJA_TenseiSlime.S2--13_480p.mp4
+#EXTINF:-1 tvg-name="Tensei shitara Slime Datta Ken Season 2 Episode 14" tvg-logo="https://gbr.sokuja.uk/wp-content/uploads/2022/08/1661755422-9214-118296.jpg" group-title="Sokuja;Petualangan;fantasi;Isekai;komedi;Mitologi;Reincarnasi;slice of live",Tensei shitara Slime Datta Ken Season 2 Episode 14
+https://dl.nontony.uk/video2/slime_datta_ken/s2/SOKUJA_TenseiSlime.S2--14_480p.mp4
+#EXTINF:-1 tvg-name="Tensei shitara Slime Datta Ken Season 2 Episode 15" tvg-logo="https://gbr.sokuja.uk/wp-content/uploads/2022/08/1661755422-9214-118296.jpg" group-title="Sokuja;Petualangan;fantasi;Isekai;komedi;Mitologi;Reincarnasi;slice of live",Tensei shitara Slime Datta Ken Season 2 Episode 15
+https://dl.nontony.uk/video2/slime_datta_ken/s2/SOKUJA_TenseiSlime.S2--15_480p.mp4
+#EXTINF:-1 tvg-name="Tensei shitara Slime Datta Ken Season 2 Episode 16" tvg-logo="https://gbr.sokuja.uk/wp-content/uploads/2022/08/1661755422-9214-118296.jpg" group-title="Sokuja;Petualangan;fantasi;Isekai;komedi;Mitologi;Reincarnasi;slice of live",Tensei shitara Slime Datta Ken Season 2 Episode 16
+https://dl.nontony.uk/video2/slime_datta_ken/s2/SOKUJA_TenseiSlime.S2--16_480p.mp4
+#EXTINF:-1 tvg-name="Tensei shitara Slime Datta Ken Season 2 Episode 17" tvg-logo="https://gbr.sokuja.uk/wp-content/uploads/2022/08/1661755422-9214-118296.jpg" group-title="Sokuja;Petualangan;fantasi;Isekai;komedi;Mitologi;Reincarnasi;slice of live",Tensei shitara Slime Datta Ken Season 2 Episode 17
+https://dl.nontony.uk/video2/slime_datta_ken/s2/SOKUJA_TenseiSlime.S2--17_480p.mp4
+#EXTINF:-1 tvg-name="Tensei shitara Slime Datta Ken Season 2 Episode 18" tvg-logo="https://gbr.sokuja.uk/wp-content/uploads/2022/08/1661755422-9214-118296.jpg" group-title="Sokuja;Petualangan;fantasi;Isekai;komedi;Mitologi;Reincarnasi;slice of live",Tensei shitara Slime Datta Ken Season 2 Episode 18
+https://dl.nontony.uk/video2/slime_datta_ken/s2/SOKUJA_TenseiSlime.S2--18_480p.mp4
+#EXTINF:-1 tvg-name="Tensei shitara Slime Datta Ken Season 2 Episode 19" tvg-logo="https://gbr.sokuja.uk/wp-content/uploads/2022/08/1661755422-9214-118296.jpg" group-title="Sokuja;Petualangan;fantasi;Isekai;komedi;Mitologi;Reincarnasi;slice of live",Tensei shitara Slime Datta Ken Season 2 Episode 19
+https://dl.nontony.uk/video2/slime_datta_ken/s2/SOKUJA_TenseiSlime.S2--19_480p.mp4
+#EXTINF:-1 tvg-name="Tensei shitara Slime Datta Ken Season 2 Episode 2" tvg-logo="https://gbr.sokuja.uk/wp-content/uploads/2022/08/sokuja-slime-s2-part1.jpg" group-title="Sokuja;Petualangan;fantasi;Isekai;komedi;Mitologi;Reincarnasi;slice of live",Tensei shitara Slime Datta Ken Season 2 Episode 2
+https://dl.nontony.uk/video2/slime_datta_ken/s2/SOKUJA_TenseiSlime.S2--2_480p.mp4
+#EXTINF:-1 tvg-name="Tensei shitara Slime Datta Ken Season 2 Episode 20" tvg-logo="https://gbr.sokuja.uk/wp-content/uploads/2022/08/1661755422-9214-118296.jpg" group-title="Sokuja;Petualangan;fantasi;Isekai;komedi;Mitologi;Reincarnasi;slice of live",Tensei shitara Slime Datta Ken Season 2 Episode 20
+https://dl.nontony.uk/video2/slime_datta_ken/s2/SOKUJA_TenseiSlime.S2--20_480p.mp4
+#EXTINF:-1 tvg-name="Tensei shitara Slime Datta Ken Season 2 Episode 21" tvg-logo="https://gbr.sokuja.uk/wp-content/uploads/2022/08/1661755422-9214-118296.jpg" group-title="Sokuja;Petualangan;fantasi;Isekai;komedi;Mitologi;Reincarnasi;slice of live",Tensei shitara Slime Datta Ken Season 2 Episode 21
+https://dl.nontony.uk/video2/slime_datta_ken/s2/SOKUJA_TenseiSlime.S2--21_480p.mp4
+#EXTINF:-1 tvg-name="Tensei shitara Slime Datta Ken Season 2 Episode 22" tvg-logo="https://gbr.sokuja.uk/wp-content/uploads/2022/08/1661755422-9214-118296.jpg" group-title="Sokuja;Petualangan;fantasi;Isekai;komedi;Mitologi;Reincarnasi;slice of live",Tensei shitara Slime Datta Ken Season 2 Episode 22
+https://dl.nontony.uk/video2/slime_datta_ken/s2/SOKUJA_TenseiSlime.S2--22_480p.mp4
+#EXTINF:-1 tvg-name="Tensei shitara Slime Datta Ken Season 2 Episode 23" tvg-logo="https://gbr.sokuja.uk/wp-content/uploads/2022/08/1661755422-9214-118296.jpg" group-title="Sokuja;Petualangan;fantasi;Isekai;komedi;Mitologi;Reincarnasi;slice of live",Tensei shitara Slime Datta Ken Season 2 Episode 23
+https://dl.nontony.uk/video2/slime_datta_ken/s2/SOKUJA_TenseiSlime.S2--23_480p.mp4
+#EXTINF:-1 tvg-name="Tensei shitara Slime Datta Ken Season 2 Episode 24" tvg-logo="https://gbr.sokuja.uk/wp-content/uploads/2022/08/1661755422-9214-118296.jpg" group-title="Sokuja;Petualangan;fantasi;Isekai;komedi;Mitologi;Reincarnasi;slice of live",Tensei shitara Slime Datta Ken Season 2 Episode 24
+https://dl.nontony.uk/video2/slime_datta_ken/s2/SOKUJA_TenseiSlime.S2--24_End_480p.mp4
+#EXTINF:-1 tvg-name="Tensei shitara Slime Datta Ken Season 2 Episode 3" tvg-logo="https://gbr.sokuja.uk/wp-content/uploads/2022/08/sokuja-slime-s2-part1.jpg" group-title="Sokuja;Petualangan;fantasi;Isekai;komedi;Mitologi;Reincarnasi;slice of live",Tensei shitara Slime Datta Ken Season 2 Episode 3
+https://dl.nontony.uk/video2/slime_datta_ken/s2/SOKUJA_TenseiSlime.S2--3_480p.mp4
+#EXTINF:-1 tvg-name="Tensei shitara Slime Datta Ken Season 2 Episode 4" tvg-logo="https://gbr.sokuja.uk/wp-content/uploads/2022/08/sokuja-slime-s2-part1.jpg" group-title="Sokuja;Petualangan;fantasi;Isekai;komedi;Mitologi;Reincarnasi;slice of live",Tensei shitara Slime Datta Ken Season 2 Episode 4
+https://dl.nontony.uk/video2/slime_datta_ken/s2/SOKUJA_TenseiSlime.S2--4_480p.mp4
+#EXTINF:-1 tvg-name="Tensei shitara Slime Datta Ken Season 2 Episode 5" tvg-logo="https://gbr.sokuja.uk/wp-content/uploads/2022/08/sokuja-slime-s2-part1.jpg" group-title="Sokuja;Petualangan;fantasi;Isekai;komedi;Mitologi;Reincarnasi;slice of live",Tensei shitara Slime Datta Ken Season 2 Episode 5
+https://dl.nontony.uk/video2/slime_datta_ken/s2/SOKUJA_TenseiSlime.S2--5_480p.mp4
+#EXTINF:-1 tvg-name="Tensei shitara Slime Datta Ken Season 2 Episode 6" tvg-logo="https://gbr.sokuja.uk/wp-content/uploads/2022/08/sokuja-slime-s2-part1.jpg" group-title="Sokuja;Petualangan;fantasi;Isekai;komedi;Mitologi;Reincarnasi;slice of live",Tensei shitara Slime Datta Ken Season 2 Episode 6
+https://dl.nontony.uk/video2/slime_datta_ken/s2/SOKUJA_TenseiSlime.S2--6_480p.mp4
+#EXTINF:-1 tvg-name="Tensei shitara Slime Datta Ken Season 2 Episode 7" tvg-logo="https://gbr.sokuja.uk/wp-content/uploads/2022/08/sokuja-slime-s2-part1.jpg" group-title="Sokuja;Petualangan;fantasi;Isekai;komedi;Mitologi;Reincarnasi;slice of live",Tensei shitara Slime Datta Ken Season 2 Episode 7
+https://dl.nontony.uk/video2/slime_datta_ken/s2/SOKUJA_TenseiSlime.S2--7_480p.mp4
+#EXTINF:-1 tvg-name="Tensei shitara Slime Datta Ken Season 2 Episode 8" tvg-logo="https://gbr.sokuja.uk/wp-content/uploads/2022/08/sokuja-slime-s2-part1.jpg" group-title="Sokuja;Petualangan;fantasi;Isekai;komedi;Mitologi;Reincarnasi;slice of live",Tensei shitara Slime Datta Ken Season 2 Episode 8
+https://dl.nontony.uk/video2/slime_datta_ken/s2/SOKUJA_TenseiSlime.S2--8_480p.mp4
+#EXTINF:-1 tvg-name="Tensei shitara Slime Datta Ken Season 2 Episode 9" tvg-logo="https://gbr.sokuja.uk/wp-content/uploads/2022/08/sokuja-slime-s2-part1.jpg" group-title="Sokuja;Petualangan;fantasi;Isekai;komedi;Mitologi;Reincarnasi;slice of live",Tensei shitara Slime Datta Ken Season 2 Episode 9
+https://dl.nontony.uk/video2/slime_datta_ken/s2/SOKUJA_TenseiSlime.S2--9_480p.mp4
+#EXTINF:-1 tvg-name="Tensei shitara Slime Datta Ken Season 3 Episode1" tvg-logo="https://gbr.sokuja.uk/wp-content/uploads/2024/01/Tensei_shitara_Slime_Datta_Ken_3rd_Season-.jpg" group-title="Sokuja;Petualangan;fantasi;Isekai;komedi;Mitologi;Reincarnasi;slice of live",Tensei shitara Slime Datta Ken Season 3 Episode1
+https://dl.nontony.uk/2024-spring/slime.s3/SOKUJA.ID-TSDTK.S3-01.720p.mp4
+#EXTINF:-1 tvg-name="Tensei shitara Slime Datta Ken Season 3 Episode10" tvg-logo="https://gbr.sokuja.uk/wp-content/uploads/2024/01/Tensei_shitara_Slime_Datta_Ken_3rd_Season-.jpg" group-title="Sokuja;Petualangan;fantasi;Isekai;komedi;Mitologi;Reincarnasi;slice of live",Tensei shitara Slime Datta Ken Season 3 Episode10
+https://dl.nontony.uk/2024-spring/slime.s3/SOKUJA.ID-TSDTK.S3-10.720p.mp4
+#EXTINF:-1 tvg-name="Tensei shitara Slime Datta Ken Season 3 Episode11" tvg-logo="https://gbr.sokuja.uk/wp-content/uploads/2024/01/Tensei_shitara_Slime_Datta_Ken_3rd_Season-.jpg" group-title="Sokuja;Petualangan;fantasi;Isekai;komedi;Mitologi;Reincarnasi;slice of live",Tensei shitara Slime Datta Ken Season 3 Episode11
+https://dl.nontony.uk/2024-spring/slime.s3/SOKUJA.ID-TSDTK.S3-11.720p.mp4
+#EXTINF:-1 tvg-name="Tensei shitara Slime Datta Ken Season 3 Episode12" tvg-logo="https://gbr.sokuja.uk/wp-content/uploads/2024/01/Tensei_shitara_Slime_Datta_Ken_3rd_Season-.jpg" group-title="Sokuja;Petualangan;fantasi;Isekai;komedi;Mitologi;Reincarnasi;slice of live",Tensei shitara Slime Datta Ken Season 3 Episode12
+https://dl.nontony.uk/2024-spring/slime.s3/SOKUJA.ID-TSDTK.S3-12.720p.mp4
+#EXTINF:-1 tvg-name="Tensei shitara Slime Datta Ken Season 3 Episode13" tvg-logo="https://gbr.sokuja.uk/wp-content/uploads/2024/01/Tensei_shitara_Slime_Datta_Ken_3rd_Season-.jpg" group-title="Sokuja;Petualangan;fantasi;Isekai;komedi;Mitologi;Reincarnasi;slice of live",Tensei shitara Slime Datta Ken Season 3 Episode13
+https://dl.nontony.uk/2024-spring/slime.s3/SOKUJA.ID-TSDTK.S3-13.720p.mp4
+#EXTINF:-1 tvg-name="Tensei shitara Slime Datta Ken Season 3 Episode14" tvg-logo="https://gbr.sokuja.uk/wp-content/uploads/2024/01/Tensei_shitara_Slime_Datta_Ken_3rd_Season-.jpg" group-title="Sokuja;Petualangan;fantasi;Isekai;komedi;Mitologi;Reincarnasi;slice of live",Tensei shitara Slime Datta Ken Season 3 Episode14
+https://dl.nontony.uk/2024-spring/slime.s3/SOKUJA.ID-TSDTK.S3-14.720p.mp4
+#EXTINF:-1 tvg-name="Tensei shitara Slime Datta Ken Season 3 Episode15" tvg-logo="https://gbr.sokuja.uk/wp-content/uploads/2024/01/Tensei_shitara_Slime_Datta_Ken_3rd_Season-.jpg" group-title="Sokuja;Petualangan;fantasi;Isekai;komedi;Mitologi;Reincarnasi;slice of live",Tensei shitara Slime Datta Ken Season 3 Episode15
+https://dl.nontony.uk/2024-spring/slime.s3/SOKUJA.ID-TSDTK.S3-15.720p.mp4
+#EXTINF:-1 tvg-name="Tensei shitara Slime Datta Ken Season 3 Episode16" tvg-logo="https://gbr.sokuja.uk/wp-content/uploads/2024/01/Tensei_shitara_Slime_Datta_Ken_3rd_Season-.jpg" group-title="Sokuja;Petualangan;fantasi;Isekai;komedi;Mitologi;Reincarnasi;slice of live",Tensei shitara Slime Datta Ken Season 3 Episode16
+https://dl.nontony.uk/2024-spring/slime.s3/SOKUJA.ID-TSDTK.S3-16.720p.mp4
+#EXTINF:-1 tvg-name="Tensei shitara Slime Datta Ken Season 3 Episode17" tvg-logo="https://gbr.sokuja.uk/wp-content/uploads/2024/01/Tensei_shitara_Slime_Datta_Ken_3rd_Season-.jpg" group-title="Sokuja;Petualangan;fantasi;Isekai;komedi;Mitologi;Reincarnasi;slice of live",Tensei shitara Slime Datta Ken Season 3 Episode17
+https://dl.nontony.uk/2024-spring/slime.s3/SOKUJA.ID-TSDTK.S3-17.720p.mp4
+#EXTINF:-1 tvg-name="Tensei shitara Slime Datta Ken Season 3 Episode18" tvg-logo="https://gbr.sokuja.uk/wp-content/uploads/2024/01/Tensei_shitara_Slime_Datta_Ken_3rd_Season-.jpg" group-title="Sokuja;Petualangan;fantasi;Isekai;komedi;Mitologi;Reincarnasi;slice of live",Tensei shitara Slime Datta Ken Season 3 Episode18
+https://dl.nontony.uk/2024-spring/slime.s3/SOKUJA.ID-TSDTK.S3-18.720p.mp4
+#EXTINF:-1 tvg-name="Tensei shitara Slime Datta Ken Season 3 Episode19" tvg-logo="https://gbr.sokuja.uk/wp-content/uploads/2024/01/Tensei_shitara_Slime_Datta_Ken_3rd_Season-.jpg" group-title="Sokuja;Petualangan;fantasi;Isekai;komedi;Mitologi;Reincarnasi;slice of live",Tensei shitara Slime Datta Ken Season 3 Episode19
+https://dl.nontony.uk/2024-spring/slime.s3/SOKUJA.ID-TSDTK.S3-19.720p.mp4
+#EXTINF:-1 tvg-name="Tensei shitara Slime Datta Ken Season 3 Episode2" tvg-logo="https://gbr.sokuja.uk/wp-content/uploads/2024/01/Tensei_shitara_Slime_Datta_Ken_3rd_Season-.jpg" group-title="Sokuja;Petualangan;fantasi;Isekai;komedi;Mitologi;Reincarnasi;slice of live",Tensei shitara Slime Datta Ken Season 3 Episode2
+https://dl.nontony.uk/2024-spring/slime.s3/SOKUJA.ID-TSDTK.S3-02.720p.mp4
+#EXTINF:-1 tvg-name="Tensei shitara Slime Datta Ken Season 3 Episode20" tvg-logo="https://gbr.sokuja.uk/wp-content/uploads/2024/01/Tensei_shitara_Slime_Datta_Ken_3rd_Season-.jpg" group-title="Sokuja;Petualangan;fantasi;Isekai;komedi;Mitologi;Reincarnasi;slice of live",Tensei shitara Slime Datta Ken Season 3 Episode20
+https://dl.nontony.uk/2024-spring/slime.s3/SOKUJA.ID-TSDTK.S3-20.720p.mp4
+#EXTINF:-1 tvg-name="Tensei shitara Slime Datta Ken Season 3 Episode21" tvg-logo="https://gbr.sokuja.uk/wp-content/uploads/2024/01/Tensei_shitara_Slime_Datta_Ken_3rd_Season-.jpg" group-title="Sokuja;Petualangan;fantasi;Isekai;komedi;Mitologi;Reincarnasi;slice of live",Tensei shitara Slime Datta Ken Season 3 Episode21
+https://dl.nontony.uk/2024-spring/slime.s3/SOKUJA.ID-TSDTK.S3-21.720p.mp4
+#EXTINF:-1 tvg-name="Tensei shitara Slime Datta Ken Season 3 Episode22" tvg-logo="https://gbr.sokuja.uk/wp-content/uploads/2024/01/Tensei_shitara_Slime_Datta_Ken_3rd_Season-.jpg" group-title="Sokuja;Petualangan;fantasi;Isekai;komedi;Mitologi;Reincarnasi;slice of live",Tensei shitara Slime Datta Ken Season 3 Episode22
+https://dl.nontony.uk/2024-spring/slime.s3/SOKUJA.ID-TSDTK.S3-22.720p.mp4
+#EXTINF:-1 tvg-name="Tensei shitara Slime Datta Ken Season 3 Episode23" tvg-logo="https://gbr.sokuja.uk/wp-content/uploads/2024/01/Tensei_shitara_Slime_Datta_Ken_3rd_Season-.jpg" group-title="Sokuja;Petualangan;fantasi;Isekai;komedi;Mitologi;Reincarnasi;slice of live",Tensei shitara Slime Datta Ken Season 3 Episode23
+https://dl.nontony.uk/2024-spring/slime.s3/SOKUJA.ID-TSDTK.S3-23.720p.mp4
+#EXTINF:-1 tvg-name="Tensei shitara Slime Datta Ken Season 3 Episode24" tvg-logo="https://gbr.sokuja.uk/wp-content/uploads/2024/01/Tensei_shitara_Slime_Datta_Ken_3rd_Season-.jpg" group-title="Sokuja;Petualangan;fantasi;Isekai;komedi;Mitologi;Reincarnasi;slice of live",Tensei shitara Slime Datta Ken Season 3 Episode24
+https://dl.nontony.uk/2024-spring/slime.s3/SOKUJA.ID-TSDTK.S3-24.720p-END.mp4
+#EXTINF:-1 tvg-name="Tensei shitara Slime Datta Ken Season 3 Episode3" tvg-logo="https://gbr.sokuja.uk/wp-content/uploads/2024/01/Tensei_shitara_Slime_Datta_Ken_3rd_Season-.jpg" group-title="Sokuja;Petualangan;fantasi;Isekai;komedi;Mitologi;Reincarnasi;slice of live",Tensei shitara Slime Datta Ken Season 3 Episode3
+https://dl.nontony.uk/2024-spring/slime.s3/SOKUJA.ID-TSDTK.S3-03.720p.mp4
+#EXTINF:-1 tvg-name="Tensei shitara Slime Datta Ken Season 3 Episode4" tvg-logo="https://gbr.sokuja.uk/wp-content/uploads/2024/01/Tensei_shitara_Slime_Datta_Ken_3rd_Season-.jpg" group-title="Sokuja;Petualangan;fantasi;Isekai;komedi;Mitologi;Reincarnasi;slice of live",Tensei shitara Slime Datta Ken Season 3 Episode4
+https://dl.nontony.uk/2024-spring/slime.s3/SOKUJA.ID-TSDTK.S3-04.720p.mp4
+#EXTINF:-1 tvg-name="Tensei shitara Slime Datta Ken Season 3 Episode5" tvg-logo="https://gbr.sokuja.uk/wp-content/uploads/2024/01/Tensei_shitara_Slime_Datta_Ken_3rd_Season-.jpg" group-title="Sokuja;Petualangan;fantasi;Isekai;komedi;Mitologi;Reincarnasi;slice of live",Tensei shitara Slime Datta Ken Season 3 Episode5
+https://dl.nontony.uk/2024-spring/slime.s3/SOKUJA.ID-TSDTK.S3-05.720p.mp4
+#EXTINF:-1 tvg-name="Tensei shitara Slime Datta Ken Season 3 Episode6" tvg-logo="https://gbr.sokuja.uk/wp-content/uploads/2024/01/Tensei_shitara_Slime_Datta_Ken_3rd_Season-.jpg" group-title="Sokuja;Petualangan;fantasi;Isekai;komedi;Mitologi;Reincarnasi;slice of live",Tensei shitara Slime Datta Ken Season 3 Episode6
+https://dl.nontony.uk/2024-spring/slime.s3/SOKUJA.ID-TSDTK.S3-06.720p.mp4
+#EXTINF:-1 tvg-name="Tensei shitara Slime Datta Ken Season 3 Episode7" tvg-logo="https://gbr.sokuja.uk/wp-content/uploads/2024/01/Tensei_shitara_Slime_Datta_Ken_3rd_Season-.jpg" group-title="Sokuja;Petualangan;fantasi;Isekai;komedi;Mitologi;Reincarnasi;slice of live",Tensei shitara Slime Datta Ken Season 3 Episode7
+https://dl.nontony.uk/2024-spring/slime.s3/SOKUJA.ID-TSDTK.S3-07.720p.mp4
+#EXTINF:-1 tvg-name="Tensei shitara Slime Datta Ken Season 3 Episode8" tvg-logo="https://gbr.sokuja.uk/wp-content/uploads/2024/01/Tensei_shitara_Slime_Datta_Ken_3rd_Season-.jpg" group-title="Sokuja;Petualangan;fantasi;Isekai;komedi;Mitologi;Reincarnasi;slice of live",Tensei shitara Slime Datta Ken Season 3 Episode8
+https://dl.nontony.uk/2024-spring/slime.s3/SOKUJA.ID-TSDTK.S3-08.720p.mp4
+#EXTINF:-1 tvg-name="Tensei shitara Slime Datta Ken Season 3 Episode9" tvg-logo="https://gbr.sokuja.uk/wp-content/uploads/2024/01/Tensei_shitara_Slime_Datta_Ken_3rd_Season-.jpg" group-title="Sokuja;Petualangan;fantasi;Isekai;komedi;Mitologi;Reincarnasi;slice of live",Tensei shitara Slime Datta Ken Season 3 Episode9
+https://dl.nontony.uk/2024-spring/slime.s3/SOKUJA.ID-TSDTK.S3-09.720p.mp4
+#EXTINF:-1 tvg-name="Tensei shitara Slime Datta Ken Season 3 Recap" tvg-logo="https://gbr.sokuja.uk/wp-content/uploads/2024/01/Tensei_shitara_Slime_Datta_Ken_3rd_Season-.jpg" group-title="Sokuja;Petualangan;fantasi;Isekai;komedi;Mitologi;Reincarnasi;slice of live",Tensei shitara Slime Datta Ken Season 3 Recap
+https://dl.nontony.uk/2024-spring/slime.s3/SOKUJA.ID-TSDTK-Recap.1.720p.mp4
+#EXTINF:-1 tvg-name="Tensei shitara Slime Datta Ken Season 4 Episode 1" tvg-logo="https://x6.sokuja.uk/uploads/2026/03/tensei-shitara-slime-datta-ken-4th-season-1773145570673.webp" group-title="Sokuja;Petualangan;fantasi;Isekai;komedi;Mitologi;Reincarnasi;slice of live",Tensei shitara Slime Datta Ken Season 4 Episode 1
+https://dl.sokuja.uk/2026-spring/tensei-slime-s4/SOKUJA.NET-TSSDK.S4-1.1080p-sdgsdgxsda.mp4
+#EXTINF:-1 tvg-name="Tensei shitara Slime Datta Ken Season 4 Episode 10" tvg-logo="https://x6.sokuja.uk/uploads/2026/03/tensei-shitara-slime-datta-ken-4th-season-1773145570673.webp" group-title="Sokuja;Petualangan;fantasi;Isekai;komedi;Mitologi;Reincarnasi;slice of live",Tensei shitara Slime Datta Ken Season 4 Episode 10
+https://dl.sokuja.uk/2026-spring/tensei-slime-s4/SOKUJA.NET-TSSDK.S4-10.1080p-sdgjknjkweg.mp4
+#EXTINF:-1 tvg-name="Tensei shitara Slime Datta Ken Season 4 Episode 11" tvg-logo="https://x6.sokuja.uk/uploads/2026/03/tensei-shitara-slime-datta-ken-4th-season-1773145570673.webp" group-title="Sokuja;Petualangan;fantasi;Isekai;komedi;Mitologi;Reincarnasi;slice of live",Tensei shitara Slime Datta Ken Season 4 Episode 11
+https://dl.sokuja.uk/2026-spring/tensei-slime-s4/SOKUJA.NET-TSSDK.S4-11.1080p-sgwegjkwg.mp4
+#EXTINF:-1 tvg-name="Tensei shitara Slime Datta Ken Season 4 Episode 12" tvg-logo="https://x6.sokuja.uk/uploads/2026/03/tensei-shitara-slime-datta-ken-4th-season-1773145570673.webp" group-title="Sokuja;Petualangan;fantasi;Isekai;komedi;Mitologi;Reincarnasi;slice of live",Tensei shitara Slime Datta Ken Season 4 Episode 12
+https://dl.sokuja.uk/2026-spring/tensei-slime-s4/SOKUJA.NET-TSSDK.S4-12.1080p-sdgjknwjkegw.mp4
+#EXTINF:-1 tvg-name="Tensei shitara Slime Datta Ken Season 4 Episode 13" tvg-logo="https://x6.sokuja.uk/uploads/2026/03/tensei-shitara-slime-datta-ken-4th-season-1773145570673.webp" group-title="Sokuja;Petualangan;fantasi;Isekai;komedi;Mitologi;Reincarnasi;slice of live",Tensei shitara Slime Datta Ken Season 4 Episode 13
+https://dl.sokuja.uk/2026-summer/tensei-slime-s4/SOKUJA.NET-TSSDK.S4-13.1080p-sdgjhwjkeg.mp4
+#EXTINF:-1 tvg-name="Tensei shitara Slime Datta Ken Season 4 Episode 14" tvg-logo="https://x6.sokuja.uk/uploads/2026/03/tensei-shitara-slime-datta-ken-4th-season-1773145570673.webp" group-title="Sokuja;Petualangan;fantasi;Isekai;komedi;Mitologi;Reincarnasi;slice of live",Tensei shitara Slime Datta Ken Season 4 Episode 14
+https://dl.sokuja.uk/2026-summer/tensei-slime-s4/SOKUJA.NET-TSSDK.S4-14.1080p-sdgqweq.mp4
+#EXTINF:-1 tvg-name="Tensei shitara Slime Datta Ken Season 4 Episode 15" tvg-logo="https://x6.sokuja.uk/uploads/2026/03/tensei-shitara-slime-datta-ken-4th-season-1773145570673.webp" group-title="Sokuja;Petualangan;fantasi;Isekai;komedi;Mitologi;Reincarnasi;slice of live",Tensei shitara Slime Datta Ken Season 4 Episode 15
+https://dl.sokuja.uk/2026-summer/tensei-slime-s4/SOKUJA.NET-TSSDK.S4-15.1080p-sdgwerqw.mp4
+#EXTINF:-1 tvg-name="Tensei shitara Slime Datta Ken Season 4 Episode 16" tvg-logo="https://x6.sokuja.uk/uploads/2026/03/tensei-shitara-slime-datta-ken-4th-season-1773145570673.webp" group-title="Sokuja;Petualangan;fantasi;Isekai;komedi;Mitologi;Reincarnasi;slice of live",Tensei shitara Slime Datta Ken Season 4 Episode 16
+https://dl.sokuja.uk/2026-summer/tensei-slime-s4/SOKUJA.NET-TSSDK.S4-16.1080p-segqweqw.mp4
+#EXTINF:-1 tvg-name="Tensei shitara Slime Datta Ken Season 4 Episode 17" tvg-logo="https://x6.sokuja.uk/uploads/2026/03/tensei-shitara-slime-datta-ken-4th-season-1773145570673.webp" group-title="Sokuja;Petualangan;fantasi;Isekai;komedi;Mitologi;Reincarnasi;slice of live",Tensei shitara Slime Datta Ken Season 4 Episode 17
+https://dl.sokuja.uk/2026-summer/tensei-slime-s4/SOKUJA.NET-TSSDK.S4-17.1080p-sdgweweg.mp4
+#EXTINF:-1 tvg-name="Tensei shitara Slime Datta Ken Season 4 Episode 18" tvg-logo="https://x6.sokuja.uk/uploads/2026/03/tensei-shitara-slime-datta-ken-4th-season-1773145570673.webp" group-title="Sokuja;Petualangan;fantasi;Isekai;komedi;Mitologi;Reincarnasi;slice of live",Tensei shitara Slime Datta Ken Season 4 Episode 18
+https://dl.sokuja.uk/2026-summer/tensei-slime-s4/SOKUJA.NET-TSSDK.S4-18.1080p-sdgqwerqwr.mp4
+#EXTINF:-1 tvg-name="Tensei shitara Slime Datta Ken Season 4 Episode 19" tvg-logo="https://x6.sokuja.uk/uploads/2026/03/tensei-shitara-slime-datta-ken-4th-season-1773145570673.webp" group-title="Sokuja;Petualangan;fantasi;Isekai;komedi;Mitologi;Reincarnasi;slice of live",Tensei shitara Slime Datta Ken Season 4 Episode 19
+https://dl.sokuja.uk/2026-summer/tensei-slime-s4/SOKUJA.NET-TSSDK.S4-19.1080p-wegkjnwkejg.mp4
+#EXTINF:-1 tvg-name="Tensei shitara Slime Datta Ken Season 4 Episode 2" tvg-logo="https://x6.sokuja.uk/uploads/2026/03/tensei-shitara-slime-datta-ken-4th-season-1773145570673.webp" group-title="Sokuja;Petualangan;fantasi;Isekai;komedi;Mitologi;Reincarnasi;slice of live",Tensei shitara Slime Datta Ken Season 4 Episode 2
+https://dl.sokuja.uk/2026-spring/tensei-slime-s4/SOKUJA.NET-TSSDK.S4-2.1080p-sdgsdgxsda.mp4
+#EXTINF:-1 tvg-name="Tensei shitara Slime Datta Ken Season 4 Episode 20" tvg-logo="https://x6.sokuja.uk/uploads/2026/03/tensei-shitara-slime-datta-ken-4th-season-1773145570673.webp" group-title="Sokuja;Petualangan;fantasi;Isekai;komedi;Mitologi;Reincarnasi;slice of live",Tensei shitara Slime Datta Ken Season 4 Episode 20
+https://dl.sokuja.uk/2026-summer/tensei-slime-s4/SOKUJA.NET-TSSDK.S4-20.1080p-wegjhkwe.mp4
+#EXTINF:-1 tvg-name="Tensei shitara Slime Datta Ken Season 4 Episode 3" tvg-logo="https://x6.sokuja.uk/uploads/2026/03/tensei-shitara-slime-datta-ken-4th-season-1773145570673.webp" group-title="Sokuja;Petualangan;fantasi;Isekai;komedi;Mitologi;Reincarnasi;slice of live",Tensei shitara Slime Datta Ken Season 4 Episode 3
+https://dl.sokuja.uk/2026-spring/tensei-slime-s4/SOKUJA.NET-TSSDK.S4-3.1080p-sdgsdgxsda.mp4
+#EXTINF:-1 tvg-name="Tensei shitara Slime Datta Ken Season 4 Episode 4" tvg-logo="https://x6.sokuja.uk/uploads/2026/03/tensei-shitara-slime-datta-ken-4th-season-1773145570673.webp" group-title="Sokuja;Petualangan;fantasi;Isekai;komedi;Mitologi;Reincarnasi;slice of live",Tensei shitara Slime Datta Ken Season 4 Episode 4
+https://dl.sokuja.uk/2026-spring/tensei-slime-s4/SOKUJA.NET-TSSDK.S4-4.1080p-seoigjowiegwe.mp4
+#EXTINF:-1 tvg-name="Tensei shitara Slime Datta Ken Season 4 Episode 5" tvg-logo="https://x6.sokuja.uk/uploads/2026/03/tensei-shitara-slime-datta-ken-4th-season-1773145570673.webp" group-title="Sokuja;Petualangan;fantasi;Isekai;komedi;Mitologi;Reincarnasi;slice of live",Tensei shitara Slime Datta Ken Season 4 Episode 5
+https://dl.sokuja.uk/2026-spring/tensei-slime-s4/SOKUJA.NET-TSSDK.S4-5.1080p-sdgweguhwuek.mp4
+#EXTINF:-1 tvg-name="Tensei shitara Slime Datta Ken Season 4 Episode 6" tvg-logo="https://x6.sokuja.uk/uploads/2026/03/tensei-shitara-slime-datta-ken-4th-season-1773145570673.webp" group-title="Sokuja;Petualangan;fantasi;Isekai;komedi;Mitologi;Reincarnasi;slice of live",Tensei shitara Slime Datta Ken Season 4 Episode 6
+https://dl.sokuja.uk/2026-spring/tensei-slime-s4/SOKUJA.NET-TSSDK.S4-6.1080p-sdgwefwefwefw.mp4
+#EXTINF:-1 tvg-name="Tensei shitara Slime Datta Ken Season 4 Episode 7" tvg-logo="https://x6.sokuja.uk/uploads/2026/03/tensei-shitara-slime-datta-ken-4th-season-1773145570673.webp" group-title="Sokuja;Petualangan;fantasi;Isekai;komedi;Mitologi;Reincarnasi;slice of live",Tensei shitara Slime Datta Ken Season 4 Episode 7
+https://dl.sokuja.uk/2026-spring/tensei-slime-s4/SOKUJA.NET-TSSDK.S4-7.1080p-sdgkjhwkegweg.mp4
+#EXTINF:-1 tvg-name="Tensei shitara Slime Datta Ken Season 4 Episode 8" tvg-logo="https://x6.sokuja.uk/uploads/2026/03/tensei-shitara-slime-datta-ken-4th-season-1773145570673.webp" group-title="Sokuja;Petualangan;fantasi;Isekai;komedi;Mitologi;Reincarnasi;slice of live",Tensei shitara Slime Datta Ken Season 4 Episode 8
+https://dl.sokuja.uk/2026-spring/tensei-slime-s4/SOKUJA.NET-TSSDK.S4-8.1080p-sdgwegwgj.mp4
+#EXTINF:-1 tvg-name="Tensei shitara Slime Datta Ken Season 4 Episode 9" tvg-logo="https://x6.sokuja.uk/uploads/2026/03/tensei-shitara-slime-datta-ken-4th-season-1773145570673.webp" group-title="Sokuja;Petualangan;fantasi;Isekai;komedi;Mitologi;Reincarnasi;slice of live",Tensei shitara Slime Datta Ken Season 4 Episode 9
+https://dl.sokuja.uk/2026-spring/tensei-slime-s4/SOKUJA.NET-TSSDK.S4-9.1080p-sdgjnwjkegwe.mp4
+#EXTINF:-1 tvg-name="Tensei shitara Slime Datta Ken: Coleus no Yume Episode 1 (OVA)" tvg-logo="https://gbr.sokuja.uk/wp-content/uploads/2023/10/sokuja-tensei-shitara-slime-OVA-sub-indo.jpg" group-title="Sokuja;Petualangan;fantasi;Isekai;komedi;Mitologi;Reincarnasi;slice of live",Tensei shitara Slime Datta Ken: Coleus no Yume Episode 1 (OVA)
+https://dl.nontony.uk/video2/slime_datta_ken/coleus.yume/sokuja.net-sdkcy-1.720p.mp4
+#EXTINF:-1 tvg-name="Tensei shitara Slime Datta Ken: Coleus no Yume Episode 2 (OVA)" tvg-logo="https://gbr.sokuja.uk/wp-content/uploads/2023/10/sokuja-tensei-shitara-slime-OVA-sub-indo.jpg" group-title="Sokuja;Petualangan;fantasi;Isekai;komedi;Mitologi;Reincarnasi;slice of live",Tensei shitara Slime Datta Ken: Coleus no Yume Episode 2 (OVA)
+https://dl.nontony.uk/video2/slime_datta_ken/coleus.yume/sokuja.net-sdkcy-2.720p.mp4
+#EXTINF:-1 tvg-name="Tensei shitara Slime Datta Ken: Coleus no Yume Episode 3 (OVA)" tvg-logo="https://gbr.sokuja.uk/wp-content/uploads/2023/10/sokuja-tensei-shitara-slime-OVA-sub-indo.jpg" group-title="Sokuja;Petualangan;fantasi;Isekai;komedi;Mitologi;Reincarnasi;slice of live",Tensei shitara Slime Datta Ken: Coleus no Yume Episode 3 (OVA)
+https://dl.nontony.uk/video2/slime_datta_ken/coleus.yume/sokuja.net-sdkcy-3.720p.mp4
+#EXTINF:-1 tvg-name="Tensura Nikki: Tensei shitara Slime Datta Ken episode 1" tvg-logo="https://gbr.sokuja.uk/wp-content/uploads/2022/08/sokuja-tensura-nikki.jpg" group-title="Sokuja;Petualangan;fantasi;Isekai;komedi;Mitologi;Reincarnasi;slice of live",Tensura Nikki: Tensei shitara Slime Datta Ken episode 1
+https://dl.nontony.uk/video2/slime_datta_ken/TensuraNikki/SOKUJA_TsNikki--01_480p.mp4
+#EXTINF:-1 tvg-name="Tensura Nikki: Tensei shitara Slime Datta Ken episode 10" tvg-logo="https://gbr.sokuja.uk/wp-content/uploads/2022/08/sokuja-tensura-nikki.jpg" group-title="Sokuja;Petualangan;fantasi;Isekai;komedi;Mitologi;Reincarnasi;slice of live",Tensura Nikki: Tensei shitara Slime Datta Ken episode 10
+https://dl.nontony.uk/video2/slime_datta_ken/TensuraNikki/SOKUJA_TsNikki--10_480p.mp4
+#EXTINF:-1 tvg-name="Tensura Nikki: Tensei shitara Slime Datta Ken episode 11" tvg-logo="https://gbr.sokuja.uk/wp-content/uploads/2022/08/sokuja-tensura-nikki.jpg" group-title="Sokuja;Petualangan;fantasi;Isekai;komedi;Mitologi;Reincarnasi;slice of live",Tensura Nikki: Tensei shitara Slime Datta Ken episode 11
+https://dl.nontony.uk/video2/slime_datta_ken/TensuraNikki/SOKUJA_TsNikki--11_480p.mp4
+#EXTINF:-1 tvg-name="Tensura Nikki: Tensei shitara Slime Datta Ken episode 2" tvg-logo="https://gbr.sokuja.uk/wp-content/uploads/2022/08/sokuja-tensura-nikki.jpg" group-title="Sokuja;Petualangan;fantasi;Isekai;komedi;Mitologi;Reincarnasi;slice of live",Tensura Nikki: Tensei shitara Slime Datta Ken episode 2
+https://dl.nontony.uk/video2/slime_datta_ken/TensuraNikki/SOKUJA_TsNikki--02_480p.mp4
+#EXTINF:-1 tvg-name="Tensura Nikki: Tensei shitara Slime Datta Ken episode 3" tvg-logo="https://gbr.sokuja.uk/wp-content/uploads/2022/08/sokuja-tensura-nikki.jpg" group-title="Sokuja;Petualangan;fantasi;Isekai;komedi;Mitologi;Reincarnasi;slice of live",Tensura Nikki: Tensei shitara Slime Datta Ken episode 3
+https://dl.nontony.uk/video2/slime_datta_ken/TensuraNikki/SOKUJA_TsNikki--03_480p.mp4
+#EXTINF:-1 tvg-name="Tensura Nikki: Tensei shitara Slime Datta Ken episode 4" tvg-logo="https://gbr.sokuja.uk/wp-content/uploads/2022/08/sokuja-tensura-nikki.jpg" group-title="Sokuja;Petualangan;fantasi;Isekai;komedi;Mitologi;Reincarnasi;slice of live",Tensura Nikki: Tensei shitara Slime Datta Ken episode 4
+https://dl.nontony.uk/video2/slime_datta_ken/TensuraNikki/SOKUJA_TsNikki--04_480p.mp4
+#EXTINF:-1 tvg-name="Tensura Nikki: Tensei shitara Slime Datta Ken episode 5" tvg-logo="https://gbr.sokuja.uk/wp-content/uploads/2022/08/sokuja-tensura-nikki.jpg" group-title="Sokuja;Petualangan;fantasi;Isekai;komedi;Mitologi;Reincarnasi;slice of live",Tensura Nikki: Tensei shitara Slime Datta Ken episode 5
+https://dl.nontony.uk/video2/slime_datta_ken/TensuraNikki/SOKUJA_TsNikki--05_480p.mp4
+#EXTINF:-1 tvg-name="Tensura Nikki: Tensei shitara Slime Datta Ken episode 6" tvg-logo="https://gbr.sokuja.uk/wp-content/uploads/2022/08/sokuja-tensura-nikki.jpg" group-title="Sokuja;Petualangan;fantasi;Isekai;komedi;Mitologi;Reincarnasi;slice of live",Tensura Nikki: Tensei shitara Slime Datta Ken episode 6
+https://dl.nontony.uk/video2/slime_datta_ken/TensuraNikki/SOKUJA_TsNikki--06_480p.mp4
+#EXTINF:-1 tvg-name="Tensura Nikki: Tensei shitara Slime Datta Ken episode 7" tvg-logo="https://gbr.sokuja.uk/wp-content/uploads/2022/08/sokuja-tensura-nikki.jpg" group-title="Sokuja;Petualangan;fantasi;Isekai;komedi;Mitologi;Reincarnasi;slice of live",Tensura Nikki: Tensei shitara Slime Datta Ken episode 7
+https://dl.nontony.uk/video2/slime_datta_ken/TensuraNikki/SOKUJA_TsNikki--07_480p.mp4
+#EXTINF:-1 tvg-name="Tensura Nikki: Tensei shitara Slime Datta Ken episode 8" tvg-logo="https://gbr.sokuja.uk/wp-content/uploads/2022/08/sokuja-tensura-nikki.jpg" group-title="Sokuja;Petualangan;fantasi;Isekai;komedi;Mitologi;Reincarnasi;slice of live",Tensura Nikki: Tensei shitara Slime Datta Ken episode 8
+https://dl.nontony.uk/video2/slime_datta_ken/TensuraNikki/SOKUJA_TsNikki--08_480p.mp4
+#EXTINF:-1 tvg-name="Tensura Nikki: Tensei shitara Slime Datta Ken episode 9" tvg-logo="https://gbr.sokuja.uk/wp-content/uploads/2022/08/sokuja-tensura-nikki.jpg" group-title="Sokuja;Petualangan;fantasi;Isekai;komedi;Mitologi;Reincarnasi;slice of live",Tensura Nikki: Tensei shitara Slime Datta Ken episode 9
+https://dl.nontony.uk/video2/slime_datta_ken/TensuraNikki/SOKUJA_TsNikki--09_480p.mp4
 #EXTINF:-1 tvg-name="Humint (2026)" tvg-logo="https://i0.wp.com/www9.stagatv.com/wp-content/uploads/2026/03/1774974606-2650-82bX2GK4PhaJQtfkTnfmd2P7erG.jpg" group-title="Stagatv;Aksi;Drama;Thriller",Humint (2026)
 https://stagatvfiles.com/uploads/2026/05/Humint-20-2026-20-STAGATV-COM-540p.mkv
 #EXTINF:-1 tvg-name="Toy Story 5 (2026)" tvg-logo="https://i0.wp.com/www9.stagatv.com/wp-content/uploads/2026/08/1786968567-6492-sfQtVlIHljToOwYjhe21KPGzZWK.jpg" group-title="Stagatv;Animasi;Petualangan;Komedi;Keluarga",Toy Story 5 (2026)
