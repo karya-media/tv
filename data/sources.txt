@@ -2,3 +2,5 @@ beetv=https://beetv.my.id/
 iptv-org=https://iptv-org.github.io/iptv/index.m3u
 c_tv=https://raw.githubusercontent.com/Bluestraveller13/super-duper-spork/refs/heads/main/KITKATJOSS
 Film=https://script.google.com/macros/s/AKfycbwrvGeZ7EOa1J0cs9rGV5KsWh6TGMb_iHb_WU9dv37HGQ1WXQ3TgapC-XAtUwAjsx_QJw/exec
+KokoTv=https://drive.usercontent.google.com/download?id=11SCMxGrXt4ECr1N0PXqtu26zSNYkKEYm&authuser=0
+ThohaAji=https://goldenid.online/playlist/ThohaAjiTV1/ThohaAjiTV/m3u_plus
