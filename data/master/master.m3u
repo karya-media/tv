@@ -19,6 +19,10 @@ https://r-plus.sedotcw3.workers.dev/index.m3u8?id=inews
 https://cdnbal1.indihometv.com/atm/DASH/inews/master.mpd
 #EXTINF:-1 tvg-id="itzplay.id" tvg-logo="https://uc53e67295bff8dd47fcec24fd87.previews.dropboxusercontent.com/p/thumb/ADGnGeidu0JOGL56XqDaZVkv38EMr2aJjeCYQ9Wni61mJnCiUoPPx116lczz8CCIg6kHH8Dkfwq_P6NHRQ5vwVGLBcG0H4Puwrsi_SBc0hO7Gq1RLke5ae2HfVuPTGVpzOV1hM73akIGhBdfmRSb2NrQ-CCTG1CPd2BvO90UMfKGuh-h9qGs1tws-Ht8wSQxnI2c8ma0XoH9Pn_23H0makv5U2at9zLSLo-Y89jFnY8ptNxR1RoERqqS6_CA_tE-O62kZNx8Jpz1XCTujePw3hGFTr3Z3eySpmKQnhcp4GIe2s5RMiVYCsRmk2pIdiEzZl6ifrU8N9zPjiq4D0sLftaEgzkpVV9vuGaCm_04Q3DEpPviRhtma5wACz-Oq35DHz8/p.jpeg?is_prewarmed=true" group-title="Indonesia;CHAMPIONS LEAGUE",SCTV HD
 https://ogietv.biz.id:443/Livetv/234/1322.m3u8
+#EXTINF:-1 tvg-id="itzplay.id" tvg-logo="https://raw.githubusercontent.com/apistech/project/refs/heads/main/logo/image_ch_sctv.png" group-title="Indonesia;LOKAL",SCTV HD
+#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+#EXTVLCOPT:http-referrer=https://www.vidio.com/
+https://beetv.my.id/xstreamx/vd.m3u8?ch=sctv
 #EXTINF:-1 tvg-id="Moji.id" tvg-logo="https://raw.githubusercontent.com/apistech/project/refs/heads/main/logo/image_ch_moji.png" group-title="Indonesia" http-referrer="" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36 Edg/150.0.0.0",Moji
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36 Edg/150.0.0.0
 https://op-flashcon-digdayahd-1.dens.tv/h/h207/index.m3u8
@@ -384,6 +388,8 @@ https://tvratu.my.id/vid/index.mpd?id=21178
 http://opplextv.cyou:8080/nasir6160/nasir/350997
 #EXTINF:-1 tvg-id="SinPoTV.id" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Sin_Po_TV.svg/500px-Sin_Po_TV.svg.png" group-title="Indonesia;Entertainment" http-referrer="" http-user-agent="",Sinpo TV
 https://cdnbal1.indihometv.com/atm/DASH/sinpotv/sinpotv-avc1_2500000=7-3277707030000000.mpd
+#EXTINF:-1 tvg-logo="https://i.imgur.com/VMOcefA.jpeg" group-title="Indonesia;Lokal" http-referrer="" http-user-agent="",Sin Po TV
+http://tvratu.my.id/nissa/index.mpd?id=19046&type=dash
 #EXTINF:-1 tvg-id="SindoNews.TV.id" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPlAtPGRHW6gEgAZMn916nIPyS0yqblsFZqg&s" group-title="Indonesia;News" http-referrer="" http-user-agent="",SindoNews
 https://cdnbal1.indihometv.com/atm/DASH/mncnews/mncnews-avc1_2500000=7-3277707030000000.mpd
 #EXTINF:-1 tvg-id="Rodja.TV.id" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLPKzuSGXnuJG5gOA1AGIknytvyxTCq9kQRw&s" group-title="Indonesia;Lokal" http-referrer="" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36",RODJA TV 2
