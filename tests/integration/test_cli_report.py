@@ -197,3 +197,44 @@ def test_report_command_limits_variants_to_online_ones(tmp_path: Path, monkeypat
     assert "rcti1.m3u8" in master_text
     assert "rcti3.m3u8" in master_text
     get_settings.cache_clear()
+
+
+def test_wildcard_bundle_is_never_variant_limited_but_others_are(tmp_path: Path, monkeypatch):
+    get_settings.cache_clear()
+    settings = Settings(project_root=tmp_path, github_repository=None)
+    settings.ensure_directories()
+    rcti_m3u = (
+        "#EXTM3U\n"
+        '#EXTINF:-1 tvg-id="RCTI.id" group-title="Indonesia;Nasional",RCTI\n'
+        "http://example.com/rcti1.m3u8\n"
+        '#EXTINF:-1 group-title="Indonesia;Nasional",RCTI HD\n'
+        "http://example.com/rcti2.m3u8\n"
+        '#EXTINF:-1 group-title="Indonesia;Nasional",RCTI 2\n'
+        "http://example.com/rcti3.m3u8\n"
+    )
+    (settings.categories_path / "national.m3u").write_text(rcti_m3u, encoding="utf-8")
+    order_path = settings.project_root / "data" / "channel_order.txt"
+    order_path.parent.mkdir(parents=True, exist_ok=True)
+    order_path.write_text("RCTI|RCTI HD|RCTI 2\n", encoding="utf-8")
+    (settings.project_root / "data" / "playlists.txt").write_text(
+        "all=*\nmaster=group:Indonesia\n", encoding="utf-8"
+    )
+    monkeypatch.setattr(cli_main, "get_settings", lambda: settings)
+    monkeypatch.setattr(
+        cli_main,
+        "HttpStreamValidator",
+        lambda **_kwargs: _FakeStreamValidator(
+            online_urls={"http://example.com/rcti1.m3u8", "http://example.com/rcti3.m3u8"}
+        ),
+    )
+
+    result = runner.invoke(cli_main.app, ["report", "--skip-logos", "--formats", "json"])
+    assert result.exit_code == 0, result.output
+
+    all_text = (settings.master_path / "all.m3u").read_text(encoding="utf-8")
+    assert all_text.count("#EXTINF") == 3  # unfiltered - all 3 RCTI variants present
+
+    master_text = (settings.master_path / "master.m3u").read_text(encoding="utf-8")
+    assert master_text.count("#EXTINF") == 2  # limited to 2, RCTI HD dropped
+    assert "RCTI HD" not in master_text
+    get_settings.cache_clear()

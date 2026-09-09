@@ -188,26 +188,36 @@ def _merge_and_publish(settings: Settings, parser: M3UParser) -> tuple[int, Merg
     fully-processed data those extra steps produce.
     """
     category_file_count, everything_result, publish = _build_everything_result(settings, parser)
-    publish(everything_result)
+    publish(everything_result, 0, None)
     return category_file_count, everything_result
 
 
 def _build_everything_result(
     settings: Settings, parser: M3UParser
-) -> tuple[int, MergeResult, Callable[[MergeResult], None]]:
+) -> tuple[int, MergeResult, Callable[[MergeResult, int, set[str] | None], None]]:
     """Load every category file and merge ALL of them into one
     comprehensive result (used for validation and the report - every
     channel that exists anywhere gets checked, and this is also what
     every bundle is ultimately built from).
 
     Returns (category_file_count, everything_result, publish) - call
-    publish(everything_result) once you're done mutating
-    everything_result.master (stream validation, variant-limiting,
-    EPG matching, ...) to split it into and write every bundle from
+    publish(everything_result, max_variants, online_urls) once you're
+    done mutating everything_result.master (stream validation, EPG
+    matching, ...) to split it into and write every bundle from
     data/playlists.txt (falling back to a single "master" bundle
-    containing everything if that file doesn't exist). Calling
-    publish() more than once, or not at all, is a caller bug - do it
-    exactly once, after all processing is finished.
+    containing everything if that file doesn't exist).
+
+    max_variants/online_urls control per-bundle variant-limiting (see
+    LimitChannelVariantsUseCase): a "*" (all-categories) bundle is
+    *never* limited, on the principle that "all" should mean all with
+    no filtering of any kind - every other bundle (stem- or
+    group:-based) gets limited to max_variants per channel_order.txt
+    family when max_variants > 0. Pass max_variants=0 to disable
+    limiting everywhere (e.g. `merge`, which has no stream-validation
+    data to rank variants by in the first place).
+
+    Calling publish() more than once, or not at all, is a caller bug -
+    do it exactly once, after all processing is finished.
     """
     category_files, playlists = _load_category_playlists(settings, parser)
 
@@ -233,9 +243,16 @@ def _build_everything_result(
             priority_slots, everything_result.master
         )
 
-    def publish(result: MergeResult) -> None:
+    def publish(result: MergeResult, max_variants: int, online_urls: set[str] | None) -> None:
         _publish_bundles(
-            settings, parser, result, category_files, playlists_by_stem, priority_slots
+            settings,
+            parser,
+            result,
+            category_files,
+            playlists_by_stem,
+            priority_slots,
+            max_variants,
+            online_urls,
         )
 
     return len(category_files), everything_result, publish
@@ -248,18 +265,36 @@ def _publish_bundles(
     category_files: list[Path],
     playlists_by_stem: dict[str, Playlist],
     priority_slots: list[list[str]],
+    max_variants: int = 0,
+    online_urls: set[str] | None = None,
 ) -> None:
     """Split everything_result.master into every bundle named in
     data/playlists.txt (stem-based, group:-based, "*", or any mix) and
     write each one out. See _build_everything_result()'s docstring for
-    why this is a separate step instead of happening inline."""
+    why this is a separate step instead of happening inline, and for
+    max_variants/online_urls' per-bundle-except-"*" limiting rule."""
     bundles_path = settings.project_root / "data" / "playlists.txt"
     bundle_specs = parse_playlist_bundles_file(bundles_path)
     if not bundle_specs:
         # No playlists.txt - historical behavior: one "master" bundle
         # with every category file, published to the same paths as
-        # before this feature existed.
-        _publish_bundle(settings, parser, "master", everything_result.master)
+        # before this feature existed - including variant-limiting,
+        # which used to apply unconditionally in this single-output
+        # world.
+        master = everything_result.master
+        if max_variants > 0 and priority_slots:
+            before_count = len(master)
+            master = LimitChannelVariantsUseCase().execute(
+                priority_slots, master, online_urls=online_urls, max_variants=max_variants
+            )
+            dropped_count = before_count - len(master)
+            if dropped_count:
+                typer.echo(
+                    f"Limited channel variants: dropped {dropped_count} extra "
+                    f"copy/copies (kept up to {max_variants} per family, "
+                    "preferring online ones)"
+                )
+        _publish_bundle(settings, parser, "master", master)
         return
 
     published_urls: set[str] = set()
@@ -267,12 +302,14 @@ def _publish_bundles(
     for bundle_name, spec in bundle_specs.items():
         if spec.all_stems:
             # "*" - every category stem, already fully processed as
-            # part of everything_result.master. No need to re-merge.
+            # part of everything_result.master, and *never*
+            # variant-limited: "all" is meant to show literally
+            # everything, unfiltered.
             _publish_bundle(settings, parser, bundle_name, everything_result.master)
             published_urls.update(channel.url.raw for channel in everything_result.master)
             typer.echo(
                 f"  bundle {bundle_name!r}: {len(everything_result.master)} channel(s) "
-                f"(all {len(category_files)} categor(y/ies), via '*')"
+                f"(all {len(category_files)} categor(y/ies), via '*', no variant limit)"
             )
             continue
 
@@ -298,10 +335,9 @@ def _publish_bundles(
         # "group:<prefix>" entries pull matching channels straight
         # from everything_result.master - already fully processed
         # (backfilled, country-tagged, and - when called from `report`
-        # - stream-validated/variant-limited/EPG-matched too), so
-        # group-title matching is as accurate as it'll ever be,
-        # regardless of which category file a channel happened to
-        # come from.
+        # - stream-validated/EPG-matched too), so group-title matching
+        # is as accurate as it'll ever be, regardless of which
+        # category file a channel happened to come from.
         seen_urls = {channel.url.raw for channel in stem_channels}
         group_channels = [
             channel
@@ -316,16 +352,26 @@ def _publish_bundles(
             continue
 
         bundle_master = Playlist(name=bundle_name, channels=bundle_channels)
+
+        dropped_count = 0
+        if max_variants > 0 and priority_slots:
+            before_count = len(bundle_master)
+            bundle_master = LimitChannelVariantsUseCase().execute(
+                priority_slots, bundle_master, online_urls=online_urls, max_variants=max_variants
+            )
+            dropped_count = before_count - len(bundle_master)
+
         if priority_slots:
             bundle_master = ApplyChannelOrderUseCase().execute(priority_slots, bundle_master)
 
         _publish_bundle(settings, parser, bundle_name, bundle_master)
         published_urls.update(channel.url.raw for channel in bundle_master)
+        limit_note = f", dropped {dropped_count} extra variant(s)" if dropped_count else ""
         typer.echo(
             f"  bundle {bundle_name!r}: {len(bundle_master)} channel(s) "
             f"({len(stem_channels)} from {len(bundle_playlists)}/{len(spec.stems)} "
             f"categor(y/ies), {len(group_channels)} from "
-            f"{len(spec.group_prefixes)} group prefix(es))"
+            f"{len(spec.group_prefixes)} group prefix(es){limit_note})"
         )
 
     # A category file whose channels never made it into *any* published
@@ -682,25 +728,6 @@ def generate_report(
             f"Validated streams: {stream_summary.online_count}/{stream_summary.total} online"
         )
 
-        if max_variants > 0:
-            order_path = settings.project_root / "data" / "channel_order.txt"
-            priority_slots = parse_channel_order_file(order_path)
-            if priority_slots:
-                before_count = len(merge_result.master)
-                merge_result.master = LimitChannelVariantsUseCase().execute(
-                    priority_slots,
-                    merge_result.master,
-                    online_urls=online_urls_from_results(stream_summary.results),
-                    max_variants=max_variants,
-                )
-                dropped_count = before_count - len(merge_result.master)
-                if dropped_count:
-                    typer.echo(
-                        f"Limited channel variants: dropped {dropped_count} extra "
-                        f"copy/copies (kept up to {max_variants} per family, "
-                        "preferring online ones)"
-                    )
-
     logo_summary: LogoValidationSummary | None = None
     if not skip_logos:
         logo_validator = LogoImageValidator(
@@ -750,7 +777,11 @@ def generate_report(
     # matching have all finished mutating it - so every published file
     # (master.m3u, and any other data/playlists.txt bundle) reflects
     # the fully-processed data, not just the initial merge.
-    publish(merge_result)
+    publish(
+        merge_result,
+        max_variants,
+        online_urls_from_results(stream_summary.results) if stream_summary else None,
+    )
 
     report: ValidationReport = GenerateReportUseCase().execute(
         master_playlist_name="master",
