@@ -50,8 +50,11 @@ class SyncSourcesUseCase:
 
     async def execute(self, entries: list[SourceEntry]) -> tuple[SyncSourcesResult, dict[str, str]]:
         """Fetch every source. Returns the outcome summary alongside a
-        {category_name: serialized_m3u_text} map the caller writes to
-        disk - kept separate from disk I/O so this stays unit-testable.
+        {category_name: raw_m3u_text} map the caller writes to disk
+        verbatim (see ImportPlaylistUseCase.execute()'s docstring for
+        why this is the source's own untouched text, not a
+        re-serialized reconstruction) - kept separate from disk I/O so
+        this stays unit-testable.
         """
         result = SyncSourcesResult()
         serialized_by_name: dict[str, str] = {}
@@ -62,7 +65,7 @@ class SyncSourcesUseCase:
                 entry.url, timeout=self.timeout_seconds, user_agent=self.user_agent
             )
             try:
-                playlist = await import_use_case.execute(source, category=entry.name)
+                raw_text, playlist = await import_use_case.execute(source, category=entry.name)
             except PlaylistFetchError as exc:
                 result.results.append(
                     SourceSyncResult(name=entry.name, url=entry.url, success=False, error=str(exc))
@@ -79,7 +82,14 @@ class SyncSourcesUseCase:
                 )
                 continue
 
-            serialized_by_name[entry.name] = self.parser.serialize(playlist)
+            # Save the source's own raw text verbatim - not a
+            # re-serialized reconstruction - so data/categories/*.m3u
+            # stays byte-faithful to upstream (group-title text,
+            # header attributes like url-tvg, attribute formatting,
+            # everything). `playlist` here is parsed only to get an
+            # accurate channel count for the summary below; it's never
+            # written to disk.
+            serialized_by_name[entry.name] = raw_text
             result.results.append(
                 SourceSyncResult(
                     name=entry.name,
