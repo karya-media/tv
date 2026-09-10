@@ -90,7 +90,11 @@ def import_category(
     source: str = typer.Argument(..., help="Local file path or http(s) URL to an M3U playlist"),
 ) -> None:
     """Import a playlist from a local file or URL into
-    data/categories/<category>.m3u, normalizing it in the process."""
+    data/categories/<category>.m3u, saved byte-for-byte as fetched -
+    group-title text, header attributes (e.g. url-tvg), attribute
+    formatting, and anything else this project doesn't model are all
+    preserved exactly as the source has them. Categorization/ordering/
+    variant-limiting rules apply later, at merge time, not here."""
     settings = get_settings()
     settings.ensure_directories()
 
@@ -105,10 +109,10 @@ def import_category(
         else LocalFilePlaylistSource(source)
     )
 
-    playlist = asyncio.run(use_case.execute(playlist_source, category=category))
+    raw_text, playlist = asyncio.run(use_case.execute(playlist_source, category=category))
 
     output_path = settings.categories_path / f"{category}.m3u"
-    output_path.write_text(parser.serialize(playlist), encoding="utf-8")
+    output_path.write_text(raw_text, encoding="utf-8")
 
     typer.echo(f"Imported {len(playlist)} channel(s) into {output_path}")
     for warning in playlist.warnings:
