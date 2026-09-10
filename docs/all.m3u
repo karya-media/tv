@@ -4053,6 +4053,8 @@ https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=425
 https://live.corusdigitaldev.com/groupa/live/c0ebcb53-b9fa-4359-830b-714eb459c6d1/corus-history.isml/.mpd
 #EXTINF:-1 tvg-logo="https://images.ctfassets.net/xjuw11dfold3/7D9R6Lt76cBTPyRRpV9eit/64aba6ff966a6b286cbadd55aaf2d0ab/BBC-client-logo-256x256.png" group-title="Knowledge and Documentary" group-logo="https://pngimg.com/d/Documentary_PNG18.png",BBC Treasures
 https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/aczgdiuxsu/out/v1/31374ef324ce4bd2bd278b78f4a97d60/cenc.mpd?encoding=segmentBase
+#EXTINF:-1 tvg-id="HitsNow" tvg-logo="https://www.visionplus.id/images/repository/376/612376-LOGO-m.png" group-title="Entertainment & LifeStyle" tvg-url="https://raw.githubusercontent.com/apistech/project/refs/heads/main/epgs/guide.xml",HitsNow
+https://d2xz2v5wuvgur6.cloudfront.net/out/v1/73b9fdd0cd0e4570b482c92fa43ecda9/index.mpd
 #EXTINF:-1 tvg-id="ABCAustralia" tvg-logo="https://i.imgur.com/kHM0jUd.png" group-title="Entertainment & LifeStyle" tvg-url="https://raw.githubusercontent.com/apistech/project/refs/heads/main/epgs/guide.xml",ABC Australia
 https://d2gr3zenqo3tg4.cloudfront.net/out/v1/6c075b570f99473fa6715bb399bc9571/index.mpd
 #EXTINF:-1 tvg-id="TV5Monde" tvg-logo="https://w7.pngwing.com/pngs/573/795/png-transparent-france-tv5monde-television-channel-streaming-media-france-television-blue-text.png" group-title="Entertainment & LifeStyle" tvg-url="https://raw.githubusercontent.com/apistech/project/refs/heads/main/epgs/guide.xml",TV5 Monde (V+)
@@ -4160,10 +4162,10 @@ https://d1211whpimeups.cloudfront.net/smil:rtb1/chunklist_b4096000_slENG.m3u8?id
 https://d1211whpimeups.cloudfront.net/smil:rtb2/chunklist.m3u8
 #EXTINF:-1 tvg-id="GoLive" tvg-logo="https://i.imgur.com/CGlzsD5.png" group-title="Brunei" tvg-url="https://raw.githubusercontent.com/apistech/project/refs/heads/main/epgs/guide.xml",RTB Go Live FHD
 https://d1211whpimeups.cloudfront.net/smil:rtbgo/chunklist_b4096000_slENG.m3u8?id=1229
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/a/ad/FTV_One.png?utm_source=zh.wikipedia.org&utm_campaign=index&utm_content=original" group-title="China" tvg-url="https://raw.githubusercontent.com/apistech/project/refs/heads/main/epgs/guide.xml",FTV One (V+)
+https://d2xz2v5wuvgur6.cloudfront.net/out/v1/66f9fcf4947b425886af2289bb0c3244/index.mpd
 #EXTINF:-1 tvg-id="SET" tvg-logo="https://asset.kompas.com/crops/_Nigblh7up6joR0b9Awz4hifDeY=/0x0:750x500/1200x800/data/photo/2024/04/29/662fbebece841.png" group-title="China" tvg-url="https://raw.githubusercontent.com/apistech/project/refs/heads/main/epgs/guide.xml",SET (V+)
 https://visionplus.fazznet.my.id/out/v1/a82a32a7b69f40f58ae25d619548d215/index.mpd
-#EXTINF:-1 tvg-id="FTV.twSD" tvg-logo="https://www.visionplus.id/images/repository/317/604317-LOGO-m.png" group-title="China",Formosa
-https://d2xz2v5wuvgur6.cloudfront.net/out/v1/66f9fcf4947b425886af2289bb0c3244/index.mpd
 #EXTINF:-1 tvg-id="JiangsuTV" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/d/dc/Jiangsu_Broadcasting_Corporation.svg/800px-Jiangsu_Broadcasting_Corporation.svg.png" group-title="China" tvg-url="https://raw.githubusercontent.com/apistech/project/refs/heads/main/epgs/guide.xml",Jiangsu TV (V+)
 https://visionplus.fazznet.my.id/out/v1/ccc51c0317284496b6cde9f7bd670b80/index.mpd
 #EXTINF:-1 tvg-id="HunanTV" tvg-logo="https://e7.pngegg.com/pngimages/184/708/png-clipart-hunan-television-television-channel-mango-tv-stale-television-angle.png" group-title="China" tvg-url="https://raw.githubusercontent.com/apistech/project/refs/heads/main/epgs/guide.xml",Hunan TV
