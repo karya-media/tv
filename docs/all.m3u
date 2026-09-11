@@ -678,7 +678,7 @@ https://aes.m3u8simplu.workers.dev/musicchannel/index.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://visionplus.id
 https://d2xz2v5wuvgur6.cloudfront.net/out/v1/873c24d3946048f68e459250f1d2fd98/index.mpd
-#EXTINF:-1 tvg-id="VISIONPRIME.id" tvg-logo="https://www.visionplus.id/images/repository/641/641-LOGO-m.png" group-title="Indonesia;HIBURAN",Vision Prime
+#EXTINF:-1 tvg-id="VISIONPRIME.id" tvg-logo="https://www.visionplus.id/images/repository/641/641-LOGO-m.png" group-title="Indonesia;?? HIBURAN",Vision Prime
 https://d43tg978oium5.cloudfront.net/out/v1/873c24d3946048f68e459250f1d2fd98/index.mpd
 #EXTINF:-1 tvg-logo="https://picture.dens.tv/wp/img/tvchannels_v1/340x160/1745228970_tvchannels_v1.jpg" group-title="Dens TV",Live Streaming 1
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
@@ -1936,6 +1936,10 @@ https://dl.dropboxusercontent.com/scl/fi/kd627yj07hw9unh9tu0v7/lv_74809225245749
 https://dl.dropboxusercontent.com/scl/fi/tljv8ym5zumjctjcbn39n/lv_7652726348699553044_20260619182304.mp4?rlkey=sr1d7rcuc0s24z2epnoaccph7&st=hx8j269w&dl=1
 #EXTINF:-1 tvg-id="AFCMENSVOLLEYBALLCONTINENTALCHAMPIONSHIP" tvg-logo="https://upload.wikimedia.org/wikipedia/en/d/db/AVC_Men%27s_Volleyball_Continental_Japan_2026.png" group-title="AFC MEN'S VOLLEYBALL CONTINENTAL CHAMPIONSHIP",𝘼𝙁𝘾 𝙈𝙀𝙉'𝙎 𝙑𝙊𝙇𝙇𝙀𝙔𝘽𝘼𝙇𝙇 𝘾𝙊𝙉𝙏𝙄𝙉𝙀𝙉𝙏𝘼𝙇 𝘾𝙃𝘼𝙈𝙋𝙄𝙊𝙉𝙎𝙃𝙄𝙋
 https://live2.domainkqt.cc/live/channel33.m3u8
+#EXTINF:-1 tvg-logo="https://awsimages.detik.net.id/visual/2021/08/27/logo-bri-liga-1_169.png?w=650&q=90" group-title="BRI LIGA 1",DEWA UNITED VS BHAYANGKARA
+https://live2.domainkqt.cc/live/channel24.m3u8
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQr30wrD25ubbMdFZbm8XgzoORUuOfndyTbO3xaHJs2dA&s=10https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQr30wrD25ubbMdFZbm8XgzoORUuOfndyTbO3xaHJs2dA&s=10" group-title="LIGA 2 PEGADAIAN",PSIS VS PSPS
+https://tfz70gr3uomttgr31hct1gczdgp3pptwzc3jt.100ycdn.com/live1.quickscoreboardz.com/live/channel24/playlist.m3u8?wsSecret=1d56cdc7c9d59cb07c4cac39da66cc32&wsABSTime=1789169069&wsSession=edd7cea56ecd3047dab8ada3-178912587393101&wsIPSercert=b376d66c02486c56d9e529fa5270b1eb&wsBindIP=2&wsserid=1181535298039889480
 #EXTINF:-1 tvg-id="LI-NINGCHINAMASTER2026" tvg-logo="https://upload.wikimedia.org/wikipedia/en/7/7c/CHINA_MASTERS.png" group-title="LI-NING CHINA MASTER 2026",COURT 1
 https://live1.quickscoreboardz.com/live/channel61.m3u8?wsSecret=d659e630c0c4e553b33a5ebb9c3e60f4&wsABSTime=1788306276
 #EXTINF:-1 tvg-id="LI-NINGCHINAMASTER2026" tvg-logo="https://upload.wikimedia.org/wikipedia/en/7/7c/CHINA_MASTERS.png" group-title="LI-NING CHINA MASTER 2026",COURT 2
