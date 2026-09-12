@@ -41,7 +41,13 @@ _EXTINF_RE = re.compile(
 # all and its channel was silently dropped.
 _ATTR_RE = re.compile(r"""([\w-]+)=(?:"([^"]*)"|'([^']*)')""")
 _VLCOPT_RE = re.compile(r"^\#EXTVLCOPT:\s*([\w-]+)=(.*)$")
-_HEADER_URL_TVG_RE = re.compile(r"""\burl-tvg=(?:"([^"]*)"|'([^']*)')""")
+# Some tools emit "x-tvg-url" instead of the more common "url-tvg" for
+# the same purpose (an #EXTM3U header attribute naming a preferred EPG
+# source) - confirmed in the wild (data/categories/iptv-org.m3u).
+# Recognize either spelling equally.
+_HEADER_URL_TVG_RE = re.compile(
+    r"""\b(?:url-tvg|x-tvg-url)=(?:"([^"]*)"|'([^']*)')"""
+)
 
 # Attributes modeled explicitly on Channel; anything else in an
 # #EXTINF line is preserved in Channel.extra_attrs so no metadata is

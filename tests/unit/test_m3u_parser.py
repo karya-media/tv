@@ -54,6 +54,18 @@ class TestHeaderUrlTvg:
         playlist = parser.parse(raw, name="test")
         assert playlist.epg_url is None
 
+    def test_captures_x_tvg_url_variant_spelling(self, parser: M3UParser):
+        # Real-world case: data/categories/iptv-org.m3u uses this
+        # spelling instead of "url-tvg".
+        raw = '#EXTM3U x-tvg-url="https://worker-9dd4.onrender.com/guide.xml.gz"\n'
+        playlist = parser.parse(raw, name="test")
+        assert playlist.epg_url == "https://worker-9dd4.onrender.com/guide.xml.gz"
+
+    def test_captures_x_tvg_url_alongside_other_header_attributes(self, parser: M3UParser):
+        raw = '#EXTM3U x-tvg-url="https://example.com/epg.xml" refresh="3600"\n'
+        playlist = parser.parse(raw, name="test")
+        assert playlist.epg_url == "https://example.com/epg.xml"
+
 
 class TestParseRepair:
     def test_strips_bom(self, parser: M3UParser):
