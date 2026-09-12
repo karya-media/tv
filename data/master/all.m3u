@@ -678,7 +678,7 @@ https://aes.m3u8simplu.workers.dev/musicchannel/index.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://visionplus.id
 https://d2xz2v5wuvgur6.cloudfront.net/out/v1/873c24d3946048f68e459250f1d2fd98/index.mpd
-#EXTINF:-1 tvg-id="VISIONPRIME.id" tvg-logo="https://www.visionplus.id/images/repository/641/641-LOGO-m.png" group-title="Indonesia;?? HIBURAN",Vision Prime
+#EXTINF:-1 tvg-id="VISIONPRIME.id" tvg-logo="https://www.visionplus.id/images/repository/641/641-LOGO-m.png" group-title="Indonesia;HIBURAN",Vision Prime
 https://d43tg978oium5.cloudfront.net/out/v1/873c24d3946048f68e459250f1d2fd98/index.mpd
 #EXTINF:-1 tvg-logo="https://picture.dens.tv/wp/img/tvchannels_v1/340x160/1745228970_tvchannels_v1.jpg" group-title="Dens TV",Live Streaming 1
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
@@ -900,7 +900,7 @@ http://opplextv.cyou:8080/nasir6160/nasir/350997
 https://cdnbal1.indihometv.com/atm/DASH/sinpotv/sinpotv-avc1_2500000=7-3277707030000000.mpd
 #EXTINF:-1 tvg-logo="https://i.imgur.com/VMOcefA.jpeg" group-title="Indonesia;Lokal" http-referrer="" http-user-agent="",Sin Po TV
 http://tvratu.my.id/nissa/index.mpd?id=19046&type=dash
-#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQr30wrD25ubbMdFZbm8XgzoORUuOfndyTbO3xaHJs2dA&s=10https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQr30wrD25ubbMdFZbm8XgzoORUuOfndyTbO3xaHJs2dA&s=10" group-title="COMMING LIGA 2 PEGADAIAN",SIN PO TV
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQr30wrD25ubbMdFZbm8XgzoORUuOfndyTbO3xaHJs2dA&s=10https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQr30wrD25ubbMdFZbm8XgzoORUuOfndyTbO3xaHJs2dA&s=10" group-title="LIGA 2 PEGADAIAN",SIN PO TV
 https://aspaltvpasti.top/Drmvidbos/Akun121/bosstv.m3u8?id=19046
 #EXTINF:-1 tvg-logo="https://mimipipi22.github.io/logo/nasional/sinpotv.jpg" group-title="INDIHOME",SIN PO TV
 https://cdnbal1.indihometv.com/atm/DASH/sinpotv/master.mpd
@@ -1934,12 +1934,28 @@ https://stagatvfiles.com/uploads/2026/08/Coyote-vs-Acme-2026-STAGATV-COM.mkv
 https://dl.dropboxusercontent.com/scl/fi/kd627yj07hw9unh9tu0v7/lv_7480922524574960949_20260619074318.mp4?rlkey=rar2il86tumzrp8wvolj3jaqm&st=l9qt5vb0&dl=1
 #EXTINF:-1 tvg-logo="https://media4.giphy.com/media/v1.Y2lkPTZjMDliOTUyMTI3YWxxdDZpYzNiMHAyNXh1MWl1enBxeDl3bzB0bmRsem42OHYweCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/5xaOcLGwJiU6VzF7U3K/giphy.gif" group-title="PLAYLIST KOKOUYO",WA : 085168734121
 https://dl.dropboxusercontent.com/scl/fi/tljv8ym5zumjctjcbn39n/lv_7652726348699553044_20260619182304.mp4?rlkey=sr1d7rcuc0s24z2epnoaccph7&st=hx8j269w&dl=1
+#EXTINF:-1 tvg-logo="https://awsimages.detik.net.id/visual/2021/08/27/logo-bri-liga-1_169.png?w=650&q=90" group-title="LIVE HARI INI",PERSIJA VS PERSIB
+https://live05.meung.app/live/87547578.m3u8
+#EXTINF:-1 tvg-logo="https://awsimages.detik.net.id/visual/2021/08/27/logo-bri-liga-1_169.png?w=650&q=90" group-title="LIVE HARI INI",PSS VS MADURA
+https://live05.meung.app/live/16226575.m3u8
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQr30wrD25ubbMdFZbm8XgzoORUuOfndyTbO3xaHJs2dA&s=10" group-title="LIVE HARI INI",THE RED FC VS KENDAL TORNADO
+https://tfz80gr3uomttgr31hct1gczdgp3pptwzc3jt.100ycdn.com/live1.quickscoreboardz.com/live/channel24/playlist.m3u8?wsSecret=744aa68e4cb607619c3d97cbd0d72856&wsABSTime=1789241497&wsSession=edd7cea56ecd3047dab8ada3-178919830419080&wsIPSercert=9a9c39e8ee50757792b39a1f58b0d8e2&wsBindIP=2&wsserid=1181535298039889480
+#EXTINF:-1 tvg-logo="https://awsimages.detik.net.id/visual/2021/08/27/logo-bri-liga-1_169.png?w=650&q=90" group-title="LIVE HARI INI",PERSIJAB FC VS BORNEO FC
+https://tfz80gr3uomttgr31hct1gczdgp3pptwzc3jt.100ycdn.com/live1.quickscoreboardz.com/live/channel37/playlist.m3u8?wsSecret=5107672ea3882903ff1f8273b9cc9129&wsABSTime=1789245303&wsSession=30d003b0b7c74888536da74a-178920211508208&wsIPSercert=a67f9bb71a56805b762fe06b97f4a010&wsBindIP=2&wsserid=19560480166232750
+#EXTINF:-1 tvg-logo="https://awsimages.detik.net.id/visual/2021/08/27/logo-bri-liga-1_169.png?w=650&q=90" group-title="LIVE HARI INI",BALI UNITED VS ISENMULANG
+https://tfz80gr3uomttgr31hct1gczdkc3pptwzc3jt.100ycdn.com/live1.quickscoreboardz.com/live/channel60/playlist.m3u8?wsSecret=580f0cc965137cd8d34705e106e932bf&wsABSTime=1789245504&wsSession=49dacc257f2a74adbc9fe740-178920230861488&wsIPSercert=a67f9bb71a56805b762fe06b97f4a010&wsBindIP=2&wsserid=1177046549500337104
 #EXTINF:-1 tvg-id="AFCMENSVOLLEYBALLCONTINENTALCHAMPIONSHIP" tvg-logo="https://upload.wikimedia.org/wikipedia/en/d/db/AVC_Men%27s_Volleyball_Continental_Japan_2026.png" group-title="AFC MEN'S VOLLEYBALL CONTINENTAL CHAMPIONSHIP",𝘼𝙁𝘾 𝙈𝙀𝙉'𝙎 𝙑𝙊𝙇𝙇𝙀𝙔𝘽𝘼𝙇𝙇 𝘾𝙊𝙉𝙏𝙄𝙉𝙀𝙉𝙏𝘼𝙇 𝘾𝙃𝘼𝙈𝙋𝙄𝙊𝙉𝙎𝙃𝙄𝙋
 https://live2.domainkqt.cc/live/channel33.m3u8
-#EXTINF:-1 tvg-logo="https://awsimages.detik.net.id/visual/2021/08/27/logo-bri-liga-1_169.png?w=650&q=90" group-title="BRI LIGA 1",DEWA UNITED VS BHAYANGKARA
-https://live2.domainkqt.cc/live/channel24.m3u8
-#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQr30wrD25ubbMdFZbm8XgzoORUuOfndyTbO3xaHJs2dA&s=10https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQr30wrD25ubbMdFZbm8XgzoORUuOfndyTbO3xaHJs2dA&s=10" group-title="LIGA 2 PEGADAIAN",PSIS VS PSPS
-https://tfz70gr3uomttgr31hct1gczdgp3pptwzc3jt.100ycdn.com/live1.quickscoreboardz.com/live/channel24/playlist.m3u8?wsSecret=1d56cdc7c9d59cb07c4cac39da66cc32&wsABSTime=1789169069&wsSession=edd7cea56ecd3047dab8ada3-178912587393101&wsIPSercert=b376d66c02486c56d9e529fa5270b1eb&wsBindIP=2&wsserid=1181535298039889480
+#EXTINF:-1 tvg-id="itzplay.id" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/e/e6/2026_FIFA_ASEAN_Cup.webp?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=original" group-title="Indonesia;ASEAN CUP 2026",Champions TV 1
+https://v1dx.inisemar.my.id/cobaduarr.mpd?id=6685&type=dash
+#EXTINF:-1 tvg-id="itzplay.id" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/e/e6/2026_FIFA_ASEAN_Cup.webp?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=original" group-title="Indonesia;ASEAN CUP 2026",Champions TV 2
+https://v1dx.inisemar.my.id/cobaduarr.mpd?id=6686&type=dash
+#EXTINF:-1 tvg-id="itzplay.id" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/e/e6/2026_FIFA_ASEAN_Cup.webp?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=original" group-title="Indonesia;ASEAN CUP 2026",Champions TV 3
+https://v1dx.inisemar.my.id/cobaduarr.mpd?id=6786&type=dash
+#EXTINF:-1 tvg-id="itzplay.id" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/e/e6/2026_FIFA_ASEAN_Cup.webp?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=original" group-title="Indonesia;ASEAN CUP 2026",Champions TV 5
+https://v1dx.inisemar.my.id/cobaduarr.mpd?id=9182&type=dash
+#EXTINF:-1 tvg-id="itzplay.id" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/e/e6/2026_FIFA_ASEAN_Cup.webp?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=original" group-title="Indonesia;ASEAN CUP 2026",Champions TV 6
+https://v1dx.inisemar.my.id/cobaduarr.mpd?id=9183&type=dash
 #EXTINF:-1 tvg-id="LI-NINGCHINAMASTER2026" tvg-logo="https://upload.wikimedia.org/wikipedia/en/7/7c/CHINA_MASTERS.png" group-title="LI-NING CHINA MASTER 2026",COURT 1
 https://live1.quickscoreboardz.com/live/channel61.m3u8?wsSecret=d659e630c0c4e553b33a5ebb9c3e60f4&wsABSTime=1788306276
 #EXTINF:-1 tvg-id="LI-NINGCHINAMASTER2026" tvg-logo="https://upload.wikimedia.org/wikipedia/en/7/7c/CHINA_MASTERS.png" group-title="LI-NING CHINA MASTER 2026",COURT 2
@@ -2018,16 +2034,12 @@ https://live05.miekgo.app/live/07808742.m3u8
 https://live05.meung.app/live/75915087.m3u8
 #EXTINF:-1 tvg-logo="https://colatv65.live/assets/images/logo.png" group-title="FEED COLATV99",BLV PEPSI
 https://live05.miekgo.app/live/59444581.m3u8
-#EXTINF:-1 tvg-logo="https://colatv65.live/assets/images/logo.png" group-title="FEED COLATV99",BLV FANTA
-https://live05.meung.app/live/16226575.m3u8
 #EXTINF:-1 tvg-logo="https://colatv65.live/assets/images/logo.png" group-title="FEED COLATV99",BLV SPRITE
 https://live05.meung.app/live/75748097.m3u8
 #EXTINF:-1 tvg-logo="https://colatv65.live/assets/images/logo.png" group-title="FEED COLATV99",BLV 7UP
 https://live05.meung.app/live/78905744.m3u8
 #EXTINF:-1 tvg-logo="https://colatv65.live/assets/images/logo.png" group-title="FEED COLATV99",BLV BI DAO
 https://live05.meung.app/live/99121525.m3u8
-#EXTINF:-1 tvg-logo="https://colatv65.live/assets/images/logo.png" group-title="FEED COLATV99",BLV MOUNTAIN DEW
-https://live05.meung.app/live/87547578.m3u8
 #EXTINF:-1 tvg-logo="https://colatv65.live/assets/images/logo.png" group-title="FEED COLATV99",BLV KHONG DO
 https://live05.meung.app/live/41943555.m3u8
 #EXTINF:-1 tvg-logo="https://colatv65.live/assets/images/logo.png" group-title="FEED COLATV99",BLV  STING
@@ -2469,15 +2481,15 @@ https://cdn08jtedge.indihometv.com/dassdvr/130/nba/manifest_wuseetv.mpd
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master.m3u8
 #EXTINF:-1 tvg-logo="https://www.visionplus.id/images/repository/652/652-LOGO-m.png" group-title="️ OLAHRAGA INDO",Sportstars
-#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://www.visionplus.id/
 https://d2tjypxxy769fn.cloudfront.net/out/v1/89a6e4261cd7470f83e5869e90440cff/index.mpd
 #EXTINF:-1 tvg-id="MNCSports2.id" tvg-logo="https://www.visionplus.id/images/repository/653/653-LOGO-m.png" group-title="Indonesia;️ OLAHRAGA INDO",Sportstars 2
-#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://www.visionplus.id/
 https://d3b0v7fggu5zwm.cloudfront.net/out/v1/d2c68a3dfb644808b416bd90dcc92d5f/index.mpd
 #EXTINF:-1 tvg-logo="https://www.visionplus.id/images/repository/652/652-LOGO-m.png" group-title="️ OLAHRAGA INDO",Sportstars 4
-#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://www.visionplus.id/
 https://d2xz2v5wuvgur6.cloudfront.net/out/v1/2fcc58ccec8c45e9aa094fb980eb642d/index.mpd
 #EXTINF:-1 tvg-logo="https://www.thesportsdb.com/images/media/channel/logo/1rrcbx1784996764.png" group-title="️ OLAHRAGA LUAR",DAZN 2
