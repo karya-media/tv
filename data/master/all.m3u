@@ -106,7 +106,7 @@ https://cdnbal1.indihometv.com/atm/DASH/indosiar/indosiar-avc1_2500000=7-3277707
 #EXTINF:-1 tvg-name="Moji TV" tvg-logo="http://goldenid.online:80/images/uuhCT73pRsf8MG14YjRAJiS7qQ9qrlYY3BOIGsO6vAFgh7lv9oRZDd8xNaLIcamHrcToQ7zlTLoefWtWn3KN6okO5JlVGuoS6nLOMsl5DR7SxFin0S73UcFmQHmVj9D_JGM7TXbPd7mv-DXzKxeiEw.jpeg" group-title="LOKAL INDONESIA™" xui-id="25764",Moji TV
 http://goldenid.online:80/play/38ifGdTRCzSHegy1-Yigj6aKDVPVbu4CclYxOcEC14MKhWHFWa6h0rT0_K9qnS9Q
 #EXTINF:-1 tvg-id="AFCMENSVOLLEYBALLCONTINENTALCHAMPIONSHIP" tvg-logo="https://upload.wikimedia.org/wikipedia/en/d/db/AVC_Men%27s_Volleyball_Continental_Japan_2026.png" group-title="AFC MEN'S VOLLEYBALL CONTINENTAL CHAMPIONSHIP",MOJI HD SPORTS
-https://bit.ly/4zYtT90
+https://pastebin.com/raw/ysrDkVT4
 #EXTINF:-1 tvg-id="Digital.id" tvg-name="Moji Digital(server 3)" tvg-logo="https://i.imgur.com/f8m10M1.jpeg" group-title="Indonesia;OLAHRAGA LOKAL",MOJI HD CH2
 https://sw.run/CAMPWIKI-MOJIFHD
 #EXTINF:-1 tvg-name="MOJI.id" tvg-logo="https://images.indihometv.com/logo_ochannel_ver1.png" group-title="Nasional",Moji
@@ -4876,16 +4876,8 @@ http://goldenid.online:80/play/0-ZD1F69yESpsloMEWSBaA5A5dFIJxVtTVCDTGX-b4S7d_CBQ
 https://dl.dropboxusercontent.com/scl/fi/kd627yj07hw9unh9tu0v7/lv_7480922524574960949_20260619074318.mp4?rlkey=rar2il86tumzrp8wvolj3jaqm&st=l9qt5vb0&dl=1
 #EXTINF:-1 tvg-logo="https://media4.giphy.com/media/v1.Y2lkPTZjMDliOTUyMTI3YWxxdDZpYzNiMHAyNXh1MWl1enBxeDl3bzB0bmRsem42OHYweCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/5xaOcLGwJiU6VzF7U3K/giphy.gif" group-title="PLAYLIST KOKOUYO",WA : 085168734121
 https://dl.dropboxusercontent.com/scl/fi/tljv8ym5zumjctjcbn39n/lv_7652726348699553044_20260619182304.mp4?rlkey=sr1d7rcuc0s24z2epnoaccph7&st=hx8j269w&dl=1
-#EXTINF:-1 tvg-logo="https://awsimages.detik.net.id/visual/2021/08/27/logo-bri-liga-1_169.png?w=650&q=90" group-title="LIVE HARI INI",PERSIJA VS PERSIB
-https://live05.meung.app/live/87547578.m3u8
-#EXTINF:-1 tvg-logo="https://awsimages.detik.net.id/visual/2021/08/27/logo-bri-liga-1_169.png?w=650&q=90" group-title="LIVE HARI INI",PSS VS MADURA
-https://live05.meung.app/live/16226575.m3u8
-#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQr30wrD25ubbMdFZbm8XgzoORUuOfndyTbO3xaHJs2dA&s=10" group-title="LIVE HARI INI",THE RED FC VS KENDAL TORNADO
-https://tfz80gr3uomttgr31hct1gczdgp3pptwzc3jt.100ycdn.com/live1.quickscoreboardz.com/live/channel24/playlist.m3u8?wsSecret=744aa68e4cb607619c3d97cbd0d72856&wsABSTime=1789241497&wsSession=edd7cea56ecd3047dab8ada3-178919830419080&wsIPSercert=9a9c39e8ee50757792b39a1f58b0d8e2&wsBindIP=2&wsserid=1181535298039889480
-#EXTINF:-1 tvg-logo="https://awsimages.detik.net.id/visual/2021/08/27/logo-bri-liga-1_169.png?w=650&q=90" group-title="LIVE HARI INI",PERSIJAB FC VS BORNEO FC
-https://tfz80gr3uomttgr31hct1gczdgp3pptwzc3jt.100ycdn.com/live1.quickscoreboardz.com/live/channel37/playlist.m3u8?wsSecret=5107672ea3882903ff1f8273b9cc9129&wsABSTime=1789245303&wsSession=30d003b0b7c74888536da74a-178920211508208&wsIPSercert=a67f9bb71a56805b762fe06b97f4a010&wsBindIP=2&wsserid=19560480166232750
-#EXTINF:-1 tvg-logo="https://awsimages.detik.net.id/visual/2021/08/27/logo-bri-liga-1_169.png?w=650&q=90" group-title="LIVE HARI INI",BALI UNITED VS ISENMULANG
-https://tfz80gr3uomttgr31hct1gczdkc3pptwzc3jt.100ycdn.com/live1.quickscoreboardz.com/live/channel60/playlist.m3u8?wsSecret=580f0cc965137cd8d34705e106e932bf&wsABSTime=1789245504&wsSession=49dacc257f2a74adbc9fe740-178920230861488&wsIPSercert=a67f9bb71a56805b762fe06b97f4a010&wsBindIP=2&wsserid=1177046549500337104
+#EXTINF:-1 tvg-logo="https://media.tenor.com/wU-hCae1a8sAAAAM/live.gif" group-title="LIVE HARI INI",AL KHALEJ VS AL NASSR
+https://live05.meung.app/live/14830711.m3u8
 #EXTINF:-1 tvg-id="AFCMENSVOLLEYBALLCONTINENTALCHAMPIONSHIP" tvg-logo="https://upload.wikimedia.org/wikipedia/en/d/db/AVC_Men%27s_Volleyball_Continental_Japan_2026.png" group-title="AFC MEN'S VOLLEYBALL CONTINENTAL CHAMPIONSHIP",𝘼𝙁𝘾 𝙈𝙀𝙉'𝙎 𝙑𝙊𝙇𝙇𝙀𝙔𝘽𝘼𝙇𝙇 𝘾𝙊𝙉𝙏𝙄𝙉𝙀𝙉𝙏𝘼𝙇 𝘾𝙃𝘼𝙈𝙋𝙄𝙊𝙉𝙎𝙃𝙄𝙋
 https://live2.domainkqt.cc/live/channel33.m3u8
 #EXTINF:-1 tvg-id="itzplay.id" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/e/e6/2026_FIFA_ASEAN_Cup.webp?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=original" group-title="Indonesia;ASEAN CUP 2026",Champions TV 1
@@ -4976,20 +4968,22 @@ https://live05.miekgo.app/live/07808742.m3u8
 https://live05.meung.app/live/75915087.m3u8
 #EXTINF:-1 tvg-logo="https://colatv65.live/assets/images/logo.png" group-title="FEED COLATV99",BLV PEPSI
 https://live05.miekgo.app/live/59444581.m3u8
+#EXTINF:-1 tvg-logo="https://colatv65.live/assets/images/logo.png" group-title="FEED COLATV99",BLV FANTA
+https://live05.meung.app/live/16226575.m3u8
 #EXTINF:-1 tvg-logo="https://colatv65.live/assets/images/logo.png" group-title="FEED COLATV99",BLV SPRITE
 https://live05.meung.app/live/75748097.m3u8
 #EXTINF:-1 tvg-logo="https://colatv65.live/assets/images/logo.png" group-title="FEED COLATV99",BLV 7UP
 https://live05.meung.app/live/78905744.m3u8
 #EXTINF:-1 tvg-logo="https://colatv65.live/assets/images/logo.png" group-title="FEED COLATV99",BLV BI DAO
 https://live05.meung.app/live/99121525.m3u8
+#EXTINF:-1 tvg-logo="https://colatv65.live/assets/images/logo.png" group-title="FEED COLATV99",BLV MOUNTAIN DEW
+https://live05.meung.app/live/87547578.m3u8
 #EXTINF:-1 tvg-logo="https://colatv65.live/assets/images/logo.png" group-title="FEED COLATV99",BLV KHONG DO
 https://live05.meung.app/live/41943555.m3u8
 #EXTINF:-1 tvg-logo="https://colatv65.live/assets/images/logo.png" group-title="FEED COLATV99",BLV  STING
 https://live05.meung.app/live/14707124.m3u8
 #EXTINF:-1 tvg-logo="https://colatv65.live/assets/images/logo.png" group-title="FEED COLATV99",BLV  C2
 https://live05.meung.app/live/08552895.m3u8
-#EXTINF:-1 tvg-logo="https://colatv65.live/assets/images/logo.png" group-title="FEED COLATV99",BLV  GIA LANG
-https://live05.meung.app/live/14830711.m3u8
 #EXTINF:-1 tvg-logo="https://colatv65.live/assets/images/logo.png" group-title="FEED COLATV99",BLV REDBULL
 https://live05.meung.app/live/49572724.m3u8
 #EXTINF:-1 tvg-logo="https://colatv65.live/assets/images/logo.png" group-title="FEED COLATV99",BLV  REVIVE

@@ -70,8 +70,8 @@ https://hgmtv.com:19360/garudatvlivestreaming/1080p.m3u8
 #EXTINF:-1 tvg-id="MDTV.id" tvg-logo="https://raw.githubusercontent.com/apistech/project/refs/heads/main/logo/imageCir_MDTV-180x180-CL_2025_10_08_13_01_28.jpg" group-title="Indonesia;LOKAL",MDTV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36 Edg/150.0.0.0
 https://op-flashcon-digdayahd-1.dens.tv/h/h223/index.m3u8
-#EXTINF:-1 tvg-id="MDTV.id" tvg-logo="https://i.imgur.com/N19eGsM.jpeg" group-title="Indonesia" http-referrer="" http-user-agent="",MDTV
-https://op-flashcon-digdayahd-1.dens.tv/h/h223/02.m3u8
+#EXTINF:-1 tvg-id="MDTV.id" tvg-logo="https://i.imgur.com/oaBCedP.jpeg" group-title="Indonesia" http-referrer="" http-user-agent="",MDTV
+http://202.150.161.212:5000/live/channel31/playlist.m3u8
 #EXTINF:-1 tvg-id="RajawaliTV.id" tvg-name="RTV FHD" tvg-logo="http://goldenid.online:80/images/wtFA9pMcOn8VXZ_8fSjA4qfEGmMxxkWMhXnfInRK1v9NDBIiYpJv4XBjX31vy8FdeAREcyYmpTOcyXvd4Mye_qoFt_Lb45DFUSZMJJQ5xHM.jpg" group-title="Indonesia;LOKAL INDONESIA™" xui-id="25732",RTV FHD
 http://goldenid.online:80/play/38ifGdTRCzSHegy1-Yigj0WiE4bR3YeAGTu2xhRkbkG5V1kxcBjx-JgHeXF6hbJ_
 #EXTINF:-1 tvg-id="RTV.id" tvg-logo="https://i.imgur.com/RygqpXd.jpeg" group-title="Indonesia;Entertainment" http-referrer="" http-user-agent="",RTV
@@ -86,12 +86,10 @@ https://cdnbal1.indihometv.com/atm/DASH/beritasatu/beritasatu-avc1_2500000=7-327
 #EXTVLCOPT:http-referrer=https://www.dens.tv/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 Windows NT 10.0; Win64; x64 AppleWebKit/537.36 KHTML, like Gecko Chrome/144.0.0.0 Safari/537.36
 https://op-group1-swiftservehd-1.dens.tv/h/h129/S4/mnf.m3u8
-#EXTINF:-1 tvg-id="Nusantara.TV.id" tvg-logo="https://raw.githubusercontent.com/apistech/project/refs/heads/main/logo/image_ch_nusantaratv.png" group-title="Indonesia;LOKAL",Nusantara TV
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36 Edg/150.0.0.0
-https://op-flashcon-digdayahd-1.dens.tv/h/h207/index.m3u8
-#EXTINF:-1 tvg-id="Nusantara.TV.id" tvg-logo="https://raw.githubusercontent.com/apistech/project/refs/heads/main/logo/image_ch_nusantaratv.png" group-title="Indonesia" http-referrer="" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36 Edg/150.0.0.0",Nusantara TV
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36 Edg/150.0.0.0
-https://op-flashcon-digdayahd-1.dens.tv/h/h37/index.m3u8
+#EXTINF:-1 tvg-id="Nusantara.TV.id" tvg-logo="https://i.imgur.com/EzirkhZ.jpeg" group-title="Indonesia" http-referrer="" http-user-agent="",Nusantara TV
+https://nusantaratv.siar.us/nusantaratv/live/playlist.m3u8
+#EXTINF:-1 tvg-id="Nusantara.TV.id" tvg-logo="https://mimipipi22.github.io/logo/nasional/nusantaratv.jpg" group-title="Indonesia;INDIHOME",NUSANTARA TV
+https://cdnbal1.indihometv.com/atm/DASH/nusantaratv/master.mpd
 #EXTINF:-1 tvg-id="BeritaSatu.idSD" tvg-logo="https://i.postimg.cc/6pycF7Vx/300px-IDTV.png" group-title="Indonesia;News" http-referrer="https://www.beritasatu.com/beritasatu-live-streaming",BeritaSatu (1080p)
 #EXTVLCOPT:http-referrer=https://www.beritasatu.com/beritasatu-live-streaming
 https://xtdslboppkkv-pull.bpmedialive.com/live/beritasatu/abr.m3u8
@@ -169,10 +167,10 @@ https://streamer1.streamhost.org/salive/GMIlcbgM/playlist.m3u8
 http://streamer1.streamhost.org:1935/salive/lctvde/playlist.m3u8
 #EXTINF:-1 tvg-id="TVRINasional.id" tvg-name="TVRI" tvg-logo="https://yt3.googleusercontent.com/ytc/AIdro_mhUyV8iNg5d_3sAtlPxTioVDSu2YBHr0CnFZdgqd6sJUk=s900-c-k-c0x00ffffff-no-rj" group-title="Indonesia;LOKAL INDONESIA™" xui-id="25707",TVRI
 http://goldenid.online:80/play/38ifGdTRCzSHegy1-Yigj5aJyUXPOftUBTbZENY-P_yeph_Asw95_wHcAMUP7UDB
-#EXTINF:-1 tvg-id="TVRINasional.id" tvg-logo="https://picture.dens.tv/wp/img/tvchannels_v1/340x160/1687501756_tvchannels_v1.jpg" group-title="Indonesia;Dens TV",TVRI
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.dens.tv/
-https://op-flashcon-digdayahd-1.dens.tv/h/h17/index.m3u8?app_type=web&userid=lite&chname=TVRI
+#EXTINF:-1 tvg-id="TVRINasional.id" tvg-name="TVRI.id" tvg-logo="https://images.indihometv.com/logo_tvri_big.png" group-title="Indonesia;Nasional",TVRI
+#EXTVLCOPT:http-referrer=https://www.dens.tv/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36
+https://op-flashcon-digdayahd-1.dens.tv/s/s11/01.m3u8
 #EXTINF:-1 tvg-id="TVRINasional.id" tvg-logo="https://asset.tribunnews.com/kak2CBXgH830Prxovqj6eP3i1SE=/1200x675/filters:upscale():quality(30):format(webp):focal(0.5x0.5:0.5x0.5)/tribunnews/foto/bank/originals/logo-tvri-2023-9.jpg" group-title="Indonesia;BERITA",TVRI Nasional
 https://ott-balancer.tvri.go.id/live/eds/Nasional/hls/Nasional.m3u8
 #EXTINF:-1 tvg-id="TVRIWorld.id" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmMttM8TJZr2gQTIN0IFj1Lh2Et_lXiXbWTN_YAEByqg&s=10" group-title="Indonesia;BERITA",TVRI World
@@ -376,10 +374,10 @@ https://dlhd.iclik.workers.dev/?channel=TSN1&play=1
 #EXTINF:-1 tvg-id="SkySportsGPIT" tvg-logo="https://beetv.my.id/logo/sportstars.png" group-title="Olahraga",Live Event #3
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 https://dlhd.iclik.workers.dev/?channel=TSN4&play=1
-#EXTINF:-1 tvg-logo="https://i.imgur.com/OEqbYYe.jpeg" group-title="Indonesia;Olahraga" http-referrer="" http-user-agent="",Pegadaian Championship
-https://tvratu.my.id/vid/index.mpd?id=19541&type=dash
-#EXTINF:-1 tvg-logo="https://i.imgur.com/OEqbYYe.jpeg" group-title="Indonesia;Olahraga" http-referrer="" http-user-agent="",Pegadaian Championshipe
-https://tvratu.my.id/vid/index.mpd?id=19584&type=dash
+#EXTINF:-1 tvg-logo="https://i.imgur.com/OEqbYYe.jpeg" group-title="Indonesia;Olahraga" http-referrer="" http-user-agent="",Pegadaian Championship (Alt 2)
+https://tvratu.my.id/vid/index.mpd?id=20833&type=dash
+#EXTINF:-1 tvg-logo="https://i.imgur.com/OEqbYYe.jpeg" group-title="Indonesia;Olahraga" http-referrer="" http-user-agent="",Pegadaian Championship (Alt 5)
+https://tvratu.my.id/vid/index.mpd?id=19543&type=dash
 #EXTINF:-1 tvg-logo="https://i.imgur.com/Q1QoQmA.jpeg" group-title="Indonesia;Olahraga" http-referrer="" http-user-agent="",Volleyball
 https://tvratu.my.id/vid/index.mpd?id=21178
 #EXTINF:-1 tvg-logo="https://i.imgur.com/xqPgGT4.jpeg" group-title="Indonesia;Olahraga" http-referrer="" http-user-agent="",Volleyball (Alt 2)
@@ -453,10 +451,10 @@ http://livestream.biznetvideo.net/biznet_kids/smil:kids.smil/index.m3u8
 https://op-flashcon-digdayahd-1.dens.tv/h/h222/index.m3u8
 #EXTINF:-1 tvg-id="BiznetLifestyle.id" tvg-logo="https://i.imgur.com/XqUfQKA.png" group-title="Indonesia;LIFESTYLE" http-referrer="" http-user-agent="",Biznet Lifestyle
 http://livestream.biznetvideo.net/biznet_lifestyle/smil:lifestyle.smil/index.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/hk4Z8wi.jpeg" group-title="Indonesia;Olahraga" http-referrer="" http-user-agent="",Bri Super League
-https://tvratu.my.id/vid/index.mpd?id=205&type=dash
 #EXTINF:-1 tvg-logo="https://i.imgur.com/hk4Z8wi.jpeg" group-title="Indonesia;Olahraga" http-referrer="" http-user-agent="",Bri Super League (Alt 2)
 https://tvratu.my.id/vid/index.mpd?id=19353&type=dash
+#EXTINF:-1 tvg-logo="https://i.imgur.com/hk4Z8wi.jpeg" group-title="Indonesia;Olahraga" http-referrer="" http-user-agent="",Bri Super League (Alt 4)
+https://tvratu.my.id/vid/index.mpd?id=19354&type=dash
 #EXTINF:-1 tvg-id="ChannelJowo.id" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoqH3ju4SqhG-ydex6u2LmqPRpxsrBHvw6OQ&s" group-title="Indonesia;Lokal" http-referrer="https://www.dens.tv" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36",JOWO
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://www.dens.tv
