@@ -8413,6 +8413,10 @@ https://ssh101stream.ssh101.com/akamaissh101/ssh101/actvstream/playlist.m3u8
 https://jmp2.uk/plu-64dab1f835425100080e1e7b.m3u8
 #EXTINF:-1 tvg-id="AcapulcoShore.usLatAm" tvg-logo="https://images.pluto.tv/channels/61a52615cbef2500072876e2/colorLogoPNG_1756972226445.png" group-title="United States;Series",Acapulco Shore Pluto TV
 https://jmp2.uk/plu-61a52615cbef2500072876e2.m3u8
+#EXTINF:-1 tvg-id="AcasaGold.roSD" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/f/fb/Acasa_Gold_2022.svg/revision/latest/scale-to-width-down/512" group-title="Romania;Entertainment",Acasa Gold
+http://eb4b8dcf.kablakaka.ru/iptv/AE8BY6FHF5ZGAG/6945/index.m3u8
+#EXTINF:-1 tvg-id="Acasa.roHD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Acasa_2022_flat.png/960px-Acasa_2022_flat.png" group-title="Romania;Entertainment",Acasa HD
+http://eb4b8dcf.kablakaka.ru/iptv/AE8BY6FHF5ZGAG/6988/index.m3u8
 #EXTINF:-1 tvg-id="ACCNetwork.usSD" tvg-logo="https://i.imgur.com/TpCkbkT.png" group-title="United States;Sports",ACC Network (720p)
 http://23.239.31.26:8989/accnetwork/index.m3u8
 #EXTINF:-1 tvg-id="ACCDigitalNetwork.usSD" tvg-logo="https://i.imgur.com/V6Kaqha.png" group-title="United States;Sports",ACCDN (1080p)
@@ -10991,6 +10995,8 @@ https://mdstrm.com/live-stream-playlist/5a7b1e63a8da282c34d65445.m3u8
 https://video.hostingcaaguazu.com:19360/canal8cvs/canal8cvs.m3u8
 #EXTINF:-1 tvg-id="Canal8Catacaos.peSD" tvg-logo="https://i.imgur.com/O5MrFjY.png" group-title="Peru;Uncategorized",Canal 8 Catacaos (720p) [Not 24/7]
 https://live.obslivestream.com/canal8/index.m3u8
+#EXTINF:-1 tvg-id="Canal8MardelPlata.arSD" tvg-logo="https://i.imgur.com/G7TaQ1L.png" group-title="Argentina;Uncategorized",Canal 8 Mar del Plata (720p) [Not 24/7]
+https://canal8mdq.unpocodeawita.workers.dev/
 #EXTINF:-1 tvg-id="Canal8SanJuan.arSD" tvg-logo="https://files.catbox.moe/f7jbdo.png" group-title="Argentina;Uncategorized",Canal 8 San Juan (720p) [Not 24/7]
 https://live20.bozztv.com/akamaissh101/ssh101/canal8sanjuan/playlist.m3u8
 #EXTINF:-1 tvg-id="Canal8TVPlus.coSD" tvg-logo="https://i.imgur.com/peOIG1F.png" group-title="Colombia;Uncategorized",Canal 8 TV+ (720p)
@@ -14706,8 +14712,6 @@ http://190.61.90.17:40000/play/a03v/index.m3u8
 http://15.204.246.24:8080/FXHD/index.m3u8
 #EXTINF:-1 tvg-id="FXLatinAmerica.usSouth" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/FX_International_logo.svg/960px-FX_International_logo.svg.png" group-title="United States;Entertainment",FX Latin America South (720p)
 http://72.1.184.5:8089/play/a05i/index.m3u8
-#EXTINF:-1 tvg-id="FXMovieChannel.usHD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/FXM_Logo.svg/960px-FXM_Logo.svg.png" group-title="United States;Movies",FX Movie Channel HD (1080p)
-https://sra72yz.s.gy/FX_MOVIE_CHANNEL_US.m3u8
 #EXTINF:-1 tvg-id="FX1.irSD" group-title="Iran;Entertainment",FX TV 1
 https://fxtvhls.wns.live/hls/stream.m3u8
 #EXTINF:-1 tvg-id="FX2.irSD" group-title="Iran;Entertainment",FX TV 2
@@ -17426,7 +17430,7 @@ https://jmp2.uk/plu-5f1acbed25948a0007ffbe65.m3u8
 https://jmp2.uk/plu-5f1aca8310a30e00074fab92.m3u8
 #EXTINF:-1 tvg-id="PlutoTVLosnuevosdetectives.usSD" tvg-logo="https://i.imgur.com/Iru8tqj.png" group-title="United States;Uncategorized",Los nuevos detectives
 https://jmp2.uk/plu-5f1acba0d1f6340007db8843.m3u8
-#EXTINF:-1 tvg-id="LosSantosTV.crSD" tvg-logo="https://i.imgur.com/5xw86wu.png" group-title="Costa Rica;Uncategorized" http-referrer="https://lossantostv.com",Los Santos TV (1080i)
+#EXTINF:-1 tvg-id="LosSantosTV.crSD" tvg-logo="https://lossantostv.com/logolstv.png" group-title="Costa Rica;Uncategorized" http-referrer="https://lossantostv.com",Los Santos TV (1080i)
 #EXTVLCOPT:http-referrer=https://lossantostv.com
 https://tiquiciatv.com/hls/lstv.m3u8
 #EXTINF:-1 tvg-id="LotPlusTV.peSD" tvg-logo="https://i.imgur.com/gBbCDCL.png" group-title="Peru;Uncategorized",LotPlus TV (720p)
@@ -19474,8 +19478,8 @@ http://88.212.15.19/live/nick_junior_hun/index.m3u8
 http://103.185.24.134:3001/NICK-JR/index.m3u8
 #EXTINF:-1 tvg-id="NickJr.ruSD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Nick_Jr._logo_2023_(outline).svg/960px-Nick_Jr._logo_2023_(outline).svg.png" group-title="Russia;Kids",Nick Jr. (576p)
 http://stream.mcquack.net/220/index.m3u8
-#EXTINF:-1 tvg-id="NickJr.usEast" tvg-logo="https://i.imgur.com/KT4tdQs.png" group-title="United States;Kids",Nick Jr. (1080p)
-https://sra72yz.s.gy/NICK_JR_US.m3u8
+#EXTINF:-1 tvg-id="NickJr.usEast" tvg-logo="https://i.imgur.com/KT4tdQs.png" group-title="United States;Kids",Nick Jr. (720p)
+http://212.5.144.156:8080/nickjr/index.m3u8
 #EXTINF:-1 tvg-id="NickJrAsia.sgSD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Nick_Jr._logo_2023_(outline).svg/960px-Nick_Jr._logo_2023_(outline).svg.png" group-title="Singapore;Kids",Nick Jr. Asia (720p)
 http://nmk.ioapk.com:5050/4gtv-live032/index.m3u8
 #EXTINF:-1 tvg-id="NickJrClub.deDACH" tvg-logo="https://images.pluto.tv/channels/67f3eb1c443f0671bc03ece8/colorLogoPNG_1748329104247.png" group-title="Germany;Kids",Nick Jr. Club (720p)
@@ -19514,8 +19518,8 @@ https://onyx1.mofta1.cfd/nike/usergenm24qrnd.m3u8
 http://stream.mcquack.net/443/index.m3u8
 #EXTINF:-1 tvg-id="Nickelodeon.ukSD" tvg-logo="https://i.imgur.com/E84jnP8.png" group-title="United Kingdom;Kids",Nickelodeon (576p)
 http://tvsen7.aynascope.net/nicklodean/index.m3u8
-#EXTINF:-1 tvg-id="Nickelodeon.usEast" tvg-logo="https://i.imgur.com/E84jnP8.png" group-title="United States;Kids",Nickelodeon (1080p)
-http://23.237.104.106:8080/USA_NICKELODEON/index.m3u8
+#EXTINF:-1 tvg-id="Nickelodeon.usEast" tvg-logo="https://i.imgur.com/E84jnP8.png" group-title="United States;Kids",Nickelodeon (720p)
+http://198.58.104.90:8989/nickelodeon/index.m3u8
 #EXTINF:-1 tvg-id="NickelodeonAsia.sgSD" tvg-logo="https://i.imgur.com/E84jnP8.png" group-title="Singapore;Kids",Nickelodeon Asia (1080p)
 http://nmk.ioapk.com:5050/4gtv-live105/index.m3u8
 #EXTINF:-1 tvg-id="NickelodeonCIS.kzSD" tvg-logo="https://i.imgur.com/E84jnP8.png" group-title="Kazakhstan;Kids",Nickelodeon CIS (1080p)
@@ -19567,8 +19571,8 @@ http://193.24.244.60:1001/udp/239.254.5.227:6060
 https://atlantida1.aquax1.cfd/niktuun/usergendxt7r9CxGrnd.m3u8
 #EXTINF:-1 tvg-id="Nicktoons.usCA" tvg-logo="https://images.pluto.tv/channels/654ca7f92c1d3300086b608c/colorLogoPNG_1751457678592.png" group-title="United States;Kids",NickToons
 https://jmp2.uk/plu-654ca7f92c1d3300086b608c.m3u8
-#EXTINF:-1 tvg-id="Nicktoons.usEast" tvg-logo="https://images.pluto.tv/channels/654ca7f92c1d3300086b608c/colorLogoPNG_1751457678592.png" group-title="United States;Kids",Nicktoons (1080p)
-https://sra72yz.s.gy/NICKTOONS_US.m3u8
+#EXTINF:-1 tvg-id="Nicktoons.usEast" tvg-logo="https://images.pluto.tv/channels/654ca7f92c1d3300086b608c/colorLogoPNG_1751457678592.png" group-title="United States;Kids",Nicktoons (720p)
+http://41.205.93.154/NICKTOONS/index.m3u8
 #EXTINF:-1 tvg-id="NickToonsBrasil.brSD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Nicktoons_logo_%282023%29.svg/330px-Nicktoons_logo_%282023%29.svg.png" group-title="Brazil;Animation;Kids" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",NickToons Brasil (480p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 https://stmv2.srvif.com/nicktoons/nicktoons/playlist.m3u8
@@ -21804,6 +21808,8 @@ http://88.212.15.19/live/prima_love_avc_25p/playlist.m3u8
 #EXTINF:-1 tvg-id="PrimaMax.czSD" tvg-logo="https://i.imgur.com/ePrdyLi.png" group-title="Czech Republic;Uncategorized" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36",Prima Max
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
 http://88.212.15.19/live/test_prima_max_cz/playlist.m3u8
+#EXTINF:-1 tvg-id="PrimaNews.roSD" tvg-logo="https://i.imgur.com/wlqGfU2.png" group-title="Romania;News",Prima News
+https://hls02ns.antenaplay.ro/hls/prima-news-hd/index.m3u8
 #EXTINF:-1 tvg-id="PrimaShow.czSD" tvg-logo="https://i.imgur.com/XbwAwkp.png" group-title="Czech Republic;Uncategorized",Prima Show (1080p)
 http://88.212.15.19/live/test_prima_show_hevc_25p/playlist.m3u8
 #EXTINF:-1 tvg-id="PrimaSK.skHD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/fc/PRIMA_SK_logo_RGB.png" group-title="Slovakia;Uncategorized" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",Prima SK
@@ -21848,8 +21854,12 @@ https://msh0203.stream.seeweb.it/live/flv:stream2.sdp/playlist.m3u8
 https://cachestar.privesc.eu/liniar/moldova/playlist.m3u8
 #EXTINF:-1 tvg-id="Pro100TV.ruSD" tvg-logo="https://i.imgur.com/YfQEflM.png" group-title="Russia;Animation;Classic;Entertainment;Family;Movies",Pro100TV (576p)
 https://sirius.greenhosting.ru/Pro100tvRu/video.m3u8
+#EXTINF:-1 tvg-id="ProArena.roHD" tvg-logo="https://i.imgur.com/KQmB9Cc.png" group-title="Romania;Uncategorized",Pro Arena HD
+http://eb4b8dcf.kablakaka.ru/iptv/AE8BY6FHF5ZGAG/6990/index.m3u8
 #EXTINF:-1 tvg-id="ProBusiness.ruSD" tvg-logo="https://i.imgur.com/1u8KvTD.png" group-title="Russia;Business",Pro Business (720p)
 https://tv-streaming.bsh.ru:21938/probusiness/probusiness.stream/playlist.m3u8
+#EXTINF:-1 tvg-id="ProCinema.roSD" tvg-logo="https://i.imgur.com/TvHFGwZ.png" group-title="Romania;Movies",Pro Cinema
+http://eb4b8dcf.kablakaka.ru/iptv/AE8BY6FHF5ZGAG/6951/index.m3u8
 #EXTINF:-1 tvg-id="ProLyubov.ruSD" tvg-logo="https://i.imgur.com/QpIGAT0.png" group-title="Russia;Uncategorized",Pro Lyubov (1080p)
 http://hls127.freeott.top:8080/ProLubovHD/video.m3u8
 #EXTINF:-1 tvg-id="PROTVChisinau.mdSD" tvg-logo="https://i.imgur.com/X5PYRxF.png" group-title="Moldova;General;News",PRO TV Chisinau (480p)
@@ -24901,8 +24911,6 @@ http://stream.mcquack.net/128/index.m3u8
 https://live.cast-control.eu/StartMedia/StartMedia/playlist.m3u8
 #EXTINF:-1 tvg-id="STARTWorld.ruSD" tvg-logo="https://images.iptv.rt.ru/images/d6iist8mifeailfopupg.png" group-title="Russia;Movies",START World (576p)
 https://fs.uplink.kz/start_world/mono.m3u8?token=onlinetv
-#EXTINF:-1 tvg-id="Starz.usEast" tvg-logo="https://i.imgur.com/N7oSm4d.png" group-title="United States;Uncategorized",Starz (1080p)
-http://23.237.104.106:8080/USA_STARZ/index.m3u8
 #EXTINF:-1 tvg-id="StarzCinema.usEast" tvg-logo="https://i.imgur.com/ghzzKoT.png" group-title="United States;Movies",Starz Cinema (720p)
 http://23.237.104.106:8080/USA_STARZ_CINEMA/index.m3u8
 #EXTINF:-1 tvg-id="StarzComedy.usEast" tvg-logo="https://i.imgur.com/JpKvjZe.png" group-title="United States;Comedy",Starz Comedy (1080p)
@@ -25736,6 +25744,8 @@ http://200.91.32.158:8080/telefehdvalle/index.m3u8
 http://190.108.83.69:8000/play/a08l/index.m3u8
 #EXTINF:-1 tvg-id="TelefeRosario.arSD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Telefe_Rosario_%282018%29.png/960px-Telefe_Rosario_%282018%29.png" group-title="Argentina;Uncategorized",Telefe Rosario (720p) [Geo-blocked]
 https://smt-usr-edge01.sensa.com.ar/output/ARR2/TelefeRosarioH/playlist.m3u8
+#EXTINF:-1 tvg-id="TelefeSalta.arSD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Telefe_Salta_%282018%29.png/960px-Telefe_Salta_%282018%29.png" group-title="Argentina;Uncategorized",Telefe Salta
+https://canal11saltatv.unpocodeawita.workers.dev/
 #EXTINF:-1 tvg-id="TelefeTucuman.arSD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Telefe_Tucum%C3%A1n_%282018%29.png/960px-Telefe_Tucum%C3%A1n_%282018%29.png" group-title="Argentina;Uncategorized",Telefe Tucuman (1080p)
 https://g2.mc-hor.transport.edge-access.net/a05/ngrp:elochotv-100168_all/Playlist.m3u8?sense=true
 #EXTINF:-1 tvg-id="Telefoggia.itSD" tvg-logo="https://i.imgur.com/ImvO2rV.png" group-title="Italy;Uncategorized",Telefoggia (480p) [Not 24/7]
