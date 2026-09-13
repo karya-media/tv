@@ -78,7 +78,8 @@ http://opplextv.cyou:8080/nasir6160/nasir/351030
 #EXTINF:-1 tvg-id="SCTV.id" tvg-logo="https://i.imgur.com/9nGJaOL.jpeg" group-title="Indonesia" http-referrer="" http-user-agent="",SCTV
 http://202.169.224.202:8800/udp/239.9.1.29:1234
 #EXTINF:-1 tvg-id="SCTV" tvg-logo="https://thumbor.prod.vidiocdn.com/kH-K9J4cROqL0TZrAyQhw7P5pBk=/230x230/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/204/4e9f5c.png" group-title="Indonesia Channels" tvg-url="https://raw.githubusercontent.com/apistech/project/refs/heads/main/epgs/guide.xml",SCTV
-https://cdnbal1.indihometv.com/atm/DASH/sctv/sctv-avc1_2500000=7-3277707030000000.mpd
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36 Edg/150.0.0.0
+http://livestream.biznetvideo.net/sctv/smil:sctv.smil/manifest_w142569602.mpd
 #EXTINF:-1 tvg-logo="https://mimipipi22.github.io/logo/nasional/sctv.jpg" group-title="INDIHOME",SCTV
 https://cdnbal1.indihometv.com/atm/DASH/sctv/master.mpd
 #EXTINF:-1 tvg-id="SCTV.idSD" tvg-logo="https://i.imgur.com/EMmOvnQ.png" group-title="Indonesia;Uncategorized" http-referrer="https://www.dens.tv/" http-user-agent="Mozilla/5.0 Windows NT 10.0; Win64; x64 AppleWebKit/537.36 KHTML, like Gecko Chrome/144.0.0.0 Safari/537.36",SCTV [Geo-blocked]
@@ -102,7 +103,8 @@ http://202.169.224.202:8800/udp/239.9.1.25:1234
 #EXTVLCOPT:http-referrer=https://teagan.mvksstick9uq6cprotection.cfd/
 https://beetv.my.id/rbtv/indosiar.m3u
 #EXTINF:-1 tvg-id="Indosiar" tvg-logo="https://thumbor.prod.vidiocdn.com/0plBZ7Gso7gNBJxid9ksA8HMGxc=/230x230/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/205/54ab19.png" group-title="Indonesia Channels" tvg-url="https://raw.githubusercontent.com/apistech/project/refs/heads/main/epgs/guide.xml",Indosiar
-https://cdnbal1.indihometv.com/atm/DASH/indosiar/indosiar-avc1_2500000=7-3277707030000000.mpd
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36 Edg/150.0.0.0
+http://livestream.biznetvideo.net/indosiar/smil:indosiar.smil/manifest_w1833626747.mpd
 #EXTINF:-1 tvg-name="Moji TV" tvg-logo="http://goldenid.online:80/images/uuhCT73pRsf8MG14YjRAJiS7qQ9qrlYY3BOIGsO6vAFgh7lv9oRZDd8xNaLIcamHrcToQ7zlTLoefWtWn3KN6okO5JlVGuoS6nLOMsl5DR7SxFin0S73UcFmQHmVj9D_JGM7TXbPd7mv-DXzKxeiEw.jpeg" group-title="LOKAL INDONESIA™" xui-id="25764",Moji TV
 http://goldenid.online:80/play/38ifGdTRCzSHegy1-Yigj6aKDVPVbu4CclYxOcEC14MKhWHFWa6h0rT0_K9qnS9Q
 #EXTINF:-1 tvg-id="AFCMENSVOLLEYBALLCONTINENTALCHAMPIONSHIP" tvg-logo="https://upload.wikimedia.org/wikipedia/en/d/db/AVC_Men%27s_Volleyball_Continental_Japan_2026.png" group-title="AFC MEN'S VOLLEYBALL CONTINENTAL CHAMPIONSHIP",MOJI HD SPORTS
