@@ -425,7 +425,7 @@ https://d2xz2v5wuvgur6.cloudfront.net/out/v1/997ce8767b604fae9fce05379b3b8b3a/in
 #EXTINF:-1 group-title="🇮🇩 LOKAL" tvg-logo="https://media.tenor.com/WoQZgPVVZHQAAAAM/rcti-rcti29.gif",RCTI HD R+
 #EXTVLCOPT:http-user-agent=android-R+
 #EXTVLCOPT:http-referrer=https://www.rctiplus.com/
-https://r-plus.sedotcw3.workers.dev/index.m3u8?id=rcti
+http://beetv.my.id/xstreamx/rctiplus.m3u8?ch=rcti
 
 #EXTINF:-1 group-title="🇮🇩 LOKAL" tvg-logo="https://media.tenor.com/WoQZgPVVZHQAAAAM/rcti-rcti29.gif",RCTI HD 
 #EXTVLCOPT:http-referrer=https://www.rctiplus.com/
@@ -533,7 +533,7 @@ https://d84q7nw4qf3j3.cloudfront.net/out/v1/b0eebcecfb12424cb5f3c3cdb239f3c1/ind
 https://op-flashcon-digdayahd-1.dens.tv/h/h12/01.m3u8
 
 
-#EXTINF:-1 group-title="??🇩 LOKAL" tvg-logo="https://raw.githubusercontent.com/apistech/project/refs/heads/main/logo/imageCir_MDTV-180x180-CL_2025_10_08_13_01_28.jpg",MDTV 
+#EXTINF:-1 group-title="🇮🇩 LOKAL" tvg-logo="https://raw.githubusercontent.com/apistech/project/refs/heads/main/logo/imageCir_MDTV-180x180-CL_2025_10_08_13_01_28.jpg",MDTV 
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36 Edg/150.0.0.0
 https://op-flashcon-digdayahd-1.dens.tv/h/h223/index.m3u8
 
@@ -1060,7 +1060,7 @@ https://e.siar.us/live/surabayatv.m3u8
 #EXTINF:-1 tvg-logo="https://lingkartv.com/assets/img/logo-square.png" group-title="🛖 DAERAH",LINGKARTV 
 https://lingkartv.my.id/hls/lingkartv.m3u8
 
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/94/Inspira.png" group-title="🛖 DAERAH",INSPIRA TV
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/94/Inspira.png" group-title="?? DAERAH",INSPIRA TV
 https://inspiratv.siar.us/inspiratv/live/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYSVdhaMAbDI7t7HJv8iWxq3_ZvMcWQYQlsQ&usqp=CAU" group-title="🛖 DAERAH",JITV HD
@@ -1165,7 +1165,7 @@ http://23.237.104.106:8080/USA_FXX/index.m3u8
 #EXTINF:-1 group-title="🍿 FILM" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQl6HA0DK8KBC9Yp9yqHPn2XPpW-NSOvretdjLEsE2zXBT7-KpYmZBpOkJ&s=10",STAR MOVIES HD AIRTEL
 http://main.light-ott.net:80/play/live.php?mac=00:1A:79:18:18:3D&stream=373304&extension=ts&play_token=ciHoqkD84h
 
-#EXTINF:-1 group-title="?? FILM" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWhBcjWSMu3H62nyOiL0Yi8sQDhQNWZkdxEPFwJkJ1ww&s=10",STAR MOVIES SELECT HD AIRTEL
+#EXTINF:-1 group-title="🍿 FILM" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWhBcjWSMu3H62nyOiL0Yi8sQDhQNWZkdxEPFwJkJ1ww&s=10",STAR MOVIES SELECT HD AIRTEL
 http://main.light-ott.net:80/play/live.php?mac=00:1A:79:18:18:3D&stream=373320&extension=ts&play_token=Q8T1h2DuEg
 
 #EXTINF:-1 group-title="🍿 FILM" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3SoCLSD3O2n7vBIbzuIXs5j0naFfxhnkKSbCAPJWFww&s=10",STAR CHANNEL ((BARU))
@@ -1212,7 +1212,7 @@ https://cdnbal1.indihometv.com/atm/DASH/hbofamily/hbofamily-avc1_2500000=7-32777
 https://cdnbal1.indihometv.com/atm/DASH/hbosignature/hbosignature-avc1_2500000=7-3277707030000000.mpd
 
 
-#EXTINF:-1 tvg-id="CINEMAX" group-title="?? FILM" tvg-url="https://raw.githubusercontent.com/apistech/project/refs/heads/main/ApisTECH.xml" group-logo="" tvg-logo="https://iili.io/Ju79znp.png",Cinemax
+#EXTINF:-1 tvg-id="CINEMAX" group-title="🍿 FILM" tvg-url="https://raw.githubusercontent.com/apistech/project/refs/heads/main/ApisTECH.xml" group-logo="" tvg-logo="https://iili.io/Ju79znp.png",Cinemax
 http://136.239.173.10:6610/001/2/ch00000090990000001108/manifest.mpd?AuthInfo=v87HD9rEhwHiAdYyrP20Tg5pgSMSITY%2FHYvvCWJRp%2BoD7Jkv0l3sE1jz6821dGRWytokK1MIobcue1ImXa0ZEA%3D%3D&version=v1.0&BreakPoint=0&virtualDomain=001.live_hls.zte.com&programid=ch00000000000000001233&contentid=ch00000000000000001233&videoid=ch00000090990000001108&recommendtype=0&userid=1349825919509&boid=001&stbid=02%3A00%3A00%3A00%3A00%3A00&terminalflag=1&profilecode=&usersessionid=LAO494UQ9QXXXX&NeedJITP=1&JITPMediaType=DASH&JITPDRMType=NO
 #EXTINF:-1 tvg-id="CINEMAX" group-title="🍿 FILM" tvg-url="https://raw.githubusercontent.com/apistech/project/refs/heads/main/ApisTECH.xml" group-logo="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgFu2B7k7DLlu-SfzsSUNcupn4A_gbrBcNrEPAKh4LSQ&s=10",Cinemax Plus (New)
 https://aes.m3u8simplu.workers.dev:443/cinemax/index.m3u8
@@ -1693,6 +1693,47 @@ https://kuk1.modprimus1.cfd/kuk3/usergendx0slfk9QssDx9lgxlsdmqrnd.m3u8
 https://kudos111.terranovax1.cfd/kuk4/usergendx0thc60skrdnnd.m3u8
 
 
+#EXTINF:-1 tvg-name="SCTV Digital (server 4)" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRq4jbwkNAS1xGvhBM9mdJGvl-N5R8kaZDPzXmQcbQ9w&s=10" tvg-id="Digital.id" group-title="OLAHRAGA LOKAL", SCTV HD CH2
+http://opplextv.cyou:8080/nasir6160/nasir/351030
+
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrqEq7pRy2dfcx1puTdpqGPR6ffHcig7Khl-fPMSM6Cw&s=10" group-title="OLAHRAGA LOKAL", ANTV SPORTS
+#EXTVLCOPT:http-user-agent=Player (Linux; Android 12)
+https://wahyu1ptv.pages.dev/AnTV-HD.m3u8
+
+#EXTINF:-1 tvg-id="RCTI" tvg-name="RCTI" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEDZs-qdDurGgcYqoz2agnm7bXoVP6fExQaZ-a92X3FQ&s=10" group-title="OLAHRAGA LOKAL",RCTI SPORTS CH1
+http://opplextv.cyou:8080/nasir6160/nasir/351023
+
+#EXTINF:-1 tvg-id="RCTI" tvg-name="RCTI" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEDZs-qdDurGgcYqoz2agnm7bXoVP6fExQaZ-a92X3FQ&s=10" group-title="OLAHRAGA LOKAL",RCTI SPORTS CH2
+#EXTVLCOPT:http-user-agent=android-R+
+#EXTVLCOPT:http-referrer=https://www.rctiplus.com/
+https://r-plus.sedotcw3.workers.dev/index.m3u8?id=rcti
+
+#EXTINF:-1 group-title="OLAHRAGA LOKAL" tvg-id="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRW8Qjclsu9fpbIqK_6ZHq9eJQXYmIAmeYk1GZnLMV6vA&s=10", GTV SPORTS 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://embed.rctiplus.com/live/gtv/sindonews
+https://gtv-linier.rctiplus.id/gtv-sdi.m3u8?hdnts=exp=1789440894~hmac=e42c5756dec2767e1bdb96d43f50f39887c21cc2cf5e1a8940e5519d4f1cae28
+
+https://bit.ly/4zYtT90
+#EXTINF:-1 tvg-name="Moji Digital(server 3)" tvg-logo="https://i.imgur.com/f8m10M1.jpeg" tvg-id="Digital.id" group-title="OLAHRAGA LOKAL",MOJI HD CH2
+https://sw.run/CAMPWIKI-MOJIFHD
+
+
+#EXTINF:0 tvg-id="MNCTV.id" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvVUsSBqOYYFRhh--KgKaOvznTISj3j7QDf_LKTJGA_w&s=10" group-title="OLAHRAGA LOKAL",MNC SPORTS
+#EXTVLCOPT:http-user-agent=android-R+
+#EXTVLCOPT:http-referrer=https://www.rctiplus.com/
+https://r-plus.sedotcw3.workers.dev/index.m3u8?id=mnctv
+
+EXTINF:-1 tvg-id="18" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRitDyD7Ca2G9tPYDDzsv3KawMEEU10vwi-MHyuRNxdVw&s=10" group-title="OLAHRAGA LOKAL",iNEWS SPORTS
+#EXTVLCOPT:http-user-agent=android-R+
+#EXTVLCOPT:http-referrer=https://www.rctiplus.com/
+https://r-plus.sedotcw3.workers.dev/index.m3u8?id=inews
+
+
+#EXTINF:-1 group-title="OLAHRAGA LOKAL" tvg-id="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdLrvbMSyw6ya4Ce7iO90shKuHgJ2zMzkSrTc151ABhQ&s=10", TVRI SPORT
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://klik.tvri.go.id/
+https://ott-balancer.tvri.go.id/live/eds/SportHD/hls/SportHD.m3u8
+
 
 
 ###OLAHRAGA INDO####
@@ -1985,19 +2026,19 @@ https://qp-pldt-live-grp-13-prod.akamaized.net/out/u/dr_spotv2hd.mpd
 
 
 #EXTVLCOPT:http-user-agent=ExoPlayerDemo/2.15.1 (Linux; Android 13) ExoPlayerLib/2.15.1
-#EXTINF:-1 tvg-logo="https://i.imgur.com/EVmZjcL.jpeg" tvg-id="itzplay.id" group-title=⚽️ OLAHRAGA LUAR",SPOTV Prime+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/EVmZjcL.jpeg" tvg-id="itzplay.id" group-title="⚽️ OLAHRAGA LUAR",SPOTV Prime+
 http://124.222.153.240/kakaotv/get_channel.php?channel=spotv_prime|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36&Cookie=spotv_prime_replace_cookie
 
 #EXTVLCOPT:http-user-agent=ExoPlayerDemo/2.15.1 (Linux; Android 13) ExoPlayerLib/2.15.1
-#EXTINF:-1 tvg-logo="https://i.imgur.com/ZcLJYtL.jpeg" tvg-id="itzplay.id" group-title=⚽️ OLAHRAGA LUAR",SPOTVPrime 2 
+#EXTINF:-1 tvg-logo="https://i.imgur.com/ZcLJYtL.jpeg" tvg-id="itzplay.id" group-title="⚽️ OLAHRAGA LUAR",SPOTVPrime 2 
 http://124.222.153.240/kakaotv/get_channel.php?channel=spotv_prime2|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36&Cookie=spotv_prime2_replace_cookie
 
 #EXTVLCOPT:http-user-agent=ExoPlayerDemo/2.15.1 (Linux; Android 13) ExoPlayerLib/2.15.1
-#EXTINF:-1 tvg-logo="https://i.imgur.com/G34ESlN.jpeg" tvg-id="itzplay.id" group-title=⚽️ OLAHRAGA LUAR",SPOTV Prime 
+#EXTINF:-1 tvg-logo="https://i.imgur.com/G34ESlN.jpeg" tvg-id="itzplay.id" group-title="⚽️ OLAHRAGA LUAR",SPOTV Prime 
 http://124.222.153.240/kakaotv/get_channel.php?channel=spotv_prime1|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36&Cookie=spotv_prime1_replace_cookie
 
 #EXTVLCOPT:http-user-agent=ExoPlayerDemo/2.15.1 (Linux; Android 13) ExoPlayerLib/2.15.1
-#EXTINF:-1 tvg-logo="https://i.imgur.com/g12NBOV.jpeg" tvg-id="itzplay.id" group-title=⚽️ OLAHRAGA LUAR",SPOTV Golf+ 
+#EXTINF:-1 tvg-logo="https://i.imgur.com/g12NBOV.jpeg" tvg-id="itzplay.id" group-title="⚽️ OLAHRAGA LUAR",SPOTV Golf+ 
 http://124.222.153.240/kakaotv/get_channel.php?channel=spotv_golf_health|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36&Cookie=spotv_golf_health_replace_cookie
 
 #EXTINF:-1 tvg-id="98" tvg-logo="https://motorvision.tv/wp-content/uploads/2023/09/MV_Logo_positive_light_background-2.png" group-title="⚽️ OLAHRAGA LUAR", MOTOR VISION+
@@ -2731,7 +2772,7 @@ https://tglmp03.akamaized.net/out/v1/be732843b7d24bada23e13810282e55f/manifest.m
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 #EXTVLCOPT:http-referrer=https://rtmklik.rtm.gov.my/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
-#EXTINF:-1 tvg-id="TV1" tvg-url="https://raw.githubusercontent.com/AqFad2811/epg/refs/heads/main/rtmklik.xml" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/62/Tv1-rtm-logo-vector-720x340.jpg" tvg-url="https://raw.githubusercontent.com/apistech/project/refs/heads/main/ApisTECH.xml"  group-title="??🇾 MALAYSIA",TV 1
+#EXTINF:-1 tvg-id="TV1" tvg-url="https://raw.githubusercontent.com/AqFad2811/epg/refs/heads/main/rtmklik.xml" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/62/Tv1-rtm-logo-vector-720x340.jpg" tvg-url="https://raw.githubusercontent.com/apistech/project/refs/heads/main/ApisTECH.xml"  group-title="🇲🇾 MALAYSIA",TV 1
 https://d25tgymtnqzu8s.cloudfront.net/main/A0jyR3/dl_1080p.m3u8
 
 #KODIPROP:inputstream=inputstream.adaptive
@@ -2966,47 +3007,6 @@ http://moj.feniks.team:25461/411dariocacic/a1Uni9hC0D/27356
 http://moj.feniks.team:25461/411dariocacic/a1Uni9hC0D/27357
 
 ####
-
-#EXTINF:-1 tvg-name="SCTV Digital (server 4)" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRq4jbwkNAS1xGvhBM9mdJGvl-N5R8kaZDPzXmQcbQ9w&s=10" tvg-id="Digital.id" group-title="OLAHRAGA LOKAL", SCTV HD CH2
-http://opplextv.cyou:8080/nasir6160/nasir/351030
-
-#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrqEq7pRy2dfcx1puTdpqGPR6ffHcig7Khl-fPMSM6Cw&s=10" group-title="OLAHRAGA LOKAL", ANTV SPORTS
-#EXTVLCOPT:http-user-agent=Player (Linux; Android 12)
-https://wahyu1ptv.pages.dev/AnTV-HD.m3u8
-
-#EXTINF:-1 tvg-id="RCTI" tvg-name="RCTI" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEDZs-qdDurGgcYqoz2agnm7bXoVP6fExQaZ-a92X3FQ&s=10" group-title="OLAHRAGA LOKAL",RCTI SPORTS CH1
-http://opplextv.cyou:8080/nasir6160/nasir/351023
-
-#EXTINF:-1 tvg-id="RCTI" tvg-name="RCTI" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEDZs-qdDurGgcYqoz2agnm7bXoVP6fExQaZ-a92X3FQ&s=10" group-title="OLAHRAGA LOKAL",RCTI SPORTS CH2
-#EXTVLCOPT:http-user-agent=android-R+
-#EXTVLCOPT:http-referrer=https://www.rctiplus.com/
-https://r-plus.sedotcw3.workers.dev/index.m3u8?id=rcti
-
-#EXTINF:-1 group-title="OLAHRAGA LOKAL" tvg-id="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRW8Qjclsu9fpbIqK_6ZHq9eJQXYmIAmeYk1GZnLMV6vA&s=10", GTV SPORTS 
-#EXTVLCOPT:http-user-agent=android-R+
-#EXTVLCOPT:http-referrer=https://www.rctiplus.com/
-https://r-plus.sedotcw3.workers.dev/index.m3u8?id=gtv
-
-https://bit.ly/4zYtT90
-#EXTINF:-1 tvg-name="Moji Digital(server 3)" tvg-logo="https://i.imgur.com/f8m10M1.jpeg" tvg-id="Digital.id" group-title="OLAHRAGA LOKAL",MOJI HD CH2
-https://sw.run/CAMPWIKI-MOJIFHD
-
-
-#EXTINF:0 tvg-id="MNCTV.id" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvVUsSBqOYYFRhh--KgKaOvznTISj3j7QDf_LKTJGA_w&s=10" group-title="OLAHRAGA LOKAL",MNC SPORTS
-#EXTVLCOPT:http-user-agent=android-R+
-#EXTVLCOPT:http-referrer=https://www.rctiplus.com/
-https://r-plus.sedotcw3.workers.dev/index.m3u8?id=mnctv
-
-EXTINF:-1 tvg-id="18" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRitDyD7Ca2G9tPYDDzsv3KawMEEU10vwi-MHyuRNxdVw&s=10" group-title="OLAHRAGA LOKAL",iNEWS SPORTS
-#EXTVLCOPT:http-user-agent=android-R+
-#EXTVLCOPT:http-referrer=https://www.rctiplus.com/
-https://r-plus.sedotcw3.workers.dev/index.m3u8?id=inews
-
-
-#EXTINF:-1 group-title="OLAHRAGA LOKAL" tvg-id="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdLrvbMSyw6ya4Ce7iO90shKuHgJ2zMzkSrTc151ABhQ&s=10", TVRI SPORT
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://klik.tvri.go.id/
-https://ott-balancer.tvri.go.id/live/eds/SportHD/hls/SportHD.m3u8
 
 
 

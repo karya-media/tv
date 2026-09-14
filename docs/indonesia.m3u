@@ -29,8 +29,8 @@ https://sw.run/CAMPWIKI-MOJIFHD
 https://op-group1-swiftservehd-1.dens.tv/h/h207/index.m3u8
 #EXTINF:-1 tvg-id="ANTV.id" tvg-name="ANTV" tvg-logo="https://thumbor.prod.vidiocdn.com/45W5WeEJJyd4q_kNCsZBsDZvf1Q=/filters:strip_icc():quality(70)/vidio-web-prod-user/uploads/user/avatar/88855596/PROFILETVONE-ad494997ef15cf6d.jpg" group-title="Indonesia;LOKAL INDONESIA™" xui-id="25718",ANTV
 http://goldenid.online:80/play/38ifGdTRCzSHegy1-YigjxOuroSUi59En8RSMBtmpgYX7yVVf8fiG_p-XRhuUbDI
-#EXTINF:-1 tvg-id="ANTV.idSD" tvg-logo="https://64.media.tumblr.com/77d7b93e54d6a77a81b2bec8d1932691/tumblr_ofkh5xUTcX1rqdxf9o1_1280.gif" group-title="Indonesia;LOKAL",ANTV HD
-http://013tv.com:8080/F33848/cbd9779b/165072
+#EXTINF:-1 tvg-id="itzplay.id" tvg-logo="https://uc44b55e3e9da83d3d776512fc0a.previews.dropboxusercontent.com/p/thumb/ADEoW8ee2p5IyeFr__FVfqKyvMDBFYcbWarbusK925e8GnPCWciF4a2jAujuLbHGAXvDYNRBDUxfIg9VfJAK2ZT3ywNIGMv_yx1MNjokk5syPxWZqEI4wFfP6EzlQKi2ZCvXE_D0gbjpfPAt_V2c24VvkJXhDj-Me9MjYxTVw0pRsHFyuq5PbsA7wX1Jcoz26v9gdlc98rZ1lQkwD-TC34uLbj8MHYkQpkr5EgBMQXrAM46Kfpm-GQ2fE_iU6cuMBjpxzmM2WHZBuXVaEQoMEgXHTro9b_dw6rcdTEBXFbtnIBIN_9KVOQlTjyPeLZniBD4jtlS4Xrr9cmpXT1aG_xPYL9h34XPJFbHAGSm0wz-j8g1CZisBo5hZZUt7x-FZMa4/p.jpeg?is_prewarmed=true" group-title="Indonesia;SERIE A LEAGUE",ANTV Digital
+http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NaaFlGWmxCbzV1aCsvOHZXbm5XZGdjQTdOTDRMMEJJWUhlRFVsUHl6OU5RLw
 #EXTINF:-1 tvg-id="TransTV.id" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/c/c2/Logo_Trans_TV.png" group-title="Indonesia;Entertainment" http-referrer="https://20.detik.com/" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36",Trans TV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://20.detik.com/
@@ -67,7 +67,7 @@ http://goldenid.online:80/play/38ifGdTRCzSHegy1-Yigj0WiE4bR3YeAGTu2xhRkbkE1GqNkZ
 https://hgmtv.com:19360/garudatvlivestreaming/720p.m3u8
 #EXTINF:-1 tvg-id="Garuda.TV.id" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmNB9OGzinChxmzFzLV0VlS6qsNMtGsO5hTGVYjn4Sf_zB2M6UF8neicI&s=10" group-title="Indonesia;Lainnya" http-referrer="" http-user-agent="",Garuda TV
 https://hgmtv.com:19360/garudatvlivestreaming/1080p.m3u8
-#EXTINF:-1 tvg-id="MDTV.id" tvg-logo="https://raw.githubusercontent.com/apistech/project/refs/heads/main/logo/imageCir_MDTV-180x180-CL_2025_10_08_13_01_28.jpg" group-title="Indonesia;?? LOKAL",MDTV
+#EXTINF:-1 tvg-id="MDTV.id" tvg-logo="https://raw.githubusercontent.com/apistech/project/refs/heads/main/logo/imageCir_MDTV-180x180-CL_2025_10_08_13_01_28.jpg" group-title="Indonesia;LOKAL",MDTV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36 Edg/150.0.0.0
 https://op-flashcon-digdayahd-1.dens.tv/h/h223/index.m3u8
 #EXTINF:-1 tvg-id="MDTV.id" tvg-logo="https://i.imgur.com/N19eGsM.jpeg" group-title="Indonesia" http-referrer="" http-user-agent="",MDTV
@@ -651,12 +651,10 @@ https://rinjanitv.cloud/hls/tvkabel.m3u8
 #EXTINF:-1 tvg-id="SMTV.id" tvg-logo="https://upload.wikimedia.org/wikipedia/id/6/6e/Logo_SMTV_Sumedang.png" group-title="Indonesia;Lokal" http-referrer="https://smtv.digital/" http-user-agent="",SMTV
 #EXTVLCOPT:http-referrer=https://smtv.digital/
 https://e.siar.us/live/smtv.m3u8
-#EXTINF:-1 tvg-id="SPOTV.id" tvg-logo="https://raw.githubusercontent.com/apistech/project/refs/heads/main/logo/image_ch_spotv.png" group-title="Indonesia;️ OLAHRAGA INDO",SPOTV
-#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
-#EXTVLCOPT:http-referrer=https://www.visionplus.id/
-https://d3b0v7fggu5zwm.cloudfront.net/out/v1/b4814ae93ca84dd3bb5b0aff76ca263f/index.mpd
-#EXTINF:-1 tvg-id="SPOTV.id" tvg-logo="https://i.imgur.com/HaoVsm5.png" group-title="Indonesia;Olahraga" http-referrer="" http-user-agent="",SPOTV
-http://103.137.83.62:9090/play/32/index.m3u8
+#EXTINF:-1 tvg-id="itzplay.id" tvg-logo="https://i.imgur.com/EVmZjcL.jpeg" group-title="Indonesia;️ OLAHRAGA LUAR",SPOTV Prime+
+http://124.222.153.240/kakaotv/get_channel.php?channel=spotv_prime|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36&Cookie=spotv_prime_replace_cookie
+#EXTINF:-1 tvg-id="itzplay.id" tvg-logo="https://i.imgur.com/G34ESlN.jpeg" group-title="Indonesia;️ OLAHRAGA LUAR",SPOTV Prime
+http://124.222.153.240/kakaotv/get_channel.php?channel=spotv_prime1|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36&Cookie=spotv_prime1_replace_cookie
 #EXTINF:-1 tvg-id="SPOTV2.id" tvg-logo="https://raw.githubusercontent.com/apistech/project/refs/heads/main/logo/image_ch_spotv2.png" group-title="Indonesia;️ OLAHRAGA INDO",SPOTV 2
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
 #EXTVLCOPT:http-referrer=https://www.visionplus.id/
@@ -796,6 +794,8 @@ https://streams2.sofast.tv/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/ee
 #EXTINF:-1 tvg-id="monomax.id" tvg-name="beIN Sports 4" tvg-logo="https://i.imgur.com/mRhtasR.png" group-title="Indonesia;️ OLAHRAGA LUAR",MONOMAX SPORTS
 #EXTVLCOPT:http-user-agent=ExoPlayerDemo/2.15.1 (Linux; Android 13) ExoPlayerLib/2.15.1
 https://udn-streamer1.cdn.3bbtv.com:8443/3bb/live/29/29.mpd
+#EXTINF:-1 tvg-id="itzplay.id" tvg-logo="https://i.imgur.com/ZcLJYtL.jpeg" group-title="Indonesia;️ OLAHRAGA LUAR",SPOTVPrime 2
+http://124.222.153.240/kakaotv/get_channel.php?channel=spotv_prime2|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36&Cookie=spotv_prime2_replace_cookie
 #EXTINF:-1 tvg-id="PrimaTV.id" tvg-logo="https://iili.io/JbtoTuV.png" group-title="Indonesia;Lokal" http-referrer="" http-user-agent="",Prima TV
 https://primatv.siar.us/primatv/live/playlist.m3u8
 #EXTINF:-1 tvg-id="RCTV.id" tvg-logo="https://iili.io/JbtnILX.png" group-title="Indonesia;Lokal" http-referrer="" http-user-agent="",RCTV
