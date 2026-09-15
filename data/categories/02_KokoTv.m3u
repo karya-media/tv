@@ -13,6 +13,44 @@ https://dl.dropboxusercontent.com/scl/fi/tljv8ym5zumjctjcbn39n/lv_76527263486995
 https://live05.meung.app/live/14830711.m3u8
 
 
+(Play)
+
+#EXTVLCOPT:http-user-agent=ExoPlayerDemo/2.15.1 (Linux; Android 13) ExoPlayerLib/2.15.1
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdKwqrduizs9EBwo1d2JMKBCD30kW9KJhyDjX2hsG4IG7XD5RKA8_rqxNo&s=10" tvg-id="itzplay.id" group-title="OLIMPIADE ASIAN GAMES 2026",KBS 1 KR
+http://124.222.153.240/kakaotv/get_channel.php?channel=kbs1
+
+#EXTVLCOPT:http-user-agent=ExoPlayerDemo/2.15.1 (Linux; Android 13) ExoPlayerLib/2.15.1
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdKwqrduizs9EBwo1d2JMKBCD30kW9KJhyDjX2hsG4IG7XD5RKA8_rqxNo&s=10" tvg-id="itzplay.id" group-title="OLIMPIADE ASIAN GAMES 2026",KBS 2 KR
+http://124.222.153.240/kakaotv/get_channel.php?channel=kbs2
+
+#EXTVLCOPT:http-user-agent=ExoPlayerDemo/2.15.1 (Linux; Android 13) ExoPlayerLib/2.15.1
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdKwqrduizs9EBwo1d2JMKBCD30kW9KJhyDjX2hsG4IG7XD5RKA8_rqxNo&s=10" tvg-id="itzplay.id" group-title="OLIMPIADE ASIAN GAMES 2026",MBC KR
+http://124.222.153.240/kakaotv/get_channel.php?channel=mbc
+
+#EXTVLCOPT:http-user-agent=ExoPlayerDemo/2.15.1 (Linux; Android 13) ExoPlayerLib/2.15.1
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdKwqrduizs9EBwo1d2JMKBCD30kW9KJhyDjX2hsG4IG7XD5RKA8_rqxNo&s=10" tvg-id="itzplay.id" group-title="OLIMPIADE ASIAN GAMES 2026",SBS KR
+http://124.222.153.240/kakaotv/get_channel.php?channel=sbs
+
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdKwqrduizs9EBwo1d2JMKBCD30kW9KJhyDjX2hsG4IG7XD5RKA8_rqxNo&s=10" tvg-id="itzplay.id" group-title="OLIMPIADE ASIAN GAMES 2026",CCTV 5 CN
+http://38.75.136.137:98/gslb/dsdqbv/cctv5hd.m3u8?auth=test20251009
+
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdKwqrduizs9EBwo1d2JMKBCD30kW9KJhyDjX2hsG4IG7XD5RKA8_rqxNo&s=10" tvg-id="itzplay.id" group-title="OLIMPIADE ASIAN GAMES 2026",CCTV 5+ CN
+http://38.75.136.137:98/gslb/dsdqbv/cctv5p.m3u8?auth=test20251009
+
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdKwqrduizs9EBwo1d2JMKBCD30kW9KJhyDjX2hsG4IG7XD5RKA8_rqxNo&s=10" tvg-id="itzplay.id" group-title="OLIMPIADE ASIAN GAMES 2026",CCTV 16 CN
+http://38.75.136.137:98/gslb/dsdqbv/cctv16hd.m3u8?auth=test20251009
+
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdKwqrduizs9EBwo1d2JMKBCD30kW9KJhyDjX2hsG4IG7XD5RKA8_rqxNo&s=10" tvg-id="itzplay.id" group-title="OLIMPIADE ASIAN GAMES 2026",TVRI Nasional ID
+https://ogietv.biz.id:443/Livetv/234/1335.m3u8
+https://ott-balancer.tvri.go.id/live/eds/Nasional/hls/Nasional.m3u8
+
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdKwqrduizs9EBwo1d2JMKBCD30kW9KJhyDjX2hsG4IG7XD5RKA8_rqxNo&s=10" tvg-id="itzplay.id" group-title="OLIMPIADE ASIAN GAMES 2026",TVRI Sport ID
+https://ogietv.biz.id:443/Livetv/234/24952.m3u8
+https://ott-balancer.tvri.go.id/live/eds/SportHD/hls/SportHD.m3u8
+
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdKwqrduizs9EBwo1d2JMKBCD30kW9KJhyDjX2hsG4IG7XD5RKA8_rqxNo&s=10" tvg-id="itzplay.id" group-title="OLIMPIADE ASIAN GAMES 2026",TBS JP
+https://naori-test.netgenx.site/pxx.php?shk_cid=gd04
+
 #EXTINF:-1 tvg-id="AFC MEN'S VOLLEYBALL CONTINENTAL CHAMPIONSHIP" group-title="AFC MEN'S VOLLEYBALL CONTINENTAL CHAMPIONSHIP" tvg-logo="https://upload.wikimedia.org/wikipedia/en/d/db/AVC_Men%27s_Volleyball_Continental_Japan_2026.png", MOJI HD SPORTS
 https://bit.ly/4zYtT90
 #EXTINF:-1 tvg-id="AFC MEN'S VOLLEYBALL CONTINENTAL CHAMPIONSHIP" group-title="AFC MEN'S VOLLEYBALL CONTINENTAL CHAMPIONSHIP" tvg-logo="https://upload.wikimedia.org/wikipedia/en/d/db/AVC_Men%27s_Volleyball_Continental_Japan_2026.png", 𝘼𝙁𝘾 𝙈𝙀𝙉'𝙎 𝙑𝙊𝙇𝙇𝙀𝙔𝘽𝘼𝙇𝙇 𝘾𝙊𝙉𝙏𝙄𝙉𝙀𝙉𝙏𝘼𝙇 𝘾𝙃𝘼𝙈𝙋𝙄𝙊𝙉𝙎𝙃𝙄𝙋
