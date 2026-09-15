@@ -15,6 +15,26 @@ https://live05.meung.app/live/14830711.m3u8
 
 (Play)
 
+#EXTINF:-1 group-title="AFC CHAMPIONS LEAGUE" tvg-logo="https://media.tenor.com/wU-hCae1a8sAAAAM/live.gif",RCTI HD R+
+#EXTVLCOPT:http-user-agent=android-R+
+#EXTVLCOPT:http-referrer=https://www.rctiplus.com/
+https://r-plus.sedotcw3.workers.dev/index.m3u8?id=rcti
+
+#EXTINF:-1 group-title="AFC CHAMPIONS LEAGUE" tvg-logo="https://media.tenor.com/wU-hCae1a8sAAAAM/live.gif",GTV HD R+
+#EXTVLCOPT:http-user-agent=android-R+
+#EXTVLCOPT:http-referrer=https://www.rctiplus.com/
+https://r-plus.sedotcw3.workers.dev/index.m3u8?id=gtv
+
+
+#EXTINF:-1 group-title="AFC CHAMPIONS LEAGUE" tvg-logo="https://media.tenor.com/wU-hCae1a8sAAAAM/live.gif",GTV HD
+#EXTVLCOPT:http-user-agent=android-R+
+#EXTVLCOPT:http-referrer=https://www.rctiplus.com/
+#https://rpluz.ben45mcc.workers.dev/index.m3u8?ch=gtv
+https://allcutv.rctiplus.id/gtv2023.m3u8
+
+#EXTINF:-1 group-title="AFC CHAMPIONS LEAGUE" tvg-logo="https://media.tenor.com/wU-hCae1a8sAAAAM/live.gif",🔵AL AIN FC VS AL NASSR
+https://playback.livetl004.com/live/69f42e961f739deff81510c0.m3u8
+
 #EXTVLCOPT:http-user-agent=ExoPlayerDemo/2.15.1 (Linux; Android 13) ExoPlayerLib/2.15.1
 #EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdKwqrduizs9EBwo1d2JMKBCD30kW9KJhyDjX2hsG4IG7XD5RKA8_rqxNo&s=10" tvg-id="itzplay.id" group-title="OLIMPIADE ASIAN GAMES 2026",KBS 1 KR
 http://124.222.153.240/kakaotv/get_channel.php?channel=kbs1
