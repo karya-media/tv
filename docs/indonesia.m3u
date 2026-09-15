@@ -47,9 +47,8 @@ http://40.160.24.55/TV_ONE/index.m3u8
 https://op-group1-swiftservehd-1.dens.tv/h/h40/index.m3u8
 #EXTINF:-1 tvg-id="RCTI.id" tvg-name="METRO TV HD" tvg-logo="http://goldenid.online:80/images/c2UotlQ1L6lyEyZz5xHNY9N4yEE04AslBSyS7Fj4VciykD7Oukt0W6Zfteug1LMFOVWE3AOau13ai65W_yxoQrvbjQdbtT33JX4Mo_1V1uw.png" group-title="Indonesia;LOKAL INDONESIA™" xui-id="25722",METRO TV HD
 http://goldenid.online:80/play/38ifGdTRCzSHegy1-Yigj95ULE1QD9UsLfYoU55l4hGWqF6sm-7GxWBP9ZgwIWOl
-#EXTINF:-1 tvg-id="Metro.TV.id" tvg-logo="https://raw.githubusercontent.com/apistech/project/refs/heads/main/logo/image_ch_metrotv.png" group-title="Indonesia;News" http-referrer="" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36 Edg/150.0.0.0",Metro TV
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36 Edg/150.0.0.0
-https://op-flashcon-digdayahd-1.dens.tv/h/h12/index.m3u8
+#EXTINF:-1 tvg-id="Metro.TV.id" tvg-logo="https://i.imgur.com/QnU70NI.png" group-title="Indonesia;News" http-referrer="" http-user-agent="",Metro TV
+https://edge.medcom.id/live-edge/smil:metro.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="KompasTV.id" tvg-name="Kompas tv" tvg-logo="http://goldenid.online:80/images/KAts4CTlAHmisT2eFggVHj-jUikG-UwFiElWbJow-nhdIXVGCRET5gc68B_8WaQbmHjYXuyuSZzAYWIskIQTYMeZyXzJB_M4E3Ah6Pk3O14xqfOgB33cp24-NITHtsI5ncMPZ3Et7TdHj584PjEsyK5j6UHWNiut4zPiDNL1cvp9FIXvUkE205Kke87TwTiz.jpg" group-title="Indonesia;LOKAL INDONESIA™" xui-id="25695",Kompas tv
 http://goldenid.online:80/play/38ifGdTRCzSHegy1-Yigj763JJsjfeLW0oYFyKjg01IMdgjInIrvpj7OqtIwHyHt
 #EXTINF:-1 tvg-id="Kompas.TV.id" tvg-logo="https://i.imgur.com/WYPWQHg.jpeg" group-title="Indonesia;News" http-referrer="" http-user-agent="",Kompas TV
@@ -346,8 +345,8 @@ https://mam.jogjaprov.go.id:1937/tv/jitv/chunklist_w163357330.m3u8
 https://op-flashcon-digdayahd-1.dens.tv/h/h24/02.m3u8
 #EXTINF:-1 tvg-id="MagnaTV.id" tvg-name="IDX.id" tvg-logo="https://beetv.my.id/logo/magna.png" group-title="Indonesia;Nasional",Magna TV
 https://edge.medcom.id/live-edge/smil:magna.smil/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/OEqbYYe.jpeg" group-title="Indonesia;Olahraga" http-referrer="" http-user-agent="",Pegadaian Championship (Alt 2)
-https://tvratu.my.id/vid/index.mpd?id=20833&type=dash
+#EXTINF:-1 tvg-logo="https://i.imgur.com/OEqbYYe.jpeg" group-title="Indonesia;Olahraga" http-referrer="" http-user-agent="",Pegadaian Championship
+https://tvratu.my.id/vid/index.mpd?id=19541&type=dash
 #EXTINF:-1 tvg-logo="https://i.imgur.com/OEqbYYe.jpeg" group-title="Indonesia;Olahraga" http-referrer="" http-user-agent="",Pegadaian Championship (Alt 5)
 https://tvratu.my.id/vid/index.mpd?id=19543&type=dash
 #EXTINF:-1 tvg-logo="https://i.imgur.com/Q1QoQmA.jpeg" group-title="Indonesia;Olahraga" http-referrer="" http-user-agent="",Volleyball
@@ -423,10 +422,10 @@ http://livestream.biznetvideo.net/biznet_kids/smil:kids.smil/index.m3u8
 https://op-flashcon-digdayahd-1.dens.tv/h/h222/index.m3u8
 #EXTINF:-1 tvg-id="BiznetLifestyle.id" tvg-logo="https://i.imgur.com/XqUfQKA.png" group-title="Indonesia;LIFESTYLE" http-referrer="" http-user-agent="",Biznet Lifestyle
 http://livestream.biznetvideo.net/biznet_lifestyle/smil:lifestyle.smil/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/hk4Z8wi.jpeg" group-title="Indonesia;Olahraga" http-referrer="" http-user-agent="",Bri Super League
+https://tvratu.my.id/vid/index.mpd?id=205&type=dash
 #EXTINF:-1 tvg-logo="https://i.imgur.com/hk4Z8wi.jpeg" group-title="Indonesia;Olahraga" http-referrer="" http-user-agent="",Bri Super League (Alt 2)
 https://tvratu.my.id/vid/index.mpd?id=19353&type=dash
-#EXTINF:-1 tvg-logo="https://i.imgur.com/hk4Z8wi.jpeg" group-title="Indonesia;Olahraga" http-referrer="" http-user-agent="",Bri Super League (Alt 4)
-https://tvratu.my.id/vid/index.mpd?id=19354&type=dash
 #EXTINF:-1 tvg-id="ChannelJowo.id" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoqH3ju4SqhG-ydex6u2LmqPRpxsrBHvw6OQ&s" group-title="Indonesia;Lokal" http-referrer="https://www.dens.tv" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36",JOWO
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://www.dens.tv
