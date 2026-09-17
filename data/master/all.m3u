@@ -16,12 +16,10 @@ http://beetv.my.id/xstreamx/rctiplus.m3u8?ch=rcti
 https://allcutv.rctiplus.id/rcti2023.m3u8
 #EXTINF:-1 tvg-id="RCTI" tvg-name="RCTI" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEDZs-qdDurGgcYqoz2agnm7bXoVP6fExQaZ-a92X3FQ&s=10" group-title="OLAHRAGA LOKAL",RCTI SPORTS CH1
 http://opplextv.cyou:8080/nasir6160/nasir/351023
-#EXTINF:-1 tvg-name="RCTI.id" tvg-logo="https://images.indihometv.com/assets/logo_rcti_hd.png" group-title="Nasional",RCTI
+#EXTINF:-1 tvg-id="RCTI.id" tvg-name="RCTI.id" tvg-logo="https://images.indihometv.com/assets/logo_rcti_hd.png" group-title="Indonesia;Nasional",RCTI
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://www.rctiplus.com/
 https://beetv.my.id/xstreamx/rctiplus.m3u8?ch=rcti
-#EXTINF:-1 tvg-id="RCTI" tvg-logo="https://thumbor.prod.vidiocdn.com/9c-sEWp6Du7DoWDn56cjma0gMpY=/230x230/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/665/337c4d.png" group-title="Indonesia Channels" tvg-url="https://raw.githubusercontent.com/apistech/project/refs/heads/main/epgs/guide.xml",RCTI
-https://cdnjktbpid37.cubmu.com/riutx01-22b1f3c4ac0e47a0ed0e3305661027ee/dash/UkNUSS1DaGFubmVs/manifest.mpd?signature=YTM1NDBiZWM2ZGJhZDVjM2RkYjAxM2I4MGQwNzA4N2Y=&time=15252516442
 #EXTINF:-1 tvg-id="RCTI.idHD" tvg-logo="https://i.imgur.com/iLFx8ia.png" group-title="Indonesia;Uncategorized",RCTI HD (720p)
 https://mncmedia.malingtv.workers.dev/rcti.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/apistech/project/refs/heads/main/logo/imageCir_MNC-180x180_2025_11_06_13_06_02.jpg" group-title="ðŸ‡®ðŸ‡© LOKAL",MNCTV HD R+
@@ -49,12 +47,10 @@ https://allcutv.rctiplus.id/gtv2023.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://embed.rctiplus.com/live/gtv/sindonews
 https://gtv-linier.rctiplus.id/gtv-sdi.m3u8?hdnts=exp=1789440894~hmac=e42c5756dec2767e1bdb96d43f50f39887c21cc2cf5e1a8940e5519d4f1cae28
-#EXTINF:-1 tvg-name="GTV.id" tvg-logo="https://images.indihometv.com/assets/logo_gtv_hd.png" group-title="Nasional",GTV
+#EXTINF:-1 tvg-id="zeetamil" tvg-name="GTV.id" tvg-logo="https://images.indihometv.com/assets/logo_gtv_hd.png" group-title="Nasional",GTV
 #EXTVLCOPT:http-user-agent=android-R+
 #EXTVLCOPT:http-referrer=https://www.rctiplus.com/
 https://beetv.my.id/xstreamx/rctiplus.m3u8?ch=gtv
-#EXTINF:-1 tvg-id="GTV" tvg-logo="https://thumbor.prod.vidiocdn.com/6uEQ8IC06gH6XiMTVHtlRr1HAOE=/230x230/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/778/810229.png" group-title="Indonesia Channels" tvg-url="https://raw.githubusercontent.com/apistech/project/refs/heads/main/epgs/guide.xml",GTV
-https://cdnjktbpid37.cubmu.com/riutx01-22b1f3c4ac0e47a0ed0e3305661027ee/dash/R1RWLUNIQU5ORUw/manifest.mpd?signature=NWI3N2QxNzIyYTY5ZGM4ZmEyMTA5NjBkZDkzYzZiMjE=&time=15252516625
 #EXTINF:-1 tvg-id="GTV.idHD" tvg-logo="https://i.imgur.com/jjuKnYs.png" group-title="Indonesia;Uncategorized",GTV HD
 https://mncmedia.malingtv.workers.dev/gtv.m3u8
 #EXTINF:-1 tvg-id="iNews.id" tvg-logo="https://raw.githubusercontent.com/apistech/project/refs/heads/main/logo/image_ch_inews.png" group-title="Indonesia;ðŸŒ BERITA",iNews
@@ -168,7 +164,10 @@ https://trans.diorx.my.id/trans7.m3u8
 #EXTVLCOPT:http-referrer=https://20.detik.com/
 https://video.detik.com/trans7/smil:trans7.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="Trans7" tvg-logo="https://thumbor.prod.vidiocdn.com/-MEB2a6J4sB6SvBDimCb7JYP6WY=/230x230/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/734/131514.png" group-title="Indonesia Channels" tvg-url="https://raw.githubusercontent.com/apistech/project/refs/heads/main/epgs/guide.xml",Trans7 HD
-https://cdnjktbpid37.cubmu.com/riutx01-22b1f3c4ac0e47a0ed0e3305661027ee/dash/VFJBTlM3LW15/manifest.mpd
+#EXTVLCOPT:http-referer=https://www.cnbcindonesia.com/
+#EXTVLCOPT:http-origin=https://20.detik.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+https://green-night-d2b4.iontv.workers.dev/trans7.m3u8
 #EXTINF:-1 tvg-id="Trans7" tvg-logo="https://thumbor.prod.vidiocdn.com/-MEB2a6J4sB6SvBDimCb7JYP6WY=/230x230/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/734/131514.png" group-title="Indonesia Channels" tvg-url="https://raw.githubusercontent.com/apistech/project/refs/heads/main/epgs/guide.xml",Trans7 HD
 http://filex.me:8080//@singh_tesla_7207492/puWnhEGsXpK3/302311.m3u8
 #EXTINF:-1 tvg-id="zeetamil" tvg-name="TV ONE" tvg-logo="https://thumbor.prod.vidiocdn.com/kdj7v6XCX9C4UeOv6anzUgPtIB8=/filters:strip_icc():quality(70)/vidio-web-prod-user/uploads/user/avatar/88855732/PROFILETVONE-1-e4d30ebee473657b.png" group-title="LOKAL INDONESIA™" xui-id="25719",TV ONE
@@ -177,7 +176,7 @@ http://goldenid.online:80/play/38ifGdTRCzSHegy1-YigjxOuroSUi59En8RSMBtmpgbp5he48
 https://op-flashcon-digdayahd-1.dens.tv/h/h40/01.m3u8
 #EXTINF:-1 tvg-id="TVOne.id" tvg-logo="https://i.imgur.com/tthm8Q5.png" group-title="Indonesia;News" http-referrer="" http-user-agent="",TV One
 http://40.160.24.55/TV_ONE/index.m3u8
-#EXTINF:-1 tvg-id="TVOne" tvg-name="tvOne.id" tvg-logo="https://images.indihometv.com/logo_tvonenew_big.png" group-title="Nasional",TVONE
+#EXTINF:-1 tvg-name="tvOne.id" tvg-logo="https://images.indihometv.com/logo_tvonenew_big.png" group-title="Nasional",TVONE
 #EXTVLCOPT:http-referrer=https://www.dens.tv/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36
 https://op-flashcon-digdayahd-1.dens.tv/h/h40/01.m3u8?app_type=web&userid=wnctpm5uf2j&chname=tvOne
@@ -185,8 +184,6 @@ https://op-flashcon-digdayahd-1.dens.tv/h/h40/01.m3u8?app_type=web&userid=wnctpm
 #EXTVLCOPT:http-user-agent=DENSGO/3.00.00 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
 #EXTVLCOPT:http-referrer=http://dens.tv
 https://op-group1-densxvisionhd-1.dens.tv/h/h40/01.m3u8
-#EXTINF:-1 tvg-id="TVOne" tvg-logo="https://thumbor.prod.vidiocdn.com/APQ6a9vXvN6lU1zjeyL15IV_AJQ=/230x230/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/783/07750c.png" group-title="Indonesia Channels" tvg-url="https://raw.githubusercontent.com/apistech/project/refs/heads/main/epgs/guide.xml",TVOne
-https://cdnjktbpid37.cubmu.com/riutx01-22b1f3c4ac0e47a0ed0e3305661027ee/dash/VFZPTkU/manifest.mpd?signature=ZDFkYmE3MDdiMGFhNWI5YTViOTA5NDdlNjZmMWNhOWY=&time=15252520037
 #EXTINF:-1 tvg-id="tvOne.idSD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/TvOne_2023.svg/960px-TvOne_2023.svg.png" group-title="Indonesia;Uncategorized" http-referrer="https://www.dens.tv/" http-user-agent="Mozilla/5.0 Windows NT 10.0; Win64; x64 AppleWebKit/537.36 KHTML, like Gecko Chrome/144.0.0.0 Safari/537.36",tvOne [Geo-blocked]
 #EXTVLCOPT:http-referrer=https://www.dens.tv/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 Windows NT 10.0; Win64; x64 AppleWebKit/537.36 KHTML, like Gecko Chrome/144.0.0.0 Safari/537.36
@@ -204,8 +201,6 @@ https://op-flashcon-digdayahd-1.dens.tv/h/h12/index.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=http://www.dens.tv/
 https://op-flashcon-digdayahd-1.dens.tv/h/h12/index.m3u8?app_type=web&userid=lite&chname=Metro_TV
-#EXTINF:-1 tvg-id="MetroTV" tvg-logo="https://thumbor.prod.vidiocdn.com/u0aa_S_rQeujrp5eR6LwXdertrI=/230x230/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/777/ea8483.png" group-title="Indonesia Channels" tvg-url="https://raw.githubusercontent.com/apistech/project/refs/heads/main/epgs/guide.xml",Metro TV
-https://cdnjktbpid37.cubmu.com/riutx01-22b1f3c4ac0e47a0ed0e3305661027ee/dash/TWV0cm9UVg/manifest.mpd?signature=OWZiNGI5OGQwMzM2OWM3M2Y2NGQxZjA2OGU4N2RmODg=&time=15252517734
 #EXTINF:-1 tvg-id="KompasTV.id" tvg-name="Kompas tv" tvg-logo="http://goldenid.online:80/images/KAts4CTlAHmisT2eFggVHj-jUikG-UwFiElWbJow-nhdIXVGCRET5gc68B_8WaQbmHjYXuyuSZzAYWIskIQTYMeZyXzJB_M4E3Ah6Pk3O14xqfOgB33cp24-NITHtsI5ncMPZ3Et7TdHj584PjEsyK5j6UHWNiut4zPiDNL1cvp9FIXvUkE205Kke87TwTiz.jpg" group-title="Indonesia;LOKAL INDONESIA™" xui-id="25695",Kompas tv
 http://goldenid.online:80/play/38ifGdTRCzSHegy1-Yigj763JJsjfeLW0oYFyKjg01IMdgjInIrvpj7OqtIwHyHt
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/apistech/project/refs/heads/main/logo/image_ch_kompastv.png" group-title="ðŸŒ BERITA",Kompas TV
@@ -218,8 +213,6 @@ https://cdnbal1.indihometv.com/atm/DASH/KOMPAS_TV/KOMPAS_TV-avc1_2500000=7-32777
 https://op-flashcon-digdayahd-1.dens.tv/s/s104/01.m3u8
 #EXTINF:-1 tvg-id="KompasTV" tvg-logo="https://thumbor.prod.vidiocdn.com/Pf8yLSfHEUZeRI9tUzLDR2U8Zow=/230x230/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/874/042ca3.png" group-title="Indonesia Channels" tvg-url="https://raw.githubusercontent.com/apistech/project/refs/heads/main/epgs/guide.xml",Kompas TV HD
 https://op-flashcon-digdayahd-1.dens.tv/s/s104/index.m3u8
-#EXTINF:-1 tvg-id="KompasTV" tvg-logo="https://thumbor.prod.vidiocdn.com/Pf8yLSfHEUZeRI9tUzLDR2U8Zow=/230x230/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/874/042ca3.png" group-title="Indonesia Channels" tvg-url="https://raw.githubusercontent.com/apistech/project/refs/heads/main/epgs/guide.xml",Kompas TV HD
-https://cdnjktbpid37.cubmu.com/riutx01-22b1f3c4ac0e47a0ed0e3305661027ee/dash/S29tcGFzIFRW/manifest.mpd?signature=MzQ0NWUzOWYwMjA5ZGQyMDg0OGZjMGJiZWIzMWMwOGQ=&time=15252517625
 #EXTINF:-1 tvg-id="KompasTV.idSD" tvg-logo="https://i.imgur.com/bD6UHeZ.png" group-title="Indonesia;News" http-referrer="https://www.dens.tv/" http-user-agent="Mozilla/5.0 Windows NT 10.0; Win64; x64 AppleWebKit/537.36 KHTML, like Gecko Chrome/144.0.0.0 Safari/537.36",Kompas TV [Geo-blocked]
 #EXTVLCOPT:http-referrer=https://www.dens.tv/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 Windows NT 10.0; Win64; x64 AppleWebKit/537.36 KHTML, like Gecko Chrome/144.0.0.0 Safari/537.36
@@ -259,19 +252,17 @@ https://hgmtv.com:19360/garudatvlivestreaming/480p.m3u8
 https://hgmtv.com:19360/garudatvlivestreaming/garudatvlivestreaming.m3u8
 #EXTINF:-1 tvg-id="zeetamil" tvg-name="MDTV (NET TV)" tvg-logo="http://goldenid.online:80/images/Kq3EOfd7qrP67NwfQ7ovgYfEHo7yCBHQzLa1kW6GsfmlsIsOnjrU7L-x937R4sTCosx6xGzWfHvyV-MS3w1HoAwirSekaR5Y6-vytRYiAO4pKx9Ycf9ftt2W-HUaEnEd.png" group-title="LOKAL INDONESIA™" xui-id="25693",MDTV (NET TV)
 http://goldenid.online:80/play/38ifGdTRCzSHegy1-Yigj763JJsjfeLW0oYFyKjg01K58aOW1e-pg7h216CCumlV
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/apistech/project/refs/heads/main/logo/imageCir_MDTV-180x180-CL_2025_10_08_13_01_28.jpg" group-title="ðŸ‡®ðŸ‡© LOKAL",MDTV
+#EXTINF:-1 tvg-id="MDTV.id" tvg-logo="https://raw.githubusercontent.com/apistech/project/refs/heads/main/logo/imageCir_MDTV-180x180-CL_2025_10_08_13_01_28.jpg" group-title="Indonesia;ðŸ‡®ðŸ‡© LOKAL",MDTV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36 Edg/150.0.0.0
 https://op-flashcon-digdayahd-1.dens.tv/h/h223/index.m3u8
 #EXTINF:-1 tvg-id="MDTV.id" tvg-logo="https://i.imgur.com/N19eGsM.jpeg" group-title="Indonesia" http-referrer="" http-user-agent="",MDTV
 https://op-flashcon-digdayahd-1.dens.tv/h/h223/02.m3u8
 #EXTINF:-1 tvg-id="MDTV.id" tvg-logo="https://i.imgur.com/oaBCedP.jpeg" group-title="Indonesia" http-referrer="" http-user-agent="",MDTV
 http://202.150.161.212:5000/live/channel31/playlist.m3u8
-#EXTINF:-1 tvg-name="MDTV.id" tvg-logo="https://images.indihometv.com/logo_net_big1.png" group-title="Nasional",MDTV
+#EXTINF:-1 tvg-id="MDTV.id" tvg-name="MDTV.id" tvg-logo="https://images.indihometv.com/logo_net_big1.png" group-title="Indonesia;Nasional",MDTV
 #EXTVLCOPT:http-referrer=http://www.dens.tv/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36
 https://op-flashcon-digdayahd-1.dens.tv/h/h223/index.m3u8?app_type=web&userid=lite&chname=MDTV
-#EXTINF:-1 tvg-id="MDTV" tvg-logo="https://thumbor.prod.vidiocdn.com/LCZH_yEBnTYEQzrU1pB7w7ev-Bw=/230x230/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/875/325605.png" group-title="Indonesia Channels" tvg-url="https://raw.githubusercontent.com/apistech/project/refs/heads/main/epgs/guide.xml",MDTV
-https://cdnjktbpid37.cubmu.com/riutx01-22b1f3c4ac0e47a0ed0e3305661027ee/dash/TURUVg/manifest.mpd?signature=OTA5OGQ0NDVkNDc4NWZlM2FlYTQxMmFmNmFiNjU3MzQ=&time=15252517312
 #EXTINF:-1 tvg-id="MDTV.idHD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/MDTV_logo.svg/960px-MDTV_logo.svg.png" group-title="Indonesia;Uncategorized",MDTV (1080p)
 https://wahyu1ptv.pages.dev/MDTV-HD.m3u8
 #EXTINF:-1 tvg-id="RajawaliTV.id" tvg-name="RTV FHD" tvg-logo="http://goldenid.online:80/images/wtFA9pMcOn8VXZ_8fSjA4qfEGmMxxkWMhXnfInRK1v9NDBIiYpJv4XBjX31vy8FdeAREcyYmpTOcyXvd4Mye_qoFt_Lb45DFUSZMJJQ5xHM.jpg" group-title="Indonesia;LOKAL INDONESIA™" xui-id="25732",RTV FHD
@@ -334,9 +325,8 @@ http://goldenid.online:80/play/38ifGdTRCzSHegy1-YigjxxJNDSA6tZdj6VBwHYyX4f3qnbzH
 #EXTVLCOPT:http-referrer=http://www.dens.tv/
 https://op-flashcon-digdayaxenkoda.dens.tv/3118a881-f091-4bd1-b479-3096e823e3ec/stream.m3u8?app_type=web&userid=lite&chname=Berita_Satu
 #EXTINF:-1 tvg-logo="https://img.favpng.com/5/15/14/beritasatu-com-logo-beritasatu-media-holdings-news-png-favpng-ascxjWXRYnY9w2tGEsZusEmJa.jpg" group-title="Indonesia Channels" tvg-url="",Berita Satu
-https://op-flashcon-digdayahd-1.dens.tv/h/h314/S2/mnf.m3u8
-#EXTINF:-1 tvg-logo="https://img.favpng.com/5/15/14/beritasatu-com-logo-beritasatu-media-holdings-news-png-favpng-ascxjWXRYnY9w2tGEsZusEmJa.jpg" group-title="Indonesia Channels" tvg-url="",Berita Satu
-https://cdnjktbpid37.cubmu.com/riutx01-22b1f3c4ac0e47a0ed0e3305661027ee/dash/QmVyaXRhIFNhdHU/manifest.mpd?signature=Y2E1OWY4OWRhYTYzOGFiNzdiZTQ0NzYyZTMwMWNjMWQ=&time=15252520267
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
+https://op-flashcon-digdayahd-1.dens.tv/h/h314/stream.m3u8?app_type=web&userid=lite&chname=Berita_Satu
 #EXTINF:-1 tvg-id="BeritaSatu.idSD" tvg-logo="https://i.postimg.cc/6pycF7Vx/300px-IDTV.png" group-title="Indonesia;News" http-referrer="https://www.beritasatu.com/beritasatu-live-streaming",BeritaSatu (1080p)
 #EXTVLCOPT:http-referrer=https://www.beritasatu.com/beritasatu-live-streaming
 https://xtdslboppkkv-pull.bpmedialive.com/live/beritasatu/abr.m3u8
@@ -1053,12 +1043,10 @@ https://mam.jogjaprov.go.id:1937/tv/jitv_720p/chunklist_w850229424.m3u8
 http://103.255.15.222:1935/tv/jitv_720p/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/ktYodsw.jpeg" group-title="Indonesia;Lokal" http-referrer="" http-user-agent="",Jupnas Gizi (MBG TV)
 https://stream.convergen.co/mbg_stream/smil:mbStream.smil/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/apistech/project/refs/heads/main/logo/image_ch_cartoonito.png" group-title="ðŸ‘« DUNIA ANAK",Cartoonito
+#EXTINF:-1 tvg-id="Cartoonito.id" tvg-logo="https://raw.githubusercontent.com/apistech/project/refs/heads/main/logo/image_ch_cartoonito.png" group-title="Indonesia;ðŸ‘« DUNIA ANAK",Cartoonito
 https://cdnbal1.indihometv.com/atm/DASH/boomerang/boomerang-avc1_2500000=7-3277707030000000.mpd
 #EXTINF:-1 tvg-id="Cartoonito.id" tvg-logo="https://i.pinimg.com/736x/7b/ae/af/7baeafff7f408e5be7136eb1e62d60a8.jpg" group-title="Indonesia;KARTUN ANAK" http-referrer="" http-user-agent="",Cartoonito
 https://cdn10jtedge.indihometv.com/atm/DASH/boomerang/boomerang-avc1_2500000=7-3277707030000000.mpd
-#EXTINF:-1 tvg-id="Cartoonito" tvg-logo="https://i.pinimg.com/736x/7b/ae/af/7baeafff7f408e5be7136eb1e62d60a8.jpg" group-title="Kids Channel" tvg-url="https://raw.githubusercontent.com/apistech/project/refs/heads/main/epgs/guide.xml",Cartoonito
-https://cdnjktbpid37.cubmu.com/riutx01-22b1f3c4ac0e47a0ed0e3305661027ee/dash/Q2FydG9vbml0bw/manifest.mpd
 #EXTINF:-1 tvg-id="CartoonNetwork" tvg-logo="https://raw.githubusercontent.com/apistech/project/refs/heads/main/logo/image_ch_cartoonnetwork.png" group-title="ðŸ‘« DUNIA ANAK",Cartoon Network
 http://202.150.161.212:5000/live/channel27/playlist.m3u8
 #EXTINF:0 tvg-id="3650" tvg-logo="http://epg.one/img2/3650.png" group-title="CAMPURAN" tvg-rec="0",Cartoon Network CA
@@ -1202,10 +1190,8 @@ https://jakarta.staratv.id/hls/0/stream.m3u8
 https://parahyangan.staratv.id/hls/0/stream.m3u8
 #EXTINF:-1 tvg-id="BTV.id" tvg-logo="https://i.ibb.co/WzLwj3X/IMG-20230703-155036.jpg" group-title="Indonesia" http-referrer="" http-user-agent="",B+ TV
 https://tv.btnrwanda.com:3432/live/bpluslive.m3u8
-#EXTINF:-1 tvg-id="Bioskop.Indonesia.id" tvg-logo="https://raw.githubusercontent.com/apistech/project/refs/heads/main/logo/image_ch_bioskopindonesia.png" group-title="Indonesia;ðŸ¿ FILM",Bioskop Indonesia
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/apistech/project/refs/heads/main/logo/image_ch_bioskopindonesia.png" group-title="ðŸ¿ FILM",Bioskop Indonesia
 http://202.150.161.212:5000/live/channel35/playlist.m3u8
-#EXTINF:-1 tvg-id="Bioskop.Indonesia.id" tvg-name="Bioskop Indonesia" tvg-logo="https://www.transvision.co.id/img/channel/bioskop_ind.png" group-title="Indonesia;Indonesian Entertainment & Movies",BIOSKOP INDONESIA
-https://cdnjktbpid37.cubmu.com/riutx01-22b1f3c4ac0e47a0ed0e3305661027ee/dash/Qmlvc2tvcCBJbmRvbmVzaWE/manifest.mpd?signature=ZDNiMjMzOGRhOWRlZjNiMjUxNTI1Zjc0MTgxODE1N2Q=&time=15252526703
 #EXTINF:-1 tvg-id="zeetamil" tvg-name="CCM" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/b/b8/CCM_new_Logo.png/revision/latest?cb=20190603053700" group-title="MOVIES™" xui-id="25987",CCM
 http://goldenid.online:80/play/38ifGdTRCzSHegy1-Yigjx409xB5jm-3nSZutnOMykPKihy0IXNA3dMABxbk__Wh
 #EXTINF:-1 tvg-id="CitraMuslim.id" tvg-name="Citra Muslim" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Logo_Citra_Muslim.png/1200px-Logo_Citra_Muslim.png" group-title="Indonesia;Moslem Channel",Citra Muslim
@@ -1346,8 +1332,6 @@ https://d2xz2v5wuvgur6.cloudfront.net/out/v1/81cb1af2ea4d4842a94f1c83957b4cd2/in
 #EXTINF:-1 tvg-id="Zee.Bioskop.id" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Zee_Bioskop_(2025).svg/960px-Zee_Bioskop_(2025).svg.png" group-title="Indonesia;Lokal" http-referrer="maxstream.tv/tv-channels" http-user-agent="",Zee Bioskop
 #EXTVLCOPT:http-referrer=maxstream.tv/tv-channels
 https://indihuy.streamized.net/atm/DASH/zbioskop/manifest.mpd
-#EXTINF:-1 tvg-id="ZeeBioskop" tvg-logo="https://www.mncvision.id/userfiles/image/channel/channel_23.png" group-title="Premium Movies" tvg-url="https://raw.githubusercontent.com/apistech/project/refs/heads/main/epgs/guide.xml",Zee Bioskop
-https://cdnjktbpid37.cubmu.com/riutx01-22b1f3c4ac0e47a0ed0e3305661027ee/dash/WmVlIEJpb3Nrb3A/manifest.mpd
 #EXTINF:-1 tvg-logo="https://imagesdishtvd2h.whatsonindia.com/dasimages/channel/landscape/360x270/EqDlflgi.png" group-title="Indonesia;Olahraga" http-referrer="" http-user-agent="",Zee Bollywood
 https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Zeebollywood/default/manifest.mpd
 #EXTINF:-1 tvg-id="MNCTV.idHD" tvg-logo="https://i.imgur.com/SK8pjQy.png" group-title="Indonesia;Uncategorized",MNCTV HD (720p)
@@ -7587,30 +7571,19 @@ http://103.71.191.168/8889/hls/live.stream.m3u8
 http://103.71.191.168/8910/hls/live.stream.m3u8
 #EXTINF:-1 tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="CCTV",Sleman Kali Krasak
 http://103.71.191.168/8893/hls/live.stream.m3u8
-#EXTINF:-1 tvg-id="MNCTV" tvg-logo="https://thumbor.prod.vidiocdn.com/H-nyot3OCOIHY7qtKmguKyIUeBw=/230x230/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/870/ca65b5.png" group-title="Indonesia Channels" tvg-url="https://raw.githubusercontent.com/apistech/project/refs/heads/main/epgs/guide.xml",MNC TV
-https://cdnjktbpid37.cubmu.com/riutx01-22b1f3c4ac0e47a0ed0e3305661027ee/dash/TU5DVFY/manifest.mpd?signature=NTQwOTViMjBmNWFjMWU1NTFjOWU0MDA5ZDE5YjdmMDc=&time=15252516542
 #EXTINF:-1 tvg-id="TransTV" tvg-logo="https://thumbor.prod.vidiocdn.com/__j35q7LPpcS2EgkR7v8GpE4USQ=/230x230/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/733/ecaa60.png" group-title="Indonesia Channels" tvg-url="https://raw.githubusercontent.com/apistech/project/refs/heads/main/epgs/guide.xml",TransTV HD
-https://cdnjktbpid37.cubmu.com/riutx01-22b1f3c4ac0e47a0ed0e3305661027ee/dash/VHJhbnNUVg/manifest.mpd?signature=YzlhZjY0NjFmZjA0ZmVhOWZhOWNhYTM4ODZjYWQ0YzI=&time=15252516755
+#EXTVLCOPT:http-referer=https://www.cnbcindonesia.com/
+#EXTVLCOPT:http-origin=https://20.detik.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+https://green-night-d2b4.iontv.workers.dev/transtv.m3u8
 #EXTINF:-1 tvg-id="HBO" tvg-logo="https://iili.io/Ju79f8g.png" group-title="HBO Group" tvg-url="https://raw.githubusercontent.com/apistech/project/refs/heads/main/epgs/guide.xml",HBO
-https://cdnjktbpid37.cubmu.com/riutx01-22b1f3c4ac0e47a0ed0e3305661027ee/dash/SEJPLW15/manifest.mpd
-#EXTINF:-1 tvg-id="HBOFamily" tvg-logo="https://iili.io/Ju79otR.png" group-title="HBO Group" tvg-url="https://raw.githubusercontent.com/apistech/project/refs/heads/main/epgs/guide.xml",HBO Family
-https://cdnjktbpid37.cubmu.com/riutx01-22b1f3c4ac0e47a0ed0e3305661027ee/dash/SEJPLUZhbWlseS1teQ/manifest.mpd
+http://tv.cloudcdn.me/live.ts?channelId=132161&uid=10223&deviceMac=00:1A:79:07:07:43
 #EXTINF:-1 tvg-id="HBOHits" tvg-logo="https://iili.io/Ju79nwv.png" group-title="HBO Group" tvg-url="https://raw.githubusercontent.com/apistech/project/refs/heads/main/epgs/guide.xml",HBO Hits
-https://cdnjktbpid37.cubmu.com/riutx01-22b1f3c4ac0e47a0ed0e3305661027ee/dash/SEJPIEhpdHM/manifest.mpd
-#EXTINF:-1 tvg-id="HBOSignature" tvg-logo="https://iili.io/Ju79IMN.png" group-title="HBO Group" tvg-url="https://raw.githubusercontent.com/apistech/project/refs/heads/main/epgs/guide.xml",HBO Signature
-https://cdnjktbpid37.cubmu.com/riutx01-22b1f3c4ac0e47a0ed0e3305661027ee/dash/SEJPLVNpZ25hdHVyZS1teQ/manifest.mpd
-#EXTINF:-1 tvg-id="CINEMAX" tvg-logo="https://iili.io/Ju79znp.png" group-title="HBO Group" tvg-url="https://raw.githubusercontent.com/apistech/project/refs/heads/main/epgs/guide.xml",Cinemax
-https://cdnjktbpid37.cubmu.com/riutx01-22b1f3c4ac0e47a0ed0e3305661027ee/dash/Q2luZW1heA/manifest.mpd
-#EXTINF:-1 tvg-id="AXN" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/b/bb/AXN_2011.png/revision/latest?cb=20201126072546" group-title="Premium Movies" tvg-url="https://raw.githubusercontent.com/apistech/project/refs/heads/main/epgs/guide.xml",AXN
-https://cdnjktbpid37.cubmu.com/riutx01-22b1f3c4ac0e47a0ed0e3305661027ee/dash/QVhOLW15/manifest.mpd
+http://tv.cloudcdn.me/live.ts?channelId=132160&uid=10223&deviceMac=00:1A:79:07:07:43
 #EXTINF:-1 tvg-id="AXN" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/b/bb/AXN_2011.png/revision/latest?cb=20201126072546" group-title="Premium Movies" tvg-url="https://raw.githubusercontent.com/apistech/project/refs/heads/main/epgs/guide.xml",AXN (V+)
 https://cdnbal1.indihometv.com/atm/DASH/axn/axn-avc1_2500000=7-3277707030000000.mpd
 #EXTINF:-1 tvg-id="Thrill" tvg-logo="https://www.mncvision.id/userfiles/image/channel/thrill_150x150px.jpg" group-title="Premium Movies" tvg-url="https://raw.githubusercontent.com/apistech/project/refs/heads/main/epgs/guide.xml",Thriil
 https://cdnjktbpid37.cubmu.com/riutx01-22b1f3c4ac0e47a0ed0e3305661027ee/dash/VGhyaWxs/manifest.mpd?signature=ZjgzZjk3MzdmZTA4M2Q3YjYxNjhkZGQ3OWE4M2VkZmU=&time=15252527005
-#EXTINF:-1 tvg-id="CelestialMoviesIndonesia" tvg-logo="https://alchetron.com/cdn/celestial-movies-bb30cf54-c796-47e1-aa8f-f2b8bdbbf5a-resize-750.png" group-title="Premium Movies" tvg-url="https://raw.githubusercontent.com/apistech/project/refs/heads/main/epgs/guide.xml",Celestial Movies (V+)
-https://cdnjktbpid37.cubmu.com/riutx01-22b1f3c4ac0e47a0ed0e3305661027ee/dash/Q2VsZXN0aWFsIE1vdmllcw/manifest.mpd?signature=MDE1YjMzN2M1OGRmYmFiOGY1OWFkZDk1OTMwYzc1NTU=&time=15252527062
-#EXTINF:-1 tvg-id="CinemaWorld.mySD" tvg-logo="https://raw.githubusercontent.com/apistech/project/refs/heads/main/logo/image_ch_cinemaworld.png" group-title="Malaysia;Premium Movies",CinemaWorld
-https://cdnjktbpid37.cubmu.com/riutx01-22b1f3c4ac0e47a0ed0e3305661027ee/dash/Q2luZW1hIFdvcmxk/manifest.mpd
 #EXTINF:-1 tvg-id="Arirang" tvg-logo="https://www.mncvision.id/userfiles/image/channel/channel_351.png" group-title="Korean Channels" tvg-url="https://raw.githubusercontent.com/apistech/project/refs/heads/main/epgs/guide.xml",Arirang (V+)
 https://dv6fza91pwlw3.cloudfront.net/out/v1/6f059cfe2653405aab54a7887f92ac39/index.mpd
 #EXTINF:-1 tvg-id="KBSWorld.krSD" tvg-logo="https://raw.githubusercontent.com/apistech/project/refs/heads/main/logo/image_ch_kbsworld.png" group-title="South Korea;Korean Channels",KBS World
@@ -7627,12 +7600,8 @@ https://live.corusdigitaldev.com/groupa/live/c0ebcb53-b9fa-4359-830b-714eb459c6d
 http://ott.tv5monde.com/Content/HLS/Live/channel(style1)/index.m3u8
 #EXTINF:-1 tvg-logo="https://images.ctfassets.net/xjuw11dfold3/7D9R6Lt76cBTPyRRpV9eit/64aba6ff966a6b286cbadd55aaf2d0ab/BBC-client-logo-256x256.png" group-title="Knowledge and Documentary" group-logo="https://pngimg.com/d/Documentary_PNG18.png",BBC Treasures
 https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/aczgdiuxsu/out/v1/31374ef324ce4bd2bd278b78f4a97d60/cenc.mpd?encoding=segmentBase
-#EXTINF:-1 tvg-id="WarnerTV" tvg-logo="https://images.indihometv.com/assets/88_WARNER_2025_03_17_15_11_51.png" group-title="Entertainment & LifeStyle" tvg-url="https://raw.githubusercontent.com/apistech/project/refs/heads/main/epgs/guide.xml",Warner TV
-https://cdnjktbpid37.cubmu.com/riutx01-22b1f3c4ac0e47a0ed0e3305661027ee/dash/V2FybmVyIFRW/manifest.mpd
 #EXTINF:-1 tvg-id="HitsNow" tvg-logo="https://www.visionplus.id/images/repository/376/612376-LOGO-m.png" group-title="Entertainment & LifeStyle" tvg-url="https://raw.githubusercontent.com/apistech/project/refs/heads/main/epgs/guide.xml",HitsNow
 https://d2xz2v5wuvgur6.cloudfront.net/out/v1/73b9fdd0cd0e4570b482c92fa43ecda9/index.mpd
-#EXTINF:-1 tvg-id="ABCAustralia" tvg-logo="https://i.imgur.com/kHM0jUd.png" group-title="Entertainment & LifeStyle" tvg-url="https://raw.githubusercontent.com/apistech/project/refs/heads/main/epgs/guide.xml",ABC Australia
-https://cdnjktidc01.transvision.co.id/epyc-tx01/dash/QUJDIEF1c3RyYWxpYQ/manifest_cc.mpd?signature=MzQxNzUwYWU3NmEzNzYyNmI2YjhhYjAwMjRhMjM5ODY=&time=15252530634
 #EXTINF:-1 tvg-id="TV5Monde" tvg-logo="https://w7.pngwing.com/pngs/573/795/png-transparent-france-tv5monde-television-channel-streaming-media-france-television-blue-text.png" group-title="Entertainment & LifeStyle" tvg-url="https://raw.githubusercontent.com/apistech/project/refs/heads/main/epgs/guide.xml",TV5 Monde (V+)
 https://d3b0v7fggu5zwm.cloudfront.net/out/v1/16374447d35a49a596b9ff6cda259fe0/index.mpd
 #EXTINF:-1 group-title="Entertainment & LifeStyle",NEW KFOOD
@@ -7643,22 +7612,14 @@ https://a76aivottlinear-a.akamaihd.net/OTTB/pdx-nitro/live/clients/dash/enc/wrc2
 https://a82aivottlinear-a.akamaihd.net/OTTB/PDX/clients/dash-sd/enc/djm9xxvfud/out/v1/745da049932d4db4b5148638ed3c08f0/cenc-sd.mpd
 #EXTINF:-1 group-title="Entertainment & LifeStyle",Tastemade
 https://a82aivottlinear-a.akamaihd.net/OTTB/PDX/clients/dash-sd/enc/jkn6ehrlni/out/v1/9af4f7d76c5f4d4fb0e55c19733d6652/cenc-sd.mpd
-#EXTINF:-1 tvg-logo="https://download.logo.wine/logo/First_Media_(Indonesian_TV_channel)/First_Media_(Indonesian_TV_channel)-Logo.wine.png" group-title="Entertainment & LifeStyle" tvg-url="https://raw.githubusercontent.com/apistech/project/refs/heads/main/epgs/guide.xml",First Lifestyle
-https://atemecdnbalancer-voe.sysln.id/live/eds/FirstLifestyleHD/mediampd/FirstLifestyleHD.mpd
 #EXTINF:-1 tvg-id="DensFoodChannel" tvg-logo="https://picture.dens.tv/wp/img/whatson_v2/1280x720/Logo%20DFC.png" group-title="Entertainment & LifeStyle" tvg-url="https://raw.githubusercontent.com/apistech/project/refs/heads/main/epgs/guide.xml",Dens Food Channel (DensTV)
 https://op-flashcon-digdayahd-1.dens.tv/h/h221/02.m3u8
 #EXTINF:-1 tvg-id="DensShowBiz" tvg-logo="https://e7.pngegg.com/pngimages/893/782/png-clipart-competitive-dance-competition-award-talent-show-award-love-television.png" group-title="Entertainment & LifeStyle" tvg-url="https://raw.githubusercontent.com/apistech/project/refs/heads/main/epgs/guide.xml",Dens ShowBiz (DENSTV)
 https://op-flashcon-digdayahd-1.dens.tv/h/h244/02.m3u8
 #EXTINF:-1 tvg-logo="https://picture.dens.tv/wp/img/tvchannels_v1/340x160/1687501284_tvchannels_v1.jpg" group-title="Entertainment & LifeStyle" tvg-url="https://raw.githubusercontent.com/apistech/project/refs/heads/main/epgs/guide.xml",Dens Life & Style (DensTV)
 https://op-flashcon-digdayahd-1.dens.tv/h/h222/02.m3u8
-#EXTINF:-1 tvg-id="TV5Monde" tvg-logo="https://w7.pngwing.com/pngs/573/795/png-transparent-france-tv5monde-television-channel-streaming-media-france-television-blue-text.png" group-title="Entertainment & LifeStyle" tvg-url="https://raw.githubusercontent.com/apistech/project/refs/heads/main/epgs/guide.xml",TV5 Monde
-https://cdnjktbpid37.cubmu.com/riutx01-22b1f3c4ac0e47a0ed0e3305661027ee/dash/VFY1IE1vbmRl/manifest.mpd
-#EXTINF:-1 tvg-id="FashionTV" tvg-logo="https://i.pinimg.com/564x/26/0d/97/260d9789cdda7b9e85099e80f5ca0a2f.jpg" group-title="Entertainment & LifeStyle" tvg-url="https://raw.githubusercontent.com/apistech/project/refs/heads/main/epgs/guide.xml",Fashion TV
-https://cdnjktbpid37.cubmu.com/riutx01-22b1f3c4ac0e47a0ed0e3305661027ee/dash/RmFzaGlvbiBUVg/manifest.mpd?signature=OTRiNDJlNWVjYjkxZGE4NTRlNjY5ZTA2NTQyN2JmZWQ=&time=15252527605
 #EXTINF:-1 tvg-id="Animax" tvg-logo="https://w7.pngwing.com/pngs/386/630/png-transparent-animax-sony-yay-anime-television-sony-s-networks-india-ebay-korea-co-ltd-blue-text-trademark.png" group-title="Kids Channel" tvg-url="https://raw.githubusercontent.com/apistech/project/refs/heads/main/epgs/guide.xml",Animax (V+)
 https://d84q7nw4qf3j3.cloudfront.net/out/v1/ab3ef0f0e4144c3c8b7e60f1873a3bcc/index.mpd
-#EXTINF:-1 tvg-logo="https://servicebuss.transvision.co.id/hospitality/v1/files/channel_image/76e39ba2-62b9-4f96-90ae-3de803edb400.png" group-title="Kids Channel",Dunia Anak
-https://cdnjktbpid37.cubmu.com/riutx01-22b1f3c4ac0e47a0ed0e3305661027ee/dash/RHVuaWEgQW5haw/manifest.mpd?signature=N2Q5NWE4Nzg3MDFiYWRjYjYwOWI1NWU1YmMyN2Y5MGQ=&time=15252527173
 #EXTINF:-1 tvg-id="USA.BOOMERANG" tvg-name="USA BOOMERANG" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/a/a4/Boomerang_TV_Logo_%282004-2015%29.png" group-title="Bolivia;Kids Channel",BOOMERANG
 https://23.237.104.106:8080/USA_BOOMERANG/index.m3u8
 #EXTINF:-1 tvg-logo="https://media.info/l/o/6/6469.1480802065.png" group-title="Kids Channel",ABC Cartoons
@@ -7679,12 +7640,6 @@ https://abc-iview-mediapackagestreams-2.akamaized.net/out/v1/f160f706ecde4707ac4
 https://202.169.224.202:8800/udp/239.9.1.28:1234
 #EXTINF:-1 tvg-id="disneychannel" tvg-name="__" tvg-logo="https://assets.stacktv.ca/wp-content/uploads/2023/09/disney-channel.png" group-title="Kids Channel",Disney Channel
 https://a77aivottepl-a.akamaihd.net/pdx-nitro/live/clients/dash/enc/zuf794yutz/out/v1/ca3534bfe4f148298b36719204d108e0/cenc.mpd
-#EXTINF:-1 tvg-logo="https://servicebuss.transvision.co.id/hospitality/v1/files/channel_image/9e422d53-5c00-49ea-8422-e2a3f1e03f70.jpg" group-title="Kids Channel",Cartoon TV
-https://cdnjktbpid37.cubmu.com/riutx01-22b1f3c4ac0e47a0ed0e3305661027ee/dash/Q2FydG9vbiBUVg/manifest.mpd?signature=NDcxNmM3YmZmN2M2Mjc1NzBmZmExNGI4NGFjNWQ5MzU=&time=15252527353
-#EXTINF:-1 tvg-logo="https://servicebuss.transvision.co.id/hospitality/v1/files/channel_image/6e735e2f-e7db-47ec-b13b-23d3a0342124.jpg" group-title="Kids Channel",Cartoon TV Premium
-https://cdnjktbpid37.cubmu.com/riutx01-22b1f3c4ac0e47a0ed0e3305661027ee/dash/Q2FydG9vbiBUViBQcmVtaXVt/manifest.mpd?signature=MWI2OGMzOWE4Nzg0NTk2MzY3NzI0NWE4ZjUzZTE3MTk=&time=15252527263
-#EXTINF:-1 tvg-logo="https://servicebuss.transvision.co.id/hospitality/v1/files/channel_image/87c43b67-b234-41a8-b188-ae6b498a40b4.jpg" group-title="Kids Channel",Cartoon TV Classic
-https://cdnjktbpid37.cubmu.com/riutx01-22b1f3c4ac0e47a0ed0e3305661027ee/dash/Q2FydG9vbiBUViBDbGFzc2ljcw/manifest.mpd?signature=ZGM2NzU3ZDA5NDZmYzI0MmRhMTZlOTgwYTZlMWEyYWE=&time=15252527451
 #EXTINF:-1 tvg-id="MusicTV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/0/04/Music_TV_%282020%29.png" group-title="Music" tvg-url="https://raw.githubusercontent.com/apistech/project/refs/heads/main/epgs/guide.xml",Musik TV
 https://d84q7nw4qf3j3.cloudfront.net/out/v1/c20d75deb06f401aa89681a9e5054de7/index.mpd
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/SQTLjRnj/ezgif-4e840dec9df68523.png" group-title="Music",MUSICA
