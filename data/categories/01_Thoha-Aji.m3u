@@ -1,36 +1,36 @@
 #EXTM3U
 #EXT-X-SESSION-DATA:DATA-ID="com.xui.1_5_12r2"
-#EXTINF:-1 xui-id="25481" tvg-id="DiscoveryChannelIndonesia.id" tvg-name="Discovery Channel" tvg-logo="http://goldenid.online:80/images/981adeae3ad4952ebbe1c07b743bce65.jpg" group-title="KNOWLEDGE™",Discovery Channel
+#EXTINF:-1 xui-id="25481" tvg-id="DiscoveryChannelIndonesia.id" tvg-name="Discovery Channel" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTBHQhjowa3NlYU1Cbr1pwlgTckhrsZMMl5Vl7B5yR3dDyRtrSb3KVJZs&s=10" group-title="KNOWLEDGE™",Discovery Channel
 http://goldenid.online:80/play/38ifGdTRCzSHegy1-Yigj-PlzCwDPMln3ewPs0uV_rTcpH_O2F-sdagpbtlRgAls
-#EXTINF:-1 xui-id="25482" tvg-id="ABCAustralia.au" tvg-name="Crime Investigation" tvg-logo="http://goldenid.online:80/images/c4c132594d22dd78c3752439447ca55c.png" group-title="KNOWLEDGE™",Crime Investigation
+#EXTINF:-1 xui-id="25482" tvg-id="ABCAustralia.au" tvg-name="Crime Investigation" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8-lVRxOzF15g0srcTegyMKNZ0K8lPEt6YVkmlhxZHzA&s=10" group-title="KNOWLEDGE™",Crime Investigation
 http://goldenid.online:80/play/38ifGdTRCzSHegy1-Yigj-PlzCwDPMln3ewPs0uV_rQq8ab3yjv1u2OWyPiKPd8j
-#EXTINF:-1 xui-id="25484" tvg-id="HistoryAsia.us" tvg-name="History" tvg-logo="http://goldenid.online:80/images/dd44b8f7d1f2572a29404c024f14b98c.png" group-title="KNOWLEDGE™",History
+#EXTINF:-1 xui-id="25484" tvg-id="HistoryAsia.us" tvg-name="History" tvg-logo="http://goldenid.online:80/images/5J7qHBE9SOVuovtHMZ9QQSxA4CyCV7l32G78LY5P5RbEsPSOjla5z-ilONQeVxK42ohqw4GM_X7gqDB5Bc9zBDAnFv3rxEkdeV87WyiMJNttyN6Z2_bpDUqliaFlbnqzX2Q079FIkxeRQI5UEiBClw.png" group-title="KNOWLEDGE™",History
 http://goldenid.online:80/play/38ifGdTRCzSHegy1-Yigj-PlzCwDPMln3ewPs0uV_rT1prUhcPEk28TkGYn56We5
-#EXTINF:-1 xui-id="25486" tvg-id="HGTVAsia.us" tvg-name="HGTV" tvg-logo="http://goldenid.online:80/images/be8b44162c670d2052f771303630a3fa.png" group-title="KNOWLEDGE™",HGTV
+#EXTINF:-1 xui-id="25486" tvg-id="HGTVAsia.us" tvg-name="HGTV" tvg-logo="http://goldenid.online:80/images/KZao1_vrRnyAXoORbFsIfovKZgX5rIHPus4erfeq9kAko2qxIm59wjipCVOz0wMR07qBTF1AuhL1Y_bDgMYXL7mGgWgv8mQMH5XZLHKuREgDdnc2SxYRGd2Vlnu90yIE.jpg" group-title="KNOWLEDGE™",HGTV
 http://goldenid.online:80/play/38ifGdTRCzSHegy1-Yigj-PlzCwDPMln3ewPs0uV_rRZo8l59JsXJ0EjiclFmlKd
-#EXTINF:-1 xui-id="25487" tvg-id="LoveNature.id" tvg-name="LOVE NATURE" tvg-logo="http://goldenid.online:80/images/f786365c2f89fdd61e383cc7cbdbceb7.png" group-title="KNOWLEDGE™",LOVE NATURE
+#EXTINF:-1 xui-id="25487" tvg-id="LoveNature.id" tvg-name="LOVE NATURE" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcoOUNMC8d8La9ozeRz9cmmD2-UF_2vl7cP85WpAwGV9BZQHQOEpxNRws&s=10" group-title="KNOWLEDGE™",LOVE NATURE
 http://goldenid.online:80/play/38ifGdTRCzSHegy1-Yigj-PlzCwDPMln3ewPs0uV_rReh3L06InK8lmLcoMCqS6C
-#EXTINF:-1 xui-id="25488" tvg-id="Smithsonian.id" tvg-name="SMITHSONIAN" tvg-logo="http://goldenid.online:80/images/584bc3d8908e718f2127e002a1a1fb0f.png" group-title="KNOWLEDGE™",SMITHSONIAN
+#EXTINF:-1 xui-id="25488" tvg-id="Smithsonian.id" tvg-name="SMITHSONIAN" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEBpgVuZFeko_vVwQU5jsUQq3wZ-BUz1pW6XZzVeKdlAxdD0hjxqbxxR8&s=10" group-title="KNOWLEDGE™",SMITHSONIAN
 http://goldenid.online:80/play/38ifGdTRCzSHegy1-Yigj-PlzCwDPMln3ewPs0uV_rQoAwbv2F78k2FsKan942j0
 #EXTINF:-1 xui-id="25489" tvg-id="BBCEarthAsia.uk" tvg-name="BBC Earth" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEb-bfa8UypsRLUKAO_oIx_NN4Gdn8scvX74WOiW1KB5GAr80a" group-title="KNOWLEDGE™",BBC Earth
 http://goldenid.online:80/play/38ifGdTRCzSHegy1-Yigj-PlzCwDPMln3ewPs0uV_rSVCY_rnG33N7LXSYzOktsD
 #EXTINF:-1 xui-id="25492" tvg-id="ABCAustralia.au" tvg-name="Animal Planet" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmih4pBRw9maQs9GAXjwXYWQhpmmi2BZkrv5JSXwDbtFESYi6f" group-title="KNOWLEDGE™",Animal Planet
 http://goldenid.online:80/play/38ifGdTRCzSHegy1-Yigjwh08CZXbBdDgRdYeVteQyYCDnUoKHHBkVwiqZTCWk87
-#EXTINF:-1 xui-id="26062" tvg-id="" tvg-name="Boomerang" tvg-logo="http://goldenid.online:80/images/hlyZzTYP7-VGVtlLXi4Eb0a3n1covb5MeDe7_EY8otHVkhXC5SvFmT83hzRwGXI1Hse7l-_uQm-kbgQqnwIju-zrcTDr15xTf3e242hMwZc.png" group-title="KIDS™",Boomerang
+#EXTINF:-1 xui-id="26062" tvg-id="" tvg-name="Boomerang" tvg-logo="http://goldenid.online:80/images/KZao1_vrRnyAXoORbFsIfovKZgX5rIHPus4erfeq9kBLrjqkDS1W33572Z8SyccvVqOU3penL06-MBT940wALRqxC93uJ6D86VFH_PWhf7fu9udhXbSDEsAAoEAaGzse0xeVMxkf96Q5ezgO0yYy5Q.jpg" group-title="KIDS™",Boomerang
 http://goldenid.online:80/play/38ifGdTRCzSHegy1-Yigj6KIYsuDL-QvxZWyEjO4dZ0xekkS8tLLDN3iBxALvuvp
-#EXTINF:-1 xui-id="22720" tvg-id="" tvg-name="Madinah tv" tvg-logo="https://yt3.googleusercontent.com/ytc/APkrFKb5WC9U7-XWkaPCvWIeYpguoDSh2npsu5GNwOb_=s900-c-k-c0x00ffffff-no-rj" group-title="RELIGIUS™",Madinah tv
+#EXTINF:-1 xui-id="22720" tvg-id="" tvg-name="Madinah tv" tvg-logo="https://yt3.googleusercontent.com/aYNpRy3d8JacUFIYLbHyiIcml6DVTaFa0g795tMfxkif0RE3r8ijDyT7cMmWkNerfKlPWR7g01Y=s900-c-k-c0x00ffffff-no-rj" group-title="RELIGIUS™",Madinah tv
 http://goldenid.online:80/play/38ifGdTRCzSHegy1-Yigj2STxMIbc_0wM6sfBDdL7D3UdfnL0kmCnt1hmaX3l6Ca
 #EXTINF:-1 xui-id="25988" tvg-id="" tvg-name="DTG Film Indonesia (Indonesia Subtittle)" tvg-logo="https://www.dropbox.com/s/vbhebtyqqlr638g/dtg%20film%20indonesia.png?dl=1" group-title="BIOSKOP™",DTG Film Indonesia (Indonesia Subtittle)
 http://goldenid.online:80/play/38ifGdTRCzSHegy1-Yigjx409xB5jm-3nSZutnOMykMo6Evj2ZD13FvKAbZyDUFl
-#EXTINF:-1 xui-id="26000" tvg-id="zeecinema" tvg-name="Cinemax" tvg-logo="http://goldenid.online:80/images/bda7b2deb6fea32e9321f9f9809bec3f.png" group-title="MOVIES™",Cinemax
+#EXTINF:-1 xui-id="26000" tvg-id="zeecinema" tvg-name="Cinemax" tvg-logo="https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-thumbnail/s3/112012/untitled-1_148.png?itok=HihIl7g2" group-title="MOVIES™",Cinemax
 http://goldenid.online:80/play/38ifGdTRCzSHegy1-Yigj35hzEgzQKSERXbJKnF6-CiucFMduIMYeBCCJFxSiciS
-#EXTINF:-1 xui-id="23399" tvg-id="zeetamil" tvg-name="AXN" tvg-logo="http://goldenid.online:80/images/0683bc16e709d02e5bc763c367d2aa23.png" group-title="ENTERTAINMENT™",AXN
+#EXTINF:-1 xui-id="23399" tvg-id="zeetamil" tvg-name="AXN" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVVLh9sENWt9qOpFpxNwGmzqMjQ9Mi83TSm-iGi6zRuA&s" group-title="ENTERTAINMENT™",AXN
 http://goldenid.online:80/play/38ifGdTRCzSHegy1-Yigj9rcHnKjUmNP0wnv2WPOEikBZgMZ7Cki-4bwoZFOkffi
 #EXTINF:-1 xui-id="23405" tvg-id="zeetamil" tvg-name="AFN" tvg-logo="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQr1HpT4Hel5kE8scP0OFUgsT7__4MIICMhS5jHunStPJVUGo0A" group-title="ENTERTAINMENT™",AFN
 http://goldenid.online:80/play/38ifGdTRCzSHegy1-YigjwVKVxYAN_T5AdS2JfX7rZ-NnZbNRoQKXb1cQqIJMXXv
-#EXTINF:-1 xui-id="23427" tvg-id="" tvg-name="Lifetime" tvg-logo="http://goldenid.online:80/images/b2a6894eaad18079cdd34cefc2b67ea6.jpg" group-title="ENTERTAINMENT™",Lifetime
+#EXTINF:-1 xui-id="23427" tvg-id="" tvg-name="Lifetime" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROxZZ8K-AAbwkhsRwtCffpS3-aDET0ZfgKPNUfenaRLegPoz8cLBKydmiP&s=10" group-title="ENTERTAINMENT™",Lifetime
 http://goldenid.online:80/play/38ifGdTRCzSHegy1-Yigj2TNO5ui9q0ILaeBYLNBSOonvUe6DvySwy4ztBES8jNh
-#EXTINF:-1 xui-id="25974" tvg-id="IMC.id" tvg-name="TVN" tvg-logo="http://goldenid.online:80/images/626039285efb9be577d0180c7508a3d9.png" group-title="ENTERTAINMENT™",TVN
+#EXTINF:-1 xui-id="25974" tvg-id="IMC.id" tvg-name="TVN" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwfAo6Rqv0RtEho_qbqvgHhagA3BfAKOceTmAjsYNMHXUsLnYhIa-bHdw&s=10" group-title="ENTERTAINMENT™",TVN
 http://goldenid.online:80/play/38ifGdTRCzSHegy1-Yigj3CSsg-vrMgegQqQO4Y3OyRglSlJTyEzbYK5Lq5zYzFG
 #EXTINF:-1 xui-id="25017" tvg-id="SPOTV" tvg-name="Spo TV 1" tvg-logo="http://goldenid.online:80/images/68def51fc05d0b75c003e5599fcfc77d.png" group-title="SPORT INDO™",Spo TV 1
 http://goldenid.online:80/play/38ifGdTRCzSHegy1-Yigj1lQ6gdYDstn9oPUAeLdTVnaxUP-XzjhK6txnP0FKjPD
@@ -40,45 +40,45 @@ http://goldenid.online:80/play/38ifGdTRCzSHegy1-Yigj32eV-Dv2DZNfykEGMQcBMjMB--OI
 http://goldenid.online:80/play/38ifGdTRCzSHegy1-Yigj81Uy_ftJF39lvtwL1dgfGkyXBduNHLvex-X3EiBFF1u
 #EXTINF:-1 xui-id="25735" tvg-id="globaltrekker" tvg-name="CNN Indonesia HD" tvg-logo="https://awsimages.detik.net.id/community/media/visual/2015/10/22/04ebea0b-b41b-4ece-b7e2-b670ae73cc6d_11.jpg?w=600&q=90" group-title="NEWS™",CNN Indonesia HD
 http://goldenid.online:80/play/38ifGdTRCzSHegy1-Yigj0WiE4bR3YeAGTu2xhRkbkGg71d3y1G0HSrTdeRaLTlE
-#EXTINF:-1 xui-id="25736" tvg-id="CNBCIndonesia.id" tvg-name="CNBC Indonesia HD" tvg-logo="http://goldenid.online:80/images/cd3e280582172608c3eb18556f157023.png" group-title="NEWS™",CNBC Indonesia HD
+#EXTINF:-1 xui-id="25736" tvg-id="CNBCIndonesia.id" tvg-name="CNBC Indonesia HD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrOya6XG_WiEqRcFlfG4TXConww7Fw5TQEJ2o3iZ__sGlp7o6HOtw4skNL&s=10" group-title="NEWS™",CNBC Indonesia HD
 http://goldenid.online:80/play/38ifGdTRCzSHegy1-Yigj0WiE4bR3YeAGTu2xhRkbkE1GqNkZIdcmaVNHmsFt0bp
-#EXTINF:-1 xui-id="39527" tvg-id="ABCAustralia.au" tvg-name="TVN Movies" tvg-logo="http://goldenid.online:80/images/91c094ff4606a76ec1389e6c6e5fb9cc.png" group-title="ENTERTAINMENT™",TVN Movies
+#EXTINF:-1 xui-id="39527" tvg-id="ABCAustralia.au" tvg-name="TVN Movies" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREznhnJWTCfRKYZcORhbj6SGu1gS1pp-caE_JaoWQv1OYd5p5cIkiwtZA&s=10" group-title="ENTERTAINMENT™",TVN Movies
 http://goldenid.online:80/play/38ifGdTRCzSHegy1-Yigj3LQHBO4LcFdLawwrk5UOUK_sKpJZRy7ck-D1Ns-gLaq
-#EXTINF:-1 xui-id="25976" tvg-id="globaltrekker" tvg-name="Thrill" tvg-logo="http://goldenid.online:80/images/fb047b86e86fba63a30664f010bca3dd.png" group-title="MOVIES™",Thrill
+#EXTINF:-1 xui-id="25976" tvg-id="globaltrekker" tvg-name="Thrill" tvg-logo="http://goldenid.online:80/images/8yteooFEWyU3h8QX5OOteEHTwHKLRPCN0bHVi5mJozEPtx4QY3C0jDhmKKXPYqh4BhqF1SL1oCAy_tre3T1PzRoiYIXBA7gm7T0UZnJr4J8.png" group-title="MOVIES™",Thrill
 http://goldenid.online:80/play/38ifGdTRCzSHegy1-Yigj3CSsg-vrMgegQqQO4Y3OyRUajYg6YO_EaX8WzvIx4A0
-#EXTINF:-1 xui-id="25977" tvg-id="raniahd" tvg-name="Celestial Movie" tvg-logo="http://goldenid.online:80/images/545da4ef156272730a6079cd7ff55947.png" group-title="MOVIES™",Celestial Movie
+#EXTINF:-1 xui-id="25977" tvg-id="raniahd" tvg-name="Celestial Movie" tvg-logo="http://goldenid.online:80/images/Da6zIztbLWQuHYs6ARcysKm89rYKdbXCAc4J8LFc8slg7wZBtRAEkuUXEPK9omaXS3MtKFmGHBH-V8qtThD35RINcA9jnS98BqsIva99Vy8.jpg" group-title="MOVIES™",Celestial Movie
 http://goldenid.online:80/play/38ifGdTRCzSHegy1-Yigj3CSsg-vrMgegQqQO4Y3OyS2NfWgUCpemQzNDrTEFN-A
-#EXTINF:-1 xui-id="25980" tvg-id="zeetamil" tvg-name="Flik" tvg-logo="http://goldenid.online:80/images/a9bf542fb4804d4c035d23b473b030fd.png" group-title="MOVIES™",Flik
+#EXTINF:-1 xui-id="25980" tvg-id="zeetamil" tvg-name="Flik" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTaaVdtYwNMFdcsPXqsLptinm7TN28LissLMdyVNyhZzFv9Z5NfNg-EGms&s=10" group-title="MOVIES™",Flik
 http://goldenid.online:80/play/38ifGdTRCzSHegy1-Yigjx409xB5jm-3nSZutnOMykO8osKDkq5uUZMBiganM7TY
-#EXTINF:-1 xui-id="25981" tvg-id="zeetamil" tvg-name="Galaxy" tvg-logo="http://goldenid.online:80/images/460ed0b23d192363cba7563b04bf0240.png" group-title="MOVIES™",Galaxy
+#EXTINF:-1 xui-id="25981" tvg-id="zeetamil" tvg-name="Galaxy" tvg-logo="https://img.magnific.com/premium-vector/galaxy-logo-with-celestial-orbits-starry-accents_1313464-2056.jpg?semt=ais_hybrid&w=740&q=80" group-title="MOVIES™",Galaxy
 http://goldenid.online:80/play/38ifGdTRCzSHegy1-Yigjx409xB5jm-3nSZutnOMykNMYe_WGvIwbJRoXdps2mpK
-#EXTINF:-1 xui-id="25982" tvg-id="raniahd" tvg-name="Galaxy Premium" tvg-logo="http://goldenid.online:80/images/8feba044e918d385625dd387e77c6816.png" group-title="MOVIES™",Galaxy Premium
+#EXTINF:-1 xui-id="25982" tvg-id="raniahd" tvg-name="Galaxy Premium" tvg-logo="http://goldenid.online:80/images/GU4q2lB7Vbt14UTviARCQTBlDzTASuMe75R0uoju1AgaGbJ3HT6BpZB8YHduhXmgFOlkoUE_HURVsH1wVuu-Ev8z1Y7HPcbAbA2XHDLca93UUD7k_tOmR461zhsMNG4Q.jpg" group-title="MOVIES™",Galaxy Premium
 http://goldenid.online:80/play/38ifGdTRCzSHegy1-Yigjx409xB5jm-3nSZutnOMykMAm9N5sGEAjc5qJgQM7NPP
-#EXTINF:-1 xui-id="25986" tvg-id="ZeeBioskop.id" tvg-name="Zee Bioskop" tvg-logo="http://goldenid.online:80/images/a0868be4e009f90bbba8e11b7f69eafa.png" group-title="MOVIES™",Zee Bioskop
+#EXTINF:-1 xui-id="25986" tvg-id="ZeeBioskop.id" tvg-name="Zee Bioskop" tvg-logo="http://goldenid.online:80/images/dTTqLGZdJMYPezOl5TGOjy99D6jiv4hVcLazZHEnh4xBTFMMmX-O1HCAduDcbMxm8xs2ilSxDR_N1ljMTTnL_TmWyp6rdpGGE-aX93wLaYj_lufA3XieQI6zEwZjae_H.jpg" group-title="MOVIES™",Zee Bioskop
 http://goldenid.online:80/play/38ifGdTRCzSHegy1-Yigjx409xB5jm-3nSZutnOMykP03buuqsSIrIUYjSEgTn7W
 #EXTINF:-1 xui-id="25987" tvg-id="zeetamil" tvg-name="CCM" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/b/b8/CCM_new_Logo.png/revision/latest?cb=20190603053700" group-title="MOVIES™",CCM
 http://goldenid.online:80/play/38ifGdTRCzSHegy1-Yigjx409xB5jm-3nSZutnOMykPKihy0IXNA3dMABxbk__Wh
-#EXTINF:-1 xui-id="25994" tvg-id="zeetamil" tvg-name="IMC" tvg-logo="http://goldenid.online:80/images/c25e870a6652ed0ff77b8d53bf75680a.png" group-title="MOVIES™",IMC
+#EXTINF:-1 xui-id="25994" tvg-id="zeetamil" tvg-name="IMC" tvg-logo="http://goldenid.online:80/images/MuJ8fbAi_MkdxEgTx4Ih-1gLaqcgSkbejhA1LVB8e8ukTkzUhrsjswTPB9d3zJRiaRUM2AnAziL4lMAwvfQZLw.png" group-title="MOVIES™",IMC
 http://goldenid.online:80/play/38ifGdTRCzSHegy1-Yigj0qhHoocvqZEtzBlEdPpIC91NheYF_eoM4Y22f0tdbSE
-#EXTINF:-1 xui-id="24990" tvg-id="zeecinema" tvg-name="HBO" tvg-logo="http://goldenid.online:80/images/cc7905b85b7f59c40e5e8f4ff07ed1e2.png" group-title="MOVIES™",HBO
+#EXTINF:-1 xui-id="24990" tvg-id="zeecinema" tvg-name="HBO" tvg-logo="https://media.licdn.com/dms/image/v2/C560BAQHQ303-nahsMQ/company-logo_200_200/company-logo_200_200/0/1630654386710/hbo_logo?e=2147483647&v=beta&t=k86OgtfAZi8BbHZ481LCbMVn0tyvXbtE5B8nJ8btew4" group-title="MOVIES™",HBO
 http://goldenid.online:80/play/38ifGdTRCzSHegy1-Yigjwacybd7DRdyroJCS3hxSgd-ROdDrCL9eIp13Nc_kEjy
-#EXTINF:-1 xui-id="24991" tvg-id="zeecinema" tvg-name="HBO Signature" tvg-logo="http://goldenid.online:80/images/6867150b946b58656e48a4074b181a40.png" group-title="MOVIES™",HBO Signature
+#EXTINF:-1 xui-id="24991" tvg-id="zeecinema" tvg-name="HBO Signature" tvg-logo="https://static0.srcdn.com/wordpress/wp-content/uploads/2025/05/hbo-signature.png?q=50&fit=contain&w=500&h=500&dpr=1.5" group-title="MOVIES™",HBO Signature
 http://goldenid.online:80/play/38ifGdTRCzSHegy1-Yigjwacybd7DRdyroJCS3hxSgc5N4bzjvNvyhXRGVqV2NNl
 #EXTINF:-1 xui-id="24992" tvg-id="zeetamil" tvg-name="HBO Family" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCLRxnJulVBGcchmgaMeKmPCn72HOYdkgPoW3b39VKplL07Fvy" group-title="MOVIES™",HBO Family
 http://goldenid.online:80/play/38ifGdTRCzSHegy1-Yigjwacybd7DRdyroJCS3hxSgfk66sx_eJgJBYrTL0-iRxH
-#EXTINF:-1 xui-id="24993" tvg-id="zeecinema" tvg-name="HBO Hits" tvg-logo="http://goldenid.online:80/images/2b4c3351149ed6e0b91a1e2f1fb75676.png" group-title="MOVIES™",HBO Hits
+#EXTINF:-1 xui-id="24993" tvg-id="zeecinema" tvg-name="HBO Hits" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMq5b0RK-KEIRVMjeUVih0uGHSu0G61iuHW-WdrTIg6g&s=10" group-title="MOVIES™",HBO Hits
 http://goldenid.online:80/play/38ifGdTRCzSHegy1-Yigjwacybd7DRdyroJCS3hxSge9FhNAJHQHm6G21ClGB9pJ
 #EXTINF:-1 xui-id="26017" tvg-id="zeetamil" tvg-name="Aniplus" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqlTieSPl8VZ303V9Cb5Tuo6vp1C8kzsvXoq4r5Ekf_VyoudpV" group-title="KIDS™",Aniplus
 http://goldenid.online:80/play/38ifGdTRCzSHegy1-Yigj5pGXQbXxmRac2wVdxnTLpo8aJAq6vo-1ugYbEkqoYzI
 #EXTINF:-1 xui-id="26018" tvg-id="zeetamil" tvg-name="Animax" tvg-logo="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcR6AhYjFfZbNELSZ2UY6C_Cq8csg0eaQ6DhazqIdnghRp-VfWlY" group-title="KIDS™",Animax
 http://goldenid.online:80/play/38ifGdTRCzSHegy1-Yigj5pGXQbXxmRac2wVdxnTLpoaIzCXK2PdvnrQ7CdunFap
-#EXTINF:-1 xui-id="26025" tvg-id="zeetamil" tvg-name="Nick Jr" tvg-logo="http://goldenid.online:80/images/61cae65c7e2c425b733e16e5478393a4.png" group-title="KIDS™",Nick Jr
+#EXTINF:-1 xui-id="26025" tvg-id="zeetamil" tvg-name="Nick Jr" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScLWO8YUqqhS1iLC7sHjTfOGDZ0_FS3yhdOQu3_a2gCA&s=10" group-title="KIDS™",Nick Jr
 http://goldenid.online:80/play/38ifGdTRCzSHegy1-Yigjz6rXeObksr3DNgeCPmcKFbHJVSTS9-VS7C3CSHTLdvc
-#EXTINF:-1 xui-id="26026" tvg-id="zeetamil" tvg-name="Nickelodeon" tvg-logo="http://goldenid.online:80/images/8b75aea825b70c788340a5bbe42daca2.png" group-title="KIDS™",Nickelodeon
+#EXTINF:-1 xui-id="26026" tvg-id="zeetamil" tvg-name="Nickelodeon" tvg-logo="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/0878ba3a-9049-4231-8691-95af65224a6d/dj200ef-7208efc8-4703-4b91-9a3d-17ec870f7cc9.png/v1/fill/w_1280,h_843/nickelodeon_junior_france_splats_logo_2005__by_canineboi04_dj200ef-fullview.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9ODQzIiwicGF0aCI6Ii9mLzA4NzhiYTNhLTkwNDktNDIzMS04NjkxLTk1YWY2NTIyNGE2ZC9kajIwMGVmLTcyMDhlZmM4LTQ3MDMtNGI5MS05YTNkLTE3ZWM4NzBmN2NjOS5wbmciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.YDMUbxv2hQ3YJ7ClulK4KN19FglgTrJxzfd1RmbI_TE" group-title="KIDS™",Nickelodeon
 http://goldenid.online:80/play/38ifGdTRCzSHegy1-Yigjz6rXeObksr3DNgeCPmcKFYSRre8sJ_0voMzc9sFJ58m
 #EXTINF:-1 xui-id="39815" tvg-id="zeetamil" tvg-name="Hits Movies" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPUAeRnuJuR9fYQ9_VPzaRQAKbDIFGP-FPUMs8PcN_2EjkOrJh" group-title="MOVIES™",Hits Movies
 http://goldenid.online:80/play/38ifGdTRCzSHegy1-YigjwgUR9E3W1TKu0nIYNk6HaDQ4rXJQsGKx8EwdSuqWtEi
-#EXTINF:-1 xui-id="39920" tvg-id="zeetamil" tvg-name="Warner Bros" tvg-logo="http://goldenid.online:80/images/d2aef73ce71b27e36ba0d9f5e78be6b2.png" group-title="MOVIES™",Warner Bros
+#EXTINF:-1 xui-id="39920" tvg-id="zeetamil" tvg-name="Warner Bros" tvg-logo="http://goldenid.online:80/images/KgTHFqtA5pYMwTPxCHSgmMhMtflucWEE5lvjFdZXeMTrZodtYda3jnrBjWE6vDmuNRVT7mKqwfBpGl6jJ-ZhzfikwAS_eTGce-cIoT8DEFMsArnqOENztyb3JPlCs8hsvt8ROMLlXNWpjyPFFWLBKJwON10m3eHHFfpDxGn_7uvTUsbzJcv9UuwTzxYDEcZc.jpg" group-title="MOVIES™",Warner Bros
 http://goldenid.online:80/play/38ifGdTRCzSHegy1-Yigjzn2XCqyfxPG3wJJCcC0quuy7yLUvbgQK_oYh9gRKiN3
 #EXTINF:-1 xui-id="39964" tvg-id="zeecinema" tvg-name="Hits" tvg-logo="http://goldenid.online:80/images/KJwy_HFuDxDvI1XyXXNLef810magYyo_s0bmax156VLx2aK6ex8GChfjPrEnapOe9APMYHn6S9RPW2AvgD_siA5eOGI5z7X1ypS4dZYdSC3AVCdIWeL8Xu0PmGEfMFsl_iLIRud6EnrDyUpWE1NDBQ.png" group-title="MOVIES™",Hits
 http://goldenid.online:80/play/38ifGdTRCzSHegy1-YigjzMr9ySex-y1_6pULrRnBaoeb40Pc9CiaznI5Pg0eW54
@@ -102,31 +102,31 @@ http://goldenid.online:80/play/38ifGdTRCzSHegy1-Yigj4C5KAgnulrgokUJ-vNnAxProp1FG
 http://goldenid.online:80/play/38ifGdTRCzSHegy1-Yigj5Wi2C7OQkS6PZ5X1vPEnle7PRXlHTpQzu_RMv-91FwN
 #EXTINF:-1 xui-id="39479" tvg-id="" tvg-name="SSC 2 HD" tvg-logo="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcR6e9Wa4d7L8XNprpueJ1v_Wp9D9T6NORyznU4uEuHDEOh5CriL" group-title="ARABIAN SPORTS™",SSC 2 HD
 http://goldenid.online:80/play/38ifGdTRCzSHegy1-Yigj5Wi2C7OQkS6PZ5X1vPEnle9a-O-yA6HSdqYcLuUhTh8
-#EXTINF:-1 xui-id="39481" tvg-id="" tvg-name="TR: BEIN SERIES 1 FHD" tvg-logo="http://goldenid.online:80/images/63614560eeaf61a26e6f59c9e9b7f743.png" group-title="BEIN SPORTS GROUP™",TR: BEIN SERIES 1 FHD
+#EXTINF:-1 xui-id="39481" tvg-id="" tvg-name="TR: BEIN SERIES 1 FHD" tvg-logo="https://play-lh.googleusercontent.com/leGZnOjI3z8w5acn2QJMsa9xi2pOhNZCAmYefnBZ59nxvL_Ipc-qqbTUzhsHZkKhwepSxQ4A5OizBZN3y3nb" group-title="BEIN SPORTS CONNECT™",TR: BEIN SERIES 1 FHD
 http://goldenid.online:80/play/38ifGdTRCzSHegy1-Yigj4cFL6sGOKvfNEhEsx3K4yTRUS8WPi4otseN0u_nlIxN
-#EXTINF:-1 xui-id="39482" tvg-id="" tvg-name="TR: BEIN SERIES 2 FHD" tvg-logo="http://goldenid.online:80/images/ca4a1a783cdb12b6dcb4f368e7b4ad77.png" group-title="BEIN SPORTS GROUP™",TR: BEIN SERIES 2 FHD
+#EXTINF:-1 xui-id="39482" tvg-id="" tvg-name="TR: BEIN SERIES 2 FHD" tvg-logo="https://play-lh.googleusercontent.com/leGZnOjI3z8w5acn2QJMsa9xi2pOhNZCAmYefnBZ59nxvL_Ipc-qqbTUzhsHZkKhwepSxQ4A5OizBZN3y3nb" group-title="BEIN SPORTS CONNECT™",TR: BEIN SERIES 2 FHD
 http://goldenid.online:80/play/38ifGdTRCzSHegy1-Yigj4cFL6sGOKvfNEhEsx3K4yQzCEbvTiBeoyoiV9pk3aBp
-#EXTINF:-1 xui-id="39483" tvg-id="" tvg-name="TR: beIN Sport 3 FHD" tvg-logo="http://goldenid.online:80/images/fd53442e38084e3c3df7671e220fa616.png" group-title="BEIN SPORTS GROUP™",TR: beIN Sport 3 FHD
+#EXTINF:-1 xui-id="39483" tvg-id="" tvg-name="TR: beIN Sport 3 FHD" tvg-logo="https://play-lh.googleusercontent.com/leGZnOjI3z8w5acn2QJMsa9xi2pOhNZCAmYefnBZ59nxvL_Ipc-qqbTUzhsHZkKhwepSxQ4A5OizBZN3y3nb" group-title="BEIN SPORTS CONNECT™",TR: beIN Sport 3 FHD
 http://goldenid.online:80/play/38ifGdTRCzSHegy1-Yigj4cFL6sGOKvfNEhEsx3K4ySR_64JfUp2latCXzBa143v
-#EXTINF:-1 xui-id="39484" tvg-id="" tvg-name="Bein Sport 1 FHD" tvg-logo="http://goldenid.online:80/images/85e790fa54b733f01681703374bad001.png" group-title="BEIN SPORTS GROUP™",Bein Sport 1 FHD
+#EXTINF:-1 xui-id="39484" tvg-id="" tvg-name="Bein Sport 1 FHD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-aTfa_qUY-GHLndkNhKdCeL7c8-Ius0v8Gcqy_A6dHXNQH0lP" group-title="BEIN SPORTS CONNECT™",Bein Sport 1 FHD
 http://goldenid.online:80/play/38ifGdTRCzSHegy1-Yigj4cFL6sGOKvfNEhEsx3K4ySzGCiaiLeFlBhEwjg81sBx
-#EXTINF:-1 xui-id="39485" tvg-id="" tvg-name="Bein Sport 2 FHD" tvg-logo="http://goldenid.online:80/images/667571a6e08aeb44a1b492a57fbce57e.png" group-title="BEIN SPORTS GROUP™",Bein Sport 2 FHD
+#EXTINF:-1 xui-id="39485" tvg-id="" tvg-name="Bein Sport 2 FHD" tvg-logo="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSQFFv-lINNh4MwTXMoVgl-O12x07TwmNqD9ZUwClGTQKA4xgDw" group-title="BEIN SPORTS CONNECT™",Bein Sport 2 FHD
 http://goldenid.online:80/play/38ifGdTRCzSHegy1-Yigj4cFL6sGOKvfNEhEsx3K4yRPSP2wmfRXKS0GeyFJ7tW0
-#EXTINF:-1 xui-id="39486" tvg-id="" tvg-name="Bein Sport 3 FHD" tvg-logo="http://goldenid.online:80/images/1b69f6db723bf22b90cdbc35c3a0f84f.png" group-title="BEIN SPORTS GROUP™",Bein Sport 3 FHD
+#EXTINF:-1 xui-id="39486" tvg-id="" tvg-name="Bein Sport 3 FHD" tvg-logo="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRnzJuAko-81HgscSwV9ht-EYMC2_MTz-7_RByO5agkYJ-bkRUS" group-title="BEIN SPORTS CONNECT™",Bein Sport 3 FHD
 http://goldenid.online:80/play/38ifGdTRCzSHegy1-Yigj4cFL6sGOKvfNEhEsx3K4ySXNlj_hSXLWD8BxXkvQQmh
-#EXTINF:-1 xui-id="39528" tvg-id="" tvg-name="Bein Sport 4 FHD" tvg-logo="http://goldenid.online:80/images/820330c36f41bb9ebf87bdcf749800be.png" group-title="BEIN SPORTS GROUP™",Bein Sport 4 FHD
+#EXTINF:-1 xui-id="39528" tvg-id="" tvg-name="Bein Sport 4 FHD" tvg-logo="http://goldenid.online:80/images/yNH_Dqt7OzR41sLEQy6IfGqrry386xx3LjyRUTcUUYibFh-e3qmpEzrlBpgsCkj0I8GK1V-_2fsqwPH4CeAo6VPmzfe4One1UnNVYF_R10Q.jpg" group-title="BEIN SPORTS CONNECT™",Bein Sport 4 FHD
 http://goldenid.online:80/play/38ifGdTRCzSHegy1-Yigj3LQHBO4LcFdLawwrk5UOUIqTBBqBZgNmX3MppCANbEg
-#EXTINF:-1 xui-id="39598" tvg-id="" tvg-name="Bein Sport 1 English FHD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-aTfa_qUY-GHLndkNhKdCeL7c8-Ius0v8Gcqy_A6dHXNQH0lP" group-title="BEIN SPORTS GROUP™",Bein Sport 1 English FHD
+#EXTINF:-1 xui-id="39598" tvg-id="" tvg-name="Bein Sport 1 English FHD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-aTfa_qUY-GHLndkNhKdCeL7c8-Ius0v8Gcqy_A6dHXNQH0lP" group-title="BEIN SPORTS CONNECT™",Bein Sport 1 English FHD
 http://goldenid.online:80/play/38ifGdTRCzSHegy1-Yigj_-rAw3FTFkjkfNrlmezwz3WRsuLUYIu0XcebSbEi2D4
-#EXTINF:-1 xui-id="39599" tvg-id="" tvg-name="Bein Sport 2 English FHD" tvg-logo="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSQFFv-lINNh4MwTXMoVgl-O12x07TwmNqD9ZUwClGTQKA4xgDw" group-title="BEIN SPORTS GROUP™",Bein Sport 2 English FHD
+#EXTINF:-1 xui-id="39599" tvg-id="" tvg-name="Bein Sport 2 English FHD" tvg-logo="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSQFFv-lINNh4MwTXMoVgl-O12x07TwmNqD9ZUwClGTQKA4xgDw" group-title="BEIN SPORTS CONNECT™",Bein Sport 2 English FHD
 http://goldenid.online:80/play/38ifGdTRCzSHegy1-Yigj_-rAw3FTFkjkfNrlmezwz3E3OS01GMM-72ivRxg8n-_
-#EXTINF:-1 xui-id="39600" tvg-id="" tvg-name="Bein Sport 3 English FHD" tvg-logo="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRnzJuAko-81HgscSwV9ht-EYMC2_MTz-7_RByO5agkYJ-bkRUS" group-title="BEIN SPORTS GROUP™",Bein Sport 3 English FHD
+#EXTINF:-1 xui-id="39600" tvg-id="" tvg-name="Bein Sport 3 English FHD" tvg-logo="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRnzJuAko-81HgscSwV9ht-EYMC2_MTz-7_RByO5agkYJ-bkRUS" group-title="BEIN SPORTS CONNECT™",Bein Sport 3 English FHD
 http://goldenid.online:80/play/38ifGdTRCzSHegy1-Yigj123yaX8n4POalpBbuO41IHAyWUTCrmwRQ6TC0upLpBO
-#EXTINF:-1 xui-id="39601" tvg-id="" tvg-name="FR: BeIN SPORTS 1 FHD" tvg-logo="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcS8U_aWCe5XEUwdz3dxrttnzLsHiBEp8Wk_Kc1AEO2lfpw-QeSc" group-title="BEIN SPORTS GROUP™",FR: BeIN SPORTS 1 FHD
+#EXTINF:-1 xui-id="39601" tvg-id="" tvg-name="FR: BeIN SPORTS 1 FHD" tvg-logo="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcS8U_aWCe5XEUwdz3dxrttnzLsHiBEp8Wk_Kc1AEO2lfpw-QeSc" group-title="BEIN SPORTS CONNECT™",FR: BeIN SPORTS 1 FHD
 http://goldenid.online:80/play/38ifGdTRCzSHegy1-Yigj123yaX8n4POalpBbuO41IFsxpJV1M2OkOY_RzVvAw8e
-#EXTINF:-1 xui-id="39823" tvg-id="" tvg-name="FR: BeIN SPORTS 2 FHD" tvg-logo="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRDLRgkY9gUTQ6TJ3QbRylNx4iDYwZpyDIg396LSmk2jy1LtmpF" group-title="BEIN SPORTS GROUP™",FR: BeIN SPORTS 2 FHD
+#EXTINF:-1 xui-id="39823" tvg-id="" tvg-name="FR: BeIN SPORTS 2 FHD" tvg-logo="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRDLRgkY9gUTQ6TJ3QbRylNx4iDYwZpyDIg396LSmk2jy1LtmpF" group-title="BEIN SPORTS CONNECT™",FR: BeIN SPORTS 2 FHD
 http://goldenid.online:80/play/38ifGdTRCzSHegy1-Yigj_U_vq23AaLuXl1f4zXTr6CzfoPTbjSL_AQQ6u-JxRYe
-#EXTINF:-1 xui-id="39961" tvg-id="" tvg-name="FR: BeIN SPORTS 3 FHD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZh1gu1xpcYSkvsvcX-VLOTFDv1YlgN3Lec2Vfi4_beIA2c31y" group-title="BEIN SPORTS GROUP™",FR: BeIN SPORTS 3 FHD
+#EXTINF:-1 xui-id="39961" tvg-id="" tvg-name="FR: BeIN SPORTS 3 FHD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZh1gu1xpcYSkvsvcX-VLOTFDv1YlgN3Lec2Vfi4_beIA2c31y" group-title="BEIN SPORTS CONNECT™",FR: BeIN SPORTS 3 FHD
 http://goldenid.online:80/play/38ifGdTRCzSHegy1-YigjzMr9ySex-y1_6pULrRnBapkzHMg2NeNnZBGsMxHX-dh
 #EXTINF:-1 xui-id="39962" tvg-id="" tvg-name="SSC Extra 1" tvg-logo="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQgbGOXCUukHoNYyRcpTSiRoD7vv_RFswdU41Tcwda7ItjfuMBH" group-title="ARABIAN SPORTS™",SSC Extra 1
 http://goldenid.online:80/play/38ifGdTRCzSHegy1-YigjzMr9ySex-y1_6pULrRnBaon0-HjEDbnSb1hF4DRq4iO
@@ -194,9 +194,9 @@ http://goldenid.online:80/play/38ifGdTRCzSHegy1-YigjyX_jyrni3zBbue-qdW7OAZZu4Er0
 http://goldenid.online:80/play/38ifGdTRCzSHegy1-YigjyX_jyrni3zBbue-qdW7OAYiXKA1asKsNg_2E7iD74fz
 #EXTINF:-1 xui-id="40270" tvg-id="espn4.nl" tvg-name="NL: ESPN 4 FHD" tvg-logo="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcStuZmfLNZDc1RtgeJ-nnbZAxFt2jBsBBzo6g0JtXjMEALaI9em" group-title="SPORTS™ FHD²",NL: ESPN 4 FHD
 http://goldenid.online:80/play/38ifGdTRCzSHegy1-Yigj89q8S2cgDSCXwBfGYMNpSq5CL5S0T_buPVEcu9syBh4
-#EXTINF:-1 xui-id="25747" tvg-id="MagnaChannel.id" tvg-name="MagnaTV FHD" tvg-logo="http://goldenid.online:80/images/06033d98a51b9a0ab3d74d30158c5523.png" group-title="RELIGIUS™",MagnaTV FHD
+#EXTINF:-1 xui-id="25747" tvg-id="MagnaChannel.id" tvg-name="MagnaTV FHD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcRxZQ4s1ZIc8daGlQkzhBXn1vIj8yBcFdhfIUuwnQmiaCJKIEuA2u0gOj&s=10" group-title="RELIGIUS™",MagnaTV FHD
 http://goldenid.online:80/play/38ifGdTRCzSHegy1-Yigj7CxrWSyM0vdMQ0oD_DcGbv84mwLTViVTHmUrmKSTiMW
-#EXTINF:-1 xui-id="44511" tvg-id="" tvg-name="ITV 1" tvg-logo="http://goldenid.online:80/images/8yteooFEWyU3h8QX5OOteEHTwHKLRPCN0bHVi5mJozG7RSChYjiKmh-UQl3RE0puok6t1c87CL013DlbRucyPtYZp0XTF_kbiziF5fybKzQ.png" group-title="SPORTS™ FHD²",ITV 1
+#EXTINF:-1 xui-id="44511" tvg-id="" tvg-name="ITV 1" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFtEwMd525zPTNjCbf-1AcT-Q4mA6VspgPMH-05_llFMec2zdHXJsXz9cs&s=10" group-title="SPORTS™ FHD²",ITV 1
 http://goldenid.online:80/play/38ifGdTRCzSHegy1-Yigj5PW8S02cZz7kJ483qDSEuawI8syrcGrt5Ou4jmdcIbW
 #EXTINF:-1 xui-id="25389" tvg-id="" tvg-name="UEFA League 1" tvg-logo="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg4XuC2jWMiAGnqRaeNGsqotCmnZv4wRCeEc6u6YRSHzsBPrSVqmSfV7Ez1ciKiKIzPN1pSbxLLuiW7E8l_n_hJIP0_Gf2xrZSROrGioteuNkSzctURykIHFAiQlW_z66bovjChURpKkKKGtewxX3S7dKEv9DhjmOkkCdvurgrrGqjYCawYKloXh8L8aZ0/s1600/uefa-2025-final-logos%20%281%29.jpg" group-title="LIVE MATCH SPORTS™",UEFA League 1
 http://goldenid.online:80/play/38ifGdTRCzSHegy1-Yigj_EYe_qdiY1qG4d25w2XhbfUrTADHAJfv6jJFzZcjkcy
@@ -316,7 +316,7 @@ http://goldenid.online:80/play/38ifGdTRCzSHegy1-Yigj5LRf9z851nl3OxnOGP90ApnTg-Mn
 http://goldenid.online:80/play/38ifGdTRCzSHegy1-YigjwezuC7EDycib4mEsr8Nxujd2uh3Szhbxsrn1YMK46wC
 #EXTINF:-1 xui-id="45093" tvg-id="" tvg-name="Lagu Daerah Indonesia" tvg-logo="http://goldenid.online:80/images/8029f084daef68b3bfeefea6c1df9adb.jpeg" group-title="Musik™",Lagu Daerah Indonesia
 http://goldenid.online:80/play/38ifGdTRCzSHegy1-Yigj6iuh1uHS6he8_2Ha8Gz--tZzBwKIZWkov2nB2skPvkQ
-#EXTINF:-1 xui-id="45126" tvg-id="" tvg-name="Berita Satu" tvg-logo="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRtQzA2NyTCzYhpMloJzdmZFkNk35ahjL0e4vsrYZw7comragPZ" group-title="NEWS™",Berita Satu
+#EXTINF:-1 xui-id="45126" tvg-id="" tvg-name="Berita Satu" tvg-logo="https://play-lh.googleusercontent.com/x1zB7yHJ8lzdZl-uuYfcU46ETrAncKFTKDHJHj_616DuciqUJm9_QCFy4gAVd7c5_Uk9BYW8AS7L1kuwQIPqI5o" group-title="NEWS™",Berita Satu
 http://goldenid.online:80/play/38ifGdTRCzSHegy1-YigjxxJNDSA6tZdj6VBwHYyX4f3qnbzH9tw7dkgjETwcC7k
 #EXTINF:-1 xui-id="44942" tvg-id="" tvg-name="K+" tvg-logo="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSSCOnhxJ2ez_kMDJ1HViHFqgR5fnBy4aouItryf8MPOYGVUNrA" group-title="ENTERTAINMENT™",K+
 http://goldenid.online:80/play/38ifGdTRCzSHegy1-Yigj2r_SzVy7ZNSGxbDYtANDH_rFMxavma45GYoEjsr9sR-
@@ -324,11 +324,11 @@ http://goldenid.online:80/play/38ifGdTRCzSHegy1-Yigj2r_SzVy7ZNSGxbDYtANDH_rFMxav
 http://goldenid.online:80/play/38ifGdTRCzSHegy1-Yigj_sPOnMzQwbwsss2iwjmFAaQd0SW0AAQtZ60FypA-a6G
 #EXTINF:-1 xui-id="45251" tvg-id="" tvg-name="Trans TV Transmedia" tvg-logo="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQtIfkQ7F3PDmDIbeshisfZE83hMZO87drglKfEmPVwD9cqff0Y" group-title="LOKAL INDONESIA™",Trans TV Transmedia
 http://goldenid.online:80/play/38ifGdTRCzSHegy1-Yigj_sPOnMzQwbwsss2iwjmFAadiJci5he2GgWzGdWZJfSD
-#EXTINF:-1 xui-id="51641" tvg-id="" tvg-name="UK: BBC News LQ" tvg-logo="" group-title="NEWS™",UK: BBC News LQ
+#EXTINF:-1 xui-id="51641" tvg-id="" tvg-name="UK: BBC News LQ" tvg-logo="https://gbaike-image.cdn.bcebos.com/55e736d12f2eb9389b501478da3e9235e5dde611c1bf/55e736d12f2eb9389b501478da3e9235e5dde611c1bf_1_1?x-bce-process=image/format,f_auto" group-title="NEWS™",UK: BBC News LQ
 http://goldenid.online:80/play/38ifGdTRCzSHegy1-Yigj8lTaJI4WXKDld6E6yhyZC5JxgJfM0n4SSU1j6-31E33
-#EXTINF:-1 xui-id="51642" tvg-id="" tvg-name="ALJAZEERA NEWS" tvg-logo="" group-title="NEWS™",ALJAZEERA NEWS
+#EXTINF:-1 xui-id="51642" tvg-id="" tvg-name="ALJAZEERA NEWS" tvg-logo="http://goldenid.online:80/images/OAYMCZZT1qvLcTGFR79saAY4Xx4dO63_2UTmyT-aHA2lya0wuhB1MThCqQ-dRFnF1xc4MN_MujTy9mfPVnnDeG3Wl4R8sA35inB9_pwpVXWSTTifUt6lMil0o5sU2ISd.png" group-title="NEWS™",ALJAZEERA NEWS
 http://goldenid.online:80/play/38ifGdTRCzSHegy1-Yigj8lTaJI4WXKDld6E6yhyZC6sVvDN558JB87x_xkHyRoQ
-#EXTINF:-1 xui-id="51643" tvg-id="" tvg-name="Punjabi-: PTC News" tvg-logo="Punjabi-: PTC News" group-title="NEWS™",Punjabi-: PTC News
+#EXTINF:-1 xui-id="51643" tvg-id="" tvg-name="CNBC World" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBojiZyLkGgXmG5l4flE64eKf3K5wm_9wAD04CD5f4FKzQRi44ZlGoxdlr&s=10" group-title="NEWS™",CNBC World
 http://goldenid.online:80/play/38ifGdTRCzSHegy1-Yigj8lTaJI4WXKDld6E6yhyZC4HjQ-wR0t4XfRIoc26uRWI
 #EXTINF:-1 xui-id="51646" tvg-id="SporTV.br" tvg-name="Sportv 1 FHD" tvg-logo="http://goldenid.online:80/images/KmEMVVnmX6kh1H_KyN9ab1_lDcDZJMWIXCXtOAEWpqWHCTg8-KTEH7sX-dM0uC65pVarXt6ForkMZaTU5pOqqINqh2cPt6mgwyO8NfBf56awlL8dTB9cbWWTbN_ACdPP.jpg" group-title="SPORTS™ FHD²",Sportv 1 FHD
 http://goldenid.online:80/play/38ifGdTRCzSHegy1-Yigj8lTaJI4WXKDld6E6yhyZC4m9okxE60LPSDIDhxTgwQK
@@ -372,7 +372,7 @@ http://goldenid.online:80/play/38ifGdTRCzSHegy1-Yigj1FvT8qZQdHUGmrYN9vFriJOfaULU
 http://goldenid.online:80/play/38ifGdTRCzSHegy1-Yigjzvp1FAPmBbl4Eas7mUV6QPd3XZY9nMjNDzEQMLS9c1V
 #EXTINF:-1 xui-id="41325" tvg-id="MNCSports2.id" tvg-name="SportStars 2" tvg-logo="http://goldenid.online:80/images/MuJ8fbAi_MkdxEgTx4Ih-1gLaqcgSkbejhA1LVB8e8ukTkzUhrsjswTPB9d3zJRiWm7yP5uua9z9zn4hrCuScA.png" group-title="SPORT INDO™",SportStars 2
 http://goldenid.online:80/play/38ifGdTRCzSHegy1-Yigjzvp1FAPmBbl4Eas7mUV6QO23aTxhP60SCdantfyS51L
-#EXTINF:-1 xui-id="54410" tvg-id="" tvg-name="Mentari TV" tvg-logo="" group-title="KIDS™",Mentari TV
+#EXTINF:-1 xui-id="54410" tvg-id="" tvg-name="Mentari TV" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRzifY13gxbmbSvlbyHwNV-pfgwWgBSsVmKHXwWdFA9L_JOaxCbNzJwDA&s=10" group-title="KIDS™",Mentari TV
 http://goldenid.online:80/play/38ifGdTRCzSHegy1-Yigj3wxRGf_aaV1K2IYVfYeA0ZwUGq7VNzowC_gTwh24BWw
 #EXTINF:-1 xui-id="25106" tvg-id="" tvg-name="MU TV" tvg-logo="http://goldenid.online:80/images/3fGJPjuqzTNNtCuXKz8OpsEMgGbYwZfYheo5BuziIzbLf2WcKDQI91_t5c-W58jt2kbZNrr-5cXuChMJaaKoOTnf-4x_s2xB8K9Id7gVuKQ.png" group-title="SPORTS™ FHD²",MU TV
 http://goldenid.online:80/play/38ifGdTRCzSHegy1-YigjxU_fl8uA3TiTKmlESDJWtKqrKk-WBG_K0KhUitbgNsZ
@@ -452,7 +452,7 @@ http://goldenid.online:80/play/38ifGdTRCzSHegy1-Yigj9BQsVLG5J9S57EGpgQujf2w4Wl4a
 http://goldenid.online:80/play/38ifGdTRCzSHegy1-Yigj5PW8S02cZz7kJ483qDSEuYgGzJZfrO2Aqud9SptE37E
 #EXTINF:-1 xui-id="54436" tvg-id="" tvg-name="CBS Sport Network" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJX-X9hVfPZWiO4zeZSjHBlxfD36ujjKgFLaW13aqeUFD0WcRiAi6hmGU&s=10" group-title="SPORTS™ FHD¹",CBS Sport Network
 http://goldenid.online:80/play/38ifGdTRCzSHegy1-Yigj6PKUEoxRC-31XiLFTDWQdGq7hiJN1s-KwST_zbL6Rc3
-#EXTINF:-1 xui-id="54441" tvg-id="" tvg-name="MQTV" tvg-logo="" group-title="RELIGIUS™",MQTV
+#EXTINF:-1 xui-id="54441" tvg-id="" tvg-name="MQTV" tvg-logo="https://media.licdn.com/dms/image/v2/D560BAQFMxc7rdKwZQw/company-logo_200_200/company-logo_200_200/0/1725266871207?e=2147483647&v=beta&t=28eZlO37aGh7nwpzoqiqS0oNszufOdwSVNQ7yPScyko" group-title="RELIGIUS™",MQTV
 http://goldenid.online:80/play/38ifGdTRCzSHegy1-YigjyuLbMFGTFPFvwhxICUlTlgC5spOzRMdrXYEuEpgFsvN
 #EXTINF:-1 xui-id="54444" tvg-id="" tvg-name="Astro Badminton 1" tvg-logo="http://goldenid.online:80/images/Ujb3wxfDHlB4ZiFkm3Z8g_yOmWReiievVf0JwJ3nCo8tPHI9eWGayYGN_r49koq18B8eYn4G4QLTcl_1Ox1LndM3JwZ1eArIHOX0IPigLza8JLZ0qvafI06Zpf0sJIKJ9VFtCw8-HF_gtckRT3Q-iQ.png" group-title="SPORT INDO™",Astro Badminton 1
 http://goldenid.online:80/play/38ifGdTRCzSHegy1-YigjyuLbMFGTFPFvwhxICUlTljBFo2N8ZjSKMyiBHRnQ3c5
@@ -522,7 +522,7 @@ http://goldenid.online:80/play/38ifGdTRCzSHegy1-Yigj-ypjU-ojz7Kl-W6-qhepsSsjrmwI
 http://goldenid.online:80/play/38ifGdTRCzSHegy1-Yigj-ypjU-ojz7Kl-W6-qhepsSsdfmK7eyTMVHXoocYlrQ3
 #EXTINF:-1 xui-id="54897" tvg-id="" tvg-name="PL: Eleven Sport 4 FHD" tvg-logo="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQFM8UyoZ0WxSF5020Nd6nYM0yhYug4YnkPuJ6MkF8hd8xVx8gT" group-title="SPORTS™ FHD¹",PL: Eleven Sport 4 FHD
 http://goldenid.online:80/play/38ifGdTRCzSHegy1-Yigj-ypjU-ojz7Kl-W6-qhepsQ0-_MC1JWAeQZH_zvUGNKb
-#EXTINF:-1 xui-id="54899" tvg-id="" tvg-name="LFC TV" tvg-logo="" group-title="SPORTS™ FHD²",LFC TV
+#EXTINF:-1 xui-id="54899" tvg-id="" tvg-name="LFC TV" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9HesKpMqJlD5B3vytRlHlQUoPWAc54pxkwRgpXW-8MvHMkMvrp_yuqdJk&s=10" group-title="SPORTS™ FHD²",LFC TV
 http://goldenid.online:80/play/38ifGdTRCzSHegy1-Yigj-ypjU-ojz7Kl-W6-qhepsT3lf4xt02Sp9-OI01fXIPl
 #EXTINF:-1 xui-id="54900" tvg-id="" tvg-name="Milan TV" tvg-logo="http://goldenid.online:80/images/XSTNKyrnWJkO-JmgKUOjUpxuO2mVMf91-XAlTxRLVcHYEdz_b9KLbaLOEOBNBPb51pRZbEJhT8TEwr5cZnrKpHt5zMYqFJMJQPdCoDuLmA0.jpg" group-title="SPORTS™ FHD²",Milan TV
 http://goldenid.online:80/play/38ifGdTRCzSHegy1-Yigj0isjy3fDQfMK1JKNf3tj3x1EeTablTc9UWzr-W_uSlH
@@ -574,6 +574,8 @@ http://goldenid.online:80/play/38ifGdTRCzSHegy1-Yigj_yR5L-tk2Y5AUKyh0-DNF_OMmifN
 http://goldenid.online:80/play/38ifGdTRCzSHegy1-Yigj1lQ6gdYDstn9oPUAeLdTVkg0vM1nK92qWgcqA2qzN-w
 #EXTINF:-1 xui-id="25011" tvg-id="raniahd" tvg-name="CZ: NOVA SPORT 2 HD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSSOCWFAvZspO3n6q3DFpIsgoAJAnpudxBXWtPt23EI3NqIpUgNJ6Ru5Lz&s=10" group-title="SPORTS™ FHD¹",CZ: NOVA SPORT 2 HD
 http://goldenid.online:80/play/38ifGdTRCzSHegy1-Yigj1lQ6gdYDstn9oPUAeLdTVlwUm48RppZgw0lCv0LHAFo
+#EXTINF:-1 xui-id="55499" tvg-id="" tvg-name="Discovery Asia" tvg-logo="http://goldenid.online:80/images/mpzMiDh1y0zfWomB6mQTCyJVuxeASVzjkx5no_b1ET_q1Omr6BGuD9F9XOaHyTR86gTHT0BKVNOukxbHkXJNT-jx49BX4kFWF3MLsFZOkZzdHJ3Kt42ed6IE0wUvmimS.png" group-title="KNOWLEDGE™",Discovery Asia
+http://goldenid.online:80/play/38ifGdTRCzSHegy1-Yigj3jj_ZC33gcD9ClXs_WroVgJzQljWfPH7ELwLkGmFbU-
 #EXTINF:-1 xui-id="24860" tvg-name="The Bad Guys: Reign of Chaos (2019)" tvg-logo="http://goldenid.online:80/images/2e49043052630f1d2b3035da95ce79a3.jpg" group-title="CAMPUR",The Bad Guys: Reign of Chaos (2019)
 http://goldenid.online:80/play/mvIkmDx8Feom4PxGcWTT8aLCcsnKGdy-8S1XPyX_cbpK8KTvdbaD7rJAXXAW8XDq#.mp4
 #EXTINF:-1 xui-id="24861" tvg-name="Birthday (2018)" tvg-logo="http://goldenid.online:80/images/203a2b1a9694b0d213c18e4de649fbf9.jpg" group-title="CAMPUR",Birthday (2018)
