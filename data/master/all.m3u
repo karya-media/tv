@@ -21,7 +21,7 @@ http://opplextv.cyou:8080/nasir6160/nasir/351023
 #EXTVLCOPT:http-referrer=https://www.rctiplus.com/
 https://beetv.my.id/xstreamx/rctiplus.m3u8?ch=rcti
 #EXTINF:-1 tvg-id="RCTI.idSD" tvg-logo="https://thumbor.prod.vidiocdn.com/9c-sEWp6Du7DoWDn56cjma0gMpY=/230x230/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/665/337c4d.png" group-title="Indonesia;Indonesia Channels" tvg-url="https://raw.githubusercontent.com/apistech/project/refs/heads/main/epgs/guide.xml",RCTI
-https://cdnjktbpid37.cubmu.com/riutx01-22b1f3c4ac0e47a0ed0e3305661027ee/dash/UkNUSS1DaGFubmVs/manifest.mpd
+http://filex.me:8080//@singh_tesla_7207492/puWnhEGsXpK3/302297
 #EXTINF:-1 tvg-id="RCTI.idHD" tvg-logo="https://i.imgur.com/iLFx8ia.png" group-title="Indonesia;Uncategorized",RCTI HD (720p)
 https://mncmedia.malingtv.workers.dev/rcti.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/apistech/project/refs/heads/main/logo/imageCir_MNC-180x180_2025_11_06_13_06_02.jpg" group-title="ðŸ‡®ðŸ‡© LOKAL",MNCTV HD R+
@@ -174,12 +174,12 @@ https://trans.diorx.my.id/trans7.m3u8
 #EXTVLCOPT:http-referrer=https://20.detik.com/
 https://video.detik.com/trans7/smil:trans7.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="Trans7.idSD" tvg-logo="https://thumbor.prod.vidiocdn.com/-MEB2a6J4sB6SvBDimCb7JYP6WY=/230x230/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/734/131514.png" group-title="Indonesia;Indonesia Channels" tvg-url="https://raw.githubusercontent.com/apistech/project/refs/heads/main/epgs/guide.xml",Trans7 HD
+http://filex.me:8080//@singh_tesla_7207492/puWnhEGsXpK3/302311
+#EXTINF:-1 tvg-id="Trans7.idSD" tvg-logo="https://thumbor.prod.vidiocdn.com/-MEB2a6J4sB6SvBDimCb7JYP6WY=/230x230/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/734/131514.png" group-title="Indonesia;Indonesia Channels" tvg-url="https://raw.githubusercontent.com/apistech/project/refs/heads/main/epgs/guide.xml",Trans7 HD
 #EXTVLCOPT:http-referer=https://www.cnbcindonesia.com/
 #EXTVLCOPT:http-origin=https://20.detik.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
 https://green-night-d2b4.iontv.workers.dev/trans7.m3u8
-#EXTINF:-1 tvg-id="Trans7.idSD" tvg-logo="https://thumbor.prod.vidiocdn.com/-MEB2a6J4sB6SvBDimCb7JYP6WY=/230x230/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/734/131514.png" group-title="Indonesia;Indonesia Channels" tvg-url="https://raw.githubusercontent.com/apistech/project/refs/heads/main/epgs/guide.xml",Trans7 HD
-https://cdnjktbpid37.cubmu.com/riutx01-22b1f3c4ac0e47a0ed0e3305661027ee/dash/VFJBTlM3LW15/manifest.mpd
 #EXTINF:-1 tvg-id="zeetamil" tvg-name="TV ONE" tvg-logo="http://goldenid.online:80/images/K16NaGdQPPgIS7sfJa07qSIm5NJksqx8sVb1z9AAWfr0XEveeJd7H28SZpX4_dsKoEejoO4o9pjA6N5IjD7pbNtsW_Mx9tRkdWF21eHYc0sUTu4L2kU7V-sjzsVbZ2Ib.jpg" group-title="LOKAL INDONESIA™" xui-id="25719",TV ONE
 http://goldenid.online:80/play/38ifGdTRCzSHegy1-YigjxOuroSUi59En8RSMBtmpgbp5he48UPHcWI2jOrRX3zB
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/apistech/project/refs/heads/main/logo/image_ch_tvone.png" group-title="ðŸŒ BERITA",TVONE HD
@@ -4860,24 +4860,32 @@ http://goldenid.online:80/play/0-ZD1F69yESpsloMEWSBaA5A5dFIJxVtTVCDTGX-b4S7d_CBQ
 https://dl.dropboxusercontent.com/scl/fi/kd627yj07hw9unh9tu0v7/lv_7480922524574960949_20260619074318.mp4?rlkey=rar2il86tumzrp8wvolj3jaqm&st=l9qt5vb0&dl=1
 #EXTINF:-1 tvg-logo="https://media4.giphy.com/media/v1.Y2lkPTZjMDliOTUyMTI3YWxxdDZpYzNiMHAyNXh1MWl1enBxeDl3bzB0bmRsem42OHYweCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/5xaOcLGwJiU6VzF7U3K/giphy.gif" group-title="PLAYLIST KOKOUYO",WA : 085168734121
 https://dl.dropboxusercontent.com/scl/fi/tljv8ym5zumjctjcbn39n/lv_7652726348699553044_20260619182304.mp4?rlkey=sr1d7rcuc0s24z2epnoaccph7&st=hx8j269w&dl=1
-#EXTINF:-1 tvg-logo="https://media.tenor.com/wU-hCae1a8sAAAAM/live.gif" group-title="LIVE HARI INI",15.30||AREMA VS PERSIK
-https://play.heyangstream.com/live/5005885_F5hd01.m3u8?expire=1789733772&sign=00effca181232b8a917e41a9f7d4c114
-#EXTINF:-1 tvg-logo="https://media.tenor.com/wU-hCae1a8sAAAAM/live.gif" group-title="LIVE HARI INI",15.30||PERSIPURA VS KENDAL
-https://tfze0gr4ugmtwgczdcqjqgr5n45djq31unmutqiwsg45ucpzzr3mnp7ozr3d4.100ycdn.com/live1.quickscoreboardz.com/live/channel21/playlist.m3u8?wsSecret=3323211d5a33c2c2651f9eb848bdce26&wsABSTime=1789766289&wsSession=04959cb3033b1b0744a92c97-178972309568130&wsIPSercert=60067f3ebbad03223adf929fceeb7d8c&wsBindIP=2&wsserid=1168287746130901650
-#EXTINF:-1 tvg-logo="https://media.tenor.com/wU-hCae1a8sAAAAM/live.gif" group-title="LIVE HARI INI",19.00||MADURA UNITED VS PSIM
-https://live2.domainkqt.cc/live/channel4.m3u8
-#EXTINF:-1 tvg-logo="https://media.tenor.com/wU-hCae1a8sAAAAM/live.gif" group-title="LIVE HARI INI",19.00||ADYAKSA FC VS PERSIKAD
-https://play.heyangstream.com/live/5005343_F5hd01.m3u8?expire=1789744349&sign=0c23a68bdbd2bc4dfd5e33917c7eebb9
-#EXTINF:-1 tvg-logo="https://media.tenor.com/wU-hCae1a8sAAAAM/live.gif" group-title="LIVE DINI HARI",01.30||BAYERN MUNCHEN VS UNION BERLIN
-https://live2.domainkqt.cc/live/channel6.m3u8
-#EXTINF:-1 tvg-logo="https://media.tenor.com/wU-hCae1a8sAAAAM/live.gif" group-title="LIVE DINI HARI",01.45||MONZA VS SASSUOLO
-https://live2.domainkqt.cc/live/channel11.m3u8
-#EXTINF:-1 tvg-logo="https://media.tenor.com/wU-hCae1a8sAAAAM/live.gif" group-title="LIVE DINI HARI",01.45||AS MONACCO VS RC LENS
-https://live2.domainkqt.cc/live/channel19.m3u8
-#EXTINF:-1 tvg-logo="https://media.tenor.com/wU-hCae1a8sAAAAM/live.gif" group-title="LIVE DINI HARI",02.00||BENFORD VS CHELSEA
+#EXTINF:-1 tvg-logo="https://media.tenor.com/wU-hCae1a8sAAAAM/live.gif" group-title="LIVE HARI INI",15.30||PERSEBAYA VS GARUDAYAKSA
+https://live2.domainkqt.cc/live/channel13.m3u8
+#EXTINF:-1 tvg-logo="https://media.tenor.com/wU-hCae1a8sAAAAM/live.gif" group-title="LIVE HARI INI",15.30||PSM MAKASSAR VS PERSITA
+https://play.heyangstream.com/live/5007299_F5hd01.m3u8?expire=1789819627&sign=03b5d67e6ef922f5d37d85b1698ba3a0
+#EXTINF:-1 tvg-logo="https://media.tenor.com/wU-hCae1a8sAAAAM/live.gif" group-title="LIVE HARI INI",15.30||PSPS VS PERSIRAJA
+https://play.heyangstream.com/live/5008967_F5hd01.m3u8?expire=1789819804&sign=ba6bac200911ed3ea20dedb389ffdf68
+#EXTINF:-1 tvg-logo="https://media.tenor.com/wU-hCae1a8sAAAAM/live.gif" group-title="LIVE HARI INI",18.30||TOTENHAM VS ASTON VILLA
 https://live2.domainkqt.cc/live/channel1.m3u8
-#EXTINF:-1 tvg-logo="https://media.tenor.com/wU-hCae1a8sAAAAM/live.gif" group-title="LIVE DINI HARI",02.00||ESPANYOL VS ELCHE
-https://live2.domainkqt.cc/live/channel17.m3u8
+#EXTINF:-1 tvg-logo="https://media.tenor.com/wU-hCae1a8sAAAAM/live.gif" group-title="LIVE HARI INI",19.00||PERSIJA VS JAVA UNITED
+https://live05.miekgo.app/live/59444581.m3u8
+#EXTINF:-1 tvg-logo="https://media.tenor.com/wU-hCae1a8sAAAAM/live.gif" group-title="LIVE HARI INI",20.00||BOLOGNA VS TORINO
+https://live2.domainkqt.cc/live/channel12.m3u8
+#EXTINF:-1 tvg-logo="https://media.tenor.com/wU-hCae1a8sAAAAM/live.gif" group-title="LIVE HARI INI",20.30||M'GLADBACH VS MAINZ
+https://live2.domainkqt.cc/live/channel22.m3u8
+#EXTINF:-1 tvg-logo="https://media.tenor.com/wU-hCae1a8sAAAAM/live.gif" group-title="LIVE HARI INI",21.00||NEW CASTLE VS HULL CITY
+https://live2.domainkqt.cc/live/channel6.m3u8
+#EXTINF:-1 tvg-logo="https://media.tenor.com/wU-hCae1a8sAAAAM/live.gif" group-title="LIVE HARI INI",21.00||BRIGTHON VS ARSENAL
+https://live2.domainkqt.cc/live/channel11.m3u8
+#EXTINF:-1 tvg-logo="https://media.tenor.com/wU-hCae1a8sAAAAM/live.gif" group-title="LIVE HARI INI",21.00||EVERTON VS IPWICH
+https://live2.domainkqt.cc/live/channel15.m3u8
+#EXTINF:-1 tvg-logo="https://media.tenor.com/wU-hCae1a8sAAAAM/live.gif" group-title="LIVE HARI INI",23.00||AS ROMA VS INTER MILAN
+https://live2.domainkqt.cc/live/channel19.m3u8
+#EXTINF:-1 tvg-logo="https://media.tenor.com/wU-hCae1a8sAAAAM/live.gif" group-title="LIVE DINI HARI",02.00||SEVILLA VS BARCELONA
+https://live05.meung.app/live/78905744.m3u8
+#EXTINF:-1 tvg-logo="https://media.tenor.com/wU-hCae1a8sAAAAM/live.gif" group-title="LIVE DINI HARI",02.00||WILLEM II VS FORTUNA SITTARD
+https://live2.domainkqt.cc/live/channel28.m3u8
 #EXTINF:-1 tvg-logo="https://media.tenor.com/wU-hCae1a8sAAAAM/live.gif" group-title="AFC CHAMPIONS LEAGUE",ðŸ”µAL AIN FC VS AL NASSR
 https://playback.livetl004.com/live/69f42e961f739deff81510c0.m3u8
 #EXTINF:-1 tvg-id="itzplay.id" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdKwqrduizs9EBwo1d2JMKBCD30kW9KJhyDjX2hsG4IG7XD5RKA8_rqxNo&s=10" group-title="Indonesia;OLIMPIADE ASIAN GAMES 2026",Asian Games 2026 1
@@ -4996,14 +5004,10 @@ https://live05.meung.app/live/90865415.m3u8
 https://live05.miekgo.app/live/07808742.m3u8
 #EXTINF:-1 tvg-logo="https://colatv65.live/assets/images/logo.png" group-title="FEED COLATV99",BLV MONSTER
 https://live05.meung.app/live/75915087.m3u8
-#EXTINF:-1 tvg-logo="https://colatv65.live/assets/images/logo.png" group-title="FEED COLATV99",BLV PEPSI
-https://live05.miekgo.app/live/59444581.m3u8
 #EXTINF:-1 tvg-logo="https://colatv65.live/assets/images/logo.png" group-title="FEED COLATV99",BLV FANTA
 https://live05.meung.app/live/16226575.m3u8
 #EXTINF:-1 tvg-logo="https://colatv65.live/assets/images/logo.png" group-title="FEED COLATV99",BLV SPRITE
 https://live05.meung.app/live/75748097.m3u8
-#EXTINF:-1 tvg-logo="https://colatv65.live/assets/images/logo.png" group-title="FEED COLATV99",BLV 7UP
-https://live05.meung.app/live/78905744.m3u8
 #EXTINF:-1 tvg-logo="https://colatv65.live/assets/images/logo.png" group-title="FEED COLATV99",BLV BI DAO
 https://live05.meung.app/live/99121525.m3u8
 #EXTINF:-1 tvg-logo="https://colatv65.live/assets/images/logo.png" group-title="FEED COLATV99",BLV MOUNTAIN DEW
@@ -7592,9 +7596,9 @@ http://103.71.191.168/8910/hls/live.stream.m3u8
 #EXTINF:-1 tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="CCTV",Sleman Kali Krasak
 http://103.71.191.168/8893/hls/live.stream.m3u8
 #EXTINF:-1 tvg-id="MNCTV.idSD" tvg-logo="https://thumbor.prod.vidiocdn.com/H-nyot3OCOIHY7qtKmguKyIUeBw=/230x230/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/870/ca65b5.png" group-title="Indonesia;Indonesia Channels" tvg-url="https://raw.githubusercontent.com/apistech/project/refs/heads/main/epgs/guide.xml",MNC TV
-https://cdnjktbpid37.cubmu.com/riutx01-22b1f3c4ac0e47a0ed0e3305661027ee/dash/TU5DVFY/manifest.mpd
+http://filex.me:8080//@singh_tesla_7207492/puWnhEGsXpK3/302278
 #EXTINF:-1 tvg-id="TransTV.idSD" tvg-logo="https://thumbor.prod.vidiocdn.com/__j35q7LPpcS2EgkR7v8GpE4USQ=/230x230/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/733/ecaa60.png" group-title="Indonesia;Indonesia Channels" tvg-url="https://raw.githubusercontent.com/apistech/project/refs/heads/main/epgs/guide.xml",TransTV HD
-https://cdnjktbpid37.cubmu.com/riutx01-22b1f3c4ac0e47a0ed0e3305661027ee/dash/VHJhbnNUVg/manifest.mpd
+http://filex.me:8080//@singh_tesla_7207492/puWnhEGsXpK3/302312
 #EXTINF:-1 tvg-id="TransTV.idSD" tvg-logo="https://thumbor.prod.vidiocdn.com/__j35q7LPpcS2EgkR7v8GpE4USQ=/230x230/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/733/ecaa60.png" group-title="Indonesia;Indonesia Channels" tvg-url="https://raw.githubusercontent.com/apistech/project/refs/heads/main/epgs/guide.xml",TransTV HD
 #EXTVLCOPT:http-referer=https://www.cnbcindonesia.com/
 #EXTVLCOPT:http-origin=https://20.detik.com
