@@ -173,6 +173,8 @@ https://trans.diorx.my.id/trans7.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://20.detik.com/
 https://video.detik.com/trans7/smil:trans7.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="Trans7.idSD" tvg-logo="https://thumbor.prod.vidiocdn.com/-MEB2a6J4sB6SvBDimCb7JYP6WY=/230x230/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/734/131514.png" group-title="Indonesia;Indonesia Channels" tvg-url="https://raw.githubusercontent.com/apistech/project/refs/heads/main/epgs/guide.xml",Trans7 (Transcorp)
+https://cdnjktbpid37.cubmu.com/riutx01-439abf566997b187117993103dfd8508/dash/VFJBTlM3LW15/manifest.mpd
 #EXTINF:-1 tvg-id="Trans7.idSD" tvg-logo="https://thumbor.prod.vidiocdn.com/-MEB2a6J4sB6SvBDimCb7JYP6WY=/230x230/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/734/131514.png" group-title="Indonesia;Indonesia Channels" tvg-url="https://raw.githubusercontent.com/apistech/project/refs/heads/main/epgs/guide.xml",Trans7 HD
 http://filex.me:8080//@singh_tesla_7207492/puWnhEGsXpK3/302311
 #EXTINF:-1 tvg-id="Trans7.idSD" tvg-logo="https://thumbor.prod.vidiocdn.com/-MEB2a6J4sB6SvBDimCb7JYP6WY=/230x230/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/734/131514.png" group-title="Indonesia;Indonesia Channels" tvg-url="https://raw.githubusercontent.com/apistech/project/refs/heads/main/epgs/guide.xml",Trans7 HD
@@ -1662,6 +1664,8 @@ http://goldenid.online:80/play/38ifGdTRCzSHegy1-Yigj2TNO5ui9q0ILaeBYLNBSOpi-S-Qq
 http://goldenid.online:80/play/38ifGdTRCzSHegy1-Yigj2TNO5ui9q0ILaeBYLNBSOrQ2xtWkKkZ35NdF_lNt-Pv
 #EXTINF:-1 tvg-id="TennisChannel.us" tvg-name="DSTV: Supersport Premiere League" tvg-logo="http://goldenid.online:80/images/tcjBMuCD8M_zcpZuORRWzZTzi7hDrnb2qpmDviSFCU1YTJIk_sEj1cPTnK39QgbktqHdwfWD5htZimhND-8ojpebQ3C8nfGK2Z03fX3pwwkhC33V8k0Cuwx_0TsXhNEHL5A_jEjc0g6l7-_JL8nW_g.jpeg" group-title="United States;SPORTS™ FHD¹" xui-id="23426",DSTV: Supersport Premiere League
 http://goldenid.online:80/play/38ifGdTRCzSHegy1-Yigj2TNO5ui9q0ILaeBYLNBSOqjUiGTlKHYGsMp5R_8xpAx
+#EXTINF:-1 tvg-id="SPARK1.nz" tvg-name="USA Network East" tvg-logo="http://goldenid.online:80/images/KJwy_HFuDxDvI1XyXXNLef810magYyo_s0bmax156VJhciquv8TkD8Q1MHlpqvHCkRGk2q996SMMAoL5ASeM7NX9LJHvk_mXSu-FFxi7CTF7UO8jALl3fG3jNF74ha5e4BIDztk24lU-tvQ_rm_4b4n-wzJ6WY2HTuThaYHc3kg.png" group-title="New Zealand;SPORTS VIP™ FHD" xui-id="25008",USA Network East
+http://goldenid.online:80/play/38ifGdTRCzSHegy1-Yigj5rfhx8d5wMO5Lgi_-lccQWHceIVrGR4fIRvhd8XrkrL
 #EXTINF:-1 tvg-id="SPOTV2.kr" tvg-name="DSTV: SuperSport Football" tvg-logo="http://goldenid.online:80/images/tcjBMuCD8M_zcpZuORRWzTeXJV4oMdcef4K7bEaOcgI7HaUo30HHTMTpGcxRijX7XaBhre93_vRsp0BSmZq8QKdqjEuEhPWSzIM9mVsozzPjJoOxPByTLChNxI1gDhNlcc4Nrdx4CQj0JTCwxOCCqw.jpeg" group-title="South Korea;SPORTS™ FHD¹" xui-id="25009",DSTV: SuperSport Football
 http://goldenid.online:80/play/38ifGdTRCzSHegy1-Yigj5rfhx8d5wMO5Lgi_-lccQX9_qlgRn_V9urqKTlyMe74
 #EXTINF:-1 tvg-id="btsport1.uk" tvg-name="TNT Sports 1 FHD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGfRUM4u5VWkLz2ICRVvYsY-oQGUYztoXTEsrH5dR8PXRgzJ9DLYNBK7Pq&s=10" group-title="United Kingdom;SPORTS VIP™ FHD" xui-id="25101",TNT Sports 1 FHD
@@ -1856,6 +1860,8 @@ http://goldenid.online:80/play/38ifGdTRCzSHegy1-Yigj2hSiKO1Sn8PzXvk81_wPgMEUHBf-
 http://goldenid.online:80/play/38ifGdTRCzSHegy1-Yigj2hSiKO1Sn8PzXvk81_wPgNsLZ5sh_xwl7RrBWQbkEaC
 #EXTINF:-1 tvg-name="GR: Nova Sports Premier League FHD" tvg-logo="http://goldenid.online:80/images/_PFPECAfduyBrBSxQu9ZP_86b2G7W1exmIA_lgUvH1CnR0YitumSyHdMN8Xrl_B0B1JJVl1-6E692t606Xsk1g.jpg" group-title="SPORTS VIP™ FHD" xui-id="55506",GR: Nova Sports Premier League FHD
 http://goldenid.online:80/play/38ifGdTRCzSHegy1-Yigj2hSiKO1Sn8PzXvk81_wPgMPaqi21gtK1-fS7d9jAkN1
+#EXTINF:-1 tvg-name="USA Network West" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhCm85mOMfrCV79SRLIAdVaSX2DcBks7aJisWtrsTqzKh4xbchnD__ErQ&s=10" group-title="SPORTS VIP™ FHD" xui-id="55507",USA Network West
+http://goldenid.online:80/play/38ifGdTRCzSHegy1-Yigj2hSiKO1Sn8PzXvk81_wPgNLvyHOtWZ_jgzVHg3Vx9CU
 #EXTINF:-1 tvg-name="The Bad Guys: Reign of Chaos (2019)" tvg-logo="http://goldenid.online:80/images/2e49043052630f1d2b3035da95ce79a3.jpg" group-title="CAMPUR" xui-id="24860",The Bad Guys: Reign of Chaos (2019)
 http://goldenid.online:80/play/mvIkmDx8Feom4PxGcWTT8aLCcsnKGdy-8S1XPyX_cbpK8KTvdbaD7rJAXXAW8XDq#.mp4
 #EXTINF:-1 tvg-name="Birthday (2018)" tvg-logo="http://goldenid.online:80/images/203a2b1a9694b0d213c18e4de649fbf9.jpg" group-title="CAMPUR" xui-id="24861",Birthday (2018)
@@ -4876,8 +4882,12 @@ https://live2.domainkqt.cc/live/channel7.m3u8
 https://live2.domainkqt.cc/live/channel20.m3u8
 #EXTINF:-1 tvg-logo="https://media.tenor.com/wU-hCae1a8sAAAAM/live.gif" group-title="LIVE HARI INI",17.30||,FIORENTINO VS NAPOLI
 https://live2.domainkqt.cc/live/channel1.m3u8
+#EXTINF:-1 tvg-logo="https://media.tenor.com/wU-hCae1a8sAAAAM/live.gif" group-title="LIVE HARI INI",19.00||PERSIJAP VS PERSIB
+https://tfzg0gr4ugmtwgczdcqjqgr5n45djq31unmutqiwsg45ucpzzr3mnp7ozr3d4.100ycdn.com/live1.quickscoreboardz.com/live/channel17/playlist.m3u8?wsSecret=6fc921a06295d9023a343f9852c97257&wsABSTime=1789948321&wsSession=de340ea1c9e718144ab17e19-178990512661257&wsIPSercert=fed96982a0f66dac8e4c0af7a6d6aa74&wsBindIP=2&wsserid=1168287746140338896
+#EXTINF:-1 tvg-logo="https://media.tenor.com/wU-hCae1a8sAAAAM/live.gif" group-title="LIVE HARI INI",19.00||SEMEN PADANG VS PSIS SEMARANG
+https://play.heyangstream.com/live/5009003_F5hd01.m3u8?expire=1789918381&sign=0cae25922b83eb1c511e1adb946c5f00
 #EXTINF:-1 tvg-logo="https://media.tenor.com/wU-hCae1a8sAAAAM/live.gif" group-title="LIVE HARI INI",20.00||BOURNEMOUTH VS LIVERPOOL
-https://live2.domainkqt.cc/live/channel5.m3u8
+https://live2.domainkqt.cc/live/channel2.m3u8
 #EXTINF:-1 tvg-logo="https://media.tenor.com/wU-hCae1a8sAAAAM/live.gif" group-title="LIVE HARI INI",20.00||FROSINONE VS COMO
 https://live2.domainkqt.cc/live/channel21.m3u8
 #EXTINF:-1 tvg-logo="https://media.tenor.com/wU-hCae1a8sAAAAM/live.gif" group-title="LIVE HARI INI",20.30||LEVERKUSEN VS LEIPZIG
@@ -4890,8 +4900,8 @@ https://live05.miekgo.app/live/59444581.m3u8
 https://live2.domainkqt.cc/live/channel15.m3u8
 #EXTINF:-1 tvg-logo="https://media.tenor.com/wU-hCae1a8sAAAAM/live.gif" group-title="LIVE HARI INI",23.30||DEPORTIVO VS REAL BETIS
 https://live2.domainkqt.cc/live/channel19.m3u8
-#EXTINF:-1 tvg-logo="https://media.tenor.com/wU-hCae1a8sAAAAM/live.gif" group-title="LIVE HARI INI",23.30||VILAREAL VS LEVANTE
-https://live2.domainkqt.cc/live/channel2.m3u8
+#EXTINF:-1 tvg-logo="https://media.tenor.com/wU-hCae1a8sAAAAM/live.gif" group-title="LIVE DINI HARI",01.45||MARSEILE VS PSG
+https://live2.domainkqt.cc/live/channel5.m3u8
 #EXTINF:-1 tvg-logo="https://media.tenor.com/wU-hCae1a8sAAAAM/live.gif" group-title="AFC CHAMPIONS LEAGUE",ðŸ”µAL AIN FC VS AL NASSR
 https://playback.livetl004.com/live/69f42e961f739deff81510c0.m3u8
 #EXTINF:-1 tvg-id="itzplay.id" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdKwqrduizs9EBwo1d2JMKBCD30kW9KJhyDjX2hsG4IG7XD5RKA8_rqxNo&s=10" group-title="Indonesia;OLIMPIADE ASIAN GAMES 2026",Asian Games 2026 1
