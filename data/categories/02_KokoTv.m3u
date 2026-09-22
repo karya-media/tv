@@ -3716,7 +3716,11 @@ http://38.75.136.137:98/gslb/dsdqpub/cctv16hd.m3u8?auth=testpub
 http://38.75.136.137:98/gslb/dsdqpub/cctv17hd.m3u8?auth=testpub
 
 ###VOD MUSIC###
-
+#EXTINF:-1 tvg-id="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7WPfm_4vLZ74V5_jQ059u0xdeVaveRxT2NjKx2NCpHw&s" group-title="KOKO TV MUSIC",🆕️ SMAILES 25 - ((MINI ALBUM 1))
+https://dl.dropboxusercontent.com/scl/fi/q5259ggv8v9q0h2ixf1yo/Smailles25-Mekar-Tanpa-Akar-Dendam-Balas-Dendam-Terbaik-Adalah-Tumbuh-360-X-640.mp4?rlkey=3fztb16k2fdzi1vbikg44ffa6&st=rpvmhkmi&dl=1
+#EXTINF:-1 tvg-id="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7WPfm_4vLZ74V5_jQ059u0xdeVaveRxT2NjKx2NCpHw&s" group-title="KOKO TV MUSIC",🆕️ SMAILES 25 - ((MINI ALBUM 2))
+https://dl.dropboxusercontent.com/scl/fi/967dsi1l6tva4uvmgiy1e/Smailles25-Labirin-Ekspektasi-Mini-Album-Kontemplasi-480-X-854.mp4?rlkey=r9dhxrk9ik0b2ir0wm1ihjlr4&st=j8xymb48&dl=1
+#EXTINF:-1 tvg-id="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7WPfm_4vLZ74V5_jQ059u0xdeVaveRxT2NjKx2NCpHw&s" group-title="KOKO TV MUSIC",🆕️ SMAILES 25 - MENEPI SENJA
 #EXTINF:-1 group-title="KOKO TV MUSIC" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTINwAmrGY6m0pruIX6pwPU5e_jbZMfXN_-AZpJSjbRgg&s=10",MBG (MAS BAHLIL GANTENG)
 https://dl.dropboxusercontent.com/scl/fi/es0p8p9v2ay6bnbet3ujm/M.B.G-Mas-Bahlil-Ganteng-Full-Lirik-Lagu-Viral-2026-1080-X-1920-60fps.mp4?rlkey=4fbf8mzuzdxk1m9jtve3e8tg6&st=3ow51fp4&dl=1
 #EXTINF:-1 group-title="KOKO TV MUSIC" tvg-logo="https://i.ytimg.com/vi/I3jzDIEK99g/hqdefault.jpg",FULL ALBUM WINZURA
@@ -3742,13 +3746,14 @@ https://dl.dropboxusercontent.com/scl/fi/iitn9s0ld7erilb6xj9om/TERUS-MELAJU-VELU
 #EXTINF:-1 tvg-id="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7WPfm_4vLZ74V5_jQ059u0xdeVaveRxT2NjKx2NCpHw&s" group-title="KOKO TV MUSIC",AI - KETENANGAN
 https://dl.dropboxusercontent.com/scl/fi/bujp0uo8ahmwt28ak7qtu/VELUNE-KETENANGAN-DIBALIK-RIUH-Official-Lyric-Video-720-X-1280.mp4?rlkey=06nx49kfjc8sy7luosj6pgo83&st=3dnllc8h&dl=1
 
+((((VOD INDO))
+
 #EXTINF:-1 group-title="VOD INDO (Test)" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYTOr6mmBCZNQKHJEwDewIV6RZ-uQKdN6PSmQptfYvMRusVhKILNo6z47-&s=10",Timur (2025)
 https://dl.dropboxusercontent.com/scl/fi/xdtynw3ksdtco9d1w9ayi/TIMUR-2025-IKO-UWAIS-FULL-MOVIE-480-X-852.mp4?rlkey=fllk9hmfyxcwom5ko4cyafrvh&st=24gtlev4&dl=1
 #EXTINF:-1 group-title="VOD INDO (Test)" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSIi2Jjs0mVq7hVPfqUdKHZaqJFLyrBR0HcE5lhzhAMJhFF4GETZPJKu1N&s=10",JANGAN PANGGIL MAMA KAFIR
 https://dl.dropboxusercontent.com/scl/fi/7di3jfrlxy47pw49038x8/Jangan-Panggil-Mama-Kafir-2025-Full-Movie-720-X-1280.mp4?rlkey=s2v5u4ynawmajayq9v62euh6z&st=mjdm8t2n&dl=1
-
-#EXTINF:-1 group-title="VOD INDO (Test)" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSIi2Jjs0mVq7hVPfqUdKHZaqJFLyrBR0HcE5lhzhAMJhFF4GETZPJKu1N&s=10",JANGAN PANGGIL MAMA KAFI
-https://api.tvri.live/stream_proxy.php?url=https%3A%2F%2Ffhlsport723.tm3ubp4r5mk1strange.ru%2Ftoken-JBIpmuKRIfaG72V%252Bw%252FY6n23QlJvVgCHjOHCql%252FUdRWGhs7mbHURZFIspqwtKXEkGRnjf3zVnm%252F1yf5JKU0oY%252F5MxTUm1N4e1a%2Fcfall%2Fs2001%2Fv3b%2F4q8o8n48nUE0pQbiY3EmAmphZ3umqT0lYz9hMD%253D%253D%2Fsuper%2F3x_737454.m3u8
+#EXTINF:-1 group-title="VOD INDO (Test)" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVi3cb2nSAMP798czrhJXO9hIO-nPp6o7usNh2fynx-w&s=10",6 JULIKE (2025)
+https://stream.playcdn.de/playlist/9323067e65c98636d5525b2be2c9ec60/1/0.m3u8?x=1
 
 #EXTINF:0 group-title="CAMPURAN" tvg-id="3641" tvg-logo="http://epg.one/img2/3641.png" tvg-rec="0",CNN CA
 http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/BMXKTN5RXYDNXT/6499/index.m3u8
