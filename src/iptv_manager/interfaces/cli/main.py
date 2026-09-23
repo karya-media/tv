@@ -5,6 +5,7 @@ Commands:
     iptv-manager import CATEGORY SOURCE   - import one category playlist
     iptv-manager sync-sources              - re-import every category listed in data/sources.txt
     iptv-manager merge                    - merge all categories into master.m3u
+    iptv-manager export-overrides         - export master.m3u to data/overrides.xlsx to edit by hand
     iptv-manager validate                 - validate every stream in master.m3u
     iptv-manager check-logos              - validate every channel's logo image
     iptv-manager check-epg XMLTV_SOURCE   - compare master.m3u tvg-ids against an XMLTV EPG
@@ -22,6 +23,7 @@ import typer
 
 from iptv_manager.application.dto.validation_report import ValidationReport
 from iptv_manager.application.use_cases.apply_channel_order import ApplyChannelOrderUseCase
+from iptv_manager.application.use_cases.apply_overrides import ApplyOverridesUseCase
 from iptv_manager.application.use_cases.backfill_tvg_id import BackfillTvgIdFromExactNameUseCase
 from iptv_manager.application.use_cases.categorize_by_country import CategorizeByCountryUseCase
 from iptv_manager.application.use_cases.compare_with_xmltv import CompareWithXMLTVUseCase
@@ -50,11 +52,16 @@ from iptv_manager.domain.entities.epg_programme import EPGProgramme
 from iptv_manager.domain.entities.playlist import Playlist
 from iptv_manager.domain.entities.stream_validation_result import StreamStatus
 from iptv_manager.infrastructure.parsers.m3u_parser import M3UParser
+from iptv_manager.infrastructure.parsers.overrides_excel_reader import (
+    OverridesExcelReadError,
+    read_overrides_excel,
+)
 from iptv_manager.infrastructure.parsers.xmltv_parser import XMLTVParser
 from iptv_manager.infrastructure.reports.csv_report_writer import CSVReportWriter
 from iptv_manager.infrastructure.reports.excel_report_writer import ExcelReportWriter
 from iptv_manager.infrastructure.reports.html_report_writer import HTMLReportWriter
 from iptv_manager.infrastructure.reports.json_report_writer import JSONReportWriter
+from iptv_manager.infrastructure.reports.overrides_excel_writer import OverridesExcelWriter
 from iptv_manager.infrastructure.serializers.xmltv_writer import write_xmltv
 from iptv_manager.infrastructure.sources.channel_order_file import parse_channel_order_file
 from iptv_manager.infrastructure.sources.epg_sources_file import parse_epg_sources_file
@@ -242,6 +249,24 @@ def _build_everything_result(
     everything_result = MergePlaylistsUseCase().execute(playlists, master_name="master")
     everything_result.master = BackfillTvgIdFromExactNameUseCase().execute(everything_result.master)
     everything_result.master = CategorizeByCountryUseCase().execute(everything_result.master)
+
+    overrides_path = settings.project_root / "data" / "overrides.xlsx"
+    try:
+        overrides = read_overrides_excel(overrides_path)
+    except OverridesExcelReadError as exc:
+        typer.echo(f"warning: ignoring {overrides_path}: {exc}", err=True)
+        overrides = []
+    if overrides:
+        channel_urls = {channel.url.raw for channel in everything_result.master}
+        applied = sum(
+            1 for override in overrides if not override.is_empty and override.url in channel_urls
+        )
+        everything_result.master = ApplyOverridesUseCase().execute(
+            everything_result.master, overrides
+        )
+        if applied:
+            typer.echo(f"Applied {applied} manual override(s) from {overrides_path}")
+
     if priority_slots:
         everything_result.master = ApplyChannelOrderUseCase().execute(
             priority_slots, everything_result.master
@@ -407,6 +432,39 @@ def _publish_bundle(
     if settings.publish_target in (PublishTarget.PAGES_ONLY, PublishTarget.BOTH):
         docs_path = settings.project_root / settings.docs_dir / f"{bundle_name}.m3u"
         docs_path.write_text(serialized, encoding="utf-8")
+
+
+@app.command("export-overrides")
+def export_overrides() -> None:
+    """Export every channel from every data/categories/ file (the same
+    comprehensive set used for validation/reporting - not just
+    whatever happens to be in one data/playlists.txt bundle, since a
+    bundle like "master" may itself be filtered down to a subset of
+    countries/categories) to data/overrides.xlsx, one row per channel,
+    with two blank columns - "New tvg-id" and "New group-title" - for
+    manually correcting a specific channel's metadata by hand (e.g.
+    the TV9-tagged-as-India case fixed manually earlier in this
+    project's history).
+
+    Fill in either column for the rows you want to fix and leave the
+    rest blank; every subsequent `merge`/`report` run reads this file
+    back in (see ApplyOverridesUseCase) and applies your corrections -
+    as the final word, after automatic country-tagging but before
+    channel ordering - so they're never overwritten by re-running the
+    pipeline. Re-running this command regenerates the file from
+    scratch (including any already-filled-in corrections still
+    reflected in the resulting group-title/tvg-id, since those are
+    now the *current* values) - copy elsewhere first if you want to
+    keep a specific in-progress edit safe from being overwritten."""
+    settings = get_settings()
+    settings.ensure_directories()
+
+    parser = M3UParser()
+    _file_count, everything_result, _publish = _build_everything_result(settings, parser)
+
+    output_path = settings.project_root / "data" / "overrides.xlsx"
+    OverridesExcelWriter().write(everything_result.master, output_path)
+    typer.echo(f"Wrote {len(everything_result.master)} channel(s) to {output_path}")
 
 
 @app.command("merge")
