@@ -63,8 +63,8 @@ https://cdnbal1.indihometv.com/atm/DASH/beritasatu/beritasatu-avc1_2500000=7-327
 #EXTINF:-1 tvg-id="Nusantara.TV.id" tvg-logo="https://raw.githubusercontent.com/apistech/project/refs/heads/main/logo/image_ch_nusantaratv.png" group-title="Indonesia;Nasional" http-referrer="" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36 Edg/150.0.0.0",Nusantara TV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36 Edg/150.0.0.0
 https://op-flashcon-digdayahd-1.dens.tv/h/h37/index.m3u8
-#EXTINF:-1 tvg-id="Nusantara.TV.id" tvg-logo="https://i.imgur.com/EzirkhZ.jpeg" group-title="Indonesia;Nasional" http-referrer="" http-user-agent="",Nusantara TV
-https://nusantaratv.siar.us/nusantaratv/live/playlist.m3u8
+#EXTINF:-1 tvg-id="NusantaraTV.idSD" tvg-logo="https://thumbor.prod.vidiocdn.com/npPL9VlWMJ5owmeupR7ucPjdGl4=/230x230/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/7432/bfecbc.png" group-title="Indonesia;Indonesia Channels" tvg-url="https://raw.githubusercontent.com/apistech/project/refs/heads/main/epgs/guide.xml",Nusantara TV (Maxstream)
+https://cdnbal1.indihometv.com/atm/DASH/nusantaratv/nusantaratv-avc1_2500000=7-3277707030000000.mpd
 #EXTINF:-1 tvg-id="BTV.idSD" tvg-logo="https://img.favpng.com/5/15/14/beritasatu-com-logo-beritasatu-media-holdings-news-png-favpng-ascxjWXRYnY9w2tGEsZusEmJa.jpg" group-title="Indonesia;Indonesia Channels" tvg-url="",Berita Satu (Transcorp)
 https://cdnjktcyber05.transvision.co.id/riutx01-2f65b3d77c22543c5b585fb146ab3f32/dash/QmVyaXRhIFNhdHU/manifest.mpd?signature=ZjYzZmYzMDNjZTdhZTZkMDVkNThjMGM3NDVhYjU1MGY=\u0026time=77777777777\u0026device_id=BxtJ4SxfozLBQg-tMLYE7t9cDtja2Pcoj3uTXSxte59pE_CqGYzM
 #EXTINF:-1 tvg-id="BeritaSatu.idSD" tvg-logo="https://raw.githubusercontent.com/apistech/project/refs/heads/main/logo/imageCir_BERITA_SATU_(Color)_2025_10_24_11_52_17.jpg" group-title="Indonesia;Indonesia Channels",Berita Satu
