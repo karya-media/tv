@@ -72,8 +72,6 @@ https://cdnbal1.indihometv.com/atm/DASH/sctv/manifest.mpd
 #EXTINF:-1 tvg-id="SCTV.idSD" tvg-logo="https://thumbor.prod.vidiocdn.com/kH-K9J4cROqL0TZrAyQhw7P5pBk=/230x230/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/204/4e9f5c.png" group-title="Indonesia;Indonesia Channels" tvg-url="https://raw.githubusercontent.com/apistech/project/refs/heads/main/epgs/guide.xml",SCTV (Transcorp)
 https://cdnjktcyber05.transvision.co.id/riutx01-2f65b3d77c22543c5b585fb146ab3f32/dash/U0NUVi1teQ/manifest.mpd?signature=OTEwMDUxNDkwYjlkYmQ3NTc2ZTE3OTc3NmUxOGQ0Mzk=\u0026time=77777777777\u0026device_id=wyvxIjeR8fUfrs46xZaKt9uidRTWKqhD5kE33ER9UHmxy3z14flq
 #EXTINF:-1 tvg-id="SCTV.idSD" tvg-logo="https://thumbor.prod.vidiocdn.com/kH-K9J4cROqL0TZrAyQhw7P5pBk=/230x230/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/204/4e9f5c.png" group-title="c-tv;Indonesia" tvg-url="https://raw.githubusercontent.com/apistech/project/refs/heads/main/epgs/guide.xml",SCTV (Vision +)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
-#EXTVLCOPT:http-referrer=https://www.visionplus.id/
 https://d3b0v7fggu5zwm.cloudfront.net/out/v1/9e9aba7068ca4c7f8a73381bef5f8742/index.mpd
 #EXTINF:-1 tvg-id="SCTV.idSD" tvg-logo="https://i.imgur.com/EMmOvnQ.png" group-title="iptv-org;Indonesia;Uncategorized" http-referrer="https://www.dens.tv/" http-user-agent="Mozilla/5.0 Windows NT 10.0; Win64; x64 AppleWebKit/537.36 KHTML, like Gecko Chrome/144.0.0.0 Safari/537.36",SCTV [Geo-blocked]
 #EXTVLCOPT:http-referrer=https://www.dens.tv/
@@ -5696,14 +5694,6 @@ https://op-flashcon-digdayahd-1.dens.tv/s/s104/index.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTVLCOPT:http-referrer=https://www.visionplus.id/
 https://d2xz2v5wuvgur6.cloudfront.net/out/v1/dafcaf8b26064ae7b27702088240b535/index.mpd
-#EXTINF:-1 tvg-id="HBOAsia.sgSD" tvg-logo="https://iili.io/Ju79f8g.png" group-title="Singapore;HBO Group" tvg-url="https://raw.githubusercontent.com/apistech/project/refs/heads/main/epgs/guide.xml",HBO
-http://tv.cloudcdn.me/live.ts?channelId=132161&uid=10223&deviceMac=00:1A:79:07:07:43
-#EXTINF:-1 tvg-id="HBOHitsAsia.sgSD" tvg-logo="https://iili.io/Ju79nwv.png" group-title="Singapore;HBO Group" tvg-url="https://raw.githubusercontent.com/apistech/project/refs/heads/main/epgs/guide.xml",HBO Hits
-http://tv.cloudcdn.me/live.ts?channelId=132160&uid=10223&deviceMac=00:1A:79:07:07:4
-#EXTINF:-1 tvg-id="HBOSignature" tvg-logo="https://iili.io/Ju79IMN.png" group-title="HBO Group" tvg-url="https://raw.githubusercontent.com/apistech/project/refs/heads/main/epgs/guide.xml",HBO Signature
-http://tv.cloudcdn.me/live.ts?channelId=93744&uid=10223&deviceMac=00:1A:79:07:07:43
-#EXTINF:-1 tvg-id="HBOFamilyAsia.sgSD" tvg-logo="https://iili.io/Ju79otR.png" group-title="Singapore;HBO Group" tvg-url="https://raw.githubusercontent.com/apistech/project/refs/heads/main/epgs/guide.xml",HBO Family
-http://tv.cloudcdn.me/live.ts?channelId=93779&uid=10223&deviceMac=00:1A:79:07:07:43
 #EXTINF:-1 tvg-id="MetroTV.idSD" tvg-logo="https://thumbor.prod.vidiocdn.com/u0aa_S_rQeujrp5eR6LwXdertrI=/230x230/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/777/ea8483.png" group-title="c-tv;Indonesia" tvg-url="https://raw.githubusercontent.com/apistech/project/refs/heads/main/epgs/guide.xml",MetroTV (Vision +)
 #EXTVLCOPT:http-referrer=https://www.visionplus.id/
 https://d2tjypxxy769fn.cloudfront.net/out/v1/fd4360b1c12c4375848c8f085fd51d41/index.mpd
@@ -5715,8 +5705,9 @@ https://d84q7nw4qf3j3.cloudfront.net/out/v1/dc63bd198bc44193b570e0567ff5b22c/ind
 #EXTINF:-1 tvg-id="AXNAsia.sgIndonesia" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/b/bb/AXN_2011.png/revision/latest?cb=20201126072546" group-title="Singapore;Premium Movies" tvg-url="https://raw.githubusercontent.com/apistech/project/refs/heads/main/epgs/guide.xml",AXN (Maxstream)
 https://cdnbal1.indihometv.com/atm/DASH/axn/manifest.mpd
 #EXTINF:-1 tvg-id="AXNAsia.sgIndonesia" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/b/bb/AXN_2011.png/revision/latest?cb=20201126072546" group-title="Singapore;Premium Movies" tvg-url="https://raw.githubusercontent.com/apistech/project/refs/heads/main/epgs/guide.xml",AXN (Transcorp)
-https://cdnjktcyber05.transvision.co.id/riutx01-2c1fa8682342c878f128b4149a675281/dash/QVhOLW15/manifest.mpd?time=77777777777
+https://cdnjktcyber05.transvision.co.id/riutx01-2f65b3d77c22543c5b585fb146ab3f32/dash/QVhOLW15/manifest.mpd
 #EXTINF:-1 tvg-id="AXNAsia.sgIndonesia" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/b/bb/AXN_2011.png/revision/latest?cb=20201126072546" group-title="KokoTv;ðŸ¿ FILM" tvg-url="https://raw.githubusercontent.com/apistech/project/refs/heads/main/epgs/guide.xml",AXN (Vision +)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTVLCOPT:http-referrer=https://www.visionplus.id/
 https://d3b0v7fggu5zwm.cloudfront.net/out/v1/456143d3b12140e1a872b25f067ddb62/index.mpd
 #EXTINF:-1 tvg-id="KIX.hkSD" tvg-logo="https://static.wikia.nocookie.net/logos/images/2/21/KIX_HD.png/revision/latest?cb=20220216043203&path-prefix=vi" group-title="Hong Kong;Premium Movies" tvg-url="https://raw.githubusercontent.com/apistech/project/refs/heads/main/epgs/guide.xml",KIX (Maxstream)
@@ -5769,11 +5760,11 @@ https://cdnjktbpid02.transvision.co.id/riutx01-3f9d9dd6012b7cdd7558fdd44b9a002b/
 #EXTINF:-1 tvg-id="ABCAustralia.au" tvg-logo="https://www.mncvision.id/userfiles/image/channel/channel_25.png" group-title="KokoTv;Australia;ðŸ¿ FILM" tvg-url="https://raw.githubusercontent.com/apistech/project/refs/heads/main/epgs/guide.xml",TvN movies HD
 http://202.150.161.212:5000/live/channel30/playlist.m3u8
 #EXTINF:-1 tvg-id="KPlus.sgSD" tvg-logo="https://raw.githubusercontent.com/apistech/project/refs/heads/main/logo/image_ch_kplus.png" group-title="Singapore;Korean Channels",K Plus (Transcorp)
-https://cdnjktcyber05.transvision.co.id/riutx01-2f65b3d77c22543c5b585fb146ab3f32/dash/a3BsdXNjaGFubmVs/manifest.mpd?signature=ZDk1ODUwZTM5MjRmZGQwZGM2OWM3NzUwY2I1YjY5ZTY=\u0026time=77777777777\u0026device_id=P874e3TRVYGcFJxItONMbjIjGf_KSkc7govSYzDUlfyUKM4gdeye
+https://cdnjktcyber05.transvision.co.id/riutx01-2f65b3d77c22543c5b585fb146ab3f32/dash/a3BsdXNjaGFubmVs/manifest.mpd?signature=Zjc0NjIwZGFmYThiMzk3ODZkOThhYzM3Zjc3MDI2OTg=&time=77777777777&device_id=xvfT1Unjt6MxKn7jiWIyvhNBDk0OyvwykMopXDXvVOdAgG1noA
 #EXTINF:-1 tvg-id="KPlus.sgSD" tvg-logo="https://raw.githubusercontent.com/apistech/project/refs/heads/main/logo/image_ch_kplus.png" group-title="Singapore;Korean Channels",K Plus (Maxstream)
 https://cdnbal1.indihometv.com/atm/DASH/kplus/kplus-avc1_2500000=7-3277707030000000.mpd
 #EXTINF:-1 tvg-id="KBSWorld.krSD" tvg-logo="https://raw.githubusercontent.com/apistech/project/refs/heads/main/logo/image_ch_kbsworld.png" group-title="South Korea;Korean Channels",KBS World (Transcorp)
-https://cdnjktcyber05.transvision.co.id/riutx01-437ec38cc692ca43976ff80c7af30565/dash/S0JTIFdvcmxk/manifest.mpd
+https://cdnjktcyber05.transvision.co.id/riutx01-2f65b3d77c22543c5b585fb146ab3f32/dash/S0JTIFdvcmxk/manifest.mpd
 #EXTINF:-1 tvg-logo="https://cdn88-accio.its-newid.net/channel/newid_008/lg_channels/img/channel_logo/default/channel_logo.png" group-title="c-tv;Korean Channels",K-DRAMA+
 https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=425
 #EXTINF:-1 tvg-logo="https://cdn88-accio.its-newid.net/channel/newid_009/lg_channels/img/default/channel_logo/channel_logo.png" group-title="KokoTv;ðŸŒ HIBURAN",NEW KMOVIES
@@ -5896,11 +5887,11 @@ https://cdnjktcyber05.transvision.co.id/riutx01-2f65b3d77c22543c5b585fb146ab3f32
 #EXTINF:-1 tvg-logo="https://servicebuss.transvision.co.id/hospitality/v1/files/channel_image/87c43b67-b234-41a8-b188-ae6b498a40b4.jpg" group-title="Kids Channel",Cartoon TV Classic (Transcorp)
 https://cdnjktcyber05.transvision.co.id/riutx01-2f65b3d77c22543c5b585fb146ab3f32/dash/Q2FydG9vbiBUViBDbGFzc2ljcw/manifest.mpd?signature=OGRiOTdkNTU5ZWU2NTIxYzhjZGNiZWI0YmEyNDgxM2Y=\u0026time=77777777777\u0026device_id=t7wmjD0uhOedYOESLfpfnvDlnQh1JFHVJyUKkRL1ttcGWzoCtzeX
 #EXTINF:-1 tvg-id="BoomerangAsia.sgSD" tvg-logo="https://raw.githubusercontent.com/apistech/project/refs/heads/main/logo/image_ch_cartoonito.png" group-title="Singapore;Kids Channel",Cartoonito (Transcorp)
-https://cdnjktcyber05.transvision.co.id/riutx01-2c1fa8682342c878f128b4149a675281/dash/Q2FydG9vbml0bw/manifest.mpd
+https://cdnjktcyber05.transvision.co.id/riutx01-2f65b3d77c22543c5b585fb146ab3f32/dash/Q2FydG9vbml0bw/manifest.mpd
 #EXTINF:-1 tvg-logo="https://servicebuss.transvision.co.id/hospitality/v1/files/channel_image/6e735e2f-e7db-47ec-b13b-23d3a0342124.jpg" group-title="Kids Channel",Cartoon TV Premium (Transcorp)
 https://cdnjktcyber05.transvision.co.id/riutx01-2f65b3d77c22543c5b585fb146ab3f32/dash/Q2FydG9vbiBUViBQcmVtaXVt/manifest.mpd?signature=ZDAwOTQxMjE3ZDU4OTY3MjM5MTYzNDkwNTY2NmMwMGY=\u0026time=77777777777\u0026device_id=1TXSj8siqPGphEBedXo_7fD3V7s2q8-yJtJe_dQinSbu9g71uWiJ
 #EXTINF:-1 tvg-logo="https://servicebuss.transvision.co.id/hospitality/v1/files/channel_image/76e39ba2-62b9-4f96-90ae-3de803edb400.png" group-title="Kids Channel",Dunia Anak (Transcorp)
-https://cdnjktcyber05.transvision.co.id/riutx01-2f65b3d77c22543c5b585fb146ab3f32/dash/RHVuaWEgQW5haw/manifest.mpd?signature=ZDNiYjU4MzAxMTBkMzc1MjI5Y2U3OWRhYTEyYTI3NTk=\u0026time=77777777777\u0026device_id=FSlX1K-DefzQgeRDr8nqcdPldi08duOIYOa9kVNKTxlQJdq10_VV
+https://cdnjktcyber05.transvision.co.id/riutx01-2f65b3d77c22543c5b585fb146ab3f32/dash/RHVuaWEgQW5haw/manifest.mpd?signature=YzFiMDczNTk5YzQ0YTAxM2U4ZDViODhmZWIzZDkwYzE=&time=77777777777&device_id=oqPcIJQPEgQxuPCsq77lFIwOcrQECY_B1ndbumvw1NNut3BBlg
 #EXTINF:-1 tvg-id="USA.BOOMERANG" tvg-name="USA BOOMERANG" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/a/a4/Boomerang_TV_Logo_%282004-2015%29.png" group-title="c-tv;Bolivia;Kids Channel",BOOMERANG
 https://23.237.104.106:8080/USA_BOOMERANG/index.m3u8
 #EXTINF:-1 tvg-logo="https://media.info/l/o/6/6469.1480802065.png" group-title="c-tv;Kids Channel",ABC Cartoons
