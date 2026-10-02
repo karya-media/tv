@@ -3,3 +3,4 @@ iptv-org=https://iptv-org.github.io/iptv/index.m3u
 c_tv=https://raw.githubusercontent.com/Bluestraveller13/super-duper-spork/refs/heads/main/KITKATJOSS
 Film=https://script.google.com/macros/s/AKfycbwrvGeZ7EOa1J0cs9rGV5KsWh6TGMb_iHb_WU9dv37HGQ1WXQ3TgapC-XAtUwAjsx_QJw/exec
 01_Thoha-Aji=https://goldenid.online/playlist/ThohaAjiTV1/ThohaAjiTV/m3u_plus
+vod=https://movieplay.diameterr5.workers.dev/tes1.m3u8?fbclid=IwZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQPMjc1MjU0NjkyNTk4Mjc5AAEeIG5Tlor8Xx44DhHOldIUBsnB19MBn3kGRPu6EcRHYe8zKh_kqDqViwglg-U_aem_KHKdSsExBY1niuxZOqjiyA
