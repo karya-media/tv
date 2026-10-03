@@ -1,14 +1,10 @@
 #EXTM3U url-tvg="https://epgshare01.online/epgshare01/epg_ripper_ALL_SOURCES1.xml.gz"
-#EXTINF:-1 tvg-id="RCTI.idSD" tvg-logo="https://thumbor.prod.vidiocdn.com/9c-sEWp6Du7DoWDn56cjma0gMpY=/230x230/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/665/337c4d.png" group-title="Indonesia;Indonesia Channels" tvg-url="https://raw.githubusercontent.com/apistech/project/refs/heads/main/epgs/guide.xml",RCTI (Vision+)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
-#EXTVLCOPT:http-referrer=https://www.visionplus.id/
-https://d2xz2v5wuvgur6.cloudfront.net/out/v1/997ce8767b604fae9fce05379b3b8b3a/index.mpd
+#EXTINF:-1 tvg-id="RCTI.id" tvg-name="RCTI" tvg-logo="http://hometv.biz.id:80/images/Ew7KWgEVPBJlBK0JSddniCSXgQUyeYTSUh135SFESvbiziO7FndHuS-l2338RtDqtMTNUB-cRIiDGwpjeWFbAg.png" group-title="Indonesia;- LOKAL ID -" xui-id="7",RCTI
+http://hometv.biz.id:80/play/_7XA-V7p5MQBehkGXAyX4g
 #EXTINF:-1 tvg-id="RCTI.idSD" tvg-logo="https://thumbor.prod.vidiocdn.com/9c-sEWp6Du7DoWDn56cjma0gMpY=/230x230/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/665/337c4d.png" group-title="Indonesia;Indonesia Channels" tvg-url="https://raw.githubusercontent.com/apistech/project/refs/heads/main/epgs/guide.xml",RCTI (Transcorp)
 https://cdnjktcyber05.transvision.co.id/riutx01-a823b93f0d45cabb0fba0e57ca612f86/dash/UkNUSS1DaGFubmVs/manifest.mpd?signature=NGFhMzY2YjcxYmU2MDk2MTdlYzljZjMzZmEwOThjYWM=\u0026time=77777777777\u0026device_id=VM6nhR85pk8AgrvQqs7C7kIklfDpKWpjt0gF07fbyI6WAvZMbT0p
-#EXTINF:-1 tvg-id="iNews.id" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/0/09/INews.png" group-title="Indonesia;Nasional" http-referrer="https://www.rctiplus.com/" http-user-agent="android-R+",iNews
-#EXTVLCOPT:http-user-agent=android-R+
-#EXTVLCOPT:http-referrer=https://www.rctiplus.com/
-https://r-plus.sedotcw3.workers.dev/index.m3u8?id=inews
+#EXTINF:-1 tvg-id="iNews.id" tvg-name="iNEWS" tvg-logo="http://hometv.biz.id:80/images/Ew7KWgEVPBJlBK0JSddniCSXgQUyeYTSUh135SFESvbiziO7FndHuS-l2338RtDqpL3DvO2Wsh0CBf1EVc7y8Q.png" group-title="Indonesia;- LOKAL ID -" xui-id="10",iNEWS
+http://hometv.biz.id:80/play/SVPl8gTP34bRUSItEnfHsw
 #EXTINF:-1 tvg-id="iNews.idSD" tvg-logo="https://thumbor.prod.vidiocdn.com/BmeGg2IWkB_FAVPDviCk8gP8qcw=/230x230/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/5409/c40666.png" group-title="Indonesia;Indonesia Channels" tvg-url="https://raw.githubusercontent.com/apistech/project/refs/heads/main/epgs/guide.xml",iNews (Maxstream)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone14,6; U; CPU iPhone OS 15_4 seperti Mac OS X) AppleWebKit/602.1.50 (KHTML, seperti Gecko) Versi/10.0 Seluler/19E241 Safari/602.1
 #EXTVLCOPT:http-referrer=https://xl365.buzzscorelinez.com/
@@ -19,16 +15,16 @@ https://cdnjktcyber05.transvision.co.id/riutx01-a823b93f0d45cabb0fba0e57ca612f86
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone14,6; U; CPU iPhone OS 15_4 seperti Mac OS X) AppleWebKit/602.1.50 (KHTML, seperti Gecko) Versi/10.0 Seluler/19E241 Safari/602.1
 #EXTVLCOPT:http-referrer=https://xl365.buzzscorelinez.com/
 https://cdnbal1.indihometv.com/atm/DASH/sctv/manifest.mpd
+#EXTINF:-1 tvg-id="Indosiar.id" tvg-name="INDOSIAR" tvg-logo="http://hometv.biz.id:80/images/Ew7KWgEVPBJlBK0JSddniCSXgQUyeYTSUh135SFESvbiziO7FndHuS-l2338RtDqCgvgmgsaZSOoak053U9erwi-WW-AM5FjVHDSwcFEabU.png" group-title="Indonesia;- LOKAL ID -" xui-id="5",INDOSIAR
+http://hometv.biz.id:80/play/qkwVBf1dkXpMJIK7ooDaYw
 #EXTINF:-1 tvg-id="Indosiar.idSDr" tvg-logo="https://thumbor.prod.vidiocdn.com/0plBZ7Gso7gNBJxid9ksA8HMGxc=/230x230/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/205/54ab19.png" group-title="Indonesia;Indonesia Channels" tvg-url="https://raw.githubusercontent.com/apistech/project/refs/heads/main/epgs/guide.xml",Indosiar (Transcorp)
 https://cdnjktcyber05.transvision.co.id/riutx01-a823b93f0d45cabb0fba0e57ca612f86/dash/SW5kb3NpYXI/manifest.mpd?signature=NGJkYmUwZDk5M2YyN2ZkYTdhY2VlN2Y5MGU1NWEwZjU=\u0026time=77777777777\u0026device_id=NQILKDOdEdKnBePlILBwVBlTJPnutqLTBCPzxYLAlUgM3Ot6NnmT
-#EXTINF:-1 tvg-id="Indosiar.idSDr" tvg-logo="https://thumbor.prod.vidiocdn.com/0plBZ7Gso7gNBJxid9ksA8HMGxc=/230x230/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/205/54ab19.png" group-title="Indonesia;Indonesia Channels" tvg-url="https://raw.githubusercontent.com/apistech/project/refs/heads/main/epgs/guide.xml",Indosiar (Maxstream)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone14,6; U; CPU iPhone OS 15_4 seperti Mac OS X) AppleWebKit/602.1.50 (KHTML, seperti Gecko) Versi/10.0 Seluler/19E241 Safari/602.1
-#EXTVLCOPT:http-referrer=https://xl365.buzzscorelinez.com/
-https://cdnbal1.indihometv.com/atm/DASH/indosiar/manifest.mpd
-#EXTINF:-1 tvg-id="ANTV.id" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQeiWv-pfeDr-OZkVvMbwEcryrWApBmLYMZQy6rUefZWQQxB1oOVnzR6WX3&s=10" group-title="Indonesia;Nasional;Entertainment" http-referrer="http://www.vidio.com/" http-user-agent="VidioPlayer/6.31.6",ANTV
-#EXTVLCOPT:http-user-agent=VidioPlayer/6.31.6
-#EXTVLCOPT:http-referrer=http://www.vidio.com/
-http://tvratu.my.id/nissa/index.mpd?id=782&type=dash
+#EXTINF:-1 tvg-id="Moji.id" tvg-name="MOJI" tvg-logo="http://hometv.biz.id:80/images/Ew7KWgEVPBJlBK0JSddniCSXgQUyeYTSUh135SFESvbPPL8rHq5gb8bpu8RxSiKkZ9jgkBJZgNp_BmaeuwRKiA.png" group-title="Indonesia;- LOKAL ID -" xui-id="25306",MOJI
+http://hometv.biz.id:80/play/FrENpWSJhgBIJebIKrThERoW8Gz4RUfl-WKngQ6KV_Q
+#EXTINF:-1 tvg-id="Moji.id" tvg-name="MOJI" tvg-logo="http://hometv.biz.id:80/images/Ew7KWgEVPBJlBK0JSddniCSXgQUyeYTSUh135SFESvbPPL8rHq5gb8bpu8RxSiKkZ9jgkBJZgNp_BmaeuwRKiA.png" group-title="Indonesia;- VIP | SPORTS ID -" xui-id="9170",MOJI
+http://hometv.biz.id:80/play/4yv6kiIJ7Lzzt7-haBF-8w
+#EXTINF:-1 tvg-id="ANTV.id" tvg-name="ANTV" tvg-logo="http://hometv.biz.id:80/images/Ew7KWgEVPBJlBK0JSddniCSXgQUyeYTSUh135SFESvbiziO7FndHuS-l2338RtDqrFlBchDAfHX5_HlZRkz7Bw.png" group-title="Indonesia;- LOKAL ID -" xui-id="11",ANTV
+http://hometv.biz.id:80/play/ZIES8HVTG2n3itfY9hOMDw
 #EXTINF:-1 tvg-id="ANTV.idSD" tvg-logo="https://thumbor.prod.vidiocdn.com/IRVkD3QGRzroJ4IZzXBpS-0MRls=/230x230/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/782/e1af8b.png" group-title="Indonesia;Indonesia Channels" tvg-url="https://raw.githubusercontent.com/apistech/project/refs/heads/main/epgs/guide.xml",ANTV HD (Transcorp)
 https://cdnjktcyber05.transvision.co.id/riutx01-a823b93f0d45cabb0fba0e57ca612f86/dash/QU5UVg/manifest.mpd?signature=OWRiMmZmMzQzZTZmNGYzYjljNDg4YTEyMjE5N2ZlZjE=\u0026time=77777777777\u0026device_id=j98fR5FKYgNc2FcCJ2JLV1qBSowpobLbbpIitI612I49I7qGdPsNi6KzpA
 #EXTINF:-1 tvg-id="TransTV.id" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/c/c2/Logo_Trans_TV.png" group-title="Indonesia;Nasional;Entertainment" http-referrer="https://20.detik.com/" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36",Trans TV
@@ -39,27 +35,32 @@ https://video.detik.com/transtv/smil:transtv.smil/playlist.m3u8
 https://cdnjktbpid02.transvision.co.id/riutx01-3f9d9dd6012b7cdd7558fdd44b9a002b/dashx/VFJBTlM3LW15/manifest.mpd?signature=YzBiZjU3ZWM1MmJhZmQ5MTA1Nzk2YmRjN2JiMWQ1ZWM=\u0026time=77777777777\u0026device_id=YMzez1yKjvSBsa_0jraU0iwHcNb2zq3SnAKXzPxbWK_aUYM85OMn
 #EXTINF:-1 tvg-id="tvOne.idSD" tvg-logo="https://thumbor.prod.vidiocdn.com/APQ6a9vXvN6lU1zjeyL15IV_AJQ=/230x230/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/783/07750c.png" group-title="Indonesia;Indonesia Channels" tvg-url="https://raw.githubusercontent.com/apistech/project/refs/heads/main/epgs/guide.xml",TVOne (Transcorp)
 https://cdnjktcyber05.transvision.co.id/riutx01-a823b93f0d45cabb0fba0e57ca612f86/dash/VFZPTkU/manifest.mpd?signature=YTc0ZTRkNDY4YTQzOGExYTQwMWViNjQyZjM5ZmJmZGM=\u0026time=77777777777\u0026device_id=POtxvPsOYN-wRLSx2e2W0ViRWpwYBiBD1eR6bhw7OGwhXzj4HvUL
+#EXTINF:-1 tvg-id="Metro.TV.id" tvg-name="METRO TV" tvg-logo="http://hometv.biz.id:80/images/Ew7KWgEVPBJlBK0JSddniCSXgQUyeYTSUh135SFESvbiziO7FndHuS-l2338RtDqpu6z4EwsnPn0URbge-Frww.png" group-title="Indonesia;- LOKAL ID -" xui-id="14",METRO TV
+http://hometv.biz.id:80/play/9aOcJvGnGqIsmd3QrTsIVA
 #EXTINF:-1 tvg-id="Metro.TV.id" tvg-logo="https://i.imgur.com/QnU70NI.png" group-title="Indonesia;Nasional;News" http-referrer="" http-user-agent="",Metro TV
 https://edge.medcom.id/live-edge/smil:metro.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="Metro.TV.id" tvg-logo="https://raw.githubusercontent.com/apistech/project/refs/heads/main/logo/image_ch_metrotv.png" group-title="Indonesia;Nasional;News" http-referrer="" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36 Edg/150.0.0.0",Metro TV
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36 Edg/150.0.0.0
-https://op-flashcon-digdayahd-1.dens.tv/h/h12/index.m3u8
 #EXTINF:-1 tvg-id="Kompas.TV.id" tvg-logo="https://i.imgur.com/WYPWQHg.jpeg" group-title="Indonesia;Nasional;News" http-referrer="" http-user-agent="",Kompas TV
 https://cdnbal1.indihometv.com/atm/DASH/KOMPAS_TV/KOMPAS_TV-avc1_2500000=7-3277707030000000.mpd
 #EXTINF:-1 tvg-id="KompasTV.idSD" tvg-logo="https://thumbor.prod.vidiocdn.com/Pf8yLSfHEUZeRI9tUzLDR2U8Zow=/230x230/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/874/042ca3.png" group-title="Indonesia;Indonesia Channels" tvg-url="https://raw.githubusercontent.com/apistech/project/refs/heads/main/epgs/guide.xml",Kompas TV HD (Transcorp)
 https://cdnjktcyber05.transvision.co.id/riutx01-a823b93f0d45cabb0fba0e57ca612f86/dash/S29tcGFzIFRW/manifest.mpd?signature=NjRmYzQxNmE5M2NiOTAyNGFjMjkwYWQwZWQxZDQ3ZWY=\u0026time=77777777777\u0026device_id=Itz6TEjveWBcNZl005AW4I6vTk_dXel1YyazPJ0KAKapT36kpZ6x
+#EXTINF:-1 tvg-id="CNN.Indonesia.id" tvg-name="CNN INDONESIA" tvg-logo="http://hometv.biz.id:80/images/Ew7KWgEVPBJlBK0JSddniCSXgQUyeYTSUh135SFESvbiziO7FndHuS-l2338RtDqmIyRU5r1UatzoqFfSxYpnAn3qAi5b1DZFZtiA63TRCE.png" group-title="Indonesia;- LOKAL ID -" xui-id="20",CNN INDONESIA
+http://hometv.biz.id:80/play/Y56JetjZ9kBCBPtBi0bg1w
 #EXTINF:-1 tvg-id="CNNIndonesia.idSD" tvg-logo="https://cdn.cnnindonesia.com/cnnid/images/logo_cnn_fav.png?v=10.15.2" group-title="Indonesia;Indonesia Channels" tvg-url="https://raw.githubusercontent.com/apistech/project/refs/heads/main/epgs/guide.xml",CNN Indonesia (Transcorp)
 https://cdnjktcyber05.transvision.co.id/riutx01-a823b93f0d45cabb0fba0e57ca612f86/dash/Q05OaS1teQ/manifest.mpd?signature=ODkyMzdkMDJmZjAzZjNhODY2ZGE2NTE2OTc3YWFlZDQ=\u0026time=77777777777\u0026device_id=KqdFEgswXs3c_hanZTIc3pQBU2vnvn9umdNOAqkPGt4OSO6roI7L
+#EXTINF:-1 tvg-id="CNBC.Indonesia.id" tvg-name="CNBC INDONESIA" tvg-logo="http://hometv.biz.id:80/images/Ew7KWgEVPBJlBK0JSddniCSXgQUyeYTSUh135SFESvbiziO7FndHuS-l2338RtDqkbk5w8_L7Poo9K3C1JBPbmfxRdv7keisKWOKFWwqqrY.png" group-title="Indonesia;- LOKAL ID -" xui-id="21",CNBC INDONESIA
+http://hometv.biz.id:80/play/6e_SfaxI2AXJifga3hxCvw
 #EXTINF:-1 tvg-id="CNBCIndonesia.idSD" tvg-logo="https://upload.wikimedia.org/wikipedia/id/3/35/CNBC_Indonesia.png" group-title="Indonesia;Indonesia Channels" tvg-url="https://raw.githubusercontent.com/apistech/project/refs/heads/main/epgs/guide.xml",CNBC Indonesia (Transcorp)
 https://cdnjktcyber05.transvision.co.id/riutx01-a823b93f0d45cabb0fba0e57ca612f86/dash/Q05CQy1JbmRvbmVzaWE/manifest.mpd?signature=ZjE3YTNhNTFmNGUzYzk4OGEyYjNhNGM2YzFiNWU1N2Y=\u0026time=77777777777\u0026device_id=goAlayxjJBPrSNXYTvZ029VDfsuQS6aaP_6xJQnFrqDOUIEYPK1T
+#EXTINF:-1 tvg-id="Garuda.TV.id" tvg-name="GARUDA TV" tvg-logo="http://hometv.biz.id:80/images/Ew7KWgEVPBJlBK0JSddniCSXgQUyeYTSUh135SFESvbiUpkF6ZHtkiH5Mzc7rmdMnLsokFnMcOsPsr3vsA3pxgFnb0nZQ3dfPSb61k6B98E.png" group-title="Indonesia;- TV DAERAH -" xui-id="215",GARUDA TV
+http://hometv.biz.id:80/play/MxSTnGrvAbpChfRpIx2_xg
+#EXTINF:-1 tvg-id="MDTV.id" tvg-name="MDTV" tvg-logo="http://hometv.biz.id:80/images/Ew7KWgEVPBJlBK0JSddniCSXgQUyeYTSUh135SFESvbiziO7FndHuS-l2338RtDqJtbbNR2CRsFDWQiMHunmEg.png" group-title="Indonesia;- LOKAL ID -" xui-id="13",MDTV
+http://hometv.biz.id:80/play/bTwWy_27dP6CGvSsrkueIg
 #EXTINF:-1 tvg-id="MDTV.id" tvg-logo="https://i.imgur.com/N19eGsM.jpeg" group-title="Indonesia;Nasional" http-referrer="" http-user-agent="",MDTV
 https://op-flashcon-digdayahd-1.dens.tv/h/h223/02.m3u8
-#EXTINF:-1 tvg-id="MDTV.id" tvg-logo="https://i.imgur.com/oaBCedP.jpeg" group-title="Indonesia;Nasional" http-referrer="" http-user-agent="",MDTV
-http://202.150.161.212:5000/live/channel31/playlist.m3u8
+#EXTINF:-1 tvg-id="RTV.id" tvg-name="RTV" tvg-logo="http://hometv.biz.id:80/images/Ew7KWgEVPBJlBK0JSddniCSXgQUyeYTSUh135SFESvbiziO7FndHuS-l2338RtDqM3OnKm5_dx2QLZJQH_7kJw.png" group-title="Indonesia;- LOKAL ID -" xui-id="16",RTV
+http://hometv.biz.id:80/play/WmAVjSmkPZZJ2UO1bbtF2Q
 #EXTINF:-1 tvg-id="RTV.id" tvg-logo="https://i.imgur.com/RygqpXd.jpeg" group-title="Indonesia;Nasional;Entertainment" http-referrer="" http-user-agent="",RTV
 https://op-flashcon-digdayahd-1.dens.tv/h/h10/01.m3u8
-#EXTINF:-1 tvg-id="RajawaliTV.idSD" tvg-logo="https://thumbor.prod.vidiocdn.com/cStgoV5oqj2Om_6NMOzK0AFY-sg=/230x230/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/1561/665aea.png" group-title="Indonesia;Indonesia Channels" tvg-url="https://raw.githubusercontent.com/apistech/project/refs/heads/main/epgs/guide.xml",RTV (Channel Feed))
-https://rtvstream.rtv.co.id:4555/hls/rtv.m3u8
 #EXTINF:-1 tvg-id="RCTIWorld.id" tvg-logo="https://www.visionplus.id/images/repository/426/173426-LOGO-m.png" group-title="Indonesia;Nasional;Entertainment" http-referrer="https://www.visionplus.id/" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36 Edg/150.0.0.0",RCTI World
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36 Edg/150.0.0.0
 #EXTVLCOPT:http-referrer=https://www.visionplus.id/
@@ -71,12 +72,16 @@ https://cdnbal1.indihometv.com/atm/DASH/beritasatu/beritasatu-avc1_2500000=7-327
 https://op-flashcon-digdayahd-1.dens.tv/h/h37/index.m3u8
 #EXTINF:-1 tvg-id="Nusantara.TV.id" tvg-logo="https://i.imgur.com/EzirkhZ.jpeg" group-title="Indonesia;Nasional" http-referrer="" http-user-agent="",Nusantara TV
 https://nusantaratv.siar.us/nusantaratv/live/playlist.m3u8
+#EXTINF:-1 tvg-id="BeritaSatu.idSD" tvg-name="BERITA SATU" tvg-logo="http://hometv.biz.id:80/images/Ew7KWgEVPBJlBK0JSddniCSXgQUyeYTSUh135SFESvbiziO7FndHuS-l2338RtDqnVdf82Jp5bl2Bzl7EdjgL6ALkRcG1NwUrRgmpfxKi1E.png" group-title="Indonesia;- LOKAL ID -" xui-id="10839",BERITA SATU
+http://hometv.biz.id:80/play/k0LQncz8z8RVotmKCE_xieYMwEYffZoF8yAMZ0Jb1bU
 #EXTINF:-1 tvg-id="BTV.idSD" tvg-logo="https://img.favpng.com/5/15/14/beritasatu-com-logo-beritasatu-media-holdings-news-png-favpng-ascxjWXRYnY9w2tGEsZusEmJa.jpg" group-title="Indonesia;Indonesia Channels" tvg-url="",Berita Satu (Transcorp)
 https://cdnjktcyber05.transvision.co.id/riutx01-a823b93f0d45cabb0fba0e57ca612f86/dash/QmVyaXRhIFNhdHU/manifest.mpd?signature=ZjYzZmYzMDNjZTdhZTZkMDVkNThjMGM3NDVhYjU1MGY=\u0026time=77777777777\u0026device_id=BxtJ4SxfozLBQg-tMLYE7t9cDtja2Pcoj3uTXSxte59pE_CqGYzM
-#EXTINF:-1 tvg-id="BeritaSatu.idSD" tvg-logo="https://raw.githubusercontent.com/apistech/project/refs/heads/main/logo/imageCir_BERITA_SATU_(Color)_2025_10_24_11_52_17.jpg" group-title="Indonesia;Indonesia Channels",Berita Satu
-https://cdnjktcyber05.transvision.co.id/riutx01-437ec38cc692ca43976ff80c7af30565/dash/QmVyaXRhIFNhdHU/manifest.mpd
 #EXTINF:-1 tvg-id="SinPoTV.id" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Sin_Po_TV.svg/500px-Sin_Po_TV.svg.png" group-title="Indonesia;Nasional;Entertainment" http-referrer="" http-user-agent="",Sinpo TV
 https://cdnbal1.indihometv.com/atm/DASH/sinpotv/sinpotv-avc1_2500000=7-3277707030000000.mpd
+#EXTINF:-1 tvg-id="MaduTV.id" tvg-name="MADU TV" tvg-logo="http://hometv.biz.id:80/images/Ew7KWgEVPBJlBK0JSddniCSXgQUyeYTSUh135SFESvbiUpkF6ZHtkiH5Mzc7rmdMcvmdZDnuLKciVeQ4gqDLw3Ob1v4wwtFD99FA1XllfN8.png" group-title="Indonesia;- TV DAERAH -" xui-id="24139",MADU TV
+http://hometv.biz.id:80/play/t5JI5t7Q0Wpm2KmCWVLBBWEmbe84T6M2gpGmhxhp0UE
+#EXTINF:-1 tvg-id="DAAI.TV.id" tvg-name="DAAI TV" tvg-logo="http://hometv.biz.id:80/images/Ew7KWgEVPBJlBK0JSddniCSXgQUyeYTSUh135SFESvbiziO7FndHuS-l2338RtDq0O1iFBnLp7qOj1z9sBlO3w.png" group-title="Indonesia;- LOKAL ID -" xui-id="10837",DAAI TV
+http://hometv.biz.id:80/play/XbyGP_8d9I9dubeThXNEKxGlP9SPR8RZFFuleeFxzbE
 #EXTINF:-1 tvg-id="Mentari.TV.id" tvg-logo="https://i.imgur.com/eXkztpM.jpeg" group-title="Indonesia;Nasional;Kids" http-referrer="" http-user-agent="",Mentari TV
 https://tv.ngebutz.my.id:443/play/55c8cVrvhcFPEgTjgh2C80nmAc3kfgfnlJ4q2odTO7M/ts
 #EXTINF:-1 tvg-id="BNChannel.id" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/BN_Channel.png/960px-BN_Channel.png" group-title="Indonesia;Nasional;News" http-referrer="https://youtv.live/" http-user-agent="",BN Channel
@@ -87,27 +92,50 @@ https://flv.intechmedia.net/live/ch112.m3u8
 https://flv.intechmedia.net/live/ch107.m3u8
 #EXTINF:-1 tvg-logo="https://static.tildacdn.com/tild3936-3138-4234-b536-326531343933/-_13x.png" group-title="Indonesia;Nasional;Entertainment" http-referrer="" http-user-agent="",Smile TV
 https://5d23269b3ec0c.streamlock.net/WEB_Smilik/ngrp:Smilik.stream-adaptive/playlist.m3u8
+#EXTINF:-1 tvg-id="Rodja.TV.id" tvg-name="RODJA TV" tvg-logo="http://hometv.biz.id:80/images/Ew7KWgEVPBJlBK0JSddniCSXgQUyeYTSUh135SFESvYHH3zpqLWX8I0taGqdYbNxz104XTZtkSTOt6VHGcPigw.png" group-title="Indonesia;- RELIGI -" xui-id="204",RODJA TV
+http://hometv.biz.id:80/play/TVvYdgPKc3rGcoMyLBzKgg
+#EXTINF:-1 tvg-id="NabawiTV.id" tvg-name="NABAWI TV" tvg-logo="http://hometv.biz.id:80/images/Ew7KWgEVPBJlBK0JSddniCSXgQUyeYTSUh135SFESvYHH3zpqLWX8I0taGqdYbNxuFdefgEsjo7s7z_xusccIAdEdO7GfXgf6ovC18vRKFU.png" group-title="Indonesia;- RELIGI -" xui-id="22343",NABAWI TV
+http://hometv.biz.id:80/play/3Qw6oeGHdcd5J3C1fVLwlKcjHGKjccB8xB7hz0bBDu8
+#EXTINF:-1 tvg-id="TVRINasional.id" tvg-name="TVRI" tvg-logo="http://hometv.biz.id:80/images/Ew7KWgEVPBJlBK0JSddniCSXgQUyeYTSUh135SFESvbiziO7FndHuS-l2338RtDquyNlM9Uh7Ifp6MGX5vY-tA.png" group-title="Indonesia;- LOKAL ID -" xui-id="18",TVRI
+http://hometv.biz.id:80/play/wuwGbkmb_s84xmvXxtrutg
 #EXTINF:-1 tvg-id="TVRI.World.id" tvg-logo="https://i.imgur.com/zWT1D4x.jpeg" group-title="Indonesia;Nasional;Government" http-referrer="" http-user-agent="",TVRI World
 https://cdnbal1.indihometv.com/atm/DASH/tvriworld/tvriworld-avc1_2500000=7-3277707030000000.mpd
+#EXTINF:-1 tvg-id="BantenTV.id" tvg-name="BANTEN TV" tvg-logo="http://hometv.biz.id:80/images/Ew7KWgEVPBJlBK0JSddniCSXgQUyeYTSUh135SFESvbiUpkF6ZHtkiH5Mzc7rmdMAoD6WJ5RKIl4Ssna8qrRFVF2JJB7TQuO7A6Rn2IukhY.png" group-title="Indonesia;- TV DAERAH -" xui-id="24159",BANTEN TV
+http://hometv.biz.id:80/play/rjalZnaOT1dsHXZ5aF9VgiKamKPC1Y255cCoVdq2zQ8
+#EXTINF:-1 tvg-id="MTATV.id" tvg-name="TATV" tvg-logo="http://hometv.biz.id:80/images/Ew7KWgEVPBJlBK0JSddniCSXgQUyeYTSUh135SFESvbiUpkF6ZHtkiH5Mzc7rmdMO2S-Y2qsthzYIakz9LaKkA.png" group-title="Indonesia;- TV DAERAH -" xui-id="24140",TATV
+http://hometv.biz.id:80/play/QPvCe6igfvey10sHZKsIgDEKq_-Fgxoitw2jGZuTMnM
+#EXTINF:-1 tvg-id="JTV.id" tvg-name="JTV" tvg-logo="http://hometv.biz.id:80/images/Ew7KWgEVPBJlBK0JSddniCSXgQUyeYTSUh135SFESvbiUpkF6ZHtkiH5Mzc7rmdMA0A-sNFyixKXWXd4kzx9fg.png" group-title="Indonesia;- TV DAERAH -" xui-id="214",JTV
+http://hometv.biz.id:80/play/And1HYE0xe21W6zKPeyg7w
+#EXTINF:-1 tvg-id="BungoTV.id" tvg-name="BUNGO TV" tvg-logo="http://hometv.biz.id:80/images/Ew7KWgEVPBJlBK0JSddniCSXgQUyeYTSUh135SFESvbiUpkF6ZHtkiH5Mzc7rmdMXVDoUTckEv8SppafdpGWHkw46JHfFvZTJfXGWxU7ilQ.png" group-title="Indonesia;- TV DAERAH -" xui-id="24157",BUNGO TV
+http://hometv.biz.id:80/play/mxSYAaFUF2RgBlAWbdFhcEttDqyHxnl-BLAuh5paf_I
+#EXTINF:-1 tvg-id="BanjarTV.id" tvg-name="BANJAR TV" tvg-logo="http://hometv.biz.id:80/images/Ew7KWgEVPBJlBK0JSddniCSXgQUyeYTSUh135SFESvbiUpkF6ZHtkiH5Mzc7rmdM-tuAfxJKKYegYAaPVwH282ywkYdNSRHIa3F3K0RJ-U8.png" group-title="Indonesia;- TV DAERAH -" xui-id="24043",BANJAR TV
+http://hometv.biz.id:80/play/MTVXv4WZJjd77x5O8OKLfxqg4Q-vf0_QG-FwKC2wu3Q
+#EXTINF:-1 tvg-id="JITV.id" tvg-name="JITV" tvg-logo="http://hometv.biz.id:80/images/Ew7KWgEVPBJlBK0JSddniCSXgQUyeYTSUh135SFESvbiUpkF6ZHtkiH5Mzc7rmdMvTE5Ezu2yYlvSbthSb0PDQ.png" group-title="Indonesia;- TV DAERAH -" xui-id="223",JITV
+http://hometv.biz.id:80/play/cO3XJYk3wKmIIrY9KT0IJQ
 #EXTINF:-1 tvg-id="SindoNews.TV.id" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPlAtPGRHW6gEgAZMn916nIPyS0yqblsFZqg&s" group-title="Indonesia;Nasional;News" http-referrer="" http-user-agent="",SindoNews
 https://cdnbal1.indihometv.com/atm/DASH/mncnews/mncnews-avc1_2500000=7-3277707030000000.mpd
 #EXTINF:-1 tvg-id="SindoNewsTV.idSD" tvg-logo="https://nabelsakha.com/wp-content/uploads/2023/10/Sindonews.png" group-title="Indonesia;Indonesia Channels" tvg-url="https://raw.githubusercontent.com/apistech/project/refs/heads/main/epgs/guide.xml",SindoNews (Maxstream)
 #EXTVLCOPT:http-referrer=https://www.indihometv.com/
 #EXTVLCOPT:http-user-agent=IndiHomeTV/8.7.12 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
 https://cdnbal1.indihometv.com/atm/DASH/mncnews/manifest.mpd
+#EXTINF:-1 tvg-id="Fight.Sports.id" tvg-name="FIGHT SPORTS" tvg-logo="http://hometv.biz.id:80/images/Ew7KWgEVPBJlBK0JSddniCSXgQUyeYTSUh135SFESvbPPL8rHq5gb8bpu8RxSiKkyhVRloY-11dXRHPlEnKk499zTwYhVQBfiW8VqEq5w3I.png" group-title="Indonesia;- FIGHT -" xui-id="9173",FIGHT SPORTS
+http://hometv.biz.id:80/play/DFV1zRSiIkaASlUcdj1NnA
 #EXTINF:-1 tvg-id="GTVWorld.id" tvg-logo="https://www.visionplus.id/images/repository/424/173424-LOGO-m.png" group-title="Indonesia;Nasional;Entertainment" http-referrer="https://www.visionplus.id/" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36 Edg/150.0.0.0",GTV World
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36 Edg/150.0.0.0
 #EXTVLCOPT:http-referrer=https://www.visionplus.id/
 https://d3b0v7fggu5zwm.cloudfront.net/out/v1/b2c774f2a6fc4cd1917459335d8231df/index.mpd
+#EXTINF:-1 tvg-id="IDX.id" tvg-name="IDX" tvg-logo="http://hometv.biz.id:80/images/Ew7KWgEVPBJlBK0JSddniCSXgQUyeYTSUh135SFESva3HbLBeGRSeeu6BaJy28rhzeFF1PS6Ubtg_JUcdbQdlQ.png" group-title="Indonesia;- LOKAL ID -" xui-id="10166",IDX
+http://hometv.biz.id:80/play/Wt67myhOXA4c0qq7EB1RaWMI5rbmICbwBh5vZAM_GDY
 #EXTINF:-1 tvg-id="IDX.id" tvg-logo="https://www.mncvision.id/userfiles/image/channel/iBcm_IDX.jpg" group-title="Indonesia;Nasional;Business" http-referrer="" http-user-agent="",IDX
 https://cdnbal1.indihometv.com/atm/DASH/idx/idx-avc1_2500000=7-3277707030000000.mpd
-#EXTINF:-1 tvg-id="IDX.id" tvg-logo="https://i.imgur.com/xPvrcsr.png" group-title="Indonesia;Nasional;Business" http-referrer="maxstream.tv/tv-channels" http-user-agent="",IDX
-#EXTVLCOPT:http-referrer=maxstream.tv/tv-channels
-https://indihuy.streamized.net/atm/DASH/idx/manifest.mpd
 #EXTINF:-1 tvg-id="Jawa.Pos.TV.id" tvg-logo="https://upload.wikimedia.org/wikipedia/id/thumb/3/3b/Logo_Jawapos_TV.png/150px-Logo_Jawapos_TV.png" group-title="Indonesia;Nasional" http-referrer="" http-user-agent="",Jawa Pos TV
 https://cdnbal1.indihometv.com/atm/DASH/jawapos/jawapos-avc1_2500000=7-3277707030000000.mpd
 #EXTINF:-1 tvg-id="Jawa.Pos.TV.id" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Jawa_Pos_TV_2024.svg/960px-Jawa_Pos_TV_2024.svg.png" group-title="Indonesia;Nasional" http-referrer="" http-user-agent="",Jawa Pos TV
 http://122.248.43.242:1935/JAWAPOSTVSBY/_definst_/myStream/playlist.m3u8
+#EXTINF:-1 tvg-id="KTV.id" tvg-name="KTV" tvg-logo="http://hometv.biz.id:80/images/Ew7KWgEVPBJlBK0JSddniCSXgQUyeYTSUh135SFESvZOv66yrDl8VUHreND00lQ3JiABbgcu114OFIVXpF977w.png" group-title="Indonesia;- KOREA -" xui-id="14855",KTV
+http://hometv.biz.id:80/play/oc3uvjc8ePyCDRuPKFnkzht_XrXc-Hx4oVypW9ThFjQ
+#EXTINF:-1 tvg-id="MadaniTV.id" tvg-name="MADANI TV" tvg-logo="http://hometv.biz.id:80/images/Ew7KWgEVPBJlBK0JSddniCSXgQUyeYTSUh135SFESvYHH3zpqLWX8I0taGqdYbNxrZW-HTsx_ELnZttE5_yR-HP8vL1QPNuhB2vlwUeWOo4.png" group-title="Indonesia;- RELIGI -" xui-id="22344",MADANI TV
+http://hometv.biz.id:80/play/bF2j5C303L9muVbkxMLqpa51tFqpJbdHiKcgx-zR_HQ
 #EXTINF:-1 tvg-id="MetroGlobeNetwork.id" tvg-logo="https://thumbor.prod.vidiocdn.com/OKs6W73lGGE835lgmojVmts24NY=/372x211/filters:quality(75)/vidio-web-prod-livestreaming/uploads/livestreaming/image/8815/metro-globe-network-1ab3f1.jpg" group-title="Indonesia;Nasional;News" http-referrer="" http-user-agent="",Metro Globe Network
 https://edge.medcom.id/live-edge/smil:mgnch.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="MNCTVWorld.id" tvg-logo="https://www.visionplus.id/images/repository/425/173425-LOGO-m.png" group-title="Indonesia;Nasional;Entertainment" http-referrer="https://www.visionplus.id/" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36 Edg/150.0.0.0",MNCTV World
@@ -116,16 +144,660 @@ https://edge.medcom.id/live-edge/smil:mgnch.smil/playlist.m3u8
 https://d2tjypxxy769fn.cloudfront.net/out/v1/52f468e951c14c6ba80d4d31c833fce6/index.mpd
 #EXTINF:-1 tvg-id="UGTV.id" tvg-logo="https://i.imgur.com/iEKDH26.png" group-title="Indonesia;Nasional;Entertainment" http-referrer="" http-user-agent="",UGTV
 https://cdn.gunadarma.ac.id/streams/ugtv/ingestugtv.m3u8
+#EXTINF:-1 tvg-id="Rock.Action.id" tvg-name="ROCK ACTION" tvg-logo="http://hometv.biz.id:80/images/Ew7KWgEVPBJlBK0JSddniCSXgQUyeYTSUh135SFESvZBnIEU2s1C6cWX2s9J_y4kCTE_IlSYMccuHzH1zkfci3J3wqZJpimq1kIPudEnpMw.png" group-title="Indonesia;- MOVIE -" xui-id="51",ROCK ACTION
+http://hometv.biz.id:80/play/mz8lygcNdbnh-MkL1lT7Pg
+#EXTINF:-1 tvg-id="Rock.Entertainment.id" tvg-name="ROCK ENTERTAINMENT" tvg-logo="http://hometv.biz.id:80/images/Ew7KWgEVPBJlBK0JSddniCSXgQUyeYTSUh135SFESvbB_J4vv4OiBkgbDghbif8alMEwkd-dvOOE0dH6eYYHelqbMShXpWJcPl0R5bDsFJw.png" group-title="Indonesia;- MOVIE -" xui-id="94",ROCK ENTERTAINMENT
+http://hometv.biz.id:80/play/gzYkH5SZz84m_xv_uak6Ww
+#EXTINF:-1 tvg-id="StaraTV.id" tvg-name="STARA TV BANDUNG" tvg-logo="http://hometv.biz.id:80/images/Ew7KWgEVPBJlBK0JSddniCSXgQUyeYTSUh135SFESvYe_cLBvxP5X-wgXVE242Zu9dCNMN2so41G5W0W_9oPSA.png" group-title="Indonesia;- MUSIC 24/7 -" xui-id="22969",STARA TV BANDUNG
+http://hometv.biz.id:80/play/eTB5NjqIkWawjlaX5_JF2oUWE0dFAUfjVKdOQ17fvkY
+#EXTINF:-1 tvg-id="StaraTV.id" tvg-name="STARA TV CIANJUR" tvg-logo="http://hometv.biz.id:80/images/Ew7KWgEVPBJlBK0JSddniCSXgQUyeYTSUh135SFESvYe_cLBvxP5X-wgXVE242Zu9dCNMN2so41G5W0W_9oPSA.png" group-title="Indonesia;- MUSIC 24/7 -" xui-id="22971",STARA TV CIANJUR
+http://hometv.biz.id:80/play/Hn92wX6FutxRmChA_42Lu9HhE9tqHM7cHhQUCNxTyrg
+#EXTINF:-1 tvg-id="StaraTV.id" tvg-name="STARA TV MALANG" tvg-logo="http://hometv.biz.id:80/images/Ew7KWgEVPBJlBK0JSddniCSXgQUyeYTSUh135SFESvYe_cLBvxP5X-wgXVE242Zu9dCNMN2so41G5W0W_9oPSA.png" group-title="Indonesia;- MUSIC 24/7 -" xui-id="22972",STARA TV MALANG
+http://hometv.biz.id:80/play/MCGCrOh7SXmGBqaIElkwEDGojBbTIKj99zZl6LUjh-M
 #EXTINF:-1 tvg-id="BTV.id" tvg-logo="https://i.ibb.co/WzLwj3X/IMG-20230703-155036.jpg" group-title="Indonesia;Nasional" http-referrer="" http-user-agent="",B+ TV
 https://tv.btnrwanda.com:3432/live/bpluslive.m3u8
+#EXTINF:-1 tvg-id="BioskopIndonesia.idSD" tvg-name="BIOSKOP INDONESIA" tvg-logo="http://hometv.biz.id:80/images/Ew7KWgEVPBJlBK0JSddniCSXgQUyeYTSUh135SFESvZBnIEU2s1C6cWX2s9J_y4kyrqB-6fcA0Z9ZPlXTX-p9vPlRfko34hzJe89r7HH1lQ.png" group-title="Indonesia;- MOVIE -" xui-id="44",BIOSKOP INDONESIA
+http://hometv.biz.id:80/play/PuF54x1sxHlFSYtCwPIU-A
 #EXTINF:-1 tvg-id="BioskopIndonesia.idSD" tvg-name="Bioskop Indonesia" tvg-logo="https://www.transvision.co.id/img/channel/bioskop_ind.png" group-title="Indonesia;Indonesian Entertainment & Movies",BIOSKOP INDONESIA (Transcorp)
 https://cdnjktcyber05.transvision.co.id/riutx01-a823b93f0d45cabb0fba0e57ca612f86/dash/Qmlvc2tvcCBJbmRvbmVzaWE/manifest.mpd?signature=ZjIzM2U5OWVlZDdkMzg3ZWE5MWQ3YTBmN2JkZGIxZmI=\u0026time=77777777777\u0026device_id=kd7Lc0uNWO-f4gbWECGzkjTO6C1VNjQ_Sxqz12F2wWEwPbeBKYBn
+#EXTINF:-1 tvg-id="Prambors.id" tvg-name="PRAMBORS" tvg-logo="http://hometv.biz.id:80/images/Ew7KWgEVPBJlBK0JSddniCSXgQUyeYTSUh135SFESvYe_cLBvxP5X-wgXVE242ZuA6OaCUJh2QNnPwggNdI61A.png" group-title="Indonesia;- MUSIC -" xui-id="21645",PRAMBORS
+http://hometv.biz.id:80/play/IPIREsqHoRksRh6z9kP5XWm1b0Nf5Y-1gGE1BpLGOuo
 #EXTINF:-1 tvg-id="ZeeBioskop.idSD" tvg-logo="https://www.mncvision.id/userfiles/image/channel/channel_23.png" group-title="Indonesia;Premium Movies" tvg-url="https://raw.githubusercontent.com/apistech/project/refs/heads/main/epgs/guide.xml",Zee Bioskop (Transcorp)
 https://cdnjktcyber05.transvision.co.id/riutx01-2c1fa8682342c878f128b4149a675281/dash/WmVlIEJpb3Nrb3A/manifest.mpd
 #EXTINF:-1 tvg-id="ZeeBioskop.idSD" tvg-logo="https://www.mncvision.id/userfiles/image/channel/channel_23.png" group-title="Indonesia;Premium Movies" tvg-url="https://raw.githubusercontent.com/apistech/project/refs/heads/main/epgs/guide.xml",Zee Bioskop (Maxstream)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone14,6; U; CPU iPhone OS 15_4 seperti Mac OS X) AppleWebKit/602.1.50 (KHTML, seperti Gecko) Versi/10.0 Seluler/19E241 Safari/602.1
 #EXTVLCOPT:http-referrer=https://xl365.buzzscorelinez.com/
 https://cdnbal1.indihometv.com/atm/DASH/zbioskop/zbioskop-avc1_2500000=7-3277707030000000.mpd
+#EXTINF:-1 tvg-id="LoveNature.id" tvg-name="LOVE NATURE" tvg-logo="http://hometv.biz.id:80/images/Ew7KWgEVPBJlBK0JSddniCSXgQUyeYTSUh135SFESvYOocK4kiU9BpYf_yd1b8R5od3BbELuzoqG6vrnGA7bqas9yJBBX4GmWXLXgYd8s7A.png" group-title="Indonesia;- KNOWLEDGE -" xui-id="79",LOVE NATURE
+http://hometv.biz.id:80/play/3bGxU1SuRR6DK_JVC7wkkg
+#EXTINF:-1 tvg-id="RCTV.id" tvg-name="RCTV" tvg-logo="http://hometv.biz.id:80/images/Ew7KWgEVPBJlBK0JSddniCSXgQUyeYTSUh135SFESvbiUpkF6ZHtkiH5Mzc7rmdM5qMtBuPyLLP4gMqbDRWCKg.png" group-title="Indonesia;- TV DAERAH -" xui-id="24161",RCTV
+http://hometv.biz.id:80/play/JBrunhIDjn-4HLJZrTJBswst-LGn-HxMG3fP6LeIsh8
+#EXTINF:-1 tvg-id="MNCSports.id" tvg-name="SPORTSTARS 1" tvg-logo="http://hometv.biz.id:80/images/Ew7KWgEVPBJlBK0JSddniCSXgQUyeYTSUh135SFESvbPPL8rHq5gb8bpu8RxSiKkHc2LY2Zfl6RlOTv4wNqxsqjLOeDxzoWot1Ws9TlmJwY.png" group-title="Indonesia;- VIP | SPORTS ID -" xui-id="328",SPORTSTARS 1
+http://hometv.biz.id:80/play/u_bX67X3IEf_qq24qe2s0A
+#EXTINF:-1 tvg-id="MNCSports2.id" tvg-name="SPORTSTARS 2" tvg-logo="http://hometv.biz.id:80/images/Ew7KWgEVPBJlBK0JSddniCSXgQUyeYTSUh135SFESvbPPL8rHq5gb8bpu8RxSiKkHc2LY2Zfl6RlOTv4wNqxsqjLOeDxzoWot1Ws9TlmJwY.png" group-title="Indonesia;- VIP | SPORTS ID -" xui-id="329",SPORTSTARS 2
+http://hometv.biz.id:80/play/94u_EGMhgcNbSC7a87ziiA
+#EXTINF:-1 tvg-name="Na Willa (2026)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyLhqtcjY_Ex1xE0qq9T5A3O5leFV9_9HNoK7Y8P2Yytg8.jpg" group-title="INDONESIA" xui-id="25332",Na Willa (2026)
+http://hometv.biz.id:80/play/SixMEgaMXoG1bRUXjbB3NQzBWnCKlPOOGUK6yfrTkd4#.mp4
+#EXTINF:-1 tvg-name="The Invisible Guest (2026)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyL2huCjwYSrJaEuCFQgtBTZCvblNO1HxWG06ZgLOK9FwM.jpg" group-title="INDONESIA" xui-id="25329",The Invisible Guest (2026)
+http://hometv.biz.id:80/play/g58GKlpcIzEjMeJ94WMov2W4wHB-7CZGZl-n_F4fw_o#.mp4
+#EXTINF:-1 tvg-name="Senin Harga Naik (2026)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyLryZoobeu_vL8sy9TTmF7PfWY7j7_DMGPEPE5JtSmpz0.jpg" group-title="INDONESIA" xui-id="24869",Senin Harga Naik (2026)
+http://hometv.biz.id:80/play/8uwjSUK2icLW_6rTMBSvb6nDckPFLdS9i7NFVqOITHw#.mp4
+#EXTINF:-1 tvg-name="Aku Sebelum Aku (2026)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyL3GEkkiHobJwbhMhMytHLiNvw550avyWHIGSKUPD8LeM.jpg" group-title="INDONESIA" xui-id="24860",Aku Sebelum Aku (2026)
+http://hometv.biz.id:80/play/8uwjSUK2icLW_6rTMBSvbx9aZGdnIwg_mPaTK3GA4FY#.mp4
+#EXTINF:-1 tvg-name="Check Out Sekarang, Pay Later (Caper) (2026)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyLyGhYfborMrHi2GxzPi6OzvEkAUkb6_tOAGCF1HKfqHY.jpg" group-title="INDONESIA" xui-id="24849",Check Out Sekarang, Pay Later (Caper) (2026)
+http://hometv.biz.id:80/play/zYZfs1gmYKnglRMhF8_cpsNtVvrph9Z2YezkcsKW07Y#.mp4
+#EXTINF:-1 tvg-name="Balas Budi (2026)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyLoR4Ffv-yhm4nnOILNC6PnCRS3L0HpbgyVqeHV-jUzcw.jpg" group-title="INDONESIA" xui-id="24295",Balas Budi (2026)
+http://hometv.biz.id:80/play/1hkUKkcvfSVW6Gc1OY5gD8y3Z-YWU19kmqg4OHDdVeY#.mp4
+#EXTINF:-1 tvg-name="Air Mata Buaya (2026)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyLMqvvxaJyFUBpOm2mjXSdBHAUKuxAGOLQ9ZfRnXkYVJw.jpg" group-title="INDONESIA" xui-id="24221",Air Mata Buaya (2026)
+http://hometv.biz.id:80/play/7XqUnUGBYlTwd1CV_CQU1qo5taQElvNF8s1_d_NE8uk#.mp4
+#EXTINF:-1 tvg-name="Seni Memahami Kekasih (2024)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyL7_vOYw0VtF30gL23IWYcjqnNvAdzP08BVyWsWSvFaxU.jpg" group-title="INDONESIA" xui-id="24219",Seni Memahami Kekasih (2024)
+http://hometv.biz.id:80/play/u0yokw_TYnjTjsi_6SnSX3Kcp1OLbgIREUKGvzeRORg#.mp4
+#EXTINF:-1 tvg-name="Sadali (2026)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyLlAUWG2nOdfCBIiMRZtEfgl7yah7dwMiUY06fkbrUcp4.jpg" group-title="INDONESIA" xui-id="24217",Sadali (2026)
+http://hometv.biz.id:80/play/u0yokw_TYnjTjsi_6SnSX2rrg3etL8XAtoOcdEXunQU#.mp4
+#EXTINF:-1 tvg-name="GOAT Pandemonium Ge on all tempo (2026)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyLVfR2qpvuXM1EyEMPZgCLci5HNlAwiiRTgebQxqv4bCw.jpg" group-title="INDONESIA" xui-id="24216",GOAT Pandemonium Ge on all tempo (2026)
+http://hometv.biz.id:80/play/u0yokw_TYnjTjsi_6SnSX7a94q-P_mvxsbVpMzdFboo#.mp4
+#EXTINF:-1 tvg-name="Ahlan Singapore (2026)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyL9RWVJwqQaxRgS4_1Tjft_F0AKjpfEfQcXpZSFIEJ3sw.jpg" group-title="INDONESIA" xui-id="24178",Ahlan Singapore (2026)
+http://hometv.biz.id:80/play/rdMt-KHcoOILl6rQvupS7Kt09JN7h30UtnO1Ryyi9-M#.mp4
+#EXTINF:-1 tvg-name="Esok Tanpa Ibu (2026)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyL0yy_g2Aqm4Mu5Km25osjplyejJwftFVC0POrwZYyY3U.jpg" group-title="INDONESIA" xui-id="24151",Esok Tanpa Ibu (2026)
+http://hometv.biz.id:80/play/QLalH-wQyf8-m_oIjNitvgCDnQiHzOjTvFF4ZwRJtTI#.mp4
+#EXTINF:-1 tvg-name="Laut Memanggilku (2021)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/6wUsIhz8FNoDCAzPCPMgHPNtEXK.jpg" group-title="INDONESIA" xui-id="24119",Laut Memanggilku (2021)
+http://hometv.biz.id:80/play/a4i6AA7qE4Vt3NQsV0VjlysGIMQoYdnyL3yauUdmevc#.mp4
+#EXTINF:-1 tvg-name="Sebelum Dijemput Nenek (2026)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyLavjiGXH_6870mbtA_85SqcQRb7nxOzP6f8pvcgjGkcg.jpg" group-title="INDONESIA" xui-id="24118",Sebelum Dijemput Nenek (2026)
+http://hometv.biz.id:80/play/a4i6AA7qE4Vt3NQsV0Vjl2aod7sR1qFyV0X0CfkI1j4#.mp4
+#EXTINF:-1 tvg-name="Alas Roban (2026)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyLwcUdjZWNfAZaZakilxEfVgj5mZlYyvvLD1EX42UyrR0.jpg" group-title="INDONESIA" xui-id="24116",Alas Roban (2026)
+http://hometv.biz.id:80/play/a4i6AA7qE4Vt3NQsV0Vjl_fOKx6llRb6smkzNhmOnpc#.mp4
+#EXTINF:-1 tvg-name="Agak Laen: Menyala Pantiku! (2025)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyLMrOJUULX6HcDm-UjYKT2hrPLf6fkrTSmuW45XfWv-9o.jpg" group-title="INDONESIA" xui-id="24115",Agak Laen: Menyala Pantiku! (2025)
+http://hometv.biz.id:80/play/a4i6AA7qE4Vt3NQsV0Vjl9pyYAr8FP3xXQHbQ91OoKg#.mp4
+#EXTINF:-1 tvg-name="Pesta Babi (2026)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyL-oPqdab2H687zwLQWE7cVjRT0HExa3QhuGssrndkhAA.jpg" group-title="INDONESIA" xui-id="24111",Pesta Babi (2026)
+http://hometv.biz.id:80/play/a4i6AA7qE4Vt3NQsV0Vjl0RBT6CXsWtmGE4mGB7nz88#.mp4
+#EXTINF:-1 tvg-name="Suka Duka Tawa (2026)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyLOryahyQa4YU8VIREtwTb1GpVgvAaCdRstfwslaIcYvM.jpg" group-title="INDONESIA" xui-id="24050",Suka Duka Tawa (2026)
+http://hometv.biz.id:80/play/LyW42wpNtEIAZPxHhsmmxJHPz4xwwNndvape_1hk3S8#.mp4
+#EXTINF:-1 tvg-name="Adili Idola Celebrity Roast: Fedi Nuril (2026)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyLw60D0cw_S0c9idBMKrhku85hWMIblXx8Udqz2oXYC8k.jpg" group-title="INDONESIA" xui-id="24049",Adili Idola Celebrity Roast: Fedi Nuril (2026)
+http://hometv.biz.id:80/play/YKcq1qxfbg4WvSibIJC9997zGmiEbsLqmbMeIk7yoAA#.mp4
+#EXTINF:-1 tvg-name="Penyalin Cahaya (2021)" tvg-logo="http://hometv.biz.id:80/images/3hlckBmqpJQN8cdPkRc6JaLxWuISgzkMgrHyB3uHNgqjz_W2Vc3T2PPOreZbtC7c0_mU5jtoE94KTCGKhl9PVjZLSGdiT2uZIlVPav0UHZm8WZ_gSPY45L4DRDSIeyq2.jpg" group-title="INDONESIA" xui-id="24039",Penyalin Cahaya (2021)
+http://hometv.biz.id:80/play/d0QnL0d_OrU9KxjkmpFuJF8gJw7waQXqFC-hL2CqH9I#.mp4
+#EXTINF:-1 tvg-name="Generasi 90an: Melankolia (2020)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyLv86KWk01Aa-VcwStwFH6jMPop8lv4cpEYvczScjC3zA.jpg" group-title="INDONESIA" xui-id="23989",Generasi 90an: Melankolia (2020)
+http://hometv.biz.id:80/play/RGZ6OfOSD1Y4pne0UtCQkCVXPf9Ic8A9ERNXgcQWoJw#.mp4
+#EXTINF:-1 tvg-name="Uang Passolo -Amplop Kondangan- (2026)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyL_VEsCgUqE8rrjNWnw826kz66p-pTGTPSXkFQ7kUG910.jpg" group-title="INDONESIA" xui-id="23967",Uang Passolo -Amplop Kondangan- (2026)
+http://hometv.biz.id:80/play/joasnIiBconP-axBcCfBDHL_zMN9rxrfERkyPXNAtN4#.mp4
+#EXTINF:-1 tvg-name="Musuh Dalam Selimut (2026)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyLlvkyDP7xkqe2qomFgezFcQZ9emb2yrB1schfOSZub9A.jpg" group-title="INDONESIA" xui-id="23966",Musuh Dalam Selimut (2026)
+http://hometv.biz.id:80/play/joasnIiBconP-axBcCfBDK5BJps7Gxku-FjZQZmMLBY#.mp4
+#EXTINF:-1 tvg-name="Bad Boy In Love (2024)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyLz5cc5d8k9-Kjw07Jpq4Zdq1rLFm5_WJLPBQQEjOBdk8.jpg" group-title="INDONESIA" xui-id="23959",Bad Boy In Love (2024)
+http://hometv.biz.id:80/play/rYmtO9elpUF6tQgWpczAB8gaTPjY9QHI-GED-Rbe2Ak#.mp4
+#EXTINF:-1 tvg-name="Maju Serem Mundur Horor (2025)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyLeAoyqNDp-KDo-I2Sbw1xZDaC8a4gb1XR-PlRSaugGGs.jpg" group-title="INDONESIA" xui-id="23948",Maju Serem Mundur Horor (2025)
+http://hometv.biz.id:80/play/BPV0J1l9rXMPTzsKg0W3O2GbFycmpyTT2qoIKPnPS3c#.mp4
+#EXTINF:-1 tvg-name="Sunshine Becomes You (2015)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyLx_bd1JRg-0RY1jaKvmwr-1K5oOohoW0XDB_aBgOsRpo.jpg" group-title="INDONESIA" xui-id="23925",Sunshine Becomes You (2015)
+http://hometv.biz.id:80/play/aSCbtIDadomMbeCXAOQ1UBywjwr5kLgw0BDwDEUK5oE#.mp4
+#EXTINF:-1 tvg-name="Comic 8 Revolution: Santet K4bin3t (2025)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyLYmMvS7GC7q3_zMCkBrbybfQnRY5u_Q8j9n-5uHkJIWE.jpg" group-title="INDONESIA" xui-id="23924",Comic 8 Revolution: Santet K4bin3t (2025)
+http://hometv.biz.id:80/play/aSCbtIDadomMbeCXAOQ1UCn7qrGxwxLTP0v6Q-IGHn8#.mp4
+#EXTINF:-1 tvg-name="Patah Hati Yang Kupilih (2025)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyLLHF-fhHovazPS3lkWale0stvoieqYh9uiFo9hwD4urc.jpg" group-title="INDONESIA" xui-id="23911",Patah Hati Yang Kupilih (2025)
+http://hometv.biz.id:80/play/kun3jmClUUVphpNfPxVf30kxlmw9VkSpS4HX0xgH928#.mp4
+#EXTINF:-1 tvg-name="Modual Nekad (2025)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyLkKEkPXtFjEwg8iL61ZJfEDGb6sBmRgN9J_zjRqHsTWo.jpg" group-title="INDONESIA" xui-id="23910",Modual Nekad (2025)
+http://hometv.biz.id:80/play/kun3jmClUUVphpNfPxVf3zzkrAB31iJBLSQPrAfwqbU#.mp4
+#EXTINF:-1 tvg-name="Pangku (2025)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyLlkUyk4RNl320hKix-pnE-LvEuNJBuAfXBm8DWc-Pi_Q.jpg" group-title="INDONESIA" xui-id="23887",Pangku (2025)
+http://hometv.biz.id:80/play/Pg3xzBZojx0W5ff4Pv5H5GiqXjisr_IZg2RFeHxHZMI#.mp4
+#EXTINF:-1 tvg-name="Mertua Ngeri Kali (2025)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyLrGhgWluvqHEPqRJtF0TvJe9C-zBZwOAIYy6Rnf7SH-U.jpg" group-title="INDONESIA" xui-id="23879",Mertua Ngeri Kali (2025)
+http://hometv.biz.id:80/play/VkCczPPUItrOW3Mi9rVYbAtFGnZFQjnRG7F8KFWD_Cg#.mp4
+#EXTINF:-1 tvg-name="Agape: The Unconditional Love (2025)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyLpnYnTM1R07CQgkfNAXyK8mM-BKGSuEPvFHx_TybXpY4.jpg" group-title="INDONESIA" xui-id="23878",Agape: The Unconditional Love (2025)
+http://hometv.biz.id:80/play/VkCczPPUItrOW3Mi9rVYbJM6zpkIUQlrLeXivK8QzqA#.mp4
+#EXTINF:-1 tvg-name="Wasiat Warisan (2025)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyLKqa7kDyEmxt8wXLUV57YMc-jeoTLrSOiG5Y1NO1LgY8.jpg" group-title="INDONESIA" xui-id="22997",Wasiat Warisan (2025)
+http://hometv.biz.id:80/play/wvJJK-nAww9jjuoJsS6p8h5Jhwsh8MnqlxaFx_8AvNg#.mp4
+#EXTINF:-1 tvg-name="Timur (2025)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyLjIAEP1OqcMGnrE7dlp7d-BkjGxvq6YRvhcRFHnHcBoU.jpg" group-title="INDONESIA" xui-id="22996",Timur (2025)
+http://hometv.biz.id:80/play/wvJJK-nAww9jjuoJsS6p8vgpYvuyvJyk8f83WukSDXo#.mp4
+#EXTINF:-1 tvg-name="Nia (2025)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyL35svv8_hjMHmh-Uun845ol4VIrh_5X7iEWp3mnOdypE.jpg" group-title="INDONESIA" xui-id="22994",Nia (2025)
+http://hometv.biz.id:80/play/wvJJK-nAww9jjuoJsS6p8g5USHG4Oe5CZe0RUi0DutE#.mp4
+#EXTINF:-1 tvg-name="Ozora: Penganiayaan Brutal Penguasa Jaksel (2025)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyLOYF_ln2B29uxIJL18DFtEdipmlYXXAhKxfD3IztyUP8.jpg" group-title="INDONESIA" xui-id="22993",Ozora: Penganiayaan Brutal Penguasa Jaksel (2025)
+http://hometv.biz.id:80/play/wvJJK-nAww9jjuoJsS6p8uMyjkERfFOk9OeYqFGecIc#.mp4
+#EXTINF:-1 tvg-name="Legenda Kelam Malin Kundang (2025)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyLq5BhZSdS_tV95JTZtuRlZRnAxdLr4EqvkoHWte2YDAU.jpg" group-title="INDONESIA" xui-id="22990",Legenda Kelam Malin Kundang (2025)
+http://hometv.biz.id:80/play/wvJJK-nAww9jjuoJsS6p8rVQK0BIZuzHMGSBt6BfWYc#.mp4
+#EXTINF:-1 tvg-name="Air Mata Mualaf (2025)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyLcpqaPDUvun_12vj7Yeh_QyqMhGHnXiOOaYhwIs-mz-k.jpg" group-title="INDONESIA" xui-id="22989",Air Mata Mualaf (2025)
+http://hometv.biz.id:80/play/45w_3U1ljxQT8E_XxlRMagh19eUTBj1KCPv88No1dQE#.mp4
+#EXTINF:-1 tvg-name="Dopamin (2025)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyLeUSqcuQA5aGoQWoutaLdA-XuFgDy-WNtmPWTp-SvJ20.jpg" group-title="INDONESIA" xui-id="22988",Dopamin (2025)
+http://hometv.biz.id:80/play/45w_3U1ljxQT8E_XxlRMalmlQF0-JrRrVCByLM4mYIk#.mp4
+#EXTINF:-1 tvg-name="Dopamin (2025)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyLeUSqcuQA5aGoQWoutaLdA-XuFgDy-WNtmPWTp-SvJ20.jpg" group-title="INDONESIA" xui-id="22917",Dopamin (2025)
+http://hometv.biz.id:80/play/zRSpEDBH_rRk7L9OxjlWv8PlYaMN8Cv_GeOeA1rF4OU#.mp4
+#EXTINF:-1 tvg-name="Sampai Titik Terakhirmu (2025)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyLnb_Ku5409h2MFypa-wQoj78srGw90PvJ-xPLCgyURSc.jpg" group-title="INDONESIA" xui-id="22883",Sampai Titik Terakhirmu (2025)
+http://hometv.biz.id:80/play/HHlqBXVzYQXtwHRTkxg7kNiAbU7RfjyqtwC09oMi3cA#.mp4
+#EXTINF:-1 tvg-name="Keadilan (2025)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyLzXp9uSST-z6vNJhxM-p9xtwoD_XPGFVGu3xThBzny08.jpg" group-title="INDONESIA" xui-id="22881",Keadilan (2025)
+http://hometv.biz.id:80/play/HHlqBXVzYQXtwHRTkxg7kCvgEDw9qI_zS9O2K2y1fJE#.mp4
+#EXTINF:-1 tvg-name="Tak Kenal Maka Taaruf (2025)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyLDc0traNcV8Ia9aSrqxiU33FQ9wwQNvlWHGIrvTsk3nc.jpg" group-title="INDONESIA" xui-id="22865",Tak Kenal Maka Taaruf (2025)
+http://hometv.biz.id:80/play/SlFvpkoUjEot3K1De4WMQPl2yYJCvTLTvgSEVtY4hG4#.mp4
+#EXTINF:-1 tvg-name="Sosok Ketiga: Lintrik (2025)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyLSqb_iufEAfGHKdGxsWwPL4Lv1YVSQ-96llrXMLHQcF0.jpg" group-title="INDONESIA" xui-id="22857",Sosok Ketiga: Lintrik (2025)
+http://hometv.biz.id:80/play/4TpOsk43Gn2Ct0v3RDO6VbPuz1sWsW0jNxhCYI0K964#.mp4
+#EXTINF:-1 tvg-name="Si Paling Aktor (2025)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyLZDMDJaXAbt9mPXbXN_P0STCYzAV94VPI0Rug_NCvsr0.jpg" group-title="INDONESIA" xui-id="22839",Si Paling Aktor (2025)
+http://hometv.biz.id:80/play/dOMiz_2Ar1wMy7C8VKfN4ZwRvEI3g79UekEjUipjdLc#.mp4
+#EXTINF:-1 tvg-name="Pengin Hijrah (2025)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyLtm0nq6V1D_oDh_SUCf46DnqcMU496WtU65jB7KG3f-g.jpg" group-title="INDONESIA" xui-id="22816",Pengin Hijrah (2025)
+http://hometv.biz.id:80/play/hqQuMhPyFUml9nRVOUUPCtUWHml3LlzQBD8_FEmtnLo#.mp4
+#EXTINF:-1 tvg-name="Air Mata di Ujung Sajadah 2 (2025)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyLL6ldZzmkj-zkU58d96yEeK7yhGB70sxnTxcHbDAykEk.jpg" group-title="INDONESIA" xui-id="22813",Air Mata di Ujung Sajadah 2 (2025)
+http://hometv.biz.id:80/play/hqQuMhPyFUml9nRVOUUPCi7dPN-exiSuewm-ZvXVHOA#.mp4
+#EXTINF:-1 tvg-name="Jangan Panggil Mama Kafir (2025)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyLYIyt7TnbJRlCsDIJQuWM1pZKn0VAFb_0p090Ywn8j7Y.jpg" group-title="INDONESIA" xui-id="22807",Jangan Panggil Mama Kafir (2025)
+http://hometv.biz.id:80/play/VBV70C86Wb3iD2-YKHkAUQFf3dzgO_UoLtk7F5QyTW0#.mp4
+#EXTINF:-1 tvg-name="My Therapist Said, I am Full of Sadness (2024)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyLXFlsBEYhOfRmOjxxJ38bmwaYNEiFSW6QEVzlDsCMd9o.jpg" group-title="INDONESIA" xui-id="22790",My Therapist Said, I am Full of Sadness (2024)
+http://hometv.biz.id:80/play/TNUabAQcfO4IiH6feg1lVO-qdCtd0kaHN7tWvDigaT4#.mp4
+#EXTINF:-1 tvg-name="Yakin Nikah (2025)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyLUiRl9AWEwPwpn5A0EIMXCbiyXKMUAVHrL4kLEejrByo.jpg" group-title="INDONESIA" xui-id="22731",Yakin Nikah (2025)
+http://hometv.biz.id:80/play/DrjtuAU3ElTP3rYf4h1biD1CKJjuS2b5gTsaYSdjlT4#.mp4
+#EXTINF:-1 tvg-name="Tukar Takdir (2025)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyLT-buBG2rG0ypn51XTVbdi4MJB6ZEiLfzkx_8n74KUjo.jpg" group-title="INDONESIA" xui-id="22730",Tukar Takdir (2025)
+http://hometv.biz.id:80/play/DrjtuAU3ElTP3rYf4h1biIKDOx5AoM2Xr3UPIIBoTSY#.mp4
+#EXTINF:-1 tvg-name="Kang Solah (From Kang Mak) x Nenek Gayung (2025)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyLeyg1SQSEkfETI2QPq6WsaNEhJNLnSTLrGentwQLfKsw.jpg" group-title="INDONESIA" xui-id="22726",Kang Solah (From Kang Mak) x Nenek Gayung (2025)
+http://hometv.biz.id:80/play/b7LF4maKFe7Z4q6ZeKKVjZthaOtGNPU0lBLGHzh8rp8#.mp4
+#EXTINF:-1 tvg-name="Sepeda Presiden (2021)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyLR89Godip1O2sKahI8NMQ2eREa-4ITebbY6l2NKSf2WE.jpg" group-title="INDONESIA" xui-id="22641",Sepeda Presiden (2021)
+http://hometv.biz.id:80/play/MovivSZOkgQ3fRsoDcYda-nl3Pyi0gN8ah_LkfzdcCk#.mp4
+#EXTINF:-1 tvg-name="Kartu Pos Wini (2023)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyLYbQx7sVlEYbc-tKM4-NgxnjsSR_6EDqb2vPP5nOacaY.jpg" group-title="INDONESIA" xui-id="22640",Kartu Pos Wini (2023)
+http://hometv.biz.id:80/play/MovivSZOkgQ3fRsoDcYdawmECGxiggoIK3zC6i-QlYc#.mp4
+#EXTINF:-1 tvg-name="Jendela Seribu Sungai (2023)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyL5xuU7TkGbNtGWktmi245jSDpZQiIlcVIYpqKkhZDSEA.jpg" group-title="INDONESIA" xui-id="22639",Jendela Seribu Sungai (2023)
+http://hometv.biz.id:80/play/CVASA0DGpmSGIG11so4uTADxH4IycVPLw9-OJQQp0uA#.mp4
+#EXTINF:-1 tvg-name="Pencarian Terakhir (2025)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyLDohFCxAH963OGKHvwP5pkB1e9uN-G3ZK4uOP6MsAhf8.jpg" group-title="INDONESIA" xui-id="22635",Pencarian Terakhir (2025)
+http://hometv.biz.id:80/play/CVASA0DGpmSGIG11so4uTJhjtx-gG99doLRXRFcFuOg#.mp4
+#EXTINF:-1 tvg-name="A Woman Called Mother (2025)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyLq7TfNCd_B5Gy6BLZwN2ujHkLna-HEcyW07iYvtQHj-k.jpg" group-title="INDONESIA" xui-id="22633",A Woman Called Mother (2025)
+http://hometv.biz.id:80/play/CVASA0DGpmSGIG11so4uTKV52jwpGCEvPrTX7NcqO0g#.mp4
+#EXTINF:-1 tvg-name="A Letter to My Youth (2026)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyLelogmQ73-rwV6nByEgR-fg3LEfdCVNQNTCKb17Xa1yM.jpg" group-title="INDONESIA" xui-id="22474",A Letter to My Youth (2026)
+http://hometv.biz.id:80/play/EC6oPRiPIA9r5bbhYnrdSbIV45pCArA2-Mw5BAW5D54#.mp4
+#EXTINF:-1 tvg-name="This City Is a Battlefield (2025)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyLZEoBcMLPh1D9RnB84mSOzQXGBIbZOHCyArOjv20XLoI.jpg" group-title="INDONESIA" xui-id="22448",This City Is a Battlefield (2025)
+http://hometv.biz.id:80/play/OeI4zl8Ul9d5ybm8EI9p-53-l60TaZDWk0FifWSmOj0#.mp4
+#EXTINF:-1 tvg-name="Pesan Untuk Masa Mudaku (2026)" tvg-logo="http://hometv.biz.id:80/images/K86-B238_J9CPlHibW7QBz_Mxn0uChnK_ziqbvya0XWgTEQnIHb4R4eP2-OCAo1KpNPDUNaWWOnRNIpvg6BYDoHUVpgf5M_ai14E8Z6B3BDPY90l41l3s1ecv937nnKn.jpg" group-title="INDONESIA" xui-id="22442",Pesan Untuk Masa Mudaku (2026)
+http://hometv.biz.id:80/play/OeI4zl8Ul9d5ybm8EI9p-2TiW0AtkZIjKikna-sdJpE#.mp4
+#EXTINF:-1 tvg-name="Hanya Namamu Dalam Doaku (2025)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyL9qYvkXhwP6fcG6HzfG1t_aJtw74BK6RpLpVD3yNSF6c.jpg" group-title="INDONESIA" xui-id="22024",Hanya Namamu Dalam Doaku (2025)
+http://hometv.biz.id:80/play/BMtECR86OgRlySZ3OfdRy_Reu1CWbbz2MgoIdYeNyMI#.mp4
+#EXTINF:-1 tvg-name="Andai Ibu Tidak Menikah Dengan Ayah (2025)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyLiQHDCNsPoYRIYcAHjVbCYM6DwEhLbmt7GktFas2JfYY.jpg" group-title="INDONESIA" xui-id="22023",Andai Ibu Tidak Menikah Dengan Ayah (2025)
+http://hometv.biz.id:80/play/BMtECR86OgRlySZ3OfdRy4tfJscnNe706EtnmcYAcwE#.mp4
+#EXTINF:-1 tvg-name="Gak Nikah Gapapa Kan? (2025)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyL18L9JIFj_viYjEYeEgMqkUJNcKJRYl7-IDCWDMgstok.jpg" group-title="INDONESIA" xui-id="22016",Gak Nikah Gapapa Kan? (2025)
+http://hometv.biz.id:80/play/QBurU0anZq2MS-OTSoLNiw11xf8USSaLHl5v3l0qI-A#.mp4
+#EXTINF:-1 tvg-name="Lebih Dari Selamanya (2025)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyL1DZb4x1jQIzqOzACmQqm18NUJM_cwXZc7WyH_TDJVMw.jpg" group-title="INDONESIA" xui-id="22015",Lebih Dari Selamanya (2025)
+http://hometv.biz.id:80/play/QBurU0anZq2MS-OTSoLNiw-Qm6Og86YiMp_gkrb-Uzc#.mp4
+#EXTINF:-1 tvg-name="Siapa Dia (2025)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyLdHP4MFAcqNssssvyc6Rj3xbniqS3uYw-uLE2ytVLLAo.jpg" group-title="INDONESIA" xui-id="22014",Siapa Dia (2025)
+http://hometv.biz.id:80/play/QBurU0anZq2MS-OTSoLNiyAqIB23a2KJ5YioN06hEc0#.mp4
+#EXTINF:-1 tvg-name="Tinggal Meninggal (2025)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyLxnzI-ieO6787-0EOHrssO-GEqnYa6ClmgYnhhOHTOtc.jpg" group-title="INDONESIA" xui-id="21655",Tinggal Meninggal (2025)
+http://hometv.biz.id:80/play/1NTeC9Q660UIncIUfQ5tP9cQWLxE-uCZUxrffcQbUTU#.mp4
+#EXTINF:-1 tvg-name="Panji Tengkorak (2025)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyL6CHrVJtwjVVMzT3llxsCYrKX1bHhur52wBgnzAzaO4k.jpg" group-title="INDONESIA" xui-id="21653",Panji Tengkorak (2025)
+http://hometv.biz.id:80/play/1NTeC9Q660UIncIUfQ5tP0S2_e_kxDA2ocqMOFAaRM4#.mp4
+#EXTINF:-1 tvg-name="La Tahzan: Cinta, Dosa, Luka... (2025)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyL0q_5Z__55ENa6kbxTIpgarQXJvpvdylZuRNvxcnH9eA.jpg" group-title="INDONESIA" xui-id="21601",La Tahzan: Cinta, Dosa, Luka... (2025)
+http://hometv.biz.id:80/play/7ifAzoDhG9v46xuFXwuvYRfcZKIufbe2g8DYCUFnxW0#.mp4
+#EXTINF:-1 tvg-name="Lyora: Penantian Buah Hati (2025)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyLCGJp8PRoyd7rDnhJSzSlyihYLk5HUhNbIDZsrKr4x3c.jpg" group-title="INDONESIA" xui-id="21600",Lyora: Penantian Buah Hati (2025)
+http://hometv.biz.id:80/play/7ifAzoDhG9v46xuFXwuvYRt-9QPq8Hw3DsUO8b3bWqo#.mp4
+#EXTINF:-1 tvg-name="Lupa Daratan (2025)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyL0vz8rw-NwY3IOrS2UNnUDaEoQVff7qKZzF_EplntyVo.jpg" group-title="INDONESIA" xui-id="21011",Lupa Daratan (2025)
+http://hometv.biz.id:80/play/NBpXxWCYvJ4bM2hpzIvZk-vMlx6vUb52uHlWfD1gL48#.mp4
+#EXTINF:-1 tvg-name="Sore: Istri Dari Masa Depan (2025)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyLnB6JyORz3l7hf8rb5pqxEMupfjlDazTg_fDuik87h4g.jpg" group-title="INDONESIA" xui-id="21009",Sore: Istri Dari Masa Depan (2025)
+http://hometv.biz.id:80/play/AWt5XE1jeodOPf_aoUcjFSrTdcBophQgc0uSJ2cI73w#.mp4
+#EXTINF:-1 tvg-name="Lone Samurai (2025)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyLnz9faWaNglM3BQvBNhF47dmdQEnkk7Ni6uY1GPMbLRw.jpg" group-title="INDONESIA" xui-id="20980",Lone Samurai (2025)
+http://hometv.biz.id:80/play/UMciDq9BtgnLkRc_CDnvQB0oh-4WcaqQtKBMcEzECR8#.mp4
+#EXTINF:-1 tvg-name="Panggil Aku Ayah (2025)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyL3pE3g3OOHpW-a35abDv4BsUhlhqrT9JGRUl6PzsmQSM.jpg" group-title="INDONESIA" xui-id="19376",Panggil Aku Ayah (2025)
+http://hometv.biz.id:80/play/80Jfy3dZLKbuUF4TX8erLGLfIv9nZUJGE_EWBv8OYsw#.mp4
+#EXTINF:-1 tvg-name="Believe: Takdir, Mimpi, Keberanian (2025)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyLTX89k5yjD6PFS6LLYvzfbmnSdW_xAM1B3nRHjHj0Mxw.jpg" group-title="INDONESIA" xui-id="18410",Believe: Takdir, Mimpi, Keberanian (2025)
+http://hometv.biz.id:80/play/588O_L9jZ7bqrAkRgUWfKYTQ0de_R1qLK_Q7YpVr64s#.mp4
+#EXTINF:-1 tvg-name="Assalamualaikum Baitullah (2025)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyLuCaQxhmigprxabTu6oB6s8Wubnii21dagZsT7eaS0p4.jpg" group-title="INDONESIA" xui-id="18331",Assalamualaikum Baitullah (2025)
+http://hometv.biz.id:80/play/m9EPJmfn4DSAa9YOW_5nIctW24MAvHXz8ak6wm7O7Cs#.mp4
+#EXTINF:-1 tvg-name="Jodoh 3 Bujang (2025)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyLFVhj0JJY1rblGvjstb4h9XOJHQ3HQRyKc19ZNzEtCDU.jpg" group-title="INDONESIA" xui-id="18255",Jodoh 3 Bujang (2025)
+http://hometv.biz.id:80/play/7kb_g43tVGovtfJP7BaMRdrhntgg2XTu7k-S7Snr07Y#.mp4
+#EXTINF:-1 tvg-name="Assalamualaikum Beijing 2: Lost in Ningxia (2025)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyL7ljwiAPVgDOG_JvWoZpFI_xLiA3nTelJVv_Nna-Tbvk.jpg" group-title="INDONESIA" xui-id="18252",Assalamualaikum Beijing 2: Lost in Ningxia (2025)
+http://hometv.biz.id:80/play/7kb_g43tVGovtfJP7BaMRUtwne0fvv5pJ7b6DNRvtY4#.mp4
+#EXTINF:-1 tvg-name="Tak Ingin Usai Disini (2025)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyLLLFKw31-LWOMDP3GXVc8IOHOV-p7Qq5Yre7jSnKTwKk.jpg" group-title="INDONESIA" xui-id="14964",Tak Ingin Usai Disini (2025)
+http://hometv.biz.id:80/play/pX4ID7p7T0g4886Z9rtjRwXnx_EgzwDHUTNcT2En9n4#.mp4
+#EXTINF:-1 tvg-name="Penjagal Iblis: Dosa Turunan (2025)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyL3-W6RDFAeiHEgx9cPNzzvbQwVSBZKaKXmHXJfDsabgc.jpg" group-title="INDONESIA" xui-id="14901",Penjagal Iblis: Dosa Turunan (2025)
+http://hometv.biz.id:80/play/cl5-DUTNVTwnYQoOKvx-p_5J0d00s0uVqIEwr_Hf89U#.mp4
+#EXTINF:-1 tvg-name="Keluarga Suami Adalah Hama (2025)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyLAOtTbSC-1prvZhM_u2cxRFwBx2I8dV0r5TRzLiDO1_0.jpg" group-title="INDONESIA" xui-id="14900",Keluarga Suami Adalah Hama (2025)
+http://hometv.biz.id:80/play/cl5-DUTNVTwnYQoOKvx-p2FImFxuzYmjaNtFVZniswk#.mp4
+#EXTINF:-1 tvg-name="Abracadabra (2020)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyLtFNNwmEF_ejau4qd_Pm4CIx6DKfbomTYQ7msl-avETM.jpg" group-title="INDONESIA" xui-id="14819",Abracadabra (2020)
+http://hometv.biz.id:80/play/Ujh0gq3jku762hXGR1LPqv34TjOeeimcfT1k5nVDu5g#.mp4
+#EXTINF:-1 tvg-name="Keluarga Super Irit (2025)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyLMyd5P5UCp8knpT4poiWHUeHpLLTVn7emQtlyV-X37Rk.jpg" group-title="INDONESIA" xui-id="14766",Keluarga Super Irit (2025)
+http://hometv.biz.id:80/play/Lv0i-qU-X_7PhfPDX5tkEs6AfvW3WFJ2B8KbXmsLCGY#.mp4
+#EXTINF:-1 tvg-name="Gita Cinta dari SMA (2023)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyL5ZQRFI5x9Jv518OKIiKysdu0mgEmc9uAhFZCYJbN0Kc.jpg" group-title="INDONESIA" xui-id="14744",Gita Cinta dari SMA (2023)
+http://hometv.biz.id:80/play/4mR5VzBwMIrQZ9LYF5PB5aCHIdxBmQ0FGBxnxCCgtoc#.mp4
+#EXTINF:-1 tvg-name="Gowok: Kamasutra Jawa (2025)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyLUXY9g7zvm7Ndg0QG8HsbF7JbS1zYKxCi-ffBXs4__Dg.jpg" group-title="INDONESIA" xui-id="14672",Gowok: Kamasutra Jawa (2025)
+http://hometv.biz.id:80/play/Igx1W9Eo_N_GYvlech2Rau-VaWizBAfs_N6LexnvFLM#.mp4
+#EXTINF:-1 tvg-name="Dendam Malam Kelam (2025)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyLYSKwpEDvUp62UTl2um8gD3aLns0MVnlIrf8yWtLHDxg.jpg" group-title="INDONESIA" xui-id="14671",Dendam Malam Kelam (2025)
+http://hometv.biz.id:80/play/Igx1W9Eo_N_GYvlech2RauoZUFAVsbxFVDpL6sJ1XwY#.mp4
+#EXTINF:-1 tvg-name="Sayap Sayap Patah 2: Olivia (2025)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyLbXYaNVYwDhg0BIzxgxUBfV6iM-3jIRGJm7CLXjZCwZI.jpg" group-title="INDONESIA" xui-id="14487",Sayap Sayap Patah 2: Olivia (2025)
+http://hometv.biz.id:80/play/RpmVZnEw_DadJrMtPO2VPaqXJTcc8rb-YVqkZ_hrrb0#.mp4
+#EXTINF:-1 tvg-name="Teka-Teki Tika (2021)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyLh4uOx1n7H2wO0lFcDPK1HoUzkfKL41IJMyNF6X0Mvio.jpg" group-title="INDONESIA" xui-id="14433",Teka-Teki Tika (2021)
+http://hometv.biz.id:80/play/yKeoDudEVjPW3pzqvrYCFpGTt1WzEeQfdbj27m8-Vw4#.mp4
+#EXTINF:-1 tvg-name="Tabayyun (2025)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/jM3GDA1ULTujSkbMVShVpL0rYLP.jpg" group-title="INDONESIA" xui-id="14399",Tabayyun (2025)
+http://hometv.biz.id:80/play/VAb1xUujS8nV1SSHlV6tvmJQb0zqmk6oT5yQwaioLtc#.mp4
+#EXTINF:-1 tvg-name="Perang Kota (2025)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyLAe5L2FDIAN5YHpEc1-jo-jqhY1-33oeZj7jp_at_c1A.jpg" group-title="INDONESIA" xui-id="14398",Perang Kota (2025)
+http://hometv.biz.id:80/play/VAb1xUujS8nV1SSHlV6tvhHhfUKvPEW0FwDr4UEsp1I#.mp4
+#EXTINF:-1 tvg-name="Rumah Untuk Alie (2025)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyLLAxk1GQkxvzhHxjXgEsNeAaT43J2UbDKIUgzL2XLiVA.jpg" group-title="INDONESIA" xui-id="14397",Rumah Untuk Alie (2025)
+http://hometv.biz.id:80/play/VAb1xUujS8nV1SSHlV6tvn9wo4WATtpauxdeePl7hdE#.mp4
+#EXTINF:-1 tvg-name="Pengepungan di Bukit Duri (2025)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyLE7vCBnkqsJi-9cO-f8WG_y02XF_-WVlI3pKwLhjpsa8.jpg" group-title="INDONESIA" xui-id="13473",Pengepungan di Bukit Duri (2025)
+http://hometv.biz.id:80/play/NHoOcl-qk3mxnIZhbBU54vxUHaWnJhwRXDBfIjR-LRs#.mp4
+#EXTINF:-1 tvg-name="Norma: Antara Mertua dan Menantu (2025)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyLCDudf1rUIRfEXvo7by3IvpiuIcjsSfmn9XH6AccIkrU.jpg" group-title="INDONESIA" xui-id="13472",Norma: Antara Mertua dan Menantu (2025)
+http://hometv.biz.id:80/play/NHoOcl-qk3mxnIZhbBU54uV95XEIepzgR84_S2FvnVQ#.mp4
+#EXTINF:-1 tvg-name="Komang (2025)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyL0vo16yfmxyZh14NXtoqbDK9CS58Coel-OToiMW6Z46Y.jpg" group-title="INDONESIA" xui-id="13101",Komang (2025)
+http://hometv.biz.id:80/play/eDK6MA3atffpw6Za0jaeygTVAHf6hvj01QKQ0Gx95ZI#.mp4
+#EXTINF:-1 tvg-name="A Normal Woman (2025)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyLtY-7_WBJ25NA3kPX6jMKgzfe2qEzM5yFs3317iHSIv8.jpg" group-title="INDONESIA" xui-id="13042",A Normal Woman (2025)
+http://hometv.biz.id:80/play/mBa4T5vGxBntnXyZRePtDfVyKcjElLYEWetQemtUO_w#.mp4
+#EXTINF:-1 tvg-name="Melukis Harapan Di Langit India (2025)" tvg-logo="http://hometv.biz.id:80/images/ReedsYA3ecb5hna61F8B0TC5V9CRvkMQhJOzIun21GGN6WUlWbVZviYJbOgjYXvG-X2Zi_xUAkfZexqmCT67Ld-xjr8vy_pFU6DnRuL3zjxzgWzUNNhbda7cSfqW9By5.jpg" group-title="INDONESIA" xui-id="12983",Melukis Harapan Di Langit India (2025)
+http://hometv.biz.id:80/play/mDL6F08tiX_OqPDP3bSY-FfXRgjGYHe2L_JDqz-Xo30#.mp4
+#EXTINF:-1 tvg-name="Yang Tersisa Hanya Cinta (2025)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyLy1V88Dh9vvUC_AoF5z_iz9LNwEslvCVEQBNMdxjEmQM.jpg" group-title="INDONESIA" xui-id="12937",Yang Tersisa Hanya Cinta (2025)
+http://hometv.biz.id:80/play/K0dNmM4TKYKMRHOsHhNr5BpairlE3VU_g3K992Wu83Q#.mp4
+#EXTINF:-1 tvg-name="1 Kakak 7 Ponakan (2025)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyLDWR1IdP_YPH9RKrxuKi1IacSEVT-vtyHutD3XX1A-QY.jpg" group-title="INDONESIA" xui-id="12891",1 Kakak 7 Ponakan (2025)
+http://hometv.biz.id:80/play/ls6i9YnManWNqbvgbYGlvYjr9A5LgLYvU7aNoaTqfcU#.mp4
+#EXTINF:-1 tvg-name="Keajaiban Air Mata Wanita (2025)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyLE0j56Le-LftWFE5D0IpYSFbWUkbNTeRNV_bAvKHWojQ.jpg" group-title="INDONESIA" xui-id="12847",Keajaiban Air Mata Wanita (2025)
+http://hometv.biz.id:80/play/lYse8G4Y5j2IINBXIuXTlbXy180Ofky-697OxsycKuE#.mp4
+#EXTINF:-1 tvg-name="Turis Romantis (2015)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyLCcUQAxU62qOS0gVtByzI2HS5Lm9ZH86zk8t8lk8RLRQ.jpg" group-title="INDONESIA" xui-id="12771",Turis Romantis (2015)
+http://hometv.biz.id:80/play/V4IIz_aqIf13AJVczHt-brXMoYPOMxqLNI8YunHsTZ8#.mp4
+#EXTINF:-1 tvg-name="Gendut Siapa Takut?! (2022)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyLT-o5enJNvgljIQVV_zfxhMNlHZAgwAbgkt9wAZpO1aQ.jpg" group-title="INDONESIA" xui-id="12770",Gendut Siapa Takut?! (2022)
+http://hometv.biz.id:80/play/V4IIz_aqIf13AJVczHt-bi5a_zSzbaf5W172KncMVCg#.mp4
+#EXTINF:-1 tvg-name="Rahasia Rasa (2025)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyLMyS9jZexZ8xYlJDQCucDSfaXtDp3bvVx23aQHW6JPLQ.jpg" group-title="INDONESIA" xui-id="12769",Rahasia Rasa (2025)
+http://hometv.biz.id:80/play/AmjhCBR50w9U000mKpsTmYkVtUaUH818TmMfnkmyrZw#.mp4
+#EXTINF:-1 tvg-name="Cek Toko Sebelah 2 (2022)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyLMLf3VPNaX6eJrdKxPICCOHMA2MHLg1F8OaR9uxPaSBo.jpg" group-title="INDONESIA" xui-id="12678",Cek Toko Sebelah 2 (2022)
+http://hometv.biz.id:80/play/TXGEkHfOFKaPgJlsnHoAzcHveR7244I4Oe_gx7nqa6U#.mp4
+#EXTINF:-1 tvg-name="One Night Stand (2021)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyLZeIQgkG9jyaiSovAhI3IgEP5TFCQBluImR_S503LM9U.jpg" group-title="INDONESIA" xui-id="12676",One Night Stand (2021)
+http://hometv.biz.id:80/play/TXGEkHfOFKaPgJlsnHoAzQ68WeAgFOOaexo0QlzRnyw#.mp4
+#EXTINF:-1 tvg-name="Arini by Love.inc (2022)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyL6FvvS30k5GNeW4cokiuXrLvO6O-aaldv4RjWNYegDkk.jpg" group-title="INDONESIA" xui-id="12675",Arini by Love.inc (2022)
+http://hometv.biz.id:80/play/TXGEkHfOFKaPgJlsnHoAzQOGN-nDJe0aj1JCZt1ZXg8#.mp4
+#EXTINF:-1 tvg-name="Balada Si Roy (2023)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyLQxBfVPvEHBrvca999Gxf8movjCiiJ_fY97OfJ0cGYtQ.jpg" group-title="INDONESIA" xui-id="12674",Balada Si Roy (2023)
+http://hometv.biz.id:80/play/TXGEkHfOFKaPgJlsnHoAzdzZAM_w18KkY3HVmBUC3T4#.mp4
+#EXTINF:-1 tvg-name="Argantara (2022)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyLnjedCTPl7HN_irSRUg39DG9EiaDsK7DZ06k5hj0PFAw.jpg" group-title="INDONESIA" xui-id="12673",Argantara (2022)
+http://hometv.biz.id:80/play/TXGEkHfOFKaPgJlsnHoAzSfv2x1YF1eofEmy7N21Ud8#.mp4
+#EXTINF:-1 tvg-name="Persahabatan Bagai Kepompong (2021)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyLk9xLc-RR-zo3eUxpPEvDXu4W7ThmvfW1IeEuH5iHJGs.jpg" group-title="INDONESIA" xui-id="12672",Persahabatan Bagai Kepompong (2021)
+http://hometv.biz.id:80/play/TXGEkHfOFKaPgJlsnHoAzQ9MpLKKBxr4HtpVdkfbYaE#.mp4
+#EXTINF:-1 tvg-name="Invalidite (2023)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyLym_AECaa-BxlZsLm2Yz9KLJgTNvC8eQkOaAvoINdh_w.jpg" group-title="INDONESIA" xui-id="12671",Invalidite (2023)
+http://hometv.biz.id:80/play/TXGEkHfOFKaPgJlsnHoAzQm3RxjLA0ldy8fVSD196w0#.mp4
+#EXTINF:-1 tvg-name="Srimulat: Hidup Memang Komedi (2023)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyLPhI0xJnjySq6HQp7vIL8Ys5B0i-duodtT7l1YL0XG_U.jpg" group-title="INDONESIA" xui-id="12670",Srimulat: Hidup Memang Komedi (2023)
+http://hometv.biz.id:80/play/TXGEkHfOFKaPgJlsnHoAzd5LknDIFdqFcV3TP1_3WRI#.mp4
+#EXTINF:-1 tvg-name="172 Hari (2023)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyLHoRkxWPGkLL4Dkx_UuMBI29Q1mxhWZslesRdhOcgVOM.jpg" group-title="INDONESIA" xui-id="12669",172 Hari (2023)
+http://hometv.biz.id:80/play/7NQK542A3gmm0DLPl2BXmI57yZX2CxISPS5s54_Z6I0#.mp4
+#EXTINF:-1 tvg-name="Buya Hamka (2023)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyLoU1u_sDkw7jszhRa-lODW5ko3eHQNtY0kqplGfvVRtM.jpg" group-title="INDONESIA" xui-id="12654",Buya Hamka (2023)
+http://hometv.biz.id:80/play/gbL9Cn36JeRUkkRC4GZFW5QSA8E-STg4Hwn2EQ6IN0A#.mp4
+#EXTINF:-1 tvg-name="Bukannya Aku Tidak Mau Nikah (2023)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyLZZ9l5KYeuh3bqgVV8JvW6PgpeZVxQ2Vuyljr_bNQlso.jpg" group-title="INDONESIA" xui-id="12653",Bukannya Aku Tidak Mau Nikah (2023)
+http://hometv.biz.id:80/play/gbL9Cn36JeRUkkRC4GZFW2jm7Q5dogQvb5stORgqsC4#.mp4
+#EXTINF:-1 tvg-name="Just Mom (2022)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyLo69MPr3EG8cbbgLNzUNY9fh7MX_niWdT1iHqnkupf74.jpg" group-title="INDONESIA" xui-id="12652",Just Mom (2022)
+http://hometv.biz.id:80/play/gbL9Cn36JeRUkkRC4GZFW7RhhRNGEZY2PLj8mtWNBN4#.mp4
+#EXTINF:-1 tvg-name="Dear Nathan: Thank You Salma (2022)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyLlrjDgIAHOx8ArNvb6BgiDKeLqDjIRfUGn2IJ-9C4QT4.jpg" group-title="INDONESIA" xui-id="12651",Dear Nathan: Thank You Salma (2022)
+http://hometv.biz.id:80/play/gbL9Cn36JeRUkkRC4GZFW7kK2kBPJpI7HMV2q5YFgMc#.mp4
+#EXTINF:-1 tvg-name="Nana (2022)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyLIBcq6Q6NZ30iN2kPBNbm2VeTKRhnP6pFaNyyxCveKFA.jpg" group-title="INDONESIA" xui-id="12650",Nana (2022)
+http://hometv.biz.id:80/play/gbL9Cn36JeRUkkRC4GZFW6uHqkQsBWtl7wmpau30TQo#.mp4
+#EXTINF:-1 tvg-name="Ice Cold: Murder, Coffee and Jessica Wongso (2023)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyLB7eqLQaXqlSaK8gKB4bvmN80WWCnj10lfDXuglgPGEM.jpg" group-title="INDONESIA" xui-id="12649",Ice Cold: Murder, Coffee and Jessica Wongso (2023)
+http://hometv.biz.id:80/play/maz_9uZMMNaS_ijh-NGT2H16aS9HV9ZYVC4mgL2YT5A#.mp4
+#EXTINF:-1 tvg-name="Will (2021)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyL0rAXTMwAVzfx9kz1WsYE1mVbyZNPvl4WRMKzh1lGmyQ.jpg" group-title="INDONESIA" xui-id="12648",Will (2021)
+http://hometv.biz.id:80/play/maz_9uZMMNaS_ijh-NGT2P5gra5dHYL4_g2eVIlf_RI#.mp4
+#EXTINF:-1 tvg-name="Survive (2021)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyL2owjoqI81KY2P4rnR8PriAtSR4nMw8DHxdJx4doEWNY.jpg" group-title="INDONESIA" xui-id="12647",Survive (2021)
+http://hometv.biz.id:80/play/maz_9uZMMNaS_ijh-NGT2PxG6IYX9wegM1u2emrphQc#.mp4
+#EXTINF:-1 tvg-name="Malaikat Tanpa Sayap (2023)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyL7JboPvkUeveLnKr1jLwFpp1CoC1pDRVBZQYbHGmXffo.jpg" group-title="INDONESIA" xui-id="12646",Malaikat Tanpa Sayap (2023)
+http://hometv.biz.id:80/play/maz_9uZMMNaS_ijh-NGT2O0IHo3xHhult-SWAl1Vqn4#.mp4
+#EXTINF:-1 tvg-name="Milea: Suara dari Dilan (2020)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyLq9Gmflj0WUu3T351q2kJDsOrI3gXaj_U_UKx1m7DUKk.jpg" group-title="INDONESIA" xui-id="12645",Milea: Suara dari Dilan (2020)
+http://hometv.biz.id:80/play/maz_9uZMMNaS_ijh-NGT2Nzd5okSnAByXmms5bCk35Q#.mp4
+#EXTINF:-1 tvg-name="Petualangan Sherina 2 (2023)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyLTS0uB6tnXyTOZKd2hCgoP7WSajf8lql4pHiot6Bnz2s.jpg" group-title="INDONESIA" xui-id="12644",Petualangan Sherina 2 (2023)
+http://hometv.biz.id:80/play/maz_9uZMMNaS_ijh-NGT2G3HW55pcMSwq4kJSG9ARtY#.mp4
+#EXTINF:-1 tvg-name="Jatuh Cinta Seperti Di Film-Film (2023)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/nvCFJIj4cJXZeOwGU0sns0g03K1.jpg" group-title="INDONESIA" xui-id="12643",Jatuh Cinta Seperti Di Film-Film (2023)
+http://hometv.biz.id:80/play/maz_9uZMMNaS_ijh-NGT2CkJepQS5p0YjNpuG74ywaY#.mp4
+#EXTINF:-1 tvg-name="Rumah Masa Depan (2023)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyLOlNlmgGC8OC2VPcbLz_zQia3ujRZpOMWfLjzXrKQIpE.jpg" group-title="INDONESIA" xui-id="12642",Rumah Masa Depan (2023)
+http://hometv.biz.id:80/play/maz_9uZMMNaS_ijh-NGT2Dq4VTMbYAy7N6HOb5pFOT4#.mp4
+#EXTINF:-1 tvg-name="13 Bom di Jakarta (2023)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyLUqrKn74DskVDwsaV6TozET3Ki2hUhDpIOS9c0gATE-k.jpg" group-title="INDONESIA" xui-id="12641",13 Bom di Jakarta (2023)
+http://hometv.biz.id:80/play/maz_9uZMMNaS_ijh-NGT2Fuvgpxlp0CJ2vWMq9RCLI8#.mp4
+#EXTINF:-1 tvg-name="Buya Hamka Vol. 2 (2023)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyLg9gn0UkMFWLz5wFxKHyWreALCbhHCAGr4HCMP-X3eKY.jpg" group-title="INDONESIA" xui-id="12640",Buya Hamka Vol. 2 (2023)
+http://hometv.biz.id:80/play/maz_9uZMMNaS_ijh-NGT2HaoyQsyPKF7azf6AJ6j1fU#.mp4
+#EXTINF:-1 tvg-name="Ancika: Dia yang Bersamaku 1995 (2024)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyLdvTWxY72r6WSjad98smyqRzqRsLVfi7wnt9VoesMmjs.jpg" group-title="INDONESIA" xui-id="12639",Ancika: Dia yang Bersamaku 1995 (2024)
+http://hometv.biz.id:80/play/XnL5a8qjnVOq5EnVywRATki1ORk2vFyVbh4t1c-WIM4#.mp4
+#EXTINF:-1 tvg-name="Bukan Cinderella (2022)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyLbLQ4qNAMPCXIvUduGK11fWRqqktu-XumDUJga7Z6riY.jpg" group-title="INDONESIA" xui-id="12638",Bukan Cinderella (2022)
+http://hometv.biz.id:80/play/XnL5a8qjnVOq5EnVywRATuoZG6vSez9KClNoZpzdOEE#.mp4
+#EXTINF:-1 tvg-name="Cek Ombak ( Lagi ) (2024)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyLaHKu1JU_1hNtlBFxFrRplPz_-VTQW517bb28XK5UmSQ.jpg" group-title="INDONESIA" xui-id="12637",Cek Ombak ( Lagi ) (2024)
+http://hometv.biz.id:80/play/XnL5a8qjnVOq5EnVywRATk-La9-ho4d2pur88z7s4Sc#.mp4
+#EXTINF:-1 tvg-name="The Other Side (2022)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyLs53-bqzhbN7th4eV8Y3XZHrk4Q9zW7V6ldb1zeG6uH8.jpg" group-title="INDONESIA" xui-id="12636",The Other Side (2022)
+http://hometv.biz.id:80/play/XnL5a8qjnVOq5EnVywRATvGFSmOHet883g7t-g9JWkk#.mp4
+#EXTINF:-1 tvg-name="AUM! (2021)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyL8aKhidCIP44MCmcupDXf6o0ZejG8uxoZ72Gwa21Qkjg.jpg" group-title="INDONESIA" xui-id="12635",AUM! (2021)
+http://hometv.biz.id:80/play/XnL5a8qjnVOq5EnVywRATuxVRJOyfEPHnsE1ozLEcLY#.mp4
+#EXTINF:-1 tvg-name="Romantik Problematik (2022)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyLyVzggAEAB3xXNZItD2ZErFv1itzG1mGWDzkyeQ6hYJY.jpg" group-title="INDONESIA" xui-id="12634",Romantik Problematik (2022)
+http://hometv.biz.id:80/play/XnL5a8qjnVOq5EnVywRATjZmOPGkPWD0zMZ-XsvH4n8#.mp4
+#EXTINF:-1 tvg-name="Kejarlah Janji (2023)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyLBsKzpi1c5BRZt3ytSA9gkQ-i-TrWdqHO84aYC7iwdF8.jpg" group-title="INDONESIA" xui-id="12633",Kejarlah Janji (2023)
+http://hometv.biz.id:80/play/XnL5a8qjnVOq5EnVywRATloSJkbxiv5FD2BZplXm208#.mp4
+#EXTINF:-1 tvg-name="Harta Tahta Raisa (2024)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyLDUXuhPXZgYV3_vW-QrsxCbnHvb-poGsUaB_Xku-Skzo.jpg" group-title="INDONESIA" xui-id="12631",Harta Tahta Raisa (2024)
+http://hometv.biz.id:80/play/XnL5a8qjnVOq5EnVywRATkcoJmvXt4Fy2ZoIs0t1_Sw#.mp4
+#EXTINF:-1 tvg-name="Winter Elegy (2024)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyLv_-B7buV5hMkDkk4Gxn0JMUqkQhInJ4JbjAvVrmrTac.jpg" group-title="INDONESIA" xui-id="12630",Winter Elegy (2024)
+http://hometv.biz.id:80/play/XnL5a8qjnVOq5EnVywRATgrlv70__5F2G4poFT1qkg0#.mp4
+#EXTINF:-1 tvg-name="Kadet 1947 (2021)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyL_Ki22RitqBP58qA2KV3w8Kvdn2jDHaKo5kVTuFRRufU.jpg" group-title="INDONESIA" xui-id="12629",Kadet 1947 (2021)
+http://hometv.biz.id:80/play/5xzw8uZ9q9MLxydYA4zr8selYj70kSVJ_KDkaCcXs_A#.mp4
+#EXTINF:-1 tvg-name="Catatan Harian Menantu Sinting" tvg-logo="http://hometv.biz.id:80/images/8ywbdKYIIQT8AWn5NjJeXOO7DIsW5UOYq6TQDksxZLL-y3kkZJY50gJfthe5qXiktA8qn0THMuwX_fDuMDoh_t34CdrAI5wWfrNB03K2kXRNdwwI1TjVkXDCcQf83yXheaxE95lpCcPjORLVDptknQ.jpg" group-title="INDONESIA" xui-id="12628",Catatan Harian Menantu Sinting
+http://hometv.biz.id:80/play/5xzw8uZ9q9MLxydYA4zr8iEhhG5V7KNpD8dfSNsi-kY#.mp4
+#EXTINF:-1 tvg-name="Dilan 1983: Wo Ai Ni (2024)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyL-SLMJU2LYF1P4xehZ14ijrCdkaHoL1qTXOaNIirmemw.jpg" group-title="INDONESIA" xui-id="12627",Dilan 1983: Wo Ai Ni (2024)
+http://hometv.biz.id:80/play/5xzw8uZ9q9MLxydYA4zr8oozDqBU832exWOHiQBv0oM#.mp4
+#EXTINF:-1 tvg-name="Uang Panai' 2 Maha(r)l (2024)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyLL-kRdF_gRErz4E-HXnPiwH6bAMrIMwtsmCrEo-F4G1s.jpg" group-title="INDONESIA" xui-id="12626",Uang Panai' 2 Maha(r)l (2024)
+http://hometv.biz.id:80/play/5xzw8uZ9q9MLxydYA4zr8iIKdEl48JpouUdaN_94f9w#.mp4
+#EXTINF:-1 tvg-name="All Access To Rossa 25 Shining Years (2024)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyLoVCsfEBvfhbrQlV3U8xK_ySzyvkrDeEBocnlwSOs3d0.jpg" group-title="INDONESIA" xui-id="12625",All Access To Rossa 25 Shining Years (2024)
+http://hometv.biz.id:80/play/5xzw8uZ9q9MLxydYA4zr8vfqK62jelXsnYEKjLy_RcU#.mp4
+#EXTINF:-1 tvg-name="Women From Rote Island (2024)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyL4ZwWp_v8RGakwb7mVzvM5fmqs00fs45iYi9LOF-qPnA.jpg" group-title="INDONESIA" xui-id="12624",Women From Rote Island (2024)
+http://hometv.biz.id:80/play/5xzw8uZ9q9MLxydYA4zr8g3NTLrqrfhIICC1wtL9LeY#.mp4
+#EXTINF:-1 tvg-name="Home Sweet Loan (2024)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyLUBi01HoyUyDeaIQtKjKCX0osyOeB_OqTYrEDQVdEe4Q.jpg" group-title="INDONESIA" xui-id="12623",Home Sweet Loan (2024)
+http://hometv.biz.id:80/play/5xzw8uZ9q9MLxydYA4zr8lI-kgm1nlS4ni0P6yBo-Sg#.mp4
+#EXTINF:-1 tvg-name="Laut Tengah (2024)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyLPUnW8LLD-8IKENp95liz4hfk_iYcBWSP0phHLCj8FZ0.jpg" group-title="INDONESIA" xui-id="12622",Laut Tengah (2024)
+http://hometv.biz.id:80/play/5xzw8uZ9q9MLxydYA4zr8irxcZBAUcYAUueScOMvBYo#.mp4
+#EXTINF:-1 tvg-name="Bolehkah Sekali Saja Kumenangis (2024)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyL7reiJFxwKokW7fhQVrDyQ6gwcQcfWbU1AzflIlfnA0E.jpg" group-title="INDONESIA" xui-id="12621",Bolehkah Sekali Saja Kumenangis (2024)
+http://hometv.biz.id:80/play/5xzw8uZ9q9MLxydYA4zr8k7aTfJEIil--VqJVkzw8GU#.mp4
+#EXTINF:-1 tvg-name="My Annoying Brother (2024)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyLquJBvypGRrso0mv-91QNhJqqx5LBcfL6meWnjezhACg.jpg" group-title="INDONESIA" xui-id="12619",My Annoying Brother (2024)
+http://hometv.biz.id:80/play/ZNYA6TDRKVc6IUEoSiMtHH0_TvCuNgVl-sMcY5phCOU#.mp4
+#EXTINF:-1 tvg-name="Putri Bintang Lima (2024)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyLvVA78whiDT8YS0-_jhYEv5-4bLfouT1Ko15MKdXhiWY.jpg" group-title="INDONESIA" xui-id="12618",Putri Bintang Lima (2024)
+http://hometv.biz.id:80/play/ZNYA6TDRKVc6IUEoSiMtHMtX8E1ZFi3oDLzNaPTZdEs#.mp4
+#EXTINF:-1 tvg-name="Cinta Dalam Ikhlas (2024)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyLBL-qwDJOt-dXmQ7W2vJLAagcCizgnZWb527WZdthSL8.jpg" group-title="INDONESIA" xui-id="12617",Cinta Dalam Ikhlas (2024)
+http://hometv.biz.id:80/play/ZNYA6TDRKVc6IUEoSiMtHAXuHn9NK-_p9hpQrJVWtUA#.mp4
+#EXTINF:-1 tvg-name="Pantaskah Aku Berhijab (2024)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyLH_yqk76llyn22VCtHuaMYASSg5pwTfVj1FOLUWl15qs.jpg" group-title="INDONESIA" xui-id="12616",Pantaskah Aku Berhijab (2024)
+http://hometv.biz.id:80/play/ZNYA6TDRKVc6IUEoSiMtHHs41o-Xuk9Bg7ZyiWIT-QY#.mp4
+#EXTINF:-1 tvg-name="Surga Di Telapak Kaki Bapak (2025)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/p9774Dj9TlUBT7VE1gNj6S4lj23.jpg" group-title="INDONESIA" xui-id="12615",Surga Di Telapak Kaki Bapak (2025)
+http://hometv.biz.id:80/play/ZNYA6TDRKVc6IUEoSiMtHA3RrCHOLLGKaDi7xybj8bA#.mp4
+#EXTINF:-1 tvg-name="Setetes Embun Cinta Niyala (2025)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyL9fg9_1JnR45_bVNOkQx1whwSDpXPYbnthMw7wAk4Zfw.jpg" group-title="INDONESIA" xui-id="12614",Setetes Embun Cinta Niyala (2025)
+http://hometv.biz.id:80/play/ZNYA6TDRKVc6IUEoSiMtHC3FkJPIv7ucQICTo5xAsRc#.mp4
+#EXTINF:-1 tvg-name="Kupu-Kupu Kertas (2024)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyLyWkIXZ10MfHIvGb9j1grM7KzzAcHIYgQASzkfW8mw70.jpg" group-title="INDONESIA" xui-id="12613",Kupu-Kupu Kertas (2024)
+http://hometv.biz.id:80/play/ZNYA6TDRKVc6IUEoSiMtHO2jN0kZshgl92MpxZaHN7w#.mp4
+#EXTINF:-1 tvg-name="Hidup Ini Terlalu Banyak Kamu (2024)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyLZsWq-LVHBsWcOxjw1WaKQCJ9TtzTUQANczYhY2oEnRU.jpg" group-title="INDONESIA" xui-id="12612",Hidup Ini Terlalu Banyak Kamu (2024)
+http://hometv.biz.id:80/play/ZNYA6TDRKVc6IUEoSiMtHCP6rW_IW2-l8wqXn9Asusg#.mp4
+#EXTINF:-1 tvg-name="Sampai Nanti, Hanna! (2024)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyLQMFbxLKGQAJiD__xiw-pJkWxcUykGByYFzQgQmDqbQI.jpg" group-title="INDONESIA" xui-id="12611",Sampai Nanti, Hanna! (2024)
+http://hometv.biz.id:80/play/ZNYA6TDRKVc6IUEoSiMtHDR-62YTZ6rZbwrDA4COO6o#.mp4
+#EXTINF:-1 tvg-name="Cinta Tak Seindah Drama Korea (2024)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyLRWfNVBW-IKmUp9RObtc7vMmz0JgtaO3RpeGxfgnXiyE.jpg" group-title="INDONESIA" xui-id="12610",Cinta Tak Seindah Drama Korea (2024)
+http://hometv.biz.id:80/play/ZNYA6TDRKVc6IUEoSiMtHMH0ase3L67Ca02TJTFfjKg#.mp4
+#EXTINF:-1 tvg-name="Keluar Main 1994 (2024)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyLgxkaa11z9hdRKpxit1kvcy06A-eWcFkJkZTlaqpD_3o.jpg" group-title="INDONESIA" xui-id="12609",Keluar Main 1994 (2024)
+http://hometv.biz.id:80/play/cbVHN05-YRoQzTFZ3GvMNMsu8l7gVe8qVm09LD3AYFo#.mp4
+#EXTINF:-1 tvg-name="Di Bawah Umur (2020)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyLL-CY6YEN7gQpz7m_bcKhvnaV5ijdKiRd3cG53Tbz04o.jpg" group-title="INDONESIA" xui-id="12608",Di Bawah Umur (2020)
+http://hometv.biz.id:80/play/cbVHN05-YRoQzTFZ3GvMNFlR4c46N8SpvrF2bQ0VCT8#.mp4
+#EXTINF:-1 tvg-name="Love Therapy (2025)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyLeSg_653lHPVzNz0tRPs-8FC3c6z3vP9X88yZGeOamdo.jpg" group-title="INDONESIA" xui-id="12607",Love Therapy (2025)
+http://hometv.biz.id:80/play/cbVHN05-YRoQzTFZ3GvMNBrINHwojcUk7cszAvKnSUI#.mp4
+#EXTINF:-1 tvg-name="Detektif Jaga Jarak (2023)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyLsHBALmQpaei9-nH5xnM_to1c9qKmuFp0ft2XyVF_u-w.jpg" group-title="INDONESIA" xui-id="12606",Detektif Jaga Jarak (2023)
+http://hometv.biz.id:80/play/cbVHN05-YRoQzTFZ3GvMNHXct0Tr7YfIO2gycV0Is2A#.mp4
+#EXTINF:-1 tvg-name="Pintu Pintu Surga (2025)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyLSx20Uu7cXg_NkcqHC2ihtHxaJqW6bRhcn41Dk2y5kBo.jpg" group-title="INDONESIA" xui-id="12605",Pintu Pintu Surga (2025)
+http://hometv.biz.id:80/play/cbVHN05-YRoQzTFZ3GvMNOkMu9iKK-zlcMeYga7iDw0#.mp4
+#EXTINF:-1 tvg-name="Made in Bali (2025)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyLf2AW7yq202GW8_3ySfFf46X_24ATEW8wwjawbht-zYc.jpg" group-title="INDONESIA" xui-id="12604",Made in Bali (2025)
+http://hometv.biz.id:80/play/cbVHN05-YRoQzTFZ3GvMNM5LIGftSb9FYLakVmiHdPY#.mp4
+#EXTINF:-1 tvg-name="A Business Proposal (2025)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyLIW1pknIS5UUd8kSu0DlkO4qgHHzkZR2KehjiO6Zv3Jc.jpg" group-title="INDONESIA" xui-id="12441",A Business Proposal (2025)
+http://hometv.biz.id:80/play/oMe-5hP1Y2zbzjMc01VwWo_FTQRBnTSAfD4F5r4C-kY#.mp4
+#EXTINF:-1 tvg-name="The Most Beautiful Girl in the World (2025)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyLmubpfodqCRvykqO-dSLgc-vBG1n0vHpBiugVBExzNL8.jpg" group-title="INDONESIA" xui-id="12440",The Most Beautiful Girl in the World (2025)
+http://hometv.biz.id:80/play/oMe-5hP1Y2zbzjMc01VwWjCOyEK_po4Esn0jzWWPAxE#.mp4
+#EXTINF:-1 tvg-name="Sarung Untuk Bapak (2025)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyLnvCfZvkaocLXydzgeZXSGxEc48ZnBJT7dMkGXh8GZWw.jpg" group-title="INDONESIA" xui-id="12439",Sarung Untuk Bapak (2025)
+http://hometv.biz.id:80/play/5Oki25bB2TR-4OffJ7YB7TXvAzYms2dkQ0M_2kRzYgM#.mp4
+#EXTINF:-1 tvg-name="Ambyar Mak Byar (2025)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyLvaQ46Jda5btgU9t1RtQo9k5mRQRJ52qVGVNTW8LNfjg.jpg" group-title="INDONESIA" xui-id="12438",Ambyar Mak Byar (2025)
+http://hometv.biz.id:80/play/5Oki25bB2TR-4OffJ7YB7XL1xkCJV66QYDVii6XVOek#.mp4
+#EXTINF:-1 tvg-name="Semusim Setelah Kemarau (2025)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyLGJxhdi0hbjdyuuyQtMmFub0v8qIZm0MplkLVsqW0Pr4.jpg" group-title="INDONESIA" xui-id="12437",Semusim Setelah Kemarau (2025)
+http://hometv.biz.id:80/play/5Oki25bB2TR-4OffJ7YB7ffSng60UNxECE6RLaYY318#.mp4
+#EXTINF:-1 tvg-name="Berebut Jenazah (2025)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyLSWyX7Rba_vdDiEU534e2CGiVaCPNrusrHKKWWUKzbys.jpg" group-title="INDONESIA" xui-id="12436",Berebut Jenazah (2025)
+http://hometv.biz.id:80/play/5Oki25bB2TR-4OffJ7YB7fjRovf9OzckCuOqOGc-VWo#.mp4
+#EXTINF:-1 tvg-name="Telepon Yang Tak Pernah Berdering (2025)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyLKZ1ywZrxeqIbCNeHMWXxIe6wY_bhFv7v8-MySre47FQ.jpg" group-title="INDONESIA" xui-id="12435",Telepon Yang Tak Pernah Berdering (2025)
+http://hometv.biz.id:80/play/5Oki25bB2TR-4OffJ7YB7XMi6QK-1gPVsFySEKMjDkY#.mp4
+#EXTINF:-1 tvg-name="Tujuh Hari Untuk Keshia (2025)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyL7K3JqOcwh46AB2XtR6NcrOgIiuXcVGJpIysZWq27fk4.jpg" group-title="INDONESIA" xui-id="12434",Tujuh Hari Untuk Keshia (2025)
+http://hometv.biz.id:80/play/5Oki25bB2TR-4OffJ7YB7ZznaxX1RvcfOr0wRpzNMR4#.mp4
+#EXTINF:-1 tvg-name="Paris in Bali (2025)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyLLQpTsuvqpHM4Quyjs99kSt9F18cYkGGMZILJbisTJDY.jpg" group-title="INDONESIA" xui-id="12431",Paris in Bali (2025)
+http://hometv.biz.id:80/play/5Oki25bB2TR-4OffJ7YB7YoPC67SDg6C19-18RGZ7dY#.mp4
+#EXTINF:-1 tvg-name="Perayaan Mati Rasa (2025)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyLrUIZzA8vh6ijoiHd1NaSjKtr3IcuSO9lCGq2ffuDH20.jpg" group-title="INDONESIA" xui-id="12430",Perayaan Mati Rasa (2025)
+http://hometv.biz.id:80/play/5Oki25bB2TR-4OffJ7YB7YbXgeHNvf1vQpIIwsYdwg8#.mp4
+#EXTINF:-1 tvg-name="Ruang Rahasia Ibu (2025)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyLeq2h1Wn0LsI1CVdDgJszVny1luM6_GB3sTcfpG_AX8U.jpg" group-title="INDONESIA" xui-id="12428",Ruang Rahasia Ibu (2025)
+http://hometv.biz.id:80/play/06Wv5sJwcfBeSt1VgDPZd2Q7yrtQkirswgc-s-bbobM#.mp4
+#EXTINF:-1 tvg-name="Mungkin Esok Lusa Atau Nanti (2024)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyLtBRDVo-i0Wg0xRFqsVUbPLERJQEyhupFUlW7yxnKOEc.jpg" group-title="INDONESIA" xui-id="12421",Mungkin Esok Lusa Atau Nanti (2024)
+http://hometv.biz.id:80/play/06Wv5sJwcfBeSt1VgDPZdwbO_88M7r8LSaomjsjFMTM#.mp4
+#EXTINF:-1 tvg-name="Tulang Belulang Tulang (2024)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyLJ6PwHgkC53KMqfvcwqnWGeqTJnZXssGYCn0cKL2510c.jpg" group-title="INDONESIA" xui-id="12419",Tulang Belulang Tulang (2024)
+http://hometv.biz.id:80/play/FY2BwE4Y5IQHP0RnIZN5_HBYDZQCnkGTKqM0daxX2lU#.mp4
+#EXTINF:-1 tvg-name="Heartbreak Motel (2024)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyLETJYWt1jnEltB0dRfh-6TI_7ndZaiyTxQ6hDOWOKTYY.jpg" group-title="INDONESIA" xui-id="12418",Heartbreak Motel (2024)
+http://hometv.biz.id:80/play/FY2BwE4Y5IQHP0RnIZN5_LWQ7mMz1bIbDKcpZ9ceQKQ#.mp4
+#EXTINF:-1 tvg-name="Melukis Luka (2023)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyLnXt6hwEjrmwLlTT1bdu0KIdhT1pm26LjrEdETdF8fAE.jpg" group-title="INDONESIA" xui-id="12416",Melukis Luka (2023)
+http://hometv.biz.id:80/play/FY2BwE4Y5IQHP0RnIZN5_Af-B_-w2-R8AhRp1pTVl5A#.mp4
+#EXTINF:-1 tvg-name="Ipar Adalah Maut (2024)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyLuaYFz67ZanlxNJVzcSLbILidzkwgrBebCEHLQhXHp5k.jpg" group-title="INDONESIA" xui-id="12415",Ipar Adalah Maut (2024)
+http://hometv.biz.id:80/play/FY2BwE4Y5IQHP0RnIZN5_NXT_x7w15OfnsHXbED4O7Y#.mp4
+#EXTINF:-1 tvg-name="Risky Business (1983)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyLbN7Dw9-_AGV5njCzganKojYXOo_wzQ8dSLhZv4H2ODo.jpg" group-title="INDONESIA" xui-id="12413",Risky Business (1983)
+http://hometv.biz.id:80/play/FY2BwE4Y5IQHP0RnIZN5_Ill2SzN5ffU3Au1vUCCwdE#.mp4
+#EXTINF:-1 tvg-name="How to Survive a Marriage? (2024)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyLpPRNzSyWLikx25b9G0oQBBkTbOheqmY756ycSFBOp10.jpg" group-title="INDONESIA" xui-id="12412",How to Survive a Marriage? (2024)
+http://hometv.biz.id:80/play/FY2BwE4Y5IQHP0RnIZN5_BM1glRVbUeGeRrHU5B6nDI#.mp4
+#EXTINF:-1 tvg-name="2nd Miracle in Cell No. 7 (2024)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyL_r5quz61PvKaf31PM8QLJ44zlgUNW71XFXXoEpKv2Uw.jpg" group-title="INDONESIA" xui-id="12411",2nd Miracle in Cell No. 7 (2024)
+http://hometv.biz.id:80/play/FY2BwE4Y5IQHP0RnIZN5_Ii0SNj6FGhzEJD0uMV1LOg#.mp4
+#EXTINF:-1 tvg-name="Bila Esok Ibu Tiada (2024)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyL6UKPU_yXUqGE995xPZmR1WYB1AA7wwMp9StMxXb6Ks4.jpg" group-title="INDONESIA" xui-id="12409",Bila Esok Ibu Tiada (2024)
+http://hometv.biz.id:80/play/lPTrp6b9h1Bs5tyUE5zdnZifHLnc_qxz73bnPIgox-Y#.mp4
+#EXTINF:-1 tvg-name="Bu Tejo Sowan Jakarta (2024)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyL9Sd1WIgAzQ7-kERb3eyvLrP4kWZLgKXW8anU91DO2JU.jpg" group-title="INDONESIA" xui-id="12407",Bu Tejo Sowan Jakarta (2024)
+http://hometv.biz.id:80/play/lPTrp6b9h1Bs5tyUE5zdnejQHpWOOGc7t9tlTgIMj1U#.mp4
+#EXTINF:-1 tvg-name="Bonnie (2024)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyLg2zqE8nK9zstnHqghmoM3AdqhHxAK68PIEH186onbfc.jpg" group-title="INDONESIA" xui-id="12405",Bonnie (2024)
+http://hometv.biz.id:80/play/lPTrp6b9h1Bs5tyUE5zdnStCOSZ8awEwBRmQ-9_gJE4#.mp4
+#EXTINF:-1 tvg-name="Romeo Ingkar Janji (2024)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyLkpjbjPDtKd1k45ApQbQplBLpJ5SL911ScP4-PtzfmIk.jpg" group-title="INDONESIA" xui-id="12404",Romeo Ingkar Janji (2024)
+http://hometv.biz.id:80/play/lPTrp6b9h1Bs5tyUE5zdnarJAGPym2VWrAMbcYEptag#.mp4
+#EXTINF:-1 tvg-name="Dewi (2024)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyLqGGKyGux0BZ9pdYmwgGjzJwtKbCCU3olsdR0b8Neaik.jpg" group-title="INDONESIA" xui-id="12402",Dewi (2024)
+http://hometv.biz.id:80/play/lPTrp6b9h1Bs5tyUE5zdnVS_ASRg1ygbVc9s6W12PIo#.mp4
+#EXTINF:-1 tvg-name="Suami Yang Lain (2024)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyLCRntTxxcXLmXNrOZz5oRDj0ne-nr1FmFRkXkIFgVsyY.jpg" group-title="INDONESIA" xui-id="12399",Suami Yang Lain (2024)
+http://hometv.biz.id:80/play/kl0hnU0LDKRBhiBBfkiy6ymrYF7gLD1EqYO3sd1xhZU#.mp4
+#EXTINF:-1 tvg-name="The Architecture of Love (2024)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyLua6N4v3dMbQN-kkGK0t6V7_tQahCa5I5TKOCt0hH3XE.jpg" group-title="INDONESIA" xui-id="12398",The Architecture of Love (2024)
+http://hometv.biz.id:80/play/kl0hnU0LDKRBhiBBfkiy63tvBtwZ4jJQzh6fFOZcq0I#.mp4
+#EXTINF:-1 tvg-name="Aku Jati, Aku Asperger (2024)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyLp6uLCGv6SoP1hNX34tKCiMRVx1UXP7w--CdQEQxst78.jpg" group-title="INDONESIA" xui-id="12397",Aku Jati, Aku Asperger (2024)
+http://hometv.biz.id:80/play/kl0hnU0LDKRBhiBBfkiy600JL-XiNSEsKG8PjRtgopM#.mp4
+#EXTINF:-1 tvg-name="Crossroad (2024)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyLo8nDxzu7AGaqTQ4uKKV_qk2g1iMM34guT86gJgQY73U.jpg" group-title="INDONESIA" xui-id="12394",Crossroad (2024)
+http://hometv.biz.id:80/play/kl0hnU0LDKRBhiBBfkiy61X6Is-IDYoWcAQLw_2QNLM#.mp4
+#EXTINF:-1 tvg-name="Titip Surat Untuk Tuhan (2024)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyLwU1DfddO7f_vGVIp6MwONuq4-NrJAlaEi2L2cNvzHF8.jpg" group-title="INDONESIA" xui-id="12388",Titip Surat Untuk Tuhan (2024)
+http://hometv.biz.id:80/play/I2-8KSph13UABGaOs1_lyI-ov6oGkJD0dXyD51FencE#.mp4
+#EXTINF:-1 tvg-name="Dua Hati Biru (2024)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyLHQb5-EhJhpTQuR_K-BdzISXa52WFZ7mwUHfnhvlUj-U.jpg" group-title="INDONESIA" xui-id="12387",Dua Hati Biru (2024)
+http://hometv.biz.id:80/play/I2-8KSph13UABGaOs1_lyC1dLDAt7LBch8cG07CttUc#.mp4
+#EXTINF:-1 tvg-name="The Shadow Strays (2024)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyLCY0i7DuwfPlIpgayBrclCVSm_sZXK6HGQk91D7RWsvk.jpg" group-title="INDONESIA" xui-id="12386",The Shadow Strays (2024)
+http://hometv.biz.id:80/play/I2-8KSph13UABGaOs1_lyKC1-8gcY_7mKdzI7jEqrvw#.mp4
+#EXTINF:-1 tvg-name="Dealova (2024)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyLhvo1ljI3w6ZBxlWjr0NzyEzu3rMmcmoO18bzc16l3RM.jpg" group-title="INDONESIA" xui-id="12385",Dealova (2024)
+http://hometv.biz.id:80/play/I2-8KSph13UABGaOs1_lyBj5JQOHPkhW89IAWyO6Q-c#.mp4
+#EXTINF:-1 tvg-name="Mukidi (2024)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyLYxLXY1bptVLcqk_MDEWYL76fByJaOTP32LaMV9RlyAQ.jpg" group-title="INDONESIA" xui-id="12383",Mukidi (2024)
+http://hometv.biz.id:80/play/I2-8KSph13UABGaOs1_lyMJjTiZe7GMtiAT31T8mD2o#.mp4
+#EXTINF:-1 tvg-name="#OOTD: Outfit of the Designer (2024)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyLBPnZ4PKM9A3PEWkmyeUsM9JZq46ZppNgLcw5hTUz_vQ.jpg" group-title="INDONESIA" xui-id="12381",#OOTD: Outfit of the Designer (2024)
+http://hometv.biz.id:80/play/I2-8KSph13UABGaOs1_lyIoWCC5Y2I5jjSsVxgggQlg#.mp4
+#EXTINF:-1 tvg-name="Tuhan, Izinkan Aku Berdosa (2024)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyL8RaohPt2GpZJM6IwvINcMYpqB__LFkUnKoL496zFheY.jpg" group-title="INDONESIA" xui-id="12380",Tuhan, Izinkan Aku Berdosa (2024)
+http://hometv.biz.id:80/play/I2-8KSph13UABGaOs1_lyMxdldC4qLUMQfDOHqdG43A#.mp4
+#EXTINF:-1 tvg-name="Start Up Never Give Up (2024)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyLJ70g1dxFTQW5kEW2ONdkO-MoWk7LHXBFCrTASoLNe_g.jpg" group-title="INDONESIA" xui-id="12379",Start Up Never Give Up (2024)
+http://hometv.biz.id:80/play/3KX1l-q7EZeuDkoGNTOEc5HDMT3VraQAQEgNtIT1CmY#.mp4
+#EXTINF:-1 tvg-name="Perjalanan Pembuktian Cinta (2024)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyLjzZ2X6vwgeTKXMBQogCRIhC3Rde0NP-e8dKAnRGp-II.jpg" group-title="INDONESIA" xui-id="12377",Perjalanan Pembuktian Cinta (2024)
+http://hometv.biz.id:80/play/3KX1l-q7EZeuDkoGNTOEc3uJj4SP5pCacMXAI8_FD-s#.mp4
+#EXTINF:-1 tvg-name="Petrus: Penembak Misterius (2024)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyLtYckUKNi4KCmtU2LYQTD9zwXS3j8J7Jm8EvX3u8MYho.jpg" group-title="INDONESIA" xui-id="12374",Petrus: Penembak Misterius (2024)
+http://hometv.biz.id:80/play/3KX1l-q7EZeuDkoGNTOEc3ngeXWTyv9UwkNUuRUjiIE#.mp4
+#EXTINF:-1 tvg-name="Algrafi (2024)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyLi4CKyBuYE0sjkNTn7obVVcg4YDek0r4MWl9yyWHybHY.jpg" group-title="INDONESIA" xui-id="12373",Algrafi (2024)
+http://hometv.biz.id:80/play/3KX1l-q7EZeuDkoGNTOEc3QGksdg55YBg-fZxS235X4#.mp4
+#EXTINF:-1 tvg-name="Laura (2024)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyLzcxJyOJOirhxJgb1BeFDbm7sBOnA4BuoFzAhSh8dSj0.jpg" group-title="INDONESIA" xui-id="12372",Laura (2024)
+http://hometv.biz.id:80/play/3KX1l-q7EZeuDkoGNTOEc3IHTzr-XfjN9ToxlFHMXj0#.mp4
+#EXTINF:-1 tvg-name="Kaka Boss (2024)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyLFHPrkbr8B5ALWI3hkklHDwnrwPCDZmWCAQsmjfowdS8.jpg" group-title="INDONESIA" xui-id="12370",Kaka Boss (2024)
+http://hometv.biz.id:80/play/3KX1l-q7EZeuDkoGNTOEc0XAukuS4vlRhvk3ajeS8pc#.mp4
+#EXTINF:-1 tvg-name="Malam Pertobatan (2024)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyLnpMfq0zme1QHKtb3Dn-4VMzY5XVZTbWWc2TLOu9ZxtY.jpg" group-title="INDONESIA" xui-id="12368",Malam Pertobatan (2024)
+http://hometv.biz.id:80/play/8giO0bLmOiholqVG2gLASMBemvbi6vtPEcj8D4jkcws#.mp4
+#EXTINF:-1 tvg-name="Kabut Berduri (2024)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyLYu6YC7pdrbdMAr8ALYujUexRsT-Dj2Nwc055agJCnT8.jpg" group-title="INDONESIA" xui-id="12366",Kabut Berduri (2024)
+http://hometv.biz.id:80/play/8giO0bLmOiholqVG2gLASP39k1vf5ab2xs5lthJKFMg#.mp4
+#EXTINF:-1 tvg-name="Ten Years Challenge (2024)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyLEyOEd-uXpwp-_HAprxGsqsukd856tZkEKkxNgMpTJPM.jpg" group-title="INDONESIA" xui-id="12365",Ten Years Challenge (2024)
+http://hometv.biz.id:80/play/8giO0bLmOiholqVG2gLASNJjHTAMb0R9XOPhD3L0PZM#.mp4
+#EXTINF:-1 tvg-name="Players (2024)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyL11b5IWE6WxZeQ-opmvR5HmwPYG83G_9gyeST4NCYMlw.jpg" group-title="INDONESIA" xui-id="12364",Players (2024)
+http://hometv.biz.id:80/play/8giO0bLmOiholqVG2gLASBMuzpA8Pguu7efUNxTYJvw#.mp4
+#EXTINF:-1 tvg-name="Mendung Tanpo Udan (2024)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyLOWDRGiy30LrresV2stJj_WoOXAP5d3hP4NwDvObwXPM.jpg" group-title="INDONESIA" xui-id="12363",Mendung Tanpo Udan (2024)
+http://hometv.biz.id:80/play/8giO0bLmOiholqVG2gLASMQTHIYcmOMFTWCMI0yPRjo#.mp4
+#EXTINF:-1 tvg-name="Pasutri Gaje (2024)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyLFNGmovTUOrS988aXO8FuoTMwPNHJazHtEw4gyeTtoWA.jpg" group-title="INDONESIA" xui-id="12362",Pasutri Gaje (2024)
+http://hometv.biz.id:80/play/8giO0bLmOiholqVG2gLASPA_l38Sm5ANBc34ZxCAmtM#.mp4
+#EXTINF:-1 tvg-name="Demi Si Buah Hati (2024)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyL2r7MGP8cGrtovD1lhjxGZCPL5jp_aEaVUzlNoQ_uDQo.jpg" group-title="INDONESIA" xui-id="12361",Demi Si Buah Hati (2024)
+http://hometv.biz.id:80/play/8giO0bLmOiholqVG2gLASE_MFHEhePhEaVuXuGFY5fM#.mp4
+#EXTINF:-1 tvg-name="Dinda (2024)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyLf17LXv9ASY72Wm3tj-787mm1DTrgMEj8n5ebzsotu6Y.jpg" group-title="INDONESIA" xui-id="12359",Dinda (2024)
+http://hometv.biz.id:80/play/qUJMKDoH1kwCQRjLmIaBSrjCRiXSk-pQo_IQ_UcH-aU#.mp4
+#EXTINF:-1 tvg-name="Melodate (2024)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyL3OXPpTDzLOk36svpl3jc0-UuUC351HWjNN4oeSUxBFU.jpg" group-title="INDONESIA" xui-id="12358",Melodate (2024)
+http://hometv.biz.id:80/play/qUJMKDoH1kwCQRjLmIaBSpRSEVp7ie3phCwf0mE-AJY#.mp4
+#EXTINF:-1 tvg-name="Kereta (2024)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyLTXPIqHWxMAhBubrl3dCefsV6vKPeF3CsWKlyMlaIS9c.jpg" group-title="INDONESIA" xui-id="12357",Kereta (2024)
+http://hometv.biz.id:80/play/qUJMKDoH1kwCQRjLmIaBSpyW1cBrAF6pE_V1rbolC_U#.mp4
+#EXTINF:-1 tvg-name="Ali Topan (2024)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyL0lW_O1XqVihTbAbaewNGC4BGKuRdowLZ95FAwDzZELk.jpg" group-title="INDONESIA" xui-id="12356",Ali Topan (2024)
+http://hometv.biz.id:80/play/qUJMKDoH1kwCQRjLmIaBShyF-_HAEG5KBXjwDKLG6B0#.mp4
+#EXTINF:-1 tvg-name="Ayo Balikan (2024)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyLIyCji6mWTzHFsPLwd1tpvx6TziblB-htLL8Q5AtoQ34.jpg" group-title="INDONESIA" xui-id="12355",Ayo Balikan (2024)
+http://hometv.biz.id:80/play/qUJMKDoH1kwCQRjLmIaBSmes7yZBwV8nahNNY4sDUgc#.mp4
+#EXTINF:-1 tvg-name="Sujud Terakhir Bapak (2024)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyLKdocbPgYfVCGnW1D9UOk04RGCfE-e4vmhJut9Pj8zvU.jpg" group-title="INDONESIA" xui-id="12354",Sujud Terakhir Bapak (2024)
+http://hometv.biz.id:80/play/qUJMKDoH1kwCQRjLmIaBSpqYDCBZ4cY8QznRtINdKGw#.mp4
+#EXTINF:-1 tvg-name="Mohon Doa Restu (2023)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyLTVKT9aLSJ6OaB4KBL1YjPICOfNpLBNZu6RG7gsZkL3A.jpg" group-title="INDONESIA" xui-id="12352",Mohon Doa Restu (2023)
+http://hometv.biz.id:80/play/qUJMKDoH1kwCQRjLmIaBSuG9MwB5rwHOnlllB9SkgdU#.mp4
+#EXTINF:-1 tvg-name="Galaksi (2023)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyLGTMKx5Ut1hH9Gol9wRAB4NVpLRnOAKvw_NG4c02GXnI.jpg" group-title="INDONESIA" xui-id="12351",Galaksi (2023)
+http://hometv.biz.id:80/play/qUJMKDoH1kwCQRjLmIaBShaWnhTGj1Ljz47YjGpZVgs#.mp4
+#EXTINF:-1 tvg-name="Why Do You Love Me (2023)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyLXcC6fzhjALcUkRvefs8scty-UUJwyIbkW0IjQdroi5Q.jpg" group-title="INDONESIA" xui-id="12350",Why Do You Love Me (2023)
+http://hometv.biz.id:80/play/qUJMKDoH1kwCQRjLmIaBSo9hIGVph7ca5O87Utj2gHg#.mp4
+#EXTINF:-1 tvg-name="Surga di Bawah Langit (2023)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyL6W_Oy-43riDmVFa7SNHwMEes6SIabIWsy5h5i0irKVM.jpg" group-title="INDONESIA" xui-id="12349",Surga di Bawah Langit (2023)
+http://hometv.biz.id:80/play/omPwkFoSpewiJrMSuRb4SDMS4n51ZG12NcDHEZLX0Bw#.mp4
+#EXTINF:-1 tvg-name="Onde Mande! (2023)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyLyLEebIjrdgCP4PEY30QDiv24BwMRQzvWIx7ePqQeW84.jpg" group-title="INDONESIA" xui-id="12346",Onde Mande! (2023)
+http://hometv.biz.id:80/play/omPwkFoSpewiJrMSuRb4SOUZL8GqqTf7l0L5EAAeqlQ#.mp4
+#EXTINF:-1 tvg-name="Jin & Jun (2023)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyLqZPoQy4qwoP6XUVo906UoC4AG4Ju_FZOUyV7zA7iHKM.jpg" group-title="INDONESIA" xui-id="12345",Jin & Jun (2023)
+http://hometv.biz.id:80/play/omPwkFoSpewiJrMSuRb4SHrtXl2GVH5lORqievgu7Mg#.mp4
+#EXTINF:-1 tvg-name="Budi Pekerti (2023)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyLO6of57AZ7Mqd9ls6RYj6vHt-gSSqqJr8SeMFIvNI7No.jpg" group-title="INDONESIA" xui-id="12343",Budi Pekerti (2023)
+http://hometv.biz.id:80/play/omPwkFoSpewiJrMSuRb4SBqwG0EmWBC-NlW3L9fnnSQ#.mp4
+#EXTINF:-1 tvg-name="Catatan si Boy (2023)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyLlNeNzZ3n4PJHAeZfCN5C4Sq948mfpqnj62JAFzbm7D4.jpg" group-title="INDONESIA" xui-id="12332",Catatan si Boy (2023)
+http://hometv.biz.id:80/play/BE5HTv-rG7iJAgF2g0yaquCsY1UPtRbkv3AUhfr21vs#.mp4
+#EXTINF:-1 tvg-name="Indigo (2023)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyLmOi1xWjwtMuqrfN3UZUUG8RpHXh1pVjiy6uwU_kD7jw.jpg" group-title="INDONESIA" xui-id="12331",Indigo (2023)
+http://hometv.biz.id:80/play/BE5HTv-rG7iJAgF2g0yaqvJl3_rkSFxD57OXeRi9ci4#.mp4
+#EXTINF:-1 tvg-name="Dear Jo: Almost is Never Enough (2023)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyL87pr_PMZy-x19DamVXO2vCwSOnXSsNuwNLRtFHpelfU.jpg" group-title="INDONESIA" xui-id="12329",Dear Jo: Almost is Never Enough (2023)
+http://hometv.biz.id:80/play/sYo4lg4SSWgPh0q7ndqd-VgHvEAstaunXDVzVr-1_cU#.mp4
+#EXTINF:-1 tvg-name="Sleep Call (2023)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyLRyolxY7FVuvLwQ44a9R3eYb5Hldeeylw-MuHcon3prQ.jpg" group-title="INDONESIA" xui-id="12328",Sleep Call (2023)
+http://hometv.biz.id:80/play/sYo4lg4SSWgPh0q7ndqd-XrOylN-GX5hwAe2bsttrjk#.mp4
+#EXTINF:-1 tvg-name="Hati Suhita (2023)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyLxq_He9fS4-Ej4SsgHS46X31Au3-vmzH3LEctxkT8z8s.jpg" group-title="INDONESIA" xui-id="12327",Hati Suhita (2023)
+http://hometv.biz.id:80/play/sYo4lg4SSWgPh0q7ndqd-Q8QFMHyEg6MSWPXYpltCbQ#.mp4
+#EXTINF:-1 tvg-name="Layangan Putus: The Movie (2023)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyLbCb58TgXAAB9_jzlsWWhmZny4k3ftnlwNNZLd_9NTxk.jpg" group-title="INDONESIA" xui-id="12326",Layangan Putus: The Movie (2023)
+http://hometv.biz.id:80/play/sYo4lg4SSWgPh0q7ndqd-T0n3GEw-9Q6MrnwfhCWEL4#.mp4
+#EXTINF:-1 tvg-name="Gampang Cuan (2023)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyL12asDyMgZrBNzKCXBc__J4-ShADu0O89QrwyuPtTLNY.jpg" group-title="INDONESIA" xui-id="12325",Gampang Cuan (2023)
+http://hometv.biz.id:80/play/sYo4lg4SSWgPh0q7ndqd-U3F9PCVTXYX_HEA8jByuRk#.mp4
+#EXTINF:-1 tvg-name="Star Syndrome (2023)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyLlSBwUp0SjEBomxEsC_hriZSfh-ibvIZVZbAkMy0L5jM.jpg" group-title="INDONESIA" xui-id="12323",Star Syndrome (2023)
+http://hometv.biz.id:80/play/sYo4lg4SSWgPh0q7ndqd-WMEIE6_lWiBkyI7-f8e2bg#.mp4
+#EXTINF:-1 tvg-name="Air Mata di Ujung Sajadah (2023)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyLtKKmCzsjvCUGE58pqdC_NSfw8avnqqA6uCXrmk-DL7s.jpg" group-title="INDONESIA" xui-id="12320",Air Mata di Ujung Sajadah (2023)
+http://hometv.biz.id:80/play/sYo4lg4SSWgPh0q7ndqd-VxYUdlb-VSARn1n8bHN8QQ#.mp4
+#EXTINF:-1 tvg-name="Bismillah Kunikahi Suamimu (2023)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyLl_n_TiuvoI844nUuuN8MzzlQFNm3570Ynk5eEQNpQDg.jpg" group-title="INDONESIA" xui-id="12319",Bismillah Kunikahi Suamimu (2023)
+http://hometv.biz.id:80/play/PVZ3UHsT1Upl-Hf0tOqTrUDjkMC-Ml8qMv8oByR_gws#.mp4
+#EXTINF:-1 tvg-name="Ganjil Genap (2023)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyLjTfdMp6lIAh0HVhmLaG1Gdvo5Irq2ePMqqQrFY8hmWY.jpg" group-title="INDONESIA" xui-id="12314",Ganjil Genap (2023)
+http://hometv.biz.id:80/play/PVZ3UHsT1Upl-Hf0tOqTrfMRvIwXQcYLHmOjcaByo50#.mp4
+#EXTINF:-1 tvg-name="Imam Tanpa Makmum (2023)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyLeMGNpFCq8q_gCHDkYw2dxJTYJHxqR8TH-teXKXyT6tk.jpg" group-title="INDONESIA" xui-id="12312",Imam Tanpa Makmum (2023)
+http://hometv.biz.id:80/play/PVZ3UHsT1Upl-Hf0tOqTraRYwsR5euCh4N_zICFHhrc#.mp4
+#EXTINF:-1 tvg-name="Hari Ini Akan Kita Ceritakan Nanti (2023)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyLBN3nxn2C6C7znPIfV-WjzPlto2iazouk5CaDxW-BBXQ.jpg" group-title="INDONESIA" xui-id="12309",Hari Ini Akan Kita Ceritakan Nanti (2023)
+http://hometv.biz.id:80/play/J8DgWJqj0plr1cVZOK1NzUKxsGf5EknWu0iko4kf2cI#.mp4
+#EXTINF:-1 tvg-name="Kapan Hamil? (2023)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyLEfMLsBITmtrBwfZYNJmF5YFPYHwT1mIZQeeAoGi_Jjs.jpg" group-title="INDONESIA" xui-id="12308",Kapan Hamil? (2023)
+http://hometv.biz.id:80/play/J8DgWJqj0plr1cVZOK1NzZ6VMbG_3FxYKfSUZ4HpdRU#.mp4
+#EXTINF:-1 tvg-name="Puspa Indah Taman Hati (2023)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyLGLDeE2HcJqU1Cij_Il_uDz6fVN50MLYvSrMBcvrKZ5w.jpg" group-title="INDONESIA" xui-id="12307",Puspa Indah Taman Hati (2023)
+http://hometv.biz.id:80/play/J8DgWJqj0plr1cVZOK1NzdvYRhJv_VchxmK4wEBALa4#.mp4
+#EXTINF:-1 tvg-name="The Day Before The Wedding (2023)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyLhQD_QApmTYSdnBb8i8huRZGc7dDYvdnj2jAMowDYFKw.jpg" group-title="INDONESIA" xui-id="12303",The Day Before The Wedding (2023)
+http://hometv.biz.id:80/play/J8DgWJqj0plr1cVZOK1NzUwdC2mEUqMDPy9Kt6yPjF8#.mp4
+#EXTINF:-1 tvg-name="Gita Cinta dari SMA (2023)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyL5ZQRFI5x9Jv518OKIiKysdu0mgEmc9uAhFZCYJbN0Kc.jpg" group-title="INDONESIA" xui-id="12301",Gita Cinta dari SMA (2023)
+http://hometv.biz.id:80/play/J8DgWJqj0plr1cVZOK1NzTNsuB-SLuuRAr8nP09CV_Q#.mp4
+#EXTINF:-1 tvg-name="After Life (2023)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyLoC42Feo4713vO-rPDlVP_liPUnSkAjBen5s-jdghQeQ.jpg" group-title="INDONESIA" xui-id="12297",After Life (2023)
+http://hometv.biz.id:80/play/zIxqBYKRwM8IzRLSEnpku2qjVTrw45pd8k5L6oqWSxY#.mp4
+#EXTINF:-1 tvg-name="Kembang Api (2023)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyLsXLstXGrRB0Y7fU2yFx7phZW-LAIyEQLOwe7S--u7n0.jpg" group-title="INDONESIA" xui-id="12296",Kembang Api (2023)
+http://hometv.biz.id:80/play/zIxqBYKRwM8IzRLSEnpku2xIu7ss_7CxZaEjmM88HOo#.mp4
+#EXTINF:-1 tvg-name="Dunia Tanpa Suara (2023)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyLRlvAhuWoHnr4e0N6vo1UJ5G6lqYieH9bPsEvdGk7IKI.jpg" group-title="INDONESIA" xui-id="12295",Dunia Tanpa Suara (2023)
+http://hometv.biz.id:80/play/zIxqBYKRwM8IzRLSEnpkuyZywvS1Utnn0BxgY3TzCmM#.mp4
+#EXTINF:-1 tvg-name="Zodiac: Apa Bintangmu? (2023)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyLRNAy1oUQFqj-DXDo-LMgJ7V4wzX1TWfJVs6eP8Qk4dg.jpg" group-title="INDONESIA" xui-id="12293",Zodiac: Apa Bintangmu? (2023)
+http://hometv.biz.id:80/play/zIxqBYKRwM8IzRLSEnpkuxToUDYqzbbbZM1QdruPxfo#.mp4
+#EXTINF:-1 tvg-name="Kun Ana Wa Anta (2023)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyL7oP3YALzL4-mQYF9zMXWrQY1KzB7X_OtZV5-zcfMS1k.jpg" group-title="INDONESIA" xui-id="12292",Kun Ana Wa Anta (2023)
+http://hometv.biz.id:80/play/zIxqBYKRwM8IzRLSEnpku5V3p8tZFa54BQSohhI1tSI#.mp4
+#EXTINF:-1 tvg-name="Yang Patah Tumbuh, Yang Hilang Berganti (2023)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyLJQS8bpcInddo1lh2MRY4LLQBIZ2FgQ-xdTxWEC7szFE.jpg" group-title="INDONESIA" xui-id="12291",Yang Patah Tumbuh, Yang Hilang Berganti (2023)
+http://hometv.biz.id:80/play/zIxqBYKRwM8IzRLSEnpku_1m8vxZGAW-87Mezy6yi8A#.mp4
+#EXTINF:-1 tvg-name="Dear David (2023)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyLqYZOXh1P3fZM0gTTAEzvg0BOBFDMpxwu0lgDtWIE9VM.jpg" group-title="INDONESIA" xui-id="12289",Dear David (2023)
+http://hometv.biz.id:80/play/k_-AMRXCvSJOxDqVYYW3bSQQkrvhJn9sinP_1M_dGMs#.mp4
+#EXTINF:-1 tvg-name="Berbalas Kejam (2023)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyLPpzKD_ZpLVIFkQGYTyM8f6XfCYsISY7AqCHh9-qCb7I.jpg" group-title="INDONESIA" xui-id="12288",Berbalas Kejam (2023)
+http://hometv.biz.id:80/play/k_-AMRXCvSJOxDqVYYW3bSiMkJOrqhcOa8J1ygvPad0#.mp4
+#EXTINF:-1 tvg-name="LDR: Love Distance Relationshi* (2023)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyLXh9AcX9ovs6I13u8Bc35JCXK2G5ke3cHV_ShEgf3AeM.jpg" group-title="INDONESIA" xui-id="12287",LDR: Love Distance Relationshi* (2023)
+http://hometv.biz.id:80/play/k_-AMRXCvSJOxDqVYYW3bZYuBhKqh5D_GBwREWe4mxU#.mp4
+#EXTINF:-1 tvg-name="Jalan yang Jauh, Jangan Lupa Pulang (2023)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyLXVDWzMQEvJikGCJINpQIl073onvhr4_9jKhQDPiBfUg.jpg" group-title="INDONESIA" xui-id="12286",Jalan yang Jauh, Jangan Lupa Pulang (2023)
+http://hometv.biz.id:80/play/k_-AMRXCvSJOxDqVYYW3bdn8NJoq6OfWFXtl-tf22pA#.mp4
+#EXTINF:-1 tvg-name="Layar (2023)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyL1e6gUWZdBCRXvdm_NtuRDbb1Lllkjhy3PAmBUUaYbm0.jpg" group-title="INDONESIA" xui-id="12285",Layar (2023)
+http://hometv.biz.id:80/play/k_-AMRXCvSJOxDqVYYW3bWWy_IITBXxhkSXbPpy2IIU#.mp4
+#EXTINF:-1 tvg-name="Suka Duka Uni Unaa (2023)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyLxVYX8IiDeECZ-rFUU8At0KfaZKc_p_3gYZvQrlB9DiY.jpg" group-title="INDONESIA" xui-id="12283",Suka Duka Uni Unaa (2023)
+http://hometv.biz.id:80/play/k_-AMRXCvSJOxDqVYYW3ben9ghgye5SyGFd1La4Gx3A#.mp4
+#EXTINF:-1 tvg-name="Scandal Makers (2023)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyL6al6rkCB4Emy8ujKMWCvPPsg8oP-PdqIo5SM9tBJmb8.jpg" group-title="INDONESIA" xui-id="12280",Scandal Makers (2023)
+http://hometv.biz.id:80/play/k_-AMRXCvSJOxDqVYYW3bbZUMhtehtN3c0fxmKlS54g#.mp4
+#EXTINF:-1 tvg-name="Hitmen (2023)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyLSnIngwDjLM-iVETr8r1hzoUU9Ott5LKDdoPXgLpZd1o.jpg" group-title="INDONESIA" xui-id="12279",Hitmen (2023)
+http://hometv.biz.id:80/play/Ror4GwaRiHXHVPF_K-nhPJl4H3K63K9X7waWzXs2Up0#.mp4
+#EXTINF:-1 tvg-name="Until Tomorrow (2022)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyL3elnMBUovWOAEDV3HqrH7CqS5YaG7hTljSmzfNpe4Q4.jpg" group-title="INDONESIA" xui-id="12278",Until Tomorrow (2022)
+http://hometv.biz.id:80/play/Ror4GwaRiHXHVPF_K-nhPLAERb16jZ8j_H4RqDLX3dA#.mp4
+#EXTINF:-1 tvg-name="Satria Dewa: Gatotkaca (2022)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyLBCr3stMk16X8LTtuOAB2Lz5_dN-Fsv3ezLwAm3zxJ1A.jpg" group-title="INDONESIA" xui-id="12277",Satria Dewa: Gatotkaca (2022)
+http://hometv.biz.id:80/play/Ror4GwaRiHXHVPF_K-nhPOHgEGfK0PhtziI60S-7iw4#.mp4
+#EXTINF:-1 tvg-name="Like & Share (2022)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyLLheibjfK2_X4NHKHZNCxc9Jwuw2cO3Nz7gDUlg7xQJc.jpg" group-title="INDONESIA" xui-id="12275",Like & Share (2022)
+http://hometv.biz.id:80/play/Ror4GwaRiHXHVPF_K-nhPDWZ1XLhC2zwRBO55S_QwDE#.mp4
+#EXTINF:-1 tvg-name="Lara Ati (2022)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyLj2CjbErlh3QKAsRUw246_pVHyihoEt6kOfRyEqpxPEg.jpg" group-title="INDONESIA" xui-id="12274",Lara Ati (2022)
+http://hometv.biz.id:80/play/Ror4GwaRiHXHVPF_K-nhPKN3c1R7J149_482kb8fnA8#.mp4
+#EXTINF:-1 tvg-name="Pulang (2022)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyLrhOm6rOqwBK5Natcu-jHrPavtMYLjZ8rbc4jzDYKq6I.jpg" group-title="INDONESIA" xui-id="12271",Pulang (2022)
+http://hometv.biz.id:80/play/Ror4GwaRiHXHVPF_K-nhPEONxFhCoqOzIbMBSn9ql_Y#.mp4
+#EXTINF:-1 tvg-name="Baby Blues (2022)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyLq83D22Zmh9fGiMj5bTm5Kl3mIhGJk2vUluN7Q3_7C_A.jpg" group-title="INDONESIA" xui-id="12270",Baby Blues (2022)
+http://hometv.biz.id:80/play/Ror4GwaRiHXHVPF_K-nhPEu8JtWC4Z2jRJ8zcZdThwU#.mp4
+#EXTINF:-1 tvg-name="Sri Asih (2022)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyLPyIRYpHptwQCYVbb6kaRM7rLxSLl_61oa6M0ywdwLmE.jpg" group-title="INDONESIA" xui-id="12269",Sri Asih (2022)
+http://hometv.biz.id:80/play/5lW9V9LJk-x4RHSx9nm2_1Do7IJiy28xR8cbw4cv9xw#.mp4
+#EXTINF:-1 tvg-name="Jakarta vs Everybody (2020)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyLJCknm14nRJoyJreEZJBOttkBuvJoJ02yx6TI2J39Uw8.jpg" group-title="INDONESIA" xui-id="12268",Jakarta vs Everybody (2020)
+http://hometv.biz.id:80/play/5lW9V9LJk-x4RHSx9nm2_4mlRnd8xQQdKuZuJtUKKYo#.mp4
+#EXTINF:-1 tvg-name="Cinta Pertama, Kedua & Ketiga (2022)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyLgwhcok2c7oRls-4caXXnsYWyuUikFM9uk-bn6YgZhEA.jpg" group-title="INDONESIA" xui-id="12266",Cinta Pertama, Kedua & Ketiga (2022)
+http://hometv.biz.id:80/play/5lW9V9LJk-x4RHSx9nm2_z4cqCZNdHUse2ful9ws9OA#.mp4
+#EXTINF:-1 tvg-name="Srimulat: Hil Yang Mustahal – Babak Pertama (2022)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyLz1c0fU2NLpltsuCEWiSu3UQaMu5yL9Co0FmE7ncSbdo.jpg" group-title="INDONESIA" xui-id="12264",Srimulat: Hil Yang Mustahal – Babak Pertama (2022)
+http://hometv.biz.id:80/play/5lW9V9LJk-x4RHSx9nm2__7p2O2NTUoOtfV-GyPGBc4#.mp4
+#EXTINF:-1 tvg-name="Ashiap Man (2022)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyL3IlqvCbfeRf8MVk3bjCPUAAiYjRcWLMUL4rZctR6kBA.jpg" group-title="INDONESIA" xui-id="12263",Ashiap Man (2022)
+http://hometv.biz.id:80/play/5lW9V9LJk-x4RHSx9nm2_4b_uUK2COWvl_OMll4utFw#.mp4
+#EXTINF:-1 tvg-name="Perfect Strangers (2022)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyLW1L3Jo30gfs5ZGmHNvVvf9WWPdk_S5c7PrPAhcp9HW0.jpg" group-title="INDONESIA" xui-id="12259",Perfect Strangers (2022)
+http://hometv.biz.id:80/play/EdLLgudNQ8uKDlYN8oswAr50NcxLmsYuCFsxJbhnX-U#.mp4
+#EXTINF:-1 tvg-name="Mendarat Darurat (2022)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyLzPoLmR330BQto9zltE4JVFvEJ0P6ejwc4w0K8AlT0PM.jpg" group-title="INDONESIA" xui-id="12255",Mendarat Darurat (2022)
+http://hometv.biz.id:80/play/EdLLgudNQ8uKDlYN8oswAgRkJ9BHLjqgiCaZxhzk5mY#.mp4
+#EXTINF:-1 tvg-name="Noktah Merah Perkawinan (2022)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyLKdHy9c7TDulXpcycBzOLWtdk54sQKSsYFU9xv1UNaqw.jpg" group-title="INDONESIA" xui-id="12254",Noktah Merah Perkawinan (2022)
+http://hometv.biz.id:80/play/EdLLgudNQ8uKDlYN8oswApkgM7hkWScwwYgoDCVv3N8#.mp4
+#EXTINF:-1 tvg-name="Madu Murni (2022)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyLKuaSyx-k4IKR02aKzjToAkXQ4Gt-gtaw2a9_FFGN0U8.jpg" group-title="INDONESIA" xui-id="12253",Madu Murni (2022)
+http://hometv.biz.id:80/play/EdLLgudNQ8uKDlYN8oswAv09dqeyzrvpvew_SCXABoY#.mp4
+#EXTINF:-1 tvg-name="Rasyah The Wonder Kid (2022)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyLDO0ZHhmchrZ9dJSc_NviX9zOGSgFtA6bYWkCwwcZ4xE.jpg" group-title="INDONESIA" xui-id="12250",Rasyah The Wonder Kid (2022)
+http://hometv.biz.id:80/play/EdLLgudNQ8uKDlYN8oswAij-vvc_tPyfSAi-V_UqpXA#.mp4
+#EXTINF:-1 tvg-name="Naga Naga Naga (2022)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyLIz96pTc0VfiqruBGUrJY4eRCT3_jZSK3atEort-yELQ.jpg" group-title="INDONESIA" xui-id="12249",Naga Naga Naga (2022)
+http://hometv.biz.id:80/play/6cgAmVOLJV89ETkQlK_BYBTM8hz87FxtpQp1DePqLhk#.mp4
+#EXTINF:-1 tvg-name="DJS The Movie: Biarkan Aku Menari (2022)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyLpEZmNOEmxnDFX5AX0ORsDDeeMNUkTd30MngopLZY3Nk.jpg" group-title="INDONESIA" xui-id="12245",DJS The Movie: Biarkan Aku Menari (2022)
+http://hometv.biz.id:80/play/6cgAmVOLJV89ETkQlK_BYJbgTBwZ_9fEQ9fmriF3EAo#.mp4
+#EXTINF:-1 tvg-name="Garis Waktu (2022)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyLoCt-IHJwVLfyA5QdNC9x9htMGoVKX1S3vj73PX0YtrA.jpg" group-title="INDONESIA" xui-id="12244",Garis Waktu (2022)
+http://hometv.biz.id:80/play/6cgAmVOLJV89ETkQlK_BYHELXH6CyhQ7B0ftwqk8CKQ#.mp4
+#EXTINF:-1 tvg-name="Miracle in Cell No. 7 (2022)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyLOfejIccG5frr1vGHLTkRyqTV0t1K4K5I5rab2tJ0OXA.jpg" group-title="INDONESIA" xui-id="12243",Miracle in Cell No. 7 (2022)
+http://hometv.biz.id:80/play/6cgAmVOLJV89ETkQlK_BYKp4oBQqcdtD1QvqeglRpa4#.mp4
+#EXTINF:-1 tvg-name="Kukira Kau Rumah (2022)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyLrmasZEcOOOmc_dWnmAAtZTU9uwbycR6zQ7r1ohDPDak.jpg" group-title="INDONESIA" xui-id="12242",Kukira Kau Rumah (2022)
+http://hometv.biz.id:80/play/6cgAmVOLJV89ETkQlK_BYItLNPao1Saj6q1ExZT_SSo#.mp4
+#EXTINF:-1 tvg-name="Pelangi Tanpa Warna (2022)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyL2vLY9vYDPlmRYvk7yF9eurkRzel34pAFJH7qQvt5gU4.jpg" group-title="INDONESIA" xui-id="12241",Pelangi Tanpa Warna (2022)
+http://hometv.biz.id:80/play/6cgAmVOLJV89ETkQlK_BYBVSsZ1vGdYceaT0Axth_Ao#.mp4
+#EXTINF:-1 tvg-name="Gara-Gara Warisan (2022)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyLDWCE-ECakIijZAL7I-oyRofDD1LhJhMrjFUKpqTEEP0.jpg" group-title="INDONESIA" xui-id="12240",Gara-Gara Warisan (2022)
+http://hometv.biz.id:80/play/6cgAmVOLJV89ETkQlK_BYJsghICJIDC52cWb1fA--eU#.mp4
+#EXTINF:-1 tvg-name="Ayo Putus (2022)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyLx7ofAvSDHBQwW1X7DM3S88UCn9AkXbVVi4h6A7pi1Bc.jpg" group-title="INDONESIA" xui-id="12237",Ayo Putus (2022)
+http://hometv.biz.id:80/play/Ogi3K8iQOEQIPQQfujwh_VFpOJUoWjwQAAx7eTtjQmI#.mp4
+#EXTINF:-1 tvg-name="Sayap Sayap Patah (2022)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyL1gdHLIxFu_LqPae5ZdSyht2XS9oYOAvwEATVrSk0d1M.jpg" group-title="INDONESIA" xui-id="12236",Sayap Sayap Patah (2022)
+http://hometv.biz.id:80/play/Ogi3K8iQOEQIPQQfujwh_U9tdxV_w9SAAFtES3_LmzA#.mp4
+#EXTINF:-1 tvg-name="Kambodja (2022)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyLmPfImlEhshqUhf42QlnMxeHSf-scBEgP1qEt23Fy4lc.jpg" group-title="INDONESIA" xui-id="12235",Kambodja (2022)
+http://hometv.biz.id:80/play/Ogi3K8iQOEQIPQQfujwh_f4Zkv9sbLv5iUuRTnUAcNw#.mp4
+#EXTINF:-1 tvg-name="Mencuri Raden Saleh (2022)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyLvxmIcCkgAwjMpIguownEGiiZ0U71h2UFoz28m3Ky0QA.jpg" group-title="INDONESIA" xui-id="12234",Mencuri Raden Saleh (2022)
+http://hometv.biz.id:80/play/Ogi3K8iQOEQIPQQfujwh_WeN3GrjhruYObYaUOEBSwE#.mp4
+#EXTINF:-1 tvg-name="I Need You Baby (2022)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyLUK9fajEPl_ZzrvOWxJ4NobmCiKOI-GxGtagqzFhOoQU.jpg" group-title="INDONESIA" xui-id="12233",I Need You Baby (2022)
+http://hometv.biz.id:80/play/Ogi3K8iQOEQIPQQfujwh_Q38FjrOYwcunE9Jyq-qwyc#.mp4
+#EXTINF:-1 tvg-name="Anoksia (2022)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyLIh6Nx38cH540JsnPeTu9X3F4LYKEIgIvxgnmlhCXRkU.jpg" group-title="INDONESIA" xui-id="12231",Anoksia (2022)
+http://hometv.biz.id:80/play/Ogi3K8iQOEQIPQQfujwh_fAEWZNykpn457rQ3_SarP0#.mp4
+#EXTINF:-1 tvg-name="Kopi Pahit (2022)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyL8q2Bpus8V3w3xonj9mJp9ryLnxZaar1Ih_rz99zeCrI.jpg" group-title="INDONESIA" xui-id="12228",Kopi Pahit (2022)
+http://hometv.biz.id:80/play/mvCBIu9ejscHWOwD2ySD3AQ3mkHVKeK1evq_4LSFx4c#.mp4
+#EXTINF:-1 tvg-name="Before I Met You (2022)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyLzT6CAZNuSoDWRyLc8Qu3mXZo-S9ki3jP4Ffo1jiRU8o.jpg" group-title="INDONESIA" xui-id="12227",Before I Met You (2022)
+http://hometv.biz.id:80/play/mvCBIu9ejscHWOwD2ySD3BNOir71UXnYxNG7cs3cQWo#.mp4
+#EXTINF:-1 tvg-name="Merindu Cahaya De Amstel (2022)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyLnyph48fZ05NLiTS8zLNlT1a4O32dtxN6-nbwaEPW2Tk.jpg" group-title="INDONESIA" xui-id="12226",Merindu Cahaya De Amstel (2022)
+http://hometv.biz.id:80/play/mvCBIu9ejscHWOwD2ySD3LpTj2x612GBgYMl9FKN1aM#.mp4
+#EXTINF:-1 tvg-name="Ben & Jody (2022)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyLVj7Jg8NO3mwuRYdlUSuVpG5j9rDrBd3DAvPYW1VtaAw.jpg" group-title="INDONESIA" xui-id="12225",Ben & Jody (2022)
+http://hometv.biz.id:80/play/mvCBIu9ejscHWOwD2ySD3Kts2u-qYCGGlzVyNRenuIg#.mp4
+#EXTINF:-1 tvg-name="Tuhan, Minta Duit! (2022)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyLX1P2R9ph_hj3FR8xJ7li3Xv2hg69R6QtA6n2KYNLqQg.jpg" group-title="INDONESIA" xui-id="12224",Tuhan, Minta Duit! (2022)
+http://hometv.biz.id:80/play/mvCBIu9ejscHWOwD2ySD3BCOqVFF_Y8Xk5fgDfx_suE#.mp4
+#EXTINF:-1 tvg-name="Eyang Ti (2021)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyLj_lGHF_vuCqtvc1-tWVG3QRjpyxG9pmferb5rACbxc0.jpg" group-title="INDONESIA" xui-id="12222",Eyang Ti (2021)
+http://hometv.biz.id:80/play/mvCBIu9ejscHWOwD2ySD3KyBbdlakiG0KqmFpfRHLtI#.mp4
+#EXTINF:-1 tvg-name="Yuni (2021)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyLnm95VVpeSQEc7FsRgcBzKl4eCI3zCBYg5_PW2Ysl55Q.jpg" group-title="INDONESIA" xui-id="12220",Yuni (2021)
+http://hometv.biz.id:80/play/mvCBIu9ejscHWOwD2ySD3LTCSluUemSWFyIg48U0fXY#.mp4
+#EXTINF:-1 tvg-name="Gas Kuy (2021)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyLs0Bu6PPw4bF4nQywM-L3EqCMxuKDoG_mTlaJKK_lUHI.jpg" group-title="INDONESIA" xui-id="12218",Gas Kuy (2021)
+http://hometv.biz.id:80/play/Wpsko1pWuO0vFQKmn14bgosKchAOwCskMkdp3vyMAIc#.mp4
+#EXTINF:-1 tvg-name="Penyalin Cahaya (2021)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyL8tghqxwIQ6ofipP38oqZxHzxYTIfQ26dVbUVGclchl0.jpg" group-title="INDONESIA" xui-id="12212",Penyalin Cahaya (2021)
+http://hometv.biz.id:80/play/Wpsko1pWuO0vFQKmn14bgr6jIwldCU3gpeGiTe05hgk#.mp4
+#EXTINF:-1 tvg-name="Selesai (2021)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyLAhaEoy9cjnaGjMLoCuaI07JcRFFxtz3ZVQ-UgZvjj5k.jpg" group-title="INDONESIA" xui-id="12211",Selesai (2021)
+http://hometv.biz.id:80/play/Wpsko1pWuO0vFQKmn14bgqwCE40Iwc3coe0m60t7Rdk#.mp4
+#EXTINF:-1 tvg-name="Losmen Bu Broto (2021)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyLi40IV4UPkHasDKFy_Tz_tEnfbm-gJH32gVyuCnEzts0.jpg" group-title="INDONESIA" xui-id="12210",Losmen Bu Broto (2021)
+http://hometv.biz.id:80/play/Wpsko1pWuO0vFQKmn14bghxPr7aPImP7rvZsGFB53GA#.mp4
+#EXTINF:-1 tvg-name="Ali & Ratu Ratu Queens (2021)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyLrCeL8qZZl3RaA2_EcJJUxn_15yussCz72KZMPafcb2o.jpg" group-title="INDONESIA" xui-id="12209",Ali & Ratu Ratu Queens (2021)
+http://hometv.biz.id:80/play/c-zAO3DjNM5pNwRvENhlBofKARQbvoqGsiv7QYrWc8I#.mp4
+#EXTINF:-1 tvg-name="Preman (2021)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyLOQZ127YY1psr4tjQZMg9kWaei5RONvKzHJNCVAPjv1M.jpg" group-title="INDONESIA" xui-id="12208",Preman (2021)
+http://hometv.biz.id:80/play/c-zAO3DjNM5pNwRvENhlBmq22bsu_YWW927TUB779rI#.mp4
+#EXTINF:-1 tvg-name="Yowis Ben Finale (2021)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyLxM1Xexo10iVL6UKSEQwudARDZoAB6bGFdc9GlmHHVbY.jpg" group-title="INDONESIA" xui-id="12206",Yowis Ben Finale (2021)
+http://hometv.biz.id:80/play/c-zAO3DjNM5pNwRvENhlBrQ1_TvnwzKJH-EME05s3us#.mp4
+#EXTINF:-1 tvg-name="Backstage (2021)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyL8HsMB8L15M8ucpGrBs3L9soWwTmmXv1Wnxx8hjUBdYQ.jpg" group-title="INDONESIA" xui-id="12204",Backstage (2021)
+http://hometv.biz.id:80/play/c-zAO3DjNM5pNwRvENhlBhke5HPU2L2CA9sBq6cN5iA#.mp4
+#EXTINF:-1 tvg-name="Serigala Langit (2021)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyLr4sPWFjM9smuAoNO5FtX8uYNMnc_v_NBGMXALUWC22Q.jpg" group-title="INDONESIA" xui-id="12203",Serigala Langit (2021)
+http://hometv.biz.id:80/play/c-zAO3DjNM5pNwRvENhlBsEC3BF88OnaK36VXuALr0I#.mp4
+#EXTINF:-1 tvg-name="Balada Sepasang Kekasih Gila (2021)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyLRXDA1ko3tYsrn2qtrOSJVPHIwRZg_Uxa8jNg8yIXURU.jpg" group-title="INDONESIA" xui-id="12201",Balada Sepasang Kekasih Gila (2021)
+http://hometv.biz.id:80/play/c-zAO3DjNM5pNwRvENhlBqajFXBtdoLmjvMEpE-EB1A#.mp4
+#EXTINF:-1 tvg-name="Buku Harianku (2020)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyL0TVDxknRF210ENpdXyXBOxKhmqy44EmrrFOxZ6gS2Fg.jpg" group-title="INDONESIA" xui-id="12199",Buku Harianku (2020)
+http://hometv.biz.id:80/play/KuLoDlKqUtykbKD-6lfEZa1Sz2LdlR-54fq_Kq4a3AQ#.mp4
+#EXTINF:-1 tvg-name="Di Bawah Umur (2020)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyLL-CY6YEN7gQpz7m_bcKhvnaV5ijdKiRd3cG53Tbz04o.jpg" group-title="INDONESIA" xui-id="12197",Di Bawah Umur (2020)
+http://hometv.biz.id:80/play/KuLoDlKqUtykbKD-6lfEZXKFOFXRQNkhgzQkzfELhVI#.mp4
+#EXTINF:-1 tvg-name="Wave of Cinema: Nanti Kita Cerita Tentang Hari Ini (2020)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyLZbkeqBeg9X35ypXKuCEdo3Zk3F-1PloCT2jklpNeKbY.jpg" group-title="INDONESIA" xui-id="12193",Wave of Cinema: Nanti Kita Cerita Tentang Hari Ini (2020)
+http://hometv.biz.id:80/play/KuLoDlKqUtykbKD-6lfEZZhAmup9KEdCNwd_Np2Vz0Q#.mp4
+#EXTINF:-1 tvg-name="Mariposa (2020)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyLlGD_UlBNKe43F-gLN1JaCN9H5tvYWTN4IR8cMN4j88k.jpg" group-title="INDONESIA" xui-id="12192",Mariposa (2020)
+http://hometv.biz.id:80/play/KuLoDlKqUtykbKD-6lfEZWyB86pz9tMa7kVsRu-87rA#.mp4
+#EXTINF:-1 tvg-name="Rentang Kisah (2020)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyL5pAqR6SBu0mGvuvEDjOV3CvIZCausCAwY3ZyrKUEYRI.jpg" group-title="INDONESIA" xui-id="12191",Rentang Kisah (2020)
+http://hometv.biz.id:80/play/KuLoDlKqUtykbKD-6lfEZYv7zbpZFU48AagAuNJUskA#.mp4
+#EXTINF:-1 tvg-name="Nona (2020)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyL0JY4gwliqdlKlTEPt7K6IiS8fEI8OdT7sCQSW8hv6yI.jpg" group-title="INDONESIA" xui-id="12190",Nona (2020)
+http://hometv.biz.id:80/play/KuLoDlKqUtykbKD-6lfEZXJKppSMTIdbkvTUafe9rf0#.mp4
+#EXTINF:-1 tvg-name="Mekah I'm Coming (2020)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyLhgXf9UByWp9JPe_xyREHor93sWk9jpZnjFNlH7nu_yM.jpg" group-title="INDONESIA" xui-id="12189",Mekah I'm Coming (2020)
+http://hometv.biz.id:80/play/x3-WVpvfQ1iI5LfExLPF5HpFWlIdeFHbD1k1lrkinWo#.mp4
+#EXTINF:-1 tvg-name="Abracadabra (2017)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyL1uLkxuiVtTTZX791PBN-9mUQlgACJNvWLX1nCzTdk90.jpg" group-title="INDONESIA" xui-id="12187",Abracadabra (2017)
+http://hometv.biz.id:80/play/x3-WVpvfQ1iI5LfExLPF5DVMoXC85nItJKbWpyveiPg#.mp4
+#EXTINF:-1 tvg-name="Kemarin (2020)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyLuyp2qymGTQAzw2k_GKgrX4OtLq3iGFrOr7k2MbnwdD8.jpg" group-title="INDONESIA" xui-id="12185",Kemarin (2020)
+http://hometv.biz.id:80/play/x3-WVpvfQ1iI5LfExLPF5GGima3H0DTIgBy9MivCLG4#.mp4
+#EXTINF:-1 tvg-name="Once Upon a Time in Indonesia (2020)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyLms96NZX8r7xp8kyI6yBKMLldKG8ShInl0jJJORj8sUc.jpg" group-title="INDONESIA" xui-id="12184",Once Upon a Time in Indonesia (2020)
+http://hometv.biz.id:80/play/x3-WVpvfQ1iI5LfExLPF5NwKlkbDQAK6e_ZuU45XdAg#.mp4
+#EXTINF:-1 tvg-name="Sabar Ini Ujian (2020)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyLTw5Wsb0Rf3GiZPIhXThBX6B05xoDjzxPH6ygCMqGEc0.jpg" group-title="INDONESIA" xui-id="12183",Sabar Ini Ujian (2020)
+http://hometv.biz.id:80/play/x3-WVpvfQ1iI5LfExLPF5JlYLLTDQzGcC4P_3QzXg2A#.mp4
+#EXTINF:-1 tvg-name="Sejuta Sayang Untuknya (2020)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyLX-OYnJYKo4Pfl9dOWRiIsBAOK3nG-G_DH9duutm7zwg.jpg" group-title="INDONESIA" xui-id="12182",Sejuta Sayang Untuknya (2020)
+http://hometv.biz.id:80/play/x3-WVpvfQ1iI5LfExLPF5KCjvnho2D1_VSjzQsoz7xA#.mp4
+#EXTINF:-1 tvg-name="Nikah Yuk! (2020)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyLbug5yYZbyeCkVbDwwhgsNizQtW2WiTPRz1J1ceaV8wI.jpg" group-title="INDONESIA" xui-id="12180",Nikah Yuk! (2020)
+http://hometv.biz.id:80/play/x3-WVpvfQ1iI5LfExLPF5OiI1643HhusmGX3yDzBwUQ#.mp4
+#EXTINF:-1 tvg-name="Akhir Kisah Cinta Si Doel (2020)" tvg-logo="http://hometv.biz.id:80/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyLFJNMSAzrkL4nypNj8KV9baIwn4K20EvxFFLsVo3SyE8.jpg" group-title="INDONESIA" xui-id="12179",Akhir Kisah Cinta Si Doel (2020)
+http://hometv.biz.id:80/play/n4UdsrlwNFha_5q-kDJVnazaQIqyjYaMzVKMXxinVlM#.mp4
 #EXTINF:-1 tvg-id="Trans7.id" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/96/Logo_Trans7.png" group-title="Indonesia;Nasional;Entertainment" http-referrer="https://20.detik.com/" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36",Trans 7
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://20.detik.com/
