@@ -19,10 +19,10 @@ https://cdnbal1.indihometv.com/atm/DASH/sctv/manifest.mpd
 http://hometv.biz.id:80/play/qkwVBf1dkXpMJIK7ooDaYw
 #EXTINF:-1 tvg-id="Indosiar.idSDr" tvg-logo="https://thumbor.prod.vidiocdn.com/0plBZ7Gso7gNBJxid9ksA8HMGxc=/230x230/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/205/54ab19.png" group-title="Indonesia;Indonesia Channels" tvg-url="https://raw.githubusercontent.com/apistech/project/refs/heads/main/epgs/guide.xml",Indosiar (Transcorp)
 https://cdnjktcyber05.transvision.co.id/riutx01-a823b93f0d45cabb0fba0e57ca612f86/dash/SW5kb3NpYXI/manifest.mpd?signature=NGJkYmUwZDk5M2YyN2ZkYTdhY2VlN2Y5MGU1NWEwZjU=\u0026time=77777777777\u0026device_id=NQILKDOdEdKnBePlILBwVBlTJPnutqLTBCPzxYLAlUgM3Ot6NnmT
-#EXTINF:-1 tvg-id="Moji.id" tvg-name="MOJI" tvg-logo="http://hometv.biz.id:80/images/Ew7KWgEVPBJlBK0JSddniCSXgQUyeYTSUh135SFESvbPPL8rHq5gb8bpu8RxSiKkZ9jgkBJZgNp_BmaeuwRKiA.png" group-title="Indonesia;- LOKAL ID -" xui-id="25306",MOJI
-http://hometv.biz.id:80/play/FrENpWSJhgBIJebIKrThERoW8Gz4RUfl-WKngQ6KV_Q
 #EXTINF:-1 tvg-id="Moji.id" tvg-name="MOJI" tvg-logo="http://hometv.biz.id:80/images/Ew7KWgEVPBJlBK0JSddniCSXgQUyeYTSUh135SFESvbPPL8rHq5gb8bpu8RxSiKkZ9jgkBJZgNp_BmaeuwRKiA.png" group-title="Indonesia;- VIP | SPORTS ID -" xui-id="9170",MOJI
 http://hometv.biz.id:80/play/4yv6kiIJ7Lzzt7-haBF-8w
+#EXTINF:-1 tvg-id="Moji.idSD" tvg-logo="https://thumbor.prod.vidiocdn.com/g7gTjD2Il1GI4DJULOZ1cv6NSj4=/230x230/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/206/1823dc.png" group-title="Indonesia;Indonesia Channels" tvg-url="https://raw.githubusercontent.com/apistech/project/refs/heads/main/epgs/guide.xml",MOJI TV (Transcorp)
+http://202.150.161.212:5000/live/channel39/playlist.m3u8
 #EXTINF:-1 tvg-id="ANTV.id" tvg-name="ANTV" tvg-logo="http://hometv.biz.id:80/images/Ew7KWgEVPBJlBK0JSddniCSXgQUyeYTSUh135SFESvbiziO7FndHuS-l2338RtDqrFlBchDAfHX5_HlZRkz7Bw.png" group-title="Indonesia;- LOKAL ID -" xui-id="11",ANTV
 http://hometv.biz.id:80/play/ZIES8HVTG2n3itfY9hOMDw
 #EXTINF:-1 tvg-id="ANTV.idSD" tvg-logo="https://thumbor.prod.vidiocdn.com/IRVkD3QGRzroJ4IZzXBpS-0MRls=/230x230/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/782/e1af8b.png" group-title="Indonesia;Indonesia Channels" tvg-url="https://raw.githubusercontent.com/apistech/project/refs/heads/main/epgs/guide.xml",ANTV HD (Transcorp)
@@ -53,10 +53,10 @@ http://hometv.biz.id:80/play/6e_SfaxI2AXJifga3hxCvw
 https://cdnjktcyber05.transvision.co.id/riutx01-a823b93f0d45cabb0fba0e57ca612f86/dash/Q05CQy1JbmRvbmVzaWE/manifest.mpd?signature=ZjE3YTNhNTFmNGUzYzk4OGEyYjNhNGM2YzFiNWU1N2Y=\u0026time=77777777777\u0026device_id=goAlayxjJBPrSNXYTvZ029VDfsuQS6aaP_6xJQnFrqDOUIEYPK1T
 #EXTINF:-1 tvg-id="Garuda.TV.id" tvg-name="GARUDA TV" tvg-logo="http://hometv.biz.id:80/images/Ew7KWgEVPBJlBK0JSddniCSXgQUyeYTSUh135SFESvbiUpkF6ZHtkiH5Mzc7rmdMnLsokFnMcOsPsr3vsA3pxgFnb0nZQ3dfPSb61k6B98E.png" group-title="Indonesia;- TV DAERAH -" xui-id="215",GARUDA TV
 http://hometv.biz.id:80/play/MxSTnGrvAbpChfRpIx2_xg
-#EXTINF:-1 tvg-id="MDTV.id" tvg-name="MDTV" tvg-logo="http://hometv.biz.id:80/images/Ew7KWgEVPBJlBK0JSddniCSXgQUyeYTSUh135SFESvbiziO7FndHuS-l2338RtDqJtbbNR2CRsFDWQiMHunmEg.png" group-title="Indonesia;- LOKAL ID -" xui-id="13",MDTV
-http://hometv.biz.id:80/play/bTwWy_27dP6CGvSsrkueIg
 #EXTINF:-1 tvg-id="MDTV.id" tvg-logo="https://i.imgur.com/N19eGsM.jpeg" group-title="Indonesia;Nasional" http-referrer="" http-user-agent="",MDTV
 https://op-flashcon-digdayahd-1.dens.tv/h/h223/02.m3u8
+#EXTINF:-1 tvg-id="MDTV.id" tvg-logo="https://i.imgur.com/oaBCedP.jpeg" group-title="Indonesia;Nasional" http-referrer="" http-user-agent="",MDTV
+http://202.150.161.212:5000/live/channel31/playlist.m3u8
 #EXTINF:-1 tvg-id="RTV.id" tvg-name="RTV" tvg-logo="http://hometv.biz.id:80/images/Ew7KWgEVPBJlBK0JSddniCSXgQUyeYTSUh135SFESvbiziO7FndHuS-l2338RtDqM3OnKm5_dx2QLZJQH_7kJw.png" group-title="Indonesia;- LOKAL ID -" xui-id="16",RTV
 http://hometv.biz.id:80/play/WmAVjSmkPZZJ2UO1bbtF2Q
 #EXTINF:-1 tvg-id="RTV.id" tvg-logo="https://i.imgur.com/RygqpXd.jpeg" group-title="Indonesia;Nasional;Entertainment" http-referrer="" http-user-agent="",RTV

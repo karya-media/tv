@@ -132,6 +132,8 @@ https://beetv.my.id/rbtv/moji.m3u
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTVLCOPT:http-referrer=https://www.visionplus.id/
 https://d2xz2v5wuvgur6.cloudfront.net/out/v1/2f1c4190dcf045c9aafc447d54ef7c91/index.mpd
+#EXTINF:-1 tvg-id="Moji.idSD" tvg-logo="https://thumbor.prod.vidiocdn.com/g7gTjD2Il1GI4DJULOZ1cv6NSj4=/230x230/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/206/1823dc.png" group-title="Indonesia;Indonesia Channels" tvg-url="https://raw.githubusercontent.com/apistech/project/refs/heads/main/epgs/guide.xml",MOJI TV (Transcorp)
+http://202.150.161.212:5000/live/channel39/playlist.m3u8
 #EXTINF:-1 tvg-id="Moji.idSD" tvg-logo="https://i.imgur.com/mM9zapJ.png" group-title="iptv-org;Indonesia;Uncategorized" http-referrer="https://www.dens.tv/" http-user-agent="Mozilla/5.0 Windows NT 10.0; Win64; x64 AppleWebKit/537.36 KHTML, like Gecko Chrome/144.0.0.0 Safari/537.36",Moji [Geo-blocked]
 #EXTVLCOPT:http-referrer=https://www.dens.tv/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 Windows NT 10.0; Win64; x64 AppleWebKit/537.36 KHTML, like Gecko Chrome/144.0.0.0 Safari/537.36
@@ -292,8 +294,6 @@ https://op-flashcon-digdayahd-1.dens.tv/h/h223/index.m3u8?app_type=web&userid=li
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTVLCOPT:http-referrer=https://www.visionplus.id/
 https://d3b0v7fggu5zwm.cloudfront.net/out/v1/3aefa03d32954b678e5faab6daa04b58/index.mpd
-#EXTINF:-1 tvg-id="MDTV.idHD" tvg-logo="https://thumbor.prod.vidiocdn.com/LCZH_yEBnTYEQzrU1pB7w7ev-Bw=/230x230/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/875/325605.png" group-title="Indonesia;Indonesia Channels" tvg-url="https://raw.githubusercontent.com/apistech/project/refs/heads/main/epgs/guide.xml",MDTV (Transcorp)
-https://cdnjktcyber05.transvision.co.id/riutx01-a823b93f0d45cabb0fba0e57ca612f86/dash/TURUVg/manifest.mpd?signature=ZTJjODMwMDdjNThjMDhlZDBiZmM2NTA3ZDlmZDYyNjg=\u0026time=77777777777\u0026device_id=RORLj9bBznsuTsBZDHhEuMykLnrj_YDOHl9s-lMA2Qi8UjTpfhum
 #EXTINF:-1 tvg-id="MDTV.idHD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/MDTV_logo.svg/960px-MDTV_logo.svg.png" group-title="iptv-org;Indonesia;Uncategorized",MDTV (1080p)
 https://wahyu1ptv.pages.dev/MDTV-HD.m3u8
 #EXTINF:-1 tvg-id="RajawaliTV.id" tvg-name="RTV FHD" tvg-logo="http://goldenid.online:80/images/K16NaGdQPPgIS7sfJa07qSIm5NJksqx8sVb1z9AAWfoMonu8SImndMqdBf1YCB5hmunBxh2xo5HLY9w5bytCKq_T_cU89hmm34TdQHKD6TtoUreXxPtB2Mo944ciPxH3.jpg" group-title="Thoha-Aji;Indonesia" xui-id="25732",RTV FHD
@@ -12456,6 +12456,8 @@ https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Andpictureshd/default/index.mpd
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTVLCOPT:http-referrer=https://www.visionplus.id/
 https://dv6fza91pwlw3.cloudfront.net/out/v1/6f059cfe2653405aab54a7887f92ac39/index.mpd
+#EXTINF:-1 tvg-id="ArirangTV.krSD" tvg-logo="https://www.mncvision.id/userfiles/image/channel/channel_351.png" group-title="South Korea;Korean Channels" tvg-url="https://raw.githubusercontent.com/apistech/project/refs/heads/main/epgs/guide.xml",Arirang (Transcorp)
+http://202.150.161.212:5000/live/channel33/playlist.m3u8
 #EXTINF:-1 tvg-id="tvNAsia.hkSD" tvg-logo="https://e7.pngegg.com/pngimages/120/627/png-clipart-south-korea-tvn-television-channel-television-show-fight-miscellaneous-television-thumbnail.png" group-title="Hong Kong;Korean Channels" tvg-url="https://raw.githubusercontent.com/apistech/project/refs/heads/main/epgs/guide.xml",TVN (Transcorp)
 https://cdnjktbpid02.transvision.co.id/riutx01-2c1fa8682342c878f128b4149a675281/dash/dHZOQ2hhbm5lbA/vx9-mdrmprt02/manifest.mpd?signature=ZDFiMzQ0NmQ5OTljYjdiOTJjNWEwZDgxMTQ3ZWIyMTg=&time=77777777777&device_id=_Whe-WUauPtM355O_D_0kPU0AkqnpvpHF49Yfur9_W1jhExbeQgh
 #EXTINF:-1 tvg-id="ABCAustralia.au" tvg-logo="https://www.mncvision.id/userfiles/image/channel/channel_25.png" group-title="KokoTv;Australia;ðŸ¿ FILM" tvg-url="https://raw.githubusercontent.com/apistech/project/refs/heads/main/epgs/guide.xml",TvN movies HD
