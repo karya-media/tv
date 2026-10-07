@@ -1,22 +1,22 @@
 #EXTM3U url-tvg="https://epgshare01.online/epgshare01/epg_ripper_ALL_SOURCES1.xml.gz"
 #EXTINF:-1 tvg-id="RCTI.id" tvg-name="RCTI" tvg-logo="http://hometv.biz.id:80/images/Ew7KWgEVPBJlBK0JSddniCSXgQUyeYTSUh135SFESvbiziO7FndHuS-l2338RtDqtMTNUB-cRIiDGwpjeWFbAg.png" group-title="Indonesia;- LOKAL ID -" xui-id="7",RCTI
 http://hometv.biz.id:80/play/_7XA-V7p5MQBehkGXAyX4g
-#EXTINF:-1 tvg-id="RCTI.idSD" tvg-logo="https://thumbor.prod.vidiocdn.com/9c-sEWp6Du7DoWDn56cjma0gMpY=/230x230/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/665/337c4d.png" group-title="Indonesia;Indonesia Channels" tvg-url="https://raw.githubusercontent.com/apistech/project/refs/heads/main/epgs/guide.xml",RCTI (Vision+)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
-#EXTVLCOPT:http-referrer=https://www.visionplus.id/
-https://d2xz2v5wuvgur6.cloudfront.net/out/v1/997ce8767b604fae9fce05379b3b8b3a/index.mpd
+#EXTINF:-1 tvg-id="RCTI.idHD" tvg-logo="https://i.imgur.com/iLFx8ia.png" group-title="Indonesia;Uncategorized",RCTI HD (1080p)
+http://202.150.172.59/RCTIHD/index.m3u8
+#EXTINF:-1 tvg-id="GTV.idHD" tvg-logo="https://i.imgur.com/jjuKnYs.png" group-title="Indonesia;Uncategorized",GTV (Indonesia) HD (1080p)
+http://202.150.172.59/GTVHD/index.m3u8
 #EXTINF:-1 tvg-id="iNews.id" tvg-name="iNEWS" tvg-logo="http://hometv.biz.id:80/images/Ew7KWgEVPBJlBK0JSddniCSXgQUyeYTSUh135SFESvbiziO7FndHuS-l2338RtDqpL3DvO2Wsh0CBf1EVc7y8Q.png" group-title="Indonesia;- LOKAL ID -" xui-id="10",iNEWS
 http://hometv.biz.id:80/play/SVPl8gTP34bRUSItEnfHsw
-#EXTINF:-1 tvg-id="iNews.id" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/0/09/INews.png" group-title="Indonesia;Nasional" http-referrer="https://www.rctiplus.com/" http-user-agent="android-R+",iNews
-#EXTVLCOPT:http-user-agent=android-R+
-#EXTVLCOPT:http-referrer=https://www.rctiplus.com/
-https://r-plus.sedotcw3.workers.dev/index.m3u8?id=inews
+#EXTINF:-1 tvg-id="iNews.idHD" tvg-logo="https://i.imgur.com/M2R3lfg.png" group-title="Indonesia;News",iNews HD (1080p)
+http://202.150.172.59/iNews/index.m3u8
 #EXTINF:-1 tvg-id="SCTV.id" tvg-logo="https://i.imgur.com/9nGJaOL.jpeg" group-title="Indonesia;Nasional" http-referrer="" http-user-agent="",SCTV
 http://202.169.224.202:8800/udp/239.9.1.29:1234
+#EXTINF:-1 tvg-id="SCTV.idSD" tvg-logo="https://i.imgur.com/EMmOvnQ.png" group-title="Indonesia;Uncategorized",SCTV
+http://202.150.172.59/SCTV/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="Indosiar.id" tvg-name="INDOSIAR" tvg-logo="http://hometv.biz.id:80/images/Ew7KWgEVPBJlBK0JSddniCSXgQUyeYTSUh135SFESvbiziO7FndHuS-l2338RtDqCgvgmgsaZSOoak053U9erwi-WW-AM5FjVHDSwcFEabU.png" group-title="Indonesia;- LOKAL ID -" xui-id="5",INDOSIAR
 http://hometv.biz.id:80/play/qkwVBf1dkXpMJIK7ooDaYw
-#EXTINF:-1 tvg-id="Indosiar.id" tvg-logo="https://i.imgur.com/SjCylM5.jpeg" group-title="Indonesia;Nasional" http-referrer="" http-user-agent="",Indosiar
-http://202.169.224.202:8800/udp/239.9.1.25:1234
+#EXTINF:-1 tvg-id="Indosiar.idHD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Indosiar_2015.svg/960px-Indosiar_2015.svg.png" group-title="Indonesia;Uncategorized",Indosiar HD (1080p)
+http://202.150.172.59/Indosiar/index.m3u8
 #EXTINF:-1 tvg-id="Moji.id" tvg-name="MOJI" tvg-logo="http://hometv.biz.id:80/images/Ew7KWgEVPBJlBK0JSddniCSXgQUyeYTSUh135SFESvbPPL8rHq5gb8bpu8RxSiKkZ9jgkBJZgNp_BmaeuwRKiA.png" group-title="Indonesia;- LOKAL ID -" xui-id="25306",MOJI
 http://hometv.biz.id:80/play/FrENpWSJhgBIJebIKrThERoW8Gz4RUfl-WKngQ6KV_Q
 #EXTINF:-1 tvg-id="Moji.id" tvg-name="MOJI" tvg-logo="http://hometv.biz.id:80/images/Ew7KWgEVPBJlBK0JSddniCSXgQUyeYTSUh135SFESvbPPL8rHq5gb8bpu8RxSiKkZ9jgkBJZgNp_BmaeuwRKiA.png" group-title="Indonesia;- VIP | SPORTS ID -" xui-id="9170",MOJI
@@ -75,6 +75,8 @@ https://tv.ngebutz.my.id:443/play/55c8cVrvhcFPEgTjgh2C80nmAc3kfgfnlJ4q2odTO7M/ts
 #EXTINF:-1 tvg-id="MentariTV.idSD" tvg-logo="https://thumbor.prod.vidiocdn.com/59CZO-IVdps6hUK6gEQqn-w-bCw=/230x230/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/8237/18585d.png" group-title="Indonesia;Kids Channel" tvg-url="https://raw.githubusercontent.com/apistech/project/refs/heads/main/epgs/guide.xml",Mentari TV (VIDIO)
 #EXTVLCOPT:http-user-agent=VidioPlayer/6.41.11
 https://aspaltvpasti.top/Drmvidbos/Akun121/bosstv.m3u8?id=8237
+#EXTINF:-1 tvg-id="MagnaChannel.idSD" tvg-logo="https://i.imgur.com/tfJo0SO.png" group-title="Indonesia;Uncategorized",Magna Channel (1080p)
+http://202.150.172.59/MagnaChannel/index.m3u8
 #EXTINF:-1 tvg-id="BNChannel.id" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/BN_Channel.png/960px-BN_Channel.png" group-title="Indonesia;Nasional;News" http-referrer="https://youtv.live/" http-user-agent="",BN Channel
 #EXTVLCOPT:http-referrer=https://youtv.live/
 https://flv.intechmedia.net/live/ch112.m3u8
@@ -89,6 +91,8 @@ http://hometv.biz.id:80/play/TVvYdgPKc3rGcoMyLBzKgg
 http://hometv.biz.id:80/play/3Qw6oeGHdcd5J3C1fVLwlKcjHGKjccB8xB7hz0bBDu8
 #EXTINF:-1 tvg-id="TVRINasional.id" tvg-name="TVRI" tvg-logo="http://hometv.biz.id:80/images/Ew7KWgEVPBJlBK0JSddniCSXgQUyeYTSUh135SFESvbiziO7FndHuS-l2338RtDquyNlM9Uh7Ifp6MGX5vY-tA.png" group-title="Indonesia;- LOKAL ID -" xui-id="18",TVRI
 http://hometv.biz.id:80/play/wuwGbkmb_s84xmvXxtrutg
+#EXTINF:-1 tvg-id="TVRISport.idSD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/TVRI_Sport_2022.svg/960px-TVRI_Sport_2022.svg.png" group-title="Indonesia;Sports",TVRI Sport (1080p)
+http://202.150.172.59/TVRISport/index.m3u8
 #EXTINF:-1 tvg-id="TVRI.World.id" tvg-logo="https://i.imgur.com/zWT1D4x.jpeg" group-title="Indonesia;Nasional;Government" http-referrer="" http-user-agent="",TVRI World
 https://cdnbal1.indihometv.com/atm/DASH/tvriworld/tvriworld-avc1_2500000=7-3277707030000000.mpd
 #EXTINF:-1 tvg-id="BantenTV.id" tvg-name="BANTEN TV" tvg-logo="http://hometv.biz.id:80/images/Ew7KWgEVPBJlBK0JSddniCSXgQUyeYTSUh135SFESvbiUpkF6ZHtkiH5Mzc7rmdMAoD6WJ5RKIl4Ssna8qrRFVF2JJB7TQuO7A6Rn2IukhY.png" group-title="Indonesia;- TV DAERAH -" xui-id="24159",BANTEN TV
@@ -147,6 +151,8 @@ https://tv.btnrwanda.com:3432/live/bpluslive.m3u8
 http://hometv.biz.id:80/play/PuF54x1sxHlFSYtCwPIU-A
 #EXTINF:-1 tvg-id="Prambors.id" tvg-name="PRAMBORS" tvg-logo="http://hometv.biz.id:80/images/Ew7KWgEVPBJlBK0JSddniCSXgQUyeYTSUh135SFESvYe_cLBvxP5X-wgXVE242ZuA6OaCUJh2QNnPwggNdI61A.png" group-title="Indonesia;- MUSIC -" xui-id="21645",PRAMBORS
 http://hometv.biz.id:80/play/IPIREsqHoRksRh6z9kP5XWm1b0Nf5Y-1gGE1BpLGOuo
+#EXTINF:-1 tvg-id="RajawaliTV.idSD" tvg-logo="https://i.imgur.com/dlsv1sl.png" group-title="Indonesia;Uncategorized",Rajawali TV (1080p)
+http://202.150.172.59/RajawaliTV/index.m3u8
 #EXTINF:-1 tvg-id="DiscoveryChannelIndonesia.id" tvg-name="DISCOVERY CHANNEL" tvg-logo="http://hometv.biz.id:80/images/Ew7KWgEVPBJlBK0JSddniCSXgQUyeYTSUh135SFESvYOocK4kiU9BpYf_yd1b8R5wct4Y0BmeSnffm4Qont6ED2K_fY5xOcTIa7ppp7fcZs.png" group-title="Indonesia;- KNOWLEDGE -" xui-id="74",DISCOVERY CHANNEL
 http://hometv.biz.id:80/play/TxUraO4gzdyfzShDVu1Dyg
 #EXTINF:-1 tvg-id="LoveNature.id" tvg-name="LOVE NATURE" tvg-logo="http://hometv.biz.id:80/images/Ew7KWgEVPBJlBK0JSddniCSXgQUyeYTSUh135SFESvYOocK4kiU9BpYf_yd1b8R5od3BbELuzoqG6vrnGA7bqas9yJBBX4GmWXLXgYd8s7A.png" group-title="Indonesia;- KNOWLEDGE -" xui-id="79",LOVE NATURE
