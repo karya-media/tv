@@ -20,5 +20,4 @@ all=*
 # Semua channel yang ter-tag "Indonesia" dari sumber manapun
 indonesia=group:Indonesia
 master=group:Indonesia,group:Olahraga
-#Event=01_Nasional,02_lokal,03_TVRI Daerah,beetv,04_olahraga
-film=Film,vod
+Event=01_Thoha-Aji,02_koko
