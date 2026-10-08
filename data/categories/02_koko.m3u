@@ -8,6 +8,8 @@ https://dl.dropboxusercontent.com/scl/fi/ywpljc2vvj4k654v2cx58/lv_0_202610011718
 #EXTINF:-1 tvg-id="" tvg-logo="https://media4.giphy.com/media/v1.Y2lkPTZjMDliOTUyMTI3YWxxdDZpYzNiMHAyNXh1MWl1enBxeDl3bzB0bmRsem42OHYweCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/5xaOcLGwJiU6VzF7U3K/giphy.gif" group-title="PLAYLIST KOKOUYO",KETIK DI CHROME/GOOGLE👆👆
 https://dl.dropboxusercontent.com/scl/fi/ywpljc2vvj4k654v2cx58/lv_0_20261001171821.mp4?rlkey=dbt6gjtie6n88anc6ug1a33ag&st=a9d2bld1&dl=1
 
+
+
 #EXTINF:-1 tvg-id="" tvg-logo="https://media4.giphy.com/media/v1.Y2lkPTZjMDliOTUyMTI3YWxxdDZpYzNiMHAyNXh1MWl1enBxeDl3bzB0bmRsem42OHYweCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/5xaOcLGwJiU6VzF7U3K/giphy.gif" group-title="PLAYLIST KOKOUYO", PLAYLIST SMARTV KOKOTV
 https://dl.dropboxusercontent.com/scl/fi/kd627yj07hw9unh9tu0v7/lv_7480922524574960949_20260619074318.mp4?rlkey=rar2il86tumzrp8wvolj3jaqm&st=l9qt5vb0&dl=1
 
@@ -18,6 +20,19 @@ https://dl.dropboxusercontent.com/scl/fi/tljv8ym5zumjctjcbn39n/lv_76527263486995
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=60dc08aae52f4c0b806a8e43f24a12c8:30d5b579966d822b215ec51a91d8a271
 https://tglmp02.akamaized.net/out/v1/3170252e3fb0453085f2f4b0f8401a6b/manifest.mpd
+#EXTINF:-1 tvg-id="SHOPEE CUP" group-title="ASEAN SHOPPE CUP 2026" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSMmqHHxtx7xKd5W3lBRrw7tz2IXhyBHQlZmq-QlhnEg&s=10",FEED V+ 2
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://bintangstreaming.my.id/rcti_plus/index.drm?id=1010
+#EXTVLCOPT:http-user-agent=ExoPlayer/2.19.1 (Linux; Android 15) Media3/1.6.0
+#EXTVLCOPT:http-referrer=https://visionplus.id/
+https://d2o5iwa2ppb5z7.cloudfront.net/out/v1/dash/index.mpd
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://kingtvpremium.my.id/play/pision/drm.php?id=1008
+#KODIPROP:inputstream.adaptive.license_key=https://drm-vision2025.tvrusak1992.workers.dev/?no=1008&type=drm
+#EXTVLCOPT:http-referrer=https://www.visionplus.id/ 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+#EXTINF:-1 tvg-id="SHOPEE CUP" group-title="ASEAN SHOPPE CUP 2026" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSMmqHHxtx7xKd5W3lBRrw7tz2IXhyBHQlZmq-QlhnEg&s=10",FEED R+ 
+https://d2o5iwa2ppb5z7.cloudfront.net/out/v1/dash/index.mpd
 #EXTINF:-1 tvg-id="SHOPEE CUP" group-title="ASEAN SHOPPE CUP 2026" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSMmqHHxtx7xKd5W3lBRrw7tz2IXhyBHQlZmq-QlhnEg&s=10",RCTI R+
 #EXTVLCOPT:http-user-agent=android-R+
 #EXTVLCOPT:http-referrer=https://www.rctiplus.com/
@@ -34,8 +49,12 @@ https://r-plus.sedotcw3.workers.dev/index.m3u8?id=gtv
 #EXTVLCOPT:http-user-agent=android-R+
 #EXTVLCOPT:http-referrer=https://www.rctiplus.com/
 https://r-plus.sedotcw3.workers.dev/index.m3u8?id=inews
-
-
+#EXTINF:-1 tvg-id="SHOPEE CUP" group-title="ASEAN SHOPPE CUP 2026" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSMmqHHxtx7xKd5W3lBRrw7tz2IXhyBHQlZmq-QlhnEg&s=10",SOCCER CHANNEL
+#EXTVLCOPT:http-referer=https://www.visionplus.id/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://dusk.biz.id/rpl/drm.php?id=115
+https://d2xz2v5wuvgur6.cloudfront.net/out/v1/63c0da12bb4d48afbaf053f51dff2353/index.mpd
 #EXTINF:-1 tvg-id="SHOPEE CUP" group-title="ASEAN SHOPPE CUP 2026" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSMmqHHxtx7xKd5W3lBRrw7tz2IXhyBHQlZmq-QlhnEg&s=10",SPORTSTARS 1 HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://www.visionplus.id/
@@ -207,16 +226,30 @@ https://tglmp02.akamaized.net/out/v1/a32e566460eb41ce9295b9c45fe25825/manifest.m
 https://tglmp02.akamaized.net/out/v1/8c503a6966554d439035588f10505eee/manifest.mpd
 
 
-#EXTINF:-1 group-title="BRI LIGA 1" tvg-logo="https://i.imgur.com/vzXPJsq.png",INDOSIAR FHD 1
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:102.0) Gecko/20100101 Firefox/102.0/v2206
+#EXTINF:-1 tvg-logo="https://i.imgur.com/hk4Z8wi.jpeg" tvg-id="itzplay.id" group-title="BRI LIGA 1 & LIGA 2 PEGADAIAN",E14
+http://ktpremium.world:2095/oc100138/3826778900/73617
+https://ogietv.biz.id:443/Livetv/234/1325.m3u8
 http://filex.me:8080/live/3114654477/5787654467/302264.ts
-https://tv.ngebutz.my.id:443/play/55c8cVrvhcFPEgTjgh2C8-1Z2Rp7JvQhncgXXsV4UVM/ts.ts
+https://bigdickgital.semar26.xyz/fetch?id=idigital.m3u8&auth=idgtlsemar25
+http://013tv.com:8080/F33848/cbd9779b/162138
+http://mag.king-4k.cc:80/live/C1645263A1D245C/1sFTVBSVCP/1505849.ts
+
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:102.0) Gecko/20100101 Firefox/102.0/v2206
+#EXTINF:-1 group-title="BRI LIGA 1 & LIGA 2 PEGADAIAN" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMw1F8OVTXh-w-WwzJru-iOjmwkYihEIBGVB11v-nIJA&s=10",INDOSIAR FHD
+http://ktpremium.world:2095/oc100138/3826778900/73617
+https://ogietv.biz.id:443/Livetv/234/1325.m3u8
+http://filex.me:8080/live/3114654477/5787654467/302264.ts
+https://bigdickgital.semar26.xyz/fetch?id=idigital.m3u8&auth=idgtlsemar25
+http://013tv.com:8080/F33848/cbd9779b/162138
+http://mag.king-4k.cc:80/live/C1645263A1D245C/1sFTVBSVCP/1505849.ts
 
 ##EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQr30wrD25ubbMdFZbm8XgzoORUuOfndyTbO3xaHJs2dA&s=10https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQr30wrD25ubbMdFZbm8XgzoORUuOfndyTbO3xaHJs2dA&s=10" group-title=" LIGA 2 PEGADAIAN",PSIS VS PSPS
 https://tfz70gr3uomttgr31hct1gczdgp3pptwzc3jt.100ycdn.com/live1.quickscoreboardz.com/live/channel24/playlist.m3u8?wsSecret=1d56cdc7c9d59cb07c4cac39da66cc32&wsABSTime=1789169069&wsSession=edd7cea56ecd3047dab8ada3-178912587393101&wsIPSercert=b376d66c02486c56d9e529fa5270b1eb&wsBindIP=2&wsserid=1181535298039889480
 
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-user-agent=VidioPlayer/6.41.11
-#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQr30wrD25ubbMdFZbm8XgzoORUuOfndyTbO3xaHJs2dA&s=10https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQr30wrD25ubbMdFZbm8XgzoORUuOfndyTbO3xaHJs2dA&s=10" group-title=" LIGA 2 PEGADAIAN",SIN PO TV
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQr30wrD25ubbMdFZbm8XgzoORUuOfndyTbO3xaHJs2dA&s=10https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQr30wrD25ubbMdFZbm8XgzoORUuOfndyTbO3xaHJs2dA&s=10" group-title=" BRI LIGA 1 & LIGA 2 PEGADAIAN",SIN PO TV
 https://aspaltvpasti.top/Drmvidbos/Akun121/bosstv.m3u8?id=19046
 
 ##EXTINF:-1 tvg-id=" KUALIFIKASI AFC U-20 ASIAN CUP" group-title="KUALIFIKASI AFC U-20 ASIAN CUP" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-pJ3fC-vS6gGI7Z8Gugm96k9JQH2KTGVsIgRFUqb75g&s=10",LIVE QATAR VS HONGKONG

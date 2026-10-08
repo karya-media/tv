@@ -103,7 +103,7 @@ https://live1.pro2cdnlive.com/live/channel15.m3u8?wsSecret=796baabf373552b168b54
 #EXTINF:-1 tvg-logo="https://img.freepik.com/free-vector/3d-style-live-stream-web-button-design_1017-59933.jpg?semt=ais_hybrid&w=740&q=80" group-title="LIVE FEED SPORT (ON JIKA MAIN)",LIVE EVENT CH4
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://a83aivottlinear-a.akamaihd.net/OTTB/syd-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd
-#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQr30wrD25ubbMdFZbm8XgzoORUuOfndyTbO3xaHJs2dA&s=10https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQr30wrD25ubbMdFZbm8XgzoORUuOfndyTbO3xaHJs2dA&s=10" group-title="LIGA 2 PEGADAIAN",SIN PO TV
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQr30wrD25ubbMdFZbm8XgzoORUuOfndyTbO3xaHJs2dA&s=10https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQr30wrD25ubbMdFZbm8XgzoORUuOfndyTbO3xaHJs2dA&s=10" group-title="BRI LIGA 1 & LIGA 2 PEGADAIAN",SIN PO TV
 https://aspaltvpasti.top/Drmvidbos/Akun121/bosstv.m3u8?id=19046
 #EXTINF:-1 tvg-logo="https://static.mncnow.id/images/channel/9e658daa/252e_r32.jpg" group-title="Local Channels" tvg-url="https://raw.githubusercontent.com/apistech/project/refs/heads/main/ApisTECH.xml",JTV Kediri
 http://122.248.43.242:1935/JTVKEDIRI/_definst_/myStream/playlist.m3u8
@@ -332,6 +332,10 @@ http://124.222.153.240/kakaotv/get_channel.php?channel=spotv_prime|User-Agent=Mo
 https://d2tjypxxy769fn.cloudfront.net/out/v1/46d9cf39b9a84183b8d5022ac8f4bc41/index.mpd
 #EXTINF:-1 tvg-id="SoccerChannel.Id" tvg-name="Soccer Channel" tvg-logo="https://ogietv.biz.id:443/images/41XrJW_rFnTScKiHhnyTkQuOes23-0Jm5fBjqlIAbVeaqSAKcBQctvWpp0tMy8NYjfn8b3q3uW29JYUn3kfsvG_9e68Rb4PUYlM7Ob1Ek2xgPzv6Qz0v4_id4_XJYM7-iVfn5QKaEFhNvXsobN1DDb1drcntnDauf9OyvtJRMhpMp1cHB_Opu8Ovys4fewUGK-quhlNAhIAkuCbLVNBhzg.png" group-title="Indonesia;SPORT INDO™" xui-id="22975",Soccer Channel
 http://goldenid.online:80/play/38ifGdTRCzSHegy1-Yigj0XeUBLAG2ns-_DqWHoJ-j3SNrLg6v1fjxLXK48FrKAk
+#EXTINF:-1 tvg-id="SHOPEECUP" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSMmqHHxtx7xKd5W3lBRrw7tz2IXhyBHQlZmq-QlhnEg&s=10" group-title="ASEAN SHOPPE CUP 2026",SOCCER CHANNEL
+#EXTVLCOPT:http-referer=https://www.visionplus.id/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
+https://d2xz2v5wuvgur6.cloudfront.net/out/v1/63c0da12bb4d48afbaf053f51dff2353/index.mpd
 #EXTINF:-1 tvg-logo="https://i.imgur.com/cmpbNJz.png" group-title="Local Channels" tvg-url="https://raw.githubusercontent.com/apistech/project/refs/heads/main/ApisTECH.xml",Sultra TV
 http://122.248.43.242:1935/SULTRATV/_definst_/myStream/playlist.m3u8
 #EXTINF:-1 tvg-id="ABCAustralia.au" tvg-name="TVN Movies" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREznhnJWTCfRKYZcORhbj6SGu1gS1pp-caE_JaoWQv1OYd5p5cIkiwtZA&s=10" group-title="Australia;ENTERTAINMENT™" xui-id="39527",TVN Movies
@@ -3872,6 +3876,10 @@ https://dl.dropboxusercontent.com/scl/fi/kd627yj07hw9unh9tu0v7/lv_74809225245749
 https://dl.dropboxusercontent.com/scl/fi/tljv8ym5zumjctjcbn39n/lv_7652726348699553044_20260619182304.mp4?rlkey=sr1d7rcuc0s24z2epnoaccph7&st=hx8j269w&dl=1
 #EXTINF:-1 tvg-id="SHOPEECUP" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSMmqHHxtx7xKd5W3lBRrw7tz2IXhyBHQlZmq-QlhnEg&s=10" group-title="ASEAN SHOPPE CUP 2026",MEDIACORP TV 1
 https://tglmp02.akamaized.net/out/v1/3170252e3fb0453085f2f4b0f8401a6b/manifest.mpd
+#EXTINF:-1 tvg-id="SHOPEECUP" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSMmqHHxtx7xKd5W3lBRrw7tz2IXhyBHQlZmq-QlhnEg&s=10" group-title="ASEAN SHOPPE CUP 2026",FEED V+ 2
+#EXTVLCOPT:http-user-agent=ExoPlayer/2.19.1 (Linux; Android 15) Media3/1.6.0
+#EXTVLCOPT:http-referrer=https://visionplus.id/
+https://d2o5iwa2ppb5z7.cloudfront.net/out/v1/dash/index.mpd
 #EXTINF:-1 tvg-id="SHOPEECUP" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSMmqHHxtx7xKd5W3lBRrw7tz2IXhyBHQlZmq-QlhnEg&s=10" group-title="ASEAN SHOPPE CUP 2026",SPORTSTARS 1 HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://www.visionplus.id/
@@ -3936,6 +3944,8 @@ https://live2.domainkqt.cc/live/channel33.m3u8
 https://tfzh0gr4ugmtwgczdcqjqgr5n45djq31unmutqiwsg45ucpzzr3mnp7ozr3d4.100ycdn.com/live1.quickscoreboardz.com/live/channel80/playlist.m3u8?wsSecret=cb0a5f21b9f49713b81357130afd4f45&wsABSTime=1790051528&wsSession=04959cb3033b1b0744a92c97-179000833044977&wsIPSercert=9ca952e4672f52905678da5258eb5338&wsBindIP=2&wsserid=1168287746130901650
 #EXTINF:-1 tvg-id="AFCMENSVOLLEYBALLCONTINENTALCHAMPIONSHIP" tvg-logo="https://upload.wikimedia.org/wikipedia/en/d/db/AVC_Men%27s_Volleyball_Continental_Japan_2026.png" group-title="VOLLEYBALL TV",AFR VOLLYBALL TV 2
 https://tfzh0gr4ugmtwgczdcqjqgr5n45djq31unmutqiwsg45ucpzzr3mnp7ozr3d4.100ycdn.com/live1.quickscoreboardz.com/live/channel80/playlist.m3u8?wsSecret=89912f3c5caa69de649c6c06bca8a01f&wsABSTime=1790051818&wsSession=04959cb3033b1b0744a92c97-179000862183654&wsIPSercert=9ca952e4672f52905678da5258eb5338&wsBindIP=2&wsserid=1168287746130901650
+#EXTINF:-1 tvg-id="itzplay.id" tvg-logo="https://i.imgur.com/hk4Z8wi.jpeg" group-title="Indonesia;BRI LIGA 1 & LIGA 2 PEGADAIAN",E14
+http://ktpremium.world:2095/oc100138/3826778900/73617
 #EXTINF:-1 tvg-id="BWFWORLDJUNIORCHAMPIONSIP" tvg-logo="https://upload.wikimedia.org/wikipedia/en/7/7c/CHINA_MASTERS.png" group-title="LI-NING CHINA MASTER 2026",COURT 1
 https://live1.quickscoreboardz.com/live/channel62/playlist.m3u8?wsSecret=4198a9a464d9c284623338e7b92d4d8e&wsABSTime=1791314390
 #EXTINF:-1 tvg-id="BWFWORLDJUNIORCHAMPIONSIP" tvg-logo="https://upload.wikimedia.org/wikipedia/en/7/7c/CHINA_MASTERS.png" group-title="LI-NING CHINA MASTER 2026",COURT 2
