@@ -69,6 +69,7 @@ TVRI Bangka Belitung
 TVRI Bengkulu
 TVRI Lampung
 TVRI Jakarta
+TVRI Yogyakarta
 TVRI Jawa Barat
 TVRI Jawa Tengah
 TVRI Jawa Timur
@@ -158,7 +159,6 @@ SindoNews
 Tv10
 RODJA TV 2
 TV MUI
-TVRI Yogyakarta
 Riau TV (1080p) [Not 24/7]
 TV Tabalong
 AFBTV Kupang (1080p) [Not 24/7]
