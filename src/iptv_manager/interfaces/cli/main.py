@@ -256,6 +256,23 @@ def _build_everything_result(
     except OverridesExcelReadError as exc:
         typer.echo(f"warning: ignoring {overrides_path}: {exc}", err=True)
         overrides = []
+
+    # Auto-sync data/overrides.xlsx to the current channel list on
+    # every run, *before* applying overrides - its "current" tvg-id/
+    # group-title columns are meant to show what auto-categorization
+    # just produced, so a human can compare that against their own
+    # "New ..." correction; applying the correction first would make
+    # the two columns identical and the comparison pointless. A
+    # channel no longer in any category file simply has no row
+    # anymore (removed); a brand-new channel gets a fresh blank row
+    # (added); any correction already on file for a channel that still
+    # exists is carried forward into its row untouched - never
+    # silently discarded just because this file gets regenerated.
+    existing_overrides_by_url = {o.url: o for o in overrides}
+    OverridesExcelWriter().write(
+        everything_result.master, overrides_path, existing_overrides=existing_overrides_by_url
+    )
+
     if overrides:
         channel_urls = {channel.url.raw for channel in everything_result.master}
         applied = sum(
@@ -436,26 +453,24 @@ def _publish_bundle(
 
 @app.command("export-overrides")
 def export_overrides() -> None:
-    """Export every channel from every data/categories/ file (the same
-    comprehensive set used for validation/reporting - not just
-    whatever happens to be in one data/playlists.txt bundle, since a
-    bundle like "master" may itself be filtered down to a subset of
-    countries/categories) to data/overrides.xlsx, one row per channel,
-    with two blank columns - "New tvg-id" and "New group-title" - for
-    manually correcting a specific channel's metadata by hand (e.g.
-    the TV9-tagged-as-India case fixed manually earlier in this
-    project's history).
+    """(Re-)generate data/overrides.xlsx from every data/categories/
+    file (the same comprehensive set used for validation/reporting -
+    not just whatever happens to be in one data/playlists.txt bundle,
+    since a bundle like "master" may itself be filtered down to a
+    subset of countries/categories), for manually correcting a
+    specific channel's tvg-id/group-title by hand (e.g. the
+    TV9-tagged-as-India case fixed manually earlier in this project's
+    history) via its "New tvg-id"/"New group-title" columns.
 
-    Fill in either column for the rows you want to fix and leave the
-    rest blank; every subsequent `merge`/`report` run reads this file
-    back in (see ApplyOverridesUseCase) and applies your corrections -
-    as the final word, after automatic country-tagging but before
-    channel ordering - so they're never overwritten by re-running the
-    pipeline. Re-running this command regenerates the file from
-    scratch (including any already-filled-in corrections still
-    reflected in the resulting group-title/tvg-id, since those are
-    now the *current* values) - copy elsewhere first if you want to
-    keep a specific in-progress edit safe from being overwritten."""
+    `merge` and `report` already do this on every run (see
+    _build_everything_result) - this command exists for creating the
+    file the first time, or re-syncing it on demand without running
+    the rest of the pipeline. Either way, it's always a *sync*, never
+    a blank slate: a channel no longer in any category file has no row
+    anymore, a brand-new channel gets a fresh blank row, and any
+    correction already on file for a channel that still exists is
+    carried forward untouched - your in-progress edits are never
+    discarded by running this again."""
     settings = get_settings()
     settings.ensure_directories()
 
@@ -463,8 +478,7 @@ def export_overrides() -> None:
     _file_count, everything_result, _publish = _build_everything_result(settings, parser)
 
     output_path = settings.project_root / "data" / "overrides.xlsx"
-    OverridesExcelWriter().write(everything_result.master, output_path)
-    typer.echo(f"Wrote {len(everything_result.master)} channel(s) to {output_path}")
+    typer.echo(f"Synced {len(everything_result.master)} channel(s) to {output_path}")
 
 
 @app.command("merge")

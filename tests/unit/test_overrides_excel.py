@@ -145,3 +145,105 @@ class TestReadOverridesExcel:
         bad_path.write_text("this is not a real xlsx file", encoding="utf-8")
         with pytest.raises(OverridesExcelReadError):
             read_overrides_excel(bad_path)
+
+
+class TestOverridesExcelSync:
+    """Covers the auto-sync behavior wired into _build_everything_result:
+    data/overrides.xlsx's row set tracks the current channel list on
+    every pipeline run, without ever discarding an already-filled-in
+    correction for a channel that still exists."""
+
+    def test_new_channel_gets_a_fresh_blank_row(self, tmp_path: Path):
+        output_path = tmp_path / "overrides.xlsx"
+        OverridesExcelWriter().write(
+            Playlist(name="test", channels=[_channel("A", "http://x.com/a.m3u8")]), output_path
+        )
+        existing = {o.url: o for o in read_overrides_excel(output_path)}
+
+        OverridesExcelWriter().write(
+            Playlist(
+                name="test",
+                channels=[
+                    _channel("A", "http://x.com/a.m3u8"),
+                    _channel("B", "http://x.com/b.m3u8"),  # brand new
+                ],
+            ),
+            output_path,
+            existing_overrides=existing,
+        )
+
+        overrides = read_overrides_excel(output_path)
+        assert {o.url for o in overrides} == {"http://x.com/a.m3u8", "http://x.com/b.m3u8"}
+        new_one = next(o for o in overrides if o.url == "http://x.com/b.m3u8")
+        assert new_one.is_empty
+
+    def test_removed_channel_has_no_row_after_resync(self, tmp_path: Path):
+        output_path = tmp_path / "overrides.xlsx"
+        OverridesExcelWriter().write(
+            Playlist(
+                name="test",
+                channels=[
+                    _channel("A", "http://x.com/a.m3u8"),
+                    _channel("B", "http://x.com/b.m3u8"),
+                ],
+            ),
+            output_path,
+        )
+        existing = {o.url: o for o in read_overrides_excel(output_path)}
+
+        # "B" no longer exists in the current channel list.
+        OverridesExcelWriter().write(
+            Playlist(name="test", channels=[_channel("A", "http://x.com/a.m3u8")]),
+            output_path,
+            existing_overrides=existing,
+        )
+
+        overrides = read_overrides_excel(output_path)
+        assert {o.url for o in overrides} == {"http://x.com/a.m3u8"}
+
+    def test_existing_correction_is_carried_forward_on_resync(self, tmp_path: Path):
+        output_path = tmp_path / "overrides.xlsx"
+        OverridesExcelWriter().write(
+            Playlist(
+                name="test",
+                channels=[_channel("TV9", "http://x.com/1.m3u8", tvg_id="TV9.in")],
+            ),
+            output_path,
+        )
+
+        # Simulate a human filling in a correction.
+        workbook = load_workbook(output_path)
+        sheet = workbook["Overrides"]
+        sheet.cell(row=2, column=5, value="TV9.id")
+        sheet.cell(row=2, column=7, value="Indonesia;Lokal")
+        workbook.save(output_path)
+        existing = {o.url: o for o in read_overrides_excel(output_path)}
+
+        # Re-sync, as _build_everything_result does on every run -
+        # same channel list, nothing added or removed.
+        OverridesExcelWriter().write(
+            Playlist(
+                name="test",
+                channels=[_channel("TV9", "http://x.com/1.m3u8", tvg_id="TV9.in")],
+            ),
+            output_path,
+            existing_overrides=existing,
+        )
+
+        overrides = read_overrides_excel(output_path)
+        assert len(overrides) == 1
+        assert overrides[0].new_tvg_id == "TV9.id"
+        assert overrides[0].new_group_title == "Indonesia;Lokal"
+
+    def test_sanitizes_illegal_characters_in_channel_metadata(self, tmp_path: Path):
+        output_path = tmp_path / "overrides.xlsx"
+        OverridesExcelWriter().write(
+            Playlist(
+                name="test",
+                channels=[_channel("Bad\x00Name", "http://x.com/1.m3u8", tvg_id="X\x0bid")],
+            ),
+            output_path,
+        )
+        overrides = read_overrides_excel(output_path)
+        # Doesn't raise, and the row is still findable/usable.
+        assert len(overrides) == 1
