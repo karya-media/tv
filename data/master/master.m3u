@@ -60,8 +60,9 @@ https://d3b0v7fggu5zwm.cloudfront.net/out/v1/f3df48faafaf4198a65b9763140fce30/in
 https://op-group1-densxvisionhd-1.dens.tv/h/h40/01.m3u8
 #EXTINF:-1 tvg-id="RCTI.id" tvg-name="METRO TV HD" tvg-logo="http://goldenid.online:80/images/K16NaGdQPPgIS7sfJa07qSIm5NJksqx8sVb1z9AAWfp2w0evQv15jl0vwelvZXCnn6Yy1t0qbe5bXUJ_-q3lE_8mV2-gId6xsRNkJSSca2mU9evpiaTH8ylJkWmT9GUN.jpg" group-title="Indonesia;LOKAL INDONESIA™" xui-id="25722",METRO TV HD
 http://goldenid.online:80/play/38ifGdTRCzSHegy1-Yigj95ULE1QD9UsLfYoU55l4hGWqF6sm-7GxWBP9ZgwIWOl
-#EXTINF:-1 tvg-id="Metro.TV.id" tvg-logo="https://i.imgur.com/QnU70NI.png" group-title="Indonesia;News" http-referrer="" http-user-agent="",Metro TV
-https://edge.medcom.id/live-edge/smil:metro.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="Metro.TV.id" tvg-logo="https://raw.githubusercontent.com/apistech/project/refs/heads/main/logo/image_ch_metrotv.png" group-title="Indonesia;News" http-referrer="" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36 Edg/150.0.0.0",Metro TV
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36 Edg/150.0.0.0
+https://op-flashcon-digdayahd-1.dens.tv/h/h12/index.m3u8
 #EXTINF:-1 tvg-id="KompasTV.id" tvg-name="Kompas tv" tvg-logo="http://goldenid.online:80/images/K16NaGdQPPgIS7sfJa07qSIm5NJksqx8sVb1z9AAWfqcZpqE2B0lEe6B5ICWFeCtlb24n0iJFVVwZzvE3CUpEmaPNyEbJJK_cTGiZVnmRNeQWzVXpesskP3QHkI2RRD_.jpg" group-title="Indonesia;LOKAL INDONESIA™" xui-id="25695",Kompas tv
 http://goldenid.online:80/play/38ifGdTRCzSHegy1-Yigj763JJsjfeLW0oYFyKjg01IMdgjInIrvpj7OqtIwHyHt
 #EXTINF:-1 tvg-id="Kompas.TV.id" tvg-logo="https://i.imgur.com/WYPWQHg.jpeg" group-title="Indonesia;News" http-referrer="" http-user-agent="",Kompas TV
@@ -415,8 +416,10 @@ https://op-group1-swiftservehd-1.dens.tv/h/h77/index.m3u8
 https://mam.jogjaprov.go.id:1937/tv/jitv/chunklist_w163357330.m3u8
 #EXTINF:-1 tvg-id="MagnaTV.id" tvg-logo="https://i.imgur.com/xkCrfHz.jpeg" group-title="Indonesia;Lokal" http-referrer="" http-user-agent="",Magna TV
 https://op-flashcon-digdayahd-1.dens.tv/h/h24/02.m3u8
-#EXTINF:-1 tvg-id="MagnaTV.id" tvg-name="IDX.id" tvg-logo="https://beetv.my.id/logo/magna.png" group-title="Indonesia;Nasional",Magna TV
-https://edge.medcom.id/live-edge/smil:magna.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="MagnaTV.id" tvg-logo="https://i.imgur.com/01YAHgw.png" group-title="Indonesia;Lokal" http-referrer="http://www.dens.tv/" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0",Magna TV (Alt 2)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0
+#EXTVLCOPT:http-referrer=http://www.dens.tv/
+https://op-group1-swiftservehd-1.dens.tv/h/h24/02.m3u8
 #EXTINF:-1 tvg-id="SindoNews.TV.id" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPlAtPGRHW6gEgAZMn916nIPyS0yqblsFZqg&s" group-title="Indonesia;News" http-referrer="" http-user-agent="",SindoNews
 https://cdnbal1.indihometv.com/atm/DASH/mncnews/mncnews-avc1_2500000=7-3277707030000000.mpd
 #EXTINF:-1 tvg-id="Rodja.TV.id" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLPKzuSGXnuJG5gOA1AGIknytvyxTCq9kQRw&s" group-title="Indonesia;Lokal" http-referrer="" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36",RODJA TV 2
