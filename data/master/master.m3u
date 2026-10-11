@@ -36,8 +36,11 @@ https://beetv.my.id/rbtv/indosiar.m3u
 https://sw.run/CAMPWIKI-MOJIFHD
 #EXTINF:-1 tvg-id="Moji.idSD" tvg-logo="https://thumbor.prod.vidiocdn.com/g7gTjD2Il1GI4DJULOZ1cv6NSj4=/230x230/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/206/1823dc.png" group-title="Indonesia;Indonesia Channels" tvg-url="https://raw.githubusercontent.com/apistech/project/refs/heads/main/epgs/guide.xml",MOJI TV (Transcorp)
 http://202.150.161.212:5000/live/channel39/playlist.m3u8
-#EXTINF:-1 tvg-id="itzplay.id" tvg-logo="https://uc44b55e3e9da83d3d776512fc0a.previews.dropboxusercontent.com/p/thumb/ADEoW8ee2p5IyeFr__FVfqKyvMDBFYcbWarbusK925e8GnPCWciF4a2jAujuLbHGAXvDYNRBDUxfIg9VfJAK2ZT3ywNIGMv_yx1MNjokk5syPxWZqEI4wFfP6EzlQKi2ZCvXE_D0gbjpfPAt_V2c24VvkJXhDj-Me9MjYxTVw0pRsHFyuq5PbsA7wX1Jcoz26v9gdlc98rZ1lQkwD-TC34uLbj8MHYkQpkr5EgBMQXrAM46Kfpm-GQ2fE_iU6cuMBjpxzmM2WHZBuXVaEQoMEgXHTro9b_dw6rcdTEBXFbtnIBIN_9KVOQlTjyPeLZniBD4jtlS4Xrr9cmpXT1aG_xPYL9h34XPJFbHAGSm0wz-j8g1CZisBo5hZZUt7x-FZMa4/p.jpeg?is_prewarmed=true" group-title="Indonesia;SERIE A LEAGUE",ANTV Digital
-http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NaaFlGWmxCbzV1aCsvOHZXbm5XZGdjQTdOTDRMMEJJWUhlRFVsUHl6OU5RLw
+#EXTINF:-1 tvg-id="ANTV.idSD" tvg-logo="https://64.media.tumblr.com/77d7b93e54d6a77a81b2bec8d1932691/tumblr_ofkh5xUTcX1rqdxf9o1_1280.gif" group-title="Indonesia;LOKAL",ANTV HD VD
+#EXTVLCOPT:http-user-agent=VidioPlayer/6.31.6
+#EXTVLCOPT:http-referrer=http://www.vidio.com/
+#EXTVLCOPT:http-origin=http://www.vidio.com
+https://beetv.my.id/xstreamx/vd.m3u8?ch=antv
 #EXTINF:-1 tvg-id="ANTV.id" tvg-name="ANTV" tvg-logo="http://goldenid.online:80/images/K16NaGdQPPgIS7sfJa07qSIm5NJksqx8sVb1z9AAWfp_i0tmjPj3VrKalqMpx_bGRBqfuATCN3B1T9XX2I4xrbTampDPlTN2-c_YwWGxtOfFDKT8hWeT4wZxC8DIwXdf.jpg" group-title="Indonesia;LOKAL INDONESIA™" xui-id="25718",ANTV
 http://goldenid.online:80/play/38ifGdTRCzSHegy1-YigjxOuroSUi59En8RSMBtmpgYX7yVVf8fiG_p-XRhuUbDI
 #EXTINF:-1 tvg-id="TransTV.id" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/c/c2/Logo_Trans_TV.png" group-title="Indonesia;Entertainment" http-referrer="https://20.detik.com/" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36",Trans TV
@@ -153,9 +156,8 @@ https://tvratu.my.id/vid/index.mpd?id=21178
 http://opplextv.cyou:8080/nasir6160/nasir/350997
 #EXTINF:-1 tvg-id="SinPoTV.idHD" tvg-logo="https://i.imgur.com/VMOcefA.jpeg" group-title="Indonesia;Lokal" http-referrer="" http-user-agent="",Sin Po TV
 http://tvratu.my.id/nissa/index.mpd?id=19046&type=dash
-#EXTINF:-1 tvg-id="SinPoTV.idHD" tvg-logo="https://thumbor.prod.vidiocdn.com/wZs8Xxf9gMUStqOa3fM3rznnDWM=/640x198/filters:quality(70)/vidio-web-prod-user/uploads/user/cover/187019218/ProfileBannerSinPoTV-a703fecf7ac03ff6.png" group-title="Indonesia;Indonesia Channels",SIN PO TV
-#EXTVLCOPT:http-user-agent=VidioPlayer/6.41.11
-https://aspaltvpasti.top/Drmvidbos/Akun121/bosstv.m3u8?id=19046
+#EXTINF:-1 tvg-id="SinPoTV.id" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Sin_Po_TV.svg/500px-Sin_Po_TV.svg.png" group-title="Indonesia;Entertainment" http-referrer="" http-user-agent="",Sinpo TV
+https://cdnbal1.indihometv.com/atm/DASH/sinpotv/sinpotv-avc1_2500000=7-3277707030000000.mpd
 #EXTINF:-1 tvg-id="JTV.id" tvg-logo="https://i.imgur.com/mIDWIQk.png" group-title="Indonesia;Lokal" http-referrer="" http-user-agent="",JTV Madiun
 http://122.248.43.242:1935/JTVMADIUN/_definst_/myStream/playlist.m3u8
 #EXTINF:-1 tvg-id="JTV.id" tvg-logo="https://i.imgur.com/mIDWIQk.png" group-title="Indonesia;Lokal" http-referrer="" http-user-agent="",JTV Malang
@@ -169,11 +171,11 @@ https://5bf7b725107e5.streamlock.net/tv9/tv9/playlist.m3u8
 #EXTVLCOPT:http-origin=https://www.dens.tv
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:102.0) Gecko/20100101 Firefox/102.0/v2206
 https://op-flashcon-digdayahd-1.dens.tv/h/h16/01.m3u8
+#EXTINF:-1 tvg-id="Mentari.TV.id" tvg-logo="https://raw.githubusercontent.com/apistech/project/refs/heads/main/logo/image_ch_mentaritv.png" group-title="Indonesia;DUNIA ANAK",Mentari TV
+#EXTVLCOPT:http-user-agent=VidioPlayer/7.27.12
+https://vidsemar.pages.dev/terraluna2/8237.mpd
 #EXTINF:-1 tvg-id="Mentari.TV.id" tvg-name="Mentari TV" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRzifY13gxbmbSvlbyHwNV-pfgwWgBSsVmKHXwWdFA9L_JOaxCbNzJwDA&s=10" group-title="Indonesia;KIDS™" xui-id="54410",Mentari TV
 http://goldenid.online:80/play/38ifGdTRCzSHegy1-Yigj3wxRGf_aaV1K2IYVfYeA0ZwUGq7VNzowC_gTwh24BWw
-#EXTINF:-1 tvg-id="MentariTV.idSD" tvg-logo="https://thumbor.prod.vidiocdn.com/59CZO-IVdps6hUK6gEQqn-w-bCw=/230x230/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/8237/18585d.png" group-title="Indonesia;Kids Channel" tvg-url="https://raw.githubusercontent.com/apistech/project/refs/heads/main/epgs/guide.xml",Mentari TV (VIDIO)
-#EXTVLCOPT:http-user-agent=VidioPlayer/6.41.11
-https://aspaltvpasti.top/Drmvidbos/Akun121/bosstv.m3u8?id=8237
 #EXTINF:-1 tvg-id="MagnaChannel.idSD" tvg-logo="https://thumbor.prod.vidiocdn.com/43T_Bt_R_JSQugV3MxoAeYze7OQ=/230x230/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/7230/7d6bf5.jpg" group-title="Indonesia;Indonesia Channels" tvg-url="https://raw.githubusercontent.com/apistech/project/refs/heads/main/epgs/guide.xml",MAGNA Channel (DensTV)
 #EXTVLCOPT:http-referrer=https://www.dens.tv/
 #EXTVLCOPT:http-origin=https://www.dens.tv
