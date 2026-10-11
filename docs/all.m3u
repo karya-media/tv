@@ -94,6 +94,9 @@ http://202.169.224.202:8800/udp/239.9.1.29:1234
 https://beetv.my.id/xstreamx/vd.m3u8?ch=sctv
 #EXTINF:-1 tvg-id="SCTV.idSD" tvg-logo="https://i.imgur.com/EMmOvnQ.png" group-title="Indonesia;Uncategorized",SCTV
 http://202.150.172.59/SCTV/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/vzXPJsq.png" group-title="BRI LIGA 1 & LIGA 2 PEGADAIAN",INDOSIAR FHD
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:102.0) Gecko/20100101 Firefox/102.0/v2206
+http://ktpremium.world:2095/oc100138/3826778900/73617
 #EXTINF:-1 tvg-logo="https://media1.giphy.com/media/v1.Y2lkPTZjMDliOTUybzViNzNhMjV5dWJycmw5aGZhcGtydjN3ODhzb2V5cTV4eGYxN3VoeSZlcD12MV9zdGlja2Vyc19zZWFyY2gmY3Q9cw/fGI87nRZ42IncYkGP5/giphy.gif" group-title="LOKAL",INDOSIAR HD V+
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
 #EXTVLCOPT:http-referrer=https://www.visionplus.id/
@@ -440,13 +443,12 @@ https://tvratu.my.id/vid/index.mpd?id=19584&type=dash
 https://tvratu.my.id/vid/index.mpd?id=21178
 #EXTINF:-1 tvg-logo="https://i.imgur.com/xqPgGT4.jpeg" group-title="Indonesia;Olahraga" http-referrer="" http-user-agent="",Volleyball (Alt 2)
 http://opplextv.cyou:8080/nasir6160/nasir/350997
-#EXTINF:-1 tvg-id="SinPoTV.idHD" tvg-logo="https://i.imgur.com/VMOcefA.jpeg" group-title="Indonesia;Lokal" http-referrer="" http-user-agent="",Sin Po TV
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQr30wrD25ubbMdFZbm8XgzoORUuOfndyTbO3xaHJs2dA&s=10https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQr30wrD25ubbMdFZbm8XgzoORUuOfndyTbO3xaHJs2dA&s=10" group-title="BRI LIGA 1 & LIGA 2 PEGADAIAN",SIN PO TV
+https://aspaltvpasti.top/Drmvidbos/Akun121/bosstv.m3u8?id=19046
+#EXTINF:-1 tvg-logo="https://i.imgur.com/VMOcefA.jpeg" group-title="Indonesia;Lokal" http-referrer="" http-user-agent="",Sin Po TV
 http://tvratu.my.id/nissa/index.mpd?id=19046&type=dash
 #EXTINF:-1 tvg-id="SinPoTV.id" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Sin_Po_TV.svg/500px-Sin_Po_TV.svg.png" group-title="Indonesia;Entertainment" http-referrer="" http-user-agent="",Sinpo TV
 https://cdnbal1.indihometv.com/atm/DASH/sinpotv/sinpotv-avc1_2500000=7-3277707030000000.mpd
-#EXTINF:-1 tvg-id="SinPoTV.idHD" tvg-logo="https://thumbor.prod.vidiocdn.com/wZs8Xxf9gMUStqOa3fM3rznnDWM=/640x198/filters:quality(70)/vidio-web-prod-user/uploads/user/cover/187019218/ProfileBannerSinPoTV-a703fecf7ac03ff6.png" group-title="Indonesia;Indonesia Channels",SIN PO TV
-#EXTVLCOPT:http-user-agent=VidioPlayer/6.41.11
-https://aspaltvpasti.top/Drmvidbos/Akun121/bosstv.m3u8?id=19046
 #EXTINF:-1 tvg-logo="https://static.mncnow.id/images/channel/9e658daa/252e_r32.jpg" group-title="Local Channels" tvg-url="https://raw.githubusercontent.com/apistech/project/refs/heads/main/ApisTECH.xml",JTV Kediri
 http://122.248.43.242:1935/JTVKEDIRI/_definst_/myStream/playlist.m3u8
 #EXTINF:-1 tvg-id="JTV.id" tvg-logo="https://i.imgur.com/mIDWIQk.png" group-title="Indonesia;Lokal" http-referrer="" http-user-agent="",JTV Madiun
@@ -1397,41 +1399,14 @@ https://indihuy.streamized.net/atm/DASH/zbioskop/manifest.mpd
 https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Zeebollywood/default/manifest.mpd
 #EXTINF:-1 tvg-logo="https://media4.giphy.com/media/v1.Y2lkPTZjMDliOTUyMTI3YWxxdDZpYzNiMHAyNXh1MWl1enBxeDl3bzB0bmRsem42OHYweCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/5xaOcLGwJiU6VzF7U3K/giphy.gif" group-title="PLAYLIST KOKOUYO",GRUB WA SAYA DITANGGUHKAN
 https://dl.dropboxusercontent.com/scl/fi/ywpljc2vvj4k654v2cx58/lv_0_20261001171821.mp4?rlkey=dbt6gjtie6n88anc6ug1a33ag&st=a9d2bld1&dl=1
-#EXTINF:-1 tvg-id="SHOPEECUP" tvg-logo="https://media4.giphy.com/media/v1.Y2lkPTZjMDliOTUyMTI3YWxxdDZpYzNiMHAyNXh1MWl1enBxeDl3bzB0bmRsem42OHYweCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/5xaOcLGwJiU6VzF7U3K/giphy.gif" group-title="LIVE HARI INI",15.30||AREMA FC VS BHAYANHGKARA
+#EXTINF:-1 tvg-id="SHOPEECUP" tvg-logo="https://media4.giphy.com/media/v1.Y2lkPTZjMDliOTUyMTI3YWxxdDZpYzNiMHAyNXh1MWl1enBxeDl3bzB0bmRsem42OHYweCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/5xaOcLGwJiU6VzF7U3K/giphy.gif" group-title="LIVE HARI INI",15.30||JAVA UNITED VS BORNEO FC
+https://live2.domainkqt.cc/live/channel24.m3u8
+#EXTINF:-1 tvg-id="SHOPEECUP" tvg-logo="https://media4.giphy.com/media/v1.Y2lkPTZjMDliOTUyMTI3YWxxdDZpYzNiMHAyNXh1MWl1enBxeDl3bzB0bmRsem42OHYweCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/5xaOcLGwJiU6VzF7U3K/giphy.gif" group-title="LIVE HARI INI",15.30||PSS SLEMAN VS PSM MAKASSAR
 https://live2.domainkqt.cc/live/channel4.m3u8
-#EXTINF:-1 tvg-id="SHOPEECUP" tvg-logo="https://media4.giphy.com/media/v1.Y2lkPTZjMDliOTUyMTI3YWxxdDZpYzNiMHAyNXh1MWl1enBxeDl3bzB0bmRsem42OHYweCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/5xaOcLGwJiU6VzF7U3K/giphy.gif" group-title="LIVE HARI INI",15.30||PERSITA VS GARUDAYAKSA
-https://live2.domainkqt.cc/live/channel11.m3u8
-#EXTINF:-1 tvg-id="SHOPEECUP" tvg-logo="https://media4.giphy.com/media/v1.Y2lkPTZjMDliOTUyMTI3YWxxdDZpYzNiMHAyNXh1MWl1enBxeDl3bzB0bmRsem42OHYweCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/5xaOcLGwJiU6VzF7U3K/giphy.gif" group-title="LIVE HARI INI",15.30||PSIM VS PERSIJA
-https://live2.domainkqt.cc/live/channel21.m3u8
-#EXTINF:-1 tvg-id="SHOPEECUP" tvg-logo="https://media4.giphy.com/media/v1.Y2lkPTZjMDliOTUyMTI3YWxxdDZpYzNiMHAyNXh1MWl1enBxeDl3bzB0bmRsem42OHYweCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/5xaOcLGwJiU6VzF7U3K/giphy.gif" group-title="LIVE HARI INI",15.30||SUMSEL VS PERSIKU
-#EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://play.heyangstream.com/live/5009490_F5hd01.m3u8?expire=1791634157&sign=a04763b90f4f72c3d626572f5708d995
-#EXTINF:-1 tvg-id="SHOPEECUP" tvg-logo="https://media4.giphy.com/media/v1.Y2lkPTZjMDliOTUyMTI3YWxxdDZpYzNiMHAyNXh1MWl1enBxeDl3bzB0bmRsem42OHYweCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/5xaOcLGwJiU6VzF7U3K/giphy.gif" group-title="LIVE HARI INI",18.30||ARSENAL VS LEEDS UNITED
-https://live2.domainkqt.cc/live/channel1.m3u8
-#EXTINF:-1 tvg-id="SHOPEECUP" tvg-logo="https://media4.giphy.com/media/v1.Y2lkPTZjMDliOTUyMTI3YWxxdDZpYzNiMHAyNXh1MWl1enBxeDl3bzB0bmRsem42OHYweCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/5xaOcLGwJiU6VzF7U3K/giphy.gif" group-title="LIVE HARI INI",19.00||BALI UNITED VS PERSIJAP JEPARA
-https://tg000gr4ugmtwgczdcqjqgr5n45djq31unmutqiwsg45ucpzzr3mnp7ozr3d4.100ycdn.com/live1.quickscoreboardz.com/live/channel19/playlist.m3u8?wsSecret=8aef90dca23ef22b9fadf25877d38c97&wsABSTime=1791662926&wsSession=6e5e48cde178b0231176ecbe-179161973158089&wsIPSercert=a3f426797f3e54685820c808831a7c3f&wsBindIP=2&wsserid=1168287746149776142
-#EXTINF:-1 tvg-id="SHOPEECUP" tvg-logo="https://media4.giphy.com/media/v1.Y2lkPTZjMDliOTUyMTI3YWxxdDZpYzNiMHAyNXh1MWl1enBxeDl3bzB0bmRsem42OHYweCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/5xaOcLGwJiU6VzF7U3K/giphy.gif" group-title="LIVE HARI INI",20.00||SAMSUNSPOR VS TRAPZONSPOR
-https://live2.domainkqt.cc/live/channel17.m3u8
-#EXTINF:-1 tvg-id="SHOPEECUP" tvg-logo="https://media4.giphy.com/media/v1.Y2lkPTZjMDliOTUyMTI3YWxxdDZpYzNiMHAyNXh1MWl1enBxeDl3bzB0bmRsem42OHYweCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/5xaOcLGwJiU6VzF7U3K/giphy.gif" group-title="LIVE HARI INI",20.30||AUZBURG VS BAYERN MUNCHEN
-https://live2.domainkqt.cc/live/channel16.m3u8
-#EXTINF:-1 tvg-id="SHOPEECUP" tvg-logo="https://media4.giphy.com/media/v1.Y2lkPTZjMDliOTUyMTI3YWxxdDZpYzNiMHAyNXh1MWl1enBxeDl3bzB0bmRsem42OHYweCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/5xaOcLGwJiU6VzF7U3K/giphy.gif" group-title="LIVE HARI INI",20.30||MAINZ 05 VS BAYERN LEVERKUZEN
-https://live2.domainkqt.cc/live/channel19.m3u8
-#EXTINF:-1 tvg-id="SHOPEECUP" tvg-logo="https://media4.giphy.com/media/v1.Y2lkPTZjMDliOTUyMTI3YWxxdDZpYzNiMHAyNXh1MWl1enBxeDl3bzB0bmRsem42OHYweCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/5xaOcLGwJiU6VzF7U3K/giphy.gif" group-title="LIVE HARI INI",20.30||PADEBOM VS VFB STUTGARD
-https://live2.domainkqt.cc/live/channel13.m3u8
-#EXTINF:-1 tvg-id="SHOPEECUP" tvg-logo="https://media4.giphy.com/media/v1.Y2lkPTZjMDliOTUyMTI3YWxxdDZpYzNiMHAyNXh1MWl1enBxeDl3bzB0bmRsem42OHYweCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/5xaOcLGwJiU6VzF7U3K/giphy.gif" group-title="LIVE HARI INI",21.00||ASTON VILLA VS BRENTFORD
-https://live2.domainkqt.cc/live/channel5.m3u8
-#EXTINF:-1 tvg-id="SHOPEECUP" tvg-logo="https://media4.giphy.com/media/v1.Y2lkPTZjMDliOTUyMTI3YWxxdDZpYzNiMHAyNXh1MWl1enBxeDl3bzB0bmRsem42OHYweCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/5xaOcLGwJiU6VzF7U3K/giphy.gif" group-title="LIVE HARI INI",21.00||IPSWITCH VS FULLHAM
-https://tfzy1gr4uqmtt8y41hcjzgezdrmmcpf5gkce.100ycdn.com/live1.quickscoreboardz.com/live/channel6/playlist.m3u8?wsSecret=6e32e9b3ac8f88a21555ff85c3fd493a&wsABSTime=1791502232&wsSession=64ed3e79a7ece57c6cc9459e-179145903799258&wsIPSercert=60067f3ebbad03223adf929fceeb7d8c&wsBindIP=2&wsserid=1168309213681259573
-#EXTINF:-1 tvg-id="SHOPEECUP" tvg-logo="https://media4.giphy.com/media/v1.Y2lkPTZjMDliOTUyMTI3YWxxdDZpYzNiMHAyNXh1MWl1enBxeDl3bzB0bmRsem42OHYweCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/5xaOcLGwJiU6VzF7U3K/giphy.gif" group-title="LIVE HARI INI",21.00||SUNDERLAND VS BRIGHTON
-https://tfzs0gr4ugmtwgczdcqjqgr5n45djq31unmutqiwsg45ucpzzr3mnp7ozr3d4.100ycdn.com/live1.quickscoreboardz.com/live/channel15/playlist.m3u8?wsSecret=a56072572ae75114ec3516c7c158aff5&wsABSTime=1790975669&wsSession=510ff2a6e1fbdceb0434ca7c-179093247248568&wsIPSercert=b1258e89327ee56480448c0566e0eef5&wsBindIP=2&wsserid=1168287765269359649
-#EXTINF:-1 tvg-id="SHOPEECUP" tvg-logo="https://media4.giphy.com/media/v1.Y2lkPTZjMDliOTUyMTI3YWxxdDZpYzNiMHAyNXh1MWl1enBxeDl3bzB0bmRsem42OHYweCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/5xaOcLGwJiU6VzF7U3K/giphy.gif" group-title="LIVE HARI INI",21.30||GO AHEAD VS SPARTA
-https://live2.domainkqt.cc/live/channel7.m3u8
-#EXTINF:-1 tvg-id="SHOPEECUP" tvg-logo="https://media4.giphy.com/media/v1.Y2lkPTZjMDliOTUyMTI3YWxxdDZpYzNiMHAyNXh1MWl1enBxeDl3bzB0bmRsem42OHYweCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/5xaOcLGwJiU6VzF7U3K/giphy.gif" group-title="LIVE HARI INI",23.00||RIZESPOR VS FENERBAHCE
-https://tg000gr3uomttgr31hctwgazdoc3pptwzc3jt.100ycdn.com/live1.quickscoreboardz.com/live/channel27/playlist.m3u8?wsSecret=97f3142172d1bb95218aadb355ae75ea&wsABSTime=1791665419&wsSession=db9d8616f6d77850ea1dd38c-179162222499448&wsIPSercert=b671eab39115b3cf00efe35c2aff2d12&wsBindIP=2&wsserid=1168278524584609170
-#EXTINF:-1 tvg-id="SHOPEECUP" tvg-logo="https://media4.giphy.com/media/v1.Y2lkPTZjMDliOTUyMTI3YWxxdDZpYzNiMHAyNXh1MWl1enBxeDl3bzB0bmRsem42OHYweCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/5xaOcLGwJiU6VzF7U3K/giphy.gif" group-title="LIVE HARI INI",23.30||BARCELONA VS GETAFE
-https://tfzr6gr3uomttgr31hctwgczdncjufisg17ufgr.100ycdn.com/live1.quickscoreboardz.com/live/channel2/playlist.m3u8?wsSecret=d3154af06ddadc3e57f5e1713fddbb42&wsABSTime=1790924976&wsSession=72f1ecafa8570fdd8c78ecfe-179088178050900&wsIPSercert=5fe7a668fccf187d77e92164a3b804cf&wsBindIP=2&wsserid=19560480166232750
-#EXTINF:-1 tvg-id="SHOPEECUP" tvg-logo="https://media4.giphy.com/media/v1.Y2lkPTZjMDliOTUyMTI3YWxxdDZpYzNiMHAyNXh1MWl1enBxeDl3bzB0bmRsem42OHYweCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/5xaOcLGwJiU6VzF7U3K/giphy.gif" group-title="LIVE HARI INI",23.30||RB LEIPZIG VS EINTRAGT
-https://live2.domainkqt.cc/live/channel18.m3u8
+#EXTINF:-1 tvg-id="SHOPEECUP" tvg-logo="https://media4.giphy.com/media/v1.Y2lkPTZjMDliOTUyMTI3YWxxdDZpYzNiMHAyNXh1MWl1enBxeDl3bzB0bmRsem42OHYweCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/5xaOcLGwJiU6VzF7U3K/giphy.gif" group-title="LIVE HARI INI",15.30||PERSELA LAMONGAN VS DELTRAS FC
+https://play.heyangstream.com/live/5009518_F5hd01.m3u8?expire=1791721018&sign=8f43d99dbbcf1e48e87a1889b003514a
+#EXTINF:-1 tvg-id="SHOPEECUP" tvg-logo="https://media4.giphy.com/media/v1.Y2lkPTZjMDliOTUyMTI3YWxxdDZpYzNiMHAyNXh1MWl1enBxeDl3bzB0bmRsem42OHYweCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/5xaOcLGwJiU6VzF7U3K/giphy.gif" group-title="LIVE HARI INI",15.30|PSPS PEKANBARU VS PSMS MEDAN
+https://play.heyangstream.com/live/5007299_F5hd01.m3u8?expire=1791720116&sign=e4cb46b6ae973f3ace54a8c3a4821228
 #EXTINF:-1 tvg-id="UEFANL" tvg-logo="https://r2.thesportsdb.com/images/media/league/badge/cwsp321698386224.png" group-title="UEFA NATIONS LEAGUE",KOKO FEED 1
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone14,6; U; CPU iPhone OS 15_4 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) Version/10.0 Mobile/19E241 Safari/602.1
 #EXTVLCOPT:http-referrer=https://kuruk1.xn--okq6e.shop/000/
@@ -1508,19 +1483,14 @@ https://live2.cachefluxlive.com/livecdn/channel-1.m3u8?auth_key=3000001788024771
 https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/3b7qwiqzk3/out/v1/9f14895badca43e6a716db021dcd0c31/cenc.mpd
 #EXTINF:-1 tvg-logo="https://uc8ef8c47bc331a8787fc5ca9e2a.previews.dropboxusercontent.com/p/thumb/ADF_fv3xXvFNnLjy-HcwUbo0yxxKW-uXqdp_-FDxX7r5b1sUZBNi5Qlsq-niBbGpqtJjVubWpy_-H1RfzQaq-AV-LlBY47hM-NxjishavyVIIq-6xf8bJbebgXHwA5jQpV_wbq2LvXF7HlDGGy5mSiHg6_Z0GlVU6QWrMUp0YUsFK9lEOWAXFhSiomB-bIgeJQAC0pfEHGN3sLafMHXJZHfKj4JdXNany9dnP9IAIjp8ftoA_EEUVEUtXfGorxoZpzQ15Osjq9OjFDg-r1sIRk7G9op6pQ3t3NUl4DDgWZ8IMWoVQGi1q1vXBLSOptQm58xQN2d1omSCj2PPjukqApnniUPMv6O2-WpKuXvAXuMcSEeq8LZRvxfO1QHDvvsGTMY/p.jpeg?is_prewarmed=true" group-title="PREMIER LEAGUE",FUBO SPORTS 2
 https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/uiffe4jhf0/out/v1/3534efafca8c4815adbb4d2e9a1fe003/cenc.mpd
-#EXTINF:-1 tvg-logo="https://uc8ef8c47bc331a8787fc5ca9e2a.previews.dropboxusercontent.com/p/thumb/ADF_fv3xXvFNnLjy-HcwUbo0yxxKW-uXqdp_-FDxX7r5b1sUZBNi5Qlsq-niBbGpqtJjVubWpy_-H1RfzQaq-AV-LlBY47hM-NxjishavyVIIq-6xf8bJbebgXHwA5jQpV_wbq2LvXF7HlDGGy5mSiHg6_Z0GlVU6QWrMUp0YUsFK9lEOWAXFhSiomB-bIgeJQAC0pfEHGN3sLafMHXJZHfKj4JdXNany9dnP9IAIjp8ftoA_EEUVEUtXfGorxoZpzQ15Osjq9OjFDg-r1sIRk7G9op6pQ3t3NUl4DDgWZ8IMWoVQGi1q1vXBLSOptQm58xQN2d1omSCj2PPjukqApnniUPMv6O2-WpKuXvAXuMcSEeq8LZRvxfO1QHDvvsGTMY/p.jpeg?is_prewarmed=true" group-title="PREMIER LEAGUE",Sky Sports Premier League
-http://mag.trexlive.me:80/play/live.php?mac=00:1A:79:06:9A:77&stream=1905843&extension=ts
-#EXTINF:-1 tvg-logo="https://uc8ef8c47bc331a8787fc5ca9e2a.previews.dropboxusercontent.com/p/thumb/ADF_fv3xXvFNnLjy-HcwUbo0yxxKW-uXqdp_-FDxX7r5b1sUZBNi5Qlsq-niBbGpqtJjVubWpy_-H1RfzQaq-AV-LlBY47hM-NxjishavyVIIq-6xf8bJbebgXHwA5jQpV_wbq2LvXF7HlDGGy5mSiHg6_Z0GlVU6QWrMUp0YUsFK9lEOWAXFhSiomB-bIgeJQAC0pfEHGN3sLafMHXJZHfKj4JdXNany9dnP9IAIjp8ftoA_EEUVEUtXfGorxoZpzQ15Osjq9OjFDg-r1sIRk7G9op6pQ3t3NUl4DDgWZ8IMWoVQGi1q1vXBLSOptQm58xQN2d1omSCj2PPjukqApnniUPMv6O2-WpKuXvAXuMcSEeq8LZRvxfO1QHDvvsGTMY/p.jpeg?is_prewarmed=true" group-title="PREMIER LEAGUE",Sky Sport Premier League 2
-http://iptv.watchhd.to:5050/didi1909/8mMDqRPor23t/310091
-#EXTINF:-1 tvg-id="itzplay.id" tvg-logo="https://uc8ef8c47bc331a8787fc5ca9e2a.previews.dropboxusercontent.com/p/thumb/ADF_fv3xXvFNnLjy-HcwUbo0yxxKW-uXqdp_-FDxX7r5b1sUZBNi5Qlsq-niBbGpqtJjVubWpy_-H1RfzQaq-AV-LlBY47hM-NxjishavyVIIq-6xf8bJbebgXHwA5jQpV_wbq2LvXF7HlDGGy5mSiHg6_Z0GlVU6QWrMUp0YUsFK9lEOWAXFhSiomB-bIgeJQAC0pfEHGN3sLafMHXJZHfKj4JdXNany9dnP9IAIjp8ftoA_EEUVEUtXfGorxoZpzQ15Osjq9OjFDg-r1sIRk7G9op6pQ3t3NUl4DDgWZ8IMWoVQGi1q1vXBLSOptQm58xQN2d1omSCj2PPjukqApnniUPMv6O2-WpKuXvAXuMcSEeq8LZRvxfO1QHDvvsGTMY/p.jpeg?is_prewarmed=true" group-title="Indonesia;PREMIER LEAGUE",Sky Sports Main Event
-http://mag.trexlive.me:80/play/live.php?mac=00:1A:79:06:9A:77&stream=1905852&extension=ts
 #EXTINF:-1 tvg-id="itzplay.id" tvg-logo="https://uc8ef8c47bc331a8787fc5ca9e2a.previews.dropboxusercontent.com/p/thumb/ADF_fv3xXvFNnLjy-HcwUbo0yxxKW-uXqdp_-FDxX7r5b1sUZBNi5Qlsq-niBbGpqtJjVubWpy_-H1RfzQaq-AV-LlBY47hM-NxjishavyVIIq-6xf8bJbebgXHwA5jQpV_wbq2LvXF7HlDGGy5mSiHg6_Z0GlVU6QWrMUp0YUsFK9lEOWAXFhSiomB-bIgeJQAC0pfEHGN3sLafMHXJZHfKj4JdXNany9dnP9IAIjp8ftoA_EEUVEUtXfGorxoZpzQ15Osjq9OjFDg-r1sIRk7G9op6pQ3t3NUl4DDgWZ8IMWoVQGi1q1vXBLSOptQm58xQN2d1omSCj2PPjukqApnniUPMv6O2-WpKuXvAXuMcSEeq8LZRvxfO1QHDvvsGTMY/p.jpeg?is_prewarmed=true" group-title="Indonesia;PREMIER LEAGUE",Monomax 1
-http://185.80.197.55/play/live.php?mac=00:1A:79:72:F3:F0&stream=1660493&extension=ts
-#EXTINF:-1 tvg-id="itzplay.id" tvg-logo="https://uc8ef8c47bc331a8787fc5ca9e2a.previews.dropboxusercontent.com/p/thumb/ADF_fv3xXvFNnLjy-HcwUbo0yxxKW-uXqdp_-FDxX7r5b1sUZBNi5Qlsq-niBbGpqtJjVubWpy_-H1RfzQaq-AV-LlBY47hM-NxjishavyVIIq-6xf8bJbebgXHwA5jQpV_wbq2LvXF7HlDGGy5mSiHg6_Z0GlVU6QWrMUp0YUsFK9lEOWAXFhSiomB-bIgeJQAC0pfEHGN3sLafMHXJZHfKj4JdXNany9dnP9IAIjp8ftoA_EEUVEUtXfGorxoZpzQ15Osjq9OjFDg-r1sIRk7G9op6pQ3t3NUl4DDgWZ8IMWoVQGi1q1vXBLSOptQm58xQN2d1omSCj2PPjukqApnniUPMv6O2-WpKuXvAXuMcSEeq8LZRvxfO1QHDvvsGTMY/p.jpeg?is_prewarmed=true" group-title="Indonesia;PREMIER LEAGUE",Monomax 2
-http://185.80.197.55/play/live.php?mac=00:1A:79:72:F3:F0&stream=1660492&extension=ts
-#EXTINF:-1 tvg-id="itzplay.id" tvg-logo="https://uc8ef8c47bc331a8787fc5ca9e2a.previews.dropboxusercontent.com/p/thumb/ADF_fv3xXvFNnLjy-HcwUbo0yxxKW-uXqdp_-FDxX7r5b1sUZBNi5Qlsq-niBbGpqtJjVubWpy_-H1RfzQaq-AV-LlBY47hM-NxjishavyVIIq-6xf8bJbebgXHwA5jQpV_wbq2LvXF7HlDGGy5mSiHg6_Z0GlVU6QWrMUp0YUsFK9lEOWAXFhSiomB-bIgeJQAC0pfEHGN3sLafMHXJZHfKj4JdXNany9dnP9IAIjp8ftoA_EEUVEUtXfGorxoZpzQ15Osjq9OjFDg-r1sIRk7G9op6pQ3t3NUl4DDgWZ8IMWoVQGi1q1vXBLSOptQm58xQN2d1omSCj2PPjukqApnniUPMv6O2-WpKuXvAXuMcSEeq8LZRvxfO1QHDvvsGTMY/p.jpeg?is_prewarmed=true" group-title="Indonesia;PREMIER LEAGUE",Astro Grandstand
-http://mag.trexlive.me:80/play/live.php?mac=00:1A:79:06:9A:77&stream=571247&extension=ts
-#EXTINF:-1 tvg-id="itzplay.id" tvg-logo="https://uc8ef8c47bc331a8787fc5ca9e2a.previews.dropboxusercontent.com/p/thumb/ADF_fv3xXvFNnLjy-HcwUbo0yxxKW-uXqdp_-FDxX7r5b1sUZBNi5Qlsq-niBbGpqtJjVubWpy_-H1RfzQaq-AV-LlBY47hM-NxjishavyVIIq-6xf8bJbebgXHwA5jQpV_wbq2LvXF7HlDGGy5mSiHg6_Z0GlVU6QWrMUp0YUsFK9lEOWAXFhSiomB-bIgeJQAC0pfEHGN3sLafMHXJZHfKj4JdXNany9dnP9IAIjp8ftoA_EEUVEUtXfGorxoZpzQ15Osjq9OjFDg-r1sIRk7G9op6pQ3t3NUl4DDgWZ8IMWoVQGi1q1vXBLSOptQm58xQN2d1omSCj2PPjukqApnniUPMv6O2-WpKuXvAXuMcSEeq8LZRvxfO1QHDvvsGTMY/p.jpeg?is_prewarmed=true" group-title="Indonesia;PREMIER LEAGUE",Astro Football
+https://raw.githubusercontent.com/B-inal-123/s-asia/inal-22/TruePL1.m3u8
+#EXTINF:-1 tvg-id="itzplay.id" tvg-logo="https://uc8ef8c47bc331a8787fc5ca9e2a.previews.dropboxusercontent.com/p/thumb/ADF_fv3xXvFNnLjy-HcwUbo0yxxKW-uXqdp_-FDxX7r5b1sUZBNi5Qlsq-niBbGpqtJjVubWpy_-H1RfzQaq-AV-LlBY47hM-NxjishavyVIIq-6xf8bJbebgXHwA5jQpV_wbq2LvXF7HlDGGy5mSiHg6_Z0GlVU6QWrMUp0YUsFK9lEOWAXFhSiomB-bIgeJQAC0pfEHGN3sLafMHXJZHfKj4JdXNany9dnP9IAIjp8ftoA_EEUVEUtXfGorxoZpzQ15Osjq9OjFDg-r1sIRk7G9op6pQ3t3NUl4DDgWZ8IMWoVQGi1q1vXBLSOptQm58xQN2d1omSCj2PPjukqApnniUPMv6O2-WpKuXvAXuMcSEeq8LZRvxfO1QHDvvsGTMY/p.jpeg?is_prewarmed=true" group-title="Indonesia;PREMIER LEAGUE",Monomax SPORTS
+#EXTVLCOPT:http-user-agent=ExoPlayerDemo/2.15.1 (Linux; Android 13) ExoPlayerLib/2.15.1
+https://udn-streamer1.cdn.3bbtv.com:8443/3bb/live/29/29.mpd
+#EXTINF:-1 tvg-id="itzplay.id" tvg-logo="https://uc8ef8c47bc331a8787fc5ca9e2a.previews.dropboxusercontent.com/p/thumb/ADF_fv3xXvFNnLjy-HcwUbo0yxxKW-uXqdp_-FDxX7r5b1sUZBNi5Qlsq-niBbGpqtJjVubWpy_-H1RfzQaq-AV-LlBY47hM-NxjishavyVIIq-6xf8bJbebgXHwA5jQpV_wbq2LvXF7HlDGGy5mSiHg6_Z0GlVU6QWrMUp0YUsFK9lEOWAXFhSiomB-bIgeJQAC0pfEHGN3sLafMHXJZHfKj4JdXNany9dnP9IAIjp8ftoA_EEUVEUtXfGorxoZpzQ15Osjq9OjFDg-r1sIRk7G9op6pQ3t3NUl4DDgWZ8IMWoVQGi1q1vXBLSOptQm58xQN2d1omSCj2PPjukqApnniUPMv6O2-WpKuXvAXuMcSEeq8LZRvxfO1QHDvvsGTMY/p.jpeg?is_prewarmed=true" group-title="Indonesia;PREMIER LEAGUE",Astro PREMIER LEAGUE 2
+http://tv-premium-pro.com/wezqqszfr2/i7481xvrdf/1163683
+#EXTINF:-1 tvg-id="itzplay.id" tvg-logo="https://uc44b55e3e9da83d3d776512fc0a.previews.dropboxusercontent.com/p/thumb/ADEoW8ee2p5IyeFr__FVfqKyvMDBFYcbWarbusK925e8GnPCWciF4a2jAujuLbHGAXvDYNRBDUxfIg9VfJAK2ZT3ywNIGMv_yx1MNjokk5syPxWZqEI4wFfP6EzlQKi2ZCvXE_D0gbjpfPAt_V2c24VvkJXhDj-Me9MjYxTVw0pRsHFyuq5PbsA7wX1Jcoz26v9gdlc98rZ1lQkwD-TC34uLbj8MHYkQpkr5EgBMQXrAM46Kfpm-GQ2fE_iU6cuMBjpxzmM2WHZBuXVaEQoMEgXHTro9b_dw6rcdTEBXFbtnIBIN_9KVOQlTjyPeLZniBD4jtlS4Xrr9cmpXT1aG_xPYL9h34XPJFbHAGSm0wz-j8g1CZisBo5hZZUt7x-FZMa4/p.jpeg?is_prewarmed=true" group-title="Indonesia;SERIE A LEAGUE",Astro Football
 http://mag.trexlive.me:80/play/live.php?mac=00:1A:79:06:9A:77&stream=571246&extension=ts
 #EXTINF:-1 tvg-id="itzplay.id" tvg-logo="https://uc44b55e3e9da83d3d776512fc0a.previews.dropboxusercontent.com/p/thumb/ADEoW8ee2p5IyeFr__FVfqKyvMDBFYcbWarbusK925e8GnPCWciF4a2jAujuLbHGAXvDYNRBDUxfIg9VfJAK2ZT3ywNIGMv_yx1MNjokk5syPxWZqEI4wFfP6EzlQKi2ZCvXE_D0gbjpfPAt_V2c24VvkJXhDj-Me9MjYxTVw0pRsHFyuq5PbsA7wX1Jcoz26v9gdlc98rZ1lQkwD-TC34uLbj8MHYkQpkr5EgBMQXrAM46Kfpm-GQ2fE_iU6cuMBjpxzmM2WHZBuXVaEQoMEgXHTro9b_dw6rcdTEBXFbtnIBIN_9KVOQlTjyPeLZniBD4jtlS4Xrr9cmpXT1aG_xPYL9h34XPJFbHAGSm0wz-j8g1CZisBo5hZZUt7x-FZMa4/p.jpeg?is_prewarmed=true" group-title="Indonesia;SERIE A LEAGUE",Sky Sport Uno
 http://line.mytvzone.xyz:80/live/jCp4YyMfXc/nowo2O4ogJ/105968.m3u8
@@ -1582,6 +1552,12 @@ https://live05.meung.app/live/33982309.m3u8
 https://live05.meung.app/live/97885009.m3u8
 #EXTINF:-1 tvg-logo="https://colatv65.live/assets/images/logo.png" group-title="FEED COLATV99",BLV  ROCKSTAR
 https://live05.meung.app/live/82054853.m3u8
+#EXTINF:-1 tvg-logo="https://static.xoilaczzggz.tv/images/logo-xlz.png" group-title="FEED XOILAXCZ",FOOTBALL TV 1 BRADY
+https://live2.domainkqt.cc/live/channel18.m3u8
+#EXTINF:-1 tvg-logo="https://static.xoilaczzggz.tv/images/logo-xlz.png" group-title="FEED XOILAXCZ",FOOTBALL TV 2 FELIX
+https://live2.domainkqt.cc/live/channel19.m3u8
+#EXTINF:-1 tvg-logo="https://static.xoilaczzggz.tv/images/logo-xlz.png" group-title="FEED XOILAXCZ",FOOTBALL TV 3 NICK
+https://live2.domainkqt.cc/live/channel1.m3u8
 #EXTINF:-1 tvg-logo="https://static.xoilaczzggz.tv/images/logo-xlz.png" group-title="FEED XOILAXCZ",FOOTBALL TV 4 TAGE
 https://live2.streamhaulcdn.com/livecdn/channel-27.m3u8?auth_key=3000001788121158-0-0-d6b8c2a132ee325aa5325734cc25f085
 #EXTINF:-1 tvg-logo="https://static.xoilaczzggz.tv/images/logo-xlz.png" group-title="FEED XOILAXCZ",FOOTBALL TV 5 TOM
@@ -2066,11 +2042,6 @@ https://raw.githubusercontent.com/B-inal-123/s-asia/inal-22/Starsport3.m3u8
 https://raw.githubusercontent.com/B-inal-123/s-asia/inal-22/StarsportSelect1.m3u8
 #EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logos/images/7/7c/Star_Sports_Select_HD2.png/revision/latest/scale-to-width-down/1200?cb=20250209084255&path-prefix=vi" group-title="SPORTS LUAR",STAR SPORT SELECT 2
 https://raw.githubusercontent.com/B-inal-123/s-asia/inal-22/StarsportSelect2.m3u8
-#EXTINF:-1 tvg-id="monomax.id" tvg-name="beIN Sports 4" tvg-logo="https://i.imgur.com/mRhtasR.png" group-title="Indonesia;SPORTS LUAR",MONOMAX SPORTS
-#EXTVLCOPT:http-user-agent=ExoPlayerDemo/2.15.1 (Linux; Android 13) ExoPlayerLib/2.15.1
-https://udn-streamer1.cdn.3bbtv.com:8443/3bb/live/29/29.mpd
-#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzX9nwRpYNWpwoxmO1z-jC7IR5xmZO8_imPJcj1c_acg&s=10" group-title="SPORTS LUAR",MONO MAX 1
-https://raw.githubusercontent.com/B-inal-123/s-asia/inal-22/TruePL1.m3u8
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/DSports_logo_2022.svg/960px-DSports_logo_2022.svg.png?_=20240702054322" group-title="SPORTS LUAR",DSPORTS
 https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash-sd/enc/hubonmgf5k/out/v1/10560d92577e4917973aa4624124ecd6/cenc-sd.mpd
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/DSports_logo_2022.svg/960px-DSports_logo_2022.svg.png?_=20240702054322" group-title="SPORTS LUAR",DSPORTS+
@@ -2217,14 +2188,15 @@ http://weaseltv.live:80/play/live.php?mac=00:1B:79:FF:09:C5&stream=1905897&exten
 http://weaseltv.live:80/play/live.php?mac=00:1B:79:FF:09:C5&stream=1905906&extension=ts
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/MotoGP_logo_%282024%29.svg/960px-MotoGP_logo_%282024%29.svg.png" group-title="Sky & Astro",SKY Sport MotoGP
 http://weqcffv8.vexiumis.top/iptv/B3VXS594EX7ZAW/19133/index.m3u8
+#EXTINF:-1 tvg-id="skysports.com" tvg-name="Sky sports" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTp-L0sZjEZ3cKD6i2P3EJFYekiy9N4TwPgmqgr268Row&s=10" group-title="Sky & Astro",Sky Sports Premier League
+#EXTVLCOPT:http-user-agent=ExoPlayerDemo/2.15.1 (Linux; Android 13) ExoPlayerLib/2.15.1
+http://iptv.watchhd.to:5050/didi1909/8mMDqRPor23t/310091
 #EXTINF:-1 tvg-id="astro.my" tvg-name="Astro" tvg-logo="https://i.imgur.com/FumZplD.jpeg" group-title="Malaysia;Sky & Astro",Astro Arena
 http://45.139.122.199:2095/live/Pm2e5NEugM/ngORTY5fvp/1841536.ts
 #EXTINF:-1 tvg-id="astro.my" tvg-name="Astro" tvg-logo="https://i.imgur.com/GZ9YFx7.jpeg" group-title="Malaysia;Sky & Astro",Astro Arena 2
 http://tv-premium-pro.com/wezqqszfr2/i7481xvrdf/1163657
 #EXTINF:-1 tvg-id="astro.my" tvg-name="Astro" tvg-logo="https://i.imgur.com/ix2DJes.jpeg" group-title="Malaysia;Sky & Astro",Astro Premier League 1
 http://tv-premium-pro.com/wezqqszfr2/i7481xvrdf/1163684
-#EXTINF:-1 tvg-id="astro.my" tvg-name="Astro" tvg-logo="https://i.imgur.com/A1ZCf6F.jpeg" group-title="Malaysia;Sky & Astro",Astro Premier League 2
-http://tv-premium-pro.com/wezqqszfr2/i7481xvrdf/1163683
 #EXTINF:-1 tvg-id="astro.my" tvg-name="Astro" tvg-logo="https://i.imgur.com/gjTNt6Y.jpeg" group-title="Malaysia;Sky & Astro",Astro Cricket
 http://tv.cloudcdn.me/live.ts?channelId=26034&uid=3453&deviceMac=00:1A:79:01:04:AC
 #EXTINF:-1 tvg-id="skysports.com" tvg-name="Sky sports" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTp-L0sZjEZ3cKD6i2P3EJFYekiy9N4TwPgmqgr268Row&s=10" group-title="Sky & Astro",Sky Sports Football
@@ -2421,18 +2393,22 @@ http://cdn6.163189.xyz/163189/chu
 https://tglmp03.akamaized.net/out/v1/43856347987b4da3890360b0d18b5dc5/manifest.mpd
 #EXTINF:-1 tvg-name="oktolidays" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSL5QjEfpnzGolo692NXcaZ9UJhZEE96tu-3r4M7pQYOA&s=10" group-title="SINGAPORE",Oktolidays
 https://tglmp03.akamaized.net/out/v1/be732843b7d24bada23e13810282e55f/manifest.mpd
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/b/b2/Sukan_RTM_1_April.png" group-title="MALAYSIA",SUKAN RTM
+https://shorter.me/SUKAN
+#EXTINF:-1 tvg-logo="https://i.imgur.com/EpQCkcy.png" group-title="MALAYSIA",MYSPORTS
+https://cuwf8jayq1.tenbytecdn.com/live/mysport/abr/mysport_720p/chunks.m3u8?md5=bdP8cbWMDLGkyqjwqUJ6KQ&expires=1791228591
 #EXTINF:-1 tvg-id="TV1" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/62/Tv1-rtm-logo-vector-720x340.jpg" group-title="MALAYSIA" tvg-url="https://raw.githubusercontent.com/apistech/project/refs/heads/main/ApisTECH.xml",TV 1
-https://d25tgymtnqzu8s.cloudfront.net/main/A0jyR3/dl_1080p.m3u8
+https://cuwf8jayq1.tenbytecdn.com/live/tv1/playlist.m3u8?md5=G-4cSa-H6862aWGy5h070Q&expires=1791657810
 #EXTINF:-1 tvg-id="TV2" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/5/5c/TV2_RTM.png" group-title="MALAYSIA" tvg-url="https://raw.githubusercontent.com/AqFad2811/epg/refs/heads/main/rtmklik.xml",TV 2
-https://d25tgymtnqzu8s.cloudfront.net/smil:tv2/chunklist_b2596000_slENG.m3u8?id=2
+https://cuwf8jayq1.tenbytecdn.com/live/tv2/playlist.m3u8?md5=A6xt4QGoFw-kZy-yBt6HfQ&expires=1791658297
 #EXTINF:-1 tvg-id="Okey" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/b/b9/Okey_RTM.png" group-title="MALAYSIA" tvg-url="https://raw.githubusercontent.com/AqFad2811/epg/refs/heads/main/rtmklik.xml",TV Okey
-https://d25tgymtnqzu8s.cloudfront.net/smil:okey/chunklist_b2596000_slENG.m3u8?id=3
+https://cuwf8jayq1.tenbytecdn.com/live/tvokey/abr/tvokey_1080p/chunks.m3u8?md5=vSHmoPyovEsJyxo9uXgjfg&expires=1791226922
+#EXTINF:-1 tvg-logo="https://i.imgur.com/PZcz6Pw.png" group-title="MALAYSIA",FREE MOVIES
+https://cuwf8jayq1.tenbytecdn.com/live/freemovies/abr/freemovies_1080p/chunks.m3u8?md5=9TG9j_y0NfXDler8ZMMRpA&expires=1791227645
 #EXTINF:-1 tvg-id="108" tvg-logo="https://e7.pngegg.com/pngimages/130/418/png-clipart-8tv-malaysia-media-prima-television-tv3-bulan-sabit-purple-television.png" group-title="MALAYSIA" tvg-url="https://raw.githubusercontent.com/apistech/project/refs/heads/main/ApisTECH.xml",8TV Malaysia
 https://unifi-live05.secureswiftcontent.com/UnifiHD/live08.mpd
 #EXTINF:-1 tvg-id="BeritaRTM" tvg-logo="https://rtm-images.glueapi.io/320x0/live_channel/berita_bckg.png" group-title="MALAYSIA" tvg-url="https://raw.githubusercontent.com/AqFad2811/epg/refs/heads/main/rtmklik.xml",Berita RTM
 https://d25tgymtnqzu8s.cloudfront.net/main/VPxRb6/dl_1080p.m3u8
-#EXTINF:-1 tvg-id="TV6" tvg-logo="https://rtm-images.glueapi.io/320x0/live_channel/SALURAN_1920x1080px_TV6.jpg" group-title="MALAYSIA" tvg-url="https://raw.githubusercontent.com/AqFad2811/epg/refs/heads/main/rtmklik.xml",TV 6
-https://d25tgymtnqzu8s.cloudfront.net/smil:tv6/chunklist_b2596000_slENG.m3u8?id=6
 #EXTINF:-1 tvg-logo="https://rtm-images.glueapi.io/320x0/fast_channel/ROLL_CHANNEL.jpg" group-title="MALAYSIA",ROLL
 https://d1sq2slp9afh7o.cloudfront.net/smil:roll/chunklist_b2596000_slENG.m3u8
 #EXTINF:-1 tvg-logo="https://rtm-images.glueapi.io/320x0/fast_channel/SNAP_CHANNEL.jpg" group-title="MALAYSIA",SNAP
