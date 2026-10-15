@@ -9,6 +9,47 @@ https://dl.dropboxusercontent.com/scl/fi/ywpljc2vvj4k654v2cx58/lv_0_202610011718
 https://dl.dropboxusercontent.com/scl/fi/ywpljc2vvj4k654v2cx58/lv_0_20261001171821.mp4?rlkey=dbt6gjtie6n88anc6ug1a33ag&st=a9d2bld1&dl=1
 
 
+#EXTINF:-1 group-title="LIVE 15-OKT-26" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1xS1XqTKScrSYTKi5zHxwAMVa4AAac2Qbh4Bz7lODwU4Ppi9Yzlvcxd24&s=10",23.45||AZ ALKMAR VS H BEER SHEVA
+https://live2.jorvakstreamcache.com/live/channel16.m3u8
+#EXTINF:-1 group-title="LIVE 15-OKT-26" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1xS1XqTKScrSYTKi5zHxwAMVa4AAac2Qbh4Bz7lODwU4Ppi9Yzlvcxd24&s=10",23.45||LECH POZNAN VS BAYERN LEVERKUZEN
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referer=https://webtv.sk/tv/
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=11223344556677889900112233445566:4b80724d0ef86bcb2c21f7999d67739d
+https://dash2.antik.sk/stream/nvidia_sport2/playlist_cenc.mpd
+#EXTINF:-1 group-title="LIVE 15-OKT-26" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1xS1XqTKScrSYTKi5zHxwAMVa4AAac2Qbh4Bz7lODwU4Ppi9Yzlvcxd24&s=10",23.45||LYON VS CRYSTAL PALACE
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=69a5aa835a061ce64a630d1046727e40:d02feac8a999bd06bf4059bf33411749
+https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/rhf2dwosdt/out/v1/ee550d2a68d846c797e6ce4de2e8b76d/cenc.mpd
+#EXTINF:-1 group-title="LIVE 15-OKT-26" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1xS1XqTKScrSYTKi5zHxwAMVa4AAac2Qbh4Bz7lODwU4Ppi9Yzlvcxd24&s=10",23.45||FC SALZBURG VS AC MILAN
+#EXTVLCOPT:http-referrer=https://iron1.xn--x2rw19a.space/000/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36
+https://sw.run/CAMPKTR-PRIMA-SPORT2
+#EXTINF:-1 group-title="LIVE 15-OKT-26" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1xS1XqTKScrSYTKi5zHxwAMVa4AAac2Qbh4Bz7lODwU4Ppi9Yzlvcxd24&s=10",23.45||UNION SG VS REAL SOCIEDAD
+#EXTVLCOPT:http-referrer=https://pulse1.sanseny001.shop/000/
+#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36"
+https://pulse1.sanseny001.shop/puk4/usergendx3j2x4tqrnd.m3u8
+#EXTINF:-1 group-title="LIVE 15-OKT-26" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1xS1XqTKScrSYTKi5zHxwAMVa4AAac2Qbh4Bz7lODwU4Ppi9Yzlvcxd24&s=10",23.45||CSKA SOFIA VS AS MONACCO
+https://live2.jorvakstreamcache.com/live/channel18.m3u8
+#EXTINF:-1 group-title="LIVE 15-OKT-26" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1xS1XqTKScrSYTKi5zHxwAMVa4AAac2Qbh4Bz7lODwU4Ppi9Yzlvcxd24&s=10",23.45||HADJUK SPILT VS AJAX
+https://tg050gr3uomttgr31hct1gczdkc3pptwzc3jt.100ycdn.com/live1.quickscoreboardz.com/live/channel12/playlist.m3u8?wsSecret=1ae75a9e71a1c9b9d86663f97887b312&wsABSTime=1792125483&wsSession=9e08c1b38034baf63f366dae-179208228756874&wsIPSercert=dfa7a860ed6024e30bda647a52372756&wsBindIP=2&wsserid=19560480166232750
+#EXTINF:-1 group-title="LIVE 15-OKT-26" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1xS1XqTKScrSYTKi5zHxwAMVa4AAac2Qbh4Bz7lODwU4Ppi9Yzlvcxd24&s=10",23.45||KUOPION VS TRAPZONSPOR
+https://tg056gr3uomttgr31hctwgczdncjufisg17ufgr.100ycdn.com/live1.quickscoreboardz.com/live/channel14/playlist.m3u8?wsSecret=53faf16361d94ba36d5ce0a4d0ff7589&wsABSTime=1792125618&wsSession=70af64b2e9d11726808a7287-179208242252359&wsIPSercert=dfa7a860ed6024e30bda647a52372756&wsBindIP=2&wsserid=19560480166232784
+
+#EXTINF:-1 group-title="LIVE 16-OKT-26" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1xS1XqTKScrSYTKi5zHxwAMVa4AAac2Qbh4Bz7lODwU4Ppi9Yzlvcxd24&s=10",02.00||BENFICA VS CELTIC
+https://live2.jorvakstreamcache.com/live/channel15.m3u8
+#EXTINF:-1 group-title="LIVE 16-OKT-26" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1xS1XqTKScrSYTKi5zHxwAMVa4AAac2Qbh4Bz7lODwU4Ppi9Yzlvcxd24&s=10",02.00||CELTA VIGO VS JUVENTUS
+#EXTVLCOPT:http-referrer=https://iron1.xn--x2rw19a.space/000/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36
+https://sw.run/CAMPKTR-PRIMA-SPORT2
+#EXTINF:-1 group-title="LIVE 16-OKT-26" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1xS1XqTKScrSYTKi5zHxwAMVa4AAac2Qbh4Bz7lODwU4Ppi9Yzlvcxd24&s=10",02.00||MARSEILLE VS OLYMPIACOS
+https://live2.jorvakstreamcache.com/live/channel6.m3u8
+#EXTINF:-1 group-title="LIVE 16-OKT-26" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1xS1XqTKScrSYTKi5zHxwAMVa4AAac2Qbh4Bz7lODwU4Ppi9Yzlvcxd24&s=10",02.00||ATALANTA VS FAPOS FC
+https://tg056gr3uomttgr31hctwgczdncjufisg17ufgr.100ycdn.com/live1.quickscoreboardz.com/live/channel14/playlist.m3u8?wsSecret=53faf16361d94ba36d5ce0a4d0ff7589&wsABSTime=1792125618&wsSession=70af64b2e9d11726808a7287-179208242252359&wsIPSercert=dfa7a860ed6024e30bda647a52372756&wsBindIP=2&wsserid=19560480166232784
+#EXTINF:-1 group-title="LIVE 16-OKT-26" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1xS1XqTKScrSYTKi5zHxwAMVa4AAac2Qbh4Bz7lODwU4Ppi9Yzlvcxd24&s=10",02.00||PRIGTON VS CAUNO ZALGRIS
+https://live2.jorvakstreamcache.com/live/channel19.m3u8
 
 
 #EXTINF:-1 group-title="AFC CHAMPIONS LEAGUE ELITE" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZvSzE_xRRy5RPoZZT-RgNc5iwMh9QGYeVhJh1-s9PEqgGehqvgAhbjbRm&s=10",Fancode 2
@@ -41,6 +82,46 @@ https://allcutv.rctiplus.id/gtv2023.m3u8
 #EXTVLCOPT:http-user-agent=android-R+
 #EXTVLCOPT:http-referrer=https://www.rctiplus.com/
 https://allcutv.rctiplus.id/inews2023.m3u8
+
+##UEFA EUROPA LEAGUE
+
+
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referer=https://webtv.sk/tv/
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=11223344556677889900112233445566:4b80724d0ef86bcb2c21f7999d67739d
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgld-zM5kreabRHpv4w2SjIeuNLo_RL74HiNWYg4YN-w&s=10" tvg-id="kokotv.id" group-title="UEFA EUROPA LEAGUE",Sport1 FHD
+https://dash2.antik.sk/stream/nvidia_sport_1/playlist_cenc.mpd
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referer=https://webtv.sk/tv/
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=11223344556677889900112233445566:4b80724d0ef86bcb2c21f7999d67739d
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgld-zM5kreabRHpv4w2SjIeuNLo_RL74HiNWYg4YN-w&s=10" tvg-id="kokotv.id" group-title="UEFA EUROPA LEAGUE",Sport2 FHD
+https://dash2.antik.sk/stream/nvidia_sport2/playlist_cenc.mpd
+
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgld-zM5kreabRHpv4w2SjIeuNLo_RL74HiNWYg4YN-w&s=10" tvg-id="kokotv.id" group-title="UEFA EUROPA LEAGUE",DAZN 1
+#EXTVLCOPT:http-user-agent="Mozilla/5.0 (iPhone; CPU iPhone OS 14_4_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Mobile/15E148 Safari/604.1"
+#EXTVLCOPT:http-referrer=https://aesport.tv/
+https://liveua.cdnfly.click/pt_elevensport1/index.m3u8
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgld-zM5kreabRHpv4w2SjIeuNLo_RL74HiNWYg4YN-w&s=10" tvg-id="kokotv.id" group-title="UEFA EUROPA LEAGUE",PRIMA SPORT 1
+#EXTVLCOPT:http-referrer=https://iron1.xn--x2rw19a.space/000/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36
+https://iron1.xn--x2rw19a.space/puk1/usergenrx0cir27aq.m3u8
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgld-zM5kreabRHpv4w2SjIeuNLo_RL74HiNWYg4YN-w&s=10" tvg-id="kokotv.id" group-title="UEFA EUROPA LEAGUE",PRIMA SPORT 2
+#EXTVLCOPT:http-referrer=https://iron1.xn--x2rw19a.space/000/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36
+https://sw.run/CAMPKTR-PRIMA-SPORT2
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgld-zM5kreabRHpv4w2SjIeuNLo_RL74HiNWYg4YN-w&s=10" tvg-id="kokotv.id" group-title="UEFA EUROPA LEAGUE",PRIMA SPORT 4
+#EXTVLCOPT:http-referrer=https://pulse1.sanseny001.shop/000/
+#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36"
+https://pulse1.sanseny001.shop/puk4/usergendx3j2x4tqrnd.m3u8
+
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgld-zM5kreabRHpv4w2SjIeuNLo_RL74HiNWYg4YN-w&s=10" tvg-id="kokotv.id" group-title="UEFA EUROPA CONFERENCE",
+
 
 
  #EXTINF:-1 tvg-id="UEFA NL" group-title="UEFA NATIONS LEAGUE" tvg-logo="https://r2.thesportsdb.com/images/media/league/badge/cwsp321698386224.png",KOKO FEED 1
@@ -155,6 +236,9 @@ https://ott-balancer.tvri.go.id/live/eds/SportHD/hls/SportHD.m3u8
 https://naori-test.netgenx.site/pxx.php?shk_cid=gd04
 
 <<VOLLYBALL TV>>
+#EXTINF:-1 group-title="VOLLEYBALL TV" tvg-logo="https://thumbor.prod.vidiocdn.com/huNAVUucjCBn4ieVV7fpSyCXelI=/filters:quality(70)/vidio-web-prod-video/uploads/video/image/9677961/saksikan-liga-voli-mahasiswa-2026-di-vidio-e99939.jpg",LVM LIGA VOLLY MAHASISWA
+#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleCoreMedia/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"
+https://iptv.lancartech.co.id:443/Wawan007/Wawan1234/23.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="https://asset.tribunnews.com/xb52bAZvTBgTvxSg1R9UHuqv70c=/1200x675/filters:upscale():quality(30):format(webp):focal(0.5x0.5:0.5x0.5)/kalteng/foto/bank/originals/KOVO-Cup-2026.jpg" group-title="VOLLEYBALL TV",KOVO CUP
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #EXTVLCOPT:http-referrer=https://www.visionplus.id/
@@ -526,9 +610,11 @@ https://aspaltvpasti.top/Drmvidbos/Akun121/bosstv.m3u8?id=19046
 
 
 
-#EXTINF:-1 group-title="LOKAL" tvg-logo="https://media.tenor.com/WoQZgPVVZHQAAAAM/rcti-rcti29.gif",RCTI HD
+#EXTINF:-1 group-title="LOKAL" tvg-logo="https://media.tenor.com/WoQZgPVVZHQAAAAM/rcti-rcti29.gif",RCTI FHD
 https://raw.githubusercontent.com/Bluestraveller13/super-duper-spork/refs/heads/main/RCTI.m3u8
 
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/apistech/project/refs/heads/main/logo/image_ch_sctv.png" group-title="LOKAL",SCTV FHD
+https://raw.githubusercontent.com/Bluestraveller13/super-duper-spork/refs/heads/main/SCTV.m3u8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/apistech/project/refs/heads/main/logo/image_ch_sctv.png" group-title="LOKAL",SCTV HD
 #EXTVLCOPT:http-user-agent=VidioPlayer/7.27.12
@@ -536,7 +622,9 @@ https://raw.githubusercontent.com/Bluestraveller13/super-duper-spork/refs/heads/
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 https://vidsemar.pages.dev/terraluna3/204.mpd
 
-
+#EXTINF:-1 group-title="LOKAL" tvg-logo="https://media1.giphy.com/media/v1.Y2lkPTZjMDliOTUybzViNzNhMjV5dWJycmw5aGZhcGtydjN3ODhzb2V5cTV4eGYxN3VoeSZlcD12MV9zdGlja2Vyc19zZWFyY2gmY3Q9cw/fGI87nRZ42IncYkGP5/giphy.gif",INDOSIAR FHD
+#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleCoreMedia/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"
+https://iptv.lancartech.co.id:443/Wawan007/Wawan1234/11.m3u8
 
 #EXTINF:-1 group-title="LOKAL" tvg-logo="https://media1.giphy.com/media/v1.Y2lkPTZjMDliOTUybzViNzNhMjV5dWJycmw5aGZhcGtydjN3ODhzb2V5cTV4eGYxN3VoeSZlcD12MV9zdGlja2Vyc19zZWFyY2gmY3Q9cw/fGI87nRZ42IncYkGP5/giphy.gif",INDOSIAR HD
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleCoreMedia/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"
@@ -546,8 +634,12 @@ https://vidsemar.pages.dev/terraluna3/204.mpd
 https://vidsemar.pages.dev/terraluna3/205.mpd
 
 #EXTINF:-1 group-title="LOKAL" tvg-logo="https://raw.githubusercontent.com/apistech/project/refs/heads/main/logo/imageCir_MNC-180x180_2025_11_06_13_06_02.jpg",MNCTV HD
-https://raw.githubusercontent.com/Bluestraveller13/super-duper-spork/refs/heads/main/MNCTV.m3u8
+#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleCoreMedia/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"
+https://iptv.lancartech.co.id:443/Wawan007/Wawan1234/22.m3u8
 
+#EXTINF:-1 tvg-id="ANTV.id@SD" group-title="LOKAL" tvg-logo="https://64.media.tumblr.com/77d7b93e54d6a77a81b2bec8d1932691/tumblr_ofkh5xUTcX1rqdxf9o1_1280.gif",ANTV FHD
+#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleCoreMedia/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"
+https://iptv.lancartech.co.id:443/Wawan007/Wawan1234/1.m3u8
 
 #EXTINF:-1 tvg-id="ANTV.id@SD" group-title="LOKAL" tvg-logo="https://64.media.tumblr.com/77d7b93e54d6a77a81b2bec8d1932691/tumblr_ofkh5xUTcX1rqdxf9o1_1280.gif",ANTV HD
 #EXTVLCOPT:http-user-agent=VidioPlayer/6.31.6
