@@ -22,10 +22,10 @@ https://raw.githubusercontent.com/Bluestraveller13/super-duper-spork/refs/heads/
 #EXTVLCOPT:http-user-agent=android-R+
 #EXTVLCOPT:http-referrer=https://www.rctiplus.com/
 https://r-plus.sedotcw3.workers.dev/index.m3u8?id=inews
+#EXTINF:-1 tvg-id="kokotv.id" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgld-zM5kreabRHpv4w2SjIeuNLo_RL74HiNWYg4YN-w&s=10" group-title="Indonesia;UEFA EUROPA LEAGUE",SCTV FHD
+https://raw.githubusercontent.com/Bluestraveller13/super-duper-spork/refs/heads/main/SCTV.m3u8
 #EXTINF:-1 tvg-id="Digital.id" tvg-name="SCTV Digital (server 4)" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRq4jbwkNAS1xGvhBM9mdJGvl-N5R8kaZDPzXmQcbQ9w&s=10" group-title="Indonesia;OLAHRAGA LOKAL",SCTV HD CH2
 http://opplextv.cyou:8080/nasir6160/nasir/351030
-#EXTINF:-1 tvg-id="SCTV.id" tvg-logo="https://i.imgur.com/9nGJaOL.jpeg" group-title="Indonesia" http-referrer="" http-user-agent="",SCTV
-http://202.169.224.202:8800/udp/239.9.1.29:1234
 #EXTINF:-1 tvg-id="Indosiar.id" tvg-name="Indosiar" tvg-logo="http://goldenid.online:80/images/K16NaGdQPPgIS7sfJa07qSIm5NJksqx8sVb1z9AAWfrGmS0OHTNXq3ZLY7_xxUoGAKzMpZcy77-gvlhps881ZQhDqE0vDWAsckYNnVIcaCxIdLQpSPIVh97tLxaRQcG2.jpg" group-title="Indonesia;LOKAL INDONESIA™" xui-id="54684",Indosiar
 http://goldenid.online:80/play/38ifGdTRCzSHegy1-Yigj_BhM5sA30rFRVJ6_obdVzMvwLIRezD1TyfNKEHjuqPJ
 #EXTINF:-1 tvg-id="Indosiar.id" tvg-name="Indosiar.id" tvg-logo="https://images.indihometv.com/logo_indosiar_ver2.png" group-title="Indonesia;Nasional",Indosiar
@@ -37,7 +37,7 @@ https://beetv.my.id/rbtv/indosiar.m3u
 https://sw.run/CAMPWIKI-MOJIFHD
 #EXTINF:-1 tvg-id="Moji.idSD" tvg-logo="https://thumbor.prod.vidiocdn.com/g7gTjD2Il1GI4DJULOZ1cv6NSj4=/230x230/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/206/1823dc.png" group-title="Indonesia;Indonesia Channels" tvg-url="https://raw.githubusercontent.com/apistech/project/refs/heads/main/epgs/guide.xml",MOJI TV (Transcorp)
 http://202.150.161.212:5000/live/channel39/playlist.m3u8
-#EXTINF:-1 tvg-id="ANTV.idSD" tvg-logo="https://64.media.tumblr.com/77d7b93e54d6a77a81b2bec8d1932691/tumblr_ofkh5xUTcX1rqdxf9o1_1280.gif" group-title="Indonesia;LOKAL",ANTV FHD
+#EXTINF:-1 tvg-id="itzplay.id" tvg-logo="https://www.ragucommunication.com/site/assets/files/1672/logo_1280.1280x0p50x50.gif" group-title="Indonesia;SERIE A LEAGUE",ANTV FHD
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleCoreMedia/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"
 https://iptv.lancartech.co.id:443/Wawan007/Wawan1234/1.m3u8
 #EXTINF:-1 tvg-id="ANTV.id" tvg-name="ANTV" tvg-logo="http://goldenid.online:80/images/K16NaGdQPPgIS7sfJa07qSIm5NJksqx8sVb1z9AAWfp_i0tmjPj3VrKalqMpx_bGRBqfuATCN3B1T9XX2I4xrbTampDPlTN2-c_YwWGxtOfFDKT8hWeT4wZxC8DIwXdf.jpg" group-title="Indonesia;LOKAL INDONESIA™" xui-id="25718",ANTV
@@ -120,8 +120,8 @@ https://op-flashcon-digdayahd-1.dens.tv/h/h37/index.m3u8
 https://op-flashcon-digdayahd-1.dens.tv/h/h314/stream.m3u8?app_type=web&userid=lite&chname=Berita_Satu
 #EXTINF:-1 tvg-logo="https://i.imgur.com/hk4Z8wi.jpeg" group-title="Indonesia;Olahraga" http-referrer="" http-user-agent="",Bri Super League
 https://tvratu.my.id/vid/index.mpd?id=205&type=dash
-#EXTINF:-1 tvg-logo="https://i.imgur.com/hk4Z8wi.jpeg" group-title="Indonesia;Olahraga" http-referrer="" http-user-agent="",Bri Super League (Alt 3)
-https://tvratu.my.id/vid/index.mpd?id=19385&type=dash
+#EXTINF:-1 tvg-logo="https://i.imgur.com/hk4Z8wi.jpeg" group-title="Indonesia;Olahraga" http-referrer="" http-user-agent="",Bri Super League (Alt 2)
+https://tvratu.my.id/vid/index.mpd?id=19353&type=dash
 #EXTINF:-1 tvg-id="fifa" tvg-logo="https://beetv.my.id/logo/timnasday.png" group-title="Olahraga",Bola | FIFA+ 1
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36
 https://a62dad94.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWV1X0ZJRkFQbHVzRW5nbGlzaF9ITFM/playlist.m3u8
@@ -149,10 +149,10 @@ https://dlhd.iclik.workers.dev/?channel=TSN1&play=1
 #EXTINF:-1 tvg-id="SkySportsGPIT" tvg-logo="https://beetv.my.id/logo/sportstars.png" group-title="Olahraga",Live Event #3
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 https://dlhd.iclik.workers.dev/?channel=TSN4&play=1
-#EXTINF:-1 tvg-logo="https://i.imgur.com/OEqbYYe.jpeg" group-title="Indonesia;Olahraga" http-referrer="" http-user-agent="",Pegadaian Championship (Alt 3)
-https://tvratu.my.id/vid/index.mpd?id=19883&type=dash
-#EXTINF:-1 tvg-logo="https://i.imgur.com/OEqbYYe.jpeg" group-title="Indonesia;Olahraga" http-referrer="" http-user-agent="",Pegadaian Championship (Alt 4)
-https://tvratu.my.id/vid/index.mpd?id=19542&type=dash
+#EXTINF:-1 tvg-logo="https://i.imgur.com/OEqbYYe.jpeg" group-title="Indonesia;Olahraga" http-referrer="" http-user-agent="",Pegadaian Championship (Alt 2)
+https://tvratu.my.id/vid/index.mpd?id=20833&type=dash
+#EXTINF:-1 tvg-logo="https://i.imgur.com/OEqbYYe.jpeg" group-title="Indonesia;Olahraga" http-referrer="" http-user-agent="",Pegadaian Championship (Alt 5)
+https://tvratu.my.id/vid/index.mpd?id=19543&type=dash
 #EXTINF:-1 tvg-logo="https://i.imgur.com/Q1QoQmA.jpeg" group-title="Indonesia;Olahraga" http-referrer="" http-user-agent="",Volleyball
 https://tvratu.my.id/vid/index.mpd?id=21178
 #EXTINF:-1 tvg-logo="https://i.imgur.com/xqPgGT4.jpeg" group-title="Indonesia;Olahraga" http-referrer="" http-user-agent="",Volleyball (Alt 2)
@@ -746,6 +746,8 @@ https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Zeebollywood/default/manifest.mpd
 https://d3b0v7fggu5zwm.cloudfront.net/out/v1/d2c68a3dfb644808b416bd90dcc92d5f/index.mpd
 #EXTINF:-1 tvg-id="kokotv.id" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgld-zM5kreabRHpv4w2SjIeuNLo_RL74HiNWYg4YN-w&s=10" group-title="Indonesia;UEFA EUROPA LEAGUE",Sport1 FHD
 https://dash2.antik.sk/stream/nvidia_sport_1/playlist_cenc.mpd
+#EXTINF:-1 tvg-id="kokotv.id" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgld-zM5kreabRHpv4w2SjIeuNLo_RL74HiNWYg4YN-w&s=10" group-title="Indonesia;UEFA EUROPA LEAGUE",Sport2 FHD
+https://dash2.antik.sk/stream/nvidia_sport2/playlist_cenc.mpd
 #EXTINF:-1 tvg-id="kokotv.id" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgld-zM5kreabRHpv4w2SjIeuNLo_RL74HiNWYg4YN-w&s=10" group-title="Indonesia;UEFA EUROPA LEAGUE",DAZN 1
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (iPhone; CPU iPhone OS 14_4_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Mobile/15E148 Safari/604.1"
 #EXTVLCOPT:http-referrer=https://aesport.tv/
@@ -754,6 +756,14 @@ https://liveua.cdnfly.click/pt_elevensport1/index.m3u8
 #EXTVLCOPT:http-referrer=https://iron1.xn--x2rw19a.space/000/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36
 https://iron1.xn--x2rw19a.space/puk1/usergenrx0cir27aq.m3u8
+#EXTINF:-1 tvg-id="kokotv.id" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgld-zM5kreabRHpv4w2SjIeuNLo_RL74HiNWYg4YN-w&s=10" group-title="Indonesia;UEFA EUROPA LEAGUE",PRIMA SPORT 2
+#EXTVLCOPT:http-referrer=https://iron1.xn--x2rw19a.space/000/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36
+https://sw.run/CAMPKTR-PRIMA-SPORT2
+#EXTINF:-1 tvg-id="kokotv.id" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgld-zM5kreabRHpv4w2SjIeuNLo_RL74HiNWYg4YN-w&s=10" group-title="Indonesia;UEFA EUROPA LEAGUE",PRIMA SPORT 4
+#EXTVLCOPT:http-referrer=https://pulse1.sanseny001.shop/000/
+#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36"
+https://pulse1.sanseny001.shop/puk4/usergendx3j2x4tqrnd.m3u8
 #EXTINF:-1 tvg-id="itzplay.id" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdKwqrduizs9EBwo1d2JMKBCD30kW9KJhyDjX2hsG4IG7XD5RKA8_rqxNo&s=10" group-title="Indonesia;OLIMPIADE ASIAN GAMES 2026",Asian Games 2026 1
 https://tglmp03.akamaized.net/out/v1/7cfe6d15c127407588568af9f4574a21/manifest.mpd
 #EXTINF:-1 tvg-id="itzplay.id" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdKwqrduizs9EBwo1d2JMKBCD30kW9KJhyDjX2hsG4IG7XD5RKA8_rqxNo&s=10" group-title="Indonesia;OLIMPIADE ASIAN GAMES 2026",Asian Games 2026 2
