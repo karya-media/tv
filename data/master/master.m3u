@@ -46,12 +46,13 @@ http://goldenid.online:80/play/38ifGdTRCzSHegy1-YigjxOuroSUi59En8RSMBtmpgYX7yVVf
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://20.detik.com/
 https://video.detik.com/transtv/smil:transtv.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="Trans7.idSD" tvg-logo="https://thumbor.prod.vidiocdn.com/-MEB2a6J4sB6SvBDimCb7JYP6WY=/230x230/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/734/131514.png" group-title="Indonesia;Indonesia Channels" tvg-url="https://raw.githubusercontent.com/apistech/project/refs/heads/main/epgs/guide.xml",Trans7 (Vision+)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
-#EXTVLCOPT:http-referrer=https://www.visionplus.id/
-https://d2tjypxxy769fn.cloudfront.net/out/v1/0fd7b7d368bc44bc9b4dece20acc3e33/index.mpd
 #EXTINF:-1 tvg-id="Trans7.idSD" tvg-logo="https://thumbor.prod.vidiocdn.com/-MEB2a6J4sB6SvBDimCb7JYP6WY=/230x230/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/734/131514.png" group-title="Indonesia;Indonesia Channels" tvg-url="https://raw.githubusercontent.com/apistech/project/refs/heads/main/epgs/guide.xml",Trans7 (Transcorp)
 https://cdnjktbpid02.transvision.co.id/riutx01-3f9d9dd6012b7cdd7558fdd44b9a002b/dashx/VFJBTlM3LW15/manifest.mpd?signature=YzBiZjU3ZWM1MmJhZmQ5MTA1Nzk2YmRjN2JiMWQ1ZWM=\u0026time=77777777777\u0026device_id=YMzez1yKjvSBsa_0jraU0iwHcNb2zq3SnAKXzPxbWK_aUYM85OMn
+#EXTINF:-1 tvg-id="Trans7.idSD" tvg-logo="https://thumbor.prod.vidiocdn.com/-MEB2a6J4sB6SvBDimCb7JYP6WY=/230x230/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/734/131514.png" group-title="Indonesia;Indonesia Channels" tvg-url="https://raw.githubusercontent.com/apistech/project/refs/heads/main/epgs/guide.xml",Trans7 HD
+#EXTVLCOPT:http-referer=https://www.cnbcindonesia.com/
+#EXTVLCOPT:http-origin=https://20.detik.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+https://green-night-d2b4.iontv.workers.dev/trans7.m3u8
 #EXTINF:-1 tvg-id="tvOne.idSD" tvg-logo="https://thumbor.prod.vidiocdn.com/APQ6a9vXvN6lU1zjeyL15IV_AJQ=/230x230/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/783/07750c.png" group-title="Indonesia;Indonesia Channels" tvg-url="https://raw.githubusercontent.com/apistech/project/refs/heads/main/epgs/guide.xml",TVOne (Vision+)
 #EXTVLCOPT:http-referrer=https://www.visionplus.id/
 https://d3b0v7fggu5zwm.cloudfront.net/out/v1/f3df48faafaf4198a65b9763140fce30/index.mpd
@@ -61,8 +62,9 @@ https://d3b0v7fggu5zwm.cloudfront.net/out/v1/f3df48faafaf4198a65b9763140fce30/in
 https://op-group1-densxvisionhd-1.dens.tv/h/h40/01.m3u8
 #EXTINF:-1 tvg-id="RCTI.id" tvg-name="METRO TV HD" tvg-logo="http://goldenid.online:80/images/K16NaGdQPPgIS7sfJa07qSIm5NJksqx8sVb1z9AAWfp2w0evQv15jl0vwelvZXCnn6Yy1t0qbe5bXUJ_-q3lE_8mV2-gId6xsRNkJSSca2mU9evpiaTH8ylJkWmT9GUN.jpg" group-title="Indonesia;LOKAL INDONESIA™" xui-id="25722",METRO TV HD
 http://goldenid.online:80/play/38ifGdTRCzSHegy1-Yigj95ULE1QD9UsLfYoU55l4hGWqF6sm-7GxWBP9ZgwIWOl
-#EXTINF:-1 tvg-id="Metro.TV.id" tvg-logo="https://i.imgur.com/QnU70NI.png" group-title="Indonesia;News" http-referrer="" http-user-agent="",Metro TV
-https://edge.medcom.id/live-edge/smil:metro.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="Metro.TV.id" tvg-logo="https://raw.githubusercontent.com/apistech/project/refs/heads/main/logo/image_ch_metrotv.png" group-title="Indonesia;News" http-referrer="" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36 Edg/150.0.0.0",Metro TV
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36 Edg/150.0.0.0
+https://op-flashcon-digdayahd-1.dens.tv/h/h12/index.m3u8
 #EXTINF:-1 tvg-id="KompasTV.id" tvg-name="Kompas tv" tvg-logo="http://goldenid.online:80/images/K16NaGdQPPgIS7sfJa07qSIm5NJksqx8sVb1z9AAWfqcZpqE2B0lEe6B5ICWFeCtlb24n0iJFVVwZzvE3CUpEmaPNyEbJJK_cTGiZVnmRNeQWzVXpesskP3QHkI2RRD_.jpg" group-title="Indonesia;LOKAL INDONESIA™" xui-id="25695",Kompas tv
 http://goldenid.online:80/play/38ifGdTRCzSHegy1-Yigj763JJsjfeLW0oYFyKjg01IMdgjInIrvpj7OqtIwHyHt
 #EXTINF:-1 tvg-id="Kompas.TV.id" tvg-logo="https://i.imgur.com/WYPWQHg.jpeg" group-title="Indonesia;News" http-referrer="" http-user-agent="",Kompas TV
@@ -421,8 +423,10 @@ https://op-group1-swiftservehd-1.dens.tv/h/h77/index.m3u8
 https://mam.jogjaprov.go.id:1937/tv/jitv/chunklist_w163357330.m3u8
 #EXTINF:-1 tvg-id="MagnaTV.id" tvg-logo="https://i.imgur.com/xkCrfHz.jpeg" group-title="Indonesia;Lokal" http-referrer="" http-user-agent="",Magna TV
 https://op-flashcon-digdayahd-1.dens.tv/h/h24/02.m3u8
-#EXTINF:-1 tvg-id="MagnaTV.id" tvg-name="IDX.id" tvg-logo="https://beetv.my.id/logo/magna.png" group-title="Indonesia;Nasional",Magna TV
-https://edge.medcom.id/live-edge/smil:magna.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="MagnaTV.id" tvg-logo="https://i.imgur.com/01YAHgw.png" group-title="Indonesia;Lokal" http-referrer="http://www.dens.tv/" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0",Magna TV (Alt 2)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0
+#EXTVLCOPT:http-referrer=http://www.dens.tv/
+https://op-group1-swiftservehd-1.dens.tv/h/h24/02.m3u8
 #EXTINF:-1 tvg-id="SindoNews.TV.id" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPlAtPGRHW6gEgAZMn916nIPyS0yqblsFZqg&s" group-title="Indonesia;News" http-referrer="" http-user-agent="",SindoNews
 https://cdnbal1.indihometv.com/atm/DASH/mncnews/mncnews-avc1_2500000=7-3277707030000000.mpd
 #EXTINF:-1 tvg-id="Rodja.TV.id" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLPKzuSGXnuJG5gOA1AGIknytvyxTCq9kQRw&s" group-title="Indonesia;Lokal" http-referrer="" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36",RODJA TV 2
