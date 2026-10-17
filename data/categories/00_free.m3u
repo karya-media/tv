@@ -31,8 +31,7 @@ https://live2.jorvakstreamcache.com/live/channel20.m3u8
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
 https://d6m3sfa7e58z5.cloudfront.net/out/v1/3b0660e05eed4d769521eb0275aab3ab/index.mpd
 #EXTINF:-1 group-title="LIVE 17-OKT-26" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1xS1XqTKScrSYTKi5zHxwAMVa4AAac2Qbh4Bz7lODwU4Ppi9Yzlvcxd24&s=10",19.00||PERSITA TANGERANG VS PERSIJA JAKARTA
-#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleCoreMedia/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"
-https://iptv.lancartech.co.id:443/Wawan007/Wawan1234/11.m3u8
+https://tg076gr5domt1gc41hctogezdncbifisg17ufgr.100ycdn.com/live1.quickscoreboardz.com/live/channel29/playlist.m3u8?wsSecret=50615c93548116af33afacbaa9ad461d&wsABSTime=1792280921&wsSession=841b67c92cd889b9a9c30344-179223772545085&wsIPSercert=2cbd19c319dc7006240738ecce7717e1&wsBindIP=2&wsserid=1168240905513431088
 #EXTINF:-1 group-title="LIVE 17-OKT-26" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1xS1XqTKScrSYTKi5zHxwAMVa4AAac2Qbh4Bz7lODwU4Ppi9Yzlvcxd24&s=10",19.00||PSGC CIAMIS VS PSIS SEMARANG
 
 #EXTINF:-1 group-title="LIVE 17-OKT-26" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1xS1XqTKScrSYTKi5zHxwAMVa4AAac2Qbh4Bz7lODwU4Ppi9Yzlvcxd24&s=10",20.00||VENEZIA VS NAPOLI
@@ -295,14 +294,11 @@ https://tg030gr4ugmtwgczdcqjqgr5n45djq31unmutqiwsg45ucpzzr3mnp7ozr3d4.100ycdn.co
 https://tg030gr4ugmtwgczdcqjqgr5n45djq31unmutqiwsg45ucpzzr3mnp7ozr3d4.100ycdn.com/live1.quickscoreboardz.com/live/channel61/playlist.m3u8?wsSecret=3d3a354eb300507d0acc2ac24e9c1941&wsABSTime=1791933026&wsSession=9e00b4ed34b2de14b439c3af-179188983043532&wsIPSercert=9dfb7274d0fd4bbd339b269034b0333c&wsBindIP=2&wsserid=1168287746130901650
 #EXTINF:-1 tvg-id="BULUTANGKIS TV" group-title="BULUTANGKIS TV"tvg-logo="https://s3-ap-southeast-1.amazonaws.com/ams-astro/production/images/KXPDU.jpg",VICKTOR DENMARK COURT 3
 https://tg030gr4ugmtwgczdcqjqgr5n45djq31unmutqiwsg45ucpzzr3mnp7ozr3d4.100ycdn.com/live1.quickscoreboardz.com/live/channel63/playlist.m3u8?wsSecret=0ea8feb21d181b74341b806dfa642673&wsABSTime=1791933100&wsSession=9e00b4ed34b2de14b439c3af-179188990327091&wsIPSercert=9dfb7274d0fd4bbd339b269034b0333c&wsBindIP=2&wsserid=1168287746130901650
-#EXTINF:-1 tvg-id="BULUTANGKIS TV" group-title="BULUTANGKIS TV"tvg-logo="https://upload.wikimedia.org/wikipedia/en/7/7c/CHINA_MASTERS.png",BWF WORLD COURT 1
-https://live1.quickscoreboardz.com/live/channel62/playlist.m3u8?wsSecret=4198a9a464d9c284623338e7b92d4d8e&wsABSTime=1791314390
 
-#EXTINF:-1 tvg-id="BULUTANGKIS TV" group-title="BULUTANGKIS TV"tvg-logo="https://upload.wikimedia.org/wikipedia/en/7/7c/CHINA_MASTERS.png",BWF WORLD COURT 2
-https://live1.quickscoreboardz.com/live/channel63/playlist.m3u8?wsSecret=cba231638b5e2660cd1bf7ee54c15e3a&wsABSTime=1791314473
 
-#EXTINF:-1 tvg-id="BULUTANGKIS TV" group-title="BULUTANGKIS TV"tvg-logo="https://upload.wikimedia.org/wikipedia/en/7/7c/CHINA_MASTERS.png",BWF WORLD COURT 3
-https://live1.quickscoreboardz.com/live/channel61/playlist.m3u8?wsSecret=7d80b1b50edc4c22b66af36b3b739c8d&wsABSTime=1791314618
+#EXTINF:-1 tvg-id="BULUTANGKIS TV" group-title="BULUTANGKIS TV"tvg-logo="https://s3-ap-southeast-1.amazonaws.com/ams-astro/production/images/KXPDU.jpg",VICKTOR DENMARK ALT COURT 1
+https://tg070gr3uomttgr31hctw8rzdnctpptwzc3jt.100ycdn.com/live1.quickscoreboardz.com/live/channel68/playlist.m3u8?wsSecret=4a3408704374692a201919b205a35f84&wsABSTime=1792276011&wsSession=42205f0d59c94e930f435696-179223281620530&wsIPSercert=82a157e473d34ce2e05e5afb9e0f202f&wsBindIP=2&wsserid=1168235407007223491
+
 
 
 
