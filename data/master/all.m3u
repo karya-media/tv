@@ -3,10 +3,6 @@
 #EXTVLCOPT:http-user-agent=android-R+
 #EXTVLCOPT:http-referrer=https://www.rctiplus.com/
 https://allcutv.rctiplus.id/rcti2023.m3u8
-#EXTINF:-1 tvg-logo="https://media.tenor.com/WoQZgPVVZHQAAAAM/rcti-rcti29.gif" group-title="LOKAL",RCTI FHD
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
-#EXTVLCOPT:http-referrer=https://www.visionplus.id/
-https://d2xz2v5wuvgur6.cloudfront.net/out/v1/997ce8767b604fae9fce05379b3b8b3a/index.mpd
 #EXTINF:-1 tvg-id="RCTI" tvg-name="RCTI" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEDZs-qdDurGgcYqoz2agnm7bXoVP6fExQaZ-a92X3FQ&s=10" group-title="OLAHRAGA LOKAL",RCTI SPORTS CH1
 http://opplextv.cyou:8080/nasir6160/nasir/351023
 #EXTINF:-1 tvg-id="RCTI" tvg-name="RCTI" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEDZs-qdDurGgcYqoz2agnm7bXoVP6fExQaZ-a92X3FQ&s=10" group-title="OLAHRAGA LOKAL",RCTI SPORTS CH2
@@ -21,16 +17,16 @@ http://goldenid.online:80/play/38ifGdTRCzSHegy1-Yigj2loI7IhZWPIWUoEdQvxJPBnNcKL6
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://www.rctiplus.com/
 https://beetv.my.id/xstreamx/rctiplus.m3u8?ch=rcti
+#EXTINF:-1 tvg-id="RCTI.idSD" tvg-logo="https://thumbor.prod.vidiocdn.com/9c-sEWp6Du7DoWDn56cjma0gMpY=/230x230/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/665/337c4d.png" group-title="Indonesia;Indonesia Channels" tvg-url="https://raw.githubusercontent.com/apistech/project/refs/heads/main/epgs/guide.xml",RCTI (Vision+)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
+#EXTVLCOPT:http-referrer=https://www.visionplus.id/
+https://d2xz2v5wuvgur6.cloudfront.net/out/v1/997ce8767b604fae9fce05379b3b8b3a/index.mpd
 #EXTINF:-1 tvg-id="RCTI.idHD" tvg-logo="https://i.imgur.com/iLFx8ia.png" group-title="Indonesia;Uncategorized",RCTI HD (1080p)
 http://202.150.172.59/RCTIHD/index.m3u8
 #EXTINF:-1 tvg-id="MNCTV.idHD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZvSzE_xRRy5RPoZZT-RgNc5iwMh9QGYeVhJh1-s9PEqgGehqvgAhbjbRm&s=10" group-title="Indonesia;AFC CHAMPIONS LEAGUE ELITE",MNCTV HD
 #EXTVLCOPT:http-user-agent=android-R+
 #EXTVLCOPT:http-referrer=https://www.rctiplus.com/
 https://allcutv.rctiplus.id/mnctv2023.m3u8
-#EXTINF:-1 tvg-id="MNCTV.idHD" tvg-logo="https://raw.githubusercontent.com/apistech/project/refs/heads/main/logo/imageCir_MNC-180x180_2025_11_06_13_06_02.jpg" group-title="Indonesia;LOKAL",MNCTV HD
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
-#EXTVLCOPT:http-referrer=https://www.visionplus.id/
-https://d2xz2v5wuvgur6.cloudfront.net/out/v1/d6b026ad50f14b7f9af5ddd5450007d4/index.mpd
 #EXTINF:-1 tvg-name="MNCTV.id" tvg-logo="https://images.indihometv.com/assets/logo_mnc_hd.png" group-title="Nasional",MNCTV
 #EXTVLCOPT:http-user-agent=android-R+
 #EXTVLCOPT:http-referrer=https://www.rctiplus.com/
@@ -41,10 +37,6 @@ http://202.150.172.59/MNCTV/tracks-v1a1/mono.m3u8
 #EXTVLCOPT:http-user-agent=android-R+
 #EXTVLCOPT:http-referrer=https://www.rctiplus.com/
 https://allcutv.rctiplus.id/gtv2023.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/apistech/project/refs/heads/main/logo/imageCir_GTV-180x180_2025_11_06_13_07_56.jpg" group-title="LOKAL",GTV HD
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
-#EXTVLCOPT:http-referrer=https://www.visionplus.id/
-https://d2tjypxxy769fn.cloudfront.net/out/v1/b8b9b1d5f80f45649b4a3619291551ab/index.mpd
 #EXTINF:-1 tvg-id="zeetamil" tvg-name="GTV" tvg-logo="http://goldenid.online:80/images/K16NaGdQPPgIS7sfJa07qSIm5NJksqx8sVb1z9AAWfr976KrlReMGVxaUgOIzxlufyib5y-r5RaxUfOViouzcC3Vwg3XjykhwOUx_iU9-NPauuZlaSzG17oE9cROjfux.jpg" group-title="LOKAL INDONESIA™" xui-id="25667",GTV
 http://goldenid.online:80/play/38ifGdTRCzSHegy1-Yigj7wbjzF6E2FvbQEx2BR8BceuG2dzhhpxlfegy-YypiJV
 #EXTINF:-1 tvg-id="GTV.id" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/GTV_%282017%29.svg/1200px-GTV_%282017%29.svg.png" group-title="Indonesia;Entertainment" http-referrer="https://www.rctiplus.com/" http-user-agent="android-R+",GTV
@@ -100,9 +92,9 @@ https://beetv.my.id/xstreamx/vd.m3u8?ch=sctv
 https://d3b0v7fggu5zwm.cloudfront.net/out/v1/9e9aba7068ca4c7f8a73381bef5f8742/index.mpd
 #EXTINF:-1 tvg-id="SCTV.idSD" tvg-logo="https://i.imgur.com/EMmOvnQ.png" group-title="Indonesia;Uncategorized",SCTV
 http://202.150.172.59/SCTV/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS67iGRe1SflLs3g_Fc9KyJgytv8QizJNb_P_TX4HEGMw&s=10" group-title="BRI LIGA 1 & LIGA 2 PEGADAIAN",INDOSIAR FHD
-#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleCoreMedia/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"
-https://iptv.lancartech.co.id:443/Wawan007/Wawan1234/11.m3u8
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS67iGRe1SflLs3g_Fc9KyJgytv8QizJNb_P_TX4HEGMw&s=10" group-title="BRI LIGA 1 & LIGA 2 PEGADAIAN",INDOSIAR FHD ((WAJIB TIVIMATE))
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleCoreMedia/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+http://best-8k.org/live/jjyw70ss4w/ek5ui8ithc/1965312.m3u8
 #EXTINF:-1 tvg-logo="https://media1.giphy.com/media/v1.Y2lkPTZjMDliOTUybzViNzNhMjV5dWJycmw5aGZhcGtydjN3ODhzb2V5cTV4eGYxN3VoeSZlcD12MV9zdGlja2Vyc19zZWFyY2gmY3Q9cw/fGI87nRZ42IncYkGP5/giphy.gif" group-title="LOKAL",INDOSIAR HD
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleCoreMedia/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"
 https://vidsemar.pages.dev/terraluna3/205.mpd
@@ -149,9 +141,10 @@ https://op-group1-swiftservehd-1.dens.tv/h/h207/index.m3u8
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleCoreMedia/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"
 https://iptv.lancartech.co.id:443/Wawan007/Wawan1234/1.m3u8
 #EXTINF:-1 tvg-id="ANTV.idSD" tvg-logo="https://64.media.tumblr.com/77d7b93e54d6a77a81b2bec8d1932691/tumblr_ofkh5xUTcX1rqdxf9o1_1280.gif" group-title="Indonesia;LOKAL",ANTV HD
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
-#EXTVLCOPT:http-referrer=https://www.visionplus.id/
-https://d84q7nw4qf3j3.cloudfront.net/out/v1/0a6c6b1534444ab4bd903af8761e6747/index.mpd
+#EXTVLCOPT:http-user-agent=VidioPlayer/6.31.6
+#EXTVLCOPT:http-referrer=http://www.vidio.com/
+#EXTVLCOPT:http-origin=http://www.vidio.com
+https://nextgenz.my.id/event/pidio/play.mpd?id=782&type=dash
 #EXTINF:-1 tvg-id="ANTV.id" tvg-name="ANTV" tvg-logo="http://goldenid.online:80/images/K16NaGdQPPgIS7sfJa07qSIm5NJksqx8sVb1z9AAWfp_i0tmjPj3VrKalqMpx_bGRBqfuATCN3B1T9XX2I4xrbTampDPlTN2-c_YwWGxtOfFDKT8hWeT4wZxC8DIwXdf.jpg" group-title="Indonesia;LOKAL INDONESIA™" xui-id="25718",ANTV
 http://goldenid.online:80/play/38ifGdTRCzSHegy1-YigjxOuroSUi59En8RSMBtmpgYX7yVVf8fiG_p-XRhuUbDI
 #EXTINF:-1 tvg-id="ANTV.id" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQeiWv-pfeDr-OZkVvMbwEcryrWApBmLYMZQy6rUefZWQQxB1oOVnzR6WX3&s=10" group-title="Indonesia;Entertainment" http-referrer="http://www.vidio.com/" http-user-agent="VidioPlayer/6.31.6",ANTV
@@ -162,6 +155,10 @@ http://tvratu.my.id/nissa/index.mpd?id=782&type=dash
 #EXTVLCOPT:http-referrer=https://www.vidio.com/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36
 https://beetv.my.id/xstreamx/vd.m3u8?ch=antv
+#EXTINF:-1 tvg-id="ANTV.idSD" tvg-logo="https://thumbor.prod.vidiocdn.com/IRVkD3QGRzroJ4IZzXBpS-0MRls=/230x230/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/782/e1af8b.png" group-title="Indonesia;Indonesia Channels" tvg-url="https://raw.githubusercontent.com/apistech/project/refs/heads/main/epgs/guide.xml",ANTV HD (Vision+)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
+#EXTVLCOPT:http-referrer=https://www.visionplus.id/
+https://d84q7nw4qf3j3.cloudfront.net/out/v1/0a6c6b1534444ab4bd903af8761e6747/index.mpd
 #EXTINF:-1 tvg-id="ANTV.idSD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Antv_logo.svg/960px-Antv_logo.svg.png" group-title="Indonesia;Uncategorized" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36",ANTV (Indonesia) (720p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
 http://103.58.160.157:8278/720-ANTV/playlist.m3u8
@@ -1410,14 +1407,12 @@ https://indihuy.streamized.net/atm/DASH/zbioskop/manifest.mpd
 https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Zeebollywood/default/manifest.mpd
 #EXTINF:-1 tvg-logo="https://media4.giphy.com/media/v1.Y2lkPTZjMDliOTUyMTI3YWxxdDZpYzNiMHAyNXh1MWl1enBxeDl3bzB0bmRsem42OHYweCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/5xaOcLGwJiU6VzF7U3K/giphy.gif" group-title="PLAYLIST KOKOUYO",GRUB WA SAYA DITANGGUHKAN
 https://dl.dropboxusercontent.com/scl/fi/ywpljc2vvj4k654v2cx58/lv_0_20261001171821.mp4?rlkey=dbt6gjtie6n88anc6ug1a33ag&st=a9d2bld1&dl=1
-#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1xS1XqTKScrSYTKi5zHxwAMVa4AAac2Qbh4Bz7lODwU4Ppi9Yzlvcxd24&s=10" group-title="LIVE 18-OKT-26",15.30||PERSEBAYA VS PSS SLEMAN
-https://live2.jorvakstreamcache.com/live/channel21.m3u8
-#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1xS1XqTKScrSYTKi5zHxwAMVa4AAac2Qbh4Bz7lODwU4Ppi9Yzlvcxd24&s=10" group-title="LIVE 18-OKT-26",15.30||PSPS PEKANBARU VS PERSIKU KUDUS
-https://play.heyangstream.com/live/5009734_F5hd01.m3u8?expire=1792328884&sign=914fab325665a862ef4f60b97528cdd9
-#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1xS1XqTKScrSYTKi5zHxwAMVa4AAac2Qbh4Bz7lODwU4Ppi9Yzlvcxd24&s=10" group-title="LIVE 18-OKT-26",15.30||DELTRAS FC VS PERSIS SOLO
-https://play.heyangstream.com/live/5009608_F5hd01.m3u8?expire=1792329090&sign=0c952087fdf6629bf0439c092e38813f
-#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1xS1XqTKScrSYTKi5zHxwAMVa4AAac2Qbh4Bz7lODwU4Ppi9Yzlvcxd24&s=10" group-title="LIVE 18-OKT-26",15.30||SUMSEL UNITED VS PERSIKAD DEPOK
-https://play.heyangstream.com/live/5009611_F5hd01.m3u8?expire=1792326740&sign=b313c7b6f0d40caac8e1cf4f96ccc7ed
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1xS1XqTKScrSYTKi5zHxwAMVa4AAac2Qbh4Bz7lODwU4Ppi9Yzlvcxd24&s=10" group-title="LIVE 18-OKT-26",19.00||BORNEO FC VS YANGON UNITED
+https://live2.jorvakstreamcache.com/live/channel10.m3u8
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1xS1XqTKScrSYTKi5zHxwAMVa4AAac2Qbh4Bz7lODwU4Ppi9Yzlvcxd24&s=10" group-title="LIVE 18-OKT-26",19.00||PERSIB BANDUNG VS PERSIK KEDIRI
+https://tg080gr3uomttgr31hctw8rzdnctpptwzc3jt.100ycdn.com/live1.quickscoreboardz.com/live/channel7/playlist.m3u8?wsSecret=eaa4849738a08bcca367125c2a5f8c32&wsABSTime=1792362787&wsSession=96b90429323bc518349df3b7-179231959296504&wsIPSercert=b95e6e84c74ea3736d87cad49ed91d8f&wsBindIP=2&wsserid=1168238822479421376
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1xS1XqTKScrSYTKi5zHxwAMVa4AAac2Qbh4Bz7lODwU4Ppi9Yzlvcxd24&s=10" group-title="LIVE 18-OKT-26",19.00||THE RED FC VS BARITO PUTRA
+https://play.heyangstream.com/live/5007419_F5hd01.m3u8?expire=1792338617&sign=4fb3b40e5921ee7e891b2764f1ba63ba
 #EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZvSzE_xRRy5RPoZZT-RgNc5iwMh9QGYeVhJh1-s9PEqgGehqvgAhbjbRm&s=10" group-title="AFC CHAMPIONS LEAGUE ELITE",Fancode 2
 https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/avqlywnuzx/out/v1/aefca6420f944a9482e117f315de535f/cenc.mpd
 #EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZvSzE_xRRy5RPoZZT-RgNc5iwMh9QGYeVhJh1-s9PEqgGehqvgAhbjbRm&s=10" group-title="AFC CHAMPIONS LEAGUE ELITE",Sportstars
@@ -1535,8 +1530,18 @@ https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/dev1hjwzh9/out/v1
 https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/tdijwiga2k/out/v1/f5fde318678f4f7583bf27b7231bde1f/cenc.mpd
 #EXTINF:-1 tvg-id="itzplay.id" tvg-logo="https://m.media-amazon.com/images/S/pv-target-images/b653329169452b75ebba141c19510c90fd546b68136d8c15eec2839adc18aeae.jpg" group-title="Indonesia;CHAMPIONS LEAGUE",QAZSPORT
 http://195.201.243.254/stream10/index.m3u8
-#EXTINF:-1 tvg-logo="https://wallpaperaccess.com/full/7850968.gif" group-title="PREMIER LEAGUE",FEED PREMIER LEAGUE 1
-https://live2.cachefluxlive.com/livecdn/channel-1.m3u8?auth_key=3000001788024771-0-0-939e8aa869cdc7ee14c20f3481a5cf2a
+#EXTINF:-1 tvg-logo="https://wallpaperaccess.com/full/7850968.gif" group-title="PREMIER LEAGUE",FEED PREMIER LEAGUE
+https://www.rtmpcdn.com/live/093b047f-baeb-4780-8762-3bd19e6f953c.m3u8
+#EXTINF:-1 tvg-logo="https://wallpaperaccess.com/full/7850968.gif" group-title="PREMIER LEAGUE",FEED PREMIER LEAGUE 2
+https://www.rtmpcdn.com/live/97ea7073-c40b-47c1-a82f-3a10d5aabc4f.m3u8
+#EXTINF:-1 tvg-logo="https://wallpaperaccess.com/full/7850968.gif" group-title="PREMIER LEAGUE",FEED PREMIER LEAGUE 3
+https://www.rtmpcdn.com/live/3f86fb39-5cd8-444e-86b8-92b0a6f8ccd1.m3u8
+#EXTINF:-1 tvg-logo="https://wallpaperaccess.com/full/7850968.gif" group-title="PREMIER LEAGUE",XOILACZ
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/
+https://live2.jorvakstreamcache.com/live/channel1.m3u8
+#EXTINF:-1 tvg-logo="https://wallpaperaccess.com/full/7850968.gif" group-title="PREMIER LEAGUE",CCTV 5
+http://38.75.136.137:98/gslb/dsdqpub/cctv5hd.m3u8?auth=testpub
 #EXTINF:-1 tvg-logo="https://wallpaperaccess.com/full/7850968.gif" group-title="PREMIER LEAGUE",FUBO SPORTS 1
 https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/3b7qwiqzk3/out/v1/9f14895badca43e6a716db021dcd0c31/cenc.mpd
 #EXTINF:-1 tvg-logo="https://wallpaperaccess.com/full/7850968.gif" group-title="PREMIER LEAGUE",FUBO SPORTS 2
@@ -1657,6 +1662,8 @@ https://live2.domaincdn.cc/livecdn/channel-33.m3u8?auth_key=3000001788611465-0-0
 https://tfyv0gr3uomttgr31hctw8rzdnctpptwzc3jt.100ycdn.com/live1.quickscoreboardz.com/live/channel80/playlist.m3u8?wsSecret=bd1c5ec740e9fc90d82210dbc884ad5e&wsABSTime=1788120404&wsSession=a0c0d80ca486a0fe4e03af68-178807720775622&wsIPSercert=a9122a60b64f4312fa258ea76f311a2e&wsBindIP=2&wsserid=1168235407004077713
 #EXTINF:-1 tvg-logo="https://static.xoilaczzggz.tv/images/logo-xlz.png" group-title="FEED XOILAXCZ",VOLLYBALL TV 3
 https://tfxw0gr3uomttgr31hctugyzdgp3pptwzc3jt.100ycdn.com/live1.streambylivepulse.com/live/channel81/playlist.m3u8?wsSecret=b92ea85d780e396387d6fc57a7ad59b5&wsABSTime=1785134828&wsSession=bb6b5b2e4fa0879abaf094a2-178509163384356&wsIPSercert=281f675638d3057b68cd71b21a5fe239&wsBindIP=2&wsserid=1168267666557854247
+#EXTINF:-1 tvg-logo="https://static.xoilaczzggz.tv/images/logo-xlz.png" group-title="FEED XOILAXCZ",VOLLYBALL TV 4
+https://live2.cachefluxlive.com/livecdn/channel-1.m3u8?auth_key=3000001788024771-0-0-939e8aa869cdc7ee14c20f3481a5cf2a
 #EXTINF:-1 tvg-logo="https://static.xoilaczzggz.tv/images/logo-xlz.png" group-title="FEED XOILAXCZ",ESPORTS TV 1
 https://tfys0gr3uomttgr31hcj38rzdgp3pptwzc3jt.100ycdn.com/live1.quickscoreboardz.com/live/channel72/playlist.m3u8?wsSecret=c195015e2521c6b80025eda9da99bb34&wsABSTime=1787914227&wsSession=da2b68bb56635af000b12f9a-178787103099556&wsIPSercert=6dab0f6f8e07c9f0a48f4328377c999d&wsBindIP=2&wsserid=1168235407072236905
 #EXTINF:-1 tvg-logo="https://static.xoilaczzggz.tv/images/logo-xlz.png" group-title="FEED XOILAXCZ",ESPORTS TV 2
@@ -2722,8 +2729,6 @@ http://38.75.136.137:98/gslb/dsdqpub/cctv2hd.m3u8?auth=testpub
 http://38.75.136.137:98/gslb/dsdqpub/cctv3hd.m3u8?auth=testpub
 #EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/9/9b/20200128_031202.png/revision/latest/scale-to-width-down/250?cb=20200127201219" group-title="China",CCTV 4K
 http://38.75.136.137:98/gslb/dsdqpub/cctv4k.m3u8?auth=testpub
-#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCouo33Z5IDYzthET97Qg5iD3-DS2plDHzHhVfcwuibA&s=10" group-title="China",CCTV 5
-http://38.75.136.137:98/gslb/dsdqpub/cctv5hd.m3u8?auth=testpub
 #EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTr_vpIH4fkODtWptSFfb5OC6KR8HuwvzeukPnnfd0wPA&s=10" group-title="China",CCTV 5+
 http://38.75.136.137:98/gslb/dsdqpub/cctv5p.m3u8?auth=testpub
 #EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkV_Z2L025hj5fMDifHXQZaS7Ocjp2b10UiBDQHEzu&s=10" group-title="China",CCTV 6
@@ -7714,6 +7719,14 @@ http://103.71.191.168/8889/hls/live.stream.m3u8
 http://103.71.191.168/8910/hls/live.stream.m3u8
 #EXTINF:-1 tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="CCTV",Sleman Kali Krasak
 http://103.71.191.168/8893/hls/live.stream.m3u8
+#EXTINF:-1 tvg-id="MNCTV.idSD" tvg-logo="https://thumbor.prod.vidiocdn.com/H-nyot3OCOIHY7qtKmguKyIUeBw=/230x230/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/870/ca65b5.png" group-title="Indonesia;Indonesia Channels" tvg-url="https://raw.githubusercontent.com/apistech/project/refs/heads/main/epgs/guide.xml",MNC TV (Vision+)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
+#EXTVLCOPT:http-referrer=https://www.visionplus.id/
+https://d2xz2v5wuvgur6.cloudfront.net/out/v1/d6b026ad50f14b7f9af5ddd5450007d4/index.mpd
+#EXTINF:-1 tvg-id="GTV.idSD" tvg-logo="https://thumbor.prod.vidiocdn.com/6uEQ8IC06gH6XiMTVHtlRr1HAOE=/230x230/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/778/810229.png" group-title="Indonesia;Indonesia Channels" tvg-url="https://raw.githubusercontent.com/apistech/project/refs/heads/main/epgs/guide.xml",Global TV (Vision+)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
+#EXTVLCOPT:http-referrer=https://www.visionplus.id/
+https://d2tjypxxy769fn.cloudfront.net/out/v1/b8b9b1d5f80f45649b4a3619291551ab/index.mpd
 #EXTINF:-1 tvg-id="TransTV.idSD" tvg-logo="https://thumbor.prod.vidiocdn.com/__j35q7LPpcS2EgkR7v8GpE4USQ=/230x230/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/733/ecaa60.png" group-title="Indonesia;Indonesia Channels" tvg-url="https://raw.githubusercontent.com/apistech/project/refs/heads/main/epgs/guide.xml",TransTV (Vision+)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTVLCOPT:http-referrer=https://www.visionplus.id/

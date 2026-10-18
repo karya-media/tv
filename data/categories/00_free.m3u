@@ -10,15 +10,13 @@ https://dl.dropboxusercontent.com/scl/fi/ywpljc2vvj4k654v2cx58/lv_0_202610011718
 
 
 
+#EXTINF:-1 group-title="LIVE 18-OKT-26" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1xS1XqTKScrSYTKi5zHxwAMVa4AAac2Qbh4Bz7lODwU4Ppi9Yzlvcxd24&s=10",19.00||BORNEO FC VS YANGON UNITED
+https://live2.jorvakstreamcache.com/live/channel10.m3u8
+#EXTINF:-1 group-title="LIVE 18-OKT-26" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1xS1XqTKScrSYTKi5zHxwAMVa4AAac2Qbh4Bz7lODwU4Ppi9Yzlvcxd24&s=10",19.00||PERSIB BANDUNG VS PERSIK KEDIRI
+https://tg080gr3uomttgr31hctw8rzdnctpptwzc3jt.100ycdn.com/live1.quickscoreboardz.com/live/channel7/playlist.m3u8?wsSecret=eaa4849738a08bcca367125c2a5f8c32&wsABSTime=1792362787&wsSession=96b90429323bc518349df3b7-179231959296504&wsIPSercert=b95e6e84c74ea3736d87cad49ed91d8f&wsBindIP=2&wsserid=1168238822479421376
+#EXTINF:-1 group-title="LIVE 18-OKT-26" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1xS1XqTKScrSYTKi5zHxwAMVa4AAac2Qbh4Bz7lODwU4Ppi9Yzlvcxd24&s=10",19.00||THE RED FC VS BARITO PUTRA
+https://play.heyangstream.com/live/5007419_F5hd01.m3u8?expire=1792338617&sign=4fb3b40e5921ee7e891b2764f1ba63ba
 
-#EXTINF:-1 group-title="LIVE 18-OKT-26" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1xS1XqTKScrSYTKi5zHxwAMVa4AAac2Qbh4Bz7lODwU4Ppi9Yzlvcxd24&s=10",15.30||PERSEBAYA VS PSS SLEMAN
-https://live2.jorvakstreamcache.com/live/channel21.m3u8
-#EXTINF:-1 group-title="LIVE 18-OKT-26" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1xS1XqTKScrSYTKi5zHxwAMVa4AAac2Qbh4Bz7lODwU4Ppi9Yzlvcxd24&s=10",15.30||PSPS PEKANBARU VS PERSIKU KUDUS
-https://play.heyangstream.com/live/5009734_F5hd01.m3u8?expire=1792328884&sign=914fab325665a862ef4f60b97528cdd9
-#EXTINF:-1 group-title="LIVE 18-OKT-26" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1xS1XqTKScrSYTKi5zHxwAMVa4AAac2Qbh4Bz7lODwU4Ppi9Yzlvcxd24&s=10",15.30||DELTRAS FC VS PERSIS SOLO
-https://play.heyangstream.com/live/5009608_F5hd01.m3u8?expire=1792329090&sign=0c952087fdf6629bf0439c092e38813f
-#EXTINF:-1 group-title="LIVE 18-OKT-26" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1xS1XqTKScrSYTKi5zHxwAMVa4AAac2Qbh4Bz7lODwU4Ppi9Yzlvcxd24&s=10",15.30||SUMSEL UNITED VS PERSIKAD DEPOK
-https://play.heyangstream.com/live/5009611_F5hd01.m3u8?expire=1792326740&sign=b313c7b6f0d40caac8e1cf4f96ccc7ed
 
 #EXTINF:-1 group-title="AFC CHAMPIONS LEAGUE ELITE" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZvSzE_xRRy5RPoZZT-RgNc5iwMh9QGYeVhJh1-s9PEqgGehqvgAhbjbRm&s=10",Fancode 2
 https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/avqlywnuzx/out/v1/aefca6420f944a9482e117f315de535f/cenc.mpd
@@ -293,8 +291,23 @@ http://195.201.243.254/stream10/index.m3u8
 
 
 ###Premier###
-#EXTINF:-1 tvg-id="" tvg-logo="https://wallpaperaccess.com/full/7850968.gif" group-title="PREMIER LEAGUE",FEED PREMIER LEAGUE 1
-https://live2.cachefluxlive.com/livecdn/channel-1.m3u8?auth_key=3000001788024771-0-0-939e8aa869cdc7ee14c20f3481a5cf2a
+#EXTINF:-1 tvg-id="" tvg-logo="https://wallpaperaccess.com/full/7850968.gif" group-title="PREMIER LEAGUE",FEED PREMIER LEAGUE
+https://www.rtmpcdn.com/live/093b047f-baeb-4780-8762-3bd19e6f953c.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="https://wallpaperaccess.com/full/7850968.gif" group-title="PREMIER LEAGUE",FEED PREMIER LEAGUE 2
+https://www.rtmpcdn.com/live/97ea7073-c40b-47c1-a82f-3a10d5aabc4f.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-logo="https://wallpaperaccess.com/full/7850968.gif" group-title="PREMIER LEAGUE",FEED PREMIER LEAGUE 3
+https://www.rtmpcdn.com/live/3f86fb39-5cd8-444e-86b8-92b0a6f8ccd1.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-logo="https://wallpaperaccess.com/full/7850968.gif" group-title="PREMIER LEAGUE",XOILACZ
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/
+https://live2.jorvakstreamcache.com/live/channel1.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-logo="https://wallpaperaccess.com/full/7850968.gif" group-title="PREMIER LEAGUE",CCTV 5
+http://38.75.136.137:98/gslb/dsdqpub/cctv5hd.m3u8?auth=testpub
+http://38.75.136.137:98/gslb/dsdqbv/cctv5hd.m3u8?auth=test20251009
+http://38.75.136.137:98/gslb/dsdqpub/cctv5hd.m3u8?auth=testpub
 
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) MPF.Players/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -565,9 +578,9 @@ https://tfys0gr3uomttgr31hcj38rzdgp3pptwzc3jt.100ycdn.com/live1.quickscoreboardz
 
 #EXTINF:-1 tvg-logo="https://akcdn.detik.net.id/community/media/visual/2019/10/12/7cecfd5c-c835-42ad-be15-cf47760674c3_169.png?w=1200" group-title="BRI LIGA 1 & LIGA 2 PEGADAIAN",TVRI SPORT FHD
 
-#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS67iGRe1SflLs3g_Fc9KyJgytv8QizJNb_P_TX4HEGMw&s=10" group-title="BRI LIGA 1 & LIGA 2 PEGADAIAN",INDOSIAR FHD
-#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleCoreMedia/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"
-https://iptv.lancartech.co.id:443/Wawan007/Wawan1234/11.m3u8
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS67iGRe1SflLs3g_Fc9KyJgytv8QizJNb_P_TX4HEGMw&s=10" group-title="BRI LIGA 1 & LIGA 2 PEGADAIAN",INDOSIAR FHD ((WAJIB TIVIMATE))
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleCoreMedia/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+http://best-8k.org/live/jjyw70ss4w/ek5ui8ithc/1965312.m3u8
 
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-user-agent=VidioPlayer/6.41.11
@@ -579,11 +592,9 @@ https://aspaltvpasti.top/Drmvidbos/Akun121/bosstv.m3u8?id=19046
 
 
 #EXTINF:-1 group-title="LOKAL" tvg-logo="https://media.tenor.com/WoQZgPVVZHQAAAAM/rcti-rcti29.gif",RCTI FHD
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
-#EXTVLCOPT:http-referrer=https://www.visionplus.id/
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://vision.hoe.my.id/play?ids=1&type=drm&token=alf-store
-https://d2xz2v5wuvgur6.cloudfront.net/out/v1/997ce8767b604fae9fce05379b3b8b3a/index.mpd
+#EXTVLCOPT:http-user-agent=android-R+
+#EXTVLCOPT:http-referrer=https://www.rctiplus.com/
+https://allcutv.rctiplus.id/rcti2023.m3u8
 
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/apistech/project/refs/heads/main/logo/image_ch_sctv.png" group-title="LOKAL",SCTV HD
@@ -602,26 +613,18 @@ https://vidsemar.pages.dev/terraluna3/204.mpd
 https://vidsemar.pages.dev/terraluna3/205.mpd
 
 #EXTINF:-1 group-title="LOKAL" tvg-logo="https://raw.githubusercontent.com/apistech/project/refs/heads/main/logo/imageCir_MNC-180x180_2025_11_06_13_06_02.jpg",MNCTV HD
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
-#EXTVLCOPT:http-referrer=https://www.visionplus.id/
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://vision.hoe.my.id/play?ids=2&type=drm&token=alf-store
-https://d2xz2v5wuvgur6.cloudfront.net/out/v1/d6b026ad50f14b7f9af5ddd5450007d4/index.mpd
+#EXTVLCOPT:http-user-agent=android-R+
+#EXTVLCOPT:http-referrer=https://www.rctiplus.com/
+https://allcutv.rctiplus.id/mnctv2023.m3u8
 
 #EXTINF:-1 tvg-id="ANTV.id@SD" group-title="LOKAL" tvg-logo="https://64.media.tumblr.com/77d7b93e54d6a77a81b2bec8d1932691/tumblr_ofkh5xUTcX1rqdxf9o1_1280.gif",ANTV HD
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
-#EXTVLCOPT:http-referrer=https://www.visionplus.id/
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://vision.hoe.my.id/play?ids=10&type=drm&token=alf-store
-https://d84q7nw4qf3j3.cloudfront.net/out/v1/0a6c6b1534444ab4bd903af8761e6747/index.mpd
-
-EXTVLCOPT:http-user-agent=VidioPlayer/6.31.6
-EXTVLCOPT:http-referrer=http://www.vidio.com/
+#EXTVLCOPT:http-user-agent=VidioPlayer/6.31.6
+#EXTVLCOPT:http-referrer=http://www.vidio.com/
 #EXTVLCOPT:http-origin=http://www.vidio.com
-KODIPROP:inputstreamaddon=inputstream.adaptive
-KODIPROP:inputstream.adaptive.manifest_type=dash
-KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#https://nextgenz.my.id/event/pidio/play.mpd?id=782&type=dash
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+https://nextgenz.my.id/event/pidio/play.mpd?id=782&type=dash
 
 
 #EXTINF:-1 group-title="BERITA" tvg-logo="https://raw.githubusercontent.com/apistech/project/refs/heads/main/logo/image_ch_tvone.png",TVONE HD 
@@ -641,11 +644,9 @@ https://live.cnbcindonesia.com/transtv/smil:transtv.smil/playlist.m3u8
 https://live.cnbcindonesia.com/trans7/smil:trans7.smil/playlist.m3u8
 
 #EXTINF:-1 group-title="LOKAL" tvg-logo="https://raw.githubusercontent.com/apistech/project/refs/heads/main/logo/imageCir_GTV-180x180_2025_11_06_13_07_56.jpg",GTV HD
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
-#EXTVLCOPT:http-referrer=https://www.visionplus.id/
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://vision.hoe.my.id/play?ids=3&type=drm&token=alf-store
-https://d2tjypxxy769fn.cloudfront.net/out/v1/b8b9b1d5f80f45649b4a3619291551ab/index.mpd
+#EXTVLCOPT:http-user-agent=android-R+
+#EXTVLCOPT:http-referrer=https://www.rctiplus.com/
+https://allcutv.rctiplus.id/gtv2023.m3u8
 
 ##EXTINF:-1 group-title="LOKAL" tvg-logo="https://raw.githubusercontent.com/apistech/project/refs/heads/main/logo/imageCir_GTV-180x180_2025_11_06_13_07_56.jpg",GTV HD R+
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)&Origin=https://www.cubmu.com&Referer=https://www.cubmu.com/
