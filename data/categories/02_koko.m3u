@@ -44,7 +44,7 @@ https://d6m3sfa7e58z5.cloudfront.net/out/v1/a265695db5cb461095cbfefc02ad793b/ind
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
 https://d6m3sfa7e58z5.cloudfront.net/out/v1/cfca527d0f16403396a71b2d3d54c32f/index.mpd
 #EXTINF:-1 group-title="LIVE 22-OKT-26" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZiZkSj518i8Xb94IYNahh50lJAbBLleySnwkURNqtFw&s=10",02.00||CLUB BRUGGE VS RC LENS
-https://live2.jorvakstreamcache.com/live/channel19.m3u8
+https://tg0b0gr4ugmtwgczdcqjqgr5n45djq31unmutqiwsg45ucpzzr3mnp7ozr3d4.100ycdn.com/live1.quickscoreboardz.com/live/channel19/playlist.m3u8?wsSecret=7dbacf7764f0985a14f2755645732e08&wsABSTime=1792652027&wsSession=ae05c111b1f322c889c9bbe8-179260883031860&wsIPSercert=e96b5b64726b5dec42bc8a8143f342d2&wsBindIP=2&wsserid=1168287746149776142
 #EXTINF:-1 group-title="LIVE 22-OKT-26" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZiZkSj518i8Xb94IYNahh50lJAbBLleySnwkURNqtFw&s=10",02.00||BAYERN MUNCHEN VS ARSENAL
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #EXTVLCOPT:http-referrer=https://www.visionplus.id/
@@ -241,9 +241,10 @@ https://ott-balancer.tvri.go.id/live/eds/SportHD/hls/SportHD.m3u8
 https://naori-test.netgenx.site/pxx.php?shk_cid=gd04
 
 <<VOLLYBALL TV>>
-#EXTINF:-1 group-title="VOLLEYBALL TV" tvg-logo="https://thumbor.prod.vidiocdn.com/huNAVUucjCBn4ieVV7fpSyCXelI=/filters:quality(70)/vidio-web-prod-video/uploads/video/image/9677961/saksikan-liga-voli-mahasiswa-2026-di-vidio-e99939.jpg",LVM LIGA VOLLY MAHASISWA
-#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleCoreMedia/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"
-https://iptv.lancartech.co.id:443/Wawan007/Wawan1234/23.m3u8
+#EXTINF:-1 group-title="VOLLEYBALL TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/8/8e/TAURON_Liga_logo.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",TAURON LIGA
+https://live2.domainkqt.cc/live/channel33.m3u8
+#EXTINF:-1 group-title="VOLLEYBALL TV" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCleH74hbwNcV4tnrbie5-c4Ou-PNw97IqKR84zBdwNA&s=10",SUPER LEAGUE
+https://tg0b0gr4ugmtwgczdcqjqgr5n45djq31unmutqiwsg45ucpzzr3mnp7ozr3d4.100ycdn.com/live1.quickscoreboardz.com/live/channel83/playlist.m3u8?wsSecret=8461787a202363d1614cb8b85dad30e3&wsABSTime=1792642258&wsSession=ae05c111b1f322c889c9bbe8-179259906617130&wsIPSercert=e96b5b64726b5dec42bc8a8143f342d2&wsBindIP=2&wsserid=1168287746149776142
 #EXTINF:-1 tvg-id="" tvg-logo="https://asset.tribunnews.com/xb52bAZvTBgTvxSg1R9UHuqv70c=/1200x675/filters:upscale():quality(30):format(webp):focal(0.5x0.5:0.5x0.5)/kalteng/foto/bank/originals/KOVO-Cup-2026.jpg" group-title="VOLLEYBALL TV",KOVO CUP
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #EXTVLCOPT:http-referrer=https://www.visionplus.id/
@@ -256,8 +257,8 @@ https://tg050gr4ugmtwgczdcqjqgr5n45djq31unmutqiwsg45ucpzzr3mnp7ozr3d4.100ycdn.co
 https://tg040gr4ugmtwgczdcqjqgr5n45djq31unmutqiwsg45ucpzzr3mnp7ozr3d4.100ycdn.com/live1.quickscoreboardz.com/live/channel80/playlist.m3u8?wsSecret=498616518ea2c6fab297148eb39e4072&wsABSTime=1792016801&wsSession=510ff2a6e1fbdceb0434ca7c-179197360643507&wsIPSercert=6087136349f581a2360b49970c13d9f2&wsBindIP=2&wsserid=1168287765269359649
 #EXTINF:-1 tvg-id="VOLLYBALL" group-title="VOLLEYBALL TV" tvg-logo="https://upload.wikimedia.org/wikipedia/en/a/a0/V-league-women1-logo.png?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=original",V-LEAGUE WOMEN
 https://live2.domainkqt.cc/live/channel33.m3u8
-#EXTINF:-1 tvg-id="VOLLYBALL" group-title="VOLLEYBALL TV" tvg-logo="https://upload.wikimedia.org/wikipedia/en/d/db/AVC_Men%27s_Volleyball_Continental_Japan_2026.png",V-LEAGUE WOMEN
-
+#EXTINF:-1 tvg-id="VOLLYBALL" group-title="VOLLEYBALL TV" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQx-A7A-YT5JN8fDYFRbyBk3ZhPKN1m1NtVCgeV7nEU4zrbr8jPrjWwLkw&s=10",VOLLEYBALL LEAGUE
+https://tg0b0gr3uomttgr31hctwgazdoc3pptwzc3jt.100ycdn.com/live1.quickscoreboardz.com/live/channel82/playlist.m3u8?wsSecret=707d83590b3bfeaaacd9df2f907e217f&wsABSTime=1792641714&wsSession=447b791bd3339c8d29a2b44d-179259851878820&wsIPSercert=1d1b95b95517399d8c445150813dc2af&wsBindIP=2&wsserid=1168278531255916870
 #EXTINF:-1 tvg-id="VOLLYBALL" group-title="VOLLEYBALL TV" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVkTEMRHp2dWE7Vew3YIcYY2Kx_BnXUSn5uHFtiASWvQ&s=10",PREMIER VOLLYBALL LEAGUE
 https://tg050gr4ugmtwgczdcqjqgr5n45djq31unmutqiwsg45ucpzzr3mnp7ozr3d4.100ycdn.com/live1.quickscoreboardz.com/live/channel80/playlist.m3u8?wsSecret=260b5ac0f85dfd77761e2fba83b7671f&wsABSTime=1792091335&wsSession=9e00b4ed34b2de14b439c3af-179204813867695&wsIPSercert=9faba076c0338ce7a76a05f30144030c&wsBindIP=2&wsserid=1168287746130901650
 #EXTINF:-1 tvg-id="VOLLYBALL" group-title="VOLLEYBALL TV" tvg-logo="https://thenvl.com/wp-content/uploads/2016/01/nvl-logo2-01-e1452534886433.png",NATIONAL LEAGUE WOMEN 
@@ -271,12 +272,14 @@ ASEAN CUP 2026
 
 
 ####LINING###
-
-#EXTINF:-1 tvg-id="BULUTANGKIS TV" group-title="BULUTANGKIS TV"tvg-logo="https://s3-ap-southeast-1.amazonaws.com/ams-astro/production/images/KXPDU.jpg",VICKTOR DENMARK COURT 1
+#EXTINF:-1 tvg-id="BULUTANGKIS TV" group-title="BULUTANGKIS TV"tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGPlOMHHq-T-7lSpFQY7LE79X3Vt4diSktMJb6dJggYg&s=10",SPOTV PRIME 2
+#EXTVLCOPT:http-user-agent=ExoPlayerDemo/2.15.1 (Linux; Android 13) ExoPlayerLib/2.15.1
+http://124.222.153.240/kakaotv/get_channel.php?channel=spotv_prime2|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36&Cookie=spotv_prime2_replace_cookie
+#EXTINF:-1 tvg-id="BULUTANGKIS TV" group-title="BULUTANGKIS TV"tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGPlOMHHq-T-7lSpFQY7LE79X3Vt4diSktMJb6dJggYg&s=10",YONEX FRANCE BADMINTON COURT 1
 https://tg080gr5domt1gc41hctogezd1cjpptwzc3jt.100ycdn.com/live1.quickscoreboardz.com/live/channel60/playlist.m3u8?wsSecret=8d081a9ec63d9e22225c9bc604fa4a3b&wsABSTime=1792359676&wsSession=c47b07bc126567d79d592bcb-179231648100816&wsIPSercert=b95e6e84c74ea3736d87cad49ed91d8f&wsBindIP=2&wsserid=1168273360809515780
-#EXTINF:-1 tvg-id="BULUTANGKIS TV" group-title="BULUTANGKIS TV"tvg-logo="https://s3-ap-southeast-1.amazonaws.com/ams-astro/production/images/KXPDU.jpg",VICKTOR DENMARK COURT 2
+#EXTINF:-1 tvg-id="BULUTANGKIS TV" group-title="BULUTANGKIS TV"tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGPlOMHHq-T-7lSpFQY7LE79X3Vt4diSktMJb6dJggYg&s=10",YONEX FRANCE BADMINTON COURT 2
 https://tg030gr4ugmtwgczdcqjqgr5n45djq31unmutqiwsg45ucpzzr3mnp7ozr3d4.100ycdn.com/live1.quickscoreboardz.com/live/channel61/playlist.m3u8?wsSecret=3d3a354eb300507d0acc2ac24e9c1941&wsABSTime=1791933026&wsSession=9e00b4ed34b2de14b439c3af-179188983043532&wsIPSercert=9dfb7274d0fd4bbd339b269034b0333c&wsBindIP=2&wsserid=1168287746130901650
-#EXTINF:-1 tvg-id="BULUTANGKIS TV" group-title="BULUTANGKIS TV"tvg-logo="https://s3-ap-southeast-1.amazonaws.com/ams-astro/production/images/KXPDU.jpg",VICKTOR DENMARK COURT 3
+#EXTINF:-1 tvg-id="BULUTANGKIS TV" group-title="BULUTANGKIS TV"tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGPlOMHHq-T-7lSpFQY7LE79X3Vt4diSktMJb6dJggYg&s=10",YONEX FRANCE BADMINTON COURT 3
 https://tg030gr4ugmtwgczdcqjqgr5n45djq31unmutqiwsg45ucpzzr3mnp7ozr3d4.100ycdn.com/live1.quickscoreboardz.com/live/channel63/playlist.m3u8?wsSecret=0ea8feb21d181b74341b806dfa642673&wsABSTime=1791933100&wsSession=9e00b4ed34b2de14b439c3af-179188990327091&wsIPSercert=9dfb7274d0fd4bbd339b269034b0333c&wsBindIP=2&wsserid=1168287746130901650
 
 
@@ -288,7 +291,41 @@ https://tg070gr3uomttgr31hctw8rzdnctpptwzc3jt.100ycdn.com/live1.quickscoreboardz
 
 ####CHAMPIONS LEAGUE####
 
+#EXTINF:-1 tvg-logo="https://m.media-amazon.com/images/S/pv-target-images/b653329169452b75ebba141c19510c90fd546b68136d8c15eec2839adc18aeae.jpg" tvg-id="itzplay.id" group-title="CHAMPIONS LEAGUE",beIN Sports 1 
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#EXTVLCOPT:http-referrer=https://www.visionplus.id/
+#KODIPROP:inputstream.adaptive.license_key=https://vision.mikrofast.web.id/license?id=122
+#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+https://d6m3sfa7e58z5.cloudfront.net/out/v1/3b0660e05eed4d769521eb0275aab3ab/index.mpd
 
+#EXTINF:-1 tvg-logo="https://m.media-amazon.com/images/S/pv-target-images/b653329169452b75ebba141c19510c90fd546b68136d8c15eec2839adc18aeae.jpg" tvg-id="itzplay.id" group-title="CHAMPIONS LEAGUE",beIN Sports 2 
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#EXTVLCOPT:http-referrer=https://www.visionplus.id/
+#KODIPROP:inputstream.adaptive.license_key=https://vision.mikrofast.web.id/license?id=123
+#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+https://d6m3sfa7e58z5.cloudfront.net/out/v1/cfca527d0f16403396a71b2d3d54c32f/index.mpd
+ 
+
+#EXTINF:-1 tvg-logo="https://m.media-amazon.com/images/S/pv-target-images/b653329169452b75ebba141c19510c90fd546b68136d8c15eec2839adc18aeae.jpg" tvg-id="itzplay.id" group-title="CHAMPIONS LEAGUE",beIN Sports 3 
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#EXTVLCOPT:http-referrer=https://www.visionplus.id/
+#KODIPROP:inputstream.adaptive.license_key=https://vision.mikrofast.web.id/license?id=124
+#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+https://d6m3sfa7e58z5.cloudfront.net/out/v1/a265695db5cb461095cbfefc02ad793b/index.mpd
+
+#EXTINF:-1 tvg-logo="https://m.media-amazon.com/images/S/pv-target-images/b653329169452b75ebba141c19510c90fd546b68136d8c15eec2839adc18aeae.jpg" tvg-id="itzplay.id" group-title="CHAMPIONS LEAGUE",beIN Sports 4
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#EXTVLCOPT:http-referrer=https://www.visionplus.id/
+#KODIPROP:inputstream.adaptive.license_key=https://vision.mikrofast.web.id/license?id=125
+#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36" 
+https://d6m3sfa7e58z5.cloudfront.net/out/v1/2e55bc8199044c27b1dbb827af65a04f/index.mpd 
+
+#EXTINF:-1 tvg-logo="https://m.media-amazon.com/images/S/pv-target-images/b653329169452b75ebba141c19510c90fd546b68136d8c15eec2839adc18aeae.jpg" tvg-id="itzplay.id" group-title="CHAMPIONS LEAGUE",beIN Sports 5
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#EXTVLCOPT:http-referrer=https://www.visionplus.id/
+#KODIPROP:inputstream.adaptive.license_key=https://vision.mikrofast.web.id/license?id=126
+#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36" 
+https://d6m3sfa7e58z5.cloudfront.net/out/v1/fe4d00f07e2f43b789102b84b4d243a9/index.mpd 
 
 #EXTINF:-1 tvg-logo="https://m.media-amazon.com/images/S/pv-target-images/b653329169452b75ebba141c19510c90fd546b68136d8c15eec2839adc18aeae.jpg" tvg-id="itzplay.id" group-title="CHAMPIONS LEAGUE",KOKOFEED
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone14,6; U; CPU iPhone OS 15_4 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) Version/10.0 Mobile/19E241 Safari/602.1
@@ -1912,7 +1949,7 @@ https://d6m3sfa7e58z5.cloudfront.net/out/v1/a265695db5cb461095cbfefc02ad793b/ind
 #KODIPROP:inputstream.adaptive.license_key=https://vision.mikrofast.web.id/license?id=125
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36" 
 https://d6m3sfa7e58z5.cloudfront.net/out/v1/2e55bc8199044c27b1dbb827af65a04f/index.mpd 
-#EXTINF:-1 group-title="SPORTS INDO" tvg-logo="https://www.visionplus.id/images/repository/898/198898-LOGO-m.png",beIN Sports 5 ((E14))
+#EXTINF:-1 group-title="SPORTS INDO" tvg-logo="https://www.visionplus.id/images/repository/898/198898-LOGO-m.png",beIN Sports 5
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #EXTVLCOPT:http-referrer=https://www.visionplus.id/
 #KODIPROP:inputstream.adaptive.license_key=https://vision.mikrofast.web.id/license?id=126

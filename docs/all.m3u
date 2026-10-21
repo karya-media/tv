@@ -410,6 +410,8 @@ https://tvratu.my.id/vid/index.mpd?id=20833&type=dash
 https://tvratu.my.id/vid/index.mpd?id=19543&type=dash
 #EXTINF:-1 tvg-logo="https://i.imgur.com/OEqbYYe.jpeg" group-title="Indonesia;Olahraga" http-referrer="" http-user-agent="",Pegadaian Championshipe
 https://tvratu.my.id/vid/index.mpd?id=19584&type=dash
+#EXTINF:-1 tvg-id="VOLLYBALL" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQx-A7A-YT5JN8fDYFRbyBk3ZhPKN1m1NtVCgeV7nEU4zrbr8jPrjWwLkw&s=10" group-title="VOLLEYBALL TV",VOLLEYBALL LEAGUE
+https://tg0b0gr3uomttgr31hctwgazdoc3pptwzc3jt.100ycdn.com/live1.quickscoreboardz.com/live/channel82/playlist.m3u8?wsSecret=707d83590b3bfeaaacd9df2f907e217f&wsABSTime=1792641714&wsSession=447b791bd3339c8d29a2b44d-179259851878820&wsIPSercert=1d1b95b95517399d8c445150813dc2af&wsBindIP=2&wsserid=1168278531255916870
 #EXTINF:-1 tvg-logo="https://i.imgur.com/Q1QoQmA.jpeg" group-title="Indonesia;Olahraga" http-referrer="" http-user-agent="",Volleyball
 https://tvratu.my.id/vid/index.mpd?id=21178
 #EXTINF:-1 tvg-logo="https://i.imgur.com/xqPgGT4.jpeg" group-title="Indonesia;Olahraga" http-referrer="" http-user-agent="",Volleyball (Alt 2)
@@ -6672,7 +6674,9 @@ https://live.pyoneplay.com/live/01m2sn12yc6v2enx392qj2ekqt/video1_stream.m3u8
 #EXTINF:-1 tvg-logo="https://theawayend.co/wp-content/uploads/2024/06/AFC-Challenge-League-banner.jpeg" group-title="LIVE 21-OKT-26",19.00||TAIWAN STELL VS BORNEO FC
 https://live2.jorvakstreamcache.com/live/channel4.m3u8
 #EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZiZkSj518i8Xb94IYNahh50lJAbBLleySnwkURNqtFw&s=10" group-title="LIVE 22-OKT-26",02.00||CLUB BRUGGE VS RC LENS
-https://live2.jorvakstreamcache.com/live/channel19.m3u8
+https://tg0b0gr4ugmtwgczdcqjqgr5n45djq31unmutqiwsg45ucpzzr3mnp7ozr3d4.100ycdn.com/live1.quickscoreboardz.com/live/channel19/playlist.m3u8?wsSecret=7dbacf7764f0985a14f2755645732e08&wsABSTime=1792652027&wsSession=ae05c111b1f322c889c9bbe8-179260883031860&wsIPSercert=e96b5b64726b5dec42bc8a8143f342d2&wsBindIP=2&wsserid=1168287746149776142
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCleH74hbwNcV4tnrbie5-c4Ou-PNw97IqKR84zBdwNA&s=10" group-title="VOLLEYBALL TV",SUPER LEAGUE
+https://tg0b0gr4ugmtwgczdcqjqgr5n45djq31unmutqiwsg45ucpzzr3mnp7ozr3d4.100ycdn.com/live1.quickscoreboardz.com/live/channel83/playlist.m3u8?wsSecret=8461787a202363d1614cb8b85dad30e3&wsABSTime=1792642258&wsSession=ae05c111b1f322c889c9bbe8-179259906617130&wsIPSercert=e96b5b64726b5dec42bc8a8143f342d2&wsBindIP=2&wsserid=1168287746149776142
 #EXTINF:-1 tvg-id="RCTV.id" tvg-logo="https://iili.io/JbtnILX.png" group-title="Indonesia;Lokal" http-referrer="" http-user-agent="",RCTV
 https://v10.siar.us/rctv/live/playlist.m3u8
 #EXTINF:-1 tvg-id="AVAFamily.irSD" tvg-logo="https://i.imgur.com/QwBGLzK.png" group-title="Indonesia;Olahraga" http-referrer="" http-user-agent="",AVA Family
