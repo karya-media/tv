@@ -15,8 +15,7 @@ https://live.pyoneplay.com/live/01m2sn12yc6v2enx392qj2ekqt/video1_stream.m3u8
 #EXTINF:-1 group-title="LIVE 21-OKT-26" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQG0lbsRcSVZdxcrOKwMEg_uTP0P6yREVebBTPVfUPfMC3AvEBA_PeuI0-K&s=10",19.00||PERSIJA JAKARTA VS AREMA FC
 https://live2.jorvakstreamcache.com/live/channel28.m3u8
 #EXTINF:-1 group-title="LIVE 21-OKT-26" tvg-logo="https://theawayend.co/wp-content/uploads/2024/06/AFC-Challenge-League-banner.jpeg",19.00||TAIWAN STELL VS BORNEO FC
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 
-https://hgmtv.com:19360/garudatvlivestreaming/1080p.m3u8
+https://live2.jorvakstreamcache.com/live/channel4.m3u8
 #EXTINF:-1 group-title="LIVE 21-OKT-26" tvg-logo="https://theawayend.co/wp-content/uploads/2024/06/AFC-Challenge-League-banner.jpeg",19.30||HANG YUAN VS MANILLA DIGGER
 https://live2.jorvakstreamcache.com/live/channel18.m3u8
 #EXTINF:-1 group-title="LIVE 21-OKT-26" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZiZkSj518i8Xb94IYNahh50lJAbBLleySnwkURNqtFw&s=10",23.45||COMO 1907 VS MANCHESTER UNITED
@@ -45,9 +44,7 @@ https://d6m3sfa7e58z5.cloudfront.net/out/v1/a265695db5cb461095cbfefc02ad793b/ind
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
 https://d6m3sfa7e58z5.cloudfront.net/out/v1/cfca527d0f16403396a71b2d3d54c32f/index.mpd
 #EXTINF:-1 group-title="LIVE 22-OKT-26" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZiZkSj518i8Xb94IYNahh50lJAbBLleySnwkURNqtFw&s=10",02.00||CLUB BRUGGE VS RC LENS
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone14,6; U; CPU iPhone OS 15_4 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) Version/10.0 Mobile/19E241 Safari/602.1
-#EXTVLCOPT:http-referrer=https://pulse1.sanseny001.shop/000/
-https://pulse1.sanseny001.shop/puk5/usergen0grnd8l2y6gw.m3u8
+https://live2.jorvakstreamcache.com/live/channel19.m3u8
 #EXTINF:-1 group-title="LIVE 22-OKT-26" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZiZkSj518i8Xb94IYNahh50lJAbBLleySnwkURNqtFw&s=10",02.00||BAYERN MUNCHEN VS ARSENAL
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #EXTVLCOPT:http-referrer=https://www.visionplus.id/
@@ -55,13 +52,15 @@ https://pulse1.sanseny001.shop/puk5/usergen0grnd8l2y6gw.m3u8
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
 https://d6m3sfa7e58z5.cloudfront.net/out/v1/3b0660e05eed4d769521eb0275aab3ab/index.mpd
 #EXTINF:-1 group-title="LIVE 22-OKT-26" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZiZkSj518i8Xb94IYNahh50lJAbBLleySnwkURNqtFw&s=10",02.00||REAL BETIS VS FENEYOORD
-https://live2.jorvakstreamcache.com/live/channel17.m3u8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone14,6; U; CPU iPhone OS 15_4 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) Version/10.0 Mobile/19E241 Safari/602.1
+#EXTVLCOPT:http-referrer=https://pulse1.sanseny001.shop/000/
+https://pulse1.sanseny001.shop/puk5/usergen0grnd8l2y6gw.m3u8
 #EXTINF:-1 group-title="LIVE 22-OKT-26" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZiZkSj518i8Xb94IYNahh50lJAbBLleySnwkURNqtFw&s=10",02.00||SPORTING CP VS LASK LINZ
 https://live2.jorvakstreamcache.com/live/channel18.m3u8
 #EXTINF:-1 group-title="LIVE 22-OKT-26" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZiZkSj518i8Xb94IYNahh50lJAbBLleySnwkURNqtFw&s=10",02.00||INTER MILAN VS SHAKTAR
 #EXTVLCOPT:http-referrer=https://iron1.xn--x2rw19a.space/000/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36
-https://iron1.xn--x2rw19a.space/puk2/usergenrnd0clv03fyt.m3u8
+https://iron1.xn--x2rw19a.space/puk3/usergenrx4t0l8sybkr.m3u8
 
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
