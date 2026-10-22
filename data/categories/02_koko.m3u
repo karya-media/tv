@@ -8,59 +8,35 @@ https://dl.dropboxusercontent.com/scl/fi/ywpljc2vvj4k654v2cx58/lv_0_202610011718
 #EXTINF:-1 tvg-id="" tvg-logo="https://media4.giphy.com/media/v1.Y2lkPTZjMDliOTUyMTI3YWxxdDZpYzNiMHAyNXh1MWl1enBxeDl3bzB0bmRsem42OHYweCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/5xaOcLGwJiU6VzF7U3K/giphy.gif" group-title="PLAYLIST KOKOUYO",KETIK DI CHROME/GOOGLE👆👆
 https://dl.dropboxusercontent.com/scl/fi/ywpljc2vvj4k654v2cx58/lv_0_20261001171821.mp4?rlkey=dbt6gjtie6n88anc6ug1a33ag&st=a9d2bld1&dl=1
 
-#EXTINF:-1 group-title="LIVE 21-OKT-26" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQG0lbsRcSVZdxcrOKwMEg_uTP0P6yREVebBTPVfUPfMC3AvEBA_PeuI0-K&s=10",15.30||BALI UNITED VS GARUDAYAKSA
-https://live2.jorvakstreamcache.com/live/channel24.m3u8
-#EXTINF:-1 group-title="LIVE 21-OKT-26" tvg-logo="https://theawayend.co/wp-content/uploads/2024/06/AFC-Challenge-League-banner.jpeg",16.30||KASUKA FC VS SHAN UNITED
-https://live.pyoneplay.com/live/01m2sn12yc6v2enx392qj2ekqt/video1_stream.m3u8
-#EXTINF:-1 group-title="LIVE 21-OKT-26" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQG0lbsRcSVZdxcrOKwMEg_uTP0P6yREVebBTPVfUPfMC3AvEBA_PeuI0-K&s=10",19.00||PERSIJA JAKARTA VS AREMA FC
-https://live2.jorvakstreamcache.com/live/channel28.m3u8
-#EXTINF:-1 group-title="LIVE 21-OKT-26" tvg-logo="https://theawayend.co/wp-content/uploads/2024/06/AFC-Challenge-League-banner.jpeg",19.00||TAIWAN STELL VS BORNEO FC
-https://live2.jorvakstreamcache.com/live/channel4.m3u8
-#EXTINF:-1 group-title="LIVE 21-OKT-26" tvg-logo="https://theawayend.co/wp-content/uploads/2024/06/AFC-Challenge-League-banner.jpeg",19.30||HANG YUAN VS MANILLA DIGGER
-https://live2.jorvakstreamcache.com/live/channel18.m3u8
-#EXTINF:-1 group-title="LIVE 21-OKT-26" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZiZkSj518i8Xb94IYNahh50lJAbBLleySnwkURNqtFw&s=10",23.45||COMO 1907 VS MANCHESTER UNITED
+#EXTINF:-1 group-title="LIVE 22-OKT-26" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQG0lbsRcSVZdxcrOKwMEg_uTP0P6yREVebBTPVfUPfMC3AvEBA_PeuI0-K&s=10",15.30||PERSIK KEDIRI VS PSS SLEMAN
+https://live2.jorvakstreamcache.com/live/channel6.m3u8
+#EXTINF:-1 group-title="LIVE 22-OKT-26" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQG0lbsRcSVZdxcrOKwMEg_uTP0P6yREVebBTPVfUPfMC3AvEBA_PeuI0-K&s=10",15.30||PSM MAKASSAR VS PERSEBAYA SURABAYA
+https://live2.jorvakstreamcache.com/live/channel5.m3u8
+#EXTINF:-1 group-title="LIVE 22-OKT-26" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQG0lbsRcSVZdxcrOKwMEg_uTP0P6yREVebBTPVfUPfMC3AvEBA_PeuI0-K&s=10",19.00||MADUTA UNITED VS PERSIB BANDUNG
+https://live2.jorvakstreamcache.com/live/channel16.m3u8
+#EXTINF:-1 group-title="LIVE 22-OKT-26" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgld-zM5kreabRHpv4w2SjIeuNLo_RL74HiNWYg4YN-w&s=10",23.45||ARARAT-ARMENIA VS AZ-AKHMAR
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#EXTVLCOPT:http-referrer=https://www.visionplus.id/
+#KODIPROP:inputstream.adaptive.license_key=https://vision.mikrofast.web.id/license?id=126
+#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36" 
+https://d6m3sfa7e58z5.cloudfront.net/out/v1/fe4d00f07e2f43b789102b84b4d243a9/index.mpd
+#EXTINF:-1 group-title="LIVE 22-OKT-26" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgld-zM5kreabRHpv4w2SjIeuNLo_RL74HiNWYg4YN-w&s=10",23.45||JUVENTUS VS RENNES
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #EXTVLCOPT:http-referrer=https://www.visionplus.id/
 #KODIPROP:inputstream.adaptive.license_key=https://vision.mikrofast.web.id/license?id=122
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
 https://d6m3sfa7e58z5.cloudfront.net/out/v1/3b0660e05eed4d769521eb0275aab3ab/index.mpd
-#EXTINF:-1 group-title="LIVE 21-OKT-26" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZiZkSj518i8Xb94IYNahh50lJAbBLleySnwkURNqtFw&s=10",23.45||LILLE VS GALATASARAY
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#EXTVLCOPT:http-referrer=https://www.visionplus.id/
-#KODIPROP:inputstream.adaptive.license_key=https://vision.mikrofast.web.id/license?id=124
-#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
-https://d6m3sfa7e58z5.cloudfront.net/out/v1/a265695db5cb461095cbfefc02ad793b/index.mpd
-
-#EXTINF:-1 group-title="LIVE 22-OKT-26" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZiZkSj518i8Xb94IYNahh50lJAbBLleySnwkURNqtFw&s=10",02.00||REAL MADRID VS RB LEIPZIG
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#EXTVLCOPT:http-referrer=https://www.visionplus.id/
-#KODIPROP:inputstream.adaptive.license_key=https://vision.mikrofast.web.id/license?id=124
-#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
-https://d6m3sfa7e58z5.cloudfront.net/out/v1/a265695db5cb461095cbfefc02ad793b/index.mpd
-#EXTINF:-1 group-title="LIVE 22-OKT-26" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZiZkSj518i8Xb94IYNahh50lJAbBLleySnwkURNqtFw&s=10",02.00||ASTON VILLA VS VIKING
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#EXTVLCOPT:http-referrer=https://www.visionplus.id/
-#KODIPROP:inputstream.adaptive.license_key=https://vision.mikrofast.web.id/license?id=123
-#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
-https://d6m3sfa7e58z5.cloudfront.net/out/v1/cfca527d0f16403396a71b2d3d54c32f/index.mpd
-#EXTINF:-1 group-title="LIVE 22-OKT-26" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZiZkSj518i8Xb94IYNahh50lJAbBLleySnwkURNqtFw&s=10",02.00||CLUB BRUGGE VS RC LENS
-https://tg0b0gr4ugmtwgczdcqjqgr5n45djq31unmutqiwsg45ucpzzr3mnp7ozr3d4.100ycdn.com/live1.quickscoreboardz.com/live/channel19/playlist.m3u8?wsSecret=7dbacf7764f0985a14f2755645732e08&wsABSTime=1792652027&wsSession=ae05c111b1f322c889c9bbe8-179260883031860&wsIPSercert=e96b5b64726b5dec42bc8a8143f342d2&wsBindIP=2&wsserid=1168287746149776142
-#EXTINF:-1 group-title="LIVE 22-OKT-26" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZiZkSj518i8Xb94IYNahh50lJAbBLleySnwkURNqtFw&s=10",02.00||BAYERN MUNCHEN VS ARSENAL
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#EXTVLCOPT:http-referrer=https://www.visionplus.id/
-#KODIPROP:inputstream.adaptive.license_key=https://vision.mikrofast.web.id/license?id=122
-#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
-https://d6m3sfa7e58z5.cloudfront.net/out/v1/3b0660e05eed4d769521eb0275aab3ab/index.mpd
-#EXTINF:-1 group-title="LIVE 22-OKT-26" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZiZkSj518i8Xb94IYNahh50lJAbBLleySnwkURNqtFw&s=10",02.00||REAL BETIS VS FENEYOORD
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone14,6; U; CPU iPhone OS 15_4 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) Version/10.0 Mobile/19E241 Safari/602.1
-#EXTVLCOPT:http-referrer=https://pulse1.sanseny001.shop/000/
-https://pulse1.sanseny001.shop/puk5/usergen0grnd8l2y6gw.m3u8
-#EXTINF:-1 group-title="LIVE 22-OKT-26" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZiZkSj518i8Xb94IYNahh50lJAbBLleySnwkURNqtFw&s=10",02.00||SPORTING CP VS LASK LINZ
-https://live2.jorvakstreamcache.com/live/channel18.m3u8
-#EXTINF:-1 group-title="LIVE 22-OKT-26" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZiZkSj518i8Xb94IYNahh50lJAbBLleySnwkURNqtFw&s=10",02.00||INTER MILAN VS SHAKTAR
-#EXTVLCOPT:http-referrer=https://iron1.xn--x2rw19a.space/000/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36
-https://iron1.xn--x2rw19a.space/puk3/usergenrx4t0l8sybkr.m3u8
+#EXTINF:-1 group-title="LIVE 22-OKT-26" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgld-zM5kreabRHpv4w2SjIeuNLo_RL74HiNWYg4YN-w&s=10",23.45||OFI CRETE VS BAYER LEVERKUSEN
+https://live2.jorvakstreamcache.com/live/channel5.m3u8
+#EXTINF:-1 group-title="LIVE 22-OKT-26" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgld-zM5kreabRHpv4w2SjIeuNLo_RL74HiNWYg4YN-w&s=10",23.45||STRUM GRAZ VS MARSEILLE
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=cc91508324ce9dcaf425a43d58f1d9d4:643e5474d9edd87c7d9091c8c97994ca
+https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/dev1hjwzh9/out/v1/a5f0ee7ad7b24906b14f43bebbbe4678/cenc.mpd
+#EXTINF:-1 group-title="LIVE 22-OKT-26" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtH8LZBtzwaglTd4hLgVLw7jTAp1JYuRz1zgrBbebvIRJuORc8dPRDlN1O&s=10",23.45||FK JABIONEC VS BRIGHTON
+https://tg0b1gr4uqmtt8y41hcjzgezdrmmcpf5gkce.100ycdn.com/live1.quickscoreboardz.com/live/channel11/playlist.m3u8?wsSecret=353ea3aceb22723705e786824feb1142&wsABSTime=1792653240&wsSession=0922dd874c1116168b4c58bc-179261004180846&wsIPSercert=6ef6de368fed6899a2dc66fb818b7e33&wsBindIP=2&wsserid=1168309222905457589
+#EXTINF:-1 group-title="LIVE 22-OKT-26" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtH8LZBtzwaglTd4hLgVLw7jTAp1JYuRz1zgrBbebvIRJuORc8dPRDlN1O&s=10",23.45||TRABZONSPOR VS HEART
+https://live2.jorvakstreamcache.com/live/channel16.m3u8
 
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -590,11 +566,13 @@ https://d84q7nw4qf3j3.cloudfront.net/out/v1/8983f9a68f0d4f169a77f3ce20ab2685/ind
 
 
 
-#EXTINF:-1 tvg-logo="https://akcdn.detik.net.id/community/media/visual/2019/10/12/7cecfd5c-c835-42ad-be15-cf47760674c3_169.png?w=1200" group-title="BRI LIGA 1 & LIGA 2 PEGADAIAN",TVRI SPORT FHD
-
-#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS67iGRe1SflLs3g_Fc9KyJgytv8QizJNb_P_TX4HEGMw&s=10" group-title="BRI LIGA 1 & LIGA 2 PEGADAIAN",INDOSIAR FHD ((WAJIB TIVIMATE))
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleCoreMedia/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
-http://best-8k.org/live/jjyw70ss4w/ek5ui8ithc/1965312.m3u8
+#EXTINF:-1 tvg-logo="https://akcdn.detik.net.id/community/media/visual/2019/10/12/7cecfd5c-c835-42ad-be15-cf47760674c3_169.png?w=1200" group-title="BRI LIGA 1 & LIGA 2 PEGADAIAN",BRI LIVE FEED 1
+#EXTVLCOPT:http-origin=https://player.787200.com/
+#EXTVLCOPT:http-referrer=https://player.787200.com/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+https://live.vivo155.com/live/sd-1-4614386.m3u8?txSecret=33d93b102c780dd15917503db5d790ca&txTime=6AD9DB8A
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS67iGRe1SflLs3g_Fc9KyJgytv8QizJNb_P_TX4HEGMw&s=10" group-title="BRI LIGA 1 & LIGA 2 PEGADAIAN",BRI LIVE FEED 2
+https://pull.streamviewk7x.click/livesp/sd-6MxiKav3vtzxCD3vjU_hd.m3u8?txSecret=71e834a65c12c7b7f04fcd704c0ab8f6&txTime=6ADB1B08
 
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-user-agent=VidioPlayer/6.41.11
