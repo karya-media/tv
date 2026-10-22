@@ -122,6 +122,13 @@ https://nextgenz.my.id/event/pidio/play.mpd?id=205&type=dash
 http://goldenid.online:80/play/38ifGdTRCzSHegy1-Yigj3JPn4MUBmM1_VZHEOWgdWmxHXhsgKsiAMMiYYVXLHck
 #EXTINF:-1 tvg-name="Indosiar" tvg-logo="http://goldenid.online:80/images/K16NaGdQPPgIS7sfJa07qSIm5NJksqx8sVb1z9AAWfrGmS0OHTNXq3ZLY7_xxUoGAKzMpZcy77-gvlhps881ZQhDqE0vDWAsckYNnVIcaCxIdLQpSPIVh97tLxaRQcG2.jpg" group-title="LOKAL INDONESIA™" xui-id="54684",Indosiar
 http://goldenid.online:80/play/38ifGdTRCzSHegy1-Yigj_BhM5sA30rFRVJ6_obdVzMvwLIRezD1TyfNKEHjuqPJ
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS67iGRe1SflLs3g_Fc9KyJgytv8QizJNb_P_TX4HEGMw&s=10" group-title="BRI LIGA 1 & LIGA 2 PEGADAIAN",INDOSIAR FEED 1
+#EXTVLCOPT:http-origin=https://player.787200.com/
+#EXTVLCOPT:http-referrer=https://player.787200.com/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+https://live.vivo155.com/live/sd-1-4614388.m3u8?txSecret=51e3af6ec457df9f63be5db15c758662&txTime=6ADA1206
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS67iGRe1SflLs3g_Fc9KyJgytv8QizJNb_P_TX4HEGMw&s=10" group-title="BRI LIGA 1 & LIGA 2 PEGADAIAN",INDOSIAR FEED 2
+https://pull.streamviewk7x.click/livesp/sd-6MxiKav3vNEE1VV6av_hd.m3u8?txSecret=c1916b5ddf9d909d0c2ca27560652462&txTime=6ADB4C40
 #EXTINF:-1 tvg-name="Indosiar.id" tvg-logo="https://images.indihometv.com/logo_indosiar_ver2.png" group-title="Nasional",Indosiar
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-origin=https://teagan.mvksstick9uq6cprotection.cfd
@@ -6675,16 +6682,26 @@ https://live2.jorvakstreamcache.com/live/channel6.m3u8
 https://live2.jorvakstreamcache.com/live/channel5.m3u8
 #EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQG0lbsRcSVZdxcrOKwMEg_uTP0P6yREVebBTPVfUPfMC3AvEBA_PeuI0-K&s=10" group-title="LIVE 22-OKT-26",19.00||MADUTA UNITED VS PERSIB BANDUNG
 https://live2.jorvakstreamcache.com/live/channel16.m3u8
-#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtH8LZBtzwaglTd4hLgVLw7jTAp1JYuRz1zgrBbebvIRJuORc8dPRDlN1O&s=10" group-title="LIVE 22-OKT-26",23.45||FK JABIONEC VS BRIGHTON
-https://tg0b1gr4uqmtt8y41hcjzgezdrmmcpf5gkce.100ycdn.com/live1.quickscoreboardz.com/live/channel11/playlist.m3u8?wsSecret=353ea3aceb22723705e786824feb1142&wsABSTime=1792653240&wsSession=0922dd874c1116168b4c58bc-179261004180846&wsIPSercert=6ef6de368fed6899a2dc66fb818b7e33&wsBindIP=2&wsserid=1168309222905457589
+#EXTINF:-1 tvg-logo="https://cdn.skor.id/uploads/member/images/news/260818143050-719.jpeg" group-title="AFC CHAMPIONS LEAGUE TWO",MALAY FEED 1
+https://ls-mp04stg.eo-edgefunctions7.com/out/v1/400fc0702dee453bb33ebcc29466e58a/manifest.mpd
+#EXTINF:-1 tvg-logo="https://cdn.skor.id/uploads/member/images/news/260818143050-719.jpeg" group-title="AFC CHAMPIONS LEAGUE TWO",MALAY FEED 2
+https://ls-mp02stg.eo-edgefunctions7.com/out/v1/cc0fc82e76cb4e0093e81695284af443/manifest.mpd
 #EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCleH74hbwNcV4tnrbie5-c4Ou-PNw97IqKR84zBdwNA&s=10" group-title="VOLLEYBALL TV",SUPER LEAGUE
 https://tg0b0gr4ugmtwgczdcqjqgr5n45djq31unmutqiwsg45ucpzzr3mnp7ozr3d4.100ycdn.com/live1.quickscoreboardz.com/live/channel83/playlist.m3u8?wsSecret=8461787a202363d1614cb8b85dad30e3&wsABSTime=1792642258&wsSession=ae05c111b1f322c889c9bbe8-179259906617130&wsIPSercert=e96b5b64726b5dec42bc8a8143f342d2&wsBindIP=2&wsserid=1168287746149776142
-#EXTINF:-1 tvg-logo="https://akcdn.detik.net.id/community/media/visual/2019/10/12/7cecfd5c-c835-42ad-be15-cf47760674c3_169.png?w=1200" group-title="BRI LIGA 1 & LIGA 2 PEGADAIAN",BRI LIVE FEED 1
+#EXTINF:-1 tvg-id="BULUTANGKISTV" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGPlOMHHq-T-7lSpFQY7LE79X3Vt4diSktMJb6dJggYg&s=10" group-title="BULUTANGKIS TV",YONEX FRANCE BADMINTON COURT 1
+https://live1.quickscoreboardz.com/live/channel60/playlist.m3u8?wsSecret=8d081a9ec63d9e22225c9bc604fa4a3b&wsABSTime=1792359676
+#EXTINF:-1 tvg-id="BULUTANGKISTV" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGPlOMHHq-T-7lSpFQY7LE79X3Vt4diSktMJb6dJggYg&s=10" group-title="BULUTANGKIS TV",YONEX FRANCE BADMINTON COURT 2
+https://live1.quickscoreboardz.com/live/channel61/playlist.m3u8?wsSecret=8d78df937bee27de7fa9546e50a5142a&wsABSTime=1791944837
+#EXTINF:-1 tvg-id="BULUTANGKISTV" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGPlOMHHq-T-7lSpFQY7LE79X3Vt4diSktMJb6dJggYg&s=10" group-title="BULUTANGKIS TV",YONEX FRANCE BADMINTON COURT 3
+https://live1.quickscoreboardz.com/live/channel63/playlist.m3u8?wsSecret=5298b3f5088b77c68e76fee7924c9445&wsABSTime=1791944746
+#EXTINF:-1 tvg-id="BULUTANGKISTV" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGPlOMHHq-T-7lSpFQY7LE79X3Vt4diSktMJb6dJggYg&s=10" group-title="BULUTANGKIS TV",YONEX FRANCE BADMINTON COURT 4
+https://live1.quickscoreboardz.com/live/channel62/playlist.m3u8?wsSecret=5ae44c2d5b810f979466e411ede6f7ae&wsABSTime=1791944652
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS67iGRe1SflLs3g_Fc9KyJgytv8QizJNb_P_TX4HEGMw&s=10" group-title="BRI LIGA 1 & LIGA 2 PEGADAIAN",BRI VIDIO FEED 1
 #EXTVLCOPT:http-origin=https://player.787200.com/
 #EXTVLCOPT:http-referrer=https://player.787200.com/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
 https://live.vivo155.com/live/sd-1-4614386.m3u8?txSecret=33d93b102c780dd15917503db5d790ca&txTime=6AD9DB8A
-#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS67iGRe1SflLs3g_Fc9KyJgytv8QizJNb_P_TX4HEGMw&s=10" group-title="BRI LIGA 1 & LIGA 2 PEGADAIAN",BRI LIVE FEED 2
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS67iGRe1SflLs3g_Fc9KyJgytv8QizJNb_P_TX4HEGMw&s=10" group-title="BRI LIGA 1 & LIGA 2 PEGADAIAN",BRI VIDIO FEED 2
 https://pull.streamviewk7x.click/livesp/sd-6MxiKav3vtzxCD3vjU_hd.m3u8?txSecret=71e834a65c12c7b7f04fcd704c0ab8f6&txTime=6ADB1B08
 #EXTINF:-1 tvg-id="RCTV.id" tvg-logo="https://iili.io/JbtnILX.png" group-title="Indonesia;Lokal" http-referrer="" http-user-agent="",RCTV
 https://v10.siar.us/rctv/live/playlist.m3u8
