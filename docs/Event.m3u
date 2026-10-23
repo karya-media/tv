@@ -25,8 +25,8 @@ https://allcutv.rctiplus.id/inews2023.m3u8
 https://raw.githubusercontent.com/Bluestraveller13/super-duper-spork/refs/heads/main/Inews.m3u8
 #EXTINF:-1 tvg-id="zeetamil" tvg-name="SCTV (Sport)" tvg-logo="http://goldenid.online:80/images/K16NaGdQPPgIS7sfJa07qSIm5NJksqx8sVb1z9AAWfpidL9oXotpd8wdXfDYnKDdFmiXYde5ofr9-qxlTgzX1hvscvwH_T7L7WoRn8v2KBkRq0hI6Ghm3ublRF7honk6.jpg" group-title="LOKAL INDONESIA™" xui-id="25688",SCTV (Sport)
 http://goldenid.online:80/play/38ifGdTRCzSHegy1-Yigj3JPn4MUBmM1_VZHEOWgdWmtDvhktts9Flzf7KyZlzRr
-#EXTINF:-1 tvg-id="zeetamil" tvg-name="SCTV" tvg-logo="http://goldenid.online:80/images/K16NaGdQPPgIS7sfJa07qSIm5NJksqx8sVb1z9AAWfpidL9oXotpd8wdXfDYnKDdFmiXYde5ofr9-qxlTgzX1hvscvwH_T7L7WoRn8v2KBkRq0hI6Ghm3ublRF7honk6.jpg" group-title="LOKAL INDONESIA™" xui-id="25691",SCTV
-http://goldenid.online:80/play/38ifGdTRCzSHegy1-Yigj763JJsjfeLW0oYFyKjg01L6W2qkALSZHpGZdM_FYCu5
+#EXTINF:-1 tvg-id="kokotv.id" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgld-zM5kreabRHpv4w2SjIeuNLo_RL74HiNWYg4YN-w&s=10" group-title="Indonesia;UEFA EUROPA LEAGUE",SCTV FHD
+https://raw.githubusercontent.com/Bluestraveller13/super-duper-spork/refs/heads/main/SCTV.m3u8
 #EXTINF:-1 tvg-id="TVS" tvg-name="Indosiar (Sport)" tvg-logo="http://goldenid.online:80/images/K16NaGdQPPgIS7sfJa07qSIm5NJksqx8sVb1z9AAWfqTlcmsje4pR2tiFs4ilZsc28qsONFbRS-n_VNTo1EOdf4iGnKWT_K7euFuwx5lB8IsOtuvl6Ad8E_3BeN4G4JQ.jpg" group-title="LOKAL INDONESIA™" xui-id="25686",Indosiar (Sport)
 http://goldenid.online:80/play/38ifGdTRCzSHegy1-Yigj3JPn4MUBmM1_VZHEOWgdWmxHXhsgKsiAMMiYYVXLHck
 #EXTINF:-1 tvg-name="Indosiar" tvg-logo="http://goldenid.online:80/images/K16NaGdQPPgIS7sfJa07qSIm5NJksqx8sVb1z9AAWfrGmS0OHTNXq3ZLY7_xxUoGAKzMpZcy77-gvlhps881ZQhDqE0vDWAsckYNnVIcaCxIdLQpSPIVh97tLxaRQcG2.jpg" group-title="LOKAL INDONESIA™" xui-id="54684",Indosiar
@@ -44,8 +44,11 @@ http://goldenid.online:80/play/38ifGdTRCzSHegy1-YigjxOuroSUi59En8RSMBtmpgYX7yVVf
 https://nextgenz.my.id/event/pidio/play.mpd?id=782&type=dash
 #EXTINF:-1 tvg-id="TVS" tvg-name="Trans TV" tvg-logo="http://goldenid.online:80/images/K16NaGdQPPgIS7sfJa07qSIm5NJksqx8sVb1z9AAWfoN1ZBw060Q7T1wK3ODAMN8Vq8xxg7kDFCsyEVloDdo_FAos38BSWwSiVXic8hVVA6FXvTW1Onp3Zq1ZWQ1swhC.jpg" group-title="LOKAL INDONESIA™" xui-id="25684",Trans TV
 http://goldenid.online:80/play/38ifGdTRCzSHegy1-Yigj3JPn4MUBmM1_VZHEOWgdWlgqdfrd2_NOs-03Qe2iQTV
-#EXTINF:-1 tvg-name="Trans TV Transmedia" tvg-logo="http://goldenid.online:80/images/K16NaGdQPPgIS7sfJa07qSIm5NJksqx8sVb1z9AAWfoN1ZBw060Q7T1wK3ODAMN8Vq8xxg7kDFCsyEVloDdo_FAos38BSWwSiVXic8hVVA6FXvTW1Onp3Zq1ZWQ1swhC.jpg" group-title="LOKAL INDONESIA™" xui-id="45251",Trans TV Transmedia
-http://goldenid.online:80/play/38ifGdTRCzSHegy1-Yigj_sPOnMzQwbwsss2iwjmFAadiJci5he2GgWzGdWZJfSD
+#EXTINF:-1 tvg-id="TransTV1" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/indonesia/trans-tv-id.png?raw=true" group-title="LOKAL",TRANS TV HD
+#EXTVLCOPT:http-referer=https://www.cnbcindonesia.com/
+#EXTVLCOPT:http-origin=https://20.detik.com
+#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"
+https://live.cnbcindonesia.com/transtv/smil:transtv.smil/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/apistech/project/refs/heads/main/logo/image_ch_tvone.png" group-title="BERITA",TVONE HD
 https://op-flashcon-digdayahd-1.dens.tv/h/h40/01.m3u8
 #EXTINF:-1 tvg-id="RCTI.id" tvg-name="METRO TV HD" tvg-logo="http://goldenid.online:80/images/K16NaGdQPPgIS7sfJa07qSIm5NJksqx8sVb1z9AAWfp2w0evQv15jl0vwelvZXCnn6Yy1t0qbe5bXUJ_-q3lE_8mV2-gId6xsRNkJSSca2mU9evpiaTH8ylJkWmT9GUN.jpg" group-title="Indonesia;LOKAL INDONESIA™" xui-id="25722",METRO TV HD
