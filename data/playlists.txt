@@ -19,5 +19,5 @@
 all=*
 # Semua channel yang ter-tag "Indonesia" dari sumber manapun
 master=group:Indonesia,group:Olahraga
-Event=01_Thoha-Aji,02_koko
+Event=02_koko
 fff=vod,Film
