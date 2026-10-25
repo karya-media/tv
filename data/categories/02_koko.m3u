@@ -249,7 +249,7 @@ ASEAN CUP 2026
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
 https://d2tjypxxy769fn.cloudfront.net/out/v1/89a6e4261cd7470f83e5869e90440cff/index.mpd
 #EXTINF:-1 tvg-id="BULUTANGKIS TV" group-title="BULUTANGKIS TV"tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGPlOMHHq-T-7lSpFQY7LE79X3Vt4diSktMJb6dJggYg&s=10",YONEX FRANCE BADMINTON COURT 1
-https://tg0e1gr4ugmtwgczdqcbqgr5dgmmcpf5gkce.100ycdn.com/live1.quickscoreboardz.com/live/channel68/playlist.m3u8?wsSecret=84fb2da93444de8a7dcdb95de7f29dd9&wsABSTime=1792876709&wsSession=68497837ba5e53f1a21fa748-179283351446429&wsIPSercert=690656f99094be74e16cb34d89341360&wsBindIP=2&wsserid=1168312122729925611
+https://tg0f0gr4ugmtwgczdcqjqgr5n45djq31unmutqiwsg45ucpzzr3mnp7ozr3d4.100ycdn.com/live1.quickscoreboardz.com/live/channel69/playlist.m3u8?wsSecret=9477d1fc3d3db416fee19f621af4e017&wsABSTime=1792970670&wsSession=bd7badcfa13466471c5377ce-179292747570904&wsIPSercert=0c0a12dcf8d2ecc1da7799bcc661c2af&wsBindIP=2&wsserid=1168287746130901650
 #EXTINF:-1 tvg-id="BULUTANGKIS TV" group-title="BULUTANGKIS TV"tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGPlOMHHq-T-7lSpFQY7LE79X3Vt4diSktMJb6dJggYg&s=10",YONEX FRANCE BADMINTON COURT 2
 https://live1.quickscoreboardz.com/live/channel61/playlist.m3u8?wsSecret=8d78df937bee27de7fa9546e50a5142a&wsABSTime=1791944837
 #EXTINF:-1 tvg-id="BULUTANGKIS TV" group-title="BULUTANGKIS TV"tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGPlOMHHq-T-7lSpFQY7LE79X3Vt4diSktMJb6dJggYg&s=10",YONEX FRANCE BADMINTON COURT 3
@@ -338,8 +338,10 @@ http://195.201.243.254/stream10/index.m3u8
 
 
 ###Premier###
-#EXTINF:-1 tvg-id="" tvg-logo="https://wallpaperaccess.com/full/7850968.gif" group-title="PREMIER LEAGUE",LANCARTV FEED SCTV 
+#EXTINF:-1 tvg-id="" tvg-logo="https://wallpaperaccess.com/full/7850968.gif" group-title="PREMIER LEAGUE",LANCARTV FEED SCTV FHD
 https://raw.githubusercontent.com/vannyruru-ui/KokoUyo06/refs/heads/main/UyoSctv.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="https://wallpaperaccess.com/full/7850968.gif" group-title="PREMIER LEAGUE",LANCARTV FEED MOJI FHD
+https://raw.githubusercontent.com/vannyruru-ui/KokoUyo06/refs/heads/main/MojiuYo.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://wallpaperaccess.com/full/7850968.gif" group-title="PREMIER LEAGUE",CCTV 5
 http://38.75.136.137:98/gslb/dsdqpub/cctv5hd.m3u8?auth=testpub
