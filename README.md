@@ -1,123 +1,257 @@
-# IPTV Playlist Management & Validation System
+📺 KARYA MEDIA IPTV
 
-Sistem untuk mengelola playlist IPTV yang dipecah per kategori, memvalidasi
-stream, membandingkan dengan XMLTV EPG, menghasilkan laporan, dan
-menerbitkan **satu master playlist** yang selalu bisa diakses lewat **satu
-URL tetap** — meskipun sumbernya berupa banyak file kategori terpisah.
+Your Entertainment. One Playlist.
 
-## Arsitektur: Clean Architecture
+Karya Media IPTV adalah platform pengelolaan playlist IPTV berbasis M3U yang menghadirkan berbagai sumber channel dalam satu sistem yang terstruktur, mudah digunakan, dan terus diperbarui.
 
-```
-src/iptv_manager/
-├── domain/           # Entities & ports. Tanpa dependency ke library luar.
-├── application/      # Use cases (ImportPlaylist, MergePlaylists, ...).
-├── infrastructure/    # Adapter konkret: parser M3U, validator HTTP/FFprobe,
-│                      # repository SQLAlchemy, publisher GitHub.
-└── interfaces/        # Entrypoint: CLI (dipakai GitHub Actions), REST API,
-                        # scheduler.
-```
+Satu playlist untuk berbagai kebutuhan hiburan Anda.
 
-Aturan dependency: `domain -> application -> infrastructure -> interfaces`.
-Layer domain tidak pernah tahu soal aiohttp, SQLAlchemy, atau FastAPI —
-supaya setiap adapter (misalnya SQLite -> PostgreSQL, atau target publish)
-bisa diganti tanpa merombak logic inti.
+▶️ Mulai Menonton
 
-## Cara kerja "banyak file, satu link"
+https://karya-media.github.io/tv/all.m3u
 
-1. Setiap kategori disimpan sebagai file `.m3u` terpisah di
-   `data/categories/`.
-2. GitHub Actions menjalankan use case `MergePlaylists`, yang menggabungkan
-   semua file kategori menjadi satu `data/master/master.m3u` — sekaligus
-   menghapus duplikat dan menormalkan metadata.
-3. Master playlist itu diterbitkan ke dua lokasi (bisa dipilih salah satu
-   atau keduanya lewat `IPTV_PUBLISH_TARGET`):
-   - **Raw GitHub URL** (auto, tanpa build step tambahan):
-     `https://raw.githubusercontent.com/<owner>/<repo>/<branch>/data/master/master.m3u`
-   - **GitHub Pages** (perlu Pages diaktifkan, sumber dari `docs/`):
-     `https://<owner>.github.io/<repo>/master.m3u`
-4. Kamu masukkan salah satu URL itu ke aplikasi pemutar (VLC, TiviMate,
-   dll) — link-nya tidak pernah berubah, isinya yang otomatis ter-update.
+---
 
-## Setup GitHub Actions & Pages (sekali saja)
+📺 IPTV MADE SIMPLE
 
-1. Push repo ini ke GitHub (lihat instruksi push di bawah).
-2. **Aktifkan GitHub Pages** (agar URL `github.io` benar-benar hidup):
-   Repo → Settings → Pages → Source: **Deploy from a branch** → Branch:
-   `main` → Folder: **/docs** → Save.
-3. Selesai. Workflow `.github/workflows/pipeline.yml` akan otomatis
-   berjalan setiap kali kamu push perubahan ke `data/categories/**`,
-   setiap 12 jam (re-validasi stream), atau bisa dipicu manual lewat
-   tab **Actions → IPTV Playlist Pipeline → Run workflow**.
-4. Setiap run akan: merge kategori → validasi stream → validasi logo →
-   generate laporan (HTML/JSON/CSV/Excel) → commit balik
-   `data/master/master.m3u`, `docs/master.m3u`, dan `reports/` ke repo.
+Tidak perlu mengumpulkan banyak link.
 
-## Perintah CLI
+Tidak perlu membuat playlist sendiri.
 
-```bash
-iptv-manager import sports path/to/sports.m3u   # atau URL http(s)
-iptv-manager merge                              # gabungkan semua kategori
-iptv-manager validate                           # cek status HTTP tiap stream
-iptv-manager check-logos                        # cek logo bisa diakses
-iptv-manager check-epg path/to/epg.xml          # bandingkan tvg-id vs XMLTV
-iptv-manager report --epg path/to/epg.xml       # pipeline penuh + laporan
-```
+Tidak perlu memperbarui daftar channel secara manual.
 
-`report` adalah perintah yang dipakai GitHub Actions — sekali jalan
-untuk merge + validate + check-logos + (opsional) check-epg, lalu
-menulis laporan ke `reports/report.{html,json,csv,xlsx}`.
+Dengan Karya Media IPTV, cukup gunakan satu URL playlist dan masukkan ke aplikasi IPTV yang mendukung M3U.
 
-## Self-hosting: REST API, Dashboard, Scheduler (opsional)
+https://karya-media.github.io/tv/all.m3u
 
-Selain lewat GitHub Actions, kamu bisa menjalankan sistem ini sebagai
-server sendiri (VPS, home server, dll):
+Playlist diproses dan dipublikasikan melalui sistem otomatis sehingga daftar dapat diperbarui tanpa harus membuat playlist baru secara manual.
 
-```bash
-cp .env.example .env
-# isi minimal: IPTV_API_KEY=<kunci-rahasiamu>
-iptv-manager serve
-```
+---
 
-Ini akan membuka:
-- **Dashboard** di `http://localhost:8000/` — riwayat setiap pipeline
-  run (tabel), tombol "Trigger new run", dan tautan unduh
-  `master.m3u`/laporan.
-- **REST API**:
-  - `POST /api/pipeline/run` (butuh header `X-API-Key`) — memicu
-    pipeline penuh di background, langsung balas `run_id`.
-  - `GET /api/pipeline/runs` — riwayat run (tersimpan di SQLite,
-    `data/iptv.db`).
-  - `GET /api/pipeline/runs/{id}` — detail satu run.
-  - `GET /playlist/master.m3u` — sajikan master playlist langsung dari
-    proses ini (alternatif ke URL raw GitHub/Pages, kalau kamu
-    self-host).
-  - `GET /api/reports/{html|json|csv|xlsx}` — unduh laporan terakhir.
-  - `GET /docs` — dokumentasi API interaktif (bawaan FastAPI/Swagger).
-- **Scheduler background** (opsional, `IPTV_SCHEDULER_ENABLED=true`)
-  — menjalankan pipeline otomatis tiap `IPTV_SCHEDULER_INTERVAL_MINUTES`
-  menit, tanpa bergantung pada GitHub Actions sama sekali.
+✨ PLAYLIST COLLECTION
 
-Proteksi:
-- Endpoint yang **mengubah data** (`POST /api/pipeline/run`) selalu
-  butuh `X-API-Key` yang cocok dengan `IPTV_API_KEY`.
-- Dashboard (baca-saja) **terbuka secara default**; isi
-  `IPTV_DASHBOARD_USERNAME` + `IPTV_DASHBOARD_PASSWORD` untuk
-  menguncinya dengan HTTP Basic Auth.
+🌐 ALL CHANNELS
 
-## Status Pengembangan
+Akses seluruh channel yang tersedia dalam satu playlist.
 
-- [x] **Phase 1** — Arsitektur, struktur folder, konfigurasi, inisialisasi
-- [x] **Phase 2** — Playlist parser, merger, duplicate detection
-- [x] **Phase 3** — Stream validator, XMLTV validator, logo validator
-- [x] **Phase 4** — Report generator, GitHub Actions automation
-- [x] **Phase 5** — Web dashboard, REST API, auth, scheduler
+ALL
 
-## Instalasi (development)
+https://karya-media.github.io/tv/all.m3u
 
-```bash
-python3.13 -m venv .venv
-source .venv/bin/activate
-pip install -e ".[dev]"
-cp .env.example .env   # lalu isi IPTV_GITHUB_REPOSITORY, IPTV_API_KEY, dst.
-pytest
-```
+---
+
+🇮🇩 INDONESIA & SPORTS
+
+Playlist yang difokuskan pada channel dengan kategori Indonesia dan olahraga.
+
+MASTER
+
+https://karya-media.github.io/tv/master.m3u
+
+---
+
+🎬 MOVIES & VOD
+
+Playlist untuk kategori film dan video on demand dari sumber yang tersedia.
+
+FFF
+
+https://karya-media.github.io/tv/fff.m3u
+
+---
+
+🎯 EVENT
+
+Playlist khusus untuk channel kategori event.
+
+EVENT
+
+https://karya-media.github.io/tv/Event.m3u
+
+---
+
+🚀 BUILT FOR IPTV
+
+Karya Media dirancang agar playlist dapat digunakan pada berbagai perangkat dan aplikasi yang mendukung format M3U.
+
+📺 Smart TV
+
+Gunakan playlist pada aplikasi IPTV yang mendukung M3U URL.
+
+📱 Android & Android TV
+
+Masukkan URL playlist ke IPTV player pilihan Anda.
+
+💻 Windows
+
+Gunakan aplikasi IPTV atau media player yang mendukung M3U.
+
+🖥️ Linux
+
+Gunakan aplikasi yang mendukung playlist M3U dan streaming URL.
+
+«Dukungan fitur bergantung pada aplikasi dan perangkat yang digunakan.»
+
+---
+
+⚡ AUTOMATED IPTV MANAGEMENT
+
+Di balik satu URL sederhana terdapat sistem pemrosesan playlist otomatis.
+
+                  IPTV SOURCES
+                       │
+                       ▼
+              ┌─────────────────┐
+              │  KARYA MEDIA    │
+              │  IPTV ENGINE    │
+              └────────┬────────┘
+                       │
+              ┌────────┴────────┐
+              │                 │
+              ▼                 ▼
+          PROCESSING         VALIDATION
+              │                 │
+              └────────┬────────┘
+                       ▼
+                PLAYLIST BUILDER
+                       │
+                       ▼
+                 GITHUB PAGES
+                       │
+                       ▼
+                 YOUR IPTV APP
+                       │
+                       ▼
+                      📺
+
+Sistem dapat melakukan:
+
+- 🔄 Sinkronisasi sumber
+- 🧩 Penggabungan playlist
+- 📂 Pengelompokan channel
+- 🔍 Validasi
+- 📊 Pembuatan laporan
+- 🌐 Publikasi otomatis
+
+---
+
+🎯 ONE URL. MULTIPLE POSSIBILITIES.
+
+Daripada menyimpan banyak playlist, gunakan satu playlist utama:
+
+https://karya-media.github.io/tv/all.m3u
+
+Lebih sederhana. Lebih mudah dikelola.
+
+---
+
+🛠️ HOW TO USE
+
+01 — Copy Playlist URL
+
+https://karya-media.github.io/tv/all.m3u
+
+02 — Open Your IPTV Player
+
+Cari menu seperti:
+
+Add Playlist
+Add M3U URL
+Remote Playlist
+Network Playlist
+
+03 — Paste the URL
+
+Masukkan URL Karya Media IPTV.
+
+04 — Save & Play
+
+Simpan playlist dan mulai menikmati channel yang tersedia.
+
+---
+
+🔥 WHY KARYA MEDIA?
+
+Fitur| Karya Media
+Playlist berbasis URL| ✅
+Banyak sumber dalam satu playlist| ✅
+Pengelompokan kategori| ✅
+Pemrosesan otomatis| ✅
+Validasi otomatis| ✅
+GitHub Pages| ✅
+Mudah digunakan| ✅
+Open source| ✅
+
+---
+
+🔄 ALWAYS EVOLVING
+
+Karya Media IPTV bukan sekadar file ".m3u".
+
+Project ini dikembangkan sebagai sistem pengelolaan playlist IPTV yang dapat terus berkembang mengikuti kebutuhan pengguna.
+
+Pengembangan dapat mencakup:
+
+- 📡 Penambahan sumber baru
+- 🔍 Pemeriksaan channel
+- 🧹 Pembersihan playlist
+- 📊 Monitoring kualitas sumber
+- 🏷️ Pengelolaan metadata channel
+- ⚙️ Otomatisasi pipeline
+- 📺 Pengembangan playlist baru
+
+---
+
+🌐 ACCESS KARYA MEDIA
+
+Playlist| URL
+⭐ ALL| https://karya-media.github.io/tv/all.m3u
+🇮🇩 MASTER| https://karya-media.github.io/tv/master.m3u
+🎬 FFF| https://karya-media.github.io/tv/fff.m3u
+🎯 EVENT| https://karya-media.github.io/tv/Event.m3u
+
+Semua Playlist
+
+https://karya-media.github.io/tv/
+
+---
+
+💻 OPEN SOURCE
+
+Karya Media IPTV dikembangkan secara terbuka melalui GitHub.
+
+Repository:
+
+https://github.com/karya-media/tv
+
+Anda dapat melihat, mempelajari, dan mengembangkan sistem playlist ini sesuai kebutuhan project Anda.
+
+---
+
+⚠️ IMPORTANT
+
+Karya Media berfungsi sebagai platform pengelolaan dan publikasi playlist M3U.
+
+Ketersediaan, kualitas, dan legalitas setiap stream bergantung pada sumber masing-masing.
+
+Channel atau stream dapat berubah, tidak tersedia, atau berhenti bekerja sewaktu-waktu.
+
+Gunakan hanya sumber dan konten yang Anda memiliki hak untuk akses atau distribusikan.
+
+---
+
+📺 KARYA MEDIA IPTV
+
+One Playlist. Many Channels. Simple IPTV.
+
+Siap mencoba?
+
+▶️ START WATCHING
+
+https://karya-media.github.io/tv/all.m3u
+
+---
+
+KARYA MEDIA
+
+Simplifying IPTV, one playlist at a time.
