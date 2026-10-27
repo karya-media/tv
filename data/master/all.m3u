@@ -8068,8 +8068,10 @@ http://185.37.150.46/Karusel/index.m3u8
 https://fs.uplink.kz/karusel/mono.m3u8?token=onlinetv
 #EXTINF:-1 tvg-id="CartagoMediosTV.crSD" tvg-logo="https://i.imgur.com/Vcd40AL.png" group-title="Costa Rica;Uncategorized",Cartago Medios TV (720p) [Not 24/7]
 https://acceso.mediosdecostarica.com:3511/stream/play.m3u8
-#EXTINF:-1 tvg-id="CartoonClassics.plFAST" tvg-logo="https://images-3.rakuten.tv/storage/global-live-channel/translation/artwork/3227c06e-333b-4b1b-b657-3e3ab99ebd06-width200-quality90.jpeg" group-title="Poland;Animation;Kids",Cartoon Classics
+#EXTINF:-1 tvg-id="CartoonClassics.plFAST" tvg-logo="https://images-3.rakuten.tv/storage/global-live-channel/translation/artwork/3227c06e-333b-4b1b-b657-3e3ab99ebd06-width200-quality90.jpeg" group-title="Poland;Animation;Kids",Cartoon Classics (Poland)
 https://daiconnect.com/live/hls/tvup/rk-cartoonclassics/578f4b7eb725168349ec0af81b21d388/index.m3u8
+#EXTINF:-1 tvg-id="CartoonClassics.ruSD" tvg-logo="https://sales.planbkino.tv//b/c/471.png" group-title="Russia;Kids",Cartoon Classics (Russia)
+http://88.218.242.237:8001/Cartoon_Classics
 #EXTINF:-1 tvg-id="CartoonNetwork.inSD" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_CARTOON_NETWORK/images/LOGO_HD/image.png" group-title="India;Animation;Kids",Cartoon Network (India) (720p)
 https://drk6xq0vhn.gpcdn.net/live/cn_sd_abr/index.m3u8
 #EXTINF:-1 tvg-id="CartoonNetwork.pkSD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Cartoon_Network_2010_logo.svg/960px-Cartoon_Network_2010_logo.svg.png" group-title="Pakistan;Animation;Kids",Cartoon Network (Pakistan)
@@ -8283,8 +8285,8 @@ http://74.91.26.218:82/live/cctv4hd.m3u8
 https://dash2.antik.sk/live/test_cctv_tizen/playlist.m3u8
 #EXTINF:-1 tvg-id="CCTV4K.cnHD" tvg-logo="https://i.imgur.com/fxusYlX.png" group-title="China;Uncategorized",CCTV-4K HD (1080p)
 http://198.204.240.250:82/live/cctv4k.m3u8
-#EXTINF:-1 tvg-id="CCTV5Plus.cnSD" tvg-logo="https://i.imgur.com/OK8mdJV.png" group-title="China;Sports",CCTV-5+
-https://myip.pdtvhd.com/Sports/streams/CCTV5pul.m3u8
+#EXTINF:-1 tvg-id="CCTV5Plus.cnSD" tvg-logo="https://i.imgur.com/OK8mdJV.png" group-title="China;Sports",CCTV-5+ (1080p)
+https://php.jdshipin.com/TVOD/iptv.php?id=cctv5p
 #EXTINF:-1 tvg-id="CCTV6.cnSD" tvg-logo="https://i.imgur.com/rFiaef7.png" group-title="China;Movies",CCTV-6 [Geo-blocked]
 https://live.eac-news.com/CCTV/streams/cctv6.m3u8
 #EXTINF:-1 tvg-id="CCTV6.cnHD" tvg-logo="https://i.imgur.com/rFiaef7.png" group-title="China;Movies",CCTV-6 HD (1080p)
@@ -21159,8 +21161,6 @@ https://vtvgolive-sctvdrm.vtvdigital.vn/manifest/sctv2/master.m3u8
 https://vtvgolive-sctvdrm.vtvdigital.vn/bsod999cuteptgyoutuber/1234567890/manifest/sctv3/master.m3u8
 #EXTINF:-1 tvg-id="SCTV4.vnSD" tvg-logo="https://i.imgur.com/qkZhzQq.png" group-title="Vietnam;Uncategorized",SCTV4 (720p)
 https://vtvgolive-sctvdrm.vtvdigital.vn/manifest/sctv4/master.m3u8
-#EXTINF:-1 tvg-id="SCTV4K.vnUHD" tvg-logo="https://i.imgur.com/eQVMAur.png" group-title="Vietnam;Uncategorized",SCTV4K (2160p)
-https://vietanhtv.id.vn/sctv/sctv-4k/index.m3u8
 #EXTINF:-1 tvg-id="SCTV6.vnSD" tvg-logo="https://i.imgur.com/2oOVS42.png" group-title="Vietnam;Uncategorized",SCTV6 (720p)
 https://vtvgolive-sctvdrm.vtvdigital.vn/manifest/sctv6/master.m3u8
 #EXTINF:-1 tvg-id="SCTV7.vnSD" tvg-logo="https://i.imgur.com/xbIUZYd.png" group-title="Vietnam;Uncategorized",SCTV7 (720p)
