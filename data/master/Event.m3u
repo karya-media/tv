@@ -44,6 +44,10 @@ https://d3b0v7fggu5zwm.cloudfront.net/out/v1/9e9aba7068ca4c7f8a73381bef5f8742/in
 https://live.vivo155.com/live/sd-1-4614388.m3u8?txSecret=51e3af6ec457df9f63be5db15c758662&txTime=6ADA1206
 #EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS67iGRe1SflLs3g_Fc9KyJgytv8QizJNb_P_TX4HEGMw&s=10" group-title="BRI LIGA 1 & LIGA 2 PEGADAIAN",INDOSIAR FEED 2
 https://pull.streamviewk7x.click/livesp/sd-6MxiKav3vNEE1VV6av_hd.m3u8?txSecret=c1916b5ddf9d909d0c2ca27560652462&txTime=6ADB4C40
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTruU4vKRZ0_Ac2LlhGqU9ho5x8BbHMpiLYrJk0oTY6xURJaiXb8D61gTY&s=10" group-title="AFC CHAMPIONS LEAGUE ELITE",LANCARTV FEED
+https://raw.githubusercontent.com/vannyruru-ui/KokoUyo06/refs/heads/main/Global
+#EXTINF:-1 tvg-logo="https://wallpaperaccess.com/full/7850968.gif" group-title="PREMIER LEAGUE",LANCARTV FEED SCTV FHD
+https://raw.githubusercontent.com/vannyruru-ui/KokoUyo06/refs/heads/main/UyoSctv.m3u8
 #EXTINF:-1 tvg-id="Digital.id" tvg-name="Moji Digital(server 3)" tvg-logo="https://i.imgur.com/f8m10M1.jpeg" group-title="Indonesia;OLAHRAGA LOKAL",MOJI HD CH2
 https://sw.run/CAMPWIKI-MOJIFHD
 #EXTINF:-1 tvg-id="ANTV.idSD" tvg-logo="https://64.media.tumblr.com/77d7b93e54d6a77a81b2bec8d1932691/tumblr_ofkh5xUTcX1rqdxf9o1_1280.gif" group-title="Indonesia;LOKAL",ANTV HD
@@ -311,8 +315,6 @@ https://tg0e1gr4ugmtwgczdrpbufa3dcmmcpf5gkce.100ycdn.com/live1.quickscoreboardz.
 https://tg0e1gr4ugmtwgczdrpbufa3unmmcpf5gkce.100ycdn.com/live1.quickscoreboardz.com/live/channel75/playlist.m3u8?wsSecret=c99984a5875909064cf274e46b8b77f8&wsABSTime=1792911966&wsSession=e4494cec94b605bd19b02f09-179286876951301&wsIPSercert=690656f99094be74e16cb34d89341360&wsBindIP=2&wsserid=1168311488344110126
 #EXTINF:-1 tvg-logo="https://www.freepnglogos.com/uploads/counter-strike-png-logo/counter-strike-symbol-png-logo-11.png" group-title="LIVE ESPORTS",CSGO CIR
 https://tg0e1gr4ugmtwgczdrpbufa5demmcpf5gkce.100ycdn.com/live1.quickscoreboardz.com/live/channel76/playlist.m3u8?wsSecret=d9ec09906a0f89455b5983cdb49ec8fa&wsABSTime=1792912033&wsSession=58b550e01da2fc08e843c601-179286883677072&wsIPSercert=690656f99094be74e16cb34d89341360&wsBindIP=2&wsserid=1168311491940439020
-#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTruU4vKRZ0_Ac2LlhGqU9ho5x8BbHMpiLYrJk0oTY6xURJaiXb8D61gTY&s=10" group-title="AFC CHAMPIONS LEAGUE ELITE",LANCARTV FEED
-https://raw.githubusercontent.com/vannyruru-ui/KokoUyo06/refs/heads/main/Global
 #EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTruU4vKRZ0_Ac2LlhGqU9ho5x8BbHMpiLYrJk0oTY6xURJaiXb8D61gTY&s=10" group-title="AFC CHAMPIONS LEAGUE ELITE",Sportstars
 #EXTVLCOPT:http-referrer=https://www.visionplus.id/
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
@@ -348,6 +350,8 @@ https://dash2.antik.sk/stream/nvidia_nova_sport1/playlist_cenc.mpd
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referer=https://webtv.sk/tv/
 https://dash2.antik.sk/stream/nvidia_nova_sport2/playlist_cenc.mpd
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwUJjdGzQ138yoymhmtxs96AyITXTC1WD3Qdoo_EOKcDj__YsjLOSSsr8&s=10" group-title="CARABAO CUP EFL 2026",GOLAZO NETWORK
+https://otte.live.fly.ww.aiv-cdn.net/lhr-nitro/live/clients/dash/enc/rbem8rorcw/out/v1/5318821e2c3c44c2a439681b9aa86e9b/cenc.mpd
 #EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwaod70x_TTcRW23akb0kM2vxe_SocNunFggpRhm0llHb9Zzg17HOO8T8&s=10" group-title="PIALA JERMAN (DFB POKAL)",Premier Sports 1
 https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash/enc/m6sqanvm2m/out/v1/f6beb46c6e9a4132ad739f3ca27df6aa/cenc.mpd
 #EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwaod70x_TTcRW23akb0kM2vxe_SocNunFggpRhm0llHb9Zzg17HOO8T8&s=10" group-title="PIALA JERMAN (DFB POKAL)",Premier Sports 2
@@ -411,14 +415,12 @@ https://tg050gr4ugmtwgczdcqjqgr5n45djq31unmutqiwsg45ucpzzr3mnp7ozr3d4.100ycdn.co
 https://tg050gr3uomttgr31hctwgazdoc3pptwzc3jt.100ycdn.com/live1.quickscoreboardz.com/live/channel80/playlist.m3u8?wsSecret=93845c715dcf9b09b372363b9550c2d1&wsABSTime=1792091534&wsSession=95f32cc2c2b923da609e96a9-179204833894575&wsIPSercert=1a493edd0c472424bef89e6e040d6678&wsBindIP=2&wsserid=1168278531255916870
 #EXTINF:-1 tvg-id="VOLLYBALL" tvg-logo="https://thenvl.com/wp-content/uploads/2016/01/nvl-logo2-01-e1452534886433.png" group-title="VOLLEYBALL TV",NATIONAL LEAGUE WOMEN 2
 https://tg050gr4ugmtwgczdcqjqgr5n45djq31unmutqiwsg45ucpzzr3mnp7ozr3d4.100ycdn.com/live1.quickscoreboardz.com/live/channel81/playlist.m3u8?wsSecret=75cdc531c79c62eb5541689aee33ecf8&wsABSTime=1792091674&wsSession=6e5e48cde178b0231176ecbe-179204847902158&wsIPSercert=9faba076c0338ce7a76a05f30144030c&wsBindIP=2&wsserid=1168287746149776142
-#EXTINF:-1 tvg-id="BULUTANGKISTV" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGPlOMHHq-T-7lSpFQY7LE79X3Vt4diSktMJb6dJggYg&s=10" group-title="BULUTANGKIS TV",YONEX FRANCE BADMINTON COURT 1
-https://tg0f0gr4ugmtwgczdcqjqgr5n45djq31unmutqiwsg45ucpzzr3mnp7ozr3d4.100ycdn.com/live1.quickscoreboardz.com/live/channel69/playlist.m3u8?wsSecret=9477d1fc3d3db416fee19f621af4e017&wsABSTime=1792970670&wsSession=bd7badcfa13466471c5377ce-179292747570904&wsIPSercert=0c0a12dcf8d2ecc1da7799bcc661c2af&wsBindIP=2&wsserid=1168287746130901650
-#EXTINF:-1 tvg-id="BULUTANGKISTV" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGPlOMHHq-T-7lSpFQY7LE79X3Vt4diSktMJb6dJggYg&s=10" group-title="BULUTANGKIS TV",YONEX FRANCE BADMINTON COURT 2
-https://live1.quickscoreboardz.com/live/channel61/playlist.m3u8?wsSecret=8d78df937bee27de7fa9546e50a5142a&wsABSTime=1791944837
-#EXTINF:-1 tvg-id="BULUTANGKISTV" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGPlOMHHq-T-7lSpFQY7LE79X3Vt4diSktMJb6dJggYg&s=10" group-title="BULUTANGKIS TV",YONEX FRANCE BADMINTON COURT 3
-https://live1.quickscoreboardz.com/live/channel63/playlist.m3u8?wsSecret=5298b3f5088b77c68e76fee7924c9445&wsABSTime=1791944746
-#EXTINF:-1 tvg-id="BULUTANGKISTV" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGPlOMHHq-T-7lSpFQY7LE79X3Vt4diSktMJb6dJggYg&s=10" group-title="BULUTANGKIS TV",YONEX FRANCE BADMINTON COURT 4
-https://live1.quickscoreboardz.com/live/channel62/playlist.m3u8?wsSecret=5ae44c2d5b810f979466e411ede6f7ae&wsABSTime=1791944652
+#EXTINF:-1 tvg-id="BULUTANGKISTV" tvg-logo="https://shorter.me/oFx-D" group-title="BULUTANGKIS TV",HYLO Open 2026
+https://tfqv3gr5dgmttgha1hcto8yzdncbafisg17ufgrz8yhuxgjtse5ucpf5gk.100ycdn.com/live1.quickscoreboardz.com/live/channel87.m3u8
+#EXTINF:-1 tvg-id="BULUTANGKISTV" tvg-logo="https://shorter.me/oFx-D" group-title="BULUTANGKIS TV",HYLO Open 2026
+https://tfqv3gr5dgmttgha1hcto8yzdncbafisg17ufgrz8yhuxgjtse5ucpf5gk.100ycdn.com/live1.quickscoreboardz.com/live/channel88.m3u8
+#EXTINF:-1 tvg-id="BULUTANGKISTV" tvg-logo="https://shorter.me/oFx-D" group-title="BULUTANGKIS TV",HYLO Open 2026
+https://tfqv3gr5dgmttgha1hcto8yzdncbafisg17ufgrz8yhuxgjtse5ucpf5gk.100ycdn.com/live1.quickscoreboardz.com/live/channel89.m3u8
 #EXTINF:-1 tvg-id="itzplay.id" tvg-logo="https://m.media-amazon.com/images/S/pv-target-images/b653329169452b75ebba141c19510c90fd546b68136d8c15eec2839adc18aeae.jpg" group-title="Indonesia;CHAMPIONS LEAGUE",beIN Sports 1
 #EXTVLCOPT:http-referrer=https://www.visionplus.id/
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
@@ -453,8 +455,6 @@ https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/dev1hjwzh9/out/v1
 https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/tdijwiga2k/out/v1/f5fde318678f4f7583bf27b7231bde1f/cenc.mpd
 #EXTINF:-1 tvg-id="itzplay.id" tvg-logo="https://m.media-amazon.com/images/S/pv-target-images/b653329169452b75ebba141c19510c90fd546b68136d8c15eec2839adc18aeae.jpg" group-title="Indonesia;CHAMPIONS LEAGUE",QAZSPORT
 http://195.201.243.254/stream10/index.m3u8
-#EXTINF:-1 tvg-logo="https://wallpaperaccess.com/full/7850968.gif" group-title="PREMIER LEAGUE",LANCARTV FEED SCTV FHD
-https://raw.githubusercontent.com/vannyruru-ui/KokoUyo06/refs/heads/main/UyoSctv.m3u8
 #EXTINF:-1 tvg-logo="https://wallpaperaccess.com/full/7850968.gif" group-title="PREMIER LEAGUE",CCTV 5
 http://38.75.136.137:98/gslb/dsdqpub/cctv5hd.m3u8?auth=testpub
 #EXTINF:-1 tvg-id="itzplay.id" tvg-logo="https://wallpaperaccess.com/full/7850968.gif" group-title="Indonesia;PREMIER LEAGUE",DAZN 2
@@ -501,8 +501,6 @@ https://d3b0v7fggu5zwm.cloudfront.net/out/v1/32aa4a6344fd435bb78826c719c11923/in
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTVLCOPT:http-referrer=https://www.visionplus.id/
 https://d84q7nw4qf3j3.cloudfront.net/out/v1/8983f9a68f0d4f169a77f3ce20ab2685/index.mpd
-#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS67iGRe1SflLs3g_Fc9KyJgytv8QizJNb_P_TX4HEGMw&s=10" group-title="BRI LIGA 1 & LIGA 2 PEGADAIAN",LANCARTV FEED INDOSIAR
-https://raw.githubusercontent.com/vannyruru-ui/KokoUyo06/refs/heads/main/Liga1bri.m3u8
 #EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS67iGRe1SflLs3g_Fc9KyJgytv8QizJNb_P_TX4HEGMw&s=10" group-title="BRI LIGA 1 & LIGA 2 PEGADAIAN",BRI VIDIO FEED 1
 #EXTVLCOPT:http-origin=https://player.787200.com/
 #EXTVLCOPT:http-referrer=https://player.787200.com/

@@ -115,6 +115,11 @@ https://dash2.antik.sk/stream/nvidia_nova_sport1/playlist_cenc.mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=11223344556677889900112233445566:4b80724d0ef86bcb2c21f7999d67739d
 https://dash2.antik.sk/stream/nvidia_nova_sport2/playlist_cenc.mpd
+#EXTINF:-1 group-title="CARABAO CUP EFL 2026" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwUJjdGzQ138yoymhmtxs96AyITXTC1WD3Qdoo_EOKcDj__YsjLOSSsr8&s=10",GOLAZO NETWORK
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=d9623774ac5c8c351aafe97c5fe70267:5164e6d05164a2d65fa8fcc962aa4861
+https://otte.live.fly.ww.aiv-cdn.net/lhr-nitro/live/clients/dash/enc/rbem8rorcw/out/v1/5318821e2c3c44c2a439681b9aa86e9b/cenc.mpd
 
 ##DFB POKAL
 #EXTINF:-1 group-title="PIALA JERMAN (DFB POKAL)" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwaod70x_TTcRW23akb0kM2vxe_SocNunFggpRhm0llHb9Zzg17HOO8T8&s=10",SOCCER CHANNEL
@@ -266,14 +271,13 @@ ASEAN CUP 2026
 #KODIPROP:inputstream.adaptive.license_key=https://vision.mikrofast.web.id/license?id=112
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
 https://d2tjypxxy769fn.cloudfront.net/out/v1/89a6e4261cd7470f83e5869e90440cff/index.mpd
-#EXTINF:-1 tvg-id="BULUTANGKIS TV" group-title="BULUTANGKIS TV"tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGPlOMHHq-T-7lSpFQY7LE79X3Vt4diSktMJb6dJggYg&s=10",YONEX FRANCE BADMINTON COURT 1
-https://tg0f0gr4ugmtwgczdcqjqgr5n45djq31unmutqiwsg45ucpzzr3mnp7ozr3d4.100ycdn.com/live1.quickscoreboardz.com/live/channel69/playlist.m3u8?wsSecret=9477d1fc3d3db416fee19f621af4e017&wsABSTime=1792970670&wsSession=bd7badcfa13466471c5377ce-179292747570904&wsIPSercert=0c0a12dcf8d2ecc1da7799bcc661c2af&wsBindIP=2&wsserid=1168287746130901650
-#EXTINF:-1 tvg-id="BULUTANGKIS TV" group-title="BULUTANGKIS TV"tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGPlOMHHq-T-7lSpFQY7LE79X3Vt4diSktMJb6dJggYg&s=10",YONEX FRANCE BADMINTON COURT 2
-https://live1.quickscoreboardz.com/live/channel61/playlist.m3u8?wsSecret=8d78df937bee27de7fa9546e50a5142a&wsABSTime=1791944837
-#EXTINF:-1 tvg-id="BULUTANGKIS TV" group-title="BULUTANGKIS TV"tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGPlOMHHq-T-7lSpFQY7LE79X3Vt4diSktMJb6dJggYg&s=10",YONEX FRANCE BADMINTON COURT 3
-https://live1.quickscoreboardz.com/live/channel63/playlist.m3u8?wsSecret=5298b3f5088b77c68e76fee7924c9445&wsABSTime=1791944746
-#EXTINF:-1 tvg-id="BULUTANGKIS TV" group-title="BULUTANGKIS TV"tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGPlOMHHq-T-7lSpFQY7LE79X3Vt4diSktMJb6dJggYg&s=10",YONEX FRANCE BADMINTON COURT 4
-https://live1.quickscoreboardz.com/live/channel62/playlist.m3u8?wsSecret=5ae44c2d5b810f979466e411ede6f7ae&wsABSTime=1791944652
+
+#EXTINF:-1 tvg-id="BULUTANGKIS TV" group-title="BULUTANGKIS TV"tvg-logo="https://shorter.me/oFx-D",HYLO Open 2026
+https://tfqv3gr5dgmttgha1hcto8yzdncbafisg17ufgrz8yhuxgjtse5ucpf5gk.100ycdn.com/live1.quickscoreboardz.com/live/channel87.m3u8
+#EXTINF:-1 tvg-id="BULUTANGKIS TV" group-title="BULUTANGKIS TV"tvg-logo="https://shorter.me/oFx-D",HYLO Open 2026
+https://tfqv3gr5dgmttgha1hcto8yzdncbafisg17ufgrz8yhuxgjtse5ucpf5gk.100ycdn.com/live1.quickscoreboardz.com/live/channel88.m3u8
+#EXTINF:-1 tvg-id="BULUTANGKIS TV" group-title="BULUTANGKIS TV"tvg-logo="https://shorter.me/oFx-D",HYLO Open 2026
+https://tfqv3gr5dgmttgha1hcto8yzdncbafisg17ufgrz8yhuxgjtse5ucpf5gk.100ycdn.com/live1.quickscoreboardz.com/live/channel89.m3u8
 
 
 
