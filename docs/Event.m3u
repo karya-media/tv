@@ -45,7 +45,7 @@ https://live.vivo155.com/live/sd-1-4614388.m3u8?txSecret=51e3af6ec457df9f63be5db
 #EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS67iGRe1SflLs3g_Fc9KyJgytv8QizJNb_P_TX4HEGMw&s=10" group-title="BRI LIGA 1 & LIGA 2 PEGADAIAN",INDOSIAR FEED 2
 https://pull.streamviewk7x.click/livesp/sd-6MxiKav3vNEE1VV6av_hd.m3u8?txSecret=c1916b5ddf9d909d0c2ca27560652462&txTime=6ADB4C40
 #EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTruU4vKRZ0_Ac2LlhGqU9ho5x8BbHMpiLYrJk0oTY6xURJaiXb8D61gTY&s=10" group-title="AFC CHAMPIONS LEAGUE ELITE",LANCARTV FEED
-https://raw.githubusercontent.com/vannyruru-ui/KokoUyo06/refs/heads/main/Global
+https://raw.githubusercontent.com/vannyruru-ui/KokoUyo06/refs/heads/main/Global.m3u8
 #EXTINF:-1 tvg-logo="https://wallpaperaccess.com/full/7850968.gif" group-title="PREMIER LEAGUE",LANCARTV FEED SCTV FHD
 https://raw.githubusercontent.com/vannyruru-ui/KokoUyo06/refs/heads/main/UyoSctv.m3u8
 #EXTINF:-1 tvg-id="Digital.id" tvg-name="Moji Digital(server 3)" tvg-logo="https://i.imgur.com/f8m10M1.jpeg" group-title="Indonesia;OLAHRAGA LOKAL",MOJI HD CH2

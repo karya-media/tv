@@ -45,7 +45,7 @@ http://best-8k.org/live/jjyw70ss4w/ek5ui8ithc/1965312.m3u8
 #EXTVLCOPT:http-origin=http://www.vidio.com
 https://nextgenz.my.id/event/pidio/play.mpd?id=205&type=dash
 #EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTruU4vKRZ0_Ac2LlhGqU9ho5x8BbHMpiLYrJk0oTY6xURJaiXb8D61gTY&s=10" group-title="AFC CHAMPIONS LEAGUE ELITE",LANCARTV FEED
-https://raw.githubusercontent.com/vannyruru-ui/KokoUyo06/refs/heads/main/Global
+https://raw.githubusercontent.com/vannyruru-ui/KokoUyo06/refs/heads/main/Global.m3u8
 #EXTINF:-1 tvg-logo="https://wallpaperaccess.com/full/7850968.gif" group-title="PREMIER LEAGUE",LANCARTV FEED SCTV FHD
 https://raw.githubusercontent.com/vannyruru-ui/KokoUyo06/refs/heads/main/UyoSctv.m3u8
 #EXTINF:-1 tvg-id="TransTV1" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/indonesia/trans-tv-id.png?raw=true" group-title="LOKAL",TRANS TV HD
