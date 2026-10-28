@@ -18,6 +18,6 @@
 # Semua channel, otomatis ikut sumber baru kapan pun ditambahkan
 all=*
 # Semua channel yang ter-tag "Indonesia" dari sumber manapun
-master=group:Indonesia,group:Olahraga
+master=group:LIVE ESPORTS,group:AFC CHAMPIONS LEAGUE ELITE,group:CARABAO CUP EFL 2026,group:PIALA JERMAN (DFB POKAL),group:UEFA EUROPA LEAGUE,group:UEFA EUROPA CONFERENCE,group:UEFA NATIONS LEAGUE,group:VOLLEYBALL TV,group:BULUTANGKIS TV,group:CHAMPIONS LEAGUE,group:PREMIER LEAGUE,group:SERIE A LEAGUE,group:BUNDESLIGA,group:LA LIGA,group:FEED VISION+,group:BRI LIGA 1 & LIGA 2 PEGADAIAN,group:LOKAL,group:BERITA,group:HIBURAN,group:DUNIA HEWAN,group:DUNIA ANAK,group:GAYA HIDUP,group:TV DAERAH,group:BERITA LUAR,group:LIVE FEED SPORT (ON JIKA MAIN),group:OLAHRAGA LOKAL,group:WORLD SPORT FHD,group:SPORTS INDO,group:SPORTS LUAR,group:SPORTS FIGHT,group:OLAHRAGA AMERIKA,group:HORROR & SCI-FI,group:ARENA SPORT (NEW),group:Local Channels,group:ALL SPORTS
 Event=02_koko
 fff=vod,Film
