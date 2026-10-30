@@ -3088,6 +3088,8 @@ http://50.7.120.34:8080/CANAL_11/index.m3u8
 http://50.7.120.34:8080/EUROSPORT/index.m3u8
 #EXTINF:-1 tvg-logo="https://i.ytimg.com/vi/nD2jotM50x4/maxresdefault.jpg" group-title="PLAYLIST KOKO TV",THE TIMELINER MOVIE SEASON 1
 https://dl.dropboxusercontent.com/scl/fi/b5prq0jxxh3q145ejub7f/vidssave.com-The-Timeliner-The-Movie-720P.mp4?rlkey=v3miowc1x5fdcl8bbbc4a8g03&st=8sei6ox9&dl=1
+#EXTINF:-1 tvg-logo="https://shorter.me/_bDcr" group-title="LIVE 30-OKT-26",15:30 WIB Malut United vs Bhayangkara
+https://pul-tenm.gkykp.com/live/sd-1-4614399.m3u8?txSecret=8e0951eed86b3a674e603ac0cf43e346&txTime=6AE5A709
 #EXTINF:-1 tvg-logo="https://logos-world.net/wp-content/uploads/2020/11/League-of-Legends-Logo.png" group-title="LIVE ESPORTS",LEAGUE OF LEGENDS
 https://live2.jorvakstreamcache.com/live/channel30.m3u8
 #EXTINF:-1 tvg-logo="https://logos-world.net/wp-content/uploads/2020/12/Dota-2-Symbol.jpg" group-title="LIVE ESPORTS",DOTA 2 PAR
