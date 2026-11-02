@@ -33,6 +33,14 @@ class Channel:
     logo_url: str | None = None
     group_title: GroupTitle = field(default_factory=lambda: GroupTitle.parse(None))
     duration: float = -1.0
+    tvg_chno: int | None = None
+    """Explicit channel number (the "tvg-chno" attribute) many players
+    use for numeric remote-control navigation and a stable on-screen
+    channel list, independent of this file's physical line order.
+    Assigned by AssignChannelNumbersUseCase as the very last step
+    before publishing a bundle, from that bundle's own final channel
+    order (see ApplyChannelOrderUseCase) - so e.g. a channel pinned
+    first via data/channel_order.txt also becomes channel 1."""
     source_category: str | None = None
     extra_attrs: Mapping[str, str] = field(default_factory=dict)
     vlc_opts: Mapping[str, str] = field(default_factory=dict)
@@ -46,6 +54,9 @@ class Channel:
 
     def with_tvg_id(self, tvg_id: TvgId) -> Channel:
         return replace(self, tvg_id=tvg_id)
+
+    def with_tvg_chno(self, tvg_chno: int) -> Channel:
+        return replace(self, tvg_chno=tvg_chno)
 
     def with_source_category(self, category: str) -> Channel:
         return replace(self, source_category=category)

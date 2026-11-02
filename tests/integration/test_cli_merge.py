@@ -235,3 +235,35 @@ class TestPlaylistBundles:
         # A wildcard bundle covers every category by definition - no
         # orphan warning should ever fire alongside it.
         assert "playlists.txt bundle" not in result.output
+
+
+class TestChannelNumbering:
+    def test_tvg_chno_follows_channel_order_txt(self, isolated_settings: Settings):
+        (isolated_settings.categories_path / "numbered.m3u").write_text(
+            "#EXTM3U\n"
+            "#EXTINF:-1,Zebra\nhttp://example.com/stream/zebra.m3u8\n"
+            "#EXTINF:-1,Apple\nhttp://example.com/stream/apple.m3u8\n"
+            "#EXTINF:-1,Mango\nhttp://example.com/stream/mango.m3u8\n",
+            encoding="utf-8",
+        )
+        (isolated_settings.project_root / "data" / "playlists.txt").write_text(
+            "everything=*\nfiltered=numbered\n", encoding="utf-8"
+        )
+        # Pin Mango first, then Apple; Zebra is unlisted and follows.
+        (isolated_settings.project_root / "data" / "channel_order.txt").write_text(
+            "Mango\nApple\n", encoding="utf-8"
+        )
+
+        result = runner.invoke(cli_main.app, ["merge"])
+
+        assert result.exit_code == 0, result.output
+        for bundle in ("everything", "filtered"):
+            text = (isolated_settings.master_path / f"{bundle}.m3u").read_text(encoding="utf-8")
+            lines = [line for line in text.splitlines() if line.startswith("#EXTINF")]
+            mango = next(i for i, line in enumerate(lines) if line.endswith(",Mango"))
+            apple = next(i for i, line in enumerate(lines) if line.endswith(",Apple"))
+            zebra = next(i for i, line in enumerate(lines) if line.endswith(",Zebra"))
+            assert mango < apple < zebra
+            assert 'tvg-chno="1"' in lines[mango]
+            assert 'tvg-chno="2"' in lines[apple]
+            assert f'tvg-chno="{zebra + 1}"' in lines[zebra]
