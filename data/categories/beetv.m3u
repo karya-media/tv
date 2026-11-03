@@ -36,10 +36,9 @@ https://op-flashcon-digdayahd-1.dens.tv/s/s104/01.m3u8
 https://beetv.my.id/jabingan/vd.m3u8?ch=sctv
 
 #EXTINF:-1 tvg-name="Indosiar.id" tvg-logo="https://images.indihometv.com/logo_indosiar_ver2.png" group-title="📺 Nasional",Indosiar
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-origin=https://teagan.mvksstick9uq6cprotection.cfd
-#EXTVLCOPT:http-referrer=https://teagan.mvksstick9uq6cprotection.cfd/
-https://beetv.my.id/rbtv/indosiar.m3u
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://www.vidio.com/
+https://beetv.my.id/jabingan/vd.m3u8?ch=indosiar
 
 #EXTINF:-1 tvg-name="tvOne.id" tvg-logo="https://images.indihometv.com/logo_tvonenew_big.png" group-title="📺 Nasional",TVONE
 #EXTVLCOPT:http-referrer=https://www.dens.tv/
@@ -77,10 +76,10 @@ https://op-flashcon-digdayahd-1.dens.tv/h/h208/02.m3u8
 https://stream.jogjatv.co.id/jtvlive/stream/index.m3u8
 
 #EXTINF:-1 tvg-name="MOJI.id" tvg-logo="https://images.indihometv.com/logo_ochannel_ver1.png" group-title="📺 Nasional",Moji
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-origin=https://may.2f17ubowlsjn46easier.cfd
-#EXTVLCOPT:http-referrer=https://may.2f17ubowlsjn46easier.cfd/
-https://beeg.iclik.workers.dev/?id=0316425447650896
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://nadia79bc.mp77g69ainei3gx2voxygen.ru
+#EXTVLCOPT:http-referrer=https://nadia79bc.mp77g69ainei3gx2voxygen.ru/
+https://beetv.my.id/rbtv/moji.m3u
 
 #EXTINF:-1 tvg-name="RTV.id" tvg-logo="https://images.indihometv.com/logo_rtv_big1.png" group-title="📺 Nasional",RTV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
@@ -130,15 +129,17 @@ https://d2w9q46ikgrcwx.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68
 
 #EXTINF:-1 tvg-id="tntsports2" tvg-logo="https://beetv.my.id/logo/motogp.png" group-title="⚽ Olahraga", MOTOGP
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://xtreaweb.top
-#EXTVLCOPT:http-referrer=https://xtreaweb.top/
-https://dlhd.iclik.workers.dev/?channel=tntsports2&play=1
+https://gp.gaweimel.workers.dev/hls/stream.m3u8
+
+#EXTINF:-1 tvg-id="tntsports2" tvg-logo="https://beetv.my.id/logo/motogp.png" group-title="⚽ Olahraga", MOTOGP #2
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36
+https://beetv.my.id/tvnow/?play=32
 
 #EXTINF:-1 tvg-id="SkySportsF1" tvg-logo="https://beetv.my.id/logo/f1tv.png" group-title="⚽ Olahraga", Formula 1
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://www.ksohls.ru
 #EXTVLCOPT:http-referrer=https://www.ksohls.ru/
-https://dlhd.iclik.workers.dev/?channel=SkySportsF1&play=1
+https://beetv.my.id/tvnow/?play=60
 
 #EXTINF:-1 tvg-id="AstroPremierLeague" tvg-logo="https://beetv.my.id/logo/astrosupersport3.png" group-title="⚽ Olahraga", Anteman
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
@@ -361,6 +362,148 @@ https://op-flashcon-digdayahd-1.dens.tv/h/h15/index.m3u8?app_type=web&userid=lit
 https://op-flashcon-digdayahd-1.dens.tv/h/h38/index.m3u8?app_type=web&userid=lite&chname=Sunna_TV
 
 
+
+#EXTM3U
+#EXTINF:-1 tvg-logo="https://narto-drama.com/assets/poster/952478.jpg" group-title="Menjelajah Dunia Tanpa Batas", Episode 01
+https://v-mps.crazymaplestudios.com/vod-112094/5014af21c5e971f19a70f7e7c57a0102/4c4e4789b836490484b52c13d125cf18-3cce2884adfd3719d8607499f1142cc1-ld.m3u8
+
+#EXTINF:-1 tvg-logo="https://narto-drama.com/assets/poster/952478.jpg" group-title="Menjelajah Dunia Tanpa Batas", Episode 02
+https://v-mps.crazymaplestudios.com/vod-112094/f04ad60fc5e971f19f27e6e7c64b0102/14a8644eef0d49eeb2d06cc47e55d14b-c403c81ff2efc768d833a3bb6605b1d0-ld.m3u8
+
+#EXTINF:-1 tvg-logo="https://narto-drama.com/assets/poster/952478.jpg" group-title="Menjelajah Dunia Tanpa Batas", Episode 03
+https://v-mps.crazymaplestudios.com/vod-112094/20d5c91bc5e971f19a70f7e7c57a0102/255e1232ce734b0dabf2277a1ca6f7ce-c51c846e58ebe3d15d73a41638e3208a-ld.m3u8
+
+#EXTINF:-1 tvg-logo="https://narto-drama.com/assets/poster/952478.jpg" group-title="Menjelajah Dunia Tanpa Batas", Episode 04
+https://v-mps.crazymaplestudios.com/vod-112094/804fd715c5e971f184c9e7e7c7690102/e9a07b16c4ee4314bb2ebd25dc5543cd-840e7be8f2b26d2c3cb6971f79e53f0b-ld.m3u8
+
+#EXTINF:-1 tvg-logo="https://narto-drama.com/assets/poster/952478.jpg" group-title="Menjelajah Dunia Tanpa Batas", Episode 05
+https://v-mps.crazymaplestudios.com/vod-112094/c052ac16c5e971f18622f7e6c5580102/3c540bb4b7f04d6886e2dc08ad5bc419-4458e510c8d6b7ffb6ce6e7556672139-ld.m3u8
+
+#EXTINF:-1 tvg-logo="https://narto-drama.com/assets/poster/952478.jpg" group-title="Menjelajah Dunia Tanpa Batas", Episode 06
+https://v-mps.crazymaplestudios.com/vod-112094/60bbb216c5e971f19a70f7e7c57a0102/63f0e3e5825149a98ca275e46d19a1f0-633f9274185993365889a39d0de09d1e-ld.m3u8
+
+#EXTINF:-1 tvg-logo="https://narto-drama.com/assets/poster/952478.jpg" group-title="Menjelajah Dunia Tanpa Batas", Episode 07
+https://v-mps.crazymaplestudios.com/vod-112094/30f29b1cc5e971f1b4e2e7e7f57a0102/f681aac0284846c89d45867e52af1d8f-f3deba0a146417dea884ee0e21f20779-ld.m3u8
+
+#EXTINF:-1 tvg-logo="https://narto-drama.com/assets/poster/952478.jpg" group-title="Menjelajah Dunia Tanpa Batas", Episode 08
+https://v-mps.crazymaplestudios.com/vod-112094/60e8a721c5e971f19a70f7e7c57a0102/022ac0c07cf34aa7acbcf9e67dec5c5c-1a18d4fee59fcdb2deb9bc7a437952e4-ld.m3u8
+
+#EXTINF:-1 tvg-logo="https://narto-drama.com/assets/poster/952478.jpg" group-title="Menjelajah Dunia Tanpa Batas", Episode 09
+https://v-mps.crazymaplestudios.com/vod-112094/b0c4d715c5e971f18c1ce6f6c55a0102/9dd19bcba3974671816532c0671573d8-fdafbfacbbd3df7651f38c402ce1689d-ld.m3u8
+
+#EXTINF:-1 tvg-logo="https://narto-drama.com/assets/poster/952478.jpg" group-title="Menjelajah Dunia Tanpa Batas", Episode 10
+https://v-mps.crazymaplestudios.com/vod-112094/20bda921c5e971f19a70f7e7c57a0102/66de645d0b2c4842b2a24e4384ea534e-b4aa39b22283f9e31ea9b56a72eee084-ld.m3u8
+
+#EXTINF:-1 tvg-logo="https://narto-drama.com/assets/poster/952478.jpg" group-title="Menjelajah Dunia Tanpa Batas", Episode 11
+https://v-mps.crazymaplestudios.com/vod-112094/201ec117c5e971f1b366e6f7e47a0102/54955d09d62942dba8054c04693257b4-b866c5bec204d36de8314272477974de-ld.m3u8
+
+#EXTINF:-1 tvg-logo="https://narto-drama.com/assets/poster/952478.jpg" group-title="Menjelajah Dunia Tanpa Batas", Episode 12
+https://v-mps.crazymaplestudios.com/vod-112094/3088831cc5e971f1b366e6f7e47a0102/9f9ed0d8706e4b3c94cabe021aebb343-6acff32c1bb98f3a28a8e5603b0af73d-ld.m3u8
+
+#EXTINF:-1 tvg-logo="https://narto-drama.com/assets/poster/952478.jpg" group-title="Menjelajah Dunia Tanpa Batas", Episode 13
+https://v-mps.crazymaplestudios.com/vod-112094/90fba616c5e971f19a70f7e7c57a0102/35e89f1ba48c422f944fa87343f11d1b-af097c87963a72610641f43d8d16fe34-ld.m3u8
+
+#EXTINF:-1 tvg-logo="https://narto-drama.com/assets/poster/952478.jpg" group-title="Menjelajah Dunia Tanpa Batas", Episode 14
+https://v-mps.crazymaplestudios.com/vod-112094/30e5b81bc5e971f184a8f6f6d65a0102/2521742dbfcb424cbbac1fa595bcb355-b7e19c161059b354c7e2a172f03c470f-ld.m3u8
+
+#EXTINF:-1 tvg-logo="https://narto-drama.com/assets/poster/952478.jpg" group-title="Menjelajah Dunia Tanpa Batas", Episode 15
+https://v-mps.crazymaplestudios.com/vod-112094/80699d17c5e971f184c9e7e7c7690102/6b4d9fe28f0a46d1be3317b421b2499d-f4ef4a4b51829bc6db990a1930b00d45-ld.m3u8
+
+#EXTINF:-1 tvg-logo="https://narto-drama.com/assets/poster/952478.jpg" group-title="Menjelajah Dunia Tanpa Batas", Episode 16
+https://v-mps.crazymaplestudios.com/vod-112094/10259010c5e971f19c1ee6e7d77b0102/2c5abd3a244c42ff95be78f389dd24f2-a1867c8f99ebfeb669d799dd5bd27f92-ld.m3u8
+
+#EXTINF:-1 tvg-logo="https://narto-drama.com/assets/poster/952478.jpg" group-title="Menjelajah Dunia Tanpa Batas", Episode 17
+https://v-mps.crazymaplestudios.com/vod-112094/0094ac1cc5e971f19f27e6e7c64b0102/4269f99342ef4e898e96569c9fc8c0b3-e5be1d8f189239b698e393465386ea24-ld.m3u8
+
+#EXTINF:-1 tvg-logo="https://narto-drama.com/assets/poster/952478.jpg" group-title="Menjelajah Dunia Tanpa Batas", Episode 18
+https://v-mps.crazymaplestudios.com/vod-112094/f0468316c5e971f1b366e6f7e47a0102/7aa175cfab29498ca774ed7cd6125dc5-93ece5d072bd289aa9b04dafb49ca1d4-ld.m3u8
+
+#EXTINF:-1 tvg-logo="https://narto-drama.com/assets/poster/952478.jpg" group-title="Menjelajah Dunia Tanpa Batas", Episode 19
+https://v-mps.crazymaplestudios.com/vod-112094/f0db7917c5e971f18622f7e6c5580102/53952dec6d894d1e96b8c8a5ff99be9f-22da019ec032e52944dd5d516bf38c7c-ld.m3u8
+
+#EXTINF:-1 tvg-logo="https://narto-drama.com/assets/poster/952478.jpg" group-title="Menjelajah Dunia Tanpa Batas", Episode 20
+https://v-mps.crazymaplestudios.com/vod-112094/e03d7e16c5e971f18622f7e6c5580102/aeb2320eb9d840ddb59ee65c227c9aa3-5ad2f9d99c236d83ad65dd6993b3ee00-ld.m3u8
+
+#EXTINF:-1 tvg-logo="https://narto-drama.com/assets/poster/952478.jpg" group-title="Menjelajah Dunia Tanpa Batas", Episode 21
+https://v-mps.crazymaplestudios.com/vod-112094/50e2cf0fc5e971f19a70f7e7c57a0102/ee27a850910d47d6921894b6bedc13bd-d8533440230768171e9a1883c01b84f2-ld.m3u8
+
+#EXTINF:-1 tvg-logo="https://narto-drama.com/assets/poster/952478.jpg" group-title="Menjelajah Dunia Tanpa Batas", Episode 22
+https://v-mps.crazymaplestudios.com/vod-112094/0076b11cc5e971f18408e6f6c55b0102/f7add3a320434a3fad12e3f4803be2f1-f3295c9a01ee7b1e946c43735c42b2d2-ld.m3u8
+
+#EXTINF:-1 tvg-logo="https://narto-drama.com/assets/poster/952478.jpg" group-title="Menjelajah Dunia Tanpa Batas", Episode 23
+https://v-mps.crazymaplestudios.com/vod-112094/1046cf0fc5e971f184a8f6f6d65a0102/ef70799273b84c81b66f92ab6a32046a-b0b861645bbbd900de4da7c2b087d3e9-ld.m3u8
+
+#EXTINF:-1 tvg-logo="https://narto-drama.com/assets/poster/952478.jpg" group-title="Menjelajah Dunia Tanpa Batas", Episode 24
+https://v-mps.crazymaplestudios.com/vod-112094/00cbb815c5e971f1b366e6f7e47a0102/89e313ecc5d842c29ddfdc566da6575d-e8899054d47eef8456c6ba45fe44cb06-ld.m3u8
+
+#EXTINF:-1 tvg-logo="https://narto-drama.com/assets/poster/952478.jpg" group-title="Menjelajah Dunia Tanpa Batas", Episode 25
+https://v-mps.crazymaplestudios.com/vod-112094/b08fcb15c5e971f18c1ce6f6c55a0102/dfc2d3bc914a4a17a2759c9a58bb590a-fcc764045efb6b3c26fed114320c63d6-ld.m3u8
+
+#EXTINF:-1 tvg-logo="https://narto-drama.com/assets/poster/952478.jpg" group-title="Menjelajah Dunia Tanpa Batas", Episode 26
+https://v-mps.crazymaplestudios.com/vod-112094/70a1d20fc5e971f19a70f7e7c57a0102/0eb66e0dcc9a4bdb90544f79518f47bb-b7fd5f5259c553be7e498c68c9ae5796-ld.m3u8
+
+#EXTINF:-1 tvg-logo="https://narto-drama.com/assets/poster/952478.jpg" group-title="Menjelajah Dunia Tanpa Batas", Episode 27
+https://v-mps.crazymaplestudios.com/vod-112094/c05cda15c5e971f19f27e6e7c64b0102/0374bbe49824404fbc346a4084f4c5e2-64dbcbe50f0ec38c061c194ba2e40298-ld.m3u8
+
+#EXTINF:-1 tvg-logo="https://narto-drama.com/assets/poster/952478.jpg" group-title="Menjelajah Dunia Tanpa Batas", Episode 28
+https://v-mps.crazymaplestudios.com/vod-112094/002f4917c5e971f19c1ee6e7d77b0102/b67dd2d7baa6413c93b029207b9117aa-f99a9d2922fa64f9576bfa77e4143e27-ld.m3u8
+
+#EXTINF:-1 tvg-logo="https://narto-drama.com/assets/poster/952478.jpg" group-title="Menjelajah Dunia Tanpa Batas", Episode 29
+https://v-mps.crazymaplestudios.com/vod-112094/f084ae1bc5e971f18c1ce6f6c55a0102/408597b19672463bbb4dc92da53c6deb-3346c53ffa99117b8105a6b755b29967-ld.m3u8
+
+#EXTINF:-1 tvg-logo="https://narto-drama.com/assets/poster/952478.jpg" group-title="Menjelajah Dunia Tanpa Batas", Episode 30
+https://v-mps.crazymaplestudios.com/vod-112094/00d78c1cc5e971f1b366e6f7e47a0102/67dc46f8a8714e488c743b4802bd8aa7-2bb2f8e6efed0ca7b5fc7b31d19845d1-ld.m3u8
+
+#EXTINF:-1 tvg-logo="https://narto-drama.com/assets/poster/952478.jpg" group-title="Menjelajah Dunia Tanpa Batas", Episode 31
+https://v-mps.crazymaplestudios.com/vod-112094/f049c715c5e971f1b366e6f7e47a0102/a394f6946e0e46bb92c0b949f97c3fe6-cd563511c8cf5831c2616e3c0aa3e6de-ld.m3u8
+
+#EXTINF:-1 tvg-logo="https://narto-drama.com/assets/poster/952478.jpg" group-title="Menjelajah Dunia Tanpa Batas", Episode 32
+https://v-mps.crazymaplestudios.com/vod-112094/e0fbac10c5e971f1b366e6f7e47a0102/26b5ec4039c44bf99ae84a63311023ea-ed54079f16a7bea4c9e6f57bfa0ddb89-ld.m3u8
+
+#EXTINF:-1 tvg-logo="https://narto-drama.com/assets/poster/952478.jpg" group-title="Menjelajah Dunia Tanpa Batas", Episode 33
+https://v-mps.crazymaplestudios.com/vod-112094/10b7d10fc5e971f184c9e7e7c7690102/f7280d0e28b244388354ff7e186dc823-212ce117e2139d5c99db4f43abc6a27c-ld.m3u8
+
+#EXTINF:-1 tvg-logo="https://narto-drama.com/assets/poster/952478.jpg" group-title="Menjelajah Dunia Tanpa Batas", Episode 34
+https://v-mps.crazymaplestudios.com/vod-112094/40350f10c5e971f19a70f7e7c57a0102/bcfde3e62bb04462a404a43a5a6331ec-f007a0f4244996f6af81d538d0d0ba97-ld.m3u8
+
+#EXTINF:-1 tvg-logo="https://narto-drama.com/assets/poster/952478.jpg" group-title="Menjelajah Dunia Tanpa Batas", Episode 35
+https://v-mps.crazymaplestudios.com/vod-112094/e053801cc5e971f184a8f6f6d65a0102/8391a361c2e54b179a10a85b378730de-4344c3620bae147d9f7fa60a0eba4052-ld.m3u8
+
+#EXTINF:-1 tvg-logo="https://narto-drama.com/assets/poster/952478.jpg" group-title="Menjelajah Dunia Tanpa Batas", Episode 36
+https://v-mps.crazymaplestudios.com/vod-112094/e011af16c5e971f19c1ee6e7d77b0102/0b5f1fe5a2a746ccadbeed74402ddc8d-6398a602dbf5bb2a4de42433dfc4dc63-ld.m3u8
+
+#EXTINF:-1 tvg-logo="https://narto-drama.com/assets/poster/952478.jpg" group-title="Menjelajah Dunia Tanpa Batas", Episode 37
+https://v-mps.crazymaplestudios.com/vod-112094/f0c7ac16c5e971f184a8f6f6d65a0102/47002ed847a84c9586a09ffb8148407d-d79e6f06c6cb75a608571c41985de440-ld.m3u8
+
+#EXTINF:-1 tvg-logo="https://narto-drama.com/assets/poster/952478.jpg" group-title="Menjelajah Dunia Tanpa Batas", Episode 38
+https://v-mps.crazymaplestudios.com/vod-112094/708fab16c5e971f184a8f6f6d65a0102/7598d3f210884b628fadc89fe56fc0b4-e9d77b3c0414a9e64d3b035e581b8640-ld.m3u8
+
+#EXTINF:-1 tvg-logo="https://narto-drama.com/assets/poster/952478.jpg" group-title="Menjelajah Dunia Tanpa Batas", Episode 39
+https://v-mps.crazymaplestudios.com/vod-112094/6086a616c5e971f19c1ee6e7d77b0102/4238baace50e44e1a412aeb340109775-1cb5cab8dbffcbb67b89a91740c48c1c-ld.m3u8
+
+#EXTINF:-1 tvg-logo="https://narto-drama.com/assets/poster/952478.jpg" group-title="Menjelajah Dunia Tanpa Batas", Episode 40
+https://v-mps.crazymaplestudios.com/vod-112094/c0ffa416c5e971f1b4e2e7e7f57a0102/9be44df027a44c328d3c477d3827ff3d-5c55d25e7fb0bc3bbfb457ae0a0ba44c-ld.m3u8
+
+#EXTINF:-1 tvg-logo="https://narto-drama.com/assets/poster/952478.jpg" group-title="Menjelajah Dunia Tanpa Batas", Episode 41
+https://v-mps.crazymaplestudios.com/vod-112094/504ce80fc5e971f18622f7e6c5580102/50f13ded565246c6bd7ea961402c347c-7f96b4ac07cf5f213ecac10db1c09603-ld.m3u8
+
+#EXTINF:-1 tvg-logo="https://narto-drama.com/assets/poster/952478.jpg" group-title="Menjelajah Dunia Tanpa Batas", Episode 42
+https://v-mps.crazymaplestudios.com/vod-112094/f0b3df15c5e971f19f27e6e7c64b0102/4f6412b4ec23462a81f8e095f7968c6f-97318b383eeb6b6e0e315b7a95a11bf2-ld.m3u8
+
+#EXTINF:-1 tvg-logo="https://narto-drama.com/assets/poster/952478.jpg" group-title="Menjelajah Dunia Tanpa Batas", Episode 43
+https://v-mps.crazymaplestudios.com/vod-112094/e05dae1bc5e971f19a70f7e7c57a0102/34c5322f1b4c477b8e207914922c6df8-91bf23ddc922c681f9204ab3082797e6-ld.m3u8
+
+#EXTINF:-1 tvg-logo="https://narto-drama.com/assets/poster/952478.jpg" group-title="Menjelajah Dunia Tanpa Batas", Episode 44
+https://v-mps.crazymaplestudios.com/vod-112094/50b19e1cc5e971f19f27e6e7c64b0102/75328b12c3b04949965f983f8b03c82d-ea18d6f620d576e4053c65b0704fc4e2-ld.m3u8
+
+#EXTINF:-1 tvg-logo="https://narto-drama.com/assets/poster/952478.jpg" group-title="Menjelajah Dunia Tanpa Batas", Episode 45
+https://v-mps.crazymaplestudios.com/vod-112094/e091ab21c5e971f184cae7e7c7690102/ad5f41658bba40d39f60de762e44effb-2a43599ccc503715eac63ce1cccfbbdc-ld.m3u8
+
+#EXTINF:-1 tvg-logo="https://narto-drama.com/assets/poster/952478.jpg" group-title="Menjelajah Dunia Tanpa Batas", Episode 46
+https://v-mps.crazymaplestudios.com/vod-112094/8013e115c5e971f184c9e7e7c7690102/63c317ed225741ccb6d9adf3490c51da-fc07b9d9df1adf0ca6c56e560bde16b2-ld.m3u8
+
+#EXTINF:-1 tvg-logo="https://narto-drama.com/assets/poster/952478.jpg" group-title="Menjelajah Dunia Tanpa Batas", Episode 47
+https://v-mps.crazymaplestudios.com/vod-112094/604ab016c5e971f184c9e7e7c7690102/b9cd227613784933ae8d935e563e75bc-b810961711f78e66c7c4abfbf5868b62-ld.m3u8
 
 ///Gunungkidul
 #EXTINF:-1 tvg-ID="" tvg-name="" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="🔭 CCTV", Pantai Baron
