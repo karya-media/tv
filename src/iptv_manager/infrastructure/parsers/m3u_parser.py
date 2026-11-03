@@ -52,7 +52,7 @@ _HEADER_URL_TVG_RE = re.compile(
 # Attributes modeled explicitly on Channel; anything else in an
 # #EXTINF line is preserved in Channel.extra_attrs so no metadata is
 # silently dropped on merge/re-serialization.
-_KNOWN_ATTRS = frozenset({"tvg-id", "tvg-name", "tvg-logo", "group-title"})
+_KNOWN_ATTRS = frozenset({"tvg-id", "tvg-name", "tvg-logo", "group-title", "tvg-chno"})
 
 
 class M3UParser:
@@ -170,6 +170,7 @@ class M3UParser:
         name = extinf["name"] or attrs.get("tvg-name") or "Unknown channel"
         tvg_id = TvgId.parse(attrs.get("tvg-id"))
         group_title = GroupTitle.parse(attrs.get("group-title"))
+        tvg_chno = _parse_tvg_chno(attrs.get("tvg-chno"))
         extra_attrs = {k: v for k, v in attrs.items() if k not in _KNOWN_ATTRS}
 
         return Channel(
@@ -180,6 +181,7 @@ class M3UParser:
             logo_url=attrs.get("tvg-logo"),
             group_title=group_title,
             duration=extinf["duration"],
+            tvg_chno=tvg_chno,
             source_category=category,
             extra_attrs=extra_attrs,
             vlc_opts=dict(vlc_opts) if vlc_opts else {},
@@ -203,6 +205,8 @@ class M3UParser:
                 attr_parts.append(f'tvg-name="{channel.tvg_name}"')
             if channel.logo_url:
                 attr_parts.append(f'tvg-logo="{channel.logo_url}"')
+            if channel.tvg_chno is not None:
+                attr_parts.append(f'tvg-chno="{channel.tvg_chno}"')
             attr_parts.append(f'group-title="{channel.group_title}"')
             for key, value in channel.extra_attrs.items():
                 attr_parts.append(f'{key}="{value}"')
@@ -221,3 +225,17 @@ def _format_duration(duration: float) -> str:
     if duration == int(duration):
         return str(int(duration))
     return str(duration)
+
+
+def _parse_tvg_chno(raw: str | None) -> int | None:
+    """A source's own tvg-chno is preserved if present and a valid
+    integer; anything else (missing, blank, non-numeric) is treated as
+    unset - this project assigns its own numbering at publish time
+    (see AssignChannelNumbersUseCase) rather than trusting an
+    upstream-provided number to still make sense after merging."""
+    if raw is None:
+        return None
+    try:
+        return int(raw.strip())
+    except ValueError:
+        return None

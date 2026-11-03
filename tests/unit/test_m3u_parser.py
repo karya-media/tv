@@ -307,3 +307,30 @@ class TestSerialize:
         serialized = parser.serialize(playlist, epg_url="https://example.com/epg.xml.gz")
         reparsed = parser.parse(serialized, name="sports")
         assert len(reparsed) == len(playlist)
+
+
+class TestTvgChno:
+    def test_parses_an_existing_tvg_chno(self, parser: M3UParser):
+        raw = '#EXTM3U\n#EXTINF:-1 tvg-chno="7" group-title="X",Chan\nhttp://e.com/a.m3u8\n'
+        playlist = parser.parse(raw, name="t")
+        assert playlist.channels[0].tvg_chno == 7
+        assert "tvg-chno" not in playlist.channels[0].extra_attrs
+
+    def test_non_numeric_tvg_chno_is_treated_as_unset(self, parser: M3UParser):
+        raw = '#EXTM3U\n#EXTINF:-1 tvg-chno="abc",Chan\nhttp://e.com/a.m3u8\n'
+        assert parser.parse(raw, name="t").channels[0].tvg_chno is None
+
+    def test_serialize_writes_tvg_chno_when_set(self, parser: M3UParser):
+        raw = "#EXTM3U\n#EXTINF:-1,Chan\nhttp://e.com/a.m3u8\n"
+        playlist = parser.parse(raw, name="t")
+        playlist.channels[0] = playlist.channels[0].with_tvg_chno(3)
+        assert 'tvg-chno="3"' in parser.serialize(playlist)
+
+    def test_serialize_omits_tvg_chno_when_unset(self, parser: M3UParser):
+        raw = "#EXTM3U\n#EXTINF:-1,Chan\nhttp://e.com/a.m3u8\n"
+        assert "tvg-chno" not in parser.serialize(parser.parse(raw, name="t"))
+
+    def test_tvg_chno_round_trips(self, parser: M3UParser):
+        raw = '#EXTM3U\n#EXTINF:-1 tvg-chno="12",Chan\nhttp://e.com/a.m3u8\n'
+        again = parser.parse(parser.serialize(parser.parse(raw, name="t")), name="t")
+        assert again.channels[0].tvg_chno == 12

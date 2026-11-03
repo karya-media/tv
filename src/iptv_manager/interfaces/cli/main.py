@@ -24,6 +24,7 @@ import typer
 from iptv_manager.application.dto.validation_report import ValidationReport
 from iptv_manager.application.use_cases.apply_channel_order import ApplyChannelOrderUseCase
 from iptv_manager.application.use_cases.apply_overrides import ApplyOverridesUseCase
+from iptv_manager.application.use_cases.assign_channel_numbers import AssignChannelNumbersUseCase
 from iptv_manager.application.use_cases.backfill_tvg_id import BackfillTvgIdFromExactNameUseCase
 from iptv_manager.application.use_cases.categorize_by_country import CategorizeByCountryUseCase
 from iptv_manager.application.use_cases.compare_with_xmltv import CompareWithXMLTVUseCase
@@ -340,7 +341,7 @@ def _publish_bundles(
                     f"copy/copies (kept up to {max_variants} per family, "
                     "preferring online ones)"
                 )
-        _publish_bundle(settings, parser, "master", master)
+        _publish_bundle(settings, parser, "master", AssignChannelNumbersUseCase().execute(master))
         return
 
     published_urls: set[str] = set()
@@ -351,7 +352,11 @@ def _publish_bundles(
             # part of everything_result.master, and *never*
             # variant-limited: "all" is meant to show literally
             # everything, unfiltered.
-            _publish_bundle(settings, parser, bundle_name, everything_result.master)
+            # Numbered in its own copy - everything_result.master itself
+            # stays untouched, since it's reused below (and by other "*"
+            # bundles, if more than one is configured).
+            numbered = AssignChannelNumbersUseCase().execute(everything_result.master)
+            _publish_bundle(settings, parser, bundle_name, numbered)
             published_urls.update(channel.url.raw for channel in everything_result.master)
             typer.echo(
                 f"  bundle {bundle_name!r}: {len(everything_result.master)} channel(s) "
@@ -409,6 +414,7 @@ def _publish_bundles(
 
         if priority_slots:
             bundle_master = ApplyChannelOrderUseCase().execute(priority_slots, bundle_master)
+        bundle_master = AssignChannelNumbersUseCase().execute(bundle_master)
 
         _publish_bundle(settings, parser, bundle_name, bundle_master)
         published_urls.update(channel.url.raw for channel in bundle_master)
