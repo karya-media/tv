@@ -188,7 +188,10 @@ def test_report_command_limits_variants_to_online_ones(tmp_path: Path, monkeypat
         ),
     )
 
-    result = runner.invoke(cli_main.app, ["report", "--skip-logos", "--formats", "json"])
+    result = runner.invoke(
+        cli_main.app,
+        ["report", "--skip-logos", "--formats", "json", "--max-variants", "2"],
+    )
     assert result.exit_code == 0, result.output
     assert "Limited channel variants" in result.output
 
@@ -228,7 +231,10 @@ def test_wildcard_bundle_is_never_variant_limited_but_others_are(tmp_path: Path,
         ),
     )
 
-    result = runner.invoke(cli_main.app, ["report", "--skip-logos", "--formats", "json"])
+    result = runner.invoke(
+        cli_main.app,
+        ["report", "--skip-logos", "--formats", "json", "--max-variants", "2"],
+    )
     assert result.exit_code == 0, result.output
 
     all_text = (settings.master_path / "all.m3u").read_text(encoding="utf-8")
@@ -237,4 +243,42 @@ def test_wildcard_bundle_is_never_variant_limited_but_others_are(tmp_path: Path,
     master_text = (settings.master_path / "master.m3u").read_text(encoding="utf-8")
     assert master_text.count("#EXTINF") == 2  # limited to 2, RCTI HD dropped
     assert "RCTI HD" not in master_text
+    get_settings.cache_clear()
+
+
+def test_variant_limiting_is_off_by_default(tmp_path: Path, monkeypatch):
+    """Without --max-variants, no bundle drops any channel."""
+    get_settings.cache_clear()
+    settings = Settings(project_root=tmp_path, github_repository=None)
+    settings.ensure_directories()
+    (settings.categories_path / "national.m3u").write_text(
+        "#EXTM3U\n"
+        '#EXTINF:-1 group-title="Indonesia;Nasional",RCTI\n'
+        "http://example.com/rcti1.m3u8\n"
+        '#EXTINF:-1 group-title="Indonesia;Nasional",RCTI HD\n'
+        "http://example.com/rcti2.m3u8\n"
+        '#EXTINF:-1 group-title="Indonesia;Nasional",RCTI 2\n'
+        "http://example.com/rcti3.m3u8\n",
+        encoding="utf-8",
+    )
+    order_path = settings.project_root / "data" / "channel_order.txt"
+    order_path.parent.mkdir(parents=True, exist_ok=True)
+    order_path.write_text("RCTI|RCTI HD|RCTI 2\n", encoding="utf-8")
+    (settings.project_root / "data" / "playlists.txt").write_text(
+        "all=*\nmaster=group:Indonesia\n", encoding="utf-8"
+    )
+    monkeypatch.setattr(cli_main, "get_settings", lambda: settings)
+    monkeypatch.setattr(
+        cli_main,
+        "HttpStreamValidator",
+        lambda **_kwargs: _FakeStreamValidator(online_urls={"http://example.com/rcti1.m3u8"}),
+    )
+
+    result = runner.invoke(cli_main.app, ["report", "--skip-logos", "--formats", "json"])
+
+    assert result.exit_code == 0, result.output
+    assert "Limited channel variants" not in result.output
+    for bundle in ("all", "master"):
+        text = (settings.master_path / f"{bundle}.m3u").read_text(encoding="utf-8")
+        assert text.count("#EXTINF") == 3
     get_settings.cache_clear()
