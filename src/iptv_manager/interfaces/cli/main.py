@@ -771,13 +771,13 @@ def generate_report(
     ),
     skip_logos: bool = typer.Option(False, "--skip-logos", help="Skip logo validation"),
     max_variants: int = typer.Option(
-        2,
+        0,
         "--max-variants",
         help=(
             "Cap each data/channel_order.txt family (e.g. RCTI, RCTI HD, RCTI 2, "
-            "RCTI Vision+) to this many channels, preferring ones stream validation "
-            "confirmed are online. 0 disables capping. Ignored with --skip-streams, "
-            "since there'd be no playability signal to rank variants by."
+            "RCTI Vision+) to this many channels in every non-\"*\" bundle, preferring "
+            "ones stream validation confirmed are online. Off by default (0) - every "
+            "channel is kept; pass e.g. --max-variants 2 to turn capping on."
         ),
     ),
 ) -> None:
