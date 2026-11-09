@@ -1,13 +1,13 @@
 #EXTM3U url-tvg="https://beetv.my.id/epg.php"
 
 #EXTINF:-1 tvg-name="transtv" tvg-logo="https://images.indihometv.com/logo_transtv_big1.png" group-title="📺 Nasional",Trans TV
-#EXTVLCOPT:http-user-agent=ozilla/5.0 (Linux; Android 14; Google TV Streamer Build/UTT3.240625.001.K5; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/130.0.6723.60 Mobile Safari/537.36
-#EXTVLCOPT:http-origin=https://transmedia.mikrofast.my.id
-#EXTVLCOPT:http-referrer=https://transmedia.mikrofast.my.id/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 14; Google TV Streamer Build/UTT3.240625.001.K5; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/130.0.6723.60 Mobile Safari/537.36
+#EXTVLCOPT:http-origin=https://20.detik.com
+#EXTVLCOPT:http-referrer=https://20.detik.com/
 https://transmedia.mikrofast.my.id/detik/transtv/index.m3u8
 
 #EXTINF:-1 tvg-name="trans7" tvg-logo="https://images.indihometv.com/logo_trans7_big1.png" group-title="📺 Nasional",Trans7
-#EXTVLCOPT:http-user-agent=ozilla/5.0 (Linux; Android 14; Google TV Streamer Build/UTT3.240625.001.K5; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/130.0.6723.60 Mobile Safari/537.36
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 14; Google TV Streamer Build/UTT3.240625.001.K5; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/130.0.6723.60 Mobile Safari/537.36
 #EXTVLCOPT:http-origin=https://20.detik.com
 #EXTVLCOPT:http-referrer=https://20.detik.com/
 https://transmedia.mikrofast.my.id/detik/trans7/index.m3u8
@@ -77,7 +77,7 @@ https://op-flashcon-digdayahd-1.dens.tv/s/s11/01.m3u8
 #EXTVLCOPT:http-referrer=https://www.dens.tv/
 https://op-flashcon-digdayahd-1.dens.tv/s/s123/S4/mnf.m3u8
 
-#EXTINF:-1 tvg-name="HanacarakaTV.id" tvg-logo="https://beetv.my.id/logo/jowoch.png" group-title="📺 Nasional", Jowo Channel
+#EXTINF:-1 tvg-name="" tvg-logo="https://beetv.my.id/logo/jowoch.png" group-title="📺 Nasional", Jowo Channel
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://www.dens.tv/
 https://op-flashcon-digdayahd-1.dens.tv/h/h208/02.m3u8
@@ -87,7 +87,7 @@ https://op-flashcon-digdayahd-1.dens.tv/h/h208/02.m3u8
 #EXTVLCOPT:http-referrer=https://www.visionplus.id/
 https://proxy-v.rctiplus.id/live/web/hanacaraka/index.m3u8
 
-#EXTINF:-1 tvg-name="HanacarakaTV.id" tvg-logo="https://beetv.my.id/logo/jogjatv.png" group-title="📺 Nasional", Jogjatv
+#EXTINF:-1 tvg-name="" tvg-logo="https://beetv.my.id/logo/jogjatv.png" group-title="📺 Nasional", Jogjatv
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://www.dens.tv/
 https://stream.jogjatv.co.id/jtvlive/stream/index.m3u8
@@ -96,7 +96,7 @@ https://stream.jogjatv.co.id/jtvlive/stream/index.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://nadia79bc.mp77g69ainei3gx2voxygen.ru
 #EXTVLCOPT:http-referrer=https://nadia79bc.mp77g69ainei3gx2voxygen.ru/
-https://beetv.my.id/rbtv/moji.m3u
+https://op-flashcon-digdayahd-1.dens.tv/h/h207/index.m3u8
 
 #EXTINF:-1 tvg-name="RTV.id" tvg-logo="https://images.indihometv.com/logo_rtv_big1.png" group-title="📺 Nasional",RTV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
