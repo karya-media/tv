@@ -1,1048 +1,171 @@
-#EXTM3U url-tvg="https://beetv.my.id/epg.php"
-
-#EXTINF:-1 tvg-name="transtv" tvg-logo="https://images.indihometv.com/logo_transtv_big1.png" group-title="📺 Nasional",Trans TV
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 14; Google TV Streamer Build/UTT3.240625.001.K5; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/130.0.6723.60 Mobile Safari/537.36
-#EXTVLCOPT:http-origin=https://20.detik.com
-#EXTVLCOPT:http-referrer=https://20.detik.com/
-https://transmedia.mikrofast.my.id/detik/transtv/index.m3u8
-
-#EXTINF:-1 tvg-name="trans7" tvg-logo="https://images.indihometv.com/logo_trans7_big1.png" group-title="📺 Nasional",Trans7
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 14; Google TV Streamer Build/UTT3.240625.001.K5; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/130.0.6723.60 Mobile Safari/537.36
-#EXTVLCOPT:http-origin=https://20.detik.com
-#EXTVLCOPT:http-referrer=https://20.detik.com/
-https://transmedia.mikrofast.my.id/detik/trans7/index.m3u8
-
-#EXTINF:-1 tvg-name="MDTV.id" tvg-logo="https://images.indihometv.com/logo_net_big1.png" group-title="📺 Nasional",MDTV
-#EXTVLCOPT:http-referrer=http://www.dens.tv/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36
-https://op-flashcon-digdayahd-1.dens.tv/h/h223/index.m3u8?app_type=web&userid=lite&chname=MDTV
-
-#EXTINF:-1 tvg-name="RCTI.id" tvg-logo="https://images.indihometv.com/assets/logo_rcti_hd.png" group-title="📺 Nasional",RCTI
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://www.rctiplus.com/
-https://beetv.my.id/jabingan/rcti.m3u8?id=1
-
-#EXTINF:-1 tvg-name="MNCTV.id" tvg-logo="https://images.indihometv.com/assets/logo_mnc_hd.png" group-title="📺 Nasional",MNCTV
-#EXTVLCOPT:http-user-agent=android-R+
-#EXTVLCOPT:http-referrer=https://www.rctiplus.com/
-https://beetv.my.id/jabingan/rcti.m3u8?id=2
-
-#EXTINF:-1 tvg-name="GTV.id" tvg-logo="https://images.indihometv.com/assets/logo_gtv_hd.png" group-title="📺 Nasional",GTV
-#EXTVLCOPT:http-user-agent=android-R+
-#EXTVLCOPT:http-referrer=https://www.rctiplus.com/
-https://beetv.my.id/jabingan/rcti.m3u8?id=3
-
-#EXTINF:-1 tvg-name="iNews.id" tvg-logo="https://images.indihometv.com/logo_inews_big.png" group-title="📺 Nasional",iNews
-#EXTVLCOPT:http-user-agent=android-R+
-#EXTVLCOPT:http-referrer=https://www.rctiplus.com/
-https://beetv.my.id/jabingan/rcti.m3u8?id=4
-
-#EXTINF:-1 tvg-name="kompastv" tvg-logo="https://images.indihometv.com/logo_kompastv_big.png" group-title="📺 Nasional",Kompas TV
-#EXTVLCOPT:http-referrer=https://www.dens.tv/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36
-https://op-flashcon-digdayahd-1.dens.tv/s/s104/01.m3u8
-
-#EXTINF:-1 tvg-name="SCTV.id" tvg-logo="https://images.indihometv.com/logo_sctv_ver2.png" group-title="📺 Nasional",SCTV
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://www.vidio.com/
-https://beetv.my.id/jabingan/vd.m3u8?ch=sctv
-
-#EXTINF:-1 tvg-name="Indosiar.id" tvg-logo="https://images.indihometv.com/logo_indosiar_ver2.png" group-title="📺 Nasional",Indosiar
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://www.vidio.com/
-https://beetv.my.id/jabingan/vd.m3u8?ch=indosiar
-
-#EXTINF:-1 tvg-name="tvOne.id" tvg-logo="https://images.indihometv.com/logo_tvonenew_big.png" group-title="📺 Nasional",TVONE
-#EXTVLCOPT:http-referrer=https://www.dens.tv/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36
-https://op-flashcon-digdayahd-1.dens.tv/h/h40/01.m3u8?app_type=web&amp;userid=wnctpm5uf2j&amp;chname=tvOne
-
-#EXTINF:-1 tvg-name="ANTV.id" tvg-logo="https://images.indihometv.com/logo_antvnew_big.png" group-title="📺 Nasional",ANTV
-#EXTVLCOPT:http-referrer=https://www.vidio.com/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36
-https://beetv.my.id/jabingan/vd.m3u8?ch=antv
-
-#EXTINF:-1 tvg-name="MetroTV.id" tvg-logo="https://images.indihometv.com/logo_metrotv_ver1.png" group-title="📺 Nasional",Metro TV
-#EXTVLCOPT:http-referrer=https://www.dens.tv/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36
-https://op-flashcon-digdayahd-1.dens.tv/h/h12/01.m3u8
-
-#EXTINF:-1 tvg-name="TVRI.id" tvg-logo="https://images.indihometv.com/logo_tvri_big.png" group-title="📺 Nasional",TVRI
-#EXTVLCOPT:http-referrer=https://www.dens.tv/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36
-https://op-flashcon-digdayahd-1.dens.tv/s/s11/01.m3u8
-
-#EXTINF:-1 tvg-name="JAKTV.id" tvg-logo="https://beetv.my.id/logo/jaktv.png" group-title="📺 Nasional",JAKTV
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://www.dens.tv/
-https://op-flashcon-digdayahd-1.dens.tv/s/s123/S4/mnf.m3u8
-
-#EXTINF:-1 tvg-name="" tvg-logo="https://beetv.my.id/logo/jowoch.png" group-title="📺 Nasional", Jowo Channel
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://www.dens.tv/
-https://op-flashcon-digdayahd-1.dens.tv/h/h208/02.m3u8
-
-#EXTINF:-1 tvg-name="HanacarakaTV.id" tvg-logo="https://beetv.my.id/logo/jowoch.png" group-title="📺 Nasional", Hanacaraka
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 14; Google TV Streamer Build/UTT3.240625.001.K5; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/130.0.6723.60 Mobile Safari/537.36
-#EXTVLCOPT:http-referrer=https://www.visionplus.id/
-https://proxy-v.rctiplus.id/live/web/hanacaraka/index.m3u8
-
-#EXTINF:-1 tvg-name="" tvg-logo="https://beetv.my.id/logo/jogjatv.png" group-title="📺 Nasional", Jogjatv
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://www.dens.tv/
-https://stream.jogjatv.co.id/jtvlive/stream/index.m3u8
-
-#EXTINF:-1 tvg-name="MOJI.id" tvg-logo="https://images.indihometv.com/logo_ochannel_ver1.png" group-title="📺 Nasional",Moji
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://nadia79bc.mp77g69ainei3gx2voxygen.ru
-#EXTVLCOPT:http-referrer=https://nadia79bc.mp77g69ainei3gx2voxygen.ru/
-https://op-flashcon-digdayahd-1.dens.tv/h/h207/index.m3u8
-
-#EXTINF:-1 tvg-name="RTV.id" tvg-logo="https://images.indihometv.com/logo_rtv_big1.png" group-title="📺 Nasional",RTV
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://www.dens.tv/
-https://op-flashcon-digdayahd-1.dens.tv/h/h10/01.m3u8
-
-#EXTINF:-1 tvg-name="IMC.id" tvg-logo="https://beetv.my.id/logo/jitv.png" group-title="📺 Nasional",JITV
-#EXTVLCOPT:http-user-agent=Oxygen TV/5.9.240610 (Linux;Android 10) ExoPlayerLib/2.18.1
-http://103.255.15.222:1935/tv/jitv_720p/playlist.m3u8
-
-#EXTINF:-1 tvg-name="IDX.id" tvg-logo="https://beetv.my.id/logo/magna.png" group-title="📺 Nasional",Magna TV
-https://edge.medcom.id/live-edge/smil:magna.smil/playlist.m3u8
-
-#EXTINF:-1 tvg-name="KidsTV.id" tvg-logo="https://beetv.my.id/logo/vtv.png" group-title="📺 Nasional", VTV
-#EXTVLCOPT:http-user-agent=YouTV/1.5.6-prod.release (Linux;Android 7.1.1) ExoPlayerLib/2.12.3
-https://flv.intechmedia.net/live/ch107.m3u8
-
-#EXTINF:-1 tvg-name="OKTV.id" tvg-logo="https://beetv.my.id/logo/vtv.png" group-title="📺 Nasional", Oxygentv
-#EXTVLCOPT:http-referrer=https://oxygentv.id/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36
-https://cdn4-reg2.mm.oxygen.id:8080/hls/oxygentv-web/index.m3u8
-
-
-#EXTINF:-1 tvg-id="fifa+" tvg-logo="https://beetv.my.id/logo/timnasday.png" group-title="⚽ Olahraga", Bola | FIFA+ 1
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36
-https://a62dad94.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWV1X0ZJRkFQbHVzRW5nbGlzaF9ITFM/playlist.m3u8
-
-#EXTINF:-1 tvg-id="fifa+" tvg-logo="https://beetv.my.id/logo/timnasday.png" group-title="⚽ Olahraga", Bola | FIFA+ 1
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36
-https://a62dad94.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWV1X0ZJRkFQbHVzRW5nbGlzaF9ITFM/playlist.m3u8
-
-#EXTINF:-1 tvg-id="fifa+" tvg-logo="https://beetv.my.id/logo/timnasday.png" group-title="⚽ Olahraga", Bola | FIFA+ 2
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36
-https://d2w9q46ikgrcwx.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-of5cbk3sav3w5/v1/sysdata_s_p_a_fifa_7/samsungheadend_us/latest/main/hls/playlist.m3u8
-
-#EXTINF:-1 tvg-id="fifa+" tvg-logo="https://beetv.my.id/logo/timnasday.png" group-title="⚽ Olahraga", Bola | FIFA+ 3
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36
-https://4397879b.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWRlX0ZJRkFQbHVzR2VybWFuX0hMUw/playlist.m3u8
-
-#EXTINF:-1 tvg-id="fifa+" tvg-logo="https://beetv.my.id/logo/timnasday.png" group-title="⚽ Olahraga", Bola | FIFA+ 4
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36
-https://5d95f7d7.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWl0X0ZJRkFQbHVzSXRhbGlhbl9ITFM/playlist.m3u8
-
-#EXTINF:-1 tvg-id="fifa+" tvg-logo="https://beetv.my.id/logo/timnasday.png" group-title="⚽ Olahraga", Bola | FIFA+ 5
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36
-https://d63fabad.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWVzX0ZJRkFQbHVzU3BhbmlzaF9ITFM/playlist.m3u8
-
-#EXTINF:-1 tvg-id="tntsports2" tvg-logo="https://beetv.my.id/logo/motogp.png" group-title="⚽ Olahraga", MOTOGP
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36
-https://gp.gaweimel.workers.dev/hls/stream.m3u8
-
-#EXTINF:-1 tvg-id="SkySportsF1" tvg-logo="https://beetv.my.id/logo/f1tv.png" group-title="⚽ Olahraga", Formula 1
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://www.ksohls.ru
-#EXTVLCOPT:http-referrer=https://www.ksohls.ru/
-https://beetv.my.id/tvnow/?play=60
-
-#EXTINF:-1 tvg-id="fifa+" tvg-logo="https://beetv.my.id/logo/timnasday.png" group-title="⚽ Olahraga", Bola | Liga Inggris
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36
-https://beetv.my.id/tvnow/?play=125
-
-#EXTINF:-1 tvg-id="fifa+" tvg-logo="https://beetv.my.id/logo/timnasday.png" group-title="⚽ Olahraga", Bola | Liga Spanyol
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36
-https://beetv.my.id/tvnow/?play=123
-
-#EXTINF:-1 tvg-id="fifa+" tvg-logo="https://beetv.my.id/logo/timnasday.png" group-title="⚽ Olahraga", Bola | Liga Italia
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36
-https://beetv.my.id/tvnow/?play=60
-
-#EXTINF:-1 tvg-id="fifa+" tvg-logo="https://beetv.my.id/logo/timnasday.png" group-title="⚽ Olahraga", Bola | Liga Liga Jerman
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36
-https://beetv.my.id/tvnow/?play=60
-
-#EXTINF:-1 tvg-id="fifa+" tvg-logo="https://beetv.my.id/logo/timnasday.png" group-title="⚽ Olahraga", Bola | Liga Prancis
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36
-https://beetv.my.id/tvnow/?play=60
-
-#EXTINF:-1 tvg-id="Liga BRI" tvg-logo="https://beetv.my.id/logo/zqsport.png" group-title="⚽ Olahraga", Liga BRI
-#EXTVLCOPT:http-origin=https://jlbfpc.jlbfyh.com
-#EXTVLCOPT:http-referrer=https://jlbfpc.jlbfyh.com/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://beetv.my.id/rbtv/live1.m3u
-
-#EXTINF:-1 tvg-id="AstroPremierLeague" tvg-logo="https://beetv.my.id/logo/astrosupersport3.png" group-title="⚽ Olahraga", Anteman
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://d12a2vxqkkh1bo.cloudfront.net/hls/main.m3u8
-
-
-
-
-#EXTINF:-1 group-title="🔓 Dens TV" tvg-logo="https://picture.dens.tv/wp/img/tvchannels_v1/340x160/1745228970_tvchannels_v1.jpg", Live Streaming 1
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.dens.tv/
-https://op-flashcon-digdayahd-1.dens.tv/h/h123/live.m3u8?app_type=web&userid=lite&chname=Live_Streaming_1
-
-#EXTINF:-1 group-title="🔓 Dens TV" tvg-logo="https://picture.dens.tv/wp/img/tvchannels_v1/340x160/1687501248_tvchannels_v1.jpg", DensPlay
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.dens.tv/
-https://op-flashcon-digdayahd-1.dens.tv/h/h246/index.m3u8?app_type=web&userid=lite&chname=DensPlay
-
-#EXTINF:-1 group-title="🔓 Dens TV" tvg-logo="https://picture.dens.tv/wp/img/tvchannels_v1/340x160/1687501284_tvchannels_v1.jpg", DensLifeandStyle
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.dens.tv/
-https://op-flashcon-digdayahd-1.dens.tv/h/h222/index.m3u8?app_type=web&userid=lite&chname=DensLifenStyle
-
-#EXTINF:-1 group-title="🔓 Dens TV" tvg-logo="https://picture.dens.tv/wp/img/tvchannels_v1/340x160/1687501416_tvchannels_v1.jpg", DensFood Channel
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.dens.tv/
-https://op-flashcon-digdayahd-1.dens.tv/h/h221/index.m3u8?app_type=web&userid=lite&chname=DensFood_Channel
-
-#EXTINF:-1 group-title="🔓 Dens TV" tvg-logo="https://picture.dens.tv/wp/img/tvchannels_v1/340x160/1687501370_tvchannels_v1.jpg", DensShowBiz
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.dens.tv/
-https://op-flashcon-digdayahd-1.dens.tv/h/h244/index.m3u8?app_type=web&userid=lite&chname=DensShowBiz
-
-#EXTINF:-1 group-title="🔓 Dens TV" tvg-logo="https://picture.dens.tv/wp/img/tvchannels_v1/340x160/1701335417_tvchannels_v1.jpg", DensKnowledge
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.dens.tv/
-https://op-flashcon-digdayahd-1.dens.tv/h/h236/index.m3u8?app_type=web&userid=lite&chname=DensKnowledge
-
-#EXTINF:-1 group-title="🔓 Dens TV" tvg-logo="https://picture.dens.tv/wp/img/tvchannels_v1/340x160/1725851535_tvchannels_v1.jpg", Channel Jowo
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.dens.tv/
-https://op-flashcon-digdayahd-1.dens.tv/h/h208/index.m3u8?app_type=web&userid=lite&chname=Channel_Jowo
-
-#EXTINF:-1 group-title="🔓 Dens TV" tvg-logo="https://picture.dens.tv/wp/img/tvchannels_v1/340x160/1687501451_tvchannels_v1.jpg", Metro TV
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.dens.tv/
-https://op-flashcon-digdayahd-1.dens.tv/h/h12/index.m3u8?app_type=web&userid=lite&chname=Metro_TV
-
-#EXTINF:-1 group-title="🔓 Dens TV" tvg-logo="https://picture.dens.tv/wp/img/tvchannels_v1/340x160/1735687940_tvchannels_v1.jpeg", BTV
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.dens.tv/
-https://op-flashcon-digdayaxenkoda.dens.tv/e6550891-6bef-42e1-bab9-13bf4af739ce/stream.m3u8?app_type=web&userid=lite&chname=BTV
-
-#EXTINF:-1 group-title="🔓 Dens TV" tvg-logo="https://picture.dens.tv/wp/img/tvchannels_v1/340x160/1735687939_tvchannels_v1.jpeg", Berita Satu
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.dens.tv/
-https://op-flashcon-digdayaxenkoda.dens.tv/3118a881-f091-4bd1-b479-3096e823e3ec/stream.m3u8?app_type=web&userid=lite&chname=Berita_Satu
-
-#EXTINF:-1 group-title="🔓 Dens TV" tvg-logo="https://picture.dens.tv/wp/img/tvchannels_v1/340x160/1740682833_tvchannels_v1.jpg", MDTV
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.dens.tv/
-https://op-flashcon-digdayahd-1.dens.tv/h/h223/index.m3u8?app_type=web&userid=lite&chname=MDTV
-
-#EXTINF:-1 group-title="🔓 Dens TV" tvg-logo="https://picture.dens.tv/wp/img/tvchannels_v1/340x160/1687501653_tvchannels_v1.jpg", RTV
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.dens.tv/
-https://op-flashcon-digdayahd-1.dens.tv/h/h10/index.m3u8?app_type=web&userid=lite&chname=RTV
-
-#EXTINF:-1 group-title="🔓 Dens TV" tvg-logo="https://picture.dens.tv/wp/img/tvchannels_v1/340x160/1687501688_tvchannels_v1.jpg", Elshinta TV
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.dens.tv/
-https://op-flashcon-digdayahd-1.dens.tv/h/h228/index.m3u8?app_type=web&userid=lite&chname=Elshinta_TV
-
-#EXTINF:-1 group-title="🔓 Dens TV" tvg-logo="https://picture.dens.tv/wp/img/tvchannels_v1/340x160/1687501720_tvchannels_v1.jpg", Magna Channel
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.dens.tv/
-https://op-flashcon-digdayahd-1.dens.tv/h/h24/index.m3u8?app_type=web&userid=lite&chname=Magna_Channel
-
-#EXTINF:-1 group-title="🔓 Dens TV" tvg-logo="https://picture.dens.tv/wp/img/tvchannels_v1/340x160/1687501750_tvchannels_v1.jpg", TVRI Sport
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.dens.tv/
-https://op-flashcon-digdayahd-1.dens.tv/h/h19/index.m3u8?app_type=web&userid=lite&chname=TVRI_Sport
-
-#EXTINF:-1 group-title="🔓 Dens TV" tvg-logo="https://picture.dens.tv/wp/img/tvchannels_v1/340x160/1687501756_tvchannels_v1.jpg", TVRI
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.dens.tv/
-https://op-flashcon-digdayahd-1.dens.tv/h/h17/index.m3u8?app_type=web&userid=lite&chname=TVRI
-
-#EXTINF:-1 group-title="🔓 Dens TV" tvg-logo="https://picture.dens.tv/wp/img/tvchannels_v1/340x160/1687501805_tvchannels_v1.jpg", Jak tv
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.dens.tv/
-https://op-flashcon-digdayahd-1.dens.tv/h/h218/index.m3u8?app_type=web&userid=lite&chname=Jak_tv
-
-#EXTINF:-1 group-title="🔓 Dens TV" tvg-logo="https://picture.dens.tv/wp/img/tvchannels_v1/340x160/1687501810_tvchannels_v1.jpg", RodjaTV
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.dens.tv/
-https://op-flashcon-digdayahd-1.dens.tv/h/h233/index.m3u8?app_type=web&userid=lite&chname=RodjaTV
-
-#EXTINF:-1 group-title="🔓 Dens TV" tvg-logo="https://picture.dens.tv/wp/img/tvchannels_v1/340x160/1687501817_tvchannels_v1.jpg", DAAI TV
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.dens.tv/
-https://op-flashcon-digdayahd-1.dens.tv/h/h16/index.m3u8?app_type=web&userid=lite&chname=DAAI_TV
-
-#EXTINF:-1 group-title="🔓 Dens TV" tvg-logo="https://picture.dens.tv/wp/img/tvchannels_v1/340x160/1728448171_tvchannels_v1.jpg", Nusantara TV (NTV)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.dens.tv/
-https://op-flashcon-digdayahd-1.dens.tv/h/h37/index.m3u8?app_type=web&userid=lite&chname=Nusantara_TV_NTV-
-
-
-#EXTINF:-1 group-title="🔓 Dens TV" tvg-logo="https://picture.dens.tv/wp/img/tvchannels_v1/340x160/1687502977_tvchannels_v1.jpg", My Cinema Europe HD
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.dens.tv/
-https://op-flashcon-digdayahd-1.dens.tv/h/h18/index.m3u8?app_type=web&userid=lite&chname=My_Cinema_Europe_HD
-
-#EXTINF:-1 group-title="🔓 Dens TV" tvg-logo="https://picture.dens.tv/wp/img/tvchannels_v1/340x160/1701422037_tvchannels_v1.jpg", Crema TV
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.dens.tv/
-https://op-flashcon-digdayahd-1.dens.tv/h/h202/index.m3u8?app_type=web&userid=lite&chname=Crema_TV
-
-#EXTINF:-1 group-title="🔓 Dens TV" tvg-logo="https://picture.dens.tv/wp/img/tvchannels_v1/340x160/1763699104_tvchannels_v1.jpg", Qwest TV
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.dens.tv/
-https://op-flashcon-digdayaxenkoda.dens.tv/41a80ce3-5acf-4715-a6cf-4ab2b452288b/stream.m3u8?app_type=web&userid=lite&chname=Qwest_TV
-
-#EXTINF:-1 group-title="🔓 Dens TV" tvg-logo="https://picture.dens.tv/wp/img/tvchannels_v1/340x160/1701423611_tvchannels_v1.jpg", Stingray Classica
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.dens.tv/
-https://op-flashcon-digdayaxenkoda.dens.tv/f7d2390e-69f6-4919-b467-579df454df94/stream.m3u8?app_type=web&userid=lite&chname=Stingray_Classica
-
-#EXTINF:-1 group-title="🔓 Dens TV" tvg-logo="https://picture.dens.tv/wp/img/tvchannels_v1/340x160/1701423538_tvchannels_v1.jpg", Dance TV
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.dens.tv/
-https://op-flashcon-digdayaxenkoda.dens.tv/f6d75069-1137-446f-9062-2f010e794b6c/stream.m3u8?app_type=web&userid=lite&chname=Dance_TV
-
-#EXTINF:-1 group-title="🔓 Dens TV" tvg-logo="https://picture.dens.tv/wp/img/tvchannels_v1/340x160/motorvision+@3x.jpg", Motorvision+
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.dens.tv/
-https://op-flashcon-digdayahd-1.dens.tv/h/h09/index.m3u8?app_type=web&userid=lite&chname=Motorvision%2B
-
-
-#EXTINF:-1 group-title="🔓 Dens TV" tvg-logo="https://picture.dens.tv/wp/img/tvchannels_v1/340x160/1687503403_tvchannels_v1.jpg", CNA
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.dens.tv/
-https://op-flashcon-digdayahd-1.dens.tv/h/h29/index.m3u8?app_type=web&userid=lite&chname=CNA
-
-#EXTINF:-1 group-title="🔓 Dens TV" tvg-logo="https://picture.dens.tv/wp/img/tvchannels_v1/340x160/1687503409_tvchannels_v1.jpg", NHK WORLD-JAPAN
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.dens.tv/
-https://op-flashcon-digdayahd-1.dens.tv/h/h23/index.m3u8?app_type=web&userid=lite&chname=NHK_WORLD-JAPAN
-
-#EXTINF:-1 group-title="🔓 Dens TV" tvg-logo="https://picture.dens.tv/wp/img/tvchannels_v1/340x160/1755135969_tvchannels_v1.jpg", Al Jazeera English
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.dens.tv/
-https://op-flashcon-digdayahd-1.dens.tv/h/h43/index.m3u8?app_type=web&userid=lite&chname=Al_Jazeera_English
-
-#EXTINF:-1 group-title="🔓 Dens TV" tvg-logo="https://picture.dens.tv/wp/img/tvchannels_v1/340x160/1687503423_tvchannels_v1.jpg", TRT World
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.dens.tv/
-https://op-flashcon-digdayahd-1.dens.tv/h/h20/index.m3u8?app_type=web&userid=lite&chname=TRT_World
-
-#EXTINF:-1 group-title="🔓 Dens TV" tvg-logo="https://picture.dens.tv/wp/img/tvchannels_v1/340x160/1745830848_tvchannels_v1.jpg", Russia Today (RT)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.dens.tv/
-https://op-flashcon-digdayahd-1.dens.tv/h/h226/index.m3u8?app_type=web&userid=lite&chname=Russia_Today_RT-
-
-#EXTINF:-1 group-title="🔓 Dens TV" tvg-logo="https://picture.dens.tv/wp/img/tvchannels_v1/340x160/1687503432_tvchannels_v1.jpg", WION
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.dens.tv/
-https://op-flashcon-digdayaxenkoda.dens.tv/4797e82c-d14e-453e-b8d6-3e2427ad09a9/stream.m3u8?app_type=web&userid=lite&chname=WION
-
-#EXTINF:-1 group-title="🔓 Dens TV" tvg-logo="https://picture.dens.tv/wp/img/tvchannels_v1/340x160/1687503445_tvchannels_v1.jpg", FREEDOM
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.dens.tv/
-https://op-flashcon-digdayahd-1.dens.tv/h/h101/index.m3u8?app_type=web&userid=lite&chname=FREEDOM
-
-#EXTINF:-1 group-title="🔓 Dens TV" tvg-logo="https://picture.dens.tv/wp/img/tvchannels_v1/340x160/1755135968_tvchannels_v1.jpg", Al Jazeera Arabic
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.dens.tv/
-https://op-flashcon-digdayahd-1.dens.tv/s/s16/index.m3u8?app_type=web&userid=lite&chname=Al_Jazeera_Arabic
-
-#EXTINF:-1 group-title="🔓 Dens TV" tvg-logo="https://picture.dens.tv/wp/img/tvchannels_v1/340x160/1687503457_tvchannels_v1.jpg", CCTV-4
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.dens.tv/
-https://op-flashcon-digdayahd-1.dens.tv/h/h22/index.m3u8?app_type=web&userid=lite&chname=CCTV-4
-
-#EXTINF:-1 group-title="🔓 Dens TV" tvg-logo="https://picture.dens.tv/wp/img/tvchannels_v1/340x160/1687503463_tvchannels_v1.jpg", France 24
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.dens.tv/
-https://op-flashcon-digdayahd-1.dens.tv/h/h14/index.m3u8?app_type=web&userid=lite&chname=France_24
-
-#EXTINF:-1 group-title="🔓 Dens TV" tvg-logo="https://picture.dens.tv/wp/img/tvchannels_v1/340x160/1762855009_tvchannels_v1.jpg", TV5MONDE ASIE
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.dens.tv/
-https://op-flashcon-digdayahd-1.dens.tv/h/h312/index.m3u8?app_type=web&userid=lite&chname=TV5MONDE_ASIE
-
-#EXTINF:-1 group-title="🔓 Dens TV" tvg-logo="https://picture.dens.tv/wp/img/tvchannels_v1/340x160/1687504940_tvchannels_v1.jpg", DW-TV
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.dens.tv/
-https://op-flashcon-digdayahd-1.dens.tv/h/h213/index.m3u8?app_type=web&userid=lite&chname=DW-TV
-
-#EXTINF:-1 group-title="🔓 Dens TV" tvg-logo="https://picture.dens.tv/wp/img/tvchannels_v1/340x160/1712205651_tvchannels_v1.jpg", DIM TV
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.dens.tv/
-https://op-flashcon-digdayahd-1.dens.tv/h/h232/index2.m3u8?app_type=web&userid=lite&chname=DIM_TV
-
-#EXTINF:-1 group-title="🔓 Dens TV" tvg-logo="https://picture.dens.tv/wp/img/tvchannels_v1/340x160/1687504946_tvchannels_v1.jpg", TBN
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.dens.tv/
-https://op-flashcon-digdayahd-1.dens.tv/s/s39/index.m3u8?app_type=web&userid=lite&chname=TBN
-
-#EXTINF:-1 group-title="🔓 Dens TV" tvg-logo="https://picture.dens.tv/wp/img/tvchannels_v1/340x160/1687504951_tvchannels_v1.jpg", CGTN Documentary
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.dens.tv/
-https://op-flashcon-digdayahd-1.dens.tv/h/h04/index.m3u8?app_type=web&userid=lite&chname=CGTN_Documentary
-
-#EXTINF:-1 group-title="🔓 Dens TV" tvg-logo="https://picture.dens.tv/wp/img/tvchannels_v1/340x160/1687504956_tvchannels_v1.jpg", Quran TV
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.dens.tv/
-https://op-flashcon-digdayahd-1.dens.tv/h/h15/index.m3u8?app_type=web&userid=lite&chname=Quran_TV
-
-#EXTINF:-1 group-title="🔓 Dens TV" tvg-logo="https://picture.dens.tv/wp/img/tvchannels_v1/340x160/1687504962_tvchannels_v1.jpg", Sunna TV
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.dens.tv/
-https://op-flashcon-digdayahd-1.dens.tv/h/h38/index.m3u8?app_type=web&userid=lite&chname=Sunna_TV
-
-
-
-#EXTM3U
-#EXTINF:-1 tvg-logo="https://narto-drama.com/assets/poster/952478.jpg" group-title="Menjelajah Dunia Tanpa Batas", Episode 01
-https://v-mps.crazymaplestudios.com/vod-112094/5014af21c5e971f19a70f7e7c57a0102/4c4e4789b836490484b52c13d125cf18-3cce2884adfd3719d8607499f1142cc1-ld.m3u8
-
-#EXTINF:-1 tvg-logo="https://narto-drama.com/assets/poster/952478.jpg" group-title="Menjelajah Dunia Tanpa Batas", Episode 02
-https://v-mps.crazymaplestudios.com/vod-112094/f04ad60fc5e971f19f27e6e7c64b0102/14a8644eef0d49eeb2d06cc47e55d14b-c403c81ff2efc768d833a3bb6605b1d0-ld.m3u8
-
-#EXTINF:-1 tvg-logo="https://narto-drama.com/assets/poster/952478.jpg" group-title="Menjelajah Dunia Tanpa Batas", Episode 03
-https://v-mps.crazymaplestudios.com/vod-112094/20d5c91bc5e971f19a70f7e7c57a0102/255e1232ce734b0dabf2277a1ca6f7ce-c51c846e58ebe3d15d73a41638e3208a-ld.m3u8
-
-#EXTINF:-1 tvg-logo="https://narto-drama.com/assets/poster/952478.jpg" group-title="Menjelajah Dunia Tanpa Batas", Episode 04
-https://v-mps.crazymaplestudios.com/vod-112094/804fd715c5e971f184c9e7e7c7690102/e9a07b16c4ee4314bb2ebd25dc5543cd-840e7be8f2b26d2c3cb6971f79e53f0b-ld.m3u8
-
-#EXTINF:-1 tvg-logo="https://narto-drama.com/assets/poster/952478.jpg" group-title="Menjelajah Dunia Tanpa Batas", Episode 05
-https://v-mps.crazymaplestudios.com/vod-112094/c052ac16c5e971f18622f7e6c5580102/3c540bb4b7f04d6886e2dc08ad5bc419-4458e510c8d6b7ffb6ce6e7556672139-ld.m3u8
-
-#EXTINF:-1 tvg-logo="https://narto-drama.com/assets/poster/952478.jpg" group-title="Menjelajah Dunia Tanpa Batas", Episode 06
-https://v-mps.crazymaplestudios.com/vod-112094/60bbb216c5e971f19a70f7e7c57a0102/63f0e3e5825149a98ca275e46d19a1f0-633f9274185993365889a39d0de09d1e-ld.m3u8
-
-#EXTINF:-1 tvg-logo="https://narto-drama.com/assets/poster/952478.jpg" group-title="Menjelajah Dunia Tanpa Batas", Episode 07
-https://v-mps.crazymaplestudios.com/vod-112094/30f29b1cc5e971f1b4e2e7e7f57a0102/f681aac0284846c89d45867e52af1d8f-f3deba0a146417dea884ee0e21f20779-ld.m3u8
-
-#EXTINF:-1 tvg-logo="https://narto-drama.com/assets/poster/952478.jpg" group-title="Menjelajah Dunia Tanpa Batas", Episode 08
-https://v-mps.crazymaplestudios.com/vod-112094/60e8a721c5e971f19a70f7e7c57a0102/022ac0c07cf34aa7acbcf9e67dec5c5c-1a18d4fee59fcdb2deb9bc7a437952e4-ld.m3u8
-
-#EXTINF:-1 tvg-logo="https://narto-drama.com/assets/poster/952478.jpg" group-title="Menjelajah Dunia Tanpa Batas", Episode 09
-https://v-mps.crazymaplestudios.com/vod-112094/b0c4d715c5e971f18c1ce6f6c55a0102/9dd19bcba3974671816532c0671573d8-fdafbfacbbd3df7651f38c402ce1689d-ld.m3u8
-
-#EXTINF:-1 tvg-logo="https://narto-drama.com/assets/poster/952478.jpg" group-title="Menjelajah Dunia Tanpa Batas", Episode 10
-https://v-mps.crazymaplestudios.com/vod-112094/20bda921c5e971f19a70f7e7c57a0102/66de645d0b2c4842b2a24e4384ea534e-b4aa39b22283f9e31ea9b56a72eee084-ld.m3u8
-
-#EXTINF:-1 tvg-logo="https://narto-drama.com/assets/poster/952478.jpg" group-title="Menjelajah Dunia Tanpa Batas", Episode 11
-https://v-mps.crazymaplestudios.com/vod-112094/201ec117c5e971f1b366e6f7e47a0102/54955d09d62942dba8054c04693257b4-b866c5bec204d36de8314272477974de-ld.m3u8
-
-#EXTINF:-1 tvg-logo="https://narto-drama.com/assets/poster/952478.jpg" group-title="Menjelajah Dunia Tanpa Batas", Episode 12
-https://v-mps.crazymaplestudios.com/vod-112094/3088831cc5e971f1b366e6f7e47a0102/9f9ed0d8706e4b3c94cabe021aebb343-6acff32c1bb98f3a28a8e5603b0af73d-ld.m3u8
-
-#EXTINF:-1 tvg-logo="https://narto-drama.com/assets/poster/952478.jpg" group-title="Menjelajah Dunia Tanpa Batas", Episode 13
-https://v-mps.crazymaplestudios.com/vod-112094/90fba616c5e971f19a70f7e7c57a0102/35e89f1ba48c422f944fa87343f11d1b-af097c87963a72610641f43d8d16fe34-ld.m3u8
-
-#EXTINF:-1 tvg-logo="https://narto-drama.com/assets/poster/952478.jpg" group-title="Menjelajah Dunia Tanpa Batas", Episode 14
-https://v-mps.crazymaplestudios.com/vod-112094/30e5b81bc5e971f184a8f6f6d65a0102/2521742dbfcb424cbbac1fa595bcb355-b7e19c161059b354c7e2a172f03c470f-ld.m3u8
-
-#EXTINF:-1 tvg-logo="https://narto-drama.com/assets/poster/952478.jpg" group-title="Menjelajah Dunia Tanpa Batas", Episode 15
-https://v-mps.crazymaplestudios.com/vod-112094/80699d17c5e971f184c9e7e7c7690102/6b4d9fe28f0a46d1be3317b421b2499d-f4ef4a4b51829bc6db990a1930b00d45-ld.m3u8
-
-#EXTINF:-1 tvg-logo="https://narto-drama.com/assets/poster/952478.jpg" group-title="Menjelajah Dunia Tanpa Batas", Episode 16
-https://v-mps.crazymaplestudios.com/vod-112094/10259010c5e971f19c1ee6e7d77b0102/2c5abd3a244c42ff95be78f389dd24f2-a1867c8f99ebfeb669d799dd5bd27f92-ld.m3u8
-
-#EXTINF:-1 tvg-logo="https://narto-drama.com/assets/poster/952478.jpg" group-title="Menjelajah Dunia Tanpa Batas", Episode 17
-https://v-mps.crazymaplestudios.com/vod-112094/0094ac1cc5e971f19f27e6e7c64b0102/4269f99342ef4e898e96569c9fc8c0b3-e5be1d8f189239b698e393465386ea24-ld.m3u8
-
-#EXTINF:-1 tvg-logo="https://narto-drama.com/assets/poster/952478.jpg" group-title="Menjelajah Dunia Tanpa Batas", Episode 18
-https://v-mps.crazymaplestudios.com/vod-112094/f0468316c5e971f1b366e6f7e47a0102/7aa175cfab29498ca774ed7cd6125dc5-93ece5d072bd289aa9b04dafb49ca1d4-ld.m3u8
-
-#EXTINF:-1 tvg-logo="https://narto-drama.com/assets/poster/952478.jpg" group-title="Menjelajah Dunia Tanpa Batas", Episode 19
-https://v-mps.crazymaplestudios.com/vod-112094/f0db7917c5e971f18622f7e6c5580102/53952dec6d894d1e96b8c8a5ff99be9f-22da019ec032e52944dd5d516bf38c7c-ld.m3u8
-
-#EXTINF:-1 tvg-logo="https://narto-drama.com/assets/poster/952478.jpg" group-title="Menjelajah Dunia Tanpa Batas", Episode 20
-https://v-mps.crazymaplestudios.com/vod-112094/e03d7e16c5e971f18622f7e6c5580102/aeb2320eb9d840ddb59ee65c227c9aa3-5ad2f9d99c236d83ad65dd6993b3ee00-ld.m3u8
-
-#EXTINF:-1 tvg-logo="https://narto-drama.com/assets/poster/952478.jpg" group-title="Menjelajah Dunia Tanpa Batas", Episode 21
-https://v-mps.crazymaplestudios.com/vod-112094/50e2cf0fc5e971f19a70f7e7c57a0102/ee27a850910d47d6921894b6bedc13bd-d8533440230768171e9a1883c01b84f2-ld.m3u8
-
-#EXTINF:-1 tvg-logo="https://narto-drama.com/assets/poster/952478.jpg" group-title="Menjelajah Dunia Tanpa Batas", Episode 22
-https://v-mps.crazymaplestudios.com/vod-112094/0076b11cc5e971f18408e6f6c55b0102/f7add3a320434a3fad12e3f4803be2f1-f3295c9a01ee7b1e946c43735c42b2d2-ld.m3u8
-
-#EXTINF:-1 tvg-logo="https://narto-drama.com/assets/poster/952478.jpg" group-title="Menjelajah Dunia Tanpa Batas", Episode 23
-https://v-mps.crazymaplestudios.com/vod-112094/1046cf0fc5e971f184a8f6f6d65a0102/ef70799273b84c81b66f92ab6a32046a-b0b861645bbbd900de4da7c2b087d3e9-ld.m3u8
-
-#EXTINF:-1 tvg-logo="https://narto-drama.com/assets/poster/952478.jpg" group-title="Menjelajah Dunia Tanpa Batas", Episode 24
-https://v-mps.crazymaplestudios.com/vod-112094/00cbb815c5e971f1b366e6f7e47a0102/89e313ecc5d842c29ddfdc566da6575d-e8899054d47eef8456c6ba45fe44cb06-ld.m3u8
-
-#EXTINF:-1 tvg-logo="https://narto-drama.com/assets/poster/952478.jpg" group-title="Menjelajah Dunia Tanpa Batas", Episode 25
-https://v-mps.crazymaplestudios.com/vod-112094/b08fcb15c5e971f18c1ce6f6c55a0102/dfc2d3bc914a4a17a2759c9a58bb590a-fcc764045efb6b3c26fed114320c63d6-ld.m3u8
-
-#EXTINF:-1 tvg-logo="https://narto-drama.com/assets/poster/952478.jpg" group-title="Menjelajah Dunia Tanpa Batas", Episode 26
-https://v-mps.crazymaplestudios.com/vod-112094/70a1d20fc5e971f19a70f7e7c57a0102/0eb66e0dcc9a4bdb90544f79518f47bb-b7fd5f5259c553be7e498c68c9ae5796-ld.m3u8
-
-#EXTINF:-1 tvg-logo="https://narto-drama.com/assets/poster/952478.jpg" group-title="Menjelajah Dunia Tanpa Batas", Episode 27
-https://v-mps.crazymaplestudios.com/vod-112094/c05cda15c5e971f19f27e6e7c64b0102/0374bbe49824404fbc346a4084f4c5e2-64dbcbe50f0ec38c061c194ba2e40298-ld.m3u8
-
-#EXTINF:-1 tvg-logo="https://narto-drama.com/assets/poster/952478.jpg" group-title="Menjelajah Dunia Tanpa Batas", Episode 28
-https://v-mps.crazymaplestudios.com/vod-112094/002f4917c5e971f19c1ee6e7d77b0102/b67dd2d7baa6413c93b029207b9117aa-f99a9d2922fa64f9576bfa77e4143e27-ld.m3u8
-
-#EXTINF:-1 tvg-logo="https://narto-drama.com/assets/poster/952478.jpg" group-title="Menjelajah Dunia Tanpa Batas", Episode 29
-https://v-mps.crazymaplestudios.com/vod-112094/f084ae1bc5e971f18c1ce6f6c55a0102/408597b19672463bbb4dc92da53c6deb-3346c53ffa99117b8105a6b755b29967-ld.m3u8
-
-#EXTINF:-1 tvg-logo="https://narto-drama.com/assets/poster/952478.jpg" group-title="Menjelajah Dunia Tanpa Batas", Episode 30
-https://v-mps.crazymaplestudios.com/vod-112094/00d78c1cc5e971f1b366e6f7e47a0102/67dc46f8a8714e488c743b4802bd8aa7-2bb2f8e6efed0ca7b5fc7b31d19845d1-ld.m3u8
-
-#EXTINF:-1 tvg-logo="https://narto-drama.com/assets/poster/952478.jpg" group-title="Menjelajah Dunia Tanpa Batas", Episode 31
-https://v-mps.crazymaplestudios.com/vod-112094/f049c715c5e971f1b366e6f7e47a0102/a394f6946e0e46bb92c0b949f97c3fe6-cd563511c8cf5831c2616e3c0aa3e6de-ld.m3u8
-
-#EXTINF:-1 tvg-logo="https://narto-drama.com/assets/poster/952478.jpg" group-title="Menjelajah Dunia Tanpa Batas", Episode 32
-https://v-mps.crazymaplestudios.com/vod-112094/e0fbac10c5e971f1b366e6f7e47a0102/26b5ec4039c44bf99ae84a63311023ea-ed54079f16a7bea4c9e6f57bfa0ddb89-ld.m3u8
-
-#EXTINF:-1 tvg-logo="https://narto-drama.com/assets/poster/952478.jpg" group-title="Menjelajah Dunia Tanpa Batas", Episode 33
-https://v-mps.crazymaplestudios.com/vod-112094/10b7d10fc5e971f184c9e7e7c7690102/f7280d0e28b244388354ff7e186dc823-212ce117e2139d5c99db4f43abc6a27c-ld.m3u8
-
-#EXTINF:-1 tvg-logo="https://narto-drama.com/assets/poster/952478.jpg" group-title="Menjelajah Dunia Tanpa Batas", Episode 34
-https://v-mps.crazymaplestudios.com/vod-112094/40350f10c5e971f19a70f7e7c57a0102/bcfde3e62bb04462a404a43a5a6331ec-f007a0f4244996f6af81d538d0d0ba97-ld.m3u8
-
-#EXTINF:-1 tvg-logo="https://narto-drama.com/assets/poster/952478.jpg" group-title="Menjelajah Dunia Tanpa Batas", Episode 35
-https://v-mps.crazymaplestudios.com/vod-112094/e053801cc5e971f184a8f6f6d65a0102/8391a361c2e54b179a10a85b378730de-4344c3620bae147d9f7fa60a0eba4052-ld.m3u8
-
-#EXTINF:-1 tvg-logo="https://narto-drama.com/assets/poster/952478.jpg" group-title="Menjelajah Dunia Tanpa Batas", Episode 36
-https://v-mps.crazymaplestudios.com/vod-112094/e011af16c5e971f19c1ee6e7d77b0102/0b5f1fe5a2a746ccadbeed74402ddc8d-6398a602dbf5bb2a4de42433dfc4dc63-ld.m3u8
-
-#EXTINF:-1 tvg-logo="https://narto-drama.com/assets/poster/952478.jpg" group-title="Menjelajah Dunia Tanpa Batas", Episode 37
-https://v-mps.crazymaplestudios.com/vod-112094/f0c7ac16c5e971f184a8f6f6d65a0102/47002ed847a84c9586a09ffb8148407d-d79e6f06c6cb75a608571c41985de440-ld.m3u8
-
-#EXTINF:-1 tvg-logo="https://narto-drama.com/assets/poster/952478.jpg" group-title="Menjelajah Dunia Tanpa Batas", Episode 38
-https://v-mps.crazymaplestudios.com/vod-112094/708fab16c5e971f184a8f6f6d65a0102/7598d3f210884b628fadc89fe56fc0b4-e9d77b3c0414a9e64d3b035e581b8640-ld.m3u8
-
-#EXTINF:-1 tvg-logo="https://narto-drama.com/assets/poster/952478.jpg" group-title="Menjelajah Dunia Tanpa Batas", Episode 39
-https://v-mps.crazymaplestudios.com/vod-112094/6086a616c5e971f19c1ee6e7d77b0102/4238baace50e44e1a412aeb340109775-1cb5cab8dbffcbb67b89a91740c48c1c-ld.m3u8
-
-#EXTINF:-1 tvg-logo="https://narto-drama.com/assets/poster/952478.jpg" group-title="Menjelajah Dunia Tanpa Batas", Episode 40
-https://v-mps.crazymaplestudios.com/vod-112094/c0ffa416c5e971f1b4e2e7e7f57a0102/9be44df027a44c328d3c477d3827ff3d-5c55d25e7fb0bc3bbfb457ae0a0ba44c-ld.m3u8
-
-#EXTINF:-1 tvg-logo="https://narto-drama.com/assets/poster/952478.jpg" group-title="Menjelajah Dunia Tanpa Batas", Episode 41
-https://v-mps.crazymaplestudios.com/vod-112094/504ce80fc5e971f18622f7e6c5580102/50f13ded565246c6bd7ea961402c347c-7f96b4ac07cf5f213ecac10db1c09603-ld.m3u8
-
-#EXTINF:-1 tvg-logo="https://narto-drama.com/assets/poster/952478.jpg" group-title="Menjelajah Dunia Tanpa Batas", Episode 42
-https://v-mps.crazymaplestudios.com/vod-112094/f0b3df15c5e971f19f27e6e7c64b0102/4f6412b4ec23462a81f8e095f7968c6f-97318b383eeb6b6e0e315b7a95a11bf2-ld.m3u8
-
-#EXTINF:-1 tvg-logo="https://narto-drama.com/assets/poster/952478.jpg" group-title="Menjelajah Dunia Tanpa Batas", Episode 43
-https://v-mps.crazymaplestudios.com/vod-112094/e05dae1bc5e971f19a70f7e7c57a0102/34c5322f1b4c477b8e207914922c6df8-91bf23ddc922c681f9204ab3082797e6-ld.m3u8
-
-#EXTINF:-1 tvg-logo="https://narto-drama.com/assets/poster/952478.jpg" group-title="Menjelajah Dunia Tanpa Batas", Episode 44
-https://v-mps.crazymaplestudios.com/vod-112094/50b19e1cc5e971f19f27e6e7c64b0102/75328b12c3b04949965f983f8b03c82d-ea18d6f620d576e4053c65b0704fc4e2-ld.m3u8
-
-#EXTINF:-1 tvg-logo="https://narto-drama.com/assets/poster/952478.jpg" group-title="Menjelajah Dunia Tanpa Batas", Episode 45
-https://v-mps.crazymaplestudios.com/vod-112094/e091ab21c5e971f184cae7e7c7690102/ad5f41658bba40d39f60de762e44effb-2a43599ccc503715eac63ce1cccfbbdc-ld.m3u8
-
-#EXTINF:-1 tvg-logo="https://narto-drama.com/assets/poster/952478.jpg" group-title="Menjelajah Dunia Tanpa Batas", Episode 46
-https://v-mps.crazymaplestudios.com/vod-112094/8013e115c5e971f184c9e7e7c7690102/63c317ed225741ccb6d9adf3490c51da-fc07b9d9df1adf0ca6c56e560bde16b2-ld.m3u8
-
-#EXTINF:-1 tvg-logo="https://narto-drama.com/assets/poster/952478.jpg" group-title="Menjelajah Dunia Tanpa Batas", Episode 47
-https://v-mps.crazymaplestudios.com/vod-112094/604ab016c5e971f184c9e7e7c7690102/b9cd227613784933ae8d935e563e75bc-b810961711f78e66c7c4abfbf5868b62-ld.m3u8
-
-
-
-
-
-#EXTINF:-1 tvg-logo="https://narto-drama.com/assets/poster/911003.jpg" group-title="The Last Berserker", Episode 01
-https://stream.narto-drama.com/e/m/eyJ2IjoxLCJ0IjoicHJvdiIsInNyYyI6Imh0dHBzOi8vdmlkZW8tdjYubXlkcmFtYXdhdmUuY29tL3Z0L2QwOTkxY2Q5LTQ3YTQtNGEyOS04NDk2LTczYmZmYzBiZWY3Ni9oMjY0LWZiMWE3M2FmLTBhODktNDk3Mi1iMmU2LTk2NWVhNGI1MjUyMi5tM3U4IiwicHJvdiI6ImRyYW1hd2F2ZSIsImV4cCI6MTc5NDA5MjQwMH0.BCZ9ofQvnBq6sh3EN4qGr5rjpWfdKRhpVCtmyGFoJ14?mh=1
-
-#EXTINF:-1 tvg-logo="https://narto-drama.com/assets/poster/911003.jpg" group-title="The Last Berserker", Episode 02
-https://stream.narto-drama.com/e/m/eyJ2IjoxLCJ0IjoicHJvdiIsInNyYyI6Imh0dHBzOi8vdmlkZW8tdjYubXlkcmFtYXdhdmUuY29tL3Z0LzU1YmVlNGRlLTRmZGItNDY2OC04ODYyLTg1MWJiZWUwZjhhOS9oMjY0LTk1ODhjNjg5LTIyYjEtNDYxZi1iNzZkLWYwZDU2MGRiMjhkNS5tM3U4IiwicHJvdiI6ImRyYW1hd2F2ZSIsImV4cCI6MTc5NDA5MjQwMH0.C0VzWcmUvM-8lg0xmoO0U94PBQdLLIobmsuQuw37pDc?mh=1
-
-#EXTINF:-1 tvg-logo="https://narto-drama.com/assets/poster/911003.jpg" group-title="The Last Berserker", Episode 03
-https://stream.narto-drama.com/e/m/eyJ2IjoxLCJ0IjoicHJvdiIsInNyYyI6Imh0dHBzOi8vdmlkZW8tdjYubXlkcmFtYXdhdmUuY29tL3Z0Lzk4NTI3YmViLTdlNmYtNGE4My1iODYyLWZiNjc5ZTRkMjRjMi9oMjY0LTEwZGFhNTAzLTgyMTItNDgyMS1hNDgyLWZkYjYwMzFhMWYxNi5tM3U4IiwicHJvdiI6ImRyYW1hd2F2ZSIsImV4cCI6MTc5NDA5MjQwMH0.570vKK2_p2FUHo-tJzWjUrTzOwKwLOhbeU2FhTtHB2k?mh=1
-
-#EXTINF:-1 tvg-logo="https://narto-drama.com/assets/poster/911003.jpg" group-title="The Last Berserker", Episode 04
-https://stream.narto-drama.com/e/m/eyJ2IjoxLCJ0IjoicHJvdiIsInNyYyI6Imh0dHBzOi8vdmlkZW8tdjYubXlkcmFtYXdhdmUuY29tL3Z0L2ZiMmMwNWJlLTUwNTgtNGRmZi1hYzc2LTg0NGVjNDQwNTE2Yy9oMjY0LWJiMWEyNzA2LWEyMGItNDc0NC04YTY5LTExN2NjZWMwYzAxMi5tM3U4IiwicHJvdiI6ImRyYW1hd2F2ZSIsImV4cCI6MTc5NDA5MjQwMH0.sr9sL2NWbjbXLsgaGB-5JcUT4n0uiC8k3Li9ozeHMS0?mh=1
-
-#EXTINF:-1 tvg-logo="https://narto-drama.com/assets/poster/911003.jpg" group-title="The Last Berserker", Episode 05
-https://stream.narto-drama.com/e/m/eyJ2IjoxLCJ0IjoicHJvdiIsInNyYyI6Imh0dHBzOi8vdmlkZW8tdjYubXlkcmFtYXdhdmUuY29tL3Z0LzJhYjUwNjlhLWMzNDAtNDdlZS1hOTE0LWRjMTU3ZGQwODJlNC9oMjY0LTNjNzZjMGFjLWZhMTctNGEyOS05YmYxLWVmZjc5NzI2ZDQ2MC5tM3U4IiwicHJvdiI6ImRyYW1hd2F2ZSIsImV4cCI6MTc5NDA5MjQwMH0.m54TyvBgD7dpUfXUufjq3BPr2Lt3Je1JHxN9GsWXhAI?mh=1
-
-#EXTINF:-1 tvg-logo="https://narto-drama.com/assets/poster/911003.jpg" group-title="The Last Berserker", Episode 06
-https://stream.narto-drama.com/e/m/eyJ2IjoxLCJ0IjoicHJvdiIsInNyYyI6Imh0dHBzOi8vdmlkZW8tdjYubXlkcmFtYXdhdmUuY29tL3Z0LzZhNjRhOWM5LWZkMDAtNGUyMC05Y2ZlLTJkY2NiMTZiNjk1Mi9oMjY0LWEwNDkxYzYwLThlZDEtNDJmZC05Y2ZkLTEyNjAwMjA3YmFlNS5tM3U4IiwicHJvdiI6ImRyYW1hd2F2ZSIsImV4cCI6MTc5NDA5MjQwMH0.jkQoFK9ZWoBRWG4yqys3auVgNC5r6YN3M_oh3rnPruU?mh=1
-
-#EXTINF:-1 tvg-logo="https://narto-drama.com/assets/poster/911003.jpg" group-title="The Last Berserker", Episode 07
-https://stream.narto-drama.com/e/m/eyJ2IjoxLCJ0IjoicHJvdiIsInNyYyI6Imh0dHBzOi8vdmlkZW8tdjYubXlkcmFtYXdhdmUuY29tL3Z0L2MxYTBkMjBmLTkzZWMtNDdlZi1iMmZlLTg3OGVmMmUwYmFjYi9oMjY0LTY2Nzk5YzUzLTEwZDMtNDc2NS1hY2FiLTE4M2YyMWU2ZjQzMy5tM3U4IiwicHJvdiI6ImRyYW1hd2F2ZSIsImV4cCI6MTc5NDA5MjQwMH0.z6Rt7e-jMWS-lcko6NdobYzKSkJpfnfJDVG-6eRRwQs?mh=1
-
-#EXTINF:-1 tvg-logo="https://narto-drama.com/assets/poster/911003.jpg" group-title="The Last Berserker", Episode 08
-https://stream.narto-drama.com/e/m/eyJ2IjoxLCJ0IjoicHJvdiIsInNyYyI6Imh0dHBzOi8vdmlkZW8tdjYubXlkcmFtYXdhdmUuY29tL3Z0L2MwOWU5YjVkLWFiZTgtNGYzMC1iMzA4LWRhMTMxMzVhZDJkMi9oMjY0LTZmMTA2M2Y2LWM4MDctNDI3Ni05MzA2LTIwZWI3NWJhOTQ4ZC5tM3U4IiwicHJvdiI6ImRyYW1hd2F2ZSIsImV4cCI6MTc5NDA5MjQwMH0.bGnvhufGtdbeBwWVKek-bjQMT0Vf-aNhkj1RJeo7okk?mh=1
-
-#EXTINF:-1 tvg-logo="https://narto-drama.com/assets/poster/911003.jpg" group-title="The Last Berserker", Episode 09
-https://stream.narto-drama.com/e/m/eyJ2IjoxLCJ0IjoicHJvdiIsInNyYyI6Imh0dHBzOi8vdmlkZW8tdjYubXlkcmFtYXdhdmUuY29tL3Z0LzcxZjI4ZjhlLWZkMTktNGQxNC1hODhiLTVjMTNmOTg3MDFkOS9oMjY0LTA2NWJhYTIxLWI1NDQtNDM4NC1iN2JhLWJmNjBmZDg0ZTM4NC5tM3U4IiwicHJvdiI6ImRyYW1hd2F2ZSIsImV4cCI6MTc5NDA5MjQwMH0.EdvmHAoBpXUH81kIRQU9ItdGAUCRvAeHhSlJyMhcjMU?mh=1
-
-#EXTINF:-1 tvg-logo="https://narto-drama.com/assets/poster/911003.jpg" group-title="The Last Berserker", Episode 10
-https://stream.narto-drama.com/e/m/eyJ2IjoxLCJ0IjoicHJvdiIsInNyYyI6Imh0dHBzOi8vdmlkZW8tdjYubXlkcmFtYXdhdmUuY29tL3Z0LzlmNjRhZTVlLTBmY2MtNDM0MC1iMmQ5LTgyZDViZDQ3ZGVhMi9oMjY0LWViYWY2YmI3LTQ0NDUtNDdkOC05NTFlLWJhNTliZmMyM2I0NC5tM3U4IiwicHJvdiI6ImRyYW1hd2F2ZSIsImV4cCI6MTc5NDA5MjQwMH0.G8huMpBTD__xTHBr7ytb4Osmhq4mGc5EzfOpTRGUz6A?mh=1
-
-#EXTINF:-1 tvg-logo="https://narto-drama.com/assets/poster/911003.jpg" group-title="The Last Berserker", Episode 11
-https://stream.narto-drama.com/e/m/eyJ2IjoxLCJ0IjoicHJvdiIsInNyYyI6Imh0dHBzOi8vdmlkZW8tdjYubXlkcmFtYXdhdmUuY29tL3Z0L2FmYTIwZDc4LTNjZGYtNGM0YS04ZmRkLTFlZDA0MDYwYWU3MC9oMjY0LWEzNmRiYmZkLTIzNWMtNDA2ZC05NDVhLTUzOTNiOWI5ZWJlMi5tM3U4IiwicHJvdiI6ImRyYW1hd2F2ZSIsImV4cCI6MTc5NDA5MjQwMH0.A3BcAwc851MBAbv52XAVECfS09ijT3fjFfLhyw5C5wg?mh=1
-
-#EXTINF:-1 tvg-logo="https://narto-drama.com/assets/poster/911003.jpg" group-title="The Last Berserker", Episode 12
-https://stream.narto-drama.com/e/m/eyJ2IjoxLCJ0IjoicHJvdiIsInNyYyI6Imh0dHBzOi8vdmlkZW8tdjYubXlkcmFtYXdhdmUuY29tL3Z0LzNjMDFiZDFiLThiY2YtNDcwYy04MDgzLTFjYTQ0YWNmZDI3NC9oMjY0LWUyZDZjZjYzLWRmOWYtNDEwMC1iZDBlLWNjNTZiOTc2YjBiYi5tM3U4IiwicHJvdiI6ImRyYW1hd2F2ZSIsImV4cCI6MTc5NDA5MjQwMH0.5QsZeXXcYpK-gZpJD--4HoSpp8vOxaUxLCQ3qLdv9wk?mh=1
-
-#EXTINF:-1 tvg-logo="https://narto-drama.com/assets/poster/911003.jpg" group-title="The Last Berserker", Episode 13
-https://stream.narto-drama.com/e/m/eyJ2IjoxLCJ0IjoicHJvdiIsInNyYyI6Imh0dHBzOi8vdmlkZW8tdjYubXlkcmFtYXdhdmUuY29tL3Z0L2UzMGY5ZmM1LWZjM2EtNGQ2YS05NTQzLWUzNzBlYzIyMjg2Ni9oMjY0LTMzMzMzY2ZkLTQxNzktNDYxYS05NGY3LTFkY2FjZGEwM2IwMy5tM3U4IiwicHJvdiI6ImRyYW1hd2F2ZSIsImV4cCI6MTc5NDA5MjQwMH0.9Xfm2OhKlTToBkznRSG58WEBotyXEtODoq9zruXb5Gw?mh=1
-
-#EXTINF:-1 tvg-logo="https://narto-drama.com/assets/poster/911003.jpg" group-title="The Last Berserker", Episode 14
-https://stream.narto-drama.com/e/m/eyJ2IjoxLCJ0IjoicHJvdiIsInNyYyI6Imh0dHBzOi8vdmlkZW8tdjYubXlkcmFtYXdhdmUuY29tL3Z0L2ExNjlmM2JiLWQxZjAtNGQ0My05NjUxLWI0ODAzMjE0YWRiZi9oMjY0LTJjZTZjZjgyLTM5MDctNDdhNC1iMTA5LTdjMDRjZDJmMjk3Ni5tM3U4IiwicHJvdiI6ImRyYW1hd2F2ZSIsImV4cCI6MTc5NDA5MjQwMH0.-jKjpYfMtFaP2peUsOzYNow0DiY5lKejC6AJ0S8Ens4?mh=1
-
-#EXTINF:-1 tvg-logo="https://narto-drama.com/assets/poster/911003.jpg" group-title="The Last Berserker", Episode 15
-https://stream.narto-drama.com/e/m/eyJ2IjoxLCJ0IjoicHJvdiIsInNyYyI6Imh0dHBzOi8vdmlkZW8tdjYubXlkcmFtYXdhdmUuY29tL3Z0L2FmZmRmMTUxLThiNWYtNDcyZS04ZTA1LTQ0YTAyNTVlNjNmNy9oMjY0LTE4MDZjOGQyLWVjNzUtNDZiNC05NDdlLTA1OTNmMDk4MTNiNy5tM3U4IiwicHJvdiI6ImRyYW1hd2F2ZSIsImV4cCI6MTc5NDA5MjQwMH0.BFk_JUn78E_l1XRKhla62PbjwIRrR_pWtQPqlaIoCiw?mh=1
-
-#EXTINF:-1 tvg-logo="https://narto-drama.com/assets/poster/911003.jpg" group-title="The Last Berserker", Episode 16
-https://stream.narto-drama.com/e/m/eyJ2IjoxLCJ0IjoicHJvdiIsInNyYyI6Imh0dHBzOi8vdmlkZW8tdjYubXlkcmFtYXdhdmUuY29tL3Z0L2ExZjg4MTc5LTM2ODYtNDNmZi04YjhkLWI2MzZlYjgzNjIzNC9oMjY0LTBkZGMyNzRjLTgwMzYtNDg2My05NTA5LWEyN2RhOGQ1NGIyMS5tM3U4IiwicHJvdiI6ImRyYW1hd2F2ZSIsImV4cCI6MTc5NDA5MjQwMH0.4Rs49Ix5L_FyWUnZpAwPxtkeLNO3g1a1MPFDlosYZx0?mh=1
-
-#EXTINF:-1 tvg-logo="https://narto-drama.com/assets/poster/911003.jpg" group-title="The Last Berserker", Episode 17
-https://stream.narto-drama.com/e/m/eyJ2IjoxLCJ0IjoicHJvdiIsInNyYyI6Imh0dHBzOi8vdmlkZW8tdjYubXlkcmFtYXdhdmUuY29tL3Z0LzAwZjc2MjQxLWFiMmMtNGQ0My04YzMwLWE1Zjg2MWIwZGJhZi9oMjY0LWViZTNiZmE3LWZmZjktNGQ2Zi1hZDZkLWRhMGU5MzIxN2U4NC5tM3U4IiwicHJvdiI6ImRyYW1hd2F2ZSIsImV4cCI6MTc5NDA5MjQwMH0.CN0LaNNO_cq414nMXrfSJEPC7c7r1flUr_Ye79Z5Ghg?mh=1
-
-#EXTINF:-1 tvg-logo="https://narto-drama.com/assets/poster/911003.jpg" group-title="The Last Berserker", Episode 18
-https://stream.narto-drama.com/e/m/eyJ2IjoxLCJ0IjoicHJvdiIsInNyYyI6Imh0dHBzOi8vdmlkZW8tdjYubXlkcmFtYXdhdmUuY29tL3Z0LzhlYmI2NTc4LWMzMWUtNDU4OS05NjBmLWFhZDkzZmMxZjQyOC9oMjY0LTZiMjNmMjYyLTFkODQtNDkzYS1iN2U4LTU1OTYwMjg5Mzg3Ny5tM3U4IiwicHJvdiI6ImRyYW1hd2F2ZSIsImV4cCI6MTc5NDA5MjQwMH0.CKUElFo9Zax29ZeEGxCS_zWisOmGum6NoHE_ZQGwmQQ?mh=1
-
-#EXTINF:-1 tvg-logo="https://narto-drama.com/assets/poster/911003.jpg" group-title="The Last Berserker", Episode 19
-https://stream.narto-drama.com/e/m/eyJ2IjoxLCJ0IjoicHJvdiIsInNyYyI6Imh0dHBzOi8vdmlkZW8tdjYubXlkcmFtYXdhdmUuY29tL3Z0LzE3M2M0MmJmLTQ3MmQtNDdkZi05ODc3LTEwZDdkMGMyMDg1Yy9oMjY0LWQxNjlmNzYxLTdhMjgtNDZlYS1iZTc4LTczMmY2ZGM1NTZkOC5tM3U4IiwicHJvdiI6ImRyYW1hd2F2ZSIsImV4cCI6MTc5NDA5MjQwMH0.ph9NJVIF5vmZ0zpR_ULgaEGplL4oS54CzeDyEAd9eGU?mh=1
-
-#EXTINF:-1 tvg-logo="https://narto-drama.com/assets/poster/911003.jpg" group-title="The Last Berserker", Episode 20
-https://stream.narto-drama.com/e/m/eyJ2IjoxLCJ0IjoicHJvdiIsInNyYyI6Imh0dHBzOi8vdmlkZW8tdjYubXlkcmFtYXdhdmUuY29tL3Z0LzE4ODdhYjM5LTgyOTgtNDZjNS05YjNlLWFhMWNlODRkZmJmNC9oMjY0LWE0YWFhNmQxLTg2MjgtNGMxNC1iZjIwLWZkODdiNjBkYzIyZS5tM3U4IiwicHJvdiI6ImRyYW1hd2F2ZSIsImV4cCI6MTc5NDA5MjQwMH0.I-IONI-EoryCaHplZguXyOq_bwI5C4gDaOQ0qVq4msM?mh=1
-
-#EXTINF:-1 tvg-logo="https://narto-drama.com/assets/poster/911003.jpg" group-title="The Last Berserker", Episode 21
-https://stream.narto-drama.com/e/m/eyJ2IjoxLCJ0IjoicHJvdiIsInNyYyI6Imh0dHBzOi8vdmlkZW8tdjYubXlkcmFtYXdhdmUuY29tL3Z0LzE3ODc4ZDhlLTRmNjgtNDQwNi1iZjg1LWM2OWNmODFlZWVhNi9oMjY0LTg2MmU2Y2VlLTg0MDktNGYwNi1hYWUxLTU2YmExZDQ3NzQwOC5tM3U4IiwicHJvdiI6ImRyYW1hd2F2ZSIsImV4cCI6MTc5NDA5MjQwMH0.mN8ed1rPMGDA1ieKHpWYpnLjjqPGiEnxObLVJGwGwbw?mh=1
-
-#EXTINF:-1 tvg-logo="https://narto-drama.com/assets/poster/911003.jpg" group-title="The Last Berserker", Episode 22
-https://stream.narto-drama.com/e/m/eyJ2IjoxLCJ0IjoicHJvdiIsInNyYyI6Imh0dHBzOi8vdmlkZW8tdjYubXlkcmFtYXdhdmUuY29tL3Z0L2U2YzgyNmFkLWFjYzMtNDI4OS1iZjk2LTZmMDJkYWQzMzE0Yy9oMjY0LThjOTBiOWZhLThhYzItNDBhYS1iNDk5LTgwZDdiNTg3ODQzMi5tM3U4IiwicHJvdiI6ImRyYW1hd2F2ZSIsImV4cCI6MTc5NDA5MjQwMH0.OZsY44agHKGJ6FYnnHpiTrVAYSk9WIxFd0kdQ6ImjiE?mh=1
-
-#EXTINF:-1 tvg-logo="https://narto-drama.com/assets/poster/911003.jpg" group-title="The Last Berserker", Episode 23
-https://stream.narto-drama.com/e/m/eyJ2IjoxLCJ0IjoicHJvdiIsInNyYyI6Imh0dHBzOi8vdmlkZW8tdjYubXlkcmFtYXdhdmUuY29tL3Z0L2MzNWYzMTdmLTZiNDEtNDZjYS05MGUyLWIyYzE5NzlhYTE5NS9oMjY0LWQwOWFhMTUxLTI5MzktNDU4MC04MmU1LTE0YjEwMTU4MTA1YS5tM3U4IiwicHJvdiI6ImRyYW1hd2F2ZSIsImV4cCI6MTc5NDA5MjQwMH0.WI90ZH-u1DZxSfz7YffHUS4FoZJ4JgAWXwfr9rsYyM0?mh=1
-
-#EXTINF:-1 tvg-logo="https://narto-drama.com/assets/poster/911003.jpg" group-title="The Last Berserker", Episode 24
-https://stream.narto-drama.com/e/m/eyJ2IjoxLCJ0IjoicHJvdiIsInNyYyI6Imh0dHBzOi8vdmlkZW8tdjYubXlkcmFtYXdhdmUuY29tL3Z0Lzc1MWE1MDE4LTFjNGYtNDkzOC1iZjNkLTU4N2EwZTQ1M2U5OS9oMjY0LThmM2VkYzI1LTI4NDMtNDJhMS1iMGY5LWY4NDBkYzEyZDdjYi5tM3U4IiwicHJvdiI6ImRyYW1hd2F2ZSIsImV4cCI6MTc5NDA5MjQwMH0.OJNOwt5RJRCHSlWk3P34i08y9dUo92SA8GM2VXqD-MI?mh=1
-
-#EXTINF:-1 tvg-logo="https://narto-drama.com/assets/poster/911003.jpg" group-title="The Last Berserker", Episode 25
-https://stream.narto-drama.com/e/m/eyJ2IjoxLCJ0IjoicHJvdiIsInNyYyI6Imh0dHBzOi8vdmlkZW8tdjYubXlkcmFtYXdhdmUuY29tL3Z0L2Q3ZDBiZTU3LTk2ZDQtNGRhMi1iZWIwLWUwNDk4YjAzZGIyNC9oMjY0LTZlMmY3N2I2LWVhZjAtNDIwMy05MGY4LWU0OTFkNTYxNjI2My5tM3U4IiwicHJvdiI6ImRyYW1hd2F2ZSIsImV4cCI6MTc5NDA5MjQwMH0.6WeVI1tPwwGG8L-ZLv2w2HNHTa-rkTDziYIx7_bbNbk?mh=1
-
-#EXTINF:-1 tvg-logo="https://narto-drama.com/assets/poster/911003.jpg" group-title="The Last Berserker", Episode 26
-https://stream.narto-drama.com/e/m/eyJ2IjoxLCJ0IjoicHJvdiIsInNyYyI6Imh0dHBzOi8vdmlkZW8tdjYubXlkcmFtYXdhdmUuY29tL3Z0LzRjNmFhNzA2LWFhOTktNGNjMC1hZjI4LWViNGJjNDUzZThlZS9oMjY0LTBlYjY5M2M5LTlhYTgtNDY3Ni05NDhkLWY2MDViNWY3YjIzOC5tM3U4IiwicHJvdiI6ImRyYW1hd2F2ZSIsImV4cCI6MTc5NDA5MjQwMH0.nwyRyYzXGdP4qT-bzUrsAsZGM_ZFscYQle93jZy5kyI?mh=1
-
-#EXTINF:-1 tvg-logo="https://narto-drama.com/assets/poster/911003.jpg" group-title="The Last Berserker", Episode 27
-https://stream.narto-drama.com/e/m/eyJ2IjoxLCJ0IjoicHJvdiIsInNyYyI6Imh0dHBzOi8vdmlkZW8tdjYubXlkcmFtYXdhdmUuY29tL3Z0LzRkMTdmNTE2LTU2OTctNGZkMi1iYmFiLTBlOWZkZGQxZWQ1OS9oMjY0LTFjMGZhNDA0LTkxNzktNDJiNC05N2E2LWE3MzRjMGMzMTdmOS5tM3U4IiwicHJvdiI6ImRyYW1hd2F2ZSIsImV4cCI6MTc5NDA5MjQwMH0.3tRoAIgBkvTrn56dwmyxdKrAu5YQAOZbqW6Hm0pONdA?mh=1
-
-#EXTINF:-1 tvg-logo="https://narto-drama.com/assets/poster/911003.jpg" group-title="The Last Berserker", Episode 28
-https://stream.narto-drama.com/e/m/eyJ2IjoxLCJ0IjoicHJvdiIsInNyYyI6Imh0dHBzOi8vdmlkZW8tdjYubXlkcmFtYXdhdmUuY29tL3Z0LzVlMWZmZjI4LWQwMTQtNDlhNS1hOTI3LWMwZjFmOWZkOGZkYS9oMjY0LTMzYWRjM2I5LTZmYjYtNDZiYS05ZTQ5LTljZGM3YjdjNjRkMC5tM3U4IiwicHJvdiI6ImRyYW1hd2F2ZSIsImV4cCI6MTc5NDA5MjQwMH0.UtKhnvPjDevC946_4InncfQU2Ijt2uwKW2Xv9HAUXOw?mh=1
-
-#EXTINF:-1 tvg-logo="https://narto-drama.com/assets/poster/911003.jpg" group-title="The Last Berserker", Episode 29
-https://stream.narto-drama.com/e/m/eyJ2IjoxLCJ0IjoicHJvdiIsInNyYyI6Imh0dHBzOi8vdmlkZW8tdjYubXlkcmFtYXdhdmUuY29tL3Z0LzNlNmE5YmU1LWUwYzktNDc1NC1hNmVhLWY2YjIwOWRlOGRlZi9oMjY0LTM2Y2Q3ZTI2LTVjNTQtNGViMi1iNjA4LTJlN2EwMGZmOGU2OS5tM3U4IiwicHJvdiI6ImRyYW1hd2F2ZSIsImV4cCI6MTc5NDA5MjQwMH0.46KLUg9JQAfgEmu49G3zcXXyWW-Ml0eUiv1Fqi1qz4Q?mh=1
-
-#EXTINF:-1 tvg-logo="https://narto-drama.com/assets/poster/911003.jpg" group-title="The Last Berserker", Episode 30
-https://stream.narto-drama.com/e/m/eyJ2IjoxLCJ0IjoicHJvdiIsInNyYyI6Imh0dHBzOi8vdmlkZW8tdjYubXlkcmFtYXdhdmUuY29tL3Z0L2JiNmI2NTgyLTA5NzAtNGU2NC1iYzM3LWRmYTUxYTZiZWQ5Zi9oMjY0LWNhMWZkNDUyLWIyMmEtNGVlNy04Yjg1LThiYTdkODFhZTVmMS5tM3U4IiwicHJvdiI6ImRyYW1hd2F2ZSIsImV4cCI6MTc5NDA5MjQwMH0.h95M_iW3ZQ2zZLVywThFp7hvmne7m30uDZ5lwqB_63Y?mh=1
-
-#EXTINF:-1 tvg-logo="https://narto-drama.com/assets/poster/911003.jpg" group-title="The Last Berserker", Episode 31
-https://stream.narto-drama.com/e/m/eyJ2IjoxLCJ0IjoicHJvdiIsInNyYyI6Imh0dHBzOi8vdmlkZW8tdjYubXlkcmFtYXdhdmUuY29tL3Z0LzZkY2JjZWM3LTc5NzItNDNkNy1iNWVmLTYxYTdlMTc1N2I5Zi9oMjY0LTNmNTk0NjZlLTZkZjktNDY2YS1iZmFmLTI4MzBjM2NiNWEwZC5tM3U4IiwicHJvdiI6ImRyYW1hd2F2ZSIsImV4cCI6MTc5NDA5MjQwMH0.J6h4F9nGlQPtcBzLQeRV_rNUws0xhj7ggVD8sX0pCbo?mh=1
-
-#EXTINF:-1 tvg-logo="https://narto-drama.com/assets/poster/911003.jpg" group-title="The Last Berserker", Episode 32
-https://stream.narto-drama.com/e/m/eyJ2IjoxLCJ0IjoicHJvdiIsInNyYyI6Imh0dHBzOi8vdmlkZW8tdjYubXlkcmFtYXdhdmUuY29tL3Z0L2NiZmEyN2VkLWM0ODctNGU5ZS04NDgxLWNmOTE2M2Y3MmQ0OS9oMjY0LTZkMTRmODRlLTIxMjctNGY0YS05N2VjLWM0NDQ2NDhkMmI5My5tM3U4IiwicHJvdiI6ImRyYW1hd2F2ZSIsImV4cCI6MTc5NDA5MjQwMH0.Z34UHSxG-O9vY5A170HFc6jZ2xFZDb5ahFYMq6F1r1g?mh=1
-
-#EXTINF:-1 tvg-logo="https://narto-drama.com/assets/poster/911003.jpg" group-title="The Last Berserker", Episode 33
-https://stream.narto-drama.com/e/m/eyJ2IjoxLCJ0IjoicHJvdiIsInNyYyI6Imh0dHBzOi8vdmlkZW8tdjYubXlkcmFtYXdhdmUuY29tL3Z0LzY3MTFlYjBlLWYxNDUtNGZlMy05NDNmLTczMTUzNWFhMDM5YS9oMjY0LWJjNmI3YzEwLTcyNDEtNGQ0Ny1iNDg0LTc4MjhlYjViMjQ1Ny5tM3U4IiwicHJvdiI6ImRyYW1hd2F2ZSIsImV4cCI6MTc5NDA5MjQwMH0.N_JXr4cLoNfw7J8pqVpMARZzw-6rZ2hokISDxK6jJEo?mh=1
-
-#EXTINF:-1 tvg-logo="https://narto-drama.com/assets/poster/911003.jpg" group-title="The Last Berserker", Episode 34
-https://stream.narto-drama.com/e/m/eyJ2IjoxLCJ0IjoicHJvdiIsInNyYyI6Imh0dHBzOi8vdmlkZW8tdjYubXlkcmFtYXdhdmUuY29tL3Z0L2NkMTQzZDY0LWM1YWEtNDQxNi1hMDBlLTUyODA2ZjYwZjQ5MS9oMjY0LTNjYTU4MWQ5LTYyYTMtNDY3Mi1iM2E1LTljOTM1YzUwMmMyOC5tM3U4IiwicHJvdiI6ImRyYW1hd2F2ZSIsImV4cCI6MTc5NDA5MjQwMH0.bYCRBO8AWIt5g5ERrV7mzPA-qap0MFAlHDRsifH0Dug?mh=1
-
-#EXTINF:-1 tvg-logo="https://narto-drama.com/assets/poster/911003.jpg" group-title="The Last Berserker", Episode 35
-https://stream.narto-drama.com/e/m/eyJ2IjoxLCJ0IjoicHJvdiIsInNyYyI6Imh0dHBzOi8vdmlkZW8tdjYubXlkcmFtYXdhdmUuY29tL3Z0LzcwNTgzYjYwLTEzNjktNGJkMS1iYTU5LWY5MmMxZGNjNDZjYS9oMjY0LTViMzQ2ODk1LTE3NjItNDViOC1iNjMxLTIzZmQwMTAyNWY3MS5tM3U4IiwicHJvdiI6ImRyYW1hd2F2ZSIsImV4cCI6MTc5NDA5MjQwMH0.7qL73ZBfpjcQTvVoJQHmyh8TLdEzzW90vAa5dTVmv3U?mh=1
-
-#EXTINF:-1 tvg-logo="https://narto-drama.com/assets/poster/911003.jpg" group-title="The Last Berserker", Episode 36
-https://stream.narto-drama.com/e/m/eyJ2IjoxLCJ0IjoicHJvdiIsInNyYyI6Imh0dHBzOi8vdmlkZW8tdjYubXlkcmFtYXdhdmUuY29tL3Z0L2M3OWJjOWRlLTYwM2UtNDhhZi1iYWZjLWNkNjU0ZDhhMDhhMi9oMjY0LTEwNjM1MGU1LThkNTQtNGU1YS05OTljLWVhOGNhMGExY2Q5MC5tM3U4IiwicHJvdiI6ImRyYW1hd2F2ZSIsImV4cCI6MTc5NDA5MjQwMH0.xdotaoMgnQempN_jhk2fPCQolpCYfX6e-RFpP8mQECg?mh=1
-
-#EXTINF:-1 tvg-logo="https://narto-drama.com/assets/poster/911003.jpg" group-title="The Last Berserker", Episode 37
-https://stream.narto-drama.com/e/m/eyJ2IjoxLCJ0IjoicHJvdiIsInNyYyI6Imh0dHBzOi8vdmlkZW8tdjYubXlkcmFtYXdhdmUuY29tL3Z0LzdlMDcyNTgwLWM3OTYtNGRiYi1iZGIwLTg3YzkxYTI1ZGU4Zi9oMjY0LTk0NzllNmY2LTFkMjQtNGExYy04NzRhLThkMjAyMGQ2MjNjMi5tM3U4IiwicHJvdiI6ImRyYW1hd2F2ZSIsImV4cCI6MTc5NDA5MjQwMH0.W7Mqe3_-d5yXpO_v_TiJbdgQEwRaqywn8sg5XG5Cm-o?mh=1
-
-#EXTINF:-1 tvg-logo="https://narto-drama.com/assets/poster/911003.jpg" group-title="The Last Berserker", Episode 38
-https://stream.narto-drama.com/e/m/eyJ2IjoxLCJ0IjoicHJvdiIsInNyYyI6Imh0dHBzOi8vdmlkZW8tdjYubXlkcmFtYXdhdmUuY29tL3Z0L2IzMjQxODMwLTcyZDItNDI1YS1hOWVjLWJhNTJlNDQ3NTZhMC9oMjY0LWRkMmIxZjU4LWU0MzktNGEyOC1iZTk4LWYzMGE5MGM2MjY3NS5tM3U4IiwicHJvdiI6ImRyYW1hd2F2ZSIsImV4cCI6MTc5NDA5MjQwMH0.MFOSmWMRYmTLxskGjWku6cQ5VCI-Vo5tzO6lyvj3Luo?mh=1
-
-#EXTINF:-1 tvg-logo="https://narto-drama.com/assets/poster/911003.jpg" group-title="The Last Berserker", Episode 39
-https://stream.narto-drama.com/e/m/eyJ2IjoxLCJ0IjoicHJvdiIsInNyYyI6Imh0dHBzOi8vdmlkZW8tdjYubXlkcmFtYXdhdmUuY29tL3Z0L2NjMzE0NjRjLTdiZjMtNDM2Ny05NDgwLTA4YTNiNThlOWUwZi9oMjY0LTQzMTE3NTczLWJlOWQtNDRlYS1hNGRiLWM5MzA0YTViOTUzMS5tM3U4IiwicHJvdiI6ImRyYW1hd2F2ZSIsImV4cCI6MTc5NDA5MjQwMH0.QOzQ4qf0l-gJPm2MRYWaLpJuPd7tMW5Ir1mwz6Hj9sg?mh=1
-
-#EXTINF:-1 tvg-logo="https://narto-drama.com/assets/poster/911003.jpg" group-title="The Last Berserker", Episode 40
-https://stream.narto-drama.com/e/m/eyJ2IjoxLCJ0IjoicHJvdiIsInNyYyI6Imh0dHBzOi8vdmlkZW8tdjYubXlkcmFtYXdhdmUuY29tL3Z0LzM2NDg2NzlmLTUxMzktNDkxNi05MWUzLTc2MTFhMjJkZWI3Mi9oMjY0LTJhZGIyNDBlLWJjZTAtNGIwZS04MGZjLTZlYTZmN2Q4NWJlNS5tM3U4IiwicHJvdiI6ImRyYW1hd2F2ZSIsImV4cCI6MTc5NDA5MjQwMH0.X6oPYrAUU0zcIe6qvI94FfPbrZlBb3BjuOd-ytUNPyo?mh=1
-
-#EXTINF:-1 tvg-logo="https://narto-drama.com/assets/poster/911003.jpg" group-title="The Last Berserker", Episode 41
-https://stream.narto-drama.com/e/m/eyJ2IjoxLCJ0IjoicHJvdiIsInNyYyI6Imh0dHBzOi8vdmlkZW8tdjYubXlkcmFtYXdhdmUuY29tL3Z0LzY2ZGNhNTMzLTQ2OWItNGU4Yi05NjZlLWI0MjU1MTEwNzg4Zi9oMjY0LTExZjIwNzJlLTQ5MTEtNDc5NS1hMzA2LTc2ZjEyNjYzMzdkMC5tM3U4IiwicHJvdiI6ImRyYW1hd2F2ZSIsImV4cCI6MTc5NDA5MjQwMH0.oWj4chO7nT1Qadw89z1U-9hbg-9ZdDwr4uPtCNRgCJ8?mh=1
-
-#EXTINF:-1 tvg-logo="https://narto-drama.com/assets/poster/911003.jpg" group-title="The Last Berserker", Episode 42
-https://stream.narto-drama.com/e/m/eyJ2IjoxLCJ0IjoicHJvdiIsInNyYyI6Imh0dHBzOi8vdmlkZW8tdjYubXlkcmFtYXdhdmUuY29tL3Z0LzgxODg4YTRiLWNlZGMtNGU5Yy05YzRmLTE1MDQ4MWJmNzU0MC9oMjY0LTA5MzJkNTY1LTFjOGItNGFjYS1iZDMwLWExODE3MGFhYzRhYy5tM3U4IiwicHJvdiI6ImRyYW1hd2F2ZSIsImV4cCI6MTc5NDA5MjQwMH0.ar99-DoFv8tBRkaGpE8Vm7Sx58XP3D8hha43CcDzytE?mh=1
-
-#EXTINF:-1 tvg-logo="https://narto-drama.com/assets/poster/911003.jpg" group-title="The Last Berserker", Episode 43
-https://stream.narto-drama.com/e/m/eyJ2IjoxLCJ0IjoicHJvdiIsInNyYyI6Imh0dHBzOi8vdmlkZW8tdjYubXlkcmFtYXdhdmUuY29tL3Z0LzA1YjcwYmRjLWMxZjktNGU0MC05NTkxLTRmYjI1MjU0ZTBjNC9oMjY0LTc1Mzg2NTdjLWEzNWUtNGM5ZS1hOWI1LWRmNjkzYTg2OTA4My5tM3U4IiwicHJvdiI6ImRyYW1hd2F2ZSIsImV4cCI6MTc5NDA5MjQwMH0.Qi6aUBmcUoKXBWntrAymAvT14er8eMKpcerMIPKY0eU?mh=1
-
-#EXTINF:-1 tvg-logo="https://narto-drama.com/assets/poster/911003.jpg" group-title="The Last Berserker", Episode 44
-https://stream.narto-drama.com/e/m/eyJ2IjoxLCJ0IjoicHJvdiIsInNyYyI6Imh0dHBzOi8vdmlkZW8tdjYubXlkcmFtYXdhdmUuY29tL3Z0L2QwOGJmM2E5LTY4ZWItNDE5Ny04M2FkLTgzM2JjN2MyMzQ1ZS9oMjY0LTA0ZjRkODEzLTliM2MtNDYwMy04ZWU2LWViMzU4N2JkMmFhZi5tM3U4IiwicHJvdiI6ImRyYW1hd2F2ZSIsImV4cCI6MTc5NDA5MjQwMH0.CRa5TQt_wKAmunsdz4ee2YiYaHQfwsQ9m2FXN9xzvKg?mh=1
-
-#EXTINF:-1 tvg-logo="https://narto-drama.com/assets/poster/911003.jpg" group-title="The Last Berserker", Episode 45
-https://stream.narto-drama.com/e/m/eyJ2IjoxLCJ0IjoicHJvdiIsInNyYyI6Imh0dHBzOi8vdmlkZW8tdjYubXlkcmFtYXdhdmUuY29tL3Z0LzRmYjFmNDkzLTg3M2QtNGQ4Mi1iNzIyLTkwOTFiOTk3NDNkMi9oMjY0LWJjNGJlMTVjLWFmMzMtNGM2OS1hOWYzLTI5NjQxYTFmMzIwMy5tM3U4IiwicHJvdiI6ImRyYW1hd2F2ZSIsImV4cCI6MTc5NDA5MjQwMH0.Fgrwy3Usd0pl-YmDT9oCV2jjFjTWjmfaGZveekfOJ7A?mh=1
-
-#EXTINF:-1 tvg-logo="https://narto-drama.com/assets/poster/911003.jpg" group-title="The Last Berserker", Episode 46
-https://stream.narto-drama.com/e/m/eyJ2IjoxLCJ0IjoicHJvdiIsInNyYyI6Imh0dHBzOi8vdmlkZW8tdjYubXlkcmFtYXdhdmUuY29tL3Z0L2I4M2MxNjI2LTU5OGMtNGI2OC05MTUwLWJkZGFmMWMzMDg5Ny9oMjY0LTM1NjRmMjNkLTRkZWItNDk3Yi05YzlmLTVkYzNiZDIxMTExMC5tM3U4IiwicHJvdiI6ImRyYW1hd2F2ZSIsImV4cCI6MTc5NDA5MjQwMH0.FcUFaUZsbVNSuhH1NdN9PSZZKnEiLR_1BXXAEdF3p3I?mh=1
-
-#EXTINF:-1 tvg-logo="https://narto-drama.com/assets/poster/911003.jpg" group-title="The Last Berserker", Episode 47
-https://stream.narto-drama.com/e/m/eyJ2IjoxLCJ0IjoicHJvdiIsInNyYyI6Imh0dHBzOi8vdmlkZW8tdjYubXlkcmFtYXdhdmUuY29tL3Z0LzA3NTg4NzI5LTA5YzItNDZkOC1iNzNhLTIyNTM0NTI3YTdhYy9oMjY0LTdhNDlkNjkxLTcxNWQtNGQzYi04NGVkLWNhMDkxNmMxMzIxMC5tM3U4IiwicHJvdiI6ImRyYW1hd2F2ZSIsImV4cCI6MTc5NDA5MjQwMH0.F1AjF1NuMYSKw1JfOwjmqS3bBhDzqAK91n68gLa3n8k?mh=1
-
-#EXTINF:-1 tvg-logo="https://narto-drama.com/assets/poster/911003.jpg" group-title="The Last Berserker", Episode 48
-https://stream.narto-drama.com/e/m/eyJ2IjoxLCJ0IjoicHJvdiIsInNyYyI6Imh0dHBzOi8vdmlkZW8tdjYubXlkcmFtYXdhdmUuY29tL3Z0L2Q4ZDZiZDYxLTBhYzUtNGZhNy1hMmVmLTcxZTdjYjI4YTY3Ny9oMjY0LTlkYmE1ZDc4LTdlM2EtNDI5OS1iNDdhLTVhYjk5N2IxNGUzYy5tM3U4IiwicHJvdiI6ImRyYW1hd2F2ZSIsImV4cCI6MTc5NDA5MjQwMH0.i53qr9lIOyMT-zHCO4NJSY69-1E2qdg5MxLVly5biPo?mh=1
-
-#EXTINF:-1 tvg-logo="https://narto-drama.com/assets/poster/911003.jpg" group-title="The Last Berserker", Episode 49
-https://stream.narto-drama.com/e/m/eyJ2IjoxLCJ0IjoicHJvdiIsInNyYyI6Imh0dHBzOi8vdmlkZW8tdjYubXlkcmFtYXdhdmUuY29tL3Z0L2YwZjE0YmY4LTVhYzctNDhmNi1hYzlhLTRlNGJkYzU0NjI5Yy9oMjY0LTAzMTM3ODZlLTBhZGQtNGNhOC05OGZmLTQ1YTU1Y2U5ZjMyNC5tM3U4IiwicHJvdiI6ImRyYW1hd2F2ZSIsImV4cCI6MTc5NDA5MjQwMH0.HVW4Dz78-k9CVSJ5fO8Z7PLmle_Pf-P9frrunJz6Qzk?mh=1
-
-#EXTINF:-1 tvg-logo="https://narto-drama.com/assets/poster/911003.jpg" group-title="The Last Berserker", Episode 50
-https://stream.narto-drama.com/e/m/eyJ2IjoxLCJ0IjoicHJvdiIsInNyYyI6Imh0dHBzOi8vdmlkZW8tdjYubXlkcmFtYXdhdmUuY29tL3Z0Lzg3ZTg0NjhiLWE5NWUtNDgzMy1iZDVjLTIzNGI1NTIyNjJjOC9oMjY0LWZkNzRmYmFmLTIxYWUtNDJiMS1iNGU1LTFjM2Y1OWU5MDBjNS5tM3U4IiwicHJvdiI6ImRyYW1hd2F2ZSIsImV4cCI6MTc5NDA5MjQwMH0.1XB8-n76C3002KWahp2Cpxy7i9_DjqPQtGPZ12_uU7E?mh=1
-
-#EXTINF:-1 tvg-logo="https://narto-drama.com/assets/poster/911003.jpg" group-title="The Last Berserker", Episode 51
-https://stream.narto-drama.com/e/m/eyJ2IjoxLCJ0IjoicHJvdiIsInNyYyI6Imh0dHBzOi8vdmlkZW8tdjYubXlkcmFtYXdhdmUuY29tL3Z0LzVhZDIxYTQ5LTE1YWItNGU1OS05NjUyLTk0ZmE5OWIxMzZmMi9oMjY0LWMxNTRlMDFhLTkxYTUtNDY5OS1hNjgyLTRiMzg4NjExMmVlNC5tM3U4IiwicHJvdiI6ImRyYW1hd2F2ZSIsImV4cCI6MTc5NDA5MjQwMH0.4KA0gTtyrHdD2Dobdqkj-w1DzT5mVe4z2s-dnUqF3Pc?mh=1
-
-#EXTINF:-1 tvg-logo="https://narto-drama.com/assets/poster/911003.jpg" group-title="The Last Berserker", Episode 52
-https://stream.narto-drama.com/e/m/eyJ2IjoxLCJ0IjoicHJvdiIsInNyYyI6Imh0dHBzOi8vdmlkZW8tdjYubXlkcmFtYXdhdmUuY29tL3Z0LzQxYzRjZTgzLWYxMjktNGE5ZS04NzkxLTYwM2I4NDQ5ZThlZS9oMjY0LWE5MWY0YmNmLWExZDgtNGIwOC04NGY3LTdhODNiYWZiYmNkZC5tM3U4IiwicHJvdiI6ImRyYW1hd2F2ZSIsImV4cCI6MTc5NDA5MjQwMH0.2KVce-n7edTQu0QpLAHYe3rzWe5JTQH84rG6CecphYE?mh=1
-
-#EXTINF:-1 tvg-logo="https://narto-drama.com/assets/poster/911003.jpg" group-title="The Last Berserker", Episode 53
-https://stream.narto-drama.com/e/m/eyJ2IjoxLCJ0IjoicHJvdiIsInNyYyI6Imh0dHBzOi8vdmlkZW8tdjYubXlkcmFtYXdhdmUuY29tL3Z0LzMwYmRmMTllLTkxNzMtNGJhYi04NjVmLWE3MWI2YTY0Y2Y1ZC9oMjY0LWMyMGRjNzQ1LTdkNDYtNDUyZi1iMDg4LTBjZGI3MmMyOWZiNi5tM3U4IiwicHJvdiI6ImRyYW1hd2F2ZSIsImV4cCI6MTc5NDA5MjQwMH0.ZNjwrXs6afxXP_CB9lMPUpThvesLq2d_YKA27d-lnqE?mh=1
-
-#EXTINF:-1 tvg-logo="https://narto-drama.com/assets/poster/911003.jpg" group-title="The Last Berserker", Episode 54
-https://stream.narto-drama.com/e/m/eyJ2IjoxLCJ0IjoicHJvdiIsInNyYyI6Imh0dHBzOi8vdmlkZW8tdjYubXlkcmFtYXdhdmUuY29tL3Z0LzliZGI1NDBkLWViOWUtNGNlMS04MGMwLTVhMzM1YWJlYzFjNy9oMjY0LTkyYzdhM2MwLTZiY2QtNDg2OS1iY2Q5LTRiZDIyM2RlMTZiNy5tM3U4IiwicHJvdiI6ImRyYW1hd2F2ZSIsImV4cCI6MTc5NDA5MjQwMH0.rh1zFSik9xHGxdBY65_uSxc5r3iecnO9qAG2BEQ0Cus?mh=1
-
-#EXTINF:-1 tvg-logo="https://narto-drama.com/assets/poster/911003.jpg" group-title="The Last Berserker", Episode 55
-https://stream.narto-drama.com/e/m/eyJ2IjoxLCJ0IjoicHJvdiIsInNyYyI6Imh0dHBzOi8vdmlkZW8tdjYubXlkcmFtYXdhdmUuY29tL3Z0Lzk0NzI4YTUwLWU4MjgtNDJkYS04OGY1LTM2ZDhiYWY5MDFmZS9oMjY0LTBkM2NjOGJhLWZiN2UtNGIyZi1hNDFkLTgzNWFmMTIyMDEzOS5tM3U4IiwicHJvdiI6ImRyYW1hd2F2ZSIsImV4cCI6MTc5NDA5MjQwMH0.7VhRruNKQFmvgMNQZtzzDmk_t0XFY6j6786QuCydznU?mh=1
-
-
-
-///Gunungkidul
-#EXTINF:-1 tvg-ID="" tvg-name="" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="🔭 CCTV", Pantai Baron
-https://stream.gunungkidulkab.go.id:8888/630843dd-4488-4360-8f86-b23f3e67980d/index.m3u8
-#EXTINF:-1 tvg-ID="" tvg-name="" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="🔭 CCTV", Pantai Kukup
-https://stream.gunungkidulkab.go.id:8888/53fa897a-dc59-435b-841b-ce544d559a20/index.m3u8
-#EXTINF:-1 tvg-ID="" tvg-name="" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="🔭 CCTV", Kalurahan Getas
-https://stream.gunungkidulkab.go.id:8888/097ef287-a064-4730-8b65-0fdfad75f327/index.m3u8
-#EXTINF:-1 tvg-ID="" tvg-name="" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="🔭 CCTV", Pertigaan Bunder
-https://stream.gunungkidulkab.go.id:8888/cdb69448-349b-460e-ac6c-545199e93599/index.m3u8
-#EXTINF:-1 tvg-ID="" tvg-name="" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="🔭 CCTV", Kalurahan Planjan - Fix
-https://stream.gunungkidulkab.go.id:8888/5858ca16-f730-49d1-a494-9d20a82b9b55/index.m3u8
-#EXTINF:-1 tvg-ID="" tvg-name="" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="🔭 CCTV", SMP 1 Playen
-https://stream.gunungkidulkab.go.id:8888/c43d6c28-d03d-4aab-a589-7410b655908d/index.m3u8
-#EXTINF:-1 tvg-ID="" tvg-name="" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="🔭 CCTV", SD Karangrejek 2
-https://stream.gunungkidulkab.go.id:8888/97561df3-c774-495a-b4d6-e5654108ac43/index.m3u8
-#EXTINF:-1 tvg-ID="" tvg-name="" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="🔭 CCTV", Perempatan Patuk
-https://stream.gunungkidulkab.go.id:8888/d237c46b-f15b-490c-869c-b5375df3a020/index.m3u8
-#EXTINF:-1 tvg-ID="" tvg-name="" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="🔭 CCTV", SMP 3 Wonosari
-https://stream.gunungkidulkab.go.id:8888/f156c1d9-9381-45f5-a20f-cd323fb3a639/index.m3u8
-#EXTINF:-1 tvg-ID="" tvg-name="" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="🔭 CCTV", Ngingrong Mulo
-https://stream.gunungkidulkab.go.id:8888/bbc05db8-09ae-44d1-a049-3d22bd18962b/index.m3u8
-#EXTINF:-1 tvg-ID="" tvg-name="" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="🔭 CCTV", Pertigaan Pasar Playen
-https://stream.gunungkidulkab.go.id:8888/3cdd4d3d-123f-4fdd-9600-5afce882d8e5/index.m3u8
-#EXTINF:-1 tvg-ID="" tvg-name="" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="🔭 CCTV", Alun-alun Wonosari Fix
-https://stream.gunungkidulkab.go.id:8888/c066fe94-69d3-487b-990a-f0bdb24fa9e9/index.m3u8
-#EXTINF:-1 tvg-ID="" tvg-name="" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="🔭 CCTV", Bunderan Siyono Fix
-https://stream.gunungkidulkab.go.id:8888/447f180a-3aa6-41af-a905-4f5567b84f1b/index.m3u8
-#EXTINF:-1 tvg-ID="" tvg-name="" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="🔭 CCTV", Tugu Selamat Datang Patuk
-https://stream.gunungkidulkab.go.id:8888/472ac01d-84a3-40bd-b8a4-d7de2262f65b/index.m3u8
-#EXTINF:-1 tvg-ID="" tvg-name="" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="🔭 CCTV", Puskesmas Ngawen II
-https://stream.gunungkidulkab.go.id:8888/8193c0b3-0d34-43a1-9185-a534f6ffa303/index.m3u8
-#EXTINF:-1 tvg-ID="" tvg-name="" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="🔭 CCTV", Embung Batara Sriten
-https://stream.gunungkidulkab.go.id:8888/f15832eb-7d45-4800-b740-ade96dc7d94e/index.m3u8
-#EXTINF:-1 tvg-ID="" tvg-name="" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="🔭 CCTV", Pertigaan SD Nanas
-https://stream.gunungkidulkab.go.id:8888/68e924c4-c94a-42e7-93ca-12b685c6513b/index.m3u8
-#EXTINF:-1 tvg-ID="" tvg-name="" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="🔭 CCTV", SD Baran 2
-https://stream.gunungkidulkab.go.id:8888/18dd12e5-6f91-4ba9-8bec-3f25ddd5f68d/index.m3u8
-#EXTINF:-1 tvg-ID="" tvg-name="" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="🔭 CCTV", Bunderan PLN
-https://stream.gunungkidulkab.go.id:8888/ef7bc11d-8e05-4414-8e25-edeb78929cf0/index.m3u8
-#EXTINF:-1 tvg-ID="" tvg-name="" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="🔭 CCTV", Puskesmas Gedangsari II
-https://stream.gunungkidulkab.go.id:8888/7796317a-7669-4f52-b560-e1706a1825c9/index.m3u8
-#EXTINF:-1 tvg-ID="" tvg-name="" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="🔭 CCTV", SMP 2 Paliyan
-https://stream.gunungkidulkab.go.id:8888/a7891cb1-d941-4974-94cd-de33ac5d84b0/index.m3u8
-#EXTINF:-1 tvg-ID="" tvg-name="" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="🔭 CCTV", Kelurahan Rejosari
-https://stream.gunungkidulkab.go.id:8888/a8b41e1f-51ae-4f3c-b61f-3d3485714fee/index.m3u8
-#EXTINF:-1 tvg-ID="" tvg-name="" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="🔭 CCTV", Puskeswan Putat
-https://stream.gunungkidulkab.go.id:8888/cec79cf1-852c-412a-b206-906b5daddbcc/index.m3u8
-#EXTINF:-1 tvg-ID="" tvg-name="" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="🔭 CCTV", Kalurahan Sambirejo
-https://stream.gunungkidulkab.go.id:8888/a4bed595-2ed8-46f5-a802-fc450bdf67e9/index.m3u8
-#EXTINF:-1 tvg-ID="" tvg-name="" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="🔭 CCTV", SD Logantung 2 Semin
-https://stream.gunungkidulkab.go.id:8888/17d519d4-ba98-446e-bfe7-369372ac834b/index.m3u8
-#EXTINF:-1 tvg-ID="" tvg-name="" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="🔭 CCTV", BPP Playen
-https://stream.gunungkidulkab.go.id:8888/40c44e72-0ef8-42b5-9410-8c88ad2d062d/index.m3u8
-#EXTINF:-1 tvg-ID="" tvg-name="" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="🔭 CCTV", SD Trowono 1
-https://stream.gunungkidulkab.go.id:8888/076df88c-ce65-47f4-8d4e-4872c430eee8/index.m3u8
-#EXTINF:-1 tvg-ID="" tvg-name="" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="🔭 CCTV", Terminal Semin
-https://stream.gunungkidulkab.go.id:8888/f4e65d43-ff9a-4603-b035-b2bb778fc9d1/index.m3u8
-#EXTINF:-1 tvg-ID="" tvg-name="" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="🔭 CCTV", SD Pucung
-https://stream.gunungkidulkab.go.id:8888/407a2a57-0202-4303-8314-114e635549c2/index.m3u8
-#EXTINF:-1 tvg-ID="" tvg-name="" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="🔭 CCTV", Pertigaan Kemadang
-https://stream.gunungkidulkab.go.id:8888/72f5464f-8741-4449-9727-c75db9a1169f/index.m3u8
-#EXTINF:-1 tvg-ID="" tvg-name="" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="🔭 CCTV", SMP 1 Tanjungsari
-https://stream.gunungkidulkab.go.id:8888/d15446f5-d59f-47f0-b6d6-5828c28dfc6b/index.m3u8
-#EXTINF:-1 tvg-ID="" tvg-name="" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="🔭 CCTV", Pancuran FIX
-https://stream.gunungkidulkab.go.id:8888/e875884e-745b-4870-a9d6-bc8783dd43a5/index.m3u8
-#EXTINF:-1 tvg-ID="" tvg-name="" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="🔭 CCTV", Puskesmas Patuk II
-https://stream.gunungkidulkab.go.id:8888/565f31f5-ca89-4db2-937b-dd33f9fb5102/index.m3u8
-#EXTINF:-1 tvg-ID="" tvg-name="" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="🔭 CCTV", Gor Siyono
-https://stream.gunungkidulkab.go.id:8888/186ad348-fa92-4011-a296-4dfeae227a13/index.m3u8
-#EXTINF:-1 tvg-ID="" tvg-name="" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="🔭 CCTV", TPR Pantai Baron
-https://stream.gunungkidulkab.go.id:8888/f6314dd1-a8ea-40a9-8a97-e0f2f8dc4bdd/index.m3u8
-#EXTINF:-1 tvg-ID="" tvg-name="" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="🔭 CCTV", Tugu Selamat Datang Patuk 2
-https://stream.gunungkidulkab.go.id:8888/58328653-bae9-4e69-82d0-b83d500040b1/index.m3u8
-#EXTINF:-1 tvg-ID="" tvg-name="" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="🔭 CCTV", Bunderan Siyono Barat
-https://stream.gunungkidulkab.go.id:8888/99b61615-0e73-4b44-b7d9-775301c11b94/index.m3u8
-#EXTINF:-1 tvg-ID="" tvg-name="" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="🔭 CCTV", Bunderan Siyono Timur
-https://stream.gunungkidulkab.go.id:8888/365d3972-8e24-4b8e-a9bd-2db5cbcbfee8/index.m3u8
-#EXTINF:-1 tvg-ID="" tvg-name="" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="🔭 CCTV", Pemda Gunungkidul
-https://stream.gunungkidulkab.go.id:8888/d41813e2-fafb-42a4-a7b9-5e713c0e9606/index.m3u8
-#EXTINF:-1 tvg-ID="" tvg-name="" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="🔭 CCTV", Kapanewon Nglipar Timur
-https://stream.gunungkidulkab.go.id:8888/5bb010f8-71fd-449c-99b2-294d35af77fd/index.m3u8
-#EXTINF:-1 tvg-ID="" tvg-name="" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="🔭 CCTV", Kapanewon Nglipar Barat
-https://stream.gunungkidulkab.go.id:8888/31de9dc7-dfaa-4274-b353-49d350e5b8d8/index.m3u8
-#EXTINF:-1 tvg-ID="" tvg-name="" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="🔭 CCTV", Simpang 4 RSUD FIX
-https://stream.gunungkidulkab.go.id:8888/2b304ee7-49a4-4283-a64d-538de7fb6ad1/index.m3u8
-#EXTINF:-1 tvg-ID="" tvg-name="" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="🔭 CCTV", SD Trowono 3
-https://stream.gunungkidulkab.go.id:8888/0416e020-1e28-4066-aa3f-5083cdb4cdc2/index.m3u8
-#EXTINF:-1 tvg-ID="" tvg-name="" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="🔭 CCTV", Simpang 3 Amigo
-https://stream.gunungkidulkab.go.id:8888/bf8e74bf-ab2e-4eda-8a59-f06a31f028e5/index.m3u8
-#EXTINF:-1 tvg-ID="" tvg-name="" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="🔭 CCTV", S4 Tegalsari Barat
-https://stream.gunungkidulkab.go.id:8888/be5bc47a-f583-4873-9e51-4a9b49ad5cf6/index.m3u8
-#EXTINF:-1 tvg-ID="" tvg-name="" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="🔭 CCTV", S4 Tegalsari Timur
-https://stream.gunungkidulkab.go.id:8888/438a6f5a-3713-40bb-ab87-29ad9f88a9fc/index.m3u8
-#EXTINF:-1 tvg-ID="" tvg-name="" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="🔭 CCTV", S4 Baleharjo Barat
-https://stream.gunungkidulkab.go.id:8888/f6878b5b-8100-449d-b4b5-ca48601a6256/index.m3u8
-#EXTINF:-1 tvg-ID="" tvg-name="" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="🔭 CCTV", S4 Baleharjo Timur
-https://stream.gunungkidulkab.go.id:8888/b7c060ba-33c8-4609-8713-4f6e5ff35ba8/index.m3u8
-#EXTINF:-1 tvg-ID="" tvg-name="" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="🔭 CCTV", S3 Ngawen Utara
-https://stream.gunungkidulkab.go.id:8888/c410af7a-2790-4b8a-be66-d57e6a656e3c/index.m3u8
-#EXTINF:-1 tvg-ID="" tvg-name="" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="🔭 CCTV", S3 Ngawen Timur
-https://stream.gunungkidulkab.go.id:8888/336476f5-2964-4c45-82d2-061b7fe984aa/index.m3u8
-#EXTINF:-1 tvg-ID="" tvg-name="" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="🔭 CCTV", Kapanewon Semin Utara
-https://stream.gunungkidulkab.go.id:8888/25a25318-0831-41ca-a84e-cb725af7a912/index.m3u8
-#EXTINF:-1 tvg-ID="" tvg-name="" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="🔭 CCTV", Kapanewon Semin Selatan
-https://stream.gunungkidulkab.go.id:8888/b788631e-790a-4034-a021-d70223e93e56/index.m3u8
-#EXTINF:-1 tvg-ID="" tvg-name="" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="🔭 CCTV", S4 Karangmojo Barat
-https://stream.gunungkidulkab.go.id:8888/1a72b20b-83a2-44e3-b2cb-34754ec25d7d/index.m3u8
-#EXTINF:-1 tvg-ID="" tvg-name="" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="🔭 CCTV", S4 Karangmojo Utara
-https://stream.gunungkidulkab.go.id:8888/80040ab9-0b70-4d40-991d-33e3850d4115/index.m3u8
-#EXTINF:-1 tvg-ID="" tvg-name="" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="🔭 CCTV", S4 Selang Barat
-https://stream.gunungkidulkab.go.id:8888/6e214a3b-bc51-47c2-be71-3079b4155595/index.m3u8
-#EXTINF:-1 tvg-ID="" tvg-name="" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="🔭 CCTV", S4 Selang Timur
-https://stream.gunungkidulkab.go.id:8888/35d50759-f2c6-4f2b-a11e-7a94a6bcaa7c/index.m3u8
-#EXTINF:-1 tvg-ID="" tvg-name="" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="🔭 CCTV", BPP Semanu Barat
-https://stream.gunungkidulkab.go.id:8888/27c0b2c4-a1bf-4ed9-95ca-9d88f046c754/index.m3u8
-#EXTINF:-1 tvg-ID="" tvg-name="" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="🔭 CCTV", BPP Semanu Timur
-https://stream.gunungkidulkab.go.id:8888/bc790186-e5cc-4552-80e2-b715305ee997/index.m3u8
-#EXTINF:-1 tvg-ID="" tvg-name="" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="🔭 CCTV", S4 Ngalang Timur
-https://stream.gunungkidulkab.go.id:8888/6d0d6159-4ddc-4ef6-a430-ee4ac9731e83/index.m3u8
-#EXTINF:-1 tvg-ID="" tvg-name="" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="🔭 CCTV", S4 Ngalang Barat
-https://stream.gunungkidulkab.go.id:8888/ae3ead60-bed5-4f71-8613-bd4161d51aaf/index.m3u8
-#EXTINF:-1 tvg-ID="" tvg-name="" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="🔭 CCTV", S4 Munggi Barat
-https://stream.gunungkidulkab.go.id:8888/95e43424-6406-45d5-9ea8-6c137e40e9fa/index.m3u8
-#EXTINF:-1 tvg-ID="" tvg-name="" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="🔭 CCTV", S4 Munggi Timur
-https://stream.gunungkidulkab.go.id:8888/d1f423b6-2276-4dcf-ae65-f966a870a9e4/index.m3u8
-#EXTINF:-1 tvg-ID="" tvg-name="" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="🔭 CCTV", Pantai Wediombo
-https://stream.gunungkidulkab.go.id:8888/3f008260-e48f-4dc2-bec4-93d7ec42dcb9/index.m3u8
-#EXTINF:-1 tvg-ID="" tvg-name="" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="🔭 CCTV", Lapangan Pemda Barat
-https://stream.gunungkidulkab.go.id:8888/618a774c-186e-4ab2-9d9c-e4f59d09ab66/index.m3u8
-#EXTINF:-1 tvg-ID="" tvg-name="" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="🔭 CCTV", Pantai Wediombo Jalan
-https://stream.gunungkidulkab.go.id:8888/bf8bcf05-6d72-4109-b965-148422128c93/index.m3u8
-#EXTINF:-1 tvg-ID="" tvg-name="" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="🔭 CCTV", S4 Budegan Dome
-https://stream.gunungkidulkab.go.id:8888/0c5c5b2f-da35-49ca-ad54-037ad5339915/index.m3u8
-#EXTINF:-1 tvg-ID="" tvg-name="" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="🔭 CCTV", S4 Budegan Timur
-https://stream.gunungkidulkab.go.id:8888/cc4a5a29-8266-4164-a764-e11d5de1004b/index.m3u8
-#EXTINF:-1 tvg-ID="" tvg-name="" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="🔭 CCTV", S4 Budegan Barat
-https://stream.gunungkidulkab.go.id:8888/d2bfd3f8-2969-47c1-a246-d5467a8e1efe/index.m3u8
-#EXTINF:-1 tvg-ID="" tvg-name="" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="🔭 CCTV", S3 Gading Selatan
-https://stream.gunungkidulkab.go.id:8888/c5bea4c6-a2e4-4c9d-b731-ea5a1b5bd39c/index.m3u8
-#EXTINF:-1 tvg-ID="" tvg-name="" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="🔭 CCTV", S3 Gading Utara
-https://stream.gunungkidulkab.go.id:8888/c7bd7e2c-9bc0-405d-955e-930b836ff93e/index.m3u8
-#EXTINF:-1 tvg-ID="" tvg-name="" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="🔭 CCTV", S4 Gading Dome
-https://stream.gunungkidulkab.go.id:8888/af4d2a14-e0b3-43f4-ade8-d73465ef2258/index.m3u8
-#EXTINF:-1 tvg-ID="" tvg-name="" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="🔭 CCTV", S4 Gading Selatan
-https://stream.gunungkidulkab.go.id:8888/1f8dbee5-c3d8-40a6-a377-6c8b547cb90a/index.m3u8
-#EXTINF:-1 tvg-ID="" tvg-name="" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="🔭 CCTV", S4 Gading Timur
-https://stream.gunungkidulkab.go.id:8888/44fc679b-735d-44bc-a1f7-7db53ca30fac/index.m3u8
-#EXTINF:-1 tvg-ID="" tvg-name="" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="🔭 CCTV", S4 Gading Utara
-https://stream.gunungkidulkab.go.id:8888/ee587917-0cca-403d-855f-d8cee27721da/index.m3u8
-#EXTINF:-1 tvg-ID="" tvg-name="" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="🔭 CCTV", Pintu Masuk Baron Barat 1
-https://stream.gunungkidulkab.go.id:8888/cb67a758-08c4-43b8-b5cc-23bc4b83829a/index.m3u8
-#EXTINF:-1 tvg-ID="" tvg-name="" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="🔭 CCTV", Pintu Masuk Baron Barat 2
-https://stream.gunungkidulkab.go.id:8888/c82d5519-9752-4281-8de3-451abab0dd86/index.m3u8
-#EXTINF:-1 tvg-ID="" tvg-name="" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="🔭 CCTV", Kapanewon Rongkop Timur
-https://stream.gunungkidulkab.go.id:8888/5bc413f9-0eae-4334-9b7b-e13bf155c8dd/index.m3u8
-#EXTINF:-1 tvg-ID="" tvg-name="" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="🔭 CCTV", TPR Pantai Baron 1
-https://stream.gunungkidulkab.go.id:8888/9582f7dc-118c-4e4d-a676-65f8f145d13e/index.m3u8
-#EXTINF:-1 tvg-ID="" tvg-name="" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="🔭 CCTV", TPR Pantai Baron 2
-https://stream.gunungkidulkab.go.id:8888/9cca7e74-e0b0-49b1-9d62-effbb8589555/index.m3u8
-#EXTINF:-1 tvg-ID="" tvg-name="" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="🔭 CCTV", Kapanewon Rongkop Barat
-https://stream.gunungkidulkab.go.id:8888/b344fc06-e8e9-40b2-ad80-d996918ec595/index.m3u8
-#EXTINF:-1 tvg-ID="" tvg-name="" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="🔭 CCTV", Bunderan Kodim
-https://stream.gunungkidulkab.go.id:8888/e91760d5-95b8-4907-a49d-f46885390291/index.m3u8
-#EXTINF:-1 tvg-ID="" tvg-name="" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="🔭 CCTV", Kodim Gunungkidul
-https://stream.gunungkidulkab.go.id:8888/33edb24d-088c-4f49-ac90-f90a73a995ab/index.m3u8
-#EXTINF:-1 tvg-ID="" tvg-name="" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="🔭 CCTV", Lapangan Kesatrian
-https://stream.gunungkidulkab.go.id:8888/1c2623b9-0382-4f33-b748-3941f4a96549/index.m3u8
-#EXTINF:-1 tvg-ID="" tvg-name="" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="🔭 CCTV", Pasar Wotgalih
-https://stream.gunungkidulkab.go.id:8888/d7bca391-48f3-48d5-9744-ddf548c21ca4/index.m3u8
-#EXTINF:-1 tvg-ID="" tvg-name="" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="🔭 CCTV", Penghitungan Kendaraan
-https://stream.gunungkidulkab.go.id:8888/bdf1ba90-6e30-4d59-b36d-468dda946658/index.m3u8
-#EXTINF:-1 tvg-ID="" tvg-name="" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="🔭 CCTV", S3 Petoyan 1
-https://stream.gunungkidulkab.go.id:8888/d7c5ae4e-2c50-4fc3-a57d-84950313fe6f/index.m3u8
-#EXTINF:-1 tvg-ID="" tvg-name="" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="🔭 CCTV", S3 Petoyan 2
-https://stream.gunungkidulkab.go.id:8888/9d1b9282-2953-4ef5-9d56-5593dc910093/index.m3u8
-#EXTINF:-1 tvg-ID="" tvg-name="" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="🔭 CCTV", Kapanewon Saptosari 1
-https://stream.gunungkidulkab.go.id:8888/3fb627dc-e19a-4bc7-9e79-687487c840db/index.m3u8
-#EXTINF:-1 tvg-ID="" tvg-name="" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="🔭 CCTV", Kapanewon Saptosari 2
-https://stream.gunungkidulkab.go.id:8888/41eefc1f-8388-47b2-9dc9-59d5e65b10d7/index.m3u8
-#EXTINF:-1 tvg-ID="" tvg-name="" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="🔭 CCTV", Taman Kota
-https://stream.gunungkidulkab.go.id:8888/93b13543-ed56-48dc-a6b2-b73c3fc8f29a/index.m3u8
-#EXTINF:-1 tvg-ID="" tvg-name="" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="🔭 CCTV", Alun-Alun Wonosari PTZ
-https://stream.gunungkidulkab.go.id:8888/cd59b3ca-9f14-4660-96a6-2e65442c52a2/index.m3u8
-#EXTINF:-1 tvg-ID="" tvg-name="" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="🔭 CCTV", S3 DPRD
-https://stream.gunungkidulkab.go.id:8888/a4c43c14-cd50-4621-8f85-94086283e461/index.m3u8
-#EXTINF:-1 tvg-ID="" tvg-name="" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="🔭 CCTV", Kalurahan Jetis
-https://stream.gunungkidulkab.go.id:8888/6d5acbc9-33cf-4d3a-8671-a26933f1868d/index.m3u8
-#EXTINF:-1 tvg-ID="" tvg-name="" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="🔭 CCTV", Kalurahan Jetis - PTZ
-https://stream.gunungkidulkab.go.id:8888/61947637-427d-48ad-a59e-916edc063354/index.m3u8
-#EXTINF:-1 tvg-ID="" tvg-name="" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="🔭 CCTV", Kalurahan Planjan - PTZ
-https://stream.gunungkidulkab.go.id:8888/d4ead1b7-f1ec-49be-8946-ee73987411d7/index.m3u8
-#EXTINF:-1 tvg-ID="" tvg-name="" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="🔭 CCTV", Pantai Sepanjang Fix
-https://stream.gunungkidulkab.go.id:8888/f443272b-2eee-4df1-a2bc-14474a336e29/index.m3u8
-#EXTINF:-1 tvg-ID="" tvg-name="" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="🔭 CCTV", Pantai Sepanjang PTZ
-https://stream.gunungkidulkab.go.id:8888/194accd6-6fc8-4938-81c1-78206b1a0200/index.m3u8
-#EXTINF:-1 tvg-ID="" tvg-name="" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="🔭 CCTV", Parkiran Embung Nglanggeran
-https://stream.gunungkidulkab.go.id:8888/0386d0d8-c1a6-429a-9996-def5e2079644/index.m3u8
-#EXTINF:-1 tvg-ID="" tvg-name="" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="🔭 CCTV", Embung Nglanggeran PTZ
-https://stream.gunungkidulkab.go.id:8888/1bea2c47-343d-408e-adf5-ad5eaf6faeec/index.m3u8
-#EXTINF:-1 tvg-ID="" tvg-name="" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="🔭 CCTV", Simpang 4 RSUD PTZ
-https://stream.gunungkidulkab.go.id:8888/00817fc1-25e9-469f-a5c5-c371bdd55f07/index.m3u8
-#EXTINF:-1 tvg-ID="" tvg-name="" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="🔭 CCTV", Bunderan Siyono PTZ
-https://stream.gunungkidulkab.go.id:8888/c02bf2b6-834c-4c9b-9be6-f2980d859bb8/index.m3u8
-#EXTINF:-1 tvg-ID="" tvg-name="" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="🔭 CCTV", Pantai Kukup PTZ
-https://stream.gunungkidulkab.go.id:8888/dfdcfa82-c168-4265-abc8-f786bb7f0313/index.m3u8
-#EXTINF:-1 tvg-ID="" tvg-name="" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="🔭 CCTV", Pertigaan Pasar Playen PTZ
-https://stream.gunungkidulkab.go.id:8888/14d99ef0-eb77-4450-9fc9-eb7545a9ac16/index.m3u8
-#EXTINF:-1 tvg-ID="" tvg-name="" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="🔭 CCTV", Simpang 4 Pancuran PTZ
-https://stream.gunungkidulkab.go.id:8888/d0e1549c-170b-499e-8dee-4ec2fef57f4d/index.m3u8
-#EXTINF:-1 tvg-ID="" tvg-name="" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="🔭 CCTV", Bunderan PLN PTZ
-https://stream.gunungkidulkab.go.id:8888/de774241-aaec-4937-a43a-ab59b7525dd0/index.m3u8
-#EXTINF:-1 tvg-ID="" tvg-name="" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="🔭 CCTV", SMP 2 Patuk Barat
-https://stream.gunungkidulkab.go.id:8888/32588258-06cb-4628-987e-1f0748e6604e/index.m3u8
-#EXTINF:-1 tvg-ID="" tvg-name="" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="🔭 CCTV", SMP 2 Patuk Timur
-https://stream.gunungkidulkab.go.id:8888/e903344a-4303-4dbb-954c-1ba2eac82c10/index.m3u8
-#EXTINF:-1 tvg-ID="" tvg-name="" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="🔭 CCTV", SIMPANG 4 GADING
-https://stream.gunungkidulkab.go.id:8888/e08a568b-111c-43ce-88bc-503f4a3cc348/index.m3u8
-#EXTINF:-1 tvg-ID="" tvg-name="" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="🔭 CCTV", Pantai Drini
-https://stream.gunungkidulkab.go.id:8888/10aee277-d00f-45ee-b72d-c3c4962bc269/index.m3u8
-#EXTINF:-1 tvg-ID="" tvg-name="" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="🔭 CCTV", Kalurahan Nglanggeran 1
-https://stream.gunungkidulkab.go.id:8888/dab5e1b1-dc22-4162-8523-ada6a19585d9/index.m3u8
-#EXTINF:-1 tvg-ID="" tvg-name="" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="🔭 CCTV", Kalurahan Nglanggeran 2
-https://stream.gunungkidulkab.go.id:8888/a6091cbe-fbfc-401b-994b-258ba03b0387/index.m3u8
-
-
-///KOTAJOGJA
-#EXTINF:-1 tvg-ID="" tvg-name="" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="🔭 CCTV", DIY Simpang Tugu Jogja
-https://mam.jogjaprov.go.id:1937/cctv-public/ViewSimpangTugu.stream/playlist.m3u8
-#EXTINF:-1 tvg-ID="" tvg-name="" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="🔭 CCTV", DIY 0 KM View
-https://mam.jogjaprov.go.id:1937/cctv-public/ViewNolKilo.stream/chunklist_w955314280.m3u8
-#EXTINF:-1 tvg-ID="" tvg-name="" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="🔭 CCTV", DIY 0 KM BNI Jogja
-http://cctvjss.jogjakota.go.id/malioboro/NolKm_BNI.stream/chunklist_w1519223749.m3u8
-#EXTINF:-1 tvg-ID="" tvg-name="" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="🔭 CCTV", DIY 0 KM Gedung Agung Jogja
-http://cctvjss.jogjakota.go.id/malioboro/NolKm_GdAgung.stream/chunklist_w114998319.m3u8
-#EXTINF:-1 tvg-ID="" tvg-name="" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="🔭 CCTV", DIY 0 KM Malioboro
-http://cctvjss.jogjakota.go.id/malioboro/NolKm_Utara.stream/chunklist_w1499541048.m3u8
-#EXTINF:-1 tvg-ID="" tvg-name="" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="🔭 CCTV", DIY Malioboro
-https://mam.jogjaprov.go.id:1937/cctv-public/ViewMalioboro.stream/chunklist_w82526263.m3u8
-#EXTINF:-1 tvg-ID="" tvg-name="" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="🔭 CCTV", DIY Ngabean
-https://mam.jogjaprov.go.id:1937/atcs-kota/ParkiranNgabean.stream/chunklist_w65046879.m3u8
-#EXTINF:-1 tvg-ID="" tvg-name="" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="🔭 CCTV", DIY Jokteng Kulon
-https://mam.jogjaprov.go.id:1937/atcs-kota/JoktengKulon.stream/chunklist_w1651432191.m3u8
-#EXTINF:-1 tvg-ID="" tvg-name="" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="🔭 CCTV", DIY Jokteng Wetan
-http://cctvjss.jogjakota.go.id/atcs/ATCS_joktengwetan.stream/chunklist_w242294016.m3u8
-#EXTINF:-1 tvg-ID="" tvg-name="" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="🔭 CCTV", DIY Gondomanan
-https://mam.jogjaprov.go.id:1937/atcs-kota/Gondomanan.stream/chunklist_w965772830.m3u8
-#EXTINF:-1 tvg-ID="" tvg-name="" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="🔭 CCTV", DIY RejoWinangun Jogja
-http://cctvjss.jogjakota.go.id/atcs/ATCS_Simpang_Rejowinangun_View_Timur.stream/chunklist_w1478834277.m3u8
-#EXTINF:-1 tvg-ID="" tvg-name="" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="🔭 CCTV", DIY Tungkak
-https://mam.jogjaprov.go.id:1937/atcs-kota/Tungkak.stream/chunklist_w1890025043.m3u8
-#EXTINF:-1 tvg-ID="" tvg-name="" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="🔭 CCTV", DIY Perempatan JJ
-https://mam.jogjaprov.go.id:1937/atcs-kota/SimpangBorobudurPlaza.stream/chunklist_w1810700755.m3u8
-#EXTINF:-1 tvg-ID="" tvg-name="" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="🔭 CCTV", DIY Gramedia
-https://mam.jogjaprov.go.id:1937/atcs-kota/SimpangGaleriaTImurSelatan.stream/chunklist_w289702257.m3u8
-#EXTINF:-1 tvg-ID="" tvg-name="" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="🔭 CCTV", DIY Kyai Mojo
-https://mam.jogjaprov.go.id:1937/atcs-kota/KyaiMojo1.stream/chunklist_w1690482971.m3u8
-#EXTINF:-1 tvg-ID="" tvg-name="" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="🔭 CCTV", DIY Galeria
-https://mam.jogjaprov.go.id:1937/atcs-kota/SimpangGaleriaTImurSelatan.stream/chunklist_w83687669.m3u8
-#EXTINF:-1 tvg-ID="" tvg-name="" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="🔭 CCTV", DIY Simpang SGM
-https://mam.jogjaprov.go.id:1937/atcs-kota/SimpangSGM.stream/chunklist_w1801692763.m3u8
-#EXTINF:-1 tvg-ID="" tvg-name="" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="🔭 CCTV", DIY Serangan
-https://mam.jogjaprov.go.id:1937/atcs-kota/Serangan.stream/chunklist_w1514288183.m3u8
-#EXTINF:-1 tvg-ID="" tvg-name="" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="🔭 CCTV", DIY Mirota Kampus
-https://mam.jogjaprov.go.id:1937/atcs-kota/MirotaKampus.stream/chunklist_w18365287.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="🔭 CCTV", Malioboro Mall DIY
-https://mam.jogjaprov.go.id:1937/cctv-public/ViewDepanMall.stream/chunklist_w2049014652.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="🔭 CCTV",Beringharjo DIY
-https://mam.jogjaprov.go.id:1937/cctv-public/ViewDepanBeringharjo.stream/chunklist_w256102437.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="🔭 CCTV", 0 KM Yogyakarta
-https://mam.jogjaprov.go.id:1937/cctv-public/ViewNolKilo.stream/chunklist_w797659833.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="🔭 CCTV", Alun² Utara DIY
-https://mam.jogjaprov.go.id:1937/cctv-kp/AlunAlunUtara1.stream/chunklist_w108297307.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="🔭 CCTV", Alun² Selatan DIY
-https://mam.jogjaprov.go.id:1937/cctv-kp/AlunAlunSelatan3.stream/chunklist_w1409693452.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="🔭 CCTV", Stasiun Tugu DIY
-https://mam.jogjaprov.go.id:1937/cctv-public/ViewStasiunTugu.stream/chunklist_w1303369035.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="🔭 CCTV", Parangtritis DIY
-https://mam.jogjaprov.go.id:1937/cctv-public/ViewPantaiParangTritis.stream/chunklist_w1470497340.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="🔭 CCTV", Merapi DIY
-https://mam.jogjaprov.go.id:1937/cctv-public/ViewGunungMerapi.stream/chunklist_w1563702546.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="🔭 CCTV", Candi Prambanan DIY
-https://mam.jogjaprov.go.id:1937/cctv-public/ViewCandiPrambanan.stream/chunklist_w1578296569.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="🔭 CCTV", Mangunan DIY
-https://mam.jogjaprov.go.id:1937/cctv-public/ViewMangunan.stream/chunklist_w1363447093.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="🔭 CCTV", Nglanggeran DIY
-https://mam.jogjaprov.go.id:1937/cctv-public/ViewNglanggeran.stream/chunklist_w172440882.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="🔭 CCTV", Tebing Breksi DIY
-https://mam.jogjaprov.go.id:1937/cctv-public/ViewBreksi.stream/chunklist_w1301384993.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="🔭 CCTV", Depan BPK
-https://mam.jogjaprov.go.id:1937/atcs-kota/BPK.stream/chunklist_w842307275.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="🔭 CCTV", DIY Wirobrajan
-http://cctvjss.jogjakota.go.id/atcs/ATCS_wirobrajan.stream/chunklist_w2012965028.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="🔭 CCTV", DIY Sugeng Jeroni
-http://cctvjss.jogjakota.go.id/atcs/ATCS_Lampu_Merah_SugengJeroni2.stream/chunklist_w842265048.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="🔭 CCTV", DIY Mentri Supeno
-http://cctvjss.jogjakota.go.id/atcs/ATCS_Lampu_Merah_JlMentriSupeno.stream/chunklist_w254075836.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="🔭 CCTV", DIY Warung Boto
-http://cctvjss.jogjakota.go.id/atcs/ATCS_Lampu_Merah_Gambiran2.stream/chunklist_w2125737874.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="🔭 CCTV", DIY Jogokaryan
-http://cctvjss.jogjakota.go.id/atcs/ATCS_jogokaryan.stream/chunklist_w2005928928.m3u8
-//Bantul
-#EXTINF:-1 tvg-ID="" tvg-name="" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="🔭 CCTV", Bantul Paseban
-https://mam.jogjaprov.go.id:1937/cctv-bantul/PerempatanPaseban.stream/chunklist_w610422978.m3u8
-#EXTINF:-1 tvg-ID="" tvg-name="" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="🔭 CCTV", Bantul Paseban Korpri
-https://stream.bantulkab.go.id/020fe1af-c12c-4a1b-8d81-a15114bc7b26_output_0.m3u8?session=NDXag93bFHTgBtvp7KmKCQ
-#EXTINF:-1 tvg-ID="" tvg-name="" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="🔭 CCTV", Bantul Perempatan Pelemsewu
-https://stream.bantulkab.go.id/92aa1e04-13c9-4ad5-b8b6-40448b4c072e_output_0.m3u8?session=8dncGe8C4LEGGoEPN4MAwK
-#EXTINF:-1 tvg-ID="" tvg-name="" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="🔭 CCTV", Bantul Perempatan Druwo
-https://stream.bantulkab.go.id/592b4d35-1632-4ef3-83ca-ac1f976297c6_output_0.m3u8?session=nJgQJrLCVN932RvZNXknQK
-#EXTINF:-1 tvg-ID="" tvg-name="" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="🔭 CCTV", Bantul TPR Parangtritis
-https://mam.jogjaprov.go.id:1937/cctv-bantul/TPRParangtritis.stream/chunklist_w1722250553.m3u8
-#EXTINF:-1 tvg-ID="" tvg-name="" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="🔭 CCTV", Bantul Parangtritis
-https://mam.jogjaprov.go.id:1937/cctv-public/ViewParangtritis.stream/chunklist_w1308167377.m3u8
-
-//Sleman
-#EXTINF:-1 tvg-ID="" tvg-name="" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="🔭 CCTV", Sleman Pos Polisi Denggung
-http://103.71.191.168/8880/hls/live.stream.m3u8
-#EXTINF:-1 tvg-ID="" tvg-name="" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="🔭 CCTV", Sleman Amplas
-http://103.71.191.168/8912/hls/live.stream.m3u8
-#EXTINF:-1 tvg-ID="" tvg-name="" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="🔭 CCTV", Sleman Pasar Tempel
-http://103.71.191.168/8887/hls/live.stream.m3u8
-#EXTINF:-1 tvg-ID="" tvg-name="" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="🔭 CCTV", Sleman RSUD Morangan
-http://103.71.191.168/8889/hls/live.stream.m3u8
-#EXTINF:-1 tvg-ID="" tvg-name="" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="🔭 CCTV", Sleman Merapi via Bronggang
-http://103.71.191.168/8910/hls/live.stream.m3u8
-#EXTINF:-1 tvg-ID="" tvg-name="" tvg-logo="https://beetv.my.id/logo/cctv.png" group-title="🔭 CCTV", Sleman Kali Krasak
-http://103.71.191.168/8893/hls/live.stream.m3u8
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kami Undur Diri — Selamat Tinggal</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  html, body {
+    min-height: 100%;
+    background: radial-gradient(ellipse at top, #1a1a2e 0%, #0f0f1a 45%, #05050a 100%);
+    color: #cfd6e4;
+    font-family: 'Consolas', 'Menlo', 'Courier New', monospace;
+    overflow-x: hidden;
+  }
+
+  body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 20px;
+    min-height: 100vh;
+    text-align: center;
+    position: relative;
+  }
+
+  /* bintang halus di latar */
+  body::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    background-image:
+      radial-gradient(1px 1px at 20% 30%, #ffffff55, transparent),
+      radial-gradient(1px 1px at 60% 70%, #ffffff33, transparent),
+      radial-gradient(1px 1px at 80% 20%, #ffffff44, transparent),
+      radial-gradient(2px 2px at 35% 85%, #ffffff22, transparent),
+      radial-gradient(1px 1px at 90% 60%, #ffffff55, transparent),
+      radial-gradient(1px 1px at 10% 80%, #ffffff33, transparent);
+    background-size: 100% 100%;
+    animation: twinkle 6s ease-in-out infinite alternate;
+    pointer-events: none;
+    z-index: 0;
+  }
+
+  @keyframes twinkle {
+    from { opacity: 0.35; }
+    to   { opacity: 0.9; }
+  }
+
+  .wrap {
+    position: relative;
+    z-index: 1;
+    max-width: 900px;
+    width: 100%;
+  }
+
+  .ascii {
+    display: inline-block;
+    text-align: left;
+    color: #7fb4ff;
+    font-size: clamp(6px, 1.4vw, 13px);
+    line-height: 1.05;
+    white-space: pre;
+    text-shadow:
+      0 0 8px rgba(127, 180, 255, 0.35),
+      0 0 24px rgba(127, 180, 255, 0.15);
+    animation: fadeIn 2.5s ease forwards;
+    opacity: 0;
+    filter: drop-shadow(0 4px 12px rgba(0,0,0,0.6));
+  }
+
+  .msg {
+    margin-top: 28px;
+    font-size: clamp(13px, 1.6vw, 17px);
+    line-height: 1.8;
+    color: #aab4c8;
+    letter-spacing: 0.5px;
+    animation: fadeUp 2s ease 1.2s forwards;
+    opacity: 0;
+  }
+
+  .msg .title {
+    display: block;
+    font-size: clamp(18px, 2.4vw, 26px);
+    color: #e6edf3;
+    letter-spacing: 3px;
+    margin-bottom: 14px;
+    text-transform: uppercase;
+    text-shadow: 0 0 10px rgba(127, 180, 255, 0.4);
+  }
+
+  .msg p { margin: 6px 0; }
+
+  .msg .sad {
+    color: #8aa3c9;
+    font-style: italic;
+  }
+
+  .signature {
+    margin-top: 36px;
+    font-size: clamp(11px, 1.3vw, 13px);
+    color: #55627a;
+    letter-spacing: 2px;
+    animation: fadeUp 2s ease 2s forwards;
+    opacity: 0;
+  }
+
+  .divider {
+    width: 120px;
+    height: 1px;
+    margin: 26px auto 0;
+    background: linear-gradient(to right, transparent, #7fb4ff55, transparent);
+    animation: fadeIn 2s ease 1.8s forwards;
+    opacity: 0;
+  }
+
+  @keyframes fadeIn {
+    to { opacity: 1; }
+  }
+  @keyframes fadeUp {
+    from { opacity: 0; transform: translateY(12px); }
+    to   { opacity: 1; transform: translateY(0); }
+  }
+</style>
+</head>
+<body>
+
+  <div class="wrap">
+
+    <!-- ASCII ART: orang melambaikan tangan + hati patah -->
+    <div class="ascii">
+        .-"""-.
+       /       \
+      |  o   o  |         .-~~~-.
+      |    ^    |        /  .-.  \
+      |   '-'   |       |  ( x )  |      _.---._
+       \       /         \  '-'  /      /  .-.  \
+        '-...-'           '-...-'      |  (   )  |
+          | |                            \  '-'  /
+      ____|_|____                         '-...-'
+     /  goodbye  \
+    /   and love  \
+   '--------------'
+    </div>
+
+    <div class="msg">
+      <span class="title">Kami Undur Diri</span>
+      <p>Dengan berat hati, kami pamit dari sini.</p>
+      <p class="sad">Setiap pertemuan pasti ada perpisahan,</p>
+      <p class="sad">dan hari ini adalah giliran kami untuk pergi.</p>
+      <p>Terima kasih atas semua kenangan, tawa, dan cerita</p>
+      <p>yang tak akan pernah kami lupakan.</p>
+      <p class="sad">Maaf jika ada salah kata dan tingkah laku,</p>
+      <p class="sad">karena kami bukanlah yang sempurna.</p>
+      <p style="margin-top:14px">Semoga kita dipertemukan kembali,</p>
+      <p>di waktu dan tempat yang lebih indah.</p>
+    </div>
+
+    <div class="divider"></div>
+
+    <div class="signature">
+      — SELAMAT TINGGAL, SAMPAI JUMPA LAGI —
+      @burhansyam_
+    </div>
+
+  </div>
+
+</body>
+</html>
