@@ -39,5 +39,14 @@ class ImportPlaylistUseCase:
         files are read back in - never at import/sync time.
         """
         raw_text = await source.fetch()
+        if _looks_like_json(raw_text):
+            from iptv_manager.infrastructure.parsers.json_parser import JSONPlaylistParser
+
+            return raw_text, JSONPlaylistParser().parse(raw_text, name=category, category=category)
         playlist = self.parser.parse(raw_text, name=category, category=category)
         return raw_text, playlist
+
+
+def _looks_like_json(raw_text: str) -> bool:
+    stripped = raw_text.lstrip().lstrip("\ufeff")
+    return bool(stripped) and stripped[0] in "[{"
