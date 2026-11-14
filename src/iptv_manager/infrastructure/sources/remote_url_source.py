@@ -1,8 +1,9 @@
 """Remote URL playlist source.
 
-Fetches a playlist over HTTP(S) using httpx, with a timeout and a
-custom User-Agent (some IPTV providers reject requests with a blank or
-missing User-Agent header).
+Fetches playlists over HTTP(S) with a timeout. Some providers vary their
+response by User-Agent; try OTT Navigator first, then the configured and
+browser User-Agents. HTTP errors and HTML landing pages are retried rather
+than being mistaken for playlist content.
 """
 
 from __future__ import annotations
@@ -12,23 +13,13 @@ import gzip
 import httpx
 
 _FALLBACK_ENCODINGS = ("utf-8-sig", "utf-16", "cp1252")
-
-# Some IPTV providers return a JavaScript landing page unless a more
-# realistic player client is identified. The Semar endpoint is a known
-# example: OTT Navigator gets the JSON payload, while the default repo's
-# user agent gets an HTML redirect page instead.
-_FALLBACK_USER_AGENTS = (
-    "OTT Navigator/1.7.5.1",
+_DEFAULT_USER_AGENT = "OTT Navigator/1.7.5.1"
+_BROWSER_USER_AGENT = (
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
-    "(KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+    "(KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
 )
-
-# The first two bytes of a gzip stream (RFC 1952 magic number). Used to
-# detect a *file-level* gzip (e.g. a URL ending in ".xml.gz" or
-# ".m3u.gz" served as-is) which httpx does NOT auto-decompress - that
-# only happens for transport-level "Content-Encoding: gzip", a
-# different thing from the response body itself being a stored .gz
-# file.
+# RFC 1952 magic number. Detect file-level gzip such as .xml.gz/.m3u.gz;
+# httpx only handles transport-level Content-Encoding decompression.
 _GZIP_MAGIC = b"\x1f\x8b"
 
 
@@ -37,7 +28,7 @@ class PlaylistFetchError(RuntimeError):
 
 
 class RemoteUrlPlaylistSource:
-    """Implements domain.ports.PlaylistSource for a remote M3U URL."""
+    """Implements domain.ports.PlaylistSource for a remote playlist URL."""
 
     def __init__(
         self,
@@ -59,64 +50,62 @@ class RemoteUrlPlaylistSource:
         return self._decode(response.content)
 
     async def fetch_bytes(self) -> bytes:
-        """Like fetch(), but returns raw (gzip-decompressed if needed)
-        bytes without ever text-decoding them.
+        """Return raw bytes without text decoding, decompressing literal gzip.
 
-        Meant for large XML sources (e.g. an aggregated multi-source
-        XMLTV EPG file, which can decompress to several hundred MB or
-        more): lxml can parse bytes directly and detect the document's
-        real encoding itself, so skipping the str round-trip avoids
-        holding two more full-size copies of the content in memory at
-        once - the difference between this succeeding and the process
-        being OOM-killed on a memory-constrained CI runner.
+        Useful for large XML sources so a full text-decoding copy is not
+        needed in memory.
         """
         response = await self._fetch_response_with_fallback()
         return self._maybe_decompress(response.content)
 
     async def _fetch_response_with_fallback(self) -> httpx.Response:
-        candidates = [self._user_agent, *_FALLBACK_USER_AGENTS]
+        # Attempt OTT Navigator for every configured source, then respect
+        # the caller's configured UA and finally try a browser UA.
+        candidates = (_DEFAULT_USER_AGENT, self._user_agent, _BROWSER_USER_AGENT)
         seen: set[str] = set()
-        last_response: httpx.Response | None = None
+        last_status: int | None = None
+        last_error: httpx.HTTPError | None = None
+        saw_html = False
 
         async with httpx.AsyncClient(timeout=self._timeout, follow_redirects=True) as client:
             for user_agent in candidates:
                 if user_agent in seen:
                     continue
                 seen.add(user_agent)
-
-                headers = {"User-Agent": user_agent}
                 try:
-                    response = await client.get(self._url, headers=headers)
-                    response.raise_for_status()
+                    response = await client.get(self._url, headers={"User-Agent": user_agent})
                 except httpx.TimeoutException as exc:
                     raise PlaylistFetchError(f"timed out fetching {self._url}") from exc
-                except httpx.HTTPStatusError as exc:
-                    raise PlaylistFetchError(
-                        f"HTTP {exc.response.status_code} fetching {self._url}"
-                    ) from exc
                 except httpx.HTTPError as exc:
-                    raise PlaylistFetchError(f"failed to fetch {self._url}: {exc}") from exc
+                    last_error = exc
+                    continue
 
-                last_response = response
-                if not self._is_html_landing_page(response.content):
-                    return response
+                if response.status_code >= 400:
+                    last_status = response.status_code
+                    continue
+                if self._is_html_landing_page(response.content):
+                    saw_html = True
+                    continue
+                return response
 
-            if last_response is not None:
-                return last_response
-
-            raise PlaylistFetchError(f"failed to fetch {self._url}: no usable response")
+        if last_status is not None:
+            raise PlaylistFetchError(f"HTTP {last_status} fetching {self._url}")
+        if last_error is not None:
+            raise PlaylistFetchError(f"failed to fetch {self._url}: {last_error}") from last_error
+        if saw_html:
+            raise PlaylistFetchError(
+                f"all User-Agent responses were HTML landing pages for {self._url}"
+            )
+        raise PlaylistFetchError(f"failed to fetch {self._url}: no usable response")
 
     @staticmethod
     def _is_html_landing_page(raw_bytes: bytes) -> bool:
-        stripped = raw_bytes.lstrip()
-        if not stripped:
-            return False
-        lower = stripped[:512].lower()
+        prefix = raw_bytes.lstrip()[:1024].lower()
         return (
-            lower.startswith(b"<!doctype html")
-            or lower.startswith(b"<html")
-            or b"<script" in lower
-            or b'fetch("")' in lower
+            prefix.startswith(b"<!doctype html")
+            or prefix.startswith(b"<html")
+            or b"<script" in prefix
+            or b'fetch("")' in prefix
         )
 
     def _maybe_decompress(self, raw_bytes: bytes) -> bytes:
