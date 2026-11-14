@@ -1,10 +1,9 @@
 """Remote URL playlist source.
 
-Fetches a playlist over HTTP(S) using httpx with a timeout. Player
-providers may vary their response by User-Agent, so the OTT Navigator
-User-Agent is attempted first for every source, followed by the configured
-and browser User-Agents. HTTP errors and HTML landing pages do not prevent
-trying the remaining candidates.
+Fetches playlists over HTTP(S) with a timeout. Some providers vary their
+response by User-Agent; try OTT Navigator first, then the configured and
+browser User-Agents. HTTP errors and HTML landing pages are retried rather
+than being mistaken for playlist content.
 """
 
 from __future__ import annotations
@@ -19,6 +18,8 @@ _BROWSER_USER_AGENT = (
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
     "(KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
 )
+# RFC 1952 magic number. Detect file-level gzip such as .xml.gz/.m3u.gz;
+# httpx only handles transport-level Content-Encoding decompression.
 _GZIP_MAGIC = b"\x1f\x8b"
 
 
@@ -27,7 +28,7 @@ class PlaylistFetchError(RuntimeError):
 
 
 class RemoteUrlPlaylistSource:
-    """Fetch a remote playlist, retrying alternate client User-Agents."""
+    """Implements domain.ports.PlaylistSource for a remote playlist URL."""
 
     def __init__(
         self,
@@ -49,12 +50,17 @@ class RemoteUrlPlaylistSource:
         return self._decode(response.content)
 
     async def fetch_bytes(self) -> bytes:
-        """Fetch bytes without text decoding, decompressing literal gzip."""
+        """Return raw bytes without text decoding, decompressing literal gzip.
+
+        Useful for large XML sources so a full text-decoding copy is not
+        needed in memory.
+        """
         response = await self._fetch_response_with_fallback()
         return self._maybe_decompress(response.content)
 
     async def _fetch_response_with_fallback(self) -> httpx.Response:
-        # Put the known working player UA first for all configured URLs.
+        # Attempt OTT Navigator for every configured source, then respect
+        # the caller's configured UA and finally try a browser UA.
         candidates = (_DEFAULT_USER_AGENT, self._user_agent, _BROWSER_USER_AGENT)
         seen: set[str] = set()
         last_status: int | None = None
@@ -69,8 +75,6 @@ class RemoteUrlPlaylistSource:
                 try:
                     response = await client.get(self._url, headers={"User-Agent": user_agent})
                 except httpx.TimeoutException as exc:
-                    # A timeout likely applies to the host/request itself;
-                    # retrying the same URL with another UA won't help.
                     raise PlaylistFetchError(f"timed out fetching {self._url}") from exc
                 except httpx.HTTPError as exc:
                     last_error = exc
