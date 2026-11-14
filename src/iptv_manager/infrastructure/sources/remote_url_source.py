@@ -13,6 +13,16 @@ import httpx
 
 _FALLBACK_ENCODINGS = ("utf-8-sig", "utf-16", "cp1252")
 
+# Some IPTV providers return a JavaScript landing page unless a more
+# realistic player client is identified. The Semar endpoint is a known
+# example: OTT Navigator gets the JSON payload, while the default repo's
+# user agent gets an HTML redirect page instead.
+_FALLBACK_USER_AGENTS = (
+    "OTT Navigator/1.7.5.1",
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+    "(KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+)
+
 # The first two bytes of a gzip stream (RFC 1952 magic number). Used to
 # detect a *file-level* gzip (e.g. a URL ending in ".xml.gz" or
 # ".m3u.gz" served as-is) which httpx does NOT auto-decompress - that
@@ -45,20 +55,7 @@ class RemoteUrlPlaylistSource:
         return self._url
 
     async def fetch(self) -> str:
-        headers = {"User-Agent": self._user_agent}
-        try:
-            async with httpx.AsyncClient(timeout=self._timeout, follow_redirects=True) as client:
-                response = await client.get(self._url, headers=headers)
-                response.raise_for_status()
-        except httpx.TimeoutException as exc:
-            raise PlaylistFetchError(f"timed out fetching {self._url}") from exc
-        except httpx.HTTPStatusError as exc:
-            raise PlaylistFetchError(
-                f"HTTP {exc.response.status_code} fetching {self._url}"
-            ) from exc
-        except httpx.HTTPError as exc:
-            raise PlaylistFetchError(f"failed to fetch {self._url}: {exc}") from exc
-
+        response = await self._fetch_response_with_fallback()
         return self._decode(response.content)
 
     async def fetch_bytes(self) -> bytes:
@@ -73,21 +70,54 @@ class RemoteUrlPlaylistSource:
         once - the difference between this succeeding and the process
         being OOM-killed on a memory-constrained CI runner.
         """
-        headers = {"User-Agent": self._user_agent}
-        try:
-            async with httpx.AsyncClient(timeout=self._timeout, follow_redirects=True) as client:
-                response = await client.get(self._url, headers=headers)
-                response.raise_for_status()
-        except httpx.TimeoutException as exc:
-            raise PlaylistFetchError(f"timed out fetching {self._url}") from exc
-        except httpx.HTTPStatusError as exc:
-            raise PlaylistFetchError(
-                f"HTTP {exc.response.status_code} fetching {self._url}"
-            ) from exc
-        except httpx.HTTPError as exc:
-            raise PlaylistFetchError(f"failed to fetch {self._url}: {exc}") from exc
-
+        response = await self._fetch_response_with_fallback()
         return self._maybe_decompress(response.content)
+
+    async def _fetch_response_with_fallback(self) -> httpx.Response:
+        candidates = [self._user_agent, *_FALLBACK_USER_AGENTS]
+        seen: set[str] = set()
+        last_response: httpx.Response | None = None
+
+        async with httpx.AsyncClient(timeout=self._timeout, follow_redirects=True) as client:
+            for user_agent in candidates:
+                if user_agent in seen:
+                    continue
+                seen.add(user_agent)
+
+                headers = {"User-Agent": user_agent}
+                try:
+                    response = await client.get(self._url, headers=headers)
+                    response.raise_for_status()
+                except httpx.TimeoutException as exc:
+                    raise PlaylistFetchError(f"timed out fetching {self._url}") from exc
+                except httpx.HTTPStatusError as exc:
+                    raise PlaylistFetchError(
+                        f"HTTP {exc.response.status_code} fetching {self._url}"
+                    ) from exc
+                except httpx.HTTPError as exc:
+                    raise PlaylistFetchError(f"failed to fetch {self._url}: {exc}") from exc
+
+                last_response = response
+                if not self._is_html_landing_page(response.content):
+                    return response
+
+            if last_response is not None:
+                return last_response
+
+            raise PlaylistFetchError(f"failed to fetch {self._url}: no usable response")
+
+    @staticmethod
+    def _is_html_landing_page(raw_bytes: bytes) -> bool:
+        stripped = raw_bytes.lstrip()
+        if not stripped:
+            return False
+        lower = stripped[:512].lower()
+        return (
+            lower.startswith(b"<!doctype html")
+            or lower.startswith(b"<html")
+            or b"<script" in lower
+            or b'fetch("")' in lower
+        )
 
     def _maybe_decompress(self, raw_bytes: bytes) -> bytes:
         if not raw_bytes.startswith(_GZIP_MAGIC):
