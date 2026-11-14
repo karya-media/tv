@@ -150,9 +150,7 @@ class JSONPlaylistParser:
         text = cls._text(value)
         if not text:
             return None
-        # Semar encodes channel name, URL, and category as standard
-        # base64 strings. Decode only valid UTF-8 printable text; ordinary
-        # unencoded provider fields are left unchanged.
+
         candidate = text.strip()
         if len(candidate) % 4 == 0 and re.fullmatch(r"[A-Za-z0-9+/]*={0,2}", candidate):
             try:
