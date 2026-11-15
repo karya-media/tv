@@ -6,6 +6,9 @@ https://kokotv.my.id/Videointro2.php?type=live.m3u8
 #EXTINF:-1 type="live" radio="false" group-title="ℹ️ INFORMASI AKUN & MASA AKTIF" tvg-logo="https://kokotv.my.id/logo.png", 📱 KUOTA DEVICE TERPAKAI: 1 / 1 DEV
 https://kokotv.my.id/Videointro2.php?type=live.m3u8
 
+#EXTINF:-1  tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStB3ihNa8RS6cUltXbN7i0_Ej1T3AsPxi7kZw5swbgG8-Ik9-oO_8IJdAh&s=10" group-title="KOKO TV LOKAL" type="live" radio="false",19.30 PERSEBAYA VS AUSTRALIA
+https://iptv.lancartech.co.id:443/putry0610/Putry0610/11.m3u8
+
 #EXTINF:-1 tvg-id="" tvg-logo="https://i.ytimg.com/vi/nD2jotM50x4/maxresdefault.jpg"  group-title="KOKO TV LOKAL" type="live" radio="false", THE TIMELINER MOVIE SEASON 1
 https://dl.dropboxusercontent.com/scl/fi/b5prq0jxxh3q145ejub7f/vidssave.com-The-Timeliner-The-Movie-720P.mp4?rlkey=v3miowc1x5fdcl8bbbc4a8g03&st=8sei6ox9&dl=1
 
@@ -3746,17 +3749,17 @@ https://tg0z0gr4ugmtwgczdcqjqgr5n45djq31unmutqiwsg45ucpzzr3mnp7ozr3d4.100ycdn.co
 #EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/ajax/chanel/type/7/link/channel60/off-tvc?is_off_add=false
 https://tg0z0gr4ugmtwgczdcqjqgr5n45djq31unmutqiwsg45ucpzzr3mnp7ozr3d4.100ycdn.com/live1.quickscoreboardz.com/live/channel62/playlist.m3u8?wsSecret=939b6e48db4603ef9cbd1e5cb87c7926&wsABSTime=1794682410&wsSession=b4f691dedba9f1a7dec2c7b3-179463921258739&wsIPSercert=247212a878abf938f942e62497970ce0&wsBindIP=2&wsserid=1168287746149776142
 
-#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLj4XG0W8zB6yi_mPJ_gJ-K_ePfzKOC_MBmb93RUP2TUNjrpNnSWG6vNA&s=10"  group-title="LIVE EVENT HARI INI" type="live" radio="false",UFC 334 EVENT LIVE 
+##EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLj4XG0W8zB6yi_mPJ_gJ-K_ePfzKOC_MBmb93RUP2TUNjrpNnSWG6vNA&s=10"  group-title="LIVE EVENT HARI INI" type="live" radio="false",UFC 334 EVENT LIVE 
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=60de674d9db66df9ba090e06871d3554:18071eac168232fc3d45549049c1de6b
 https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/ccupb3gevq/out/v1/d9d54c61efab463981d1a7d04ceeb44c/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
-#EXTINF:-1  tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQC5Xh6agj2H4ZTI8TRTWIhvJxBP86n3dxZBHkak0iLX9viFpndpmv_F2Q&s=10" group-title="LIVE EVENT HARI INI" type="live" radio="false",08.00 JAMAICA VS MEXICO
+##EXTINF:-1  tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQC5Xh6agj2H4ZTI8TRTWIhvJxBP86n3dxZBHkak0iLX9viFpndpmv_F2Q&s=10" group-title="LIVE EVENT HARI INI" type="live" radio="false",08.00 JAMAICA VS MEXICO
 https://live2.jorvakstreamcache.com/live/channel14.m3u8
-#EXTINF:-1  tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQC5Xh6agj2H4ZTI8TRTWIhvJxBP86n3dxZBHkak0iLX9viFpndpmv_F2Q&s=10" group-title="LIVE EVENT HARI INI" type="live" radio="false",19.00 KRYGYSTAN VS VIETNAM
-https://kokotv.my.id/Videointro2.php?type=live.m3u8?type=live.m3u8
+#EXTINF:-1  tvg-logo="https://www.thestatesman.com/wp-content/uploads/2026/02/iPiccy-img-6-1024x576.webp" group-title="LIVE EVENT HARI INI" type="live" radio="false",17.40 DEMPO VS CHAMHARI
+https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1794760819/ei/E4z5aoKlMdKB9fwPqpm3iQ4/ip/182.1.208.230/id/PZOTa_8j6-Q.1/itag/96/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D137/rqh/1/hls_chunk_host/rr2---sn-uxa3vhnxa-02b6.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/ss/1/ssa/1/bui/AZFAFb-olsHG6z2X0tAhNMrMD_45kU7xd3rlRttmbUWs4s3j0OMS1xh-MhUO7qUxBbyxSfO9OmHEpLsn/spc/nfZ8Zjk-aajohyeSmTw1D2DYa8KYRlIdrNPGB72ebSXAUZGfjipTKCrxyEFd/vprv/1/reg/0/playlist_type/DVR/initcwndbps/501625/met/1794739220,/mh/Qi/mm/44/mn/sn-uxa3vhnxa-02b6/ms/lva/mv/m/mvi/2/pl/22/rms/lva,lva/dover/11/pacing/0/epbp/1/keepalive/yes/fexp/51565116/mt/1794738543/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,xpc,playlist_duration,manifest_duration,ss,ssa,bui,spc,vprv,reg,playlist_type/sig/AE0s2JYwRAIgf0mpLLu-IeeBVgcmXdJKhMhi7a7Mq3rUDP4krSzZuGcCIG7G8t4_L-NsiRSv4Ee5e6tPosliosPhTcUKM4BA-Dix/lsparams/hls_chunk_host,initcwndbps,met,mh,mm,mn,ms,mv,mvi,pl,rms/lsig/APaTxxMwRQIhAO7nBxd29m-6DfCCDxmWD9FrqrtTeAnEXb-kYhs2t9vVAiBCa0idakkOsOodhq5mPSDbFU_Y0PXF5yhCLLgEfYZ0cA%3D%3D/playlist/index.m3u8
 #EXTINF:-1  tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQC5Xh6agj2H4ZTI8TRTWIhvJxBP86n3dxZBHkak0iLX9viFpndpmv_F2Q&s=10" group-title="LIVE EVENT HARI INI" type="live" radio="false",21.00 ZENIT VS TRABZONSPOR
 https://kokotv.my.id/Videointro2.php?type=live.m3u8?type=live.m3u8
 #EXTINF:-1  tvg-logo="https://groundhopperguides.com/wp-content/uploads/2022/03/UEFA-Nations-League.jpeg" group-title="LIVE EVENT HARI INI" type="live" radio="false",21.00 CYPRUS VS MONTENEGRO
