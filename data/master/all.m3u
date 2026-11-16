@@ -901,7 +901,7 @@ https://proxy-v.rctiplus.id/live/web/zeebioskop/index.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0
 #EXTVLCOPT:http-referrer=https://www.visionplus.id/
 https://d2xz2v5wuvgur6.cloudfront.net/out/v1/81cb1af2ea4d4842a94f1c83957b4cd2/index.mpd
-#EXTINF:-1 tvg-chno="335" group-title="[ERROR KODE]",⚠️ MANA KODE LANGGANANNYA? Ketik ?code=KODE di ujung URL!
+#EXTINF:-1 tvg-chno="335" group-title="[DEVICE FULL]",❌ DEVICE KEBANYAKAN BRO! KODE INI CUMA BISA 1 DEVICE SAMA THOHA AJI!
 http://error.mp4
 #EXTINF:-1 tvg-logo="https://kokotv.my.id/logo.png" tvg-chno="336" group-title="ℹ️ INFORMASI AKUN & MASA AKTIF" type="live" radio="false",🟢 MASA AKTIF AKTIF S.D: 02-10-2027
 https://kokotv.my.id/Videointro2.php?type=live.m3u8
