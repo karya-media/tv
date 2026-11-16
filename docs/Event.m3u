@@ -1474,15 +1474,11 @@ https://proxy-v.rctiplus.id/live/web/foodtravel/index.m3u8
 https://i.mjh.nz/.r/sky-hgtv.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/apistech/project/refs/heads/main/logo/image_ch_tlc.png" tvg-chno="573" group-title="KOKO TV MOVIE" type="live" radio="false",TLC
 https://s2129134.cdn.mytvnet.vn/pkg20/live_dzones/tlc.smil/manifest.mpd
-#EXTINF:-1 tvg-id="MNCTV.id" tvg-name="MNC TV" tvg-logo="https://dl.dropboxusercontent.com/scl/fi/bt3d3gi3giq1q61fjf716/Gemini_Generated_Image_fce54ofce54ofce5.jpeg?rlkey=gclz36kxwi585yv7pt136p2ak&st=vkbrf3g0&dl=1" tvg-chno="574" group-title="Indonesia;EVENT HARI INI" type="live" radio="false",MNC TV SPORTS
+#EXTINF:-1 tvg-logo="https://kokotv.my.id/Foto/caf.jpeg" tvg-chno="574" group-title="EVENT HARI INI" type="live" radio="false",20.00 NAMIBIA VS CAMEROON
+https://kokotv.my.id/Videointro2.php?type=live.m3u8?type=live.m3u8
+#EXTINF:-1 tvg-id="MNCTV.id" tvg-name="MNC TV" tvg-logo="https://dl.dropboxusercontent.com/scl/fi/bt3d3gi3giq1q61fjf716/Gemini_Generated_Image_fce54ofce54ofce5.jpeg?rlkey=gclz36kxwi585yv7pt136p2ak&st=vkbrf3g0&dl=1" tvg-chno="575" group-title="Indonesia;EVENT HARI INI" type="live" radio="false",MNC TV SPORTS
 #EXTVLCOPT:http-user-agent=android-R+
 #EXTVLCOPT:http-referrer=https://www.rctiplus.com/
 https://rplus.inisemar.my.id/mnctv.m3u8
-#EXTINF:-1 tvg-logo="https://cdn0-production-images-kly.akamaized.net/7cvACAAWl0BWAYey3YeBYpsOrRE=/0x96:640x457/1200x675/filters:quality(75):strip_icc():format(jpeg)/kly-media-production/medias/4159716/original/095727100_1663247722-Big_Mouth.jpg" tvg-chno="575" group-title="VOD" type="live" radio="false",EPS02||BIG MOUTH SEASON 1
+#EXTINF:-1 tvg-logo="https://cdn0-production-images-kly.akamaized.net/7cvACAAWl0BWAYey3YeBYpsOrRE=/0x96:640x457/1200x675/filters:quality(75):strip_icc():format(jpeg)/kly-media-production/medias/4159716/original/095727100_1663247722-Big_Mouth.jpg" tvg-chno="576" group-title="VOD" type="live" radio="false",EPS02||BIG MOUTH SEASON 1
 https://stream.playcdn.de/playlist/096b0a4214f4bb8d76cf009044701577/5/480.m3u8?x=1
-#EXTINF:-1 tvg-logo="https://kokotv.my.id/Foto/unations.jpeg" tvg-chno="576" group-title="EVENT HARI INI (KHUSUS)" type="live" radio="false",00.00 BELARUS VS ALBANIA
-https://iptv.lancartech.co.id:443/putry0610/Putry0610/9.m3u8
-#EXTINF:-1 tvg-logo="https://kokotv.my.id/Foto/unations.jpeg" tvg-chno="577" group-title="EVENT HARI INI (KHUSUS)" type="live" radio="false",00.00 FINLAND VS SAN MARIO
-https://iptv.lancartech.co.id:443/putry0610/Putry0610/26.m3u8
-#EXTINF:-1 tvg-logo="https://kokotv.my.id/Foto/unations.jpeg" tvg-chno="578" group-title="EVENT HARI INI (KHUSUS)" type="live" radio="false",02.45 FRANCE VS TURKI
-https://iptv.lancartech.co.id:443/putry0610/Putry0610/12.m3u8

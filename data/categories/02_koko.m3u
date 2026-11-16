@@ -3746,51 +3746,18 @@ https://otte.live.fly.ww.aiv-cdn.net/syd-nitro/live/clients/dash/enc/8m8cd46i1t/
 https://a83aivottlinear-a.akamaihd.net/OTTB/syd-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd
 
 ###IVEEEEE
-
-#EXTINF:-1  tvg-logo="https://groundhopperguides.com/wp-content/uploads/2022/03/UEFA-Nations-League.jpeg" group-title="EVENT HARI INI" type="live" radio="false",21.00 CYPRUS VS MONTENEGRO
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=7995c724a13748ed970840a8ab5bb9b3:67bdaf1e2175b9ff682fcdf0e2354b1e
-#EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://a83aivottlinear-a.akamaihd.net/OTTB/syd-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd
-#EXTINF:-1  tvg-logo="https://kokotv.my.id/Foto/unations.jpeg" group-title="EVENT HARI INI" type="live" radio="false",00.00 BELARUS VS ALBANIA
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=7995c724a13748ed970840a8ab5bb9b3:67bdaf1e2175b9ff682fcdf0e2354b1e
-#EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://a83aivottlinear-a.akamaihd.net/OTTB/syd-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd
-#EXTINF:-1  tvg-logo="https://kokotv.my.id/Foto/unations.jpeg" group-title="EVENT HARI INI" type="live" radio="false",00.00 FINLAND VS SAN MARIO
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=0b42be2664d7e811d04f3e504e0924c5:ae24090123b8c72ac5404dc152847cb8
-#EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://otte.live.fly.ww.aiv-cdn.net/syd-nitro/live/clients/dash/enc/8m8cd46i1t/out/v1/83985c68e4174e90a58a1f2c024be4c9/cenc.mpd
-#EXTINF:-1  tvg-logo="https://kokotv.my.id/Foto/unations.jpeg" group-title="EVENT HARI INI" type="live" radio="false",02.45 BELGIA VS ITALIA
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=0b42be2664d7e811d04f3e504e0924c5:ae24090123b8c72ac5404dc152847cb8
-#EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://otte.live.fly.ww.aiv-cdn.net/syd-nitro/live/clients/dash/enc/8m8cd46i1t/out/v1/83985c68e4174e90a58a1f2c024be4c9/cenc.mpd
-#EXTINF:-1  tvg-logo="https://kokotv.my.id/Foto/unations.jpeg" group-title="EVENT HARI INI" type="live" radio="false",02.45 CROATIA VS CHECZNYA
-#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36"
-#EXTVLCOPT:http-referrer=https://pulse1.sanseny001.shop/000/
-https://pulse1.sanseny001.shop/puk4/usergendx3j2x4tqrnd.m3u8
-#EXTINF:-1  tvg-logo="https://kokotv.my.id/Foto/unations.jpeg" group-title="EVENT HARI INI" type="live" radio="false",02.45 FRANCE VS TURKI
-#EXTVLCOPT:http-referrer=https://iron1.xn--x2rw19a.space/000/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36
-https://iron1.xn--x2rw19a.space/puk3/usergenrx4t0l8sybkr.m3u8
-#EXTINF:-1  tvg-logo="https://kokotv.my.id/Foto/unations.jpeg" group-title="EVENT HARI INI" type="live" radio="false",02.45 SPANYOL VS ENGLAND
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=7995c724a13748ed970840a8ab5bb9b3:67bdaf1e2175b9ff682fcdf0e2354b1e
-#EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://a83aivottlinear-a.akamaihd.net/OTTB/syd-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd
-
+#EXTINF:-1  tvg-logo="https://kokotv.my.id/Foto/caf.jpeg" group-title="EVENT HARI INI" type="live" radio="false",20.00 NAMIBIA VS CAMEROON
+https://kokotv.my.id/Videointro2.php?type=live.m3u8?type=live.m3u8
+#EXTINF:-1  tvg-logo="https://kokotv.my.id/Foto/caf.jpeg" group-title="EVENT HARI INI" type="live" radio="false",20.00 SUDAN VS SENEGAL
+https://kokotv.my.id/Videointro2.php?type=live.m3u8?type=live.m3u8
+#EXTINF:-1  tvg-logo="https://kokotv.my.id/Foto/friendly.jpeg" group-title="EVENT HARI INI" type="live" radio="false",20.00 INDONESIA U20 VS USA U19
+https://kokotv.my.id/Videointro2.php?type=live.m3u8?type=live.m3u8
+#EXTINF:-1  tvg-logo="https://kokotv.my.id/Foto/unations.jpeg" group-title="EVENT HARI INI" type="live" radio="false",22.00 FAORE ISLAND VS MOLDOVA
+https://kokotv.my.id/Videointro2.php?type=live.m3u8?type=live.m3u8
+#EXTINF:-1  tvg-logo="https://kokotv.my.id/Foto/unations.jpeg" group-title="EVENT HARI INI" type="live" radio="false",22.00 KAZAKSTAN VS SLOVAKIA
+https://kokotv.my.id/Videointro2.php?type=live.m3u8?type=live.m3u8
+#EXTINF:-1  tvg-logo="https://kokotv.my.id/Foto/caf.jpeg" group-title="EVENT HARI INI" type="live" radio="false",22.00 SOMALIA VS GHANA
+https://kokotv.my.id/Videointro2.php?type=live.m3u8?type=live.m3u8
 
 
 
@@ -3978,16 +3945,8 @@ https://stream.playcdn.de/playlist/bc93c54afc11bb35852cfb2a1ed2cd25/3/480.m3u8?x
 https://stream.playcdn.de/playlist/316bc23c6c597120c9bdbd7c5d7c7c77/3/480.m3u8?x=1
 .
 
-#EXTINF:-1  tvg-logo="https://kokotv.my.id/Foto/unations.jpeg" group-title="EVENT HARI INI (KHUSUS)" type="live" radio="false",00.00 BELARUS VS ALBANIA
-https://iptv.lancartech.co.id:443/putry0610/Putry0610/9.m3u8
-#EXTINF:-1  tvg-logo="https://kokotv.my.id/Foto/unations.jpeg" group-title="EVENT HARI INI (KHUSUS)" type="live" radio="false",00.00 FINLAND VS SAN MARIO
-https://iptv.lancartech.co.id:443/putry0610/Putry0610/26.m3u8
-#EXTINF:-1  tvg-logo="https://kokotv.my.id/Foto/unations.jpeg" group-title="EVENT HARI INI (KHUSUS)" type="live" radio="false",02.45 BELGIA VS ITALIA
-https://iptv.lancartech.co.id:443/putry0610/Putry0610/9.m3u8
-#EXTINF:-1  tvg-logo="https://kokotv.my.id/Foto/unations.jpeg" group-title="EVENT HARI INI (KHUSUS)" type="live" radio="false",02.45 FRANCE VS TURKI
-https://iptv.lancartech.co.id:443/putry0610/Putry0610/12.m3u8
-#EXTINF:-1  tvg-logo="https://kokotv.my.id/Foto/unations.jpeg" group-title="EVENT HARI INI (KHUSUS)" type="live" radio="false",02.45 SPANYOL VS ENGLAND
-https://iptv.lancartech.co.id:443/putry0610/Putry0610/26.m3u8
+#EXTINF:-1  tvg-logo="https://kokotv.my.id/Foto/unations.jpeg" group-title="EVENT HARI INI (KHUSUS)" type="live" radio="false",22.00 FAORE ISLAND VS MOLDOVA
+https://kokotv.my.id/Videointro2.php?type=live.m3u8?type=live.m3u8
 
 ##EXTINF:-1 tvg-id=""  ch-number="136" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoNIhgE28VR2pat9RKK5_8qXZX6jYZOeHeSA&s" group-title="ADULT 18+" type="live" radio="false",BRAZZERS
 http://193.239.186.231/BRAZZERS/index.m3u8
