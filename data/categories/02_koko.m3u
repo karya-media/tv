@@ -3061,27 +3061,27 @@ http://69.30.245.50/live/chcjt.m3u8
 
 
 #EXTINF:-1 tvg-id="HBO"  tvg-url="https://raw.githubusercontent.com/apistech/project/refs/heads/main/ApisTECH.xml" group-logo="" tvg-logo="https://iili.io/Ju79f8g.png" group-title="KOKO TV MOVIE" type="live" radio="false",HBO
-https://iptv.lancartech.co.id:443/angka123/Angka0610/52
+
 
 
 #EXTINF:-1 tvg-id="HBO Hits"  tvg-url="https://raw.githubusercontent.com/apistech/project/refs/heads/main/ApisTECH.xml" group-logo="" tvg-logo="https://iili.io/Ju79nwv.png" group-title="KOKO TV MOVIE" type="live" radio="false",HBO Hits
 #EXTVLCOPT:http-user-agent="OTT Navigator/1.7.5.1 (Linux;Android 10; in; qy2wgp)"
-https://iptv.lancartech.co.id:443/angka123/Angka0610/54
+
 
 
 #EXTINF:-1 tvg-id="HBO Family"  tvg-url="https://raw.githubusercontent.com/apistech/project/refs/heads/main/ApisTECH.xml" group-logo="" tvg-logo="https://iili.io/Ju79otR.png" group-title="KOKO TV MOVIE" type="live" radio="false",HBO Family
 #EXTVLCOPT:http-user-agent="OTT Navigator/1.7.5.1 (Linux;Android 10; in; qy2wgp)"
-https://iptv.lancartech.co.id:443/angka123/Angka0610/53
+
 
 
 #EXTINF:-1 tvg-id="HBO Signature"  tvg-url="https://raw.githubusercontent.com/apistech/project/refs/heads/main/ApisTECH.xml" group-logo="" tvg-logo="https://iili.io/Ju79IMN.png" group-title="KOKO TV MOVIE" type="live" radio="false",HBO Signature
 #EXTVLCOPT:http-user-agent="OTT Navigator/1.7.5.1 (Linux;Android 10; in; qy2wgp)"
-https://iptv.lancartech.co.id:443/angka123/Angka0610/55
+
 
 
 #EXTINF:-1 tvg-id="CINEMAX"  tvg-url="https://raw.githubusercontent.com/apistech/project/refs/heads/main/ApisTECH.xml" group-logo="" tvg-logo="https://iili.io/Ju79znp.png" group-title="KOKO TV MOVIE" type="live" radio="false",Cinemax
 #EXTVLCOPT:http-user-agent="OTT Navigator/1.7.5.1 (Linux;Android 10; in; qy2wgp)"
-https://iptv.lancartech.co.id:443/angka123/Angka0610/48
+
 
 #EXTINF:-1 tvg-id="44" tvg-logo="https://www.visionplus.id/images/repository/612/612-LOGO-m.png"  group-title="KOKO TV MOVIE" type="live" radio="false",Celestial Movies
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
@@ -3746,20 +3746,20 @@ https://otte.live.fly.ww.aiv-cdn.net/syd-nitro/live/clients/dash/enc/8m8cd46i1t/
 https://a83aivottlinear-a.akamaihd.net/OTTB/syd-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd
 
 ###IVEEEEE
-##EXTINF:-1  tvg-logo="https://kokotv.my.id/Foto/kualifikasi-u17.jpeg" group-title="EVENT HARI INI" type="live" radio="false",15.30 AFGHANISTAN U17 VS INDONESIA U17
-https://live2.jorvakstreamcache.com/live/channel24.m3u8
-##EXTINF:-1  tvg-logo="https://kokotv.my.id/Foto/kualifikasi-u17.jpeg" group-title="EVENT HARI INI" type="live" radio="false",15.30 MYANMAR U17 VS CAMBODIA U17
-https://live2.jorvakstreamcache.com/live/channel16.m3u8
-#EXTINF:-1  tvg-logo="https://kokotv.my.id/Foto/friendly.jpeg" group-title="EVENT HARI INI" type="live" radio="false",17.00 SINGAPORE VS BRAZIL
+
+
+##EXTINF:-1  tvg-logo="https://kokotv.my.id/Foto/friendly.jpeg" group-title="EVENT HARI INI" type="live" radio="false",17.00 SINGAPORE VS BRAZIL
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=60dc08aae52f4c0b806a8e43f24a12c8:30d5b579966d822b215ec51a91d8a271
 https://ls-mp02stg.eo-edgefunctions7.com/out/v1/3170252e3fb0453085f2f4b0f8401a6b/manifest.mpd
 #EXTINF:-1  tvg-logo="https://kokotv.my.id/Foto/friendly.jpeg" group-title="EVENT HARI INI" type="live" radio="false",19.00 CHINA VS BAHRAIN
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-http://38.75.136.137:98/gslb/dsdqpub/cctv5p.m3u8?auth=testpub
+http://63.141.230.178:82/gslb/zbdq5.m3u8?id=cctv5md
 #EXTINF:-1  tvg-logo="https://kokotv.my.id/Foto/friendly.jpeg" group-title="EVENT HARI INI" type="live" radio="false",19.00 KRYGYSTAN VS VIETNAM
 https://live2.jorvakstreamcache.com/live/channel1.m3u8
+#EXTINF:-1  tvg-logo="https://kokotv.my.id/Foto/friendly.jpeg" group-title="EVENT HARI INI" type="live" radio="false",19.00 CHINA,HONGKONG VS THAILAND
+https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1794937577/ei/iT78arHYLJfa3LUPpIf3SQ/ip/182.1.162.170/id/DyRTKRQN1JM.2/itag/301/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D299/rqh/1/hls_chunk_host/rr1---sn-uxa3vhnxa-02bl.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/gcr/id/ss/1/ssa/1/bui/AZFAFb_Fo0IkkMEacpPVwP4Eo4LrQ08z0Zv2PT084DqYnJlB_iVpbdi3uE9YF67DJnCimfs0Db0RSTmC/spc/nfZ8Zv180WTjFYHRuIn6o1GeqSFGnt0VbN_daKCpK_G0HoVaqK_FjSjefmS7/vprv/1/reg/0/playlist_type/DVR/initcwndbps/438125/met/1794915978,/mh/Hq/mip/182.1.182.130/mm/44/mn/sn-uxa3vhnxa-02bl/ms/lva/mv/m/mvi/1/pl/22/rms/lva,lva/dover/11/pacing/0/epbp/1/keepalive/yes/fexp/51565115/mt/1794915421/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,xpc,playlist_duration,manifest_duration,gcr,ss,ssa,bui,spc,vprv,reg,playlist_type/sig/AE0s2JYwRQIgVvPAn3TmdEr0CMpAC7tBQZyS1mRA_y_FenbnOO5SNeACIQDqHNob1zCF9AFCoqNSVcpNGCGbFJxzHsLhv2jZX2znGg%3D%3D/lsparams/hls_chunk_host,initcwndbps,met,mh,mip,mm,mn,ms,mv,mvi,pl,rms/lsig/APaTxxMwRgIhANyFcqsfxtvBiVYZlc_lSSvvmh2KkJZzgWgu3bfZaG6GAiEAy5MQRLyOCIPHJWz3WW-UP4alachCxbujknOR7rATwGk%3D/playlist/index.m3u8
+#EXTINF:-1  tvg-logo="https://kokotv.my.id/Foto/friendly.jpeg" group-title="EVENT HARI INI" type="live" radio="false",20.00 MALAYSIA U17 VS GUAM U17
+https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1794940870/ei/Zkv8arbPJPTJz7sPl_6BCA/ip/182.1.162.170/id/LMLyfQjR2DM.1/itag/301/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D299/rqh/1/hls_chunk_host/rr3---sn-uxa3vhnxa-02b6.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/ss/1/ssa/1/bui/AZFAFb9_004WZHrCo3YXgndr4FG5oYGzSIk9wTF8riBNoiiLnkWKtL8_2G5Jk74VRrT_5Cpx_t5PJGVV/spc/nfZ8Zl1VZU-absk3voa31d6DEmJFg_8r3cmQ5NVdZqQuFpqY9rgzqv37LIKL/vprv/1/reg/0/playlist_type/DVR/initcwndbps/452000/met/1794919271,/mh/Xc/mm/44/mn/sn-uxa3vhnxa-02b6/ms/lva/mv/m/mvi/3/pl/23/rms/lva,lva/dover/11/pacing/0/epbp/1/keepalive/yes/fexp/51565115/mt/1794918779/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,xpc,playlist_duration,manifest_duration,ss,ssa,bui,spc,vprv,reg,playlist_type/sig/AE0s2JYwRQIhALef9E_g3QL83uhSXVNoPv15mEQv7qplExCJUkIv0Lj4AiBob9XwwNEmoQMtkZLKJhMEkBzE2ceWstWgJa9oNm-09g%3D%3D/lsparams/hls_chunk_host,initcwndbps,met,mh,mm,mn,ms,mv,mvi,pl,rms/lsig/APaTxxMwRQIgFF1C8WQwV5JuLnd0aMMThGTrlvWbnDA4sIWrCeCg1LwCIQD2FIudd7zqH4ZNM-YOqdiCPQoT8WSRybALR7oqgBfrDg%3D%3D/playlist/index.m3u8
 #EXTINF:-1  tvg-logo="https://kokotv.my.id/Foto/caf.jpeg" group-title="EVENT HARI INI" type="live" radio="false",20.00 MALAWI VS EGYPT
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=dash
@@ -3777,11 +3777,13 @@ https://otte.live.fly.ww.aiv-cdn.net/syd-nitro/live/clients/dash/enc/8m8cd46i1t/
 ##EXTINF:-1  tvg-logo="https://kokotv.my.id/Foto/friendly.jpeg" group-title="EVENT HARI INI" type="live" radio="false",20.00 LEBANON VS PALESTINA 
 https://kokotv.my.id/Videointro2.php?type=live.m3u8?type=live.m3u8
 #EXTINF:-1  tvg-logo="https://kokotv.my.id/Foto/friendly.jpeg" group-title="EVENT HARI INI" type="live" radio="false",20.00 JAPAN VS PARAGUAY
-https://live2.jorvakstreamcache.com/live/channel6.m3u8
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=60dc08aae52f4c0b806a8e43f24a12c8:30d5b579966d822b215ec51a91d8a271
+https://ls-mp02stg.eo-edgefunctions7.com/out/v1/3170252e3fb0453085f2f4b0f8401a6b/manifest.mpd
 #EXTINF:-1  tvg-logo="https://kokotv.my.id/Foto/friendly.jpeg" group-title="EVENT HARI INI" type="live" radio="false",21.00 QATAR VS SOUTH KOREA
 https://live2.jorvakstreamcache.com/live/channel19.m3u8
 #EXTINF:-1  tvg-logo="https://kokotv.my.id/Foto/friendly.jpeg" group-title="EVENT HARI INI" type="live" radio="false",22.30 SAUDI ARABIA VS UZBEKISTAN 
-https://kokotv.my.id/Videointro2.php?type=live.m3u8?type=live.m3u8
+https://live2.jorvakstreamcache.com/live/channel23.m3u8
 #EXTINF:-1  tvg-logo="https://kokotv.my.id/Foto/caf.jpeg" group-title="EVENT HARI INI" type="live" radio="false",23.00 GAMBIA VS IVORY COAST
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=dash
@@ -3813,7 +3815,7 @@ https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1794580315/ei/
 
 
 
-#EXTINF:-1  tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJqTO5aFrLB5gCWEvYFtJr3SU7f0LX5IClEL_x6J10OWVgPPO6NJXaFYjO&s=10" group-title="EVENT HARI INI" type="live" radio="false",BADMINTON COURT 1
+##EXTINF:-1  tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJqTO5aFrLB5gCWEvYFtJr3SU7f0LX5IClEL_x6J10OWVgPPO6NJXaFYjO&s=10" group-title="EVENT HARI INI" type="live" radio="false",BADMINTON COURT 1
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
 #EXTVLCOPT:http-referrer=https://union.huya.com/
 https://al.flv.huya.com/src/1199521065754-1199521065754-5262151711530680320-2399042254964-10057-A-0-1-imgplus.flv?wsSecret=0e500a91b9ed1ac31acf0b7c9ae053cf&wsTime=6afd3fc8&seqid=3266317922504&ctype=tars_mobile&ver=1&fs=bgct&t=103&ratio=500&dMod=mseh-0&sdkPcdn=1_1&uid=1471422475162&uuid=3476861160&t=103&sv=202603162019&sdk_sid=1794895444622&a_block=0
@@ -3883,7 +3885,7 @@ https://raw.githubusercontent.com/vannyruru-ui/KokoUyo06/refs/heads/main/members
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36
 https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1793764601/ei/mVjqap-yD4zJ9fwPmO_5iAw/ip/182.1.197.55/id/cb9bbc5c28ec873c/itag/96/source/youtube/requiressl/yes/ratebypass/yes/pfa/1/sgoap/clen%3D146870607%3Bdur%3D9075.054%3Bgir%3Dyes%3Bitag%3D140%3Blmt%3D1793714957314244/sgovp/clen%3D3391737217%3Bdur%3D9075.000%3Bgir%3Dyes%3Bitag%3D137%3Blmt%3D1793714939101472/rqh/1/hls_chunk_host/rr5---sn-uxa3vhnxa-02bs.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/cps/241/met/1793743001,/mh/zE/mm/18,29/mn/sn-uxa3vhnxa-02bs,sn-npoldnes/ms/aub,rdu/mv/m/mvi/5/pl/22/rms/aub,aub/force_finished/1/initcwndbps/968375/siu/1/bui/AZFAFb-glmbFlgmwPvDw7xudT5yvG_xIqKLyH9TeMMw8APhKGkxBEOXSBe7Wd-V8a6L0cTatoA/spc/mpRQ_w0gQfdVekSvhhkhQw6tHN8_84IUfnW0nZxX2m0-yReEzLZOSeDgSaLRYzJTvr7BrMsdqg/vprv/1/ns/ynFwyttuPfN1DzQTOZ9CxIEZ/playlist_type/CLEAN/dover/11/txp/7309224/epbp/1/mt/1793742620/fvip/3/keepalive/yes/fexp/51565115,52184236,52271469,52323633/n/Ny1ZIIOeWBxJEQ/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,pfa,sgoap,sgovp,rqh,xpc,force_finished,siu,bui,spc,vprv,ns,playlist_type/sig/AE0s2JYwRgIhAJO03FHNyI_kdKcR0cIHMy5yqB5y2hEtc1Y89E0fSXEHAiEA8F0ZP5qoZAHGpp7CJrdiJcHY4NZK026HxoOZoFadBSA%3D/lsparams/hls_chunk_host,cps,met,mh,mm,mn,ms,mv,mvi,pl,rms,initcwndbps/lsig/APaTxxMwRQIgCpvRiHNPhPI_-O0ndUCfqoy_INKGo9ZrjYN8-63oZmMCIQDl-gGlZo1sA1TYWFBLRFAV4ZFy5lmRFYYhte5VTh5ahg%3D%3D/playlist/index.m3u8
 
-#EXTINF:-1 tvg-id="RCTI.id" tvg-name="RCTI" tvg-logo="https://dl.dropboxusercontent.com/scl/fi/5k9z8jqf9rmsg1wfhtiso/Gemini_Generated_Image_sr9aqfsr9aqfsr9a.jpeg?rlkey=861yfheufy50lnw73k44nccks&st=dse4sjv7&dl=1"  group-title="EVENT HARI INI" type="live" radio="false",RCTI SPORTS
+##EXTINF:-1 tvg-id="RCTI.id" tvg-name="RCTI" tvg-logo="https://dl.dropboxusercontent.com/scl/fi/5k9z8jqf9rmsg1wfhtiso/Gemini_Generated_Image_sr9aqfsr9aqfsr9a.jpeg?rlkey=861yfheufy50lnw73k44nccks&st=dse4sjv7&dl=1"  group-title="EVENT HARI INI" type="live" radio="false",RCTI SPORTS
 #EXTVLCOPT:http-user-agent=android-R+
 #EXTVLCOPT:http-referrer=https://www.rctiplus.com/
 https://rplus.inisemar.my.id/rcti.m3u8
@@ -3899,11 +3901,11 @@ https://iptv.lancartech.co.id:443/angka123/Angka0610/87.m3u8
 https://rplus.inisemar.my.id/mnctv.m3u8
 ##EXTINF:-1 tvg-id="ANTV.id" tvg-name="ANTV" tvg-logo="https://dl.dropboxusercontent.com/scl/fi/yayhy0j19zm5etcgrdjyh/Gemini_Generated_Image_vh46pivh46pivh46.jpeg?rlkey=v8e5v08os1mdseaymtct0u1r4&st=9x5ar08o&dl=1"  group-title="EVENT HARI INI" type="live" radio="false",ANTV SPORTS
 https://iptv.lancartech.co.id:443/angka123/Angka0610/1.m3u8
-#EXTINF:-1 tvg-id="GTV.id" tvg-name="GTV" tvg-logo="https://dl.dropboxusercontent.com/scl/fi/z2ttmmyuha3006heu9g6l/Gemini_Generated_Image_ccjh39ccjh39ccjh.jpeg?rlkey=jvgjzxj106theuujqsl77d7fm&st=wkf06b22&dl=1"  group-title="EVENT HARI INI" type="live" radio="false",GTV SPORTS
+##EXTINF:-1 tvg-id="GTV.id" tvg-name="GTV" tvg-logo="https://dl.dropboxusercontent.com/scl/fi/z2ttmmyuha3006heu9g6l/Gemini_Generated_Image_ccjh39ccjh39ccjh.jpeg?rlkey=jvgjzxj106theuujqsl77d7fm&st=wkf06b22&dl=1"  group-title="EVENT HARI INI" type="live" radio="false",GTV SPORTS
 #EXTVLCOPT:http-user-agent=android-R+
 #EXTVLCOPT:http-referrer=https://www.rctiplus.com/
 https://rplus.inisemar.my.id/gtv.m3u8
-#EXTINF:-1 tvg-id="iNews.id" tvg-name="iNews" tvg-logo="https://dl.dropboxusercontent.com/scl/fi/t6yaso0he6zjuay9xovg2/Gemini_Generated_Image_8r62pq8r62pq8r62.jpeg?rlkey=ht1vo26xj7r9e4vewaedblc3p&st=b8aufl8w&dl=1"  group-title="EVENT HARI INI" type="live" radio="false",iNEWS SPORTS
+##EXTINF:-1 tvg-id="iNews.id" tvg-name="iNews" tvg-logo="https://dl.dropboxusercontent.com/scl/fi/t6yaso0he6zjuay9xovg2/Gemini_Generated_Image_8r62pq8r62pq8r62.jpeg?rlkey=ht1vo26xj7r9e4vewaedblc3p&st=b8aufl8w&dl=1"  group-title="EVENT HARI INI" type="live" radio="false",iNEWS SPORTS
 #EXTVLCOPT:http-user-agent=android-R+
 #EXTVLCOPT:http-referrer=https://www.rctiplus.com/
 https://rplus.inisemar.my.id/inews.m3u8
