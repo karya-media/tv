@@ -3746,91 +3746,55 @@ https://otte.live.fly.ww.aiv-cdn.net/syd-nitro/live/clients/dash/enc/8m8cd46i1t/
 https://a83aivottlinear-a.akamaihd.net/OTTB/syd-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd
 
 ###IVEEEEE
-#EXTINF:-1  tvg-logo="https://cdn1-production-images-kly.akamaized.net/Z7G5IEq7UKnhWFnWeI-pRcKNLrA=/500x281/smart/filters:quality(75):strip_icc():format(webp)/kly-media-production/medias/5368954/original/020782300_1759402352-WhatsApp_Image_2025-10-02_at_17.42.54.jpeg" group-title="EVENT HARI INI" type="live" radio="false",19.00 UG VS BLU
-https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1794850759/ei/Z-v6aonKGaeAjuMPuZ2NwAw/ip/182.1.184.230/id/2b89oShTL3k.3/itag/301/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D299/rqh/1/hls_chunk_host/rr1---sn-uxa3vhnxa-02bz.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/bui/AZFAFb_UPiFtE4szTPOoovYHypXzM8kiOsVNjl2DQQOomGztCcvwWet-_Q8v1ytU5gtQy54u0m_xW3Wj/spc/nfZ8ZjVQ9axqQBvlPVO6UvQKAcfjdN-3HTZAwAugmt_FWxmv6E7wmS7PtzCc/vprv/1/reg/0/playlist_type/DVR/initcwndbps/447500/met/1794829160,/mh/DG/mip/182.1.165.122/mm/44/mn/sn-uxa3vhnxa-02bz/ms/lva/mv/m/mvi/1/pcm2cms/yes/pl/24/rms/lva,lva/dover/11/pacing/0/epbp/1/keepalive/yes/fexp/51565115,52227521/mt/1794828784/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,xpc,playlist_duration,manifest_duration,bui,spc,vprv,reg,playlist_type/sig/AE0s2JYwRAIgWD2Tpt4yFrcquOf5Mspn44JgBapNz03GESVM5L4L-1oCIBSkMUkS8O5XopjE7oTVwUXY6GbOoxuh6NWCSBaZpX-M/lsparams/hls_chunk_host,initcwndbps,met,mh,mip,mm,mn,ms,mv,mvi,pcm2cms,pl,rms/lsig/APaTxxMwRQIgVQx5b9Q_3SI3pAmLbyiBNc95hJ-ZIrrTgL3wwmJXxasCIQDj7E4NZN8qkB7vjFZGn5ZxatoPqC02aR-kK79W2Bwu2w%3D%3D/playlist/index.m3u8
-
-
-#EXTINF:-1  tvg-logo="https://kokotv.my.id/Foto/caf.jpeg" group-title="EVENT HARI INI" type="live" radio="false",20.00 NAMIBIA VS CAMEROON
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=dash
+##EXTINF:-1  tvg-logo="https://kokotv.my.id/Foto/kualifikasi-u17.jpeg" group-title="EVENT HARI INI" type="live" radio="false",15.30 AFGHANISTAN U17 VS INDONESIA U17
+https://live2.jorvakstreamcache.com/live/channel24.m3u8
+##EXTINF:-1  tvg-logo="https://kokotv.my.id/Foto/kualifikasi-u17.jpeg" group-title="EVENT HARI INI" type="live" radio="false",15.30 MYANMAR U17 VS CAMBODIA U17
+https://live2.jorvakstreamcache.com/live/channel16.m3u8
+#EXTINF:-1  tvg-logo="https://kokotv.my.id/Foto/friendly.jpeg" group-title="EVENT HARI INI" type="live" radio="false",17.00 SINGAPORE VS BRAZIL
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=0b42be2664d7e811d04f3e504e0924c5:ae24090123b8c72ac5404dc152847cb8
-#EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://otte.live.fly.ww.aiv-cdn.net/syd-nitro/live/clients/dash/enc/8m8cd46i1t/out/v1/83985c68e4174e90a58a1f2c024be4c9/cenc.mpd
-#EXTINF:-1  tvg-logo="https://kokotv.my.id/Foto/caf.jpeg" group-title="EVENT HARI INI" type="live" radio="false",20.00 SUDAN VS SENEGAL
+#KODIPROP:inputstream.adaptive.license_key=60dc08aae52f4c0b806a8e43f24a12c8:30d5b579966d822b215ec51a91d8a271
+https://ls-mp02stg.eo-edgefunctions7.com/out/v1/3170252e3fb0453085f2f4b0f8401a6b/manifest.mpd
+#EXTINF:-1  tvg-logo="https://kokotv.my.id/Foto/friendly.jpeg" group-title="EVENT HARI INI" type="live" radio="false",19.00 CHINA VS BAHRAIN
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+http://38.75.136.137:98/gslb/dsdqpub/cctv5p.m3u8?auth=testpub
+#EXTINF:-1  tvg-logo="https://kokotv.my.id/Foto/friendly.jpeg" group-title="EVENT HARI INI" type="live" radio="false",19.00 KRYGYSTAN VS VIETNAM
+https://live2.jorvakstreamcache.com/live/channel1.m3u8
+#EXTINF:-1  tvg-logo="https://kokotv.my.id/Foto/caf.jpeg" group-title="EVENT HARI INI" type="live" radio="false",20.00 MALAWI VS EGYPT
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=dash
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=7995c724a13748ed970840a8ab5bb9b3:67bdaf1e2175b9ff682fcdf0e2354b1e
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://a83aivottlinear-a.akamaihd.net/OTTB/syd-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd
-#EXTINF:-1  tvg-logo="https://kokotv.my.id/Foto/friendly.jpeg" group-title="EVENT HARI INI" type="live" radio="false",20.00 INDONESIA U20 VS USA U19
+#EXTINF:-1  tvg-logo="https://kokotv.my.id/Foto/caf.jpeg" group-title="EVENT HARI INI" type="live" radio="false",20.00 TANZANIA VS NIGERIA
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=0b42be2664d7e811d04f3e504e0924c5:ae24090123b8c72ac5404dc152847cb8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+https://otte.live.fly.ww.aiv-cdn.net/syd-nitro/live/clients/dash/enc/8m8cd46i1t/out/v1/83985c68e4174e90a58a1f2c024be4c9/cenc.mpd
+##EXTINF:-1  tvg-logo="https://kokotv.my.id/Foto/friendly.jpeg" group-title="EVENT HARI INI" type="live" radio="false",20.00 LEBANON VS PALESTINA 
 https://kokotv.my.id/Videointro2.php?type=live.m3u8?type=live.m3u8
-#EXTINF:-1  tvg-logo="https://kokotv.my.id/Foto/unations.jpeg" group-title="EVENT HARI INI" type="live" radio="false",22.00 FAORE ISLAND VS MOLDOVA
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referer=https://webtv.sk/tv/
+#EXTINF:-1  tvg-logo="https://kokotv.my.id/Foto/friendly.jpeg" group-title="EVENT HARI INI" type="live" radio="false",20.00 JAPAN VS PARAGUAY
+https://live2.jorvakstreamcache.com/live/channel6.m3u8
+#EXTINF:-1  tvg-logo="https://kokotv.my.id/Foto/friendly.jpeg" group-title="EVENT HARI INI" type="live" radio="false",21.00 QATAR VS SOUTH KOREA
+https://live2.jorvakstreamcache.com/live/channel19.m3u8
+#EXTINF:-1  tvg-logo="https://kokotv.my.id/Foto/friendly.jpeg" group-title="EVENT HARI INI" type="live" radio="false",22.30 SAUDI ARABIA VS UZBEKISTAN 
+https://kokotv.my.id/Videointro2.php?type=live.m3u8?type=live.m3u8
+#EXTINF:-1  tvg-logo="https://kokotv.my.id/Foto/caf.jpeg" group-title="EVENT HARI INI" type="live" radio="false",23.00 GAMBIA VS IVORY COAST
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=dash
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=11223344556677889900112233445566:4b80724d0ef86bcb2c21f7999d67739d
-https://dash2.antik.sk/stream/nvidia_sport2/playlist_cenc.mpd
-#EXTINF:-1  tvg-logo="https://kokotv.my.id/Foto/unations.jpeg" group-title="EVENT HARI INI" type="live" radio="false",22.00 KAZAKSTAN VS SLOVAKIA
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referer=https://webtv.sk/tv/
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=11223344556677889900112233445566:4b80724d0ef86bcb2c21f7999d67739d
-https://dash2.antik.sk/stream/nvidia_sport_1/playlist_cenc.mpd
-#EXTINF:-1  tvg-logo="https://kokotv.my.id/Foto/caf.jpeg" group-title="EVENT HARI INI" type="live" radio="false",22.00 SOMALIA VS GHANA
-https://live2.jorvakstreamcache.com/live/channel14.m3u8
-
-#EXTINF:-1  tvg-logo="https://kokotv.my.id/Foto/unations.jpeg" group-title="EVENT HARI INI" type="live" radio="false",00.00 ISLANDIA VS LUKSEMBURG
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=0b42be2664d7e811d04f3e504e0924c5:ae24090123b8c72ac5404dc152847cb8
-https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/8m8cd46i1t/out/v1/83985c68e4174e90a58a1f2c024be4c9/cenc.mpd
-
-#EXTINF:-1  tvg-logo="https://kokotv.my.id/Foto/unations.jpeg" group-title="EVENT HARI INI" type="live" radio="false",00.00 ESTONIA VS BULGARIA
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=7995c724a13748ed970840a8ab5bb9b3:67bdaf1e2175b9ff682fcdf0e2354b1e
-https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd
-
-#EXTINF:-1  tvg-logo="https://kokotv.my.id/Foto/unations.jpeg" group-title="EVENT HARI INI" type="live" radio="false",00.00 LITHUANIA VS LIECHTENSTEIN
-#EXTVLCOPT:http-referrer=https://pulse1.sanseny001.shop/000/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36
-https://pulse1.sanseny001.shop/puk4/usergendx3j2x4tqrnd.m3u8
-
-#EXTINF:-1  tvg-logo="https://kokotv.my.id/Foto/unations.jpeg" group-title="EVENT HARI INI" type="live" radio="false",02.45 JERMAN VS BELANDA
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=7995c724a13748ed970840a8ab5bb9b3:67bdaf1e2175b9ff682fcdf0e2354b1e
-https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd
-
-#EXTINF:-1  tvg-logo="https://kokotv.my.id/Foto/unations.jpeg" group-title="EVENT HARI INI" type="live" radio="false",02.45 YUNANI VS SERBIA
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=0b42be2664d7e811d04f3e504e0924c5:ae24090123b8c72ac5404dc152847cb8
-https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/8m8cd46i1t/out/v1/83985c68e4174e90a58a1f2c024be4c9/cenc.mpd
-
-#EXTINF:-1  tvg-logo="https://kokotv.my.id/Foto/unations.jpeg" group-title="EVENT HARI INI" type="live" radio="false",02.45 MAKEDONIA VS SLOVAKIA
-#EXTVLCOPT:http-referrer=https://pulse1.sanseny001.shop/000/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36
-https://pulse1.sanseny001.shop/puk4/usergendx3j2x4tqrnd.m3u8
-
-#EXTINF:-1  tvg-logo="https://kokotv.my.id/Foto/unations.jpeg" group-title="EVENT HARI INI" type="live" radio="false",02.45 SWISS VS SKOTLANDIA 
-#EXTVLCOPT:http-referrer=https://iron1.xn--x2rw19a.space/000/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36
-https://iron1.xn--x2rw19a.space/puk3/usergenrx4t0l8sybkr.m3u8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+https://a83aivottlinear-a.akamaihd.net/OTTB/syd-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd
+#EXTINF:-1  tvg-logo="https://kokotv.my.id/Foto/caf.jpeg" group-title="EVENT HARI INI" type="live" radio="false",23.00 KENYA VS SOUTH AFRICA
+https://live2.jorvakstreamcache.com/live/channel12.m3u8
+#EXTINF:-1  tvg-logo="https://kokotv.my.id/Foto/caf.jpeg" group-title="EVENT HARI INI" type="live" radio="false",23.00 TOGO VS ALGERIA
+https://live2.jorvakstreamcache.com/live/channel6.m3u8
+#EXTINF:-1  tvg-logo="https://kokotv.my.id/Foto/friendly.jpeg" group-title="EVENT HARI INI" type="live" radio="false",23.00 JORDAN VS AUSTRALIA 
+https://live2.jorvakstreamcache.com/live/channel4.m3u8
 
 
 
@@ -3849,8 +3813,10 @@ https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1794580315/ei/
 
 
 
-##EXTINF:-1  tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJqTO5aFrLB5gCWEvYFtJr3SU7f0LX5IClEL_x6J10OWVgPPO6NJXaFYjO&s=10" group-title="EVENT HARI INI" type="live" radio="false",BADMINTON JAPAN 2026 COURT 1
-https://ri.shinori.my.id/pxx.php?shk_cid=bs19
+#EXTINF:-1  tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJqTO5aFrLB5gCWEvYFtJr3SU7f0LX5IClEL_x6J10OWVgPPO6NJXaFYjO&s=10" group-title="EVENT HARI INI" type="live" radio="false",BADMINTON COURT 1
+#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+#EXTVLCOPT:http-referrer=https://union.huya.com/
+https://al.flv.huya.com/src/1199521065754-1199521065754-5262151711530680320-2399042254964-10057-A-0-1-imgplus.flv?wsSecret=0e500a91b9ed1ac31acf0b7c9ae053cf&wsTime=6afd3fc8&seqid=3266317922504&ctype=tars_mobile&ver=1&fs=bgct&t=103&ratio=500&dMod=mseh-0&sdkPcdn=1_1&uid=1471422475162&uuid=3476861160&t=103&sv=202603162019&sdk_sid=1794895444622&a_block=0
 ##EXTINF:-1  tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJqTO5aFrLB5gCWEvYFtJr3SU7f0LX5IClEL_x6J10OWVgPPO6NJXaFYjO&s=10" group-title="EVENT HARI INI" type="live" radio="false",BADMINTON JAPAN 2026 COURT 2
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (iPhone; CPU iPhone OS 14_4_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Mobile/15E148 Safari/604.1"
 #EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/ajax/chanel/type/7/link/channel60/off-tvc?is_off_add=false
@@ -4026,14 +3992,8 @@ https://stream.playcdn.de/playlist/316bc23c6c597120c9bdbd7c5d7c7c77/3/480.m3u8?x
 
 
 ###########
-
-
-
-#EXTINF:-1  tvg-logo="https://kokotv.my.id/Foto/friendly.jpeg" group-title="EVENT HARI INI (KHUSUS)" type="live" radio="false",20.00 INDONESIA U20 VS AMERIKA U20
-https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1794862131/ei/0xf7avLyAerAssUPlp-HuAE/ip/182.1.184.254/id/0ZCyG8yq_Gc.2/itag/96/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D137/rqh/1/hls_chunk_host/rr2---sn-uxa3vhnxa-02bd.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/ss/1/ssa/1/bui/AZFAFb9n6uk_Qdhm6JbgI_zG-WRrSy9ohkLF7BcnY0eajVoAgZIJkHT8eho0KK0IQXWhACceHFzwXCQF/spc/nfZ8Zk49c5t5T0coQAQDSahy5LPci5G71JBKydPsPAndNMB0H4EAyJGy6hP-/vprv/1/reg/0/playlist_type/DVR/initcwndbps/704750/met/1794840531,/mh/PE/mip/114.125.187.18/mm/44/mn/sn-uxa3vhnxa-02bd/ms/lva/mv/m/mvi/2/pcm2cms/yes/pl/24/rms/lva,lva/dover/11/pacing/0/epbp/1/keepalive/yes/fexp/51565116/mt/1794840089/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,xpc,playlist_duration,manifest_duration,ss,ssa,bui,spc,vprv,reg,playlist_type/sig/AE0s2JYwRQIgQDDgr3M5oRqqr2CiuypZM4Rucf0VXdLvdr9GL-ut66ICIQCS2q99Znw3Kg9F8dsjckk57e2bTeniY-_jO3lO_HR3gg%3D%3D/lsparams/hls_chunk_host,initcwndbps,met,mh,mip,mm,mn,ms,mv,mvi,pcm2cms,pl,rms/lsig/APaTxxMwRgIhAMpidqFObwbWJ2Zr4F_vWDpOFt85YR41Gr11iFFXT3qLAiEAlrRMNou6XGRa2mU_C_wJMkRXiDSYA6ruQvnfu06SXL0%3D/playlist/index.m3u8
-#EXTINF:-1  tvg-logo="https://kokotv.my.id/Foto/unations.jpeg" group-title="EVENT HARI INI (KHUSUS)" type="live" radio="false",22.00 FAORE ISLAND VS MOLDOVA
-#EXTVLCOPT:http-user-agent=OTT Navigator/1.7.5.1
-https://iptv.lancartech.co.id:443/putry0610/Putry0610/9.m3u8
+#EXTINF:-1  tvg-logo="https://kokotv.my.id/Foto/kualifikasi-u17.jpeg" group-title="EVENT HARI INI (KHUSUS)" type="live" radio="false",BELUM ADA JADWAL HARI INI
+https://kokotv.my.id/Videointro2.php?type=live.m3u8?type=live.m3u8
 
 ##EXTINF:-1 tvg-id=""  ch-number="136" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoNIhgE28VR2pat9RKK5_8qXZX6jYZOeHeSA&s" group-title="ADULT 18+" type="live" radio="false",BRAZZERS
 http://193.239.186.231/BRAZZERS/index.m3u8
