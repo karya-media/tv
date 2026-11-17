@@ -1,6 +1,6 @@
 02_koko=https://kokotv.my.id/get.php?code=Edvora01
 Film=https://drive.google.com/uc?export=download&id=1VKSo1YAMDpuVHQeBTmE1JYwik6nptL4Q
-01_Thoha-Aji=https://bit.ly/3UTbRW0
+01_Thoha-Aji=https://kokotv.my.id/thohaajitv.php?code=Edi1
 09_kokodrive=https://bit.ly/KOKOTV
 vod=https://movieplay.diameterr5.workers.dev/tes1.m3u8?fbclid=IwZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQPMjc1MjU0NjkyNTk4Mjc5AAEeIG5Tlor8Xx44DhHOldIUBsnB19MBn3kGRPu6EcRHYe8zKh_kqDqViwglg-U_aem_KHKdSsExBY1niuxZOqjiyA
 iptv-org=https://iptv-org.github.io/iptv/index.m3u
