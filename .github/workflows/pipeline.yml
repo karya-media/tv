@@ -15,12 +15,12 @@ on:
       - "data/sources.txt"
       - "data/channel_order.txt"
   schedule:
-    # Every 6h: re-sync every URL listed in data/sources.txt (so
+    # Every 4h: re-sync every URL listed in data/sources.txt (so
     # category files derived from a remote source stay up to date
     # automatically), then merge + re-validate + report as usual.
     # Category files NOT listed in data/sources.txt (manually curated
     # ones) are never touched by this step.
-    - cron: "0 */6 * * *"
+    - cron: "0 */4 * * *"
   workflow_dispatch: {} # manual "Run workflow" button in the Actions tab
 
 permissions:
