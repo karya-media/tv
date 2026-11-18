@@ -3745,23 +3745,6 @@ https://a83aivottlinear-a.akamaihd.net/OTTB/syd-nitro/live/clients/dash/enc/q4u5
 
 ###IVEEEEE
 
-
-
-
-#EXTINF:-1  tvg-logo="https://kokotv.my.id/Foto/friendly.jpeg" group-title="EVENT HARI INI" type="live" radio="false",06.00 ARGENTINA VS COSTA RICA
-https://live2.jorvakstreamcache.com/live/channel11.m3u8
-#EXTINF:-1  tvg-logo="https://kokotv.my.id/Foto/friendly.jpeg" group-title="EVENT HARI INI" type="live" radio="false",06.00 CHILE VS KOLOMBIA
-https://live2.jorvakstreamcache.com/live/channel18.m3u8
-#EXTINF:-1  tvg-logo="https://kokotv.my.id/Foto/friendly.jpeg" group-title="EVENT HARI INI" type="live" radio="false",06.30 EQUADOR VS BOLIVIA
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/
-https://tg121gr4ugmtwgczdrpbufa3dcmmcpf5gkce.100ycdn.com/live1.quickscoreboardz.com/live/channel11/playlist.m3u8?wsSecret=6d6b9d77e66d6270b08089362184f2d7&wsABSTime=1795001708&wsSession=6370ed02fffd4c6a7f8f69f0-179495851253617&wsIPSercert=5d6a05f3a373ca9c616a0b2b40b0456b&wsBindIP=2&wsserid=1168311488338867124
-#EXTINF:-1  tvg-logo="https://kokotv.my.id/Foto/friendly.jpeg" group-title="EVENT HARI INI" type="live" radio="false",06.30 URUGUAY VS DOMICIAN RAP
-https://live2.jorvakstreamcache.com/live/channel9.m3u8
-#EXTINF:-1  tvg-logo="https://kokotv.my.id/Foto/friendly.jpeg" group-title="EVENT HARI INI" type="live" radio="false",07.00 USA VS HAITI
-https://live2.jorvakstreamcache.com/live/channel17.m3u8
-#EXTINF:-1  tvg-logo="https://kokotv.my.id/Foto/friendly.jpeg" group-title="EVENT HARI INI" type="live" radio="false",09.30 MEXICO VS JAMAICA
-https://live2.jorvakstreamcache.com/live/channel21.m3u8
 #EXTINF:-1  tvg-logo="https://kokotv.my.id/Foto/shoppecup.jpeg" group-title="EVENT HARI INI" type="live" radio="false",18.00 HO CHI MINH VS BURIRAM UNITED FC
 https://live2.jorvakstreamcache.com/live/channel1.m3u8
 #EXTINF:-1  tvg-logo="https://kokotv.my.id/Foto/shoppecup.jpeg" group-title="EVENT HARI INI" type="live" radio="false",18.30 BORNEO FC VS MANILLA DIGER

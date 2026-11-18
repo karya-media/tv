@@ -1442,27 +1442,13 @@ https://proxy-v.rctiplus.id/live/web/foodtravel/index.m3u8
 https://i.mjh.nz/.r/sky-hgtv.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/apistech/project/refs/heads/main/logo/image_ch_tlc.png" tvg-chno="561" group-title="KOKO TV MOVIE" type="live" radio="false",TLC
 https://s2129134.cdn.mytvnet.vn/pkg20/live_dzones/tlc.smil/manifest.mpd
-#EXTINF:-1 tvg-logo="https://kokotv.my.id/Foto/friendly.jpeg" tvg-chno="562" group-title="EVENT HARI INI" type="live" radio="false",06.00 ARGENTINA VS COSTA RICA
-https://live2.jorvakstreamcache.com/live/channel11.m3u8
-#EXTINF:-1 tvg-logo="https://kokotv.my.id/Foto/friendly.jpeg" tvg-chno="563" group-title="EVENT HARI INI" type="live" radio="false",06.00 CHILE VS KOLOMBIA
-https://live2.jorvakstreamcache.com/live/channel18.m3u8
-#EXTINF:-1 tvg-logo="https://kokotv.my.id/Foto/friendly.jpeg" tvg-chno="564" group-title="EVENT HARI INI" type="live" radio="false",06.30 EQUADOR VS BOLIVIA
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/
-https://tg121gr4ugmtwgczdrpbufa3dcmmcpf5gkce.100ycdn.com/live1.quickscoreboardz.com/live/channel11/playlist.m3u8?wsSecret=6d6b9d77e66d6270b08089362184f2d7&wsABSTime=1795001708&wsSession=6370ed02fffd4c6a7f8f69f0-179495851253617&wsIPSercert=5d6a05f3a373ca9c616a0b2b40b0456b&wsBindIP=2&wsserid=1168311488338867124
-#EXTINF:-1 tvg-logo="https://kokotv.my.id/Foto/friendly.jpeg" tvg-chno="565" group-title="EVENT HARI INI" type="live" radio="false",06.30 URUGUAY VS DOMICIAN RAP
-https://live2.jorvakstreamcache.com/live/channel9.m3u8
-#EXTINF:-1 tvg-logo="https://kokotv.my.id/Foto/friendly.jpeg" tvg-chno="566" group-title="EVENT HARI INI" type="live" radio="false",07.00 USA VS HAITI
-https://live2.jorvakstreamcache.com/live/channel17.m3u8
-#EXTINF:-1 tvg-logo="https://kokotv.my.id/Foto/friendly.jpeg" tvg-chno="567" group-title="EVENT HARI INI" type="live" radio="false",09.30 MEXICO VS JAMAICA
-https://live2.jorvakstreamcache.com/live/channel21.m3u8
-#EXTINF:-1 tvg-logo="https://kokotv.my.id/Foto/shoppecup.jpeg" tvg-chno="568" group-title="EVENT HARI INI" type="live" radio="false",18.00 HO CHI MINH VS BURIRAM UNITED FC
+#EXTINF:-1 tvg-logo="https://kokotv.my.id/Foto/shoppecup.jpeg" tvg-chno="562" group-title="EVENT HARI INI" type="live" radio="false",18.00 HO CHI MINH VS BURIRAM UNITED FC
 https://live2.jorvakstreamcache.com/live/channel1.m3u8
-#EXTINF:-1 tvg-logo="https://kokotv.my.id/Foto/shoppecup.jpeg" tvg-chno="569" group-title="EVENT HARI INI" type="live" radio="false",18.30 BORNEO FC VS MANILLA DIGER
+#EXTINF:-1 tvg-logo="https://kokotv.my.id/Foto/shoppecup.jpeg" tvg-chno="563" group-title="EVENT HARI INI" type="live" radio="false",18.30 BORNEO FC VS MANILLA DIGER
 https://live2.jorvakstreamcache.com/live/channel6.m3u8
-#EXTINF:-1 tvg-logo="https://kokotv.my.id/Foto/shoppecup.jpeg" tvg-chno="570" group-title="EVENT HARI INI" type="live" radio="false",19.00 TAMPINES ROVERS FC VS RATCHABURI FC
+#EXTINF:-1 tvg-logo="https://kokotv.my.id/Foto/shoppecup.jpeg" tvg-chno="564" group-title="EVENT HARI INI" type="live" radio="false",19.00 TAMPINES ROVERS FC VS RATCHABURI FC
 https://live2.jorvakstreamcache.com/live/channel15.m3u8
-#EXTINF:-1 tvg-logo="https://cdn0-production-images-kly.akamaized.net/7cvACAAWl0BWAYey3YeBYpsOrRE=/0x96:640x457/1200x675/filters:quality(75):strip_icc():format(jpeg)/kly-media-production/medias/4159716/original/095727100_1663247722-Big_Mouth.jpg" tvg-chno="571" group-title="VOD" type="live" radio="false",EPS02||BIG MOUTH SEASON 1
+#EXTINF:-1 tvg-logo="https://cdn0-production-images-kly.akamaized.net/7cvACAAWl0BWAYey3YeBYpsOrRE=/0x96:640x457/1200x675/filters:quality(75):strip_icc():format(jpeg)/kly-media-production/medias/4159716/original/095727100_1663247722-Big_Mouth.jpg" tvg-chno="565" group-title="VOD" type="live" radio="false",EPS02||BIG MOUTH SEASON 1
 https://stream.playcdn.de/playlist/096b0a4214f4bb8d76cf009044701577/5/480.m3u8?x=1
-#EXTINF:-1 tvg-logo="https://kokotv.my.id/Foto/liganusantara.jpeg" tvg-chno="572" group-title="EVENT HARI INI (KHUSUS)" type="live" radio="false",15.30 PUTRA SANG FAJAR VS PERSINGA NGAWI
+#EXTINF:-1 tvg-logo="https://kokotv.my.id/Foto/liganusantara.jpeg" tvg-chno="566" group-title="EVENT HARI INI (KHUSUS)" type="live" radio="false",15.30 PUTRA SANG FAJAR VS PERSINGA NGAWI
 https://kokotv.my.id/Videointro2.php?type=live.m3u8?type=live.m3u8
