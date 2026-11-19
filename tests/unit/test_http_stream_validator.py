@@ -18,6 +18,7 @@ from iptv_manager.domain.value_objects.stream_url import StreamUrl
 from iptv_manager.infrastructure.validators.http_stream_validator import HttpStreamValidator
 
 STREAM_URL = "http://provider.example.com/stream/channel1.m3u8"
+STREAM_BYTES = b"\x47" * 1024
 
 
 def _channel(url: str = STREAM_URL) -> Channel:
@@ -29,37 +30,38 @@ def _channel(url: str = STREAM_URL) -> Channel:
 
 
 @pytest.mark.asyncio
-async def test_online_via_head():
+async def test_online_requires_readable_get_body_even_after_successful_head():
     with aioresponses() as mocked:
         mocked.head(STREAM_URL, status=200)
-        validator = HttpStreamValidator(retries=1)
-        result = await validator.validate(_channel())
+        mocked.get(STREAM_URL, status=200, body=STREAM_BYTES,
+                   headers={"Content-Type": "video/mp2t"})
+        result = await HttpStreamValidator(retries=1).validate(_channel())
 
     assert result.status is StreamStatus.ONLINE
     assert result.http_status == 200
-    assert result.response_time_ms is not None
+    assert result.bytes_read > 0
+    assert result.content_type == "video/mp2t"
 
 
 @pytest.mark.asyncio
 async def test_head_405_falls_back_to_get():
     with aioresponses() as mocked:
         mocked.head(STREAM_URL, status=405)
-        mocked.get(STREAM_URL, status=200, body=b"\x00" * 4096)
-        validator = HttpStreamValidator(retries=1)
-        result = await validator.validate(_channel())
+        mocked.get(STREAM_URL, status=206, body=STREAM_BYTES,
+                   headers={"Content-Type": "video/mp2t"})
+        result = await HttpStreamValidator(retries=1).validate(_channel())
 
     assert result.status is StreamStatus.ONLINE
-    assert result.http_status == 200
+    assert result.http_status == 206
 
 
 @pytest.mark.asyncio
-async def test_404_is_error_status():
+async def test_404_is_offline():
     with aioresponses() as mocked:
         mocked.head(STREAM_URL, status=404)
-        validator = HttpStreamValidator(retries=1)
-        result = await validator.validate(_channel())
+        result = await HttpStreamValidator(retries=1).validate(_channel())
 
-    assert result.status is StreamStatus.ERROR
+    assert result.status is StreamStatus.OFFLINE
     assert result.http_status == 404
 
 
@@ -67,24 +69,34 @@ async def test_404_is_error_status():
 async def test_403_is_geo_restricted():
     with aioresponses() as mocked:
         mocked.head(STREAM_URL, status=403)
-        validator = HttpStreamValidator(retries=1)
-        result = await validator.validate(_channel())
+        result = await HttpStreamValidator(retries=1).validate(_channel())
 
     assert result.status is StreamStatus.GEO_RESTRICTED
+
+
+@pytest.mark.asyncio
+async def test_html_response_is_not_a_valid_stream():
+    with aioresponses() as mocked:
+        mocked.head(STREAM_URL, status=200)
+        mocked.get(STREAM_URL, status=200, body="<html>blocked</html>",
+                   headers={"Content-Type": "text/html"})
+        result = await HttpStreamValidator(retries=1).validate(_channel())
+
+    assert result.status is StreamStatus.ERROR
+    assert result.bytes_read > 0
 
 
 @pytest.mark.asyncio
 async def test_redirect_is_recorded():
     redirected_url = "http://cdn.example.com/stream/channel1.m3u8"
     with aioresponses() as mocked:
-        mocked.head(STREAM_URL, status=200, headers={"Location": redirected_url})
-        # aioresponses represents the redirect as response history when
-        # allow_redirects follows it - simulate the final response.
-        validator = HttpStreamValidator(retries=1)
-        result = await validator.validate(_channel())
+        mocked.head(STREAM_URL, status=302, headers={"Location": redirected_url})
+        mocked.get(STREAM_URL, status=200, body=STREAM_BYTES,
+                   headers={"Content-Type": "video/mp2t"})
+        result = await HttpStreamValidator(retries=1).validate(_channel())
 
-    # Even without a literal redirect chain in this mock, the call
-    # should still resolve to a final status without raising.
+    # The GET result is authoritative if aioresponses does not simulate a
+    # complete redirect chain.
     assert result.status in (StreamStatus.ONLINE, StreamStatus.ERROR)
 
 
@@ -106,8 +118,7 @@ async def test_connection_refused_is_offline():
     with aioresponses() as mocked:
         mocked.head(STREAM_URL, exception=_connector_error())
         mocked.get(STREAM_URL, exception=_connector_error())
-        validator = HttpStreamValidator(retries=1)
-        result = await validator.validate(_channel())
+        result = await HttpStreamValidator(retries=1).validate(_channel())
 
     assert result.status is StreamStatus.OFFLINE
 
@@ -117,8 +128,7 @@ async def test_timeout_reported():
     with aioresponses() as mocked:
         mocked.head(STREAM_URL, exception=TimeoutError())
         mocked.get(STREAM_URL, exception=TimeoutError())
-        validator = HttpStreamValidator(retries=1)
-        result = await validator.validate(_channel())
+        result = await HttpStreamValidator(retries=1).validate(_channel())
 
     assert result.status is StreamStatus.TIMEOUT
 
@@ -126,12 +136,12 @@ async def test_timeout_reported():
 @pytest.mark.asyncio
 async def test_retry_succeeds_on_second_attempt():
     with aioresponses() as mocked:
-        # First HEAD attempt fails outright, second attempt succeeds.
         mocked.head(STREAM_URL, exception=TimeoutError())
         mocked.get(STREAM_URL, exception=TimeoutError())
         mocked.head(STREAM_URL, status=200)
-
-        validator = HttpStreamValidator(retries=2)
+        mocked.get(STREAM_URL, status=200, body=STREAM_BYTES,
+                   headers={"Content-Type": "video/mp2t"})
+        validator = HttpStreamValidator(retries=2, retry_delay_seconds=0)
         result = await validator.validate(_channel())
 
     assert result.status is StreamStatus.ONLINE
@@ -139,14 +149,17 @@ async def test_retry_succeeds_on_second_attempt():
 
 @pytest.mark.asyncio
 async def test_concurrency_limit_is_respected():
-    """Sanity check that the semaphore doesn't deadlock when many
-    channels are validated at once."""
-    channels = [_channel(f"http://provider.example.com/stream/ch{i}.m3u8") for i in range(20)]
+    channels = [
+        _channel(f"http://provider.example.com/stream/ch{i}.m3u8")
+        for i in range(20)
+    ]
     with aioresponses() as mocked:
         for channel in channels:
             mocked.head(str(channel.url), status=200)
+            mocked.get(str(channel.url), status=200, body=STREAM_BYTES,
+                       headers={"Content-Type": "video/mp2t"})
         validator = HttpStreamValidator(retries=1, max_concurrency=5)
-        results = await asyncio.gather(*(validator.validate(c) for c in channels))
+        results = await asyncio.gather(*(validator.validate(channel) for channel in channels))
 
     assert len(results) == 20
-    assert all(r.status is StreamStatus.ONLINE for r in results)
+    assert all(result.status is StreamStatus.ONLINE for result in results)
