@@ -1,12 +1,4 @@
-"""Stream validation result entities.
-
-StreamStatus distinguishes *why* a stream is unreachable, because each
-cause implies a different fix for the playlist maintainer: OFFLINE
-means the channel is genuinely down, DNS_ERROR usually means the
-domain/provider is gone entirely, SSL_ERROR often means an expired
-certificate the provider needs to renew, and GEO_RESTRICTED means the
-stream is fine but blocked for the validator's network location.
-"""
+"""Results from an HTTP and optional media-level stream validation."""
 
 from __future__ import annotations
 
@@ -14,6 +6,7 @@ from dataclasses import dataclass
 from enum import StrEnum
 
 from iptv_manager.domain.entities.channel import Channel
+from iptv_manager.domain.entities.stream_media_info import StreamMediaInfo
 
 
 class StreamStatus(StrEnum):
@@ -35,6 +28,9 @@ class StreamValidationResult:
     final_url: str | None = None
     redirected: bool = False
     error_message: str | None = None
+    content_type: str | None = None
+    bytes_read: int = 0
+    media_info: StreamMediaInfo | None = None
 
     @property
     def is_online(self) -> bool:

@@ -1,18 +1,3 @@
-"""ValidationReport DTO.
-
-Aggregates the results of every earlier use case (merge, stream
-validation, logo validation, XMLTV comparison) into one object that
-Phase 4's report writers (infrastructure/reports/) render into
-HTML/JSON/CSV/Excel.
-
-Deliberately placed in the application layer rather than domain: this
-is a shape describing *use case outputs*, not a business concept in
-its own right, and its fields are typed against other use cases'
-result dataclasses (MergeResult, StreamValidationSummary, ...) - typing
-it here avoids creating a domain -> application dependency that would
-exist if it lived in domain/entities instead.
-"""
-
 from __future__ import annotations
 
 from dataclasses import dataclass
