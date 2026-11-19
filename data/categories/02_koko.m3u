@@ -3936,14 +3936,6 @@ https://otte.live.fly.ww.aiv-cdn.net/syd-nitro/live/clients/dash/enc/8m8cd46i1t/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://a83aivottlinear-a.akamaihd.net/OTTB/syd-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd
 ###IVEEEEE
-#EXTINF:-1  tvg-logo="https://shorter.me/uwcGB" group-title="🔴🟢EVENT HARI INI" type="live" radio="false",Hong Kong Open Badminton Championships 2026 COURT 1
-https://052d33b4b506ff051775da149c5848eb.v.smtcdns.net/play.cbalive.weibisai.com/live/4374815227206061_AiSD.m3u8?txSecret=4518f12931d10eb14af8269e9298ec5d&txTime=6AFF7160
-#EXTINF:-1  tvg-logo="https://shorter.me/uwcGB" group-title="🔴🟢EVENT HARI INI" type="live" radio="false",Hong Kong Open Badminton Championships 2026 COURT 2
-https://052d33b4b506ff051775da149c5848eb.v.smtcdns.net/play.cbalive.weibisai.com/live/4374815374863061_AiSD.m3u8?txSecret=96d3c5d34a9b7e9eea736e60a24bd299&txTime=6AFF7160
-#EXTINF:-1  tvg-logo="https://shorter.me/uwcGB" group-title="🔴🟢EVENT HARI INI" type="live" radio="false",Hong Kong Open Badminton Championships 2026 COURT 3
-https://052d33b4b506ff051775da149c5848eb.v.smtcdns.net/play.cbalive.weibisai.com/live/4374815508535061_AiSD.m3u8?txSecret=05e8b46c5a90e91f3841c2ce740683b0&txTime=6AFF7160
-#EXTINF:-1  tvg-logo="https://shorter.me/uwcGB" group-title="🔴🟢EVENT HARI INI" type="live" radio="false",Hong Kong Open Badminton Championships 2026 COURT 4
-https://052d33b4b506ff051775da149c5848eb.v.smtcdns.net/play.cbalive.weibisai.com/live/4374815638862061_AiSD.m3u8?txSecret=14b2e1e202c25320d72928c1567f5f64&txTime=6AFF7160
 #EXTINF:-1  tvg-logo="https://kokotv.my.id/Foto/shoppecup.jpeg" group-title="🔴🟢EVENT HARI INI" type="live" radio="false",19.00 PERSIB BANDUNG VS SHAN UNITED
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTVLCOPT:http-referrer=https://www.visionplus.id/
@@ -4092,12 +4084,6 @@ https://iptv.lancartech.co.id:443/angka123/Angka0610/23.m3u8
 #EXTVLCOPT:http-referrer=https://teagan01bp.mvksstick9uq6cprotection.cfd/
 #EXTVLCOPT:http-header=Referer: https://teagan01bp.mvksstick9uq6cprotection.cfd/
 https://iptv.amritv.my.id/script/rbtv/live/4532370.m3u8?sport=1&direct=1
-#EXTINF:-1 tvg-name="🔴 [Live] Bangalore Dream United FC vs FC Agniputhra • Indian Bangalore Super Division (12:25 WIB • 19/11/2026)" tvg-logo="https://iptv.amritv.my.id/logo2/generate_vs.php?home=https%3A%2F%2Flogos1.tcpwe138stya.ru%2Faelogo%2Ffootball%2Fteam%2Fadc9a8d697f1b5a2e9ea74962caef4d1.png%21w80&amp;away=https%3A%2F%2Flogos1.tcpwe138stya.ru%2Faelogo%2Ffootball%2Fteam%2Fe29b3acb01197b457489523c7fef32a5.png%21w80"  group-title="🔴🟢EVENT HARI INI" type="live" radio="false",🔴 [Live] Bangalore Dream United FC vs FC Agniputhra • Indian Bangalore Super Division (12:25 WIB • 19/11/2026)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Mobile Safari/537.36
-#EXTVLCOPT:http-origin=https://www.rbtv77.com
-#EXTVLCOPT:http-referrer=https://teagan01bp.mvksstick9uq6cprotection.cfd/
-#EXTVLCOPT:http-header=Referer: https://teagan01bp.mvksstick9uq6cprotection.cfd/
-https://iptv.amritv.my.id/script/rbtv/live/4530149.m3u8?sport=1&direct=1
 #EXTINF:-1 tvg-name="⏳ [Upcoming] AFC Awards 2026 • AFC Awards 2026 (19:00 WIB • 19/11/2026)" tvg-logo="https://raw.githubusercontent.com/twitter/twemoji/master/assets/72x72/26bd.png"  group-title="🔴🟢EVENT HARI INI" type="live" radio="false",⏳ [Upcoming] AFC Awards 2026 • AFC Awards 2026 (19:00 WIB • 19/11/2026)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Mobile Safari/537.36
 #EXTVLCOPT:http-origin=https://www.rbtv77.com
@@ -4470,6 +4456,12 @@ https://iptv.amritv.my.id/script/rbtv/live/2275117.m3u8?sport=4&direct=1
 #EXTVLCOPT:http-referrer=https://teagan01bp.mvksstick9uq6cprotection.cfd/
 #EXTVLCOPT:http-header=Referer: https://teagan01bp.mvksstick9uq6cprotection.cfd/
 https://iptv.amritv.my.id/script/rbtv/live/2275118.m3u8?sport=4&direct=1
+#EXTINF:-1 tvg-name="⏳ [Upcoming] Round 1 - CME Group Tour Championship 2026 • Champions Golf 2 (02:00 WIB • 20/11/2026)" tvg-logo="https://raw.githubusercontent.com/twitter/twemoji/master/assets/72x72/26f3.png"  group-title="🔴🟢EVENT HARI INI" type="live" radio="false",⏳ [Upcoming] Round 1 - CME Group Tour Championship 2026 • Champions Golf 2 (02:00 WIB • 20/11/2026)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-origin=https://www.rbtv77.com
+#EXTVLCOPT:http-referrer=https://teagan01bp.mvksstick9uq6cprotection.cfd/
+#EXTVLCOPT:http-header=Referer: https://teagan01bp.mvksstick9uq6cprotection.cfd/
+https://iptv.amritv.my.id/script/rbtv/live/1980875.m3u8?sport=90&direct=1
 #EXTINF:-1 tvg-name="⏳ [Upcoming] Day 1 | Las Vegas • Pro Padel League (08:00 WIB • 19/11/2026)" tvg-logo="https://raw.githubusercontent.com/twitter/twemoji/master/assets/72x72/1f3be.png"  group-title="🔴🟢EVENT HARI INI" type="live" radio="false",⏳ [Upcoming] Day 1 | Las Vegas • Pro Padel League (08:00 WIB • 19/11/2026)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Mobile Safari/537.36
 #EXTVLCOPT:http-origin=https://www.rbtv77.com
@@ -5028,6 +5020,30 @@ https://iptv.amritv.my.id/script/rbtv/live/2278789.m3u8?sport=6&direct=1
 #EXTVLCOPT:http-referrer=https://teagan01bp.mvksstick9uq6cprotection.cfd/
 #EXTVLCOPT:http-header=Referer: https://teagan01bp.mvksstick9uq6cprotection.cfd/
 https://iptv.amritv.my.id/script/rbtv/live/2275309.m3u8?sport=13&direct=1
+#EXTINF:-1 tvg-name="⏳ [Upcoming] Khilasedichi Baku vs ACH Ljubljana • Liga Champions (21:00 WIB • 19/11/2026)" tvg-logo="https://logos1.tcpwe138stya.ru/aelogo/volleyball/competition/88f578926068c25930bd3e61416b3805.png"  group-title="🔴🟢EVENT HARI INI" type="live" radio="false",⏳ [Upcoming] Khilasedichi Baku vs ACH Ljubljana • Liga Champions (21:00 WIB • 19/11/2026)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-origin=https://www.rbtv77.com
+#EXTVLCOPT:http-referrer=https://teagan01bp.mvksstick9uq6cprotection.cfd/
+#EXTVLCOPT:http-header=Referer: https://teagan01bp.mvksstick9uq6cprotection.cfd/
+https://iptv.amritv.my.id/script/rbtv/live/2275318.m3u8?sport=13&direct=1
+#EXTINF:-1 tvg-name="⏳ [Upcoming] Fino Kaposvar SE vs Mladost • Liga Champions (00:00 WIB • 20/11/2026)" tvg-logo="https://iptv.amritv.my.id/logo2/generate_vs.php?home=https%3A%2F%2Flogos1.tcpwe138stya.ru%2Faelogo%2Fvolleyball%2Fteam%2Fd001a6a34c0cd9a8320c55609023e494.png%21w80&amp;away=https%3A%2F%2Flogos1.tcpwe138stya.ru%2Faelogo%2Fvolleyball%2Fteam%2F7a5fc1e1fd1735281750aa111786c862.png%21w80"  group-title="🔴🟢EVENT HARI INI" type="live" radio="false",⏳ [Upcoming] Fino Kaposvar SE vs Mladost • Liga Champions (00:00 WIB • 20/11/2026)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-origin=https://www.rbtv77.com
+#EXTVLCOPT:http-referrer=https://teagan01bp.mvksstick9uq6cprotection.cfd/
+#EXTVLCOPT:http-header=Referer: https://teagan01bp.mvksstick9uq6cprotection.cfd/
+https://iptv.amritv.my.id/script/rbtv/live/2276041.m3u8?sport=13&direct=1
+#EXTINF:-1 tvg-name="⏳ [Upcoming] Norwid Czestochowa vs Verva Warszawa • PlusLiga (23:30 WIB • 19/11/2026)" tvg-logo="https://iptv.amritv.my.id/logo2/generate_vs.php?home=https%3A%2F%2Flogos1.tcpwe138stya.ru%2Faelogo%2Fvolleyball%2Fteam%2Fbca6f59abd610feb955d9d0f24bb8af4.png%21w80&amp;away=https%3A%2F%2Flogos1.tcpwe138stya.ru%2Faelogo%2Fvolleyball%2Fteam%2F8e89b7e84901d3ee2e76406801bec95e.png%21w80"  group-title="🔴🟢EVENT HARI INI" type="live" radio="false",⏳ [Upcoming] Norwid Czestochowa vs Verva Warszawa • PlusLiga (23:30 WIB • 19/11/2026)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-origin=https://www.rbtv77.com
+#EXTVLCOPT:http-referrer=https://teagan01bp.mvksstick9uq6cprotection.cfd/
+#EXTVLCOPT:http-header=Referer: https://teagan01bp.mvksstick9uq6cprotection.cfd/
+https://iptv.amritv.my.id/script/rbtv/live/2276035.m3u8?sport=13&direct=1
+#EXTINF:-1 tvg-name="⏳ [Upcoming] Kedzierzyn-Kozle vs Barkom • PlusLiga (02:30 WIB • 20/11/2026)" tvg-logo="https://iptv.amritv.my.id/logo2/generate_vs.php?home=https%3A%2F%2Flogos1.tcpwe138stya.ru%2Faelogo%2Fvolleyball%2Fteam%2F4ffe901e605c675e70cef63ea5191d4f.png%21w80&amp;away=https%3A%2F%2Flogos1.tcpwe138stya.ru%2Faelogo%2Fvolleyball%2Fteam%2F9393a4d12cdbcb50a64bc9e2471c39fa.png%21w80"  group-title="🔴🟢EVENT HARI INI" type="live" radio="false",⏳ [Upcoming] Kedzierzyn-Kozle vs Barkom • PlusLiga (02:30 WIB • 20/11/2026)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-origin=https://www.rbtv77.com
+#EXTVLCOPT:http-referrer=https://teagan01bp.mvksstick9uq6cprotection.cfd/
+#EXTVLCOPT:http-header=Referer: https://teagan01bp.mvksstick9uq6cprotection.cfd/
+https://iptv.amritv.my.id/script/rbtv/live/2276052.m3u8?sport=13&direct=1
 #EXTINF:-1 tvg-name="⏳ [Upcoming] PLDT High Speed Hitters vs Choco Mucho Flying Titans • Premier Volleyball League (17:00 WIB • 19/11/2026)" tvg-logo="https://iptv.amritv.my.id/logo2/generate_vs.php?home=https%3A%2F%2Flogos1.tcpwe138stya.ru%2Faelogo%2Fvolleyball%2Fteam%2Ff1bdd58205fd4ed74245e680e0dc33b2.png%21w80&amp;away=https%3A%2F%2Flogos1.tcpwe138stya.ru%2Faelogo%2Fvolleyball%2Fteam%2F9c4cd5a547b996f647fc26e7f8801d78.png%21w80"  group-title="🔴🟢EVENT HARI INI" type="live" radio="false",⏳ [Upcoming] PLDT High Speed Hitters vs Choco Mucho Flying Titans • Premier Volleyball League (17:00 WIB • 19/11/2026)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Mobile Safari/537.36
 #EXTVLCOPT:http-origin=https://www.rbtv77.com
@@ -5148,12 +5164,72 @@ https://iptv.amritv.my.id/script/rbtv/live/2278794.m3u8?sport=12&direct=1
 #EXTVLCOPT:http-referrer=https://teagan01bp.mvksstick9uq6cprotection.cfd/
 #EXTVLCOPT:http-header=Referer: https://teagan01bp.mvksstick9uq6cprotection.cfd/
 https://iptv.amritv.my.id/script/rbtv/live/2278795.m3u8?sport=12&direct=1
+#EXTINF:-1 tvg-name="⏳ [Upcoming] Court 2 • Hong Kong Open (19:10 WIB • 19/11/2026)" tvg-logo="https://raw.githubusercontent.com/twitter/twemoji/master/assets/72x72/1f3f8.png"  group-title="🔴🟢EVENT HARI INI" type="live" radio="false",⏳ [Upcoming] Court 2 • Hong Kong Open (19:10 WIB • 19/11/2026)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-origin=https://www.rbtv77.com
+#EXTVLCOPT:http-referrer=https://teagan01bp.mvksstick9uq6cprotection.cfd/
+#EXTVLCOPT:http-header=Referer: https://teagan01bp.mvksstick9uq6cprotection.cfd/
+https://iptv.amritv.my.id/script/rbtv/live/2278796.m3u8?sport=12&direct=1
 #EXTINF:-1 tvg-name="⏳ [Upcoming] Chan Y C / Ng T Y vs Dejan Ferdinansyah/Felisha Alberta Nathaniel Pasaribu • Hong Kong Open group-title="🔴🟢EVENT HARI INI" type="live" radio="false", Mixed Doubles (18:20 WIB • 19/11/2026)" tvg-logo="https://logos1.tcpwe138stya.ru/aelogo/badminton/competition/411586197b43458914a04a61b406b674.png" ,⏳ [Upcoming] Chan Y C / Ng T Y vs Dejan Ferdinansyah/Felisha Alberta Nathaniel Pasaribu • Hong Kong Open, Mixed Doubles (18:20 WIB • 19/11/2026)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Mobile Safari/537.36
 #EXTVLCOPT:http-origin=https://www.rbtv77.com
 #EXTVLCOPT:http-referrer=https://teagan01bp.mvksstick9uq6cprotection.cfd/
 #EXTVLCOPT:http-header=Referer: https://teagan01bp.mvksstick9uq6cprotection.cfd/
 https://iptv.amritv.my.id/script/rbtv/live/2277531.m3u8?sport=12&direct=1
+#EXTINF:-1 tvg-name="⏳ [Upcoming] America&#039;s Day At the Races • Horse Racing (00:30 WIB • 20/11/2026)" tvg-logo="https://raw.githubusercontent.com/twitter/twemoji/master/assets/72x72/26f3.png"  group-title="🔴🟢EVENT HARI INI" type="live" radio="false",⏳ [Upcoming] America's Day At the Races • Horse Racing (00:30 WIB • 20/11/2026)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-origin=https://www.rbtv77.com
+#EXTVLCOPT:http-referrer=https://teagan01bp.mvksstick9uq6cprotection.cfd/
+#EXTVLCOPT:http-header=Referer: https://teagan01bp.mvksstick9uq6cprotection.cfd/
+https://iptv.amritv.my.id/script/rbtv/live/1980877.m3u8?sport=90&direct=1
+#EXTINF:-1 tvg-name="⏳ [Upcoming] Sydney group-title="🔴🟢EVENT HARI INI" type="live" radio="false", Nova Scotia vs Day 3 • Grand Slam of Curling (00:30 WIB • 20/11/2026)" tvg-logo="https://raw.githubusercontent.com/twitter/twemoji/master/assets/72x72/26f3.png" ,⏳ [Upcoming] Sydney, Nova Scotia vs Day 3 • Grand Slam of Curling (00:30 WIB • 20/11/2026)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-origin=https://www.rbtv77.com
+#EXTVLCOPT:http-referrer=https://teagan01bp.mvksstick9uq6cprotection.cfd/
+#EXTVLCOPT:http-header=Referer: https://teagan01bp.mvksstick9uq6cprotection.cfd/
+https://iptv.amritv.my.id/script/rbtv/live/1980879.m3u8?sport=90&direct=1
+#EXTINF:-1 tvg-name="⏳ [Upcoming] Sydney group-title="🔴🟢EVENT HARI INI" type="live" radio="false", Nova Scotia vs Day 3 • Grand Slam of Curling (04:30 WIB • 20/11/2026)" tvg-logo="https://raw.githubusercontent.com/twitter/twemoji/master/assets/72x72/26f3.png" ,⏳ [Upcoming] Sydney, Nova Scotia vs Day 3 • Grand Slam of Curling (04:30 WIB • 20/11/2026)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-origin=https://www.rbtv77.com
+#EXTVLCOPT:http-referrer=https://teagan01bp.mvksstick9uq6cprotection.cfd/
+#EXTVLCOPT:http-header=Referer: https://teagan01bp.mvksstick9uq6cprotection.cfd/
+https://iptv.amritv.my.id/script/rbtv/live/1980880.m3u8?sport=90&direct=1
+#EXTINF:-1 tvg-name="⏳ [Upcoming] 1er tour • Open de Sea Island (05:06 WIB • 20/11/2026)" tvg-logo="https://raw.githubusercontent.com/twitter/twemoji/master/assets/72x72/26f3.png"  group-title="🔴🟢EVENT HARI INI" type="live" radio="false",⏳ [Upcoming] 1er tour • Open de Sea Island (05:06 WIB • 20/11/2026)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-origin=https://www.rbtv77.com
+#EXTVLCOPT:http-referrer=https://teagan01bp.mvksstick9uq6cprotection.cfd/
+#EXTVLCOPT:http-header=Referer: https://teagan01bp.mvksstick9uq6cprotection.cfd/
+https://iptv.amritv.my.id/script/rbtv/live/1980881.m3u8?sport=90&direct=1
+#EXTINF:-1 tvg-name="⏳ [Upcoming] (L) The RSM Classic 2026 Day 1 • The RSM Classic 2026 Day 1 (00:00 WIB • 20/11/2026)" tvg-logo="https://raw.githubusercontent.com/twitter/twemoji/master/assets/72x72/26f3.png"  group-title="🔴🟢EVENT HARI INI" type="live" radio="false",⏳ [Upcoming] (L) The RSM Classic 2026 Day 1 • The RSM Classic 2026 Day 1 (00:00 WIB • 20/11/2026)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-origin=https://www.rbtv77.com
+#EXTVLCOPT:http-referrer=https://teagan01bp.mvksstick9uq6cprotection.cfd/
+#EXTVLCOPT:http-header=Referer: https://teagan01bp.mvksstick9uq6cprotection.cfd/
+https://iptv.amritv.my.id/script/rbtv/live/1980874.m3u8?sport=90&direct=1
+#EXTINF:-1 tvg-name="⏳ [Upcoming] The RSM Classic First Round • The RSM Classic First Round (20:30 WIB • 19/11/2026)" tvg-logo="https://raw.githubusercontent.com/twitter/twemoji/master/assets/72x72/26f3.png"  group-title="🔴🟢EVENT HARI INI" type="live" radio="false",⏳ [Upcoming] The RSM Classic First Round • The RSM Classic First Round (20:30 WIB • 19/11/2026)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-origin=https://www.rbtv77.com
+#EXTVLCOPT:http-referrer=https://teagan01bp.mvksstick9uq6cprotection.cfd/
+#EXTVLCOPT:http-header=Referer: https://teagan01bp.mvksstick9uq6cprotection.cfd/
+https://iptv.amritv.my.id/script/rbtv/live/1980873.m3u8?sport=90&direct=1
+#EXTINF:-1 tvg-name="⏳ [Upcoming] Knockout Final vs Day 1 • Total Chess World Championship Tour (20:45 WIB • 19/11/2026)" tvg-logo="https://raw.githubusercontent.com/twitter/twemoji/master/assets/72x72/26f3.png"  group-title="🔴🟢EVENT HARI INI" type="live" radio="false",⏳ [Upcoming] Knockout Final vs Day 1 • Total Chess World Championship Tour (20:45 WIB • 19/11/2026)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-origin=https://www.rbtv77.com
+#EXTVLCOPT:http-referrer=https://teagan01bp.mvksstick9uq6cprotection.cfd/
+#EXTVLCOPT:http-header=Referer: https://teagan01bp.mvksstick9uq6cprotection.cfd/
+https://iptv.amritv.my.id/script/rbtv/live/1980876.m3u8?sport=90&direct=1
+#EXTINF:-1 tvg-name="⏳ [Upcoming] WTT Star Contender Muscat 2026 vs Day 2 Round 2 • WTT 2026 (19:00 WIB • 19/11/2026)" tvg-logo="https://raw.githubusercontent.com/twitter/twemoji/master/assets/72x72/26f3.png"  group-title="🔴🟢EVENT HARI INI" type="live" radio="false",⏳ [Upcoming] WTT Star Contender Muscat 2026 vs Day 2 Round 2 • WTT 2026 (19:00 WIB • 19/11/2026)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-origin=https://www.rbtv77.com
+#EXTVLCOPT:http-referrer=https://teagan01bp.mvksstick9uq6cprotection.cfd/
+#EXTVLCOPT:http-header=Referer: https://teagan01bp.mvksstick9uq6cprotection.cfd/
+https://iptv.amritv.my.id/script/rbtv/live/1980883.m3u8?sport=90&direct=1
+#EXTINF:-1 tvg-name="⏳ [Upcoming] Jones vs Pettus: Weigh-In • Golden Boy Promotions (04:00 WIB • 20/11/2026)" tvg-logo="https://raw.githubusercontent.com/twitter/twemoji/master/assets/72x72/1f94a.png"  group-title="🔴🟢EVENT HARI INI" type="live" radio="false",⏳ [Upcoming] Jones vs Pettus: Weigh-In • Golden Boy Promotions (04:00 WIB • 20/11/2026)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-origin=https://www.rbtv77.com
+#EXTVLCOPT:http-referrer=https://teagan01bp.mvksstick9uq6cprotection.cfd/
+#EXTVLCOPT:http-header=Referer: https://teagan01bp.mvksstick9uq6cprotection.cfd/
+https://iptv.amritv.my.id/script/rbtv/live/2278799.m3u8?sport=14&direct=1
 #EXTINF:-1 tvg-name="⏳ [Upcoming] Phet Yindee Fight (19 November 2026) • Phet Yindee Fight (19 November 2026) (18:00 WIB • 19/11/2026)" tvg-logo="https://raw.githubusercontent.com/twitter/twemoji/master/assets/72x72/1f94a.png"  group-title="🔴🟢EVENT HARI INI" type="live" radio="false",⏳ [Upcoming] Phet Yindee Fight (19 November 2026) • Phet Yindee Fight (19 November 2026) (18:00 WIB • 19/11/2026)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Mobile Safari/537.36
 #EXTVLCOPT:http-origin=https://www.rbtv77.com
@@ -5166,4 +5242,31 @@ https://iptv.amritv.my.id/script/rbtv/live/2278800.m3u8?sport=14&direct=1
 #EXTVLCOPT:http-referrer=https://teagan01bp.mvksstick9uq6cprotection.cfd/
 #EXTVLCOPT:http-header=Referer: https://teagan01bp.mvksstick9uq6cprotection.cfd/
 https://iptv.amritv.my.id/script/rbtv/live/2278801.m3u8?sport=14&direct=1
+
+#EXTINF:-1  tvg-logo="https://kokotv.my.id/Foto/xoilacz.jpeg" group-title="🔴🟢EVENT CAMPUR" type="live" radio="false", HongKong Open Court 1 ((XOI))
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/
+https://live1.quickscoreboardz.com/live/channel60.m3u8?wsSecret=adb4408bd0c003c9ad777dc808e87228&wsABSTime=1795107106
+
+#EXTINF:-1  tvg-logo="https://kokotv.my.id/Foto/xoilacz.jpeg" group-title="🔴🟢EVENT CAMPUR" type="live" radio="false",HongKong Open Court 2 ((XOI))
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/
+https://live1.quickscoreboardz.com/live/channel61.m3u8?wsSecret=0b8d9a0f00a47652799fa4bcc63ff93c&wsABSTime=1794935247
+
+#EXTINF:-1  tvg-logo="https://kokotv.my.id/Foto/xoilacz.jpeg" group-title="🔴🟢EVENT CAMPUR" type="live" radio="false",HongKong Open Court 3 ((XOI))
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/
+https://live1.quickscoreboardz.com/live/channel62.m3u8?wsSecret=d61cb551b32cf149638a1be59eac6c2b&wsABSTime=1794935195
+
+#EXTINF:-1  tvg-logo="https://kokotv.my.id/Foto/xoilacz.jpeg" group-title="🔴🟢EVENT CAMPUR" type="live" radio="false",HongKong Open Court 4 ((XOI))
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
+
+#EXTINF:-1  tvg-logo="https://kokotv.my.id/Foto/webisai.jpeg" group-title="🔴🟢EVENT CAMPUR" type="live" radio="false",HongKong Open Court 1 ((WEB))
+https://052d33b4b506ff051775da149c5848eb.v.smtcdns.net/play.cbalive.weibisai.com/live/4374815227206061_AiSD.m3u8?txSecret=4518f12931d10eb14af8269e9298ec5d&txTime=6AFF7160
+#EXTINF:-1  tvg-logo="https://kokotv.my.id/Foto/webisai.jpeg" group-title="🔴🟢EVENT CAMPUR" type="live" radio="false",HongKong Open Court 2 ((WEB))
+https://052d33b4b506ff051775da149c5848eb.v.smtcdns.net/play.cbalive.weibisai.com/live/4374815374863061_AiSD.m3u8?txSecret=96d3c5d34a9b7e9eea736e60a24bd299&txTime=6AFF7160
+#EXTINF:-1  tvg-logo="https://kokotv.my.id/Foto/webisai.jpeg" group-title="🔴🟢EVENT CAMPUR" type="live" radio="false",HongKong Open Court 3 ((WEB))
+https://052d33b4b506ff051775da149c5848eb.v.smtcdns.net/play.cbalive.weibisai.com/live/4374815508535061_AiSD.m3u8?txSecret=05e8b46c5a90e91f3841c2ce740683b0&txTime=6AFF7160
+#EXTINF:-1  tvg-logo="https://kokotv.my.id/Foto/webisai.jpeg" group-title="🔴🟢EVENT CAMPUR" type="live" radio="false",HongKong Open Court 4 ((WEB))
+https://052d33b4b506ff051775da149c5848eb.v.smtcdns.net/play.cbalive.weibisai.com/live/4374815638862061_AiSD.m3u8?txSecret=14b2e1e202c25320d72928c1567f5f64&txTime=6AFF7160
 
