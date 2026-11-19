@@ -7,6 +7,8 @@
 21.
 22.
 23.
+🔴 [Live]
+⏳ [Upcoming]
 RCTI
 MNCTV
 GTV
@@ -31,7 +33,7 @@ RCTI World
 BTV|BTV
 Nusantara
 Berita Satu|Beritasatu
-Bri Super League
+Bri
 Live Streaming 1
 Bola | FIFA+
 MOTOGP
@@ -184,7 +186,6 @@ Atambua TV
 Biznet Adventure
 Biznet Kids
 Biznet Lifestyle
-Bri Super League
 BRTV
 Caruban TV
 JOWO
