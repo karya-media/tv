@@ -47,6 +47,7 @@
 23.00
 23.30
 🔴 [Live]
+HongKong Open
 RCTI
 MNCTV
 GTV
@@ -74,7 +75,6 @@ Bola|FIFA+
 MOTOGP
 Formula 1
 ⏳ [Upcoming]
-Piala dunia TVRI
 Live Event
 Pegadaian Championship|Pegadaian Championship (Alt 2)|Pegadaian Championship (Alt 3)|Pegadaian Championship (Alt 4)|Pegadaian Championship (Alt 5)|Pegadaian Championshipe
 Volleyball
