@@ -15,12 +15,22 @@ on:
       - "data/sources.txt"
       - "data/channel_order.txt"
   schedule:
-    # Every 4h: re-sync every URL listed in data/sources.txt (so
-    # category files derived from a remote source stay up to date
-    # automatically), then merge + re-validate + report as usual.
-    # Category files NOT listed in data/sources.txt (manually curated
-    # ones) are never touched by this step.
-    - cron: "0 */4 * * *"
+    # Every 2h, at minute 23: re-sync every URL listed in
+    # data/sources.txt (so category files derived from a remote source
+    # stay up to date automatically), then merge + re-validate +
+    # report as usual. Category files NOT listed in data/sources.txt
+    # (manually curated ones) are never touched by this step.
+    #
+    # Why minute 23 and every 2h instead of minute 0 every 4h: GitHub
+    # delays or silently drops scheduled runs at the top of the hour
+    # when its scheduler is busy. Measured on this repo over ~47 days:
+    # only ~155 of ~280 expected 4-hourly runs actually started, often
+    # 1-3h late. A run only takes ~18 minutes (max 51), so running more
+    # often at an off-peak minute is cheap, and the effective gap
+    # between successful runs lands near the intended ~4h even when
+    # some are skipped. The concurrency group below still serializes
+    # runs, so denser scheduling never overlaps.
+    - cron: "23 */2 * * *"
   workflow_dispatch: {} # manual "Run workflow" button in the Actions tab
 
 permissions:
@@ -41,6 +51,11 @@ concurrency:
 jobs:
   pipeline:
     runs-on: ubuntu-latest
+    # Safety net: the default is 6 hours. A normal run takes ~18
+    # minutes (max seen: 51), so a run past 90 is hung, and would
+    # otherwise hold the concurrency group (and every run queued
+    # behind it) for hours.
+    timeout-minutes: 90
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -56,7 +71,12 @@ jobs:
       - name: Install project
         run: pip install -e ".[dev]"
 
+      # Scheduled runs only refresh data - they skip this gate so an
+      # unrelated code problem can't stop playlists from updating, and
+      # to save time on every run. Code changes are still checked in
+      # ci.yml, and by this step on push and manual runs.
       - name: Lint, type-check, and test before touching main
+        if: github.event_name != 'schedule'
         run: |
           ruff check src tests
           mypy src
