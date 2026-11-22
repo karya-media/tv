@@ -3254,803 +3254,215 @@ https://iptv.lancartech.co.id:443/angka123/Angka0610/23.m3u8
 #EXTINF:-1  group-title="EVENT TV 1" type="live" radio="false",Sumber RBTV Sedang Gangguan / Kosong
 http://127.0.0.1/offline.m3u8
 
-#EXTINF:-1  tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg" group-title="EVENT TV 2" type="live" radio="false",22:15 WIB Racing Santander vs Real Sociedad
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=7995c724a13748ed970840a8ab5bb9b3:67bdaf1e2175b9ff682fcdf0e2354b1e
-https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd
-#EXTINF:-1  tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg" group-title="EVENT TV 2" type="live" radio="false",23:30 WIB Liverpool vs Manchester United
-https://www.rtmpcdn.com/live/c9af7ae1-65c7-4a0a-ae40-ab2f4d1655d7.m3u8
-#EXTINF:-1  tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg" group-title="EVENT TV 2" type="live" radio="false",23:30 WIB Liverpool vs Manchester United
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/
-https://live2.tanrixstreamorigin.com/live/channel1.m3u8
-#EXTINF:-1  tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg" group-title="EVENT TV 2" type="live" radio="false",23:30 WIB Werder Bremen vs Hamburger SV
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone14,6; U; CPU iPhone OS 15_4 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) Version/10.0 Mobile/19E241 Safari/602.1
-#EXTVLCOPT:http-referrer=https://pulse1.sanseny001.shop/000/
-https://pulse1.sanseny001.shop/puk5/usergen0grnd8l2y6gw.m3u8
-#EXTINF:-1 tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg"  group-title="EVENT TV 2" type="live" radio="false",00:00 WIB ac milan vs frosinone | Italian Serie A | Server 1 | KickLive
-https://apxvf0ws91.yarncdn.live/live/sd-6Mwe5jaUYsTUNHrG3i/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg"  group-title="EVENT TV 2" type="live" radio="false",00:00 WIB ac milan vs frosinone | Italian Serie A | Server 2 | KickLive
-https://apxvf0ws91.yarncdn.live/live/hd-en-6Mwe5jaUYsTUNHrG3i/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg"  group-title="EVENT TV 2" type="live" radio="false",00:00 WIB AC Milan vs Frosinone | Football | DAZN SPORTS - AQ
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=80440b0a632cd8c73b11efabdcb01791:485ab6a69a2127fbbc1471228f8a2971
-https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/kfmw2kcxgt/out/v1/79d59ef3086e4610a6a0871ec48825d7/cenc.mpd
-#EXTINF:-1 tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg"  group-title="EVENT TV 2" type="live" radio="false",00:00 WIB AC Milan vs Frosinone | Football | PARAMOUNT+ - AQ
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=292aaebdcf02a56bbce24488c316cd0f:3d1e46962393a2c83f2b2aff44531587
-https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/yc9uf0buja/out/v1/3d9aaa12ac704db3a7d99ea17ffc61cc/cenc.mpd
-#EXTINF:-1 tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg"  group-title="EVENT TV 2" type="live" radio="false",00:00 WIB AC Milan vs Frosinone | Football | PEACOCK ES - AQ
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=6ff0d50c84e94950f9798b755ceae62b:b37de38ea09f13397d55186589b519c7
-https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/lnzqyet9qp/out/v1/a19f7306c3164e2da1aaebf1765a8297/cenc.mpd
-#EXTINF:-1 tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg"  group-title="EVENT TV 2" type="live" radio="false",00:00 WIB AC Milan vs Frosinone | Football | beIN ENGLISH - AQ
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=0b42be2664d7e811d04f3e504e0924c5:ae24090123b8c72ac5404dc152847cb8
-https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/8m8cd46i1t/out/v1/83985c68e4174e90a58a1f2c024be4c9/cenc.mpd?|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
-#EXTINF:-1 tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg"  group-title="EVENT TV 2" type="live" radio="false",00:00 WIB AC Milan vs Frosinone | Football | HD SERVER
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-https://www.rtmpcdn.com/live/6c4088fe-695d-4e61-8d0f-24f9fdffb971.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc
-#EXTINF:-1  tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg" group-title="EVENT TV 2" type="live" radio="false",00:00 WIB Milan vs Frosinone
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=0b42be2664d7e811d04f3e504e0924c5:ae24090123b8c72ac5404dc152847cb8
-https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/8m8cd46i1t/out/v1/83985c68e4174e90a58a1f2c024be4c9/cenc.mpd
-#EXTINF:-1 tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg"  group-title="EVENT TV 2" type="live" radio="false",00:30 WIB ca osasuna vs malaga | Spanish La Liga | Server 1 | KickLive
-https://apxvf0ws91.yarncdn.live/live/sd-6MweaGyxWLnbAkweZE/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg"  group-title="EVENT TV 2" type="live" radio="false",00:30 WIB ca osasuna vs malaga | Spanish La Liga | Server 2 | KickLive
-https://apxvf0ws91.yarncdn.live/live/hd-en-6MweaGyxWLnbAkweZE/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg"  group-title="EVENT TV 2" type="live" radio="false",00:30 WIB girona fc vs eibar | Spanish Segunda Division | KickLive
-https://apxvf0ws91.yarncdn.live/live/sd-6MweaARkDsAdD2XW2t/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg"  group-title="EVENT TV 2" type="live" radio="false",00:30 WIB Osasuna vs Malaga CF | Football | DAZN SPORTS - AQ
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=0e45debb64d6115a7b4ab8f61f95b612:3e5fc036f1351cfcbecb57e981b3f1e2
-https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/nrfah8vidq/out/v1/56e4384c751b491d95d0034f42d6f4ee/cenc.mpd
-#EXTINF:-1 tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg"  group-title="EVENT TV 2" type="live" radio="false",00:30 WIB Osasuna vs Malaga CF | Football | PREMIER SPORTS - AQ
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=1444f4235529f183f0a5a486befe9cdb:e5e3fec67a1bb3472a2089c8a0a2557f
-https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/m6sqanvm2m/out/v1/f6beb46c6e9a4132ad739f3ca27df6aa/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
-#EXTINF:-1 tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg"  group-title="EVENT TV 2" type="live" radio="false",00:30 WIB Osasuna vs Malaga CF | Football | beIN ENGLISH - AQ
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=7995c724a13748ed970840a8ab5bb9b3:67bdaf1e2175b9ff682fcdf0e2354b1e
-https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
-#EXTINF:-1 tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg"  group-title="EVENT TV 2" type="live" radio="false",00:30 WIB Osasuna vs Malaga CF | Football | FANCODE - AQ
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=1994b1df7dfd2e8a8d7b9bf3fb900285:22a1444b3da18e139191665b3d652835
-https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/avqlywnuzx/out/v1/aefca6420f944a9482e117f315de535f/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
-#EXTINF:-1 tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg"  group-title="EVENT TV 2" type="live" radio="false",00:30 WIB Osasuna vs Malaga CF | Football | FANCODE - LQ
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=5318e462b9e0677487cb87837f0bbdb1:4fa0fb973b95738306005f2e8591bf8e
-https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash-sd/enc/eayjamsonn/out/v1/6c25cddab58043a6ace0ac64d97983f0/cenc-sd.mpd
-#EXTINF:-1 tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg"  group-title="EVENT TV 2" type="live" radio="false",00:30 WIB Osasuna vs Malaga CF | Football | HD SERVER
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-https://www.rtmpcdn.com/live/23dfb3c5-830b-4054-85bd-686224fef1cf.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc
-#EXTINF:-1 tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg"  group-title="EVENT TV 2" type="live" radio="false",00:30 WIB Girona FC vs Eibar | Football | LaLiga Hypermotion
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=a88617e904504ee291f49f0e60a51d49:17f92d59fde3b6d2bf4ffb48e8ca720a
-https://cache07.zapitv.com/live/eds_c2/HYPERMOTION1/dash_live_ez/HYPERMOTION1.mpd
-#EXTINF:-1  tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg" group-title="EVENT TV 2" type="live" radio="false",00:30 WIB Osasuna vs Málaga
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=7995c724a13748ed970840a8ab5bb9b3:67bdaf1e2175b9ff682fcdf0e2354b1e
-https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd
+#EXTINF:-1 tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg"  group-title="EVENT TV 2" type="live" radio="false",04:25 WIB PERUVIAN VOLEYBALL LEAGUE - Geminis vs PERU
+https://live-evg20.tv360.bitel.com.pe/a9ZXDX0YmxeSY4_lhbKcZg/1795469019/bitel/Latina-UDP_abr/bitel/Latina-udp_720p/chunks.m3u8
 #EXTINF:-1 tvg-logo="https://i.ytimg.com/vi/X0nSArXZS3Y/maxresdefault.jpg"  group-title="EVENT TV 2" type="live" radio="false",决赛精彩回放 2026China香港Open Badminton | HUYA CN
-http://al.flv.huya.com/src/35184701760921-35184701760921-1415930840659001344-2479087855028-10057-A-0-1.flv?wsSecret=04b84d1c55c987382517398721294470&wsTime=6b047c90&fm=RFdxOEJjSjNoNkRKdDZUWV8kMF8kMV8kMl8kMw%3D%3D
+http://al.flv.huya.com/src/35184701760921-35184701760921-1415930840659001344-2479087855028-10057-A-0-1.flv?wsSecret=492c0235e3fa0785ad3f5d9b247ad3c1&wsTime=6b04cdad&fm=RFdxOEJjSjNoNkRKdDZUWV8kMF8kMV8kMl8kMw%3D%3D
 #EXTINF:-1 tvg-logo="https://i.ytimg.com/vi/X0nSArXZS3Y/maxresdefault.jpg"  group-title="EVENT TV 2" type="live" radio="false",王祉怡力克李美妙夺得女单冠军 2026China香港Open Badminton | HUYA CN
-http://al.flv.huya.com/src/1616275478-1616275478-6941850319336767488-2895636156-10057-A-0-1-imgplus.flv?wsSecret=9455395c63cda6ed250bae6f57435ad2&wsTime=6b047c92&fm=RFdxOEJjSjNoNkRKdDZUWV8kMF8kMV8kMl8kMw%3D%3D
-#EXTINF:-1 tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg"  group-title="EVENT TV 2" type="live" radio="false",liverpool vs manchester united --- ch 2 | English Premier League | PlayZ
+http://al.flv.huya.com/src/1616275478-1616275478-6941850319336767488-2895636156-10057-A-0-1-imgplus.flv?wsSecret=e0caf66f2263ac75467dd4a75401408b&wsTime=6b04cdb4&fm=RFdxOEJjSjNoNkRKdDZUWV8kMF8kMV8kMl8kMw%3D%3D
+#EXTINF:-1 tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg"  group-title="EVENT TV 2" type="live" radio="false",miami heat vs oklahoma city thunder --- ch 1 | Basket NBA | PlayZ
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-origin=http://www.fawanews.sc
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
-https://www.rtmpcdn.com/live/c9af7ae1-65c7-4a0a-ae40-ab2f4d1655d7.m3u8
-#EXTINF:-1 tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg"  group-title="EVENT TV 2" type="live" radio="false",liverpool vs manchester united --- ch 3 | English Premier League | PlayZ
+http://193.47.62.44/hls/qnnn.m3u8
+#EXTINF:-1 tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg"  group-title="EVENT TV 2" type="live" radio="false",miami heat vs oklahoma city thunder --- ch 2 | Basket NBA | PlayZ
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-origin=http://www.fawanews.sc
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
-https://www.rtmpcdn.com/live/migu1.m3u8
-#EXTINF:-1 tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg"  group-title="EVENT TV 2" type="live" radio="false",ac milan vs frosinone --- ch 1 | Italian Serie A | PlayZ
+https://www.rtmpcdn.com/live/0258268f-73f4-45e5-9163-92611c2898a5.m3u8
+#EXTINF:-1 tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg"  group-title="EVENT TV 2" type="live" radio="false",atlanta hawks vs detroit pistons --- ch 1 | Basket NBA | PlayZ
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-origin=http://www.fawanews.sc
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
-http://193.47.62.44/hls/5JJJA.m3u8
-#EXTINF:-1 tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg"  group-title="EVENT TV 2" type="live" radio="false",ac milan vs frosinone --- ch 2 | Italian Serie A | PlayZ
+http://193.47.62.55/hls/QYYYQAA.m3u8
+#EXTINF:-1 tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg"  group-title="EVENT TV 2" type="live" radio="false",atlanta hawks vs detroit pistons --- ch 2 | Basket NBA | PlayZ
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-origin=http://www.fawanews.sc
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
-https://www.rtmpcdn.com/live/6c4088fe-695d-4e61-8d0f-24f9fdffb971.m3u8
-#EXTINF:-1 tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg"  group-title="EVENT TV 2" type="live" radio="false",sassuolo vs genoa --- ch 1 | Italian Serie A | PlayZ
+https://www.rtmpcdn.com/live/fdb34867-9603-4ffb-b801-87fe6c4fc3ce.m3u8
+#EXTINF:-1 tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg"  group-title="EVENT TV 2" type="live" radio="false",golden state warriors vs boston celtics | Basket NBA | PlayZ
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-origin=http://www.fawanews.sc
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
-http://193.47.62.44/hls/Z666AAAAQQQQAA.m3u8
-#EXTINF:-1 tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg"  group-title="EVENT TV 2" type="live" radio="false",sassuolo vs genoa --- ch 2 | Italian Serie A | PlayZ
+http://193.47.62.44/hls/EUUUA.m3u8
+#EXTINF:-1 tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg"  group-title="EVENT TV 2" type="live" radio="false",new york knicks vs indiana pacers | Basket NBA | PlayZ
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-origin=http://www.fawanews.sc
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
-https://www.rtmpcdn.com/live/00a39311-1247-43e3-844e-6b5ce0ed7453.m3u8
-#EXTINF:-1 tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg"  group-title="EVENT TV 2" type="live" radio="false",bologna vs udinese --- ch 1 | Italian Serie A | PlayZ
+http://193.47.62.59/hls/EUUUAA.m3u8
+#EXTINF:-1 tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg"  group-title="EVENT TV 2" type="live" radio="false",washington wizards vs orlando magic | Basket NBA | PlayZ
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-origin=http://www.fawanews.sc
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
-http://193.47.62.44/hls/Z666AAAAQQQQA.m3u8
-#EXTINF:-1 tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg"  group-title="EVENT TV 2" type="live" radio="false",bologna vs udinese --- ch 2 | Italian Serie A | PlayZ
+http://193.47.62.59/hls/EUUUAAA.m3u8
+#EXTINF:-1 tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg"  group-title="EVENT TV 2" type="live" radio="false",utah jazz vs dallas mavericks | Basket NBA | PlayZ
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-origin=http://www.fawanews.sc
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
-https://www.rtmpcdn.com/live/708074ce-898e-4b27-a1a8-d7e3e5e701e8.m3u8
-#EXTINF:-1 tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg"  group-title="EVENT TV 2" type="live" radio="false",fiorentina w vs como 1907 w | Italian Serie A | PlayZ
+http://193.47.62.59/hls/EUUUAAAA.m3u8
+#EXTINF:-1 tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg"  group-title="EVENT TV 2" type="live" radio="false",chicago bulls vs denver nuggets | Basket NBA | PlayZ
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-origin=http://www.fawanews.sc
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
-http://193.47.62.44/hls/DOOOOAAAAQQQQ.m3u8
-#EXTINF:-1 tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg"  group-title="EVENT TV 2" type="live" radio="false",osasuna vs malaga --- ch 1 | Spanish La Liga | PlayZ
+http://193.47.62.44/hls/EUUU.m3u8
+#EXTINF:-1  tvg-name="Miami Heat vs Oklahoma City Thunder --- CH 1" tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg" group-title="EVENT TV 2" type="live" radio="false",miami heat vs oklahoma city thunder --- ch 1 | Basket NBA | PlayZ
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-origin=http://www.fawanews.sc
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
-http://193.47.62.44/hls/Q333.m3u8
-#EXTINF:-1 tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg"  group-title="EVENT TV 2" type="live" radio="false",osasuna vs malaga --- ch 2 | Spanish La Liga | PlayZ
+http://193.47.62.44/hls/qnnn.m3u8
+#EXTINF:-1  tvg-name="Miami Heat vs Oklahoma City Thunder --- CH 2" tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg" group-title="EVENT TV 2" type="live" radio="false",miami heat vs oklahoma city thunder --- ch 2 | Basket NBA | PlayZ
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-origin=http://www.fawanews.sc
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
-https://www.rtmpcdn.com/live/23dfb3c5-830b-4054-85bd-686224fef1cf.m3u8
-#EXTINF:-1 tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg"  group-title="EVENT TV 2" type="live" radio="false",racing santander vs real sociedad --- ch 1 | Spanish La Liga | PlayZ
+https://www.rtmpcdn.com/live/0258268f-73f4-45e5-9163-92611c2898a5.m3u8
+#EXTINF:-1  tvg-name="Atlanta Hawks vs Detroit Pistons --- CH 1" tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg" group-title="EVENT TV 2" type="live" radio="false",atlanta hawks vs detroit pistons --- ch 1 | Basket NBA | PlayZ
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-origin=http://www.fawanews.sc
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
-http://193.47.62.44/hls/H555AAAAA.m3u8
-#EXTINF:-1 tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg"  group-title="EVENT TV 2" type="live" radio="false",racing santander vs real sociedad --- ch 2 | Spanish La Liga | PlayZ
+http://193.47.62.55/hls/QYYYQAA.m3u8
+#EXTINF:-1  tvg-name="Atlanta Hawks vs Detroit Pistons --- CH 2" tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg" group-title="EVENT TV 2" type="live" radio="false",atlanta hawks vs detroit pistons --- ch 2 | Basket NBA | PlayZ
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-origin=http://www.fawanews.sc
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
-https://www.rtmpcdn.com/live/2e7292fd-9c50-4fa9-b810-fb3875f439c2.m3u8
-#EXTINF:-1 tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg"  group-title="EVENT TV 2" type="live" radio="false",werder bremen vs hamburger sv --- ch 1 | Germany Bundesliga | PlayZ
+https://www.rtmpcdn.com/live/fdb34867-9603-4ffb-b801-87fe6c4fc3ce.m3u8
+#EXTINF:-1  tvg-name="Golden State Warriors vs Boston Celtics" tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg" group-title="EVENT TV 2" type="live" radio="false",golden state warriors vs boston celtics | Basket NBA | PlayZ
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-origin=http://www.fawanews.sc
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
-http://193.47.62.44/hls/K444QQQQ.m3u8
-#EXTINF:-1 tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg"  group-title="EVENT TV 2" type="live" radio="false",werder bremen vs hamburger sv --- ch 2 | Germany Bundesliga | PlayZ
+http://193.47.62.44/hls/EUUUA.m3u8
+#EXTINF:-1  tvg-name="New York Knicks vs Indiana Pacers" tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg" group-title="EVENT TV 2" type="live" radio="false",new york knicks vs indiana pacers | Basket NBA | PlayZ
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-origin=http://www.fawanews.sc
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
-https://www.rtmpcdn.com/live/e569c402-fcc2-4384-91bb-9dde3a006ed2.m3u8
-#EXTINF:-1 tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg"  group-title="EVENT TV 2" type="live" radio="false",rb leipzig w vs wolfsburg w | Germany Bundesliga | PlayZ
+http://193.47.62.59/hls/EUUUAA.m3u8
+#EXTINF:-1  tvg-name="Washington Wizards vs Orlando Magic" tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg" group-title="EVENT TV 2" type="live" radio="false",washington wizards vs orlando magic | Basket NBA | PlayZ
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-origin=http://www.fawanews.sc
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
-http://193.47.62.44/hls/QIIIQQQQ.m3u8
-#EXTINF:-1 tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg"  group-title="EVENT TV 2" type="live" radio="false",augsburg vs mainz --- ch 1 | Germany Bundesliga | PlayZ
+http://193.47.62.59/hls/EUUUAAA.m3u8
+#EXTINF:-1  tvg-name="Utah Jazz vs Dallas Mavericks" tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg" group-title="EVENT TV 2" type="live" radio="false",utah jazz vs dallas mavericks | Basket NBA | PlayZ
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-origin=http://www.fawanews.sc
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
-http://193.47.62.44/hls/E444.m3u8
-#EXTINF:-1 tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg"  group-title="EVENT TV 2" type="live" radio="false",augsburg vs mainz --- ch 2 | Germany Bundesliga | PlayZ
+http://193.47.62.59/hls/EUUUAAAA.m3u8
+#EXTINF:-1  tvg-name="Chicago Bulls vs Denver Nuggets" tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg" group-title="EVENT TV 2" type="live" radio="false",chicago bulls vs denver nuggets | Basket NBA | PlayZ
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-origin=http://www.fawanews.sc
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
-https://www.rtmpcdn.com/live/8271ffe3-7b9d-427c-bb60-c6e5a9452f21.m3u8
-#EXTINF:-1 tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg"  group-title="EVENT TV 2" type="live" radio="false",lorient vs rennes --- ch 1 | France Ligue 1 | PlayZ
+http://193.47.62.44/hls/EUUU.m3u8
+#EXTINF:-1  tvg-name="Vancouver Whitecaps vs Real Salt Lake" tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg" group-title="EVENT TV 2" type="live" radio="false",vancouver whitecaps vs real salt lake
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-origin=http://www.fawanews.sc
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
-http://193.47.62.44/hls/KIIIAAAAQQ.m3u8
-#EXTINF:-1 tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg"  group-title="EVENT TV 2" type="live" radio="false",lorient vs rennes --- ch 2 | France Ligue 1 | PlayZ
+http://193.47.62.41/hls/KIKIKIAAAAQ.m3u8
+#EXTINF:-1  tvg-name="Chicago Fire vs Charlotte" tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg" group-title="EVENT TV 2" type="live" radio="false",chicago fire vs charlotte
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-origin=http://www.fawanews.sc
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
-https://www.rtmpcdn.com/live/28537120-a70c-4aa0-8049-22788a9235df.m3u8
-#EXTINF:-1 tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg"  group-title="EVENT TV 2" type="live" radio="false",paris fc vs angers --- ch 1 | France Ligue 1 | PlayZ
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-#EXTVLCOPT:http-origin=http://www.fawanews.sc
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
-http://193.47.62.44/hls/DOOOO.m3u8
-#EXTINF:-1 tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg"  group-title="EVENT TV 2" type="live" radio="false",paris fc vs angers --- ch 2 | France Ligue 1 | PlayZ
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-#EXTVLCOPT:http-origin=http://www.fawanews.sc
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
-https://www.rtmpcdn.com/live/7617d0d0-4bc2-4de7-a350-4df2209730e3.m3u8
-#EXTINF:-1 tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg"  group-title="EVENT TV 2" type="live" radio="false",23:00 WIB Trabzonspor vs Eyupspor | Football | beIN SPORTS - AQ
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=4fce30c060b7b0464ab765e24fee5ecc:65d612238736eec3794c7e75a6fd362c
-https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/n7hbpksb18/out/v1/be5403be4a674a7da8b3c81b1fe79692/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
-#EXTINF:-1 tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg"  group-title="EVENT TV 2" type="live" radio="false",23:15 WIB lorient vs rrennes | French Ligue 1 | Server 1 | KickLive
-https://apxvf0ws91.yarncdn.live/live/sd-6MwdpxgYo2k1jQ31DA/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg"  group-title="EVENT TV 2" type="live" radio="false",23:15 WIB lorient vs rrennes | French Ligue 1 | Server 2 | KickLive
-https://apxvf0ws91.yarncdn.live/live/hd-en-6MwdpxgYo2k1jQ31DA/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg"  group-title="EVENT TV 2" type="live" radio="false",23:15 WIB arezzo vs padova | Italian Serie B | KickLive
-https://apxvf0ws91.yarncdn.live/live/sd-6MwarbSUu3wochBgnc/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg"  group-title="EVENT TV 2" type="live" radio="false",23:15 WIB Lorient vs Stade Rennais | Football | DAZN SPORTS - AQ
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=e6f9f8bbfebd72b59c574c0a41eb3428:8474301f577a6d96bef1d0948e15f93c
-https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/miwbmarb3l/out/v1/007d286b3b0f4079af90e3dd97299866/cenc.mpd
-#EXTINF:-1 tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg"  group-title="EVENT TV 2" type="live" radio="false",23:15 WIB Lorient vs Stade Rennais | Football | beIN SPORTS - AQ
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=4b17f5cd91d6b9dde66cf11dac2c7805:ffc6dd5e62c688c5f8e131649df94a2d
-https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/penehwquxc/out/v1/e01e96068c20482280b810b34aa66a6e/cenc.mpd
-#EXTINF:-1 tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg"  group-title="EVENT TV 2" type="live" radio="false",23:30 WIB liverpool vs mman utd | English Premier League | Server 1 | KickLive
-https://apxvf0ws91.yarncdn.live/live/sd-6MwdqQgoAYNsXZz8xg/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg"  group-title="EVENT TV 2" type="live" radio="false",23:30 WIB liverpool vs mman utd | English Premier League | Server 2 | KickLive
-https://apxvf0ws91.yarncdn.live/live/hd-en-6MwdqQgoAYNsXZz8xg/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg"  group-title="EVENT TV 2" type="live" radio="false",23:30 WIB wwerder bremen vs hamburger sv | Bundesliga | Server 1 | KickLive
-https://apxvf0ws91.yarncdn.live/live/sd-6MweaDhV85kKYNvGUG/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg"  group-title="EVENT TV 2" type="live" radio="false",23:30 WIB wwerder bremen vs hamburger sv | Bundesliga | Server 2 | KickLive
-https://apxvf0ws91.yarncdn.live/live/hd-en-6MweaDhV85kKYNvGUG/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg"  group-title="EVENT TV 2" type="live" radio="false",23:30 WIB ddesenzano calvina vs albinoleffe | Italian Serie C | KickLive
-https://apxvf0ws91.yarncdn.live/live/sd-6MxiZy7hLvYS9sZzFr/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg"  group-title="EVENT TV 2" type="live" radio="false",23:30 WIB aac dolomiti bellunesi vs carpi | Italian Serie C | KickLive
-https://apxvf0ws91.yarncdn.live/live/sd-6MxiZy7hLtLxHPk56x/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg"  group-title="EVENT TV 2" type="live" radio="false",23:30 WIB forli vs a.c. reggiana 1919 | Italian Serie C | KickLive
-https://apxvf0ws91.yarncdn.live/live/sd-6MxiZyAeHVQDXJBgDn/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg"  group-title="EVENT TV 2" type="live" radio="false",23:30 WIB us sambenedettese vs perugia | Italian Serie C | KickLive
-https://apxvf0ws91.yarncdn.live/live/sd-6MxiZyAenSdLTqMqQk/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg"  group-title="EVENT TV 2" type="live" radio="false",23:30 WIB aaz picerno asd vs ggiugliano | Italian Serie C | KickLive
-https://apxvf0ws91.yarncdn.live/live/sd-6MxiZuqDnd3ptMckXJ/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg"  group-title="EVENT TV 2" type="live" radio="false",23:30 WIB SV Werder Bremen vs Hamburger SV | Football | DAZN SPORTS - AQ
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=b8c395aaeb59affca7383e7e5b9af2af:28c98b32e70043d5906f403332756117
-https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/puuhoopgwu/out/v1/6a0fb0a7b29f4ef7851e90c140342bae/cenc.mpd
-#EXTINF:-1 tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg"  group-title="EVENT TV 2" type="live" radio="false",23:30 WIB SV Werder Bremen vs Hamburger SV | Football | PEACOCK ES - AQ
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=ba55e0bd939246e8a2d8225b16a5c484:29a2bb0e29a65943a7a81b4eaf33b0c8
-https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/q9nfns9xj4/out/v1/32f4ea3ea65a4e0389d95b5876e0c47a/cenc.mpd
-#EXTINF:-1 tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg"  group-title="EVENT TV 2" type="live" radio="false",23:30 WIB SV Werder Bremen vs Hamburger SV | Football | HD SERVER
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+http://193.47.62.41/hls/KIKIKIAA.m3u8
+#EXTINF:-1  tvg-name="Nashville SC vs FC Cincinnati --- CH 1" tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg" group-title="EVENT TV 2" type="live" radio="false",nashville sc vs fc cincinnati --- ch 1
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-https://www.rtmpcdn.com/live/2e7292fd-9c50-4fa9-b810-fb3875f439c2.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc
-#EXTINF:-1 tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg"  group-title="EVENT TV 2" type="live" radio="false",23:30 WIB Liverpool FC vs Manchester United | Football | SKY SPORT PL - AQ
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=1106fb025da5b31657618344099c6c14:788284538616a73b56214e90196a6e0f
-https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/qdbhkwig26/out/v1/c3a69dfec0434abea00756cd73e749ff/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
-#EXTINF:-1 tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg"  group-title="EVENT TV 2" type="live" radio="false",23:30 WIB Liverpool FC vs Manchester United | Football | SKY SPORTS EPL
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 Edg/141.0.0.0
-https://bl.rutube.ru/livestream/e5bacac3b8e730791d4cab20ae81cd8f/index.m3u8?s=Dxx13S3dlOjavbRFqRtQ6g&e=2075285630&scheme=|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 Edg/141.0.0.0
-#EXTINF:-1 tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg"  group-title="EVENT TV 2" type="live" radio="false",23:30 WIB Liverpool FC vs Manchester United | Football | HD SERVER
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-https://www.rtmpcdn.com/live/c9af7ae1-65c7-4a0a-ae40-ab2f4d1655d7.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc
-#EXTINF:-1  tvg-name="Liverpool vs Manchester United --- CH 2" tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg" group-title="EVENT TV 2" type="live" radio="false",liverpool vs manchester united --- ch 2 | English Premier League | PlayZ
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-#EXTVLCOPT:http-origin=http://www.fawanews.sc
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
-https://www.rtmpcdn.com/live/c9af7ae1-65c7-4a0a-ae40-ab2f4d1655d7.m3u8
-#EXTINF:-1  tvg-name="Liverpool vs Manchester United --- CH 3" tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg" group-title="EVENT TV 2" type="live" radio="false",liverpool vs manchester united --- ch 3 | English Premier League | PlayZ
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-#EXTVLCOPT:http-origin=http://www.fawanews.sc
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
-https://www.rtmpcdn.com/live/migu1.m3u8
-#EXTINF:-1  tvg-name="AC Milan vs Frosinone --- CH 1" tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg" group-title="EVENT TV 2" type="live" radio="false",ac milan vs frosinone --- ch 1 | Italian Serie A | PlayZ
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-#EXTVLCOPT:http-origin=http://www.fawanews.sc
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
-http://193.47.62.44/hls/5JJJA.m3u8
-#EXTINF:-1  tvg-name="AC Milan vs Frosinone --- CH 2" tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg" group-title="EVENT TV 2" type="live" radio="false",ac milan vs frosinone --- ch 2 | Italian Serie A | PlayZ
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-#EXTVLCOPT:http-origin=http://www.fawanews.sc
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
-https://www.rtmpcdn.com/live/6c4088fe-695d-4e61-8d0f-24f9fdffb971.m3u8
-#EXTINF:-1  tvg-name="Sassuolo vs Genoa --- CH 1" tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg" group-title="EVENT TV 2" type="live" radio="false",sassuolo vs genoa --- ch 1 | Italian Serie A | PlayZ
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-#EXTVLCOPT:http-origin=http://www.fawanews.sc
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
-http://193.47.62.44/hls/Z666AAAAQQQQAA.m3u8
-#EXTINF:-1  tvg-name="Sassuolo vs Genoa --- CH 2" tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg" group-title="EVENT TV 2" type="live" radio="false",sassuolo vs genoa --- ch 2 | Italian Serie A | PlayZ
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-#EXTVLCOPT:http-origin=http://www.fawanews.sc
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
-https://www.rtmpcdn.com/live/00a39311-1247-43e3-844e-6b5ce0ed7453.m3u8
-#EXTINF:-1  tvg-name="Bologna vs Udinese --- CH 1" tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg" group-title="EVENT TV 2" type="live" radio="false",bologna vs udinese --- ch 1 | Italian Serie A | PlayZ
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-#EXTVLCOPT:http-origin=http://www.fawanews.sc
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
-http://193.47.62.44/hls/Z666AAAAQQQQA.m3u8
-#EXTINF:-1  tvg-name="Bologna vs Udinese --- CH 2" tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg" group-title="EVENT TV 2" type="live" radio="false",bologna vs udinese --- ch 2 | Italian Serie A | PlayZ
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-#EXTVLCOPT:http-origin=http://www.fawanews.sc
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
-https://www.rtmpcdn.com/live/708074ce-898e-4b27-a1a8-d7e3e5e701e8.m3u8
-#EXTINF:-1  tvg-name="Fiorentina W vs Como 1907 W" tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg" group-title="EVENT TV 2" type="live" radio="false",fiorentina w vs como 1907 w | Italian Serie A | PlayZ
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-#EXTVLCOPT:http-origin=http://www.fawanews.sc
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
-http://193.47.62.44/hls/DOOOOAAAAQQQQ.m3u8
-#EXTINF:-1  tvg-name="PAOK vs Kifisia" tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg" group-title="EVENT TV 2" type="live" radio="false",paok vs kifisia
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-#EXTVLCOPT:http-origin=http://www.fawanews.sc
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
-http://193.47.62.44/hls/rararaAAAA.m3u8
-#EXTINF:-1  tvg-name="Olympiacos vs Iraklis 1908" tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg" group-title="EVENT TV 2" type="live" radio="false",olympiacos vs iraklis 1908
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-#EXTVLCOPT:http-origin=http://www.fawanews.sc
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
-http://193.47.62.44/hls/AHHHAA.m3u8
-#EXTINF:-1  tvg-name="Panetolikos vs Volos" tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg" group-title="EVENT TV 2" type="live" radio="false",panetolikos vs volos
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-#EXTVLCOPT:http-origin=http://www.fawanews.sc
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
-http://193.47.62.44/hls/H555.m3u8
-#EXTINF:-1  tvg-name="Levadiakos vs Atromitos" tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg" group-title="EVENT TV 2" type="live" radio="false",levadiakos vs atromitos
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-#EXTVLCOPT:http-origin=http://www.fawanews.sc
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
-http://193.47.62.44/hls/Z666A.m3u8
-#EXTINF:-1  tvg-name="Apollon vs Omonia 29th May" tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg" group-title="EVENT TV 2" type="live" radio="false",apollon vs omonia 29th may
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-#EXTVLCOPT:http-origin=http://www.fawanews.sc
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
-http://193.47.62.44/hls/5JJJ.m3u8
-#EXTINF:-1  tvg-name="Karmiotissa vs AEL Limassol" tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg" group-title="EVENT TV 2" type="live" radio="false",karmiotissa vs ael limassol
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-#EXTVLCOPT:http-origin=http://www.fawanews.sc
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
-http://193.47.62.44/hls/QIIIQQQ.m3u8
-#EXTINF:-1  tvg-name="FC Arges vs FCSB" tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg" group-title="EVENT TV 2" type="live" radio="false",fc arges vs fcsb | Romania Superliga | PlayZ
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-#EXTVLCOPT:http-origin=http://www.fawanews.sc
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
-http://193.47.62.44/hls/Q333AAAAA.m3u8
-#EXTINF:-1  tvg-name="UTA Arad vs Univ Craiova" tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg" group-title="EVENT TV 2" type="live" radio="false",uta arad vs univ craiova | Romania Superliga | PlayZ
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-#EXTVLCOPT:http-origin=http://www.fawanews.sc
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
-http://193.47.62.44/hls/DUUUVVVAA.m3u8
-#EXTINF:-1  tvg-name="Duisburg vs Hansa Rostock" tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg" group-title="EVENT TV 2" type="live" radio="false",duisburg vs hansa rostock
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-#EXTVLCOPT:http-origin=http://www.fawanews.sc
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
-http://193.47.62.44/hls/Q333AAAAAA.m3u8
-#EXTINF:-1  tvg-name="Saarbrucken vs Wehen" tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg" group-title="EVENT TV 2" type="live" radio="false",saarbrucken vs wehen
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-#EXTVLCOPT:http-origin=http://www.fawanews.sc
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
-http://193.47.62.44/hls/DUUUVVVAAAA.m3u8
-#EXTINF:-1  tvg-name="Lommel SK vs Standard Liege" tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg" group-title="EVENT TV 2" type="live" radio="false",lommel sk vs standard liege | Belgium pro league | PlayZ
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-#EXTVLCOPT:http-origin=http://www.fawanews.sc
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
-http://193.47.62.44/hls/Q333AAAA.m3u8
-#EXTINF:-1  tvg-name="Gent U23 vs Francs Borains" tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg" group-title="EVENT TV 2" type="live" radio="false",gent u23 vs francs borains | Belgium pro league | PlayZ
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-#EXTVLCOPT:http-origin=http://www.fawanews.sc
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
-http://193.47.62.44/hls/Q333AAA.m3u8
-#EXTINF:-1  tvg-name="RSC Anderlecht vs Leuven --- CH 1" tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg" group-title="EVENT TV 2" type="live" radio="false",rsc anderlecht vs leuven --- ch 1 | Belgium pro league | PlayZ
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-#EXTVLCOPT:http-origin=http://www.fawanews.sc
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
-http://193.47.62.44/hls/rararaAAAAAQ.m3u8
-#EXTINF:-1  tvg-name="RSC Anderlecht vs Leuven --- CH 2" tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg" group-title="EVENT TV 2" type="live" radio="false",rsc anderlecht vs leuven --- ch 2 | Belgium pro league | PlayZ
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-#EXTVLCOPT:http-origin=http://www.fawanews.sc
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
-https://www.rtmpcdn.com/live/302e8eac-976f-43b9-a205-bb853a6c6aa2.m3u8
-#EXTINF:-1  tvg-name="Kortrijk vs Royale Union SG --- CH 1" tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg" group-title="EVENT TV 2" type="live" radio="false",kortrijk vs royale union sg --- ch 1 | Belgium pro league | PlayZ
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-#EXTVLCOPT:http-origin=http://www.fawanews.sc
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
-http://193.47.62.44/hls/H555AAA.m3u8
-#EXTINF:-1  tvg-name="Kortrijk vs Royale Union SG --- CH 2" tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg" group-title="EVENT TV 2" type="live" radio="false",kortrijk vs royale union sg --- ch 2 | Belgium pro league | PlayZ
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-#EXTVLCOPT:http-origin=http://www.fawanews.sc
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
-https://www.rtmpcdn.com/live/30182640-8dd1-45d6-9ec9-8f11f99417eb.m3u8
-#EXTINF:-1  tvg-name="Beerschot VA vs Genk U23" tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg" group-title="EVENT TV 2" type="live" radio="false",beerschot va vs genk u23 | Belgium pro league | PlayZ
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-#EXTVLCOPT:http-origin=http://www.fawanews.sc
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
-http://193.47.62.44/hls/H555AA.m3u8
-#EXTINF:-1  tvg-name="Sarpsborg 08 vs Lillestrom" tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg" group-title="EVENT TV 2" type="live" radio="false",sarpsborg 08 vs lillestrom
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-#EXTVLCOPT:http-origin=http://www.fawanews.sc
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
-http://193.47.62.44/hls/Q333AA.m3u8
-#EXTINF:-1  tvg-name="Kristiansund vs Sandefjord" tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg" group-title="EVENT TV 2" type="live" radio="false",kristiansund vs sandefjord
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-#EXTVLCOPT:http-origin=http://www.fawanews.sc
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
-http://193.47.62.44/hls/diiiAAAAA.m3u8
-#EXTINF:-1  tvg-name="KFUM Oslo vs Brann" tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg" group-title="EVENT TV 2" type="live" radio="false",kfum oslo vs brann
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-#EXTVLCOPT:http-origin=http://www.fawanews.sc
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
-http://193.47.62.44/hls/diiiAAAA.m3u8
-#EXTINF:-1  tvg-name="Aalesund vs Rosenborg" tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg" group-title="EVENT TV 2" type="live" radio="false",aalesund vs rosenborg
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-#EXTVLCOPT:http-origin=http://www.fawanews.sc
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
-http://193.47.62.44/hls/diiiAAA.m3u8
-#EXTINF:-1  tvg-name="Barcelona W vs Athletic Bilbao W" tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg" group-title="EVENT TV 2" type="live" radio="false",barcelona w vs athletic bilbao w
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-#EXTVLCOPT:http-origin=http://www.fawanews.sc
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
-http://193.47.62.44/hls/Q333A.m3u8
-#EXTINF:-1  tvg-name="Costa Adeje Tenerife W vs Madrid CFF W" tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg" group-title="EVENT TV 2" type="live" radio="false",costa adeje tenerife w vs madrid cff w
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-#EXTVLCOPT:http-origin=http://www.fawanews.sc
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
-http://193.47.62.44/hls/diiiAA.m3u8
-#EXTINF:-1  tvg-name="Osasuna vs Malaga --- CH 1" tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg" group-title="EVENT TV 2" type="live" radio="false",osasuna vs malaga --- ch 1 | Spanish La Liga | PlayZ
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-#EXTVLCOPT:http-origin=http://www.fawanews.sc
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
-http://193.47.62.44/hls/Q333.m3u8
-#EXTINF:-1  tvg-name="Osasuna vs Malaga --- CH 2" tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg" group-title="EVENT TV 2" type="live" radio="false",osasuna vs malaga --- ch 2 | Spanish La Liga | PlayZ
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-#EXTVLCOPT:http-origin=http://www.fawanews.sc
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
-https://www.rtmpcdn.com/live/23dfb3c5-830b-4054-85bd-686224fef1cf.m3u8
-#EXTINF:-1  tvg-name="Racing Santander vs Real Sociedad --- CH 1" tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg" group-title="EVENT TV 2" type="live" radio="false",racing santander vs real sociedad --- ch 1 | Spanish La Liga | PlayZ
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-#EXTVLCOPT:http-origin=http://www.fawanews.sc
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
-http://193.47.62.44/hls/H555AAAAA.m3u8
-#EXTINF:-1  tvg-name="Racing Santander vs Real Sociedad --- CH 2" tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg" group-title="EVENT TV 2" type="live" radio="false",racing santander vs real sociedad --- ch 2 | Spanish La Liga | PlayZ
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-#EXTVLCOPT:http-origin=http://www.fawanews.sc
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
-https://www.rtmpcdn.com/live/2e7292fd-9c50-4fa9-b810-fb3875f439c2.m3u8
-#EXTINF:-1  tvg-name="Girona vs Eibar" tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg" group-title="EVENT TV 2" type="live" radio="false",girona vs eibar | Divisi Segunda | PlayZ
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-#EXTVLCOPT:http-origin=http://www.fawanews.sc
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
-http://193.47.62.44/hls/rararaAA.m3u8
-#EXTINF:-1  tvg-name="Celta Vigo B vs Valladolid" tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg" group-title="EVENT TV 2" type="live" radio="false",celta vigo b vs valladolid | Divisi Segunda | PlayZ
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-#EXTVLCOPT:http-origin=http://www.fawanews.sc
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
-http://193.47.62.44/hls/rararaA.m3u8
-#EXTINF:-1  tvg-name="Gijon vs Las Palmas" tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg" group-title="EVENT TV 2" type="live" radio="false",gijon vs las palmas | Divisi Segunda | PlayZ
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-#EXTVLCOPT:http-origin=http://www.fawanews.sc
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
-http://193.47.62.44/hls/H555AAAA.m3u8
-#EXTINF:-1  tvg-name="Honved vs Paks" tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg" group-title="EVENT TV 2" type="live" radio="false",honved vs paks
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-#EXTVLCOPT:http-origin=http://www.fawanews.sc
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
-http://193.47.62.44/hls/rararaAAA.m3u8
-#EXTINF:-1  tvg-name="Nyiregyhaza vs Debrecen" tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg" group-title="EVENT TV 2" type="live" radio="false",nyiregyhaza vs debrecen
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-#EXTVLCOPT:http-origin=http://www.fawanews.sc
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
-http://193.47.62.44/hls/QIIIQQQQQ.m3u8
-#EXTINF:-1  tvg-name="New York Rangers vs Carolina Hurricanes" tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg" group-title="EVENT TV 2" type="live" radio="false",new york rangers vs carolina hurricanes
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-#EXTVLCOPT:http-origin=http://www.fawanews.sc
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
-https://live.kinescopecdn.net/on-air/5bf2c07e-3604-42cf-959a-67ed8914ffd5/a7fbcd06-aee1-48bd-91db-a2ced47bbf1c/master.m3u8
-#EXTINF:-1  tvg-name="Geita Gold vs Mashujaa" tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg" group-title="EVENT TV 2" type="live" radio="false",geita gold vs mashujaa
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-#EXTVLCOPT:http-origin=http://www.fawanews.sc
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
-http://193.47.62.44/hls/QIII.m3u8
-#EXTINF:-1  tvg-name="Kagera Sugar vs TRA United" tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg" group-title="EVENT TV 2" type="live" radio="false",kagera sugar vs tra united
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-#EXTVLCOPT:http-origin=http://www.fawanews.sc
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
-http://193.47.62.44/hls/QIII.m3u8
-#EXTINF:-1  tvg-name="Tennis ATP Finals - Turin" tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg" group-title="EVENT TV 2" type="live" radio="false",tennis atp finals - turin | ATP TOUR | PlayZ
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-#EXTVLCOPT:http-origin=http://www.fawanews.sc
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
-http://193.47.62.44/hls/G666AAAAA.m3u8
-#EXTINF:-1  tvg-name="Sparta Prague vs Liberec" tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg" group-title="EVENT TV 2" type="live" radio="false",sparta prague vs liberec
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-#EXTVLCOPT:http-origin=http://www.fawanews.sc
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
-http://193.47.62.44/hls/AHHHAAAA.m3u8
-#EXTINF:-1  tvg-name="Slovacko vs Hradec Kralove" tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg" group-title="EVENT TV 2" type="live" radio="false",slovacko vs hradec kralove
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-#EXTVLCOPT:http-origin=http://www.fawanews.sc
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
-http://193.47.62.44/hls/Z666AAAA.m3u8
-#EXTINF:-1  tvg-name="Nordsjaelland vs FC Copenhagen" tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg" group-title="EVENT TV 2" type="live" radio="false",nordsjaelland vs fc copenhagen
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-#EXTVLCOPT:http-origin=http://www.fawanews.sc
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
-http://193.47.62.44/hls/AHHHAAA.m3u8
-#EXTINF:-1  tvg-name="Sonderjyske vs Odense" tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg" group-title="EVENT TV 2" type="live" radio="false",sonderjyske vs odense
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-#EXTVLCOPT:http-origin=http://www.fawanews.sc
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
-http://193.47.62.44/hls/H555A.m3u8
-#EXTINF:-1  tvg-name="Dun Streda vs Komarno" tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg" group-title="EVENT TV 2" type="live" radio="false",dun streda vs komarno | Nike Liga | PlayZ
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-#EXTVLCOPT:http-origin=http://www.fawanews.sc
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
-http://193.47.62.44/hls/AHHHA.m3u8
-#EXTINF:-1  tvg-name="Kosice vs Skalica" tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg" group-title="EVENT TV 2" type="live" radio="false",kosice vs skalica | Nike Liga | PlayZ
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-#EXTVLCOPT:http-origin=http://www.fawanews.sc
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
-http://193.47.62.44/hls/E444AA.m3u8
-#EXTINF:-1  tvg-name="Rijeka vs Gorica" tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg" group-title="EVENT TV 2" type="live" radio="false",rijeka vs gorica
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-#EXTVLCOPT:http-origin=http://www.fawanews.sc
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
-http://193.47.62.44/hls/AHHH.m3u8
-#EXTINF:-1  tvg-name="Dinamo Zagreb vs Istra 1961" tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg" group-title="EVENT TV 2" type="live" radio="false",dinamo zagreb vs istra 1961
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-#EXTVLCOPT:http-origin=http://www.fawanews.sc
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
-http://193.47.62.44/hls/DOOOOAA.m3u8
-#EXTINF:-1  tvg-name="Werder Bremen vs Hamburger SV --- CH 1" tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg" group-title="EVENT TV 2" type="live" radio="false",werder bremen vs hamburger sv --- ch 1 | Germany Bundesliga | PlayZ
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-#EXTVLCOPT:http-origin=http://www.fawanews.sc
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
-http://193.47.62.44/hls/K444QQQQ.m3u8
-#EXTINF:-1  tvg-name="Werder Bremen vs Hamburger SV --- CH 2" tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg" group-title="EVENT TV 2" type="live" radio="false",werder bremen vs hamburger sv --- ch 2 | Germany Bundesliga | PlayZ
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-#EXTVLCOPT:http-origin=http://www.fawanews.sc
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
-https://www.rtmpcdn.com/live/e569c402-fcc2-4384-91bb-9dde3a006ed2.m3u8
-#EXTINF:-1  tvg-name="RB Leipzig W vs Wolfsburg W" tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg" group-title="EVENT TV 2" type="live" radio="false",rb leipzig w vs wolfsburg w | Germany Bundesliga | PlayZ
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-#EXTVLCOPT:http-origin=http://www.fawanews.sc
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
-http://193.47.62.44/hls/QIIIQQQQ.m3u8
-#EXTINF:-1  tvg-name="Augsburg vs Mainz --- CH 1" tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg" group-title="EVENT TV 2" type="live" radio="false",augsburg vs mainz --- ch 1 | Germany Bundesliga | PlayZ
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-#EXTVLCOPT:http-origin=http://www.fawanews.sc
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
-http://193.47.62.44/hls/E444.m3u8
-#EXTINF:-1  tvg-name="Augsburg vs Mainz --- CH 2" tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg" group-title="EVENT TV 2" type="live" radio="false",augsburg vs mainz --- ch 2 | Germany Bundesliga | PlayZ
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-#EXTVLCOPT:http-origin=http://www.fawanews.sc
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
-https://www.rtmpcdn.com/live/8271ffe3-7b9d-427c-bb60-c6e5a9452f21.m3u8
-#EXTINF:-1  tvg-name="Wisla Plock vs Legia Warsaw --- CH 1" tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg" group-title="EVENT TV 2" type="live" radio="false",wisla plock vs legia warsaw --- ch 1 | PrvaLiga Slovenia | PlayZ
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-#EXTVLCOPT:http-origin=http://www.fawanews.sc
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
-http://193.47.62.44/hls/K444Q.m3u8
-#EXTINF:-1  tvg-name="Wisla Plock vs Legia Warsaw --- CH 2" tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg" group-title="EVENT TV 2" type="live" radio="false",wisla plock vs legia warsaw --- ch 2 | PrvaLiga Slovenia | PlayZ
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-#EXTVLCOPT:http-origin=http://www.fawanews.sc
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
-https://www.rtmpcdn.com/live/0b9295c5-f18b-4e6c-8669-1d3b4a6886b7.m3u8
-#EXTINF:-1  tvg-name="GKS Katowice vs Lech Poznan" tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg" group-title="EVENT TV 2" type="live" radio="false",gks katowice vs lech poznan | PrvaLiga Slovenia | PlayZ
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-#EXTVLCOPT:http-origin=http://www.fawanews.sc
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
-http://193.47.62.44/hls/ZUUUAAQQQQQA.m3u8
-#EXTINF:-1  tvg-name="FK Sarajevo vs Siroki Brijeg" tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg" group-title="EVENT TV 2" type="live" radio="false",fk sarajevo vs siroki brijeg
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-#EXTVLCOPT:http-origin=http://www.fawanews.sc
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
-http://193.47.62.44/hls/K444QQQ.m3u8
-#EXTINF:-1  tvg-name="Celik Zenica vs Sloga Meridian" tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg" group-title="EVENT TV 2" type="live" radio="false",celik zenica vs sloga meridian
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-#EXTVLCOPT:http-origin=http://www.fawanews.sc
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
-http://193.47.62.44/hls/Z666AAAAQQ.m3u8
-#EXTINF:-1  tvg-name="Manta vs Delfin" tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg" group-title="EVENT TV 2" type="live" radio="false",manta vs delfin | Ecuador liga ecuabet | PlayZ
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-#EXTVLCOPT:http-origin=http://www.fawanews.sc
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
-http://193.47.62.44/hls/K444QQ.m3u8
-#EXTINF:-1  tvg-name="Celje vs Grosuplje" tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg" group-title="EVENT TV 2" type="live" radio="false",celje vs grosuplje | PrvaLiga Slovenia | PlayZ
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-#EXTVLCOPT:http-origin=http://www.fawanews.sc
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
-http://193.47.62.44/hls/K444.m3u8
-#EXTINF:-1  tvg-name="Maribor vs Nafta" tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg" group-title="EVENT TV 2" type="live" radio="false",maribor vs nafta | PrvaLiga Slovenia | PlayZ
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-#EXTVLCOPT:http-origin=http://www.fawanews.sc
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
-http://193.47.62.44/hls/DOOOOAAAAQQ.m3u8
-#EXTINF:-1  tvg-name="Lorient vs Rennes --- CH 1" tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg" group-title="EVENT TV 2" type="live" radio="false",lorient vs rennes --- ch 1 | France Ligue 1 | PlayZ
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-#EXTVLCOPT:http-origin=http://www.fawanews.sc
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
-http://193.47.62.44/hls/KIIIAAAAQQ.m3u8
-#EXTINF:-1  tvg-name="Lorient vs Rennes --- CH 2" tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg" group-title="EVENT TV 2" type="live" radio="false",lorient vs rennes --- ch 2 | France Ligue 1 | PlayZ
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-#EXTVLCOPT:http-origin=http://www.fawanews.sc
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
-https://www.rtmpcdn.com/live/28537120-a70c-4aa0-8049-22788a9235df.m3u8
-#EXTINF:-1  tvg-name="Paris FC vs Angers --- CH 1" tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg" group-title="EVENT TV 2" type="live" radio="false",paris fc vs angers --- ch 1 | France Ligue 1 | PlayZ
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-#EXTVLCOPT:http-origin=http://www.fawanews.sc
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
-http://193.47.62.44/hls/DOOOO.m3u8
-#EXTINF:-1  tvg-name="Paris FC vs Angers --- CH 2" tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg" group-title="EVENT TV 2" type="live" radio="false",paris fc vs angers --- ch 2 | France Ligue 1 | PlayZ
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-#EXTVLCOPT:http-origin=http://www.fawanews.sc
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
-https://www.rtmpcdn.com/live/7617d0d0-4bc2-4de7-a350-4df2209730e3.m3u8
-#EXTINF:-1  tvg-name="Arezzo vs Padova" tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg" group-title="EVENT TV 2" type="live" radio="false",arezzo vs padova
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-#EXTVLCOPT:http-origin=http://www.fawanews.sc
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
-http://193.47.62.44/hls/KIIIAAAAQ.m3u8
-#EXTINF:-1  tvg-name="Avellino vs Mantova" tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg" group-title="EVENT TV 2" type="live" radio="false",avellino vs mantova
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-#EXTVLCOPT:http-origin=http://www.fawanews.sc
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
-http://193.47.62.44/hls/DOOOOAAAA.m3u8
-#EXTINF:-1  tvg-name="Trabzonspor vs Eyupspor --- CH 1" tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg" group-title="EVENT TV 2" type="live" radio="false",trabzonspor vs eyupspor --- ch 1
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-#EXTVLCOPT:http-origin=http://www.fawanews.sc
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
-http://193.47.62.44/hls/diiiA.m3u8
-#EXTINF:-1  tvg-name="Trabzonspor vs Eyupspor --- CH 2" tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg" group-title="EVENT TV 2" type="live" radio="false",trabzonspor vs eyupspor --- ch 2
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-#EXTVLCOPT:http-origin=http://www.fawanews.sc
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
-https://www.rtmpcdn.com/live/a3b07b51-6876-4e3b-ad8a-63780aafc233.m3u8
-#EXTINF:-1  tvg-name="Bursaspor vs Sivasspor" tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg" group-title="EVENT TV 2" type="live" radio="false",bursaspor vs sivasspor
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-#EXTVLCOPT:http-origin=http://www.fawanews.sc
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
-http://193.47.62.44/hls/diii.m3u8
-#EXTINF:-1  tvg-name="Austria Vienna vs Salzburg" tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg" group-title="EVENT TV 2" type="live" radio="false",austria vienna vs salzburg
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-#EXTVLCOPT:http-origin=http://www.fawanews.sc
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
-http://193.47.62.44/hls/KIIIAAA.m3u8
-#EXTINF:-1  tvg-name="Botev Plovdiv vs CSKA Sofia" tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg" group-title="EVENT TV 2" type="live" radio="false",botev plovdiv vs cska sofia
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-#EXTVLCOPT:http-origin=http://www.fawanews.sc
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
-http://193.47.62.44/hls/KIIIAA.m3u8
-#EXTINF:-1  tvg-name="Rodina Moscow vs Lokomotiv Moscow" tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg" group-title="EVENT TV 2" type="live" radio="false",rodina moscow vs lokomotiv moscow | Rusian Premier League | PlayZ
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-#EXTVLCOPT:http-origin=http://www.fawanews.sc
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
-http://193.47.62.44/hls/KIII.m3u8
-#EXTINF:-1  tvg-name="Macva vs Vojvodina" tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg" group-title="EVENT TV 2" type="live" radio="false",macva vs vojvodina
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-origin=http://www.fawanews.sc
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
-http://193.47.62.44/hls/diiiAAAAAA.m3u8
-#EXTINF:-1  tvg-name="IMT Novi Beograd vs Partizan" tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg" group-title="EVENT TV 2" type="live" radio="false",imt novi beograd vs partizan
+http://193.47.62.44/hls/ZIII.m3u8
+#EXTINF:-1  tvg-name="Nashville SC vs FC Cincinnati --- CH 2" tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg" group-title="EVENT TV 2" type="live" radio="false",nashville sc vs fc cincinnati --- ch 2
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-origin=http://www.fawanews.sc
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
-http://193.47.62.44/hls/DOOOOAAAAQQQ.m3u8
-#EXTINF:-1  tvg-name="S Rzeszow vs Polonia Bytom" tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg" group-title="EVENT TV 2" type="live" radio="false",s rzeszow vs polonia bytom
+https://www.rtmpcdn.com/live/6be095e9-f138-4a25-b5af-d0a7c243437b.m3u8
+#EXTINF:-1  tvg-name="Queretaro vs Necaxa" tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg" group-title="EVENT TV 2" type="live" radio="false",queretaro vs necaxa
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-origin=http://www.fawanews.sc
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
-http://193.47.62.44/hls/KIIIA.m3u8
-#EXTINF:-1  tvg-name="Alashkert vs Noah" tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg" group-title="EVENT TV 2" type="live" radio="false",alashkert vs noah
+http://193.47.62.41/hls/KIKIKIAAAA.m3u8
+#EXTINF:-1  tvg-name="Guadalajara Chivas vs Cruz Azul --- CH 1" tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg" group-title="EVENT TV 2" type="live" radio="false",guadalajara chivas vs cruz azul --- ch 1
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-origin=http://www.fawanews.sc
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
-http://193.47.62.44/hls/KIIIAAAA.m3u8
-#EXTINF:-1  tvg-name="GA Eagles vs Fortuna Sittard" tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg" group-title="EVENT TV 2" type="live" radio="false",ga eagles vs fortuna sittard | Nederland Eredivisie | PlayZ
+http://193.47.62.41/hls/DADADA.m3u8
+#EXTINF:-1  tvg-name="Guadalajara Chivas vs Cruz Azul --- CH 2" tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg" group-title="EVENT TV 2" type="live" radio="false",guadalajara chivas vs cruz azul --- ch 2
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-origin=http://www.fawanews.sc
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
-http://193.47.62.44/hls/DUUUVVVAAAAA.m3u8
-#EXTINF:-1  tvg-name="Brommapojkarna vs Halmstad" tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg" group-title="EVENT TV 2" type="live" radio="false",brommapojkarna vs halmstad | Austria Bundesliga | PlayZ
+https://www.rtmpcdn.com/live/842f38d5-caed-4139-b288-fcddf234bc2d.m3u8
+#EXTINF:-1  tvg-name="Instituto vs Huracan" tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg" group-title="EVENT TV 2" type="live" radio="false",instituto vs huracan | Argentine Primera División | PlayZ
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-origin=http://www.fawanews.sc
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
-http://193.47.62.44/hls/DUUUVVVA.m3u8
-#EXTINF:-1  tvg-name="Lausanne vs Vaduz" tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg" group-title="EVENT TV 2" type="live" radio="false",lausanne vs vaduz | Swiss Super League | PlayZ
+http://193.47.62.41/hls/KIKIKIAAA.m3u8
+#EXTINF:-1  tvg-name="River Plate vs Lanus" tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg" group-title="EVENT TV 2" type="live" radio="false",river plate vs lanus | Argentine Primera División | PlayZ
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-origin=http://www.fawanews.sc
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
-http://193.47.62.44/hls/DUUUVVV.m3u8
-#EXTINF:-1  tvg-name="FC Basel vs Luzern" tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg" group-title="EVENT TV 2" type="live" radio="false",fc basel vs luzern | Swiss Super League | PlayZ
+http://193.47.62.44/hls/ZIIIAAAqQQQQ.m3u8
+#EXTINF:-1  tvg-name="Vancouver Canucks vs Chicago Blackhawks" tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg" group-title="EVENT TV 2" type="live" radio="false",vancouver canucks vs chicago blackhawks
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-origin=http://www.fawanews.sc
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
-http://193.47.62.44/hls/DUUUVV.m3u8
-#EXTINF:-1  tvg-name="Uruguay U17 vs Haiti U17" tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg" group-title="EVENT TV 2" type="live" radio="false",uruguay u17 vs haiti u17
+https://live.kinescopecdn.net/on-air/5bf2c07e-3604-42cf-959a-67ed8914ffd5/775b8ee6-777f-464a-a015-7e3f5dcbafb1/master.m3u8
+#EXTINF:-1  tvg-name="St Louis Blues vs Edmonton Oilers" tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg" group-title="EVENT TV 2" type="live" radio="false",st louis blues vs edmonton oilers
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-origin=http://www.fawanews.sc
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
-http://193.47.62.44/hls/DUUUV.m3u8
-#EXTINF:-1  tvg-name="Argentina U17 vs Mozambique U17" tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg" group-title="EVENT TV 2" type="live" radio="false",argentina u17 vs mozambique u17
+https://live.kinescopecdn.net/on-air/5bf2c07e-3604-42cf-959a-67ed8914ffd5/8e7673d3-1088-4bbf-b15f-81c34e5c203d/master.m3u8
+#EXTINF:-1  tvg-name="Dallas Stars vs Pittsburgh Penguins" tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg" group-title="EVENT TV 2" type="live" radio="false",dallas stars vs pittsburgh penguins
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-origin=http://www.fawanews.sc
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
-http://193.47.62.44/hls/DUUU.m3u8
-#EXTINF:-1  tvg-name="Qatar U17 vs Egypt U17" tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg" group-title="EVENT TV 2" type="live" radio="false",qatar u17 vs egypt u17
+https://live.kinescopecdn.net/on-air/5bf2c07e-3604-42cf-959a-67ed8914ffd5/d4e6465c-495a-403f-b020-0d7e39e38218/master.m3u8
+#EXTINF:-1  tvg-name="Tampa Bay Lightning vs Buffalo Sabres" tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg" group-title="EVENT TV 2" type="live" radio="false",tampa bay lightning vs buffalo sabres
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-origin=http://www.fawanews.sc
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
-http://193.47.62.44/hls/QIIIQ.m3u8
-#EXTINF:-1  tvg-name="South Korea U17 vs New Caledonia U17" tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg" group-title="EVENT TV 2" type="live" radio="false",south korea u17 vs new caledonia u17
+https://live.kinescopecdn.net/on-air/5bf2c07e-3604-42cf-959a-67ed8914ffd5/8750f51f-c1bb-4067-9db4-b73365f2d32b/master.m3u8
+#EXTINF:-1  tvg-name="Limache vs La Serena" tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg" group-title="EVENT TV 2" type="live" radio="false",limache vs la serena
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-origin=http://www.fawanews.sc
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
-http://193.47.62.44/hls/E444A.m3u8
-#EXTINF:-1  tvg-name="Huachipato vs D Concepcion" tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg" group-title="EVENT TV 2" type="live" radio="false",huachipato vs d concepcion
+http://193.47.62.41/hls/KIKIKIA.m3u8
+#EXTINF:-1  tvg-name="Colo Colo vs U Catolica" tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg" group-title="EVENT TV 2" type="live" radio="false",colo colo vs u catolica
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-origin=http://www.fawanews.sc
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
-http://193.47.62.44/hls/QIIIQQ.m3u8
-#EXTINF:-1  tvg-name="Arsenal W vs West Ham W --- CH 1" tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg" group-title="EVENT TV 2" type="live" radio="false",arsenal w vs west ham w --- ch 1
+http://193.47.62.44/hls/ZIIIA.m3u8
+#EXTINF:-1  tvg-name="SA Bulo Bulo vs Always Ready" tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg" group-title="EVENT TV 2" type="live" radio="false",sa bulo bulo vs always ready
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-origin=http://www.fawanews.sc
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
-http://193.47.62.44/hls/E444AAA.m3u8
-#EXTINF:-1  tvg-name="Arsenal W vs West Ham W --- CH 2" tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg" group-title="EVENT TV 2" type="live" radio="false",arsenal w vs west ham w --- ch 2
+http://193.47.62.41/hls/KIKIKI.m3u8
+#EXTINF:-1  tvg-name="The Strongest vs Blooming" tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg" group-title="EVENT TV 2" type="live" radio="false",the strongest vs blooming
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-origin=http://www.fawanews.sc
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
-https://www.rtmpcdn.com/live/5097ec44-d1d7-49da-815f-68ec117c1b30.m3u8
-#EXTINF:-1  tvg-name="Everton W vs Brighton W --- CH 1" tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg" group-title="EVENT TV 2" type="live" radio="false",everton w vs brighton w --- ch 1
+http://193.47.62.44/hls/ZIIIAAAq.m3u8
+#EXTINF:-1  tvg-name="Bragantino vs Vasco" tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg" group-title="EVENT TV 2" type="live" radio="false",bragantino vs vasco | Brazil Serie A | PlayZ
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-origin=http://www.fawanews.sc
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
-http://193.47.62.44/hls/Z666AAA.m3u8
-#EXTINF:-1  tvg-name="Everton W vs Brighton W --- CH 2" tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg" group-title="EVENT TV 2" type="live" radio="false",everton w vs brighton w --- ch 2
+http://193.47.62.44/hls/ZIIIAAAqQQQQQ.m3u8
+#EXTINF:-1  tvg-name="Fluminense vs Mirassol" tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg" group-title="EVENT TV 2" type="live" radio="false",fluminense vs mirassol | Brazil Serie A | PlayZ
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-origin=http://www.fawanews.sc
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
-https://www.rtmpcdn.com/live/3b76a609-1162-44e4-89b0-577aabe69c04.m3u8
-#EXTINF:-1  tvg-name="Charlton W vs Aston Villa W --- CH 1" tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg" group-title="EVENT TV 2" type="live" radio="false",charlton w vs aston villa w --- ch 1
+http://193.47.62.44/hls/ZIIIAAAqQQQ.m3u8
+#EXTINF:-1  tvg-name="Atletico GO vs Vila Nova FC" tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg" group-title="EVENT TV 2" type="live" radio="false",atletico go vs vila nova fc | Brazil Serie A | PlayZ
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-origin=http://www.fawanews.sc
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
-http://193.47.62.44/hls/Z666AA.m3u8
-#EXTINF:-1  tvg-name="Charlton W vs Aston Villa W --- CH 2" tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg" group-title="EVENT TV 2" type="live" radio="false",charlton w vs aston villa w --- ch 2
+http://193.47.62.44/hls/ZIIIAAAqQQ.m3u8
+#EXTINF:-1  tvg-name="New Zealand vs India" tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg" group-title="EVENT TV 2" type="live" radio="false",new zealand vs india
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-origin=http://www.fawanews.sc
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
-https://www.rtmpcdn.com/live/e31b95bd-c73b-429a-95fd-298a4b4190c1.m3u8
-#EXTINF:-1  tvg-name="Vizela vs Feirense" tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg" group-title="EVENT TV 2" type="live" radio="false",vizela vs feirense
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-#EXTVLCOPT:http-origin=http://www.fawanews.sc
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
-http://193.47.62.44/hls/DOOOOAAAAQ.m3u8
-#EXTINF:-1  tvg-name="Churchill Brothers vs Mohun Bagan" tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg" group-title="EVENT TV 2" type="live" radio="false",churchill brothers vs mohun bagan
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-#EXTVLCOPT:http-origin=http://www.fawanews.sc
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
-http://193.47.62.44/hls/Z666.m3u8
-#EXTINF:-1  tvg-name="ML Vitebsk vs Slavia Mozyr" tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg" group-title="EVENT TV 2" type="live" radio="false",ml vitebsk vs slavia mozyr
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-#EXTVLCOPT:http-origin=http://www.fawanews.sc
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
-http://193.47.62.44/hls/Z666AAAAQQQQ.m3u8
-#EXTINF:-1  tvg-name="Dinamo Minsk vs FC Minsk" tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg" group-title="EVENT TV 2" type="live" radio="false",dinamo minsk vs fc minsk
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-#EXTVLCOPT:http-origin=http://www.fawanews.sc
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
-http://193.47.62.44/hls/Z666AAAAQ.m3u8
-#EXTINF:-1  tvg-name="Isloch vs Zhodino" tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg" group-title="EVENT TV 2" type="live" radio="false",isloch vs zhodino
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-#EXTVLCOPT:http-origin=http://www.fawanews.sc
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
-http://193.47.62.44/hls/Z666AAAAQQQ.m3u8
-#EXTINF:-1  tvg-name="India A vs Pakistan A" tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg" group-title="EVENT TV 2" type="live" radio="false",india a vs pakistan a
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 http://193.47.62.41/hls/qaqaqa.m3u8
+#EXTINF:-1  tvg-name="Rubio Nu vs Libertad Asuncion" tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg" group-title="EVENT TV 2" type="live" radio="false",rubio nu vs libertad asuncion
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-origin=http://www.fawanews.sc
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
+http://193.47.62.44/hls/ZIIIAAA.m3u8
+#EXTINF:-1  tvg-name="Olimpia Asuncion vs Sportivo Trinidense" tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg" group-title="EVENT TV 2" type="live" radio="false",olimpia asuncion vs sportivo trinidense
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
+http://193.47.62.44/hls/ZIIIAA.m3u8
 
 #EXTINF:-1  tvg-logo="https://kokotv.my.id/Foto/kokotvevent.jpeg" group-title="EVENT TV 3" type="live" radio="false", 23:30 WIB Liverpool vs Manchester United
 https://www.rtmpcdn.com/live/c9af7ae1-65c7-4a0a-ae40-ab2f4d1655d7.m3u8
@@ -4100,20 +3512,6 @@ https://pulse1.sanseny001.shop/puk5/usergen0grnd8l2y6gw.m3u8
 #EXTINF:-1  tvg-logo="https://kokotv.my.id/Foto/kokotvevent.jpeg" group-title="EVENT TV 3" type="live" radio="false", FIFA World Cup 2026 10
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone14,6; U; CPU iPhone OS 15_4 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) Version/10.0 Mobile/19E241 Safari/602.1
 <=================== Badminton =============================>
-#EXTINF:-1 tvg-id="LIGUE 1"  tvg-logo="https://kokotv.my.id/Foto/kokotvevent.jpeg" group-title="EVENT TV 3" type="live" radio="false", 🔥21;00 WIB |PARIS VS ANGERS SCO - LIGUE 1| espan
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=74cbe15488783fab07ff8c702fabafcd:bb607803a49c2d6104f845e7886c971c
-https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/e3ozww2yny/out/v1/3a16d07c2cc0444bb8ea10d0483d1ced/cenc.mpd
-#EXTINF:-1 tvg-id="LIGUE 1"  tvg-logo="https://kokotv.my.id/Foto/kokotvevent.jpeg" group-title="EVENT TV 3" type="live" radio="false", 🔥23;30 WIB |LORIENT VS RENNES - LIGUE 1| be usa
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=27759a440e8ad821b800b3de00cd5851:1b8743adee559f27845f55e8b4d639fe
-https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/katdnhkzqv/out/v1/2469724fa7754a4da6861d8ba80de958/cenc.mpd
 #EXTINF:-1 tvg-id="LIGUE 1"  tvg-logo="https://kokotv.my.id/Foto/kokotvevent.jpeg" group-title="EVENT TV 3" type="live" radio="false", 🔥02;45 WIB |MARSEILLE VS LE MANS - LIGUE 1| espan
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 #KODIPROP:inputstreamaddon=inputstream.adaptive
@@ -4121,32 +3519,6 @@ https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/katdnhkzqv/out/v1
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=74cbe15488783fab07ff8c702fabafcd:bb607803a49c2d6104f845e7886c971c
 https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/e3ozww2yny/out/v1/3a16d07c2cc0444bb8ea10d0483d1ced/cenc.mpd
-#EXTINF:-1 tvg-id="PREMIER LEAGUE"  tvg-logo="https://kokotv.my.id/Foto/kokotvevent.jpeg" group-title="EVENT TV 3" type="live" radio="false",🔥21;00 WIB |HULL VS BRIGHTON - PREMIER LEAGUE| SERVER 1 astr 2
-http://tv.cloudcdn.me:80/live.ts?channelId=93740&uid=10223&deviceMac=00:1A:79:07:07:43&deviceSn=84F4AB37DF6E6
-#EXTINF:-1 tvg-id="PREMIER LEAGUE"  tvg-logo="https://kokotv.my.id/Foto/kokotvevent.jpeg" group-title="EVENT TV 3" type="live" radio="false",🔥21;00 WIB |HULL VS BRIGHTON - PREMIER LEAGUE| SERVER 2 daz 2
-#EXTVLCOPT:http-user-agent="Mozilla/5.0 (iPhone; CPU iPhone OS 14_4_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Mobile/15E148 Safari/604.1"
-#EXTVLCOPT:http-referrer=https://aesport.tv/
-https://liveua.cdnfly.click/pt_elevensport2/index.m3u8
-#EXTINF:-1 tvg-id="PREMIER LEAGUE"  tvg-logo="https://kokotv.my.id/Foto/kokotvevent.jpeg" group-title="EVENT TV 3" type="live" radio="false",🔥23;30 WIB |LIVERPOOL VS MANCHESTER UNITED - PREMIER LEAGUE| SERVER 1 daz 1
-#EXTVLCOPT:http-user-agent="Mozilla/5.0 (iPhone; CPU iPhone OS 14_4_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Mobile/15E148 Safari/604.1"
-#EXTVLCOPT:http-referrer=https://aesport.tv/
-https://liveua.cdnfly.click/pt_elevensport1/index.m3u8
-#EXTINF:-1 tvg-id="PREMIER LEAGUE"  tvg-logo="https://kokotv.my.id/Foto/kokotvevent.jpeg" group-title="EVENT TV 3" type="live" radio="false",🔥23;30 WIB |LIVERPOOL VS MANCHESTER UNITED - PREMIER LEAGUE| SERVER 2 irib
-https://sw.run/CAMPWIKI-VARZESH
-#EXTINF:-1 tvg-id="LALIGA"  tvg-logo="https://kokotv.my.id/Foto/kokotvevent.jpeg" group-title="EVENT TV 3" type="live" radio="false", 🔥20;00 WIB |BARCELONA VS VILLARREAL - LALIGA| be 1us
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=335dad778109954503dcbb21dc92015f:24bfd75d436cbf73168a2a2dccd40281
-#EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://otte.live.fly.ww.aiv-cdn.net/syd-nitro/live/clients/dash/enc/ghwcl6hv68/out/v1/83536910d8034e9b9895a20fbe1c1687/cenc.mpd
-#EXTINF:-1 tvg-id="LALIGA"  tvg-logo="https://kokotv.my.id/Foto/kokotvevent.jpeg" group-title="EVENT TV 3" type="live" radio="false", 🔥22;15 WIB |RACING SANTANDER VS REAL SOCIEDAD - LALIGA| be 3us
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=7995c724a13748ed970840a8ab5bb9b3:67bdaf1e2175b9ff682fcdf0e2354b1e
-https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd
 #EXTINF:-1 tvg-id="LALIGA"  tvg-logo="https://kokotv.my.id/Foto/kokotvevent.jpeg" group-title="EVENT TV 3" type="live" radio="false", 🔥00;30 WIB |OSASUNA VS MALAGA - LALIGA| be 3us
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 #KODIPROP:inputstreamaddon=inputstream.adaptive
@@ -4161,29 +3533,6 @@ https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=7995c724a13748ed970840a8ab5bb9b3:67bdaf1e2175b9ff682fcdf0e2354b1e
 https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd
-#EXTINF:-1 tvg-id="SERIE A ITALIA"  tvg-logo="https://kokotv.my.id/Foto/kokotvevent.jpeg" group-title="EVENT TV 3" type="live" radio="false", 🔥18;30 WIB |JUVENTUS VS VENEZIA - SERIE A ITALIA| be 2us
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone14,6; U; CPU iPhone OS 15_4 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) Version/10.0 Mobile/19E241 Safari/602.1
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=0b42be2664d7e811d04f3e504e0924c5:ae24090123b8c72ac5404dc152847cb8
-https://otte.live.fly.ww.aiv-cdn.net/syd-nitro/live/clients/dash/enc/8m8cd46i1t/out/v1/83985c68e4174e90a58a1f2c024be4c9/cenc.mpd
-#EXTINF:-1 tvg-id="SERIE A ITALIA"  tvg-logo="https://kokotv.my.id/Foto/kokotvevent.jpeg" group-title="EVENT TV 3" type="live" radio="false", 🔥21;00 WIB |SASSUOLO VS GENOA - SERIE A ITALIA| prime2
-http://124.222.153.240/kakaotv/get_channel.php?channel=spotv_prime2|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36&Cookie=spotv_prime2_replace_cookie
-#EXTINF:-1 tvg-id="SERIE A ITALIA"  tvg-logo="https://kokotv.my.id/Foto/kokotvevent.jpeg" group-title="EVENT TV 3" type="live" radio="false", 🔥21;00 WIB |BOLOGNA VS UDINESE - SERIE A ITALIA| be 2us
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone14,6; U; CPU iPhone OS 15_4 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) Version/10.0 Mobile/19E241 Safari/602.1
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=0b42be2664d7e811d04f3e504e0924c5:ae24090123b8c72ac5404dc152847cb8
-https://otte.live.fly.ww.aiv-cdn.net/syd-nitro/live/clients/dash/enc/8m8cd46i1t/out/v1/83985c68e4174e90a58a1f2c024be4c9/cenc.mpd
-#EXTINF:-1 tvg-id="SERIE A ITALIA"  tvg-logo="https://kokotv.my.id/Foto/kokotvevent.jpeg" group-title="EVENT TV 3" type="live" radio="false", 🔥00;00 WIB |MILAN VS FROSINONE - SERIE A ITALIA| be 2us
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone14,6; U; CPU iPhone OS 15_4 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) Version/10.0 Mobile/19E241 Safari/602.1
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=0b42be2664d7e811d04f3e504e0924c5:ae24090123b8c72ac5404dc152847cb8
-https://otte.live.fly.ww.aiv-cdn.net/syd-nitro/live/clients/dash/enc/8m8cd46i1t/out/v1/83985c68e4174e90a58a1f2c024be4c9/cenc.mpd
 #EXTINF:-1 tvg-id="SERIE A ITALIA"  tvg-logo="https://kokotv.my.id/Foto/kokotvevent.jpeg" group-title="EVENT TV 3" type="live" radio="false", 🔥02;45 WIB |ATALANTA VS INTER - SERIE A ITALIA| be 2us
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone14,6; U; CPU iPhone OS 15_4 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) Version/10.0 Mobile/19E241 Safari/602.1
 #KODIPROP:inputstreamaddon=inputstream.adaptive
@@ -4191,18 +3540,4 @@ https://otte.live.fly.ww.aiv-cdn.net/syd-nitro/live/clients/dash/enc/8m8cd46i1t/
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=0b42be2664d7e811d04f3e504e0924c5:ae24090123b8c72ac5404dc152847cb8
 https://otte.live.fly.ww.aiv-cdn.net/syd-nitro/live/clients/dash/enc/8m8cd46i1t/out/v1/83985c68e4174e90a58a1f2c024be4c9/cenc.mpd
-#EXTINF:-1 tvg-id="EREDIVISIE"  tvg-logo="https://kokotv.my.id/Foto/kokotvevent.jpeg" group-title="EVENT TV 3" type="live" radio="false", 🔥20;30 WIB |AJAX VS A.DEN HAAG - EREDIVISIE| fuss
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=0ad4080cdff8c60b1233b22087f0b340:285f129c5eca01dd08a5d5a14ad801c8
-https://otte.live.fly.ww.aiv-cdn.net/fra-nitro/live/clients/dash/enc/ssdefyhkkr/out/v1/cf01290cb7f64525bdf861580a016ca8/cenc.mpd
-#EXTINF:-1 tvg-id="BUNDESLIGA"  tvg-logo="https://kokotv.my.id/Foto/kokotvevent.jpeg" group-title="EVENT TV 3" type="live" radio="false", 🔥21;30 WIB |AUGSBURG VS MAINZ 05 - BUNDESLIGA| prim s5
-#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleCoreMedia/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"
-#EXTVLCOPT:http-referrer=https://canale-tv.com/
-https://dokagents.site/live/pr5/mono.m3u8
-#EXTINF:-1 tvg-id="BUNDESLIGA"  tvg-logo="https://kokotv.my.id/Foto/kokotvevent.jpeg" group-title="EVENT TV 3" type="live" radio="false", 🔥23;30 WIB |WERDER BREMEN VS HAMBURGER - BUNDESLIGA| prim s5
-#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleCoreMedia/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"
-#EXTVLCOPT:http-referrer=https://canale-tv.com/
-https://dokagents.site/live/pr5/mono.m3u8
 
