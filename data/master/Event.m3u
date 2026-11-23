@@ -1330,170 +1330,127 @@ https://stream.playcdn.de/playlist/096b0a4214f4bb8d76cf009044701577/5/480.m3u8?x
 https://chicka59.blalytgy0vz2887ndwuo.cfd/p/e0vXS8YbLnlEpVP-kPeZQA.m3u8
 #EXTINF:-1 tvg-chno="529" group-title="EVENT TV 1" type="live" radio="false",Sumber RBTV Sedang Gangguan / Kosong
 http://127.0.0.1/offline.m3u8
-#EXTINF:-1 tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg" tvg-chno="530" group-title="EVENT TV 2" type="live" radio="false",04:25 WIB PERUVIAN VOLEYBALL LEAGUE - Geminis vs PERU
-https://live-evg20.tv360.bitel.com.pe/a9ZXDX0YmxeSY4_lhbKcZg/1795469019/bitel/Latina-UDP_abr/bitel/Latina-udp_720p/chunks.m3u8
-#EXTINF:-1 tvg-logo="https://i.ytimg.com/vi/X0nSArXZS3Y/maxresdefault.jpg" tvg-chno="531" group-title="EVENT TV 2" type="live" radio="false",决赛精彩回放 2026China香港Open Badminton | HUYA CN
-http://al.flv.huya.com/src/35184701760921-35184701760921-1415930840659001344-2479087855028-10057-A-0-1.flv?wsSecret=492c0235e3fa0785ad3f5d9b247ad3c1&wsTime=6b04cdad&fm=RFdxOEJjSjNoNkRKdDZUWV8kMF8kMV8kMl8kMw%3D%3D
-#EXTINF:-1 tvg-logo="https://i.ytimg.com/vi/X0nSArXZS3Y/maxresdefault.jpg" tvg-chno="532" group-title="EVENT TV 2" type="live" radio="false",王祉怡力克李美妙夺得女单冠军 2026China香港Open Badminton | HUYA CN
-http://al.flv.huya.com/src/1616275478-1616275478-6941850319336767488-2895636156-10057-A-0-1-imgplus.flv?wsSecret=e0caf66f2263ac75467dd4a75401408b&wsTime=6b04cdb4&fm=RFdxOEJjSjNoNkRKdDZUWV8kMF8kMV8kMl8kMw%3D%3D
-#EXTINF:-1 tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg" tvg-chno="533" group-title="EVENT TV 2" type="live" radio="false",miami heat vs oklahoma city thunder --- ch 1 | Basket NBA | PlayZ
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-#EXTVLCOPT:http-origin=http://www.fawanews.sc
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
-http://193.47.62.44/hls/qnnn.m3u8
-#EXTINF:-1 tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg" tvg-chno="534" group-title="EVENT TV 2" type="live" radio="false",miami heat vs oklahoma city thunder --- ch 2 | Basket NBA | PlayZ
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-#EXTVLCOPT:http-origin=http://www.fawanews.sc
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
-https://www.rtmpcdn.com/live/0258268f-73f4-45e5-9163-92611c2898a5.m3u8
-#EXTINF:-1 tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg" tvg-chno="535" group-title="EVENT TV 2" type="live" radio="false",atlanta hawks vs detroit pistons --- ch 1 | Basket NBA | PlayZ
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-#EXTVLCOPT:http-origin=http://www.fawanews.sc
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
-http://193.47.62.55/hls/QYYYQAA.m3u8
-#EXTINF:-1 tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg" tvg-chno="536" group-title="EVENT TV 2" type="live" radio="false",atlanta hawks vs detroit pistons --- ch 2 | Basket NBA | PlayZ
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-#EXTVLCOPT:http-origin=http://www.fawanews.sc
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
-https://www.rtmpcdn.com/live/fdb34867-9603-4ffb-b801-87fe6c4fc3ce.m3u8
-#EXTINF:-1 tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg" tvg-chno="537" group-title="EVENT TV 2" type="live" radio="false",golden state warriors vs boston celtics | Basket NBA | PlayZ
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-#EXTVLCOPT:http-origin=http://www.fawanews.sc
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
-http://193.47.62.44/hls/EUUUA.m3u8
-#EXTINF:-1 tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg" tvg-chno="538" group-title="EVENT TV 2" type="live" radio="false",new york knicks vs indiana pacers | Basket NBA | PlayZ
+#EXTINF:-1 tvg-logo="https://i.ytimg.com/vi/X0nSArXZS3Y/maxresdefault.jpg" tvg-chno="530" group-title="EVENT TV 2" type="live" radio="false",决赛精彩回放 2026China香港Open Badminton | HUYA CN
+http://al.flv.huya.com/src/35184701760921-35184701760921-1415930840659001344-2479087855028-10057-A-0-1.flv?wsSecret=0d5953d951eb3769cd370ee2719afc79&wsTime=6b04e158&fm=RFdxOEJjSjNoNkRKdDZUWV8kMF8kMV8kMl8kMw%3D%3D
+#EXTINF:-1 tvg-logo="https://i.ytimg.com/vi/X0nSArXZS3Y/maxresdefault.jpg" tvg-chno="531" group-title="EVENT TV 2" type="live" radio="false",王祉怡力克李美妙夺得女单冠军 2026China香港Open Badminton | HUYA CN
+http://al.flv.huya.com/src/1616275478-1616275478-6941850319336767488-2895636156-10057-A-0-1-imgplus.flv?wsSecret=b0ae8a6924ade19c7089c6ff266067ab&wsTime=6b04e15a&fm=RFdxOEJjSjNoNkRKdDZUWV8kMF8kMV8kMl8kMw%3D%3D
+#EXTINF:-1 tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg" tvg-chno="532" group-title="EVENT TV 2" type="live" radio="false",new york knicks vs indiana pacers --- ch 1 | Basket NBA | PlayZ
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-origin=http://www.fawanews.sc
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 http://193.47.62.59/hls/EUUUAA.m3u8
-#EXTINF:-1 tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg" tvg-chno="539" group-title="EVENT TV 2" type="live" radio="false",washington wizards vs orlando magic | Basket NBA | PlayZ
+#EXTINF:-1 tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg" tvg-chno="533" group-title="EVENT TV 2" type="live" radio="false",washington wizards vs orlando magic --- ch 1 | Basket NBA | PlayZ
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-origin=http://www.fawanews.sc
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 http://193.47.62.59/hls/EUUUAAA.m3u8
-#EXTINF:-1 tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg" tvg-chno="540" group-title="EVENT TV 2" type="live" radio="false",utah jazz vs dallas mavericks | Basket NBA | PlayZ
+#EXTINF:-1 tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg" tvg-chno="534" group-title="EVENT TV 2" type="live" radio="false",washington wizards vs orlando magic --- ch 2 | Basket NBA | PlayZ
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-origin=http://www.fawanews.sc
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
+https://www.rtmpcdn.com/live/28e2c9b5-7dd5-493d-b06f-b3e5b9095941.m3u8
+#EXTINF:-1 tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg" tvg-chno="535" group-title="EVENT TV 2" type="live" radio="false",utah jazz vs dallas mavericks --- ch 1 | Basket NBA | PlayZ
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-origin=http://www.fawanews.sc
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 http://193.47.62.59/hls/EUUUAAAA.m3u8
-#EXTINF:-1 tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg" tvg-chno="541" group-title="EVENT TV 2" type="live" radio="false",chicago bulls vs denver nuggets | Basket NBA | PlayZ
+#EXTINF:-1 tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg" tvg-chno="536" group-title="EVENT TV 2" type="live" radio="false",utah jazz vs dallas mavericks --- ch 2 | Basket NBA | PlayZ
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-origin=http://www.fawanews.sc
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
+https://www.rtmpcdn.com/live/bf362196-574a-4d2a-8289-4825579adb65.m3u8
+#EXTINF:-1 tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg" tvg-chno="537" group-title="EVENT TV 2" type="live" radio="false",chicago bulls vs denver nuggets --- ch 1 | Basket NBA | PlayZ
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-origin=http://www.fawanews.sc
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 http://193.47.62.44/hls/EUUU.m3u8
+#EXTINF:-1 tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg" tvg-chno="538" group-title="EVENT TV 2" type="live" radio="false",chicago bulls vs denver nuggets --- ch 2 | Basket NBA | PlayZ
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-origin=http://www.fawanews.sc
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
+https://www.rtmpcdn.com/live/b96dfdde-a2b6-4699-9f87-ef500a0f4f22.m3u8
+#EXTINF:-1 tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg" tvg-chno="539" group-title="EVENT TV 2" type="live" radio="false",miami heat vs oklahoma city thunder --- ch 1 | Basket NBA | PlayZ
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-origin=http://www.fawanews.sc
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
+http://193.47.62.44/hls/qnnn.m3u8
+#EXTINF:-1 tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg" tvg-chno="540" group-title="EVENT TV 2" type="live" radio="false",miami heat vs oklahoma city thunder --- ch 2 | Basket NBA | PlayZ
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-origin=http://www.fawanews.sc
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
+https://www.rtmpcdn.com/live/0258268f-73f4-45e5-9163-92611c2898a5.m3u8
+#EXTINF:-1 tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg" tvg-chno="541" group-title="EVENT TV 2" type="live" radio="false",golden state warriors vs boston celtics | Basket NBA | PlayZ
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-origin=http://www.fawanews.sc
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
+http://193.47.62.44/hls/EUUUA.m3u8
 #EXTINF:-1 tvg-name="Vancouver Whitecaps vs Real Salt Lake" tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg" tvg-chno="542" group-title="EVENT TV 2" type="live" radio="false",vancouver whitecaps vs real salt lake
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-origin=http://www.fawanews.sc
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 http://193.47.62.41/hls/KIKIKIAAAAQ.m3u8
-#EXTINF:-1 tvg-name="Chicago Fire vs Charlotte" tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg" tvg-chno="543" group-title="EVENT TV 2" type="live" radio="false",chicago fire vs charlotte
+#EXTINF:-1 tvg-name="Chicago Fire vs Charlotte --- CH 1" tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg" tvg-chno="543" group-title="EVENT TV 2" type="live" radio="false",chicago fire vs charlotte --- ch 1
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-origin=http://www.fawanews.sc
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 http://193.47.62.41/hls/KIKIKIAA.m3u8
-#EXTINF:-1 tvg-name="Nashville SC vs FC Cincinnati --- CH 1" tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg" tvg-chno="544" group-title="EVENT TV 2" type="live" radio="false",nashville sc vs fc cincinnati --- ch 1
+#EXTINF:-1 tvg-name="Chicago Fire vs Charlotte --- CH 2" tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg" tvg-chno="544" group-title="EVENT TV 2" type="live" radio="false",chicago fire vs charlotte --- ch 2
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-origin=http://www.fawanews.sc
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
-http://193.47.62.44/hls/ZIII.m3u8
-#EXTINF:-1 tvg-name="Nashville SC vs FC Cincinnati --- CH 2" tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg" tvg-chno="545" group-title="EVENT TV 2" type="live" radio="false",nashville sc vs fc cincinnati --- ch 2
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-#EXTVLCOPT:http-origin=http://www.fawanews.sc
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
-https://www.rtmpcdn.com/live/6be095e9-f138-4a25-b5af-d0a7c243437b.m3u8
-#EXTINF:-1 tvg-name="Queretaro vs Necaxa" tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg" tvg-chno="546" group-title="EVENT TV 2" type="live" radio="false",queretaro vs necaxa
+https://www.rtmpcdn.com/live/359b0244-5e4b-4089-bb95-3e3934154ac6.m3u8
+#EXTINF:-1 tvg-name="Queretaro vs Necaxa" tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg" tvg-chno="545" group-title="EVENT TV 2" type="live" radio="false",queretaro vs necaxa
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-origin=http://www.fawanews.sc
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 http://193.47.62.41/hls/KIKIKIAAAA.m3u8
-#EXTINF:-1 tvg-name="Guadalajara Chivas vs Cruz Azul --- CH 1" tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg" tvg-chno="547" group-title="EVENT TV 2" type="live" radio="false",guadalajara chivas vs cruz azul --- ch 1
+#EXTINF:-1 tvg-name="Guadalajara Chivas vs Cruz Azul --- CH 1" tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg" tvg-chno="546" group-title="EVENT TV 2" type="live" radio="false",guadalajara chivas vs cruz azul --- ch 1
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-origin=http://www.fawanews.sc
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 http://193.47.62.41/hls/DADADA.m3u8
-#EXTINF:-1 tvg-name="Guadalajara Chivas vs Cruz Azul --- CH 2" tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg" tvg-chno="548" group-title="EVENT TV 2" type="live" radio="false",guadalajara chivas vs cruz azul --- ch 2
+#EXTINF:-1 tvg-name="Guadalajara Chivas vs Cruz Azul --- CH 2" tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg" tvg-chno="547" group-title="EVENT TV 2" type="live" radio="false",guadalajara chivas vs cruz azul --- ch 2
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-origin=http://www.fawanews.sc
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 https://www.rtmpcdn.com/live/842f38d5-caed-4139-b288-fcddf234bc2d.m3u8
-#EXTINF:-1 tvg-name="Instituto vs Huracan" tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg" tvg-chno="549" group-title="EVENT TV 2" type="live" radio="false",instituto vs huracan | Argentine Primera División | PlayZ
+#EXTINF:-1 tvg-name="Instituto vs Huracan" tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg" tvg-chno="548" group-title="EVENT TV 2" type="live" radio="false",instituto vs huracan | Argentine Primera División | PlayZ
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-origin=http://www.fawanews.sc
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 http://193.47.62.41/hls/KIKIKIAAA.m3u8
-#EXTINF:-1 tvg-name="River Plate vs Lanus" tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg" tvg-chno="550" group-title="EVENT TV 2" type="live" radio="false",river plate vs lanus | Argentine Primera División | PlayZ
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-#EXTVLCOPT:http-origin=http://www.fawanews.sc
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
-http://193.47.62.44/hls/ZIIIAAAqQQQQ.m3u8
-#EXTINF:-1 tvg-name="Vancouver Canucks vs Chicago Blackhawks" tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg" tvg-chno="551" group-title="EVENT TV 2" type="live" radio="false",vancouver canucks vs chicago blackhawks
+#EXTINF:-1 tvg-name="Vancouver Canucks vs Chicago Blackhawks" tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg" tvg-chno="549" group-title="EVENT TV 2" type="live" radio="false",vancouver canucks vs chicago blackhawks
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-origin=http://www.fawanews.sc
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 https://live.kinescopecdn.net/on-air/5bf2c07e-3604-42cf-959a-67ed8914ffd5/775b8ee6-777f-464a-a015-7e3f5dcbafb1/master.m3u8
-#EXTINF:-1 tvg-name="St Louis Blues vs Edmonton Oilers" tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg" tvg-chno="552" group-title="EVENT TV 2" type="live" radio="false",st louis blues vs edmonton oilers
+#EXTINF:-1 tvg-name="St Louis Blues vs Edmonton Oilers" tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg" tvg-chno="550" group-title="EVENT TV 2" type="live" radio="false",st louis blues vs edmonton oilers
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-origin=http://www.fawanews.sc
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 https://live.kinescopecdn.net/on-air/5bf2c07e-3604-42cf-959a-67ed8914ffd5/8e7673d3-1088-4bbf-b15f-81c34e5c203d/master.m3u8
-#EXTINF:-1 tvg-name="Dallas Stars vs Pittsburgh Penguins" tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg" tvg-chno="553" group-title="EVENT TV 2" type="live" radio="false",dallas stars vs pittsburgh penguins
+#EXTINF:-1 tvg-name="Dallas Stars vs Pittsburgh Penguins" tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg" tvg-chno="551" group-title="EVENT TV 2" type="live" radio="false",dallas stars vs pittsburgh penguins
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-origin=http://www.fawanews.sc
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 https://live.kinescopecdn.net/on-air/5bf2c07e-3604-42cf-959a-67ed8914ffd5/d4e6465c-495a-403f-b020-0d7e39e38218/master.m3u8
-#EXTINF:-1 tvg-name="Tampa Bay Lightning vs Buffalo Sabres" tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg" tvg-chno="554" group-title="EVENT TV 2" type="live" radio="false",tampa bay lightning vs buffalo sabres
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-#EXTVLCOPT:http-origin=http://www.fawanews.sc
+#EXTINF:-1 tvg-name="Tampa Bay Lightning vs Buffalo Sabres" tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg" tvg-chno="552" group-title="EVENT TV 2" type="live" radio="false",tampa bay lightning vs buffalo sabres
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 https://live.kinescopecdn.net/on-air/5bf2c07e-3604-42cf-959a-67ed8914ffd5/8750f51f-c1bb-4067-9db4-b73365f2d32b/master.m3u8
-#EXTINF:-1 tvg-name="Limache vs La Serena" tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg" tvg-chno="555" group-title="EVENT TV 2" type="live" radio="false",limache vs la serena
+#EXTINF:-1 tvg-name="Limache vs La Serena" tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg" tvg-chno="553" group-title="EVENT TV 2" type="live" radio="false",limache vs la serena
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-origin=http://www.fawanews.sc
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 http://193.47.62.41/hls/KIKIKIA.m3u8
-#EXTINF:-1 tvg-name="Colo Colo vs U Catolica" tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg" tvg-chno="556" group-title="EVENT TV 2" type="live" radio="false",colo colo vs u catolica
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-#EXTVLCOPT:http-origin=http://www.fawanews.sc
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
-http://193.47.62.44/hls/ZIIIA.m3u8
-#EXTINF:-1 tvg-name="SA Bulo Bulo vs Always Ready" tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg" tvg-chno="557" group-title="EVENT TV 2" type="live" radio="false",sa bulo bulo vs always ready
+#EXTINF:-1 tvg-name="SA Bulo Bulo vs Always Ready" tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg" tvg-chno="554" group-title="EVENT TV 2" type="live" radio="false",sa bulo bulo vs always ready
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-origin=http://www.fawanews.sc
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 http://193.47.62.41/hls/KIKIKI.m3u8
-#EXTINF:-1 tvg-name="The Strongest vs Blooming" tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg" tvg-chno="558" group-title="EVENT TV 2" type="live" radio="false",the strongest vs blooming
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-#EXTVLCOPT:http-origin=http://www.fawanews.sc
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
-http://193.47.62.44/hls/ZIIIAAAq.m3u8
-#EXTINF:-1 tvg-name="Bragantino vs Vasco" tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg" tvg-chno="559" group-title="EVENT TV 2" type="live" radio="false",bragantino vs vasco | Brazil Serie A | PlayZ
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-#EXTVLCOPT:http-origin=http://www.fawanews.sc
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
-http://193.47.62.44/hls/ZIIIAAAqQQQQQ.m3u8
-#EXTINF:-1 tvg-name="Fluminense vs Mirassol" tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg" tvg-chno="560" group-title="EVENT TV 2" type="live" radio="false",fluminense vs mirassol | Brazil Serie A | PlayZ
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-#EXTVLCOPT:http-origin=http://www.fawanews.sc
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
-http://193.47.62.44/hls/ZIIIAAAqQQQ.m3u8
-#EXTINF:-1 tvg-name="Atletico GO vs Vila Nova FC" tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg" tvg-chno="561" group-title="EVENT TV 2" type="live" radio="false",atletico go vs vila nova fc | Brazil Serie A | PlayZ
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-#EXTVLCOPT:http-origin=http://www.fawanews.sc
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
-http://193.47.62.44/hls/ZIIIAAAqQQ.m3u8
-#EXTINF:-1 tvg-name="New Zealand vs India" tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg" tvg-chno="562" group-title="EVENT TV 2" type="live" radio="false",new zealand vs india
+#EXTINF:-1 tvg-name="New Zealand vs India" tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg" tvg-chno="555" group-title="EVENT TV 2" type="live" radio="false",new zealand vs india
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-origin=http://www.fawanews.sc
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 http://193.47.62.41/hls/qaqaqa.m3u8
-#EXTINF:-1 tvg-name="Rubio Nu vs Libertad Asuncion" tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg" tvg-chno="563" group-title="EVENT TV 2" type="live" radio="false",rubio nu vs libertad asuncion
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-#EXTVLCOPT:http-origin=http://www.fawanews.sc
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
-http://193.47.62.44/hls/ZIIIAAA.m3u8
-#EXTINF:-1 tvg-name="Olimpia Asuncion vs Sportivo Trinidense" tvg-logo="https://kokotv.my.id/Foto/tivoratvevent.jpeg" tvg-chno="564" group-title="EVENT TV 2" type="live" radio="false",olimpia asuncion vs sportivo trinidense
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
-http://193.47.62.44/hls/ZIIIAA.m3u8
-#EXTINF:-1 tvg-id="LIGUE1" tvg-logo="https://kokotv.my.id/Foto/kokotvevent.jpeg" tvg-chno="565" group-title="EVENT TV 3" type="live" radio="false",🔥02;45 WIB |MARSEILLE VS LE MANS - LIGUE 1| espan
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
-https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/e3ozww2yny/out/v1/3a16d07c2cc0444bb8ea10d0483d1ced/cenc.mpd
+#EXTINF:-1 tvg-logo="https://kokotv.my.id/Foto/kokotvevent.jpeg" tvg-chno="556" group-title="EVENT TV 3" type="live" radio="false",Tidak ada siaran (LIVE HARI INI) di Link 2 (LIVE HARI INI)
+http://127.0.0.1/empty.ts
