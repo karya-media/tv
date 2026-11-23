@@ -53,15 +53,15 @@ https://kuk1.modprimus1.cfd/kuk3/usergendx0slfk9QssDx9lgxlsdmqrnd.m3u8
 https://kudos111.terranovax1.cfd/kuk4/usergendx0thc60skrdnnd.m3u8
 #EXTINF:-1 tvg-id="VOLLYBALL" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQx-A7A-YT5JN8fDYFRbyBk3ZhPKN1m1NtVCgeV7nEU4zrbr8jPrjWwLkw&s=10" tvg-chno="16" group-title="VOLLEYBALL TV",VOLLEYBALL LEAGUE
 https://tg0b0gr3uomttgr31hctwgazdoc3pptwzc3jt.100ycdn.com/live1.quickscoreboardz.com/live/channel82/playlist.m3u8?wsSecret=707d83590b3bfeaaacd9df2f907e217f&wsABSTime=1792641714&wsSession=447b791bd3339c8d29a2b44d-179259851878820&wsIPSercert=1d1b95b95517399d8c445150813dc2af&wsBindIP=2&wsserid=1168278531255916870
-#EXTINF:-1 tvg-id="24" tvg-logo="https://www.visionplus.id/images/repository/856/856-LOGO-m.png" tvg-chno="17" group-title="Local Channels" tvg-url="https://raw.githubusercontent.com/apistech/project/refs/heads/main/epgs/guide.xml",JTV (Vision +)
+#EXTINF:-1 tvg-id="24" tvg-logo="https://www.visionplus.id/images/repository/856/856-LOGO-m.png" tvg-chno="17" group-title="Local Channels" tvg-url="https://github.com/apistech/project/raw/refs/heads/main/epgs/guide.xml.gz",JTV (Vision +)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTVLCOPT:http-referrer=https://www.visionplus.id/
 https://proxy-v.rctiplus.id/live/web/jtv/index.m3u8
-#EXTINF:-1 tvg-id="27" tvg-logo="https://www.visionplus.id/images/repository/600/600-LOGO-m.png" tvg-chno="18" group-title="Local Channels" tvg-url="https://raw.githubusercontent.com/apistech/project/refs/heads/main/epgs/guide.xml",Bandung TV (Vision+)
+#EXTINF:-1 tvg-id="27" tvg-logo="https://www.visionplus.id/images/repository/600/600-LOGO-m.png" tvg-chno="18" group-title="Local Channels" tvg-url="https://github.com/apistech/project/raw/refs/heads/main/epgs/guide.xml.gz",Bandung TV (Vision+)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTVLCOPT:http-referrer=https://www.visionplus.id/
 https://proxy-v.rctiplus.id/live/web/bandungtv/index.m3u8
-#EXTINF:-1 tvg-id="26" tvg-logo="https://www.visionplus.id/images/repository/700/700-LOGO-m.png" tvg-chno="19" group-title="Local Channels" tvg-url="https://raw.githubusercontent.com/apistech/project/refs/heads/main/epgs/guide.xml",Bali TV (Vision+)
+#EXTINF:-1 tvg-id="26" tvg-logo="https://www.visionplus.id/images/repository/700/700-LOGO-m.png" tvg-chno="19" group-title="Local Channels" tvg-url="https://github.com/apistech/project/raw/refs/heads/main/epgs/guide.xml.gz",Bali TV (Vision+)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTVLCOPT:http-referrer=https://www.visionplus.id/
 https://proxy-v.rctiplus.id/live/web/balitv/index.m3u8
@@ -87,7 +87,7 @@ https://63b2dc7196c38.streamlock.net:1937/KAWANUATV/_definst_/myStream/chunklist
 https://cdnbal1.indihometv.com/atm/DASH/mykids/mykids-avc1_2500000=7-3277707030000000.mpd
 #EXTINF:-1 tvg-logo="https://www.visionplus.id/images/repository/960/49960-SNAPSHOT-l.png" tvg-chno="29" group-title="SPORTS LUAR",SpoTV 2 PH
 https://qp-pldt-live-grp-13-prod.akamaized.net/out/u/dr_spotv2hd.mpd
-#EXTINF:-1 tvg-id="25" tvg-logo="https://www.visionplus.id/images/repository/598/598-LOGO-m.png" tvg-chno="30" group-title="Local Channels" tvg-url="https://raw.githubusercontent.com/apistech/project/refs/heads/main/epgs/guide.xml",JAKTV (Vision +)
+#EXTINF:-1 tvg-id="25" tvg-logo="https://www.visionplus.id/images/repository/598/598-LOGO-m.png" tvg-chno="30" group-title="Local Channels" tvg-url="https://github.com/apistech/project/raw/refs/heads/main/epgs/guide.xml.gz",JAKTV (Vision +)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTVLCOPT:http-referrer=https://www.visionplus.id/
 https://proxy-v.rctiplus.id/live/web/jaktv/index.m3u8
