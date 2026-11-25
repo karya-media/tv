@@ -107,271 +107,268 @@ https://tg0e1gr4ugmtwgczdrpbufa3dcmmcpf5gkce.100ycdn.com/live1.quickscoreboardz.
 https://tg0e1gr4ugmtwgczdrpbufa3unmmcpf5gkce.100ycdn.com/live1.quickscoreboardz.com/live/channel75/playlist.m3u8?wsSecret=c99984a5875909064cf274e46b8b77f8&wsABSTime=1792911966&wsSession=e4494cec94b605bd19b02f09-179286876951301&wsIPSercert=690656f99094be74e16cb34d89341360&wsBindIP=2&wsserid=1168311488344110126
 #EXTINF:-1 tvg-logo="https://www.freepnglogos.com/uploads/counter-strike-png-logo/counter-strike-symbol-png-logo-11.png" tvg-chno="37" group-title="LIVE ESPORTS",CSGO CIR
 https://tg0e1gr4ugmtwgczdrpbufa5demmcpf5gkce.100ycdn.com/live1.quickscoreboardz.com/live/channel76/playlist.m3u8?wsSecret=d9ec09906a0f89455b5983cdb49ec8fa&wsABSTime=1792912033&wsSession=58b550e01da2fc08e843c601-179286883677072&wsIPSercert=690656f99094be74e16cb34d89341360&wsBindIP=2&wsserid=1168311491940439020
-#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTruU4vKRZ0_Ac2LlhGqU9ho5x8BbHMpiLYrJk0oTY6xURJaiXb8D61gTY&s=10" tvg-chno="38" group-title="AFC CHAMPIONS LEAGUE ELITE",Fancode 2
-https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/avqlywnuzx/out/v1/aefca6420f944a9482e117f315de535f/cenc.mpd
-#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwUJjdGzQ138yoymhmtxs96AyITXTC1WD3Qdoo_EOKcDj__YsjLOSSsr8&s=10" tvg-chno="39" group-title="CARABAO CUP EFL 2026",Fancode 1
-https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/b3b3fkmrbl/out/v1/1084d5c9a97a4c5b9f9554c88f486646/cenc.mpd
-#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwUJjdGzQ138yoymhmtxs96AyITXTC1WD3Qdoo_EOKcDj__YsjLOSSsr8&s=10" tvg-chno="40" group-title="CARABAO CUP EFL 2026",GOLAZO NETWORK
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwUJjdGzQ138yoymhmtxs96AyITXTC1WD3Qdoo_EOKcDj__YsjLOSSsr8&s=10" tvg-chno="38" group-title="CARABAO CUP EFL 2026",GOLAZO NETWORK
 https://otte.live.fly.ww.aiv-cdn.net/lhr-nitro/live/clients/dash/enc/rbem8rorcw/out/v1/5318821e2c3c44c2a439681b9aa86e9b/cenc.mpd
-#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwaod70x_TTcRW23akb0kM2vxe_SocNunFggpRhm0llHb9Zzg17HOO8T8&s=10" tvg-chno="41" group-title="PIALA JERMAN (DFB POKAL)",Premier Sports 1
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwaod70x_TTcRW23akb0kM2vxe_SocNunFggpRhm0llHb9Zzg17HOO8T8&s=10" tvg-chno="39" group-title="PIALA JERMAN (DFB POKAL)",Premier Sports 1
 https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash/enc/m6sqanvm2m/out/v1/f6beb46c6e9a4132ad739f3ca27df6aa/cenc.mpd
-#EXTINF:-1 tvg-id="UEFANL" tvg-logo="https://r2.thesportsdb.com/images/media/league/badge/cwsp321698386224.png" tvg-chno="42" group-title="UEFA NATIONS LEAGUE",KOKO FEED 1
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwaod70x_TTcRW23akb0kM2vxe_SocNunFggpRhm0llHb9Zzg17HOO8T8&s=10" tvg-chno="40" group-title="PIALA JERMAN (DFB POKAL)",Premier Sports 2
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/bcj3iscpd6/out/v1/fcd137b391214f7cb99dd4d7be90ca87/cenc.mpd
+#EXTINF:-1 tvg-id="UEFANL" tvg-logo="https://r2.thesportsdb.com/images/media/league/badge/cwsp321698386224.png" tvg-chno="41" group-title="UEFA NATIONS LEAGUE",KOKO FEED 1
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone14,6; U; CPU iPhone OS 15_4 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) Version/10.0 Mobile/19E241 Safari/602.1
 #EXTVLCOPT:http-referrer=https://kuruk1.xn--okq6e.shop/000/
 https://kuruk1.xn--okq6e.shop/kuk1/usergendx419snx12kdgwqrnd.m3u8
-#EXTINF:-1 tvg-id="UEFANL" tvg-logo="https://r2.thesportsdb.com/images/media/league/badge/cwsp321698386224.png" tvg-chno="43" group-title="UEFA NATIONS LEAGUE",KOKO FEED 2
+#EXTINF:-1 tvg-id="UEFANL" tvg-logo="https://r2.thesportsdb.com/images/media/league/badge/cwsp321698386224.png" tvg-chno="42" group-title="UEFA NATIONS LEAGUE",KOKO FEED 2
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone14,6; U; CPU iPhone OS 15_4 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) Version/10.0 Mobile/19E241 Safari/602.1
 #EXTVLCOPT:http-referrer=https://kuruk1.xn--okq6e.shop/000/
 https://kuruk1.xn--okq6e.shop/kuk2/usergendx0ul1ltsDx9lgcdwqrnd.m3u8
-#EXTINF:-1 tvg-id="UEFANL" tvg-logo="https://r2.thesportsdb.com/images/media/league/badge/cwsp321698386224.png" tvg-chno="44" group-title="UEFA NATIONS LEAGUE",KOKO FEED 3
+#EXTINF:-1 tvg-id="UEFANL" tvg-logo="https://r2.thesportsdb.com/images/media/league/badge/cwsp321698386224.png" tvg-chno="43" group-title="UEFA NATIONS LEAGUE",KOKO FEED 3
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone14,6; U; CPU iPhone OS 15_4 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) Version/10.0 Mobile/19E241 Safari/602.1
 #EXTVLCOPT:http-referrer=https://pulse1.sanseny001.shop/000/
 https://pulse1.sanseny001.shop/kuk3/usergendxt1v7slq2rnd.m3u8
-#EXTINF:-1 tvg-id="UEFANL" tvg-logo="https://r2.thesportsdb.com/images/media/league/badge/cwsp321698386224.png" tvg-chno="45" group-title="UEFA NATIONS LEAGUE",KOKO FEED 4
+#EXTINF:-1 tvg-id="UEFANL" tvg-logo="https://r2.thesportsdb.com/images/media/league/badge/cwsp321698386224.png" tvg-chno="44" group-title="UEFA NATIONS LEAGUE",KOKO FEED 4
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone14,6; U; CPU iPhone OS 15_4 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) Version/10.0 Mobile/19E241 Safari/602.1
 #EXTVLCOPT:http-referrer=https://pulse1.sanseny001.shop/000/
 https://pulse1.sanseny001.shop/kuk4/usergendk9g3ks42t3n.m3u8
-#EXTINF:-1 tvg-id="UEFANL" tvg-logo="https://r2.thesportsdb.com/images/media/league/badge/cwsp321698386224.png" tvg-chno="46" group-title="UEFA NATIONS LEAGUE",beIN Sports 1
-https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/ghwcl6hv68/out/v1/83536910d8034e9b9895a20fbe1c1687/cenc.mpd
-#EXTINF:-1 tvg-logo="https://i.ytimg.com/vi/7kFbYC_sTK8/maxresdefault.jpg" tvg-chno="47" group-title="VOLLEYBALL TV",LIGA VOLLY MAHASISWA
+#EXTINF:-1 tvg-logo="https://i.ytimg.com/vi/7kFbYC_sTK8/maxresdefault.jpg" tvg-chno="45" group-title="VOLLEYBALL TV",LIGA VOLLY MAHASISWA
 https://raw.githubusercontent.com/vannyruru-ui/KokoUyo06/refs/heads/main/MojiuYo.m3u8
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/8/8e/TAURON_Liga_logo.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original" tvg-chno="48" group-title="VOLLEYBALL TV",TAURON LIGA
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/8/8e/TAURON_Liga_logo.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original" tvg-chno="46" group-title="VOLLEYBALL TV",TAURON LIGA
 https://live2.domainkqt.cc/live/channel33.m3u8
-#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCleH74hbwNcV4tnrbie5-c4Ou-PNw97IqKR84zBdwNA&s=10" tvg-chno="49" group-title="VOLLEYBALL TV",SUPER LEAGUE
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCleH74hbwNcV4tnrbie5-c4Ou-PNw97IqKR84zBdwNA&s=10" tvg-chno="47" group-title="VOLLEYBALL TV",SUPER LEAGUE
 https://tg0b0gr4ugmtwgczdcqjqgr5n45djq31unmutqiwsg45ucpzzr3mnp7ozr3d4.100ycdn.com/live1.quickscoreboardz.com/live/channel83/playlist.m3u8?wsSecret=8461787a202363d1614cb8b85dad30e3&wsABSTime=1792642258&wsSession=ae05c111b1f322c889c9bbe8-179259906617130&wsIPSercert=e96b5b64726b5dec42bc8a8143f342d2&wsBindIP=2&wsserid=1168287746149776142
-#EXTINF:-1 tvg-logo="https://asset.tribunnews.com/xb52bAZvTBgTvxSg1R9UHuqv70c=/1200x675/filters:upscale():quality(30):format(webp):focal(0.5x0.5:0.5x0.5)/kalteng/foto/bank/originals/KOVO-Cup-2026.jpg" tvg-chno="50" group-title="VOLLEYBALL TV",KOVO CUP
+#EXTINF:-1 tvg-logo="https://asset.tribunnews.com/xb52bAZvTBgTvxSg1R9UHuqv70c=/1200x675/filters:upscale():quality(30):format(webp):focal(0.5x0.5:0.5x0.5)/kalteng/foto/bank/originals/KOVO-Cup-2026.jpg" tvg-chno="48" group-title="VOLLEYBALL TV",KOVO CUP
 https://tg050gr4ugmtwgczdcqjqgr5n45djq31unmutqiwsg45ucpzzr3mnp7ozr3d4.100ycdn.com/live1.quickscoreboardz.com/live/channel81/playlist.m3u8?wsSecret=eb8340012fc6d763a7cf6953918a047d&wsABSTime=1792092540&wsSession=6e5e48cde178b0231176ecbe-179204935903678&wsIPSercert=9faba076c0338ce7a76a05f30144030c&wsBindIP=2&wsserid=1168287746149776142
-#EXTINF:-1 tvg-id="VOLLYBALL" tvg-logo="https://upload.wikimedia.org/wikipedia/en/c/c6/V-league-men1-logo.png?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=original" tvg-chno="51" group-title="VOLLEYBALL TV",V-LEAGUE MEN
+#EXTINF:-1 tvg-id="VOLLYBALL" tvg-logo="https://upload.wikimedia.org/wikipedia/en/c/c6/V-league-men1-logo.png?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=original" tvg-chno="49" group-title="VOLLEYBALL TV",V-LEAGUE MEN
 https://tg040gr4ugmtwgczdcqjqgr5n45djq31unmutqiwsg45ucpzzr3mnp7ozr3d4.100ycdn.com/live1.quickscoreboardz.com/live/channel80/playlist.m3u8?wsSecret=498616518ea2c6fab297148eb39e4072&wsABSTime=1792016801&wsSession=510ff2a6e1fbdceb0434ca7c-179197360643507&wsIPSercert=6087136349f581a2360b49970c13d9f2&wsBindIP=2&wsserid=1168287765269359649
-#EXTINF:-1 tvg-id="VOLLYBALL" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVkTEMRHp2dWE7Vew3YIcYY2Kx_BnXUSn5uHFtiASWvQ&s=10" tvg-chno="52" group-title="VOLLEYBALL TV",PREMIER VOLLYBALL LEAGUE
+#EXTINF:-1 tvg-id="VOLLYBALL" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVkTEMRHp2dWE7Vew3YIcYY2Kx_BnXUSn5uHFtiASWvQ&s=10" tvg-chno="50" group-title="VOLLEYBALL TV",PREMIER VOLLYBALL LEAGUE
 https://tg050gr4ugmtwgczdcqjqgr5n45djq31unmutqiwsg45ucpzzr3mnp7ozr3d4.100ycdn.com/live1.quickscoreboardz.com/live/channel80/playlist.m3u8?wsSecret=260b5ac0f85dfd77761e2fba83b7671f&wsABSTime=1792091335&wsSession=9e00b4ed34b2de14b439c3af-179204813867695&wsIPSercert=9faba076c0338ce7a76a05f30144030c&wsBindIP=2&wsserid=1168287746130901650
-#EXTINF:-1 tvg-id="VOLLYBALL" tvg-logo="https://thenvl.com/wp-content/uploads/2016/01/nvl-logo2-01-e1452534886433.png" tvg-chno="53" group-title="VOLLEYBALL TV",NATIONAL LEAGUE WOMEN
+#EXTINF:-1 tvg-id="VOLLYBALL" tvg-logo="https://thenvl.com/wp-content/uploads/2016/01/nvl-logo2-01-e1452534886433.png" tvg-chno="51" group-title="VOLLEYBALL TV",NATIONAL LEAGUE WOMEN
 https://tg050gr3uomttgr31hctwgazdoc3pptwzc3jt.100ycdn.com/live1.quickscoreboardz.com/live/channel80/playlist.m3u8?wsSecret=93845c715dcf9b09b372363b9550c2d1&wsABSTime=1792091534&wsSession=95f32cc2c2b923da609e96a9-179204833894575&wsIPSercert=1a493edd0c472424bef89e6e040d6678&wsBindIP=2&wsserid=1168278531255916870
-#EXTINF:-1 tvg-id="VOLLYBALL" tvg-logo="https://thenvl.com/wp-content/uploads/2016/01/nvl-logo2-01-e1452534886433.png" tvg-chno="54" group-title="VOLLEYBALL TV",NATIONAL LEAGUE WOMEN 2
+#EXTINF:-1 tvg-id="VOLLYBALL" tvg-logo="https://thenvl.com/wp-content/uploads/2016/01/nvl-logo2-01-e1452534886433.png" tvg-chno="52" group-title="VOLLEYBALL TV",NATIONAL LEAGUE WOMEN 2
 https://tg050gr4ugmtwgczdcqjqgr5n45djq31unmutqiwsg45ucpzzr3mnp7ozr3d4.100ycdn.com/live1.quickscoreboardz.com/live/channel81/playlist.m3u8?wsSecret=75cdc531c79c62eb5541689aee33ecf8&wsABSTime=1792091674&wsSession=6e5e48cde178b0231176ecbe-179204847902158&wsIPSercert=9faba076c0338ce7a76a05f30144030c&wsBindIP=2&wsserid=1168287746149776142
-#EXTINF:-1 tvg-id="BULUTANGKISTV" tvg-logo="https://shorter.me/oFx-D" tvg-chno="55" group-title="BULUTANGKIS TV",HYLO Open 2026
+#EXTINF:-1 tvg-id="BULUTANGKISTV" tvg-logo="https://shorter.me/oFx-D" tvg-chno="53" group-title="BULUTANGKIS TV",HYLO Open 2026
 https://tfqv3gr5dgmttgha1hcto8yzdncbafisg17ufgrz8yhuxgjtse5ucpf5gk.100ycdn.com/live1.quickscoreboardz.com/live/channel87.m3u8
-#EXTINF:-1 tvg-id="BULUTANGKISTV" tvg-logo="https://shorter.me/oFx-D" tvg-chno="56" group-title="BULUTANGKIS TV",HYLO Open 2026
+#EXTINF:-1 tvg-id="BULUTANGKISTV" tvg-logo="https://shorter.me/oFx-D" tvg-chno="54" group-title="BULUTANGKIS TV",HYLO Open 2026
 https://tfqv3gr5dgmttgha1hcto8yzdncbafisg17ufgrz8yhuxgjtse5ucpf5gk.100ycdn.com/live1.quickscoreboardz.com/live/channel88.m3u8
-#EXTINF:-1 tvg-id="BULUTANGKISTV" tvg-logo="https://shorter.me/oFx-D" tvg-chno="57" group-title="BULUTANGKIS TV",HYLO Open 2026
+#EXTINF:-1 tvg-id="BULUTANGKISTV" tvg-logo="https://shorter.me/oFx-D" tvg-chno="55" group-title="BULUTANGKIS TV",HYLO Open 2026
 https://tfqv3gr5dgmttgha1hcto8yzdncbafisg17ufgrz8yhuxgjtse5ucpf5gk.100ycdn.com/live1.quickscoreboardz.com/live/channel89.m3u8
-#EXTINF:-1 tvg-logo="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_webp/115c40162154951.63d11023ab1c3.gif" tvg-chno="58" group-title="BUNDESLIGA",GO3 Sport 3
+#EXTINF:-1 tvg-logo="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_webp/115c40162154951.63d11023ab1c3.gif" tvg-chno="56" group-title="BUNDESLIGA",GO3 Sport 3
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
 https://shortcut-edgeware.helio.lv/__cl/cg:EDW-Production_HTTP/__c/229_HTTP/__op/dash-widevine/__f/manifest.mpd
-#EXTINF:-1 tvg-id="skysport.com" tvg-name="Sky sport" tvg-logo="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_webp/115c40162154951.63d11023ab1c3.gif" tvg-chno="59" group-title="BUNDESLIGA",Sky Sport Bundesliga
+#EXTINF:-1 tvg-id="skysport.com" tvg-name="Sky sport" tvg-logo="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_webp/115c40162154951.63d11023ab1c3.gif" tvg-chno="57" group-title="BUNDESLIGA",Sky Sport Bundesliga
 http://72164d91.edmonst.net/iptv/2TBC4G2WWDG6RSUSN5SXSQEC/2480/index.m3u8
-#EXTINF:-1 tvg-logo="https://www.reasonwhy.es/media/library/laliga-nueva-identidad-visual.gif" tvg-chno="60" group-title="LA LIGA",GO3 Sport 1
+#EXTINF:-1 tvg-logo="https://www.reasonwhy.es/media/library/laliga-nueva-identidad-visual.gif" tvg-chno="58" group-title="LA LIGA",GO3 Sport 1
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
 https://shortcut-edgeware.helio.lv/__cl/cg:EDW-Production_HTTP/__c/212_HTTP/__op/dash-widevine/__f/manifest.mpd
-#EXTINF:-1 tvg-id="1011" tvg-logo="https://www.visionplus.id/images/repository/883/124883-LOGO-m.png" tvg-chno="61" group-title="FEED VISION+",V+Sports
+#EXTINF:-1 tvg-id="1011" tvg-logo="https://www.visionplus.id/images/repository/883/124883-LOGO-m.png" tvg-chno="59" group-title="FEED VISION+",V+Sports
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTVLCOPT:http-referrer=https://www.visionplus.id/
 https://d2xz2v5wuvgur6.cloudfront.net/out/v1/f224a4945f2f48e892fb896645a9af6b/index.mpd
-#EXTINF:-1 tvg-id="1012" tvg-logo="https://www.visionplus.id/images/repository/698/129698-LOGO-m.png" tvg-chno="62" group-title="FEED VISION+",V+ Live 3
+#EXTINF:-1 tvg-id="1012" tvg-logo="https://www.visionplus.id/images/repository/698/129698-LOGO-m.png" tvg-chno="60" group-title="FEED VISION+",V+ Live 3
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTVLCOPT:http-referrer=https://www.visionplus.id/
 https://d3b0v7fggu5zwm.cloudfront.net/out/v1/113af3d432214f62bd6815f976bf2cd6/index.mpd
-#EXTINF:-1 tvg-id="1015" tvg-logo="https://www.visionplus.id/images/repository/288/191288-LOGO-m.png" tvg-chno="63" group-title="FEED VISION+",V+ Live 6
+#EXTINF:-1 tvg-id="1015" tvg-logo="https://www.visionplus.id/images/repository/288/191288-LOGO-m.png" tvg-chno="61" group-title="FEED VISION+",V+ Live 6
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTVLCOPT:http-referrer=https://www.visionplus.id/
 https://d84q7nw4qf3j3.cloudfront.net/out/v1/eb98aca0a1be41f7b9c05dac051a250e/index.mpd
-#EXTINF:-1 tvg-id="1017" tvg-logo="https://www.visionplus.id/images/repository/290/191290-LOGO-m.png" tvg-chno="64" group-title="FEED VISION+",V+ Live 8
+#EXTINF:-1 tvg-id="1017" tvg-logo="https://www.visionplus.id/images/repository/290/191290-LOGO-m.png" tvg-chno="62" group-title="FEED VISION+",V+ Live 8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTVLCOPT:http-referrer=https://www.visionplus.id/
 https://d3b0v7fggu5zwm.cloudfront.net/out/v1/32aa4a6344fd435bb78826c719c11923/index.mpd
-#EXTINF:-1 tvg-id="1018" tvg-logo="https://www.visionplus.id/images/repository/402/552402-LOGO-m.png" tvg-chno="65" group-title="FEED VISION+",V+ Live 9
+#EXTINF:-1 tvg-id="1018" tvg-logo="https://www.visionplus.id/images/repository/402/552402-LOGO-m.png" tvg-chno="63" group-title="FEED VISION+",V+ Live 9
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTVLCOPT:http-referrer=https://www.visionplus.id/
 https://d84q7nw4qf3j3.cloudfront.net/out/v1/8983f9a68f0d4f169a77f3ce20ab2685/index.mpd
-#EXTINF:-1 tvg-logo="https://www.visionplus.id/images/repository/632/632-LOGO-m.png" tvg-chno="66" group-title="HIBURAN",Entertainment
+#EXTINF:-1 tvg-logo="https://www.visionplus.id/images/repository/632/632-LOGO-m.png" tvg-chno="64" group-title="HIBURAN",Entertainment
 #EXTVLCOPT:http-referrer=https://www.visionplus.id/
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
 https://d2xx73ro32cip.cloudfront.net/out/v1/a90cb773466446b08595007bab12b920/index.mpd
-#EXTINF:-1 tvg-id="157" tvg-logo="https://www.visionplus.id/images/repository/681/681-LOGO-m.png" tvg-chno="67" group-title="HIBURAN",Anhui Tv
+#EXTINF:-1 tvg-id="157" tvg-logo="https://www.visionplus.id/images/repository/681/681-LOGO-m.png" tvg-chno="65" group-title="HIBURAN",Anhui Tv
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTVLCOPT:http-referrer=https://www.visionplus.id/
 https://d2tjypxxy769fn.cloudfront.net/out/v1/39a34211e80145678ce1616b52368f99/index.mpd
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/apistech/project/refs/heads/main/logo/image_ch_curiosity.png" tvg-chno="68" group-title="DUNIA HEWAN",Curiosity
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/apistech/project/refs/heads/main/logo/image_ch_curiosity.png" tvg-chno="66" group-title="DUNIA HEWAN",Curiosity
 https://cdn08jtedge.indihometv.com/dassdvr/130/curiosity/manifest_wuseetv.mpd
-#EXTINF:-1 tvg-logo="https://www.pngfind.com/pngs/m/74-742126_discovery-turbo-logo-discovery-turbo-hd-png-download.png" tvg-chno="69" group-title="DUNIA HEWAN",DISCOVEY TURBO
+#EXTINF:-1 tvg-logo="https://www.pngfind.com/pngs/m/74-742126_discovery-turbo-logo-discovery-turbo-hd-png-download.png" tvg-chno="67" group-title="DUNIA HEWAN",DISCOVEY TURBO
 https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Discoveryturbo2/default/manifest.mpd
-#EXTINF:-1 tvg-id="science" tvg-name="Science HD" tvg-logo="https://www.kindpng.com/picc/m/17-171720_discovery-science-logo-hd-png-download.png" tvg-chno="70" group-title="DUNIA HEWAN",DISCOVERY SCIENCE
+#EXTINF:-1 tvg-id="science" tvg-name="Science HD" tvg-logo="https://www.kindpng.com/picc/m/17-171720_discovery-science-logo-hd-png-download.png" tvg-chno="68" group-title="DUNIA HEWAN",DISCOVERY SCIENCE
 https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Discoveryscience2/default/manifest.mpd-SCIENCE-HD/default.mpd
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/apistech/project/refs/heads/main/logo/image_ch_history.png" tvg-chno="71" group-title="DUNIA HEWAN",History
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/apistech/project/refs/heads/main/logo/image_ch_history.png" tvg-chno="69" group-title="DUNIA HEWAN",History
 https://d3b0v7fggu5zwm.cloudfront.net/out/v1/936ed6f98448469b924a0ce456586651/index.mpd
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/apistech/project/refs/heads/main/logo/image_ch_lovenature.png" tvg-chno="72" group-title="DUNIA HEWAN",Love Nature
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/apistech/project/refs/heads/main/logo/image_ch_lovenature.png" tvg-chno="70" group-title="DUNIA HEWAN",Love Nature
 https://a156aivottlinear-a.akamaihd.net/OTTB/pdx-nitro/live/clients/dash/enc/utcsjvt6qk/out/v1/8ee87ae683ec4b458720621cb2244937/cenc.mpd
-#EXTINF:-1 tvg-logo="https://www.visionplus.id/images/repository/647/647-LOGO-m.png" tvg-chno="73" group-title="DUNIA HEWAN",Outdoor Channel
+#EXTINF:-1 tvg-logo="https://www.visionplus.id/images/repository/647/647-LOGO-m.png" tvg-chno="71" group-title="DUNIA HEWAN",Outdoor Channel
 https://d2tjypxxy769fn.cloudfront.net/out/v1/c169ca1dcbe249c5bf233aabc3db4a4f/index.mpd
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/apistech/project/refs/heads/main/logo/image_ch_animax.png" tvg-chno="74" group-title="DUNIA ANAK",Animax
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/apistech/project/refs/heads/main/logo/image_ch_animax.png" tvg-chno="72" group-title="DUNIA ANAK",Animax
 #EXTVLCOPT:http-referrer=https://www.visionplus.id/
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
 https://d84q7nw4qf3j3.cloudfront.net/out/v1/ab3ef0f0e4144c3c8b7e60f1873a3bcc/index.mpd
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/apistech/project/refs/heads/main/logo/image_ch_aniplus.png" tvg-chno="75" group-title="DUNIA ANAK",Aniplus
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/apistech/project/refs/heads/main/logo/image_ch_aniplus.png" tvg-chno="73" group-title="DUNIA ANAK",Aniplus
 https://cdn08jtedge.indihometv.com/dassdvr/134/aniplus/manifest_wuseetv.mpd
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/apistech/project/refs/heads/main/logo/imageCir_180x180_CBeebies_2025_12_03_10_31_32.jpg" tvg-chno="76" group-title="DUNIA ANAK",CBeebies
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/apistech/project/refs/heads/main/logo/imageCir_180x180_CBeebies_2025_12_03_10_31_32.jpg" tvg-chno="74" group-title="DUNIA ANAK",CBeebies
 #EXTVLCOPT:http-referrer=https://www.visionplus.id/
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
 https://d2xz2v5wuvgur6.cloudfront.net/out/v1/2a5668fb3b9f4e34ab7c02cdc6ef56db/index.mpd
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/apistech/project/refs/heads/main/logo/image_ch_duniaanak.png" tvg-chno="77" group-title="DUNIA ANAK",Dunia Anak
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/apistech/project/refs/heads/main/logo/image_ch_duniaanak.png" tvg-chno="75" group-title="DUNIA ANAK",Dunia Anak
 https://cdn08jtedge.indihometv.com/dassdvr/130/duniaanak/manifest_wuseetv.mpd
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/apistech/project/refs/heads/main/logo/image_ch_moonbug%20kids.png" tvg-chno="78" group-title="DUNIA ANAK",Moonbug
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/apistech/project/refs/heads/main/logo/image_ch_moonbug%20kids.png" tvg-chno="76" group-title="DUNIA ANAK",Moonbug
 #EXTVLCOPT:http-referrer=https://www.visionplus.id/
 #EXTVLCOPT:http-origin=https://www.visionplus.id/
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
 https://d84q7nw4qf3j3.cloudfront.net/out/v1/198f7febb48c4c909d62977d88c195b0/index.mpd
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/apistech/project/refs/heads/main/logo/image_ch_nickjr.png" tvg-chno="79" group-title="DUNIA ANAK",Nick Jr.
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/apistech/project/refs/heads/main/logo/image_ch_nickjr.png" tvg-chno="77" group-title="DUNIA ANAK",Nick Jr.
 #EXTVLCOPT:http-referrer=https://www.visionplus.id/
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
 https://d84q7nw4qf3j3.cloudfront.net/out/v1/27163af9499b4bcca2da96677b158efe/index.mpd
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/apistech/project/refs/heads/main/logo/image_ch_nick.png" tvg-chno="80" group-title="DUNIA ANAK",Nickelodeon
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/apistech/project/refs/heads/main/logo/image_ch_nick.png" tvg-chno="78" group-title="DUNIA ANAK",Nickelodeon
 #EXTVLCOPT:http-referrer=https://www.visionplus.id/
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
 https://d2tjypxxy769fn.cloudfront.net/out/v1/3fe6d9eb97ed455c942eb8d3d1c2c2e8/index.mpd
-#EXTINF:-1 tvg-logo="https://www.visionplus.id/images/repository/626/626-LOGO-m.png" tvg-chno="81" group-title="DUNIA ANAK",Zoomoo
+#EXTINF:-1 tvg-logo="https://www.visionplus.id/images/repository/626/626-LOGO-m.png" tvg-chno="79" group-title="DUNIA ANAK",Zoomoo
 #EXTVLCOPT:http-user-agent=ExoPlayer/2.19.1 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
 https://zoomoo-samsungau.amagi.tv/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://www.visionplus.id/images/repository/642/642-LOGO-m.png" tvg-chno="82" group-title="GAYA HIDUP",Celebrities TV
+#EXTINF:-1 tvg-logo="https://www.visionplus.id/images/repository/642/642-LOGO-m.png" tvg-chno="80" group-title="GAYA HIDUP",Celebrities TV
 #EXTVLCOPT:http-referrer=https://www.visionplus.id/
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
 https://d3b0v7fggu5zwm.cloudfront.net/out/v1/8cf72e61626f4361a45c57ce6f2fdad8/index.mpd
-#EXTINF:-1 tvg-logo="https://pic.dens.tv/tv_183x174/Dens_Food_Channel_(Trial)_1.jpg" tvg-chno="83" group-title="GAYA HIDUP",Dens Food Channel
+#EXTINF:-1 tvg-logo="https://pic.dens.tv/tv_183x174/Dens_Food_Channel_(Trial)_1.jpg" tvg-chno="81" group-title="GAYA HIDUP",Dens Food Channel
 #EXTVLCOPT:http-referrer=https://sabutv.com/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1 Mobile/15E148 Safari/604.1/15E148/telegram@apistreaming
 https://op-flashcon-digdayahd-1.dens.tv/h/h221/index.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/apistech/project/refs/heads/main/logo/image_ch_fashiontv.png" tvg-chno="84" group-title="GAYA HIDUP",FashionTV
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/apistech/project/refs/heads/main/logo/image_ch_fashiontv.png" tvg-chno="82" group-title="GAYA HIDUP",FashionTV
 https://atemecdnbalancer-voe.sysln.id/live/eds/FashionTV/mediampd/FashionTV.mpd
-#EXTINF:-1 tvg-logo="https://www.visionplus.id/images/repository/534/172534-LOGO-m.png" tvg-chno="85" group-title="GAYA HIDUP",Food Travel
+#EXTINF:-1 tvg-logo="https://www.visionplus.id/images/repository/534/172534-LOGO-m.png" tvg-chno="83" group-title="GAYA HIDUP",Food Travel
 https://d2gr3zenqo3tg4.cloudfront.net/out/v1/77d7eac1b90247ac9aa745bd2eb47fa8/index.mpd
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/apistech/project/refs/heads/main/logo/image_ch_hgtv.png" tvg-chno="86" group-title="GAYA HIDUP",HGTV
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/apistech/project/refs/heads/main/logo/image_ch_hgtv.png" tvg-chno="84" group-title="GAYA HIDUP",HGTV
 https://cdn08jtedge.indihometv.com/dassdvr/134/hgtv/manifest_wuseetv.mpd
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/apistech/project/refs/heads/main/logo/image_ch_tlc.png" tvg-chno="87" group-title="GAYA HIDUP",TLC
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/apistech/project/refs/heads/main/logo/image_ch_tlc.png" tvg-chno="85" group-title="GAYA HIDUP",TLC
 https://cdn08jtedge.indihometv.com/dassdvr/133/tlc/manifest_wuseetv.mpd
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/apistech/project/refs/heads/main/logo/image_ch_phoenixch.png" tvg-chno="88" group-title="BERITA LUAR",Phoenix Chinese
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/apistech/project/refs/heads/main/logo/image_ch_phoenixch.png" tvg-chno="86" group-title="BERITA LUAR",Phoenix Chinese
 https://cdn10jtedge.indihometv.com/atm/DASH/phoenixchinese/phoenixchinese-avc1_2500000=7-3277707030000000.mpd
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/apistech/project/refs/heads/main/logo/image_ch_phoenixinfonews.png" tvg-chno="89" group-title="BERITA LUAR",Phoenix InfoNews
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/apistech/project/refs/heads/main/logo/image_ch_phoenixinfonews.png" tvg-chno="87" group-title="BERITA LUAR",Phoenix InfoNews
 https://cdn10jtedge.indihometv.com/atm/DASH/phoenixinfonews/phoenixinfonews-avc1_2500000=7-3277707030000000.mpd
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/apistech/project/refs/heads/main/logo/image_ch_tvbsnews.png" tvg-chno="90" group-title="BERITA LUAR",TVBS News
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/apistech/project/refs/heads/main/logo/image_ch_tvbsnews.png" tvg-chno="88" group-title="BERITA LUAR",TVBS News
 https://cdn10jtedge.indihometv.com/atm/DASH/TVBS_NEWS/TVBS_NEWS-avc1_2500000=7-3277707030000000.mpd
-#EXTINF:-1 tvg-id="bein1" tvg-name="BeIN Sports 1" tvg-logo="https://img.freepik.com/free-vector/3d-style-live-stream-web-button-design_1017-59933.jpg?semt=ais_hybrid&w=740&q=80" tvg-chno="91" group-title="LIVE FEED SPORT (ON JIKA MAIN)",SELCUK FEED 1
+#EXTINF:-1 tvg-id="bein1" tvg-name="BeIN Sports 1" tvg-logo="https://img.freepik.com/free-vector/3d-style-live-stream-web-button-design_1017-59933.jpg?semt=ais_hybrid&w=740&q=80" tvg-chno="89" group-title="LIVE FEED SPORT (ON JIKA MAIN)",SELCUK FEED 1
 #EXTVLCOPT:http-referrer=https://www.sporcafe6.xyz/
 https://dga1op10s1u3leo.52c26716e2e875.click/live/selcukbeinsports1/playlist.m3u8
-#EXTINF:-1 tvg-id="bein3" tvg-name="BeIN Sports 3" tvg-logo="https://img.freepik.com/free-vector/3d-style-live-stream-web-button-design_1017-59933.jpg?semt=ais_hybrid&w=740&q=80" tvg-chno="92" group-title="LIVE FEED SPORT (ON JIKA MAIN)",SELCUK FEED 2
+#EXTINF:-1 tvg-id="bein3" tvg-name="BeIN Sports 3" tvg-logo="https://img.freepik.com/free-vector/3d-style-live-stream-web-button-design_1017-59933.jpg?semt=ais_hybrid&w=740&q=80" tvg-chno="90" group-title="LIVE FEED SPORT (ON JIKA MAIN)",SELCUK FEED 2
 #EXTVLCOPT:http-referrer=https://www.sporcafe6.xyz/
 https://dga1op10s1u3leo.52c26716e2e875.click/live/selcukbeinsports3/playlist.m3u8
-#EXTINF:-1 tvg-id="bein5" tvg-name="BeIN Sports 5" tvg-logo="https://img.freepik.com/free-vector/3d-style-live-stream-web-button-design_1017-59933.jpg?semt=ais_hybrid&w=740&q=80" tvg-chno="93" group-title="LIVE FEED SPORT (ON JIKA MAIN)",SELCUK FEED 3
+#EXTINF:-1 tvg-id="bein5" tvg-name="BeIN Sports 5" tvg-logo="https://img.freepik.com/free-vector/3d-style-live-stream-web-button-design_1017-59933.jpg?semt=ais_hybrid&w=740&q=80" tvg-chno="91" group-title="LIVE FEED SPORT (ON JIKA MAIN)",SELCUK FEED 3
 #EXTVLCOPT:http-referrer=https://www.sporcafe6.xyz/
 https://dga1op10s1u3leo.52c26716e2e875.click/live/selcukbeinsports5/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://colatv65.live/assets/images/logo.png" tvg-chno="94" group-title="LIVE FEED SPORT (ON JIKA MAIN)",BLV 247
+#EXTINF:-1 tvg-logo="https://colatv65.live/assets/images/logo.png" tvg-chno="92" group-title="LIVE FEED SPORT (ON JIKA MAIN)",BLV 247
 https://live05.meung.app/live/90865415.m3u8
-#EXTINF:-1 tvg-logo="https://colatv65.live/assets/images/logo.png" tvg-chno="95" group-title="LIVE FEED SPORT (ON JIKA MAIN)",BLV SAMURAI
+#EXTINF:-1 tvg-logo="https://colatv65.live/assets/images/logo.png" tvg-chno="93" group-title="LIVE FEED SPORT (ON JIKA MAIN)",BLV SAMURAI
 https://live05.miekgo.app/live/07808742.m3u8
-#EXTINF:-1 tvg-logo="https://colatv65.live/assets/images/logo.png" tvg-chno="96" group-title="LIVE FEED SPORT (ON JIKA MAIN)",BLV MONSTER
+#EXTINF:-1 tvg-logo="https://colatv65.live/assets/images/logo.png" tvg-chno="94" group-title="LIVE FEED SPORT (ON JIKA MAIN)",BLV MONSTER
 https://live05.meung.app/live/75915087.m3u8
-#EXTINF:-1 tvg-logo="https://colatv65.live/assets/images/logo.png" tvg-chno="97" group-title="LIVE FEED SPORT (ON JIKA MAIN)",BLV PEPSI
+#EXTINF:-1 tvg-logo="https://colatv65.live/assets/images/logo.png" tvg-chno="95" group-title="LIVE FEED SPORT (ON JIKA MAIN)",BLV PEPSI
 https://live05.miekgo.app/live/59444581.m3u8
-#EXTINF:-1 tvg-logo="https://colatv65.live/assets/images/logo.png" tvg-chno="98" group-title="LIVE FEED SPORT (ON JIKA MAIN)",BLV FANTA
+#EXTINF:-1 tvg-logo="https://colatv65.live/assets/images/logo.png" tvg-chno="96" group-title="LIVE FEED SPORT (ON JIKA MAIN)",BLV FANTA
 https://live05.meung.app/live/16226575.m3u8
-#EXTINF:-1 tvg-logo="https://colatv65.live/assets/images/logo.png" tvg-chno="99" group-title="LIVE FEED SPORT (ON JIKA MAIN)",BLV SPRITE
+#EXTINF:-1 tvg-logo="https://colatv65.live/assets/images/logo.png" tvg-chno="97" group-title="LIVE FEED SPORT (ON JIKA MAIN)",BLV SPRITE
 https://live05.meung.app/live/75748097.m3u8
-#EXTINF:-1 tvg-logo="https://colatv65.live/assets/images/logo.png" tvg-chno="100" group-title="LIVE FEED SPORT (ON JIKA MAIN)",BLV 7UP
+#EXTINF:-1 tvg-logo="https://colatv65.live/assets/images/logo.png" tvg-chno="98" group-title="LIVE FEED SPORT (ON JIKA MAIN)",BLV 7UP
 https://live05.meung.app/live/78905744.m3u8
-#EXTINF:-1 tvg-logo="https://colatv65.live/assets/images/logo.png" tvg-chno="101" group-title="LIVE FEED SPORT (ON JIKA MAIN)",BLV BI DAO
+#EXTINF:-1 tvg-logo="https://colatv65.live/assets/images/logo.png" tvg-chno="99" group-title="LIVE FEED SPORT (ON JIKA MAIN)",BLV BI DAO
 https://live05.meung.app/live/99121525.m3u8
-#EXTINF:-1 tvg-logo="https://colatv65.live/assets/images/logo.png" tvg-chno="102" group-title="LIVE FEED SPORT (ON JIKA MAIN)",BLV MOUNTAIN DEW
+#EXTINF:-1 tvg-logo="https://colatv65.live/assets/images/logo.png" tvg-chno="100" group-title="LIVE FEED SPORT (ON JIKA MAIN)",BLV MOUNTAIN DEW
 https://live05.meung.app/live/87547578.m3u8
-#EXTINF:-1 tvg-logo="https://colatv65.live/assets/images/logo.png" tvg-chno="103" group-title="LIVE FEED SPORT (ON JIKA MAIN)",BLV KHONG DO
+#EXTINF:-1 tvg-logo="https://colatv65.live/assets/images/logo.png" tvg-chno="101" group-title="LIVE FEED SPORT (ON JIKA MAIN)",BLV KHONG DO
 https://live05.meung.app/live/41943555.m3u8
-#EXTINF:-1 tvg-logo="https://colatv65.live/assets/images/logo.png" tvg-chno="104" group-title="LIVE FEED SPORT (ON JIKA MAIN)",BLV  STING
+#EXTINF:-1 tvg-logo="https://colatv65.live/assets/images/logo.png" tvg-chno="102" group-title="LIVE FEED SPORT (ON JIKA MAIN)",BLV  STING
 https://live05.meung.app/live/14707124.m3u8
-#EXTINF:-1 tvg-logo="https://colatv65.live/assets/images/logo.png" tvg-chno="105" group-title="LIVE FEED SPORT (ON JIKA MAIN)",BLV  C2
+#EXTINF:-1 tvg-logo="https://colatv65.live/assets/images/logo.png" tvg-chno="103" group-title="LIVE FEED SPORT (ON JIKA MAIN)",BLV  C2
 https://live05.meung.app/live/08552895.m3u8
-#EXTINF:-1 tvg-logo="https://colatv65.live/assets/images/logo.png" tvg-chno="106" group-title="LIVE FEED SPORT (ON JIKA MAIN)",BLV  GIA LANG
+#EXTINF:-1 tvg-logo="https://colatv65.live/assets/images/logo.png" tvg-chno="104" group-title="LIVE FEED SPORT (ON JIKA MAIN)",BLV  GIA LANG
 https://live05.meung.app/live/14830711.m3u8
-#EXTINF:-1 tvg-logo="https://colatv65.live/assets/images/logo.png" tvg-chno="107" group-title="LIVE FEED SPORT (ON JIKA MAIN)",BLV REDBULL
+#EXTINF:-1 tvg-logo="https://colatv65.live/assets/images/logo.png" tvg-chno="105" group-title="LIVE FEED SPORT (ON JIKA MAIN)",BLV REDBULL
 https://live05.meung.app/live/49572724.m3u8
-#EXTINF:-1 tvg-logo="https://colatv65.live/assets/images/logo.png" tvg-chno="108" group-title="LIVE FEED SPORT (ON JIKA MAIN)",BLV  REVIVE
+#EXTINF:-1 tvg-logo="https://colatv65.live/assets/images/logo.png" tvg-chno="106" group-title="LIVE FEED SPORT (ON JIKA MAIN)",BLV  REVIVE
 https://live05.meung.app/live/33982309.m3u8
-#EXTINF:-1 tvg-logo="https://colatv65.live/assets/images/logo.png" tvg-chno="109" group-title="LIVE FEED SPORT (ON JIKA MAIN)",BLV  WARRIOR
+#EXTINF:-1 tvg-logo="https://colatv65.live/assets/images/logo.png" tvg-chno="107" group-title="LIVE FEED SPORT (ON JIKA MAIN)",BLV  WARRIOR
 https://live05.meung.app/live/97885009.m3u8
-#EXTINF:-1 tvg-logo="https://colatv65.live/assets/images/logo.png" tvg-chno="110" group-title="LIVE FEED SPORT (ON JIKA MAIN)",BLV  ROCKSTAR
+#EXTINF:-1 tvg-logo="https://colatv65.live/assets/images/logo.png" tvg-chno="108" group-title="LIVE FEED SPORT (ON JIKA MAIN)",BLV  ROCKSTAR
 https://live05.meung.app/live/82054853.m3u8
-#EXTINF:-1 tvg-logo="https://static.xoilaczzggz.tv/images/logo-xlz.png" tvg-chno="111" group-title="LIVE FEED SPORT (ON JIKA MAIN)",FOOTBALL TV 1 BRADY
+#EXTINF:-1 tvg-logo="https://static.xoilaczzggz.tv/images/logo-xlz.png" tvg-chno="109" group-title="LIVE FEED SPORT (ON JIKA MAIN)",FOOTBALL TV 1 BRADY
 https://live2.domainkqt.cc/live/channel18.m3u8
-#EXTINF:-1 tvg-logo="https://static.xoilaczzggz.tv/images/logo-xlz.png" tvg-chno="112" group-title="LIVE FEED SPORT (ON JIKA MAIN)",FOOTBALL TV 2 FELIX
+#EXTINF:-1 tvg-logo="https://static.xoilaczzggz.tv/images/logo-xlz.png" tvg-chno="110" group-title="LIVE FEED SPORT (ON JIKA MAIN)",FOOTBALL TV 2 FELIX
 https://live2.domainkqt.cc/live/channel19.m3u8
-#EXTINF:-1 tvg-logo="https://static.xoilaczzggz.tv/images/logo-xlz.png" tvg-chno="113" group-title="LIVE FEED SPORT (ON JIKA MAIN)",FOOTBALL TV 3 NICK
+#EXTINF:-1 tvg-logo="https://static.xoilaczzggz.tv/images/logo-xlz.png" tvg-chno="111" group-title="LIVE FEED SPORT (ON JIKA MAIN)",FOOTBALL TV 3 NICK
 https://live2.domainkqt.cc/live/channel1.m3u8
-#EXTINF:-1 tvg-logo="https://static.xoilaczzggz.tv/images/logo-xlz.png" tvg-chno="114" group-title="LIVE FEED SPORT (ON JIKA MAIN)",FOOTBALL TV 4 TAGE
+#EXTINF:-1 tvg-logo="https://static.xoilaczzggz.tv/images/logo-xlz.png" tvg-chno="112" group-title="LIVE FEED SPORT (ON JIKA MAIN)",FOOTBALL TV 4 TAGE
 https://live2.streamhaulcdn.com/livecdn/channel-27.m3u8?auth_key=3000001788121158-0-0-d6b8c2a132ee325aa5325734cc25f085
-#EXTINF:-1 tvg-logo="https://static.xoilaczzggz.tv/images/logo-xlz.png" tvg-chno="115" group-title="LIVE FEED SPORT (ON JIKA MAIN)",FOOTBALL TV 5 TOM
+#EXTINF:-1 tvg-logo="https://static.xoilaczzggz.tv/images/logo-xlz.png" tvg-chno="113" group-title="LIVE FEED SPORT (ON JIKA MAIN)",FOOTBALL TV 5 TOM
 https://live2.streamhaulcdn.com/livecdn/channel-4.m3u8?auth_key=3000001788112973-0-0-dc6bc8184677380623af1363926a4be9
-#EXTINF:-1 tvg-logo="https://static.xoilaczzggz.tv/images/logo-xlz.png" tvg-chno="116" group-title="LIVE FEED SPORT (ON JIKA MAIN)",FOOTBALL TV 6 OLER
+#EXTINF:-1 tvg-logo="https://static.xoilaczzggz.tv/images/logo-xlz.png" tvg-chno="114" group-title="LIVE FEED SPORT (ON JIKA MAIN)",FOOTBALL TV 6 OLER
 https://live2.streamhaulcdn.com/livecdn/channel-28.m3u8?auth_key=3000001788121099-0-0-4977b57feb9c38a357e8a27641eecbef
-#EXTINF:-1 tvg-logo="https://static.xoilaczzggz.tv/images/logo-xlz.png" tvg-chno="117" group-title="LIVE FEED SPORT (ON JIKA MAIN)",FOOTBALL TV 7 ZANE
+#EXTINF:-1 tvg-logo="https://static.xoilaczzggz.tv/images/logo-xlz.png" tvg-chno="115" group-title="LIVE FEED SPORT (ON JIKA MAIN)",FOOTBALL TV 7 ZANE
 https://live2.streamhaulcdn.com/livecdn/channel-22.m3u8?auth_key=3000001788121233-0-0-157a358133842c9229cb98a3ee6430f6
-#EXTINF:-1 tvg-logo="https://static.xoilaczzggz.tv/images/logo-xlz.png" tvg-chno="118" group-title="LIVE FEED SPORT (ON JIKA MAIN)",FOOTBALL TV 8 POLO
+#EXTINF:-1 tvg-logo="https://static.xoilaczzggz.tv/images/logo-xlz.png" tvg-chno="116" group-title="LIVE FEED SPORT (ON JIKA MAIN)",FOOTBALL TV 8 POLO
 https://live2.streamhaulcdn.com/livecdn/channel-10.m3u8?auth_key=3000001788113281-0-0-c5418ae1e19907bb8242686862ccd043
-#EXTINF:-1 tvg-logo="https://static.xoilaczzggz.tv/images/logo-xlz.png" tvg-chno="119" group-title="LIVE FEED SPORT (ON JIKA MAIN)",FOOTBALL TV 9 KEN
+#EXTINF:-1 tvg-logo="https://static.xoilaczzggz.tv/images/logo-xlz.png" tvg-chno="117" group-title="LIVE FEED SPORT (ON JIKA MAIN)",FOOTBALL TV 9 KEN
 https://live2.streamhaulcdn.com/livecdn/channel-18.m3u8?auth_key=3000001788113358-0-0-9fad909456a0ac281492578fa7ef1bc4
-#EXTINF:-1 tvg-logo="https://static.xoilaczzggz.tv/images/logo-xlz.png" tvg-chno="120" group-title="LIVE FEED SPORT (ON JIKA MAIN)",FOOTBALL TV 10 JOHAN
+#EXTINF:-1 tvg-logo="https://static.xoilaczzggz.tv/images/logo-xlz.png" tvg-chno="118" group-title="LIVE FEED SPORT (ON JIKA MAIN)",FOOTBALL TV 10 JOHAN
 https://live2.streamhaulcdn.com/livecdn/channel-12.m3u8?auth_key=3000001788113447-0-0-0a4b6344caf6ed1301728fa428971cd3
-#EXTINF:-1 tvg-logo="https://static.xoilaczzggz.tv/images/logo-xlz.png" tvg-chno="121" group-title="LIVE FEED SPORT (ON JIKA MAIN)",FOOTBALL TV 11 ASTRA
+#EXTINF:-1 tvg-logo="https://static.xoilaczzggz.tv/images/logo-xlz.png" tvg-chno="119" group-title="LIVE FEED SPORT (ON JIKA MAIN)",FOOTBALL TV 11 ASTRA
 https://live2.streamhaulcdn.com/livecdn/channel-11.m3u8?auth_key=3000001788120776-0-0-a59151873dcc5bffc1733270450f0181
-#EXTINF:-1 tvg-logo="https://static.xoilaczzggz.tv/images/logo-xlz.png" tvg-chno="122" group-title="LIVE FEED SPORT (ON JIKA MAIN)",FOOTBALL TV 12 RAVEN
+#EXTINF:-1 tvg-logo="https://static.xoilaczzggz.tv/images/logo-xlz.png" tvg-chno="120" group-title="LIVE FEED SPORT (ON JIKA MAIN)",FOOTBALL TV 12 RAVEN
 https://live2.streamhaulcdn.com/livecdn/channel-21.m3u8?auth_key=3000001788120942-0-0-31ccbf61a3567fcd2e99648ba29a74da
-#EXTINF:-1 tvg-logo="https://static.xoilaczzggz.tv/images/logo-xlz.png" tvg-chno="123" group-title="LIVE FEED SPORT (ON JIKA MAIN)",TENNIS TV 1
+#EXTINF:-1 tvg-logo="https://static.xoilaczzggz.tv/images/logo-xlz.png" tvg-chno="121" group-title="LIVE FEED SPORT (ON JIKA MAIN)",TENNIS TV 1
 https://tfyp6gr3uomttgr31hctwgczdncjufisg17ufgr.100ycdn.com/live1.quickscoreboardz.com/live/channel54/playlist.m3u8?wsSecret=90835bd2b6528cd05ae312fa41ce5c89&wsABSTime=1787647439&wsSession=d8416ad0a903fbe446a1ce2e-178760424347537&wsIPSercert=3b5faf5967cf0409621ad42ed3125005&wsBindIP=2&wsserid=1177046549500337104
-#EXTINF:-1 tvg-logo="https://static.xoilaczzggz.tv/images/logo-xlz.png" tvg-chno="124" group-title="LIVE FEED SPORT (ON JIKA MAIN)",TENNIS TV 2
+#EXTINF:-1 tvg-logo="https://static.xoilaczzggz.tv/images/logo-xlz.png" tvg-chno="122" group-title="LIVE FEED SPORT (ON JIKA MAIN)",TENNIS TV 2
 https://tfyp6gr3uomttgr31hctwgczdncjufisg17ufgr.100ycdn.com/live1.quickscoreboardz.com/live/channel53/playlist.m3u8?wsSecret=0e011271937f5f49e5666be7f3e71424&wsABSTime=1787647564&wsSession=ca3c26fbe99f475c3aa45bc7-178760436867872&wsIPSercert=3b5faf5967cf0409621ad42ed3125005&wsBindIP=2&wsserid=19560480165184072
-#EXTINF:-1 tvg-logo="https://static.xoilaczzggz.tv/images/logo-xlz.png" tvg-chno="125" group-title="LIVE FEED SPORT (ON JIKA MAIN)",BULUTANGKIS TV1
+#EXTINF:-1 tvg-logo="https://static.xoilaczzggz.tv/images/logo-xlz.png" tvg-chno="123" group-title="LIVE FEED SPORT (ON JIKA MAIN)",BULUTANGKIS TV1
 https://tfy10gr3uomttgr31hctw8rzdncbpptwzc3jt.100ycdn.com/live1.streambylivepulse.com/live/channel62/playlist.m3u8?wsSecret=0e83291aad22c4dcdfa680240b3522ef&wsABSTime=1785532096&wsSession=1499682cfaeb30ffe2eeab05-178548890844672&wsIPSercert=0022ab8b7cb92f81d3f77bdb9ec7bbab&wsBindIP=2&wsserid=1168235407083771445
-#EXTINF:-1 tvg-logo="https://static.xoilaczzggz.tv/images/logo-xlz.png" tvg-chno="126" group-title="LIVE FEED SPORT (ON JIKA MAIN)",BULUTANGKIS TV2
+#EXTINF:-1 tvg-logo="https://static.xoilaczzggz.tv/images/logo-xlz.png" tvg-chno="124" group-title="LIVE FEED SPORT (ON JIKA MAIN)",BULUTANGKIS TV2
 https://tfy10gr3uomttgr31hctw8rzdncbpptwzc3jt.100ycdn.com/live1.streambylivepulse.com/live/channel63/playlist.m3u8?wsSecret=cd2b393455b1323b6dd69c1209dab5bc&wsABSTime=1785532230&wsSession=1499682cfaeb30ffe2eeab05-178548903626749&wsIPSercert=0022ab8b7cb92f81d3f77bdb9ec7bbab&wsBindIP=2&wsserid=1168235407083771445
-#EXTINF:-1 tvg-logo="https://static.xoilaczzggz.tv/images/logo-xlz.png" tvg-chno="127" group-title="LIVE FEED SPORT (ON JIKA MAIN)",BULUTANGKIS TV3
+#EXTINF:-1 tvg-logo="https://static.xoilaczzggz.tv/images/logo-xlz.png" tvg-chno="125" group-title="LIVE FEED SPORT (ON JIKA MAIN)",BULUTANGKIS TV3
 https://tfy10gr3uomttgr31hctw8rzdncbpptwzc3jt.100ycdn.com/live1.streambylivepulse.com/live/channel61/playlist.m3u8?wsSecret=6110ac91f339216a91a590372cb3012f&wsABSTime=1785532311&wsSession=1499682cfaeb30ffe2eeab05-178548911557187&wsIPSercert=0022ab8b7cb92f81d3f77bdb9ec7bbab&wsBindIP=2&wsserid=1168235407083771445
-#EXTINF:-1 tvg-logo="https://static.xoilaczzggz.tv/images/logo-xlz.png" tvg-chno="128" group-title="LIVE FEED SPORT (ON JIKA MAIN)",VOLLYBALL TV 1
+#EXTINF:-1 tvg-logo="https://static.xoilaczzggz.tv/images/logo-xlz.png" tvg-chno="126" group-title="LIVE FEED SPORT (ON JIKA MAIN)",VOLLYBALL TV 1
 https://live2.domaincdn.cc/livecdn/channel-33.m3u8?auth_key=3000001788611465-0-0-269b4fc4d61b0d969f0379bee72aeb24
-#EXTINF:-1 tvg-logo="https://static.xoilaczzggz.tv/images/logo-xlz.png" tvg-chno="129" group-title="LIVE FEED SPORT (ON JIKA MAIN)",VOLLYBALL TV 2
+#EXTINF:-1 tvg-logo="https://static.xoilaczzggz.tv/images/logo-xlz.png" tvg-chno="127" group-title="LIVE FEED SPORT (ON JIKA MAIN)",VOLLYBALL TV 2
 https://tfyv0gr3uomttgr31hctw8rzdnctpptwzc3jt.100ycdn.com/live1.quickscoreboardz.com/live/channel80/playlist.m3u8?wsSecret=bd1c5ec740e9fc90d82210dbc884ad5e&wsABSTime=1788120404&wsSession=a0c0d80ca486a0fe4e03af68-178807720775622&wsIPSercert=a9122a60b64f4312fa258ea76f311a2e&wsBindIP=2&wsserid=1168235407004077713
-#EXTINF:-1 tvg-logo="https://static.xoilaczzggz.tv/images/logo-xlz.png" tvg-chno="130" group-title="LIVE FEED SPORT (ON JIKA MAIN)",VOLLYBALL TV 3
+#EXTINF:-1 tvg-logo="https://static.xoilaczzggz.tv/images/logo-xlz.png" tvg-chno="128" group-title="LIVE FEED SPORT (ON JIKA MAIN)",VOLLYBALL TV 3
 https://tfxw0gr3uomttgr31hctugyzdgp3pptwzc3jt.100ycdn.com/live1.streambylivepulse.com/live/channel81/playlist.m3u8?wsSecret=b92ea85d780e396387d6fc57a7ad59b5&wsABSTime=1785134828&wsSession=bb6b5b2e4fa0879abaf094a2-178509163384356&wsIPSercert=281f675638d3057b68cd71b21a5fe239&wsBindIP=2&wsserid=1168267666557854247
-#EXTINF:-1 tvg-logo="https://static.xoilaczzggz.tv/images/logo-xlz.png" tvg-chno="131" group-title="LIVE FEED SPORT (ON JIKA MAIN)",VOLLYBALL TV 4
+#EXTINF:-1 tvg-logo="https://static.xoilaczzggz.tv/images/logo-xlz.png" tvg-chno="129" group-title="LIVE FEED SPORT (ON JIKA MAIN)",VOLLYBALL TV 4
 https://live2.cachefluxlive.com/livecdn/channel-1.m3u8?auth_key=3000001788024771-0-0-939e8aa869cdc7ee14c20f3481a5cf2a
-#EXTINF:-1 tvg-logo="https://static.xoilaczzggz.tv/images/logo-xlz.png" tvg-chno="132" group-title="LIVE FEED SPORT (ON JIKA MAIN)",ESPORTS TV 1
+#EXTINF:-1 tvg-logo="https://static.xoilaczzggz.tv/images/logo-xlz.png" tvg-chno="130" group-title="LIVE FEED SPORT (ON JIKA MAIN)",ESPORTS TV 1
 https://tfys0gr3uomttgr31hcj38rzdgp3pptwzc3jt.100ycdn.com/live1.quickscoreboardz.com/live/channel72/playlist.m3u8?wsSecret=c195015e2521c6b80025eda9da99bb34&wsABSTime=1787914227&wsSession=da2b68bb56635af000b12f9a-178787103099556&wsIPSercert=6dab0f6f8e07c9f0a48f4328377c999d&wsBindIP=2&wsserid=1168235407072236905
-#EXTINF:-1 tvg-logo="https://static.xoilaczzggz.tv/images/logo-xlz.png" tvg-chno="133" group-title="LIVE FEED SPORT (ON JIKA MAIN)",ESPORTS TV 2
+#EXTINF:-1 tvg-logo="https://static.xoilaczzggz.tv/images/logo-xlz.png" tvg-chno="131" group-title="LIVE FEED SPORT (ON JIKA MAIN)",ESPORTS TV 2
 https://tfys0gr3uomttgr31hcj38rzdgp3pptwzc3jt.100ycdn.com/live1.quickscoreboardz.com/live/channel71/playlist.m3u8?wsSecret=a95e21b2ae0d30aad3442eb96d25a584&wsABSTime=1787914377&wsSession=b0a51f407aff9cc6a9109319-178787118081713&wsIPSercert=6dab0f6f8e07c9f0a48f4328377c999d&wsBindIP=2&wsserid=1168235407070139703
-#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrqEq7pRy2dfcx1puTdpqGPR6ffHcig7Khl-fPMSM6Cw&s=10" tvg-chno="134" group-title="OLAHRAGA LOKAL",ANSPORTS LUAR
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrqEq7pRy2dfcx1puTdpqGPR6ffHcig7Khl-fPMSM6Cw&s=10" tvg-chno="132" group-title="OLAHRAGA LOKAL",ANSPORTS LUAR
 #EXTVLCOPT:http-user-agent=Player (Linux; Android 12)
 https://wahyu1ptv.pages.dev/AnTV-HD.m3u8
-#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRW8Qjclsu9fpbIqK_6ZHq9eJQXYmIAmeYk1GZnLMV6vA&s=10" tvg-chno="135" group-title="OLAHRAGA LOKAL",GSPORTS LUAR
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRW8Qjclsu9fpbIqK_6ZHq9eJQXYmIAmeYk1GZnLMV6vA&s=10" tvg-chno="133" group-title="OLAHRAGA LOKAL",GSPORTS LUAR
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://embed.rctiplus.com/live/gtv/sindonews
 https://gtv-linier.rctiplus.id/gtv-sdi.m3u8?hdnts=exp=1789440894~hmac=e42c5756dec2767e1bdb96d43f50f39887c21cc2cf5e1a8940e5519d4f1cae28
-#EXTINF:-1 tvg-logo="http://smartillusion.feniks.team:25002/images/sport/arenasport1.png" tvg-chno="136" group-title="ARENA SPORT (NEW)",ARENASPORT 1
+#EXTINF:-1 tvg-logo="http://smartillusion.feniks.team:25002/images/sport/arenasport1.png" tvg-chno="134" group-title="ARENA SPORT (NEW)",ARENASPORT 1
 http://moj.feniks.team:25461/411dariocacic/a1Uni9hC0D/1189
-#EXTINF:-1 tvg-logo="http://smartillusion.feniks.team:25002/images/sport/arenasport2.png" tvg-chno="137" group-title="ARENA SPORT (NEW)",ARENASPORT 2
+#EXTINF:-1 tvg-logo="http://smartillusion.feniks.team:25002/images/sport/arenasport2.png" tvg-chno="135" group-title="ARENA SPORT (NEW)",ARENASPORT 2
 http://moj.feniks.team:25461/411dariocacic/a1Uni9hC0D/20478
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/mimipipi22/logo/refs/heads/main/png/arena-sport-3.png" tvg-chno="138" group-title="ARENA SPORT (NEW)",ARENASPORT 3
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/mimipipi22/logo/refs/heads/main/png/arena-sport-3.png" tvg-chno="136" group-title="ARENA SPORT (NEW)",ARENASPORT 3
 http://moj.feniks.team:25461/411dariocacic/a1Uni9hC0D/1185
-#EXTINF:-1 tvg-logo="http://smartillusion.feniks.team:25002/images/sport/arenasport4.png" tvg-chno="139" group-title="ARENA SPORT (NEW)",ARENASPORT 4
+#EXTINF:-1 tvg-logo="http://smartillusion.feniks.team:25002/images/sport/arenasport4.png" tvg-chno="137" group-title="ARENA SPORT (NEW)",ARENASPORT 4
 http://moj.feniks.team:25461/411dariocacic/a1Uni9hC0D/1183
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/mimipipi22/logo/refs/heads/main/png/arena-sport-5-rs.png" tvg-chno="140" group-title="ARENA SPORT (NEW)",ARENASPORT 5
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/mimipipi22/logo/refs/heads/main/png/arena-sport-5-rs.png" tvg-chno="138" group-title="ARENA SPORT (NEW)",ARENASPORT 5
 http://moj.feniks.team:25461/411dariocacic/a1Uni9hC0D/1181
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/mimipipi22/logo/refs/heads/main/png/arena-sport-6-rs.png" tvg-chno="141" group-title="ARENA SPORT (NEW)",ARENASPORT 6
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/mimipipi22/logo/refs/heads/main/png/arena-sport-6-rs.png" tvg-chno="139" group-title="ARENA SPORT (NEW)",ARENASPORT 6
 http://moj.feniks.team:25461/411dariocacic/a1Uni9hC0D/1179
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/mimipipi22/logo/refs/heads/main/png/arena-sport-8-rs.png" tvg-chno="142" group-title="ARENA SPORT (NEW)",ARENASPORT 8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/mimipipi22/logo/refs/heads/main/png/arena-sport-8-rs.png" tvg-chno="140" group-title="ARENA SPORT (NEW)",ARENASPORT 8
 http://moj.feniks.team:25461/411dariocacic/a1Uni9hC0D/17670
-#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJVyWthsSAuVgOTQtR_aCR4Vfw4xIab7YDvuaH0ij3&s=10" tvg-chno="143" group-title="ARENA SPORT (NEW)",ARENASPORT 9
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJVyWthsSAuVgOTQtR_aCR4Vfw4xIab7YDvuaH0ij3&s=10" tvg-chno="141" group-title="ARENA SPORT (NEW)",ARENASPORT 9
 http://moj.feniks.team:25461/411dariocacic/a1Uni9hC0D/17671
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/mimipipi22/logo/refs/heads/main/png/arena-sport-premium-1.png" tvg-chno="144" group-title="ARENA SPORT (NEW)" group-logo="https://raw.githubusercontent.com/mimipipi22/logo/refs/heads/main/png/arena-sport-premium-1.png",Arena Premium 1
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/mimipipi22/logo/refs/heads/main/png/arena-sport-premium-1.png" tvg-chno="142" group-title="ARENA SPORT (NEW)" group-logo="https://raw.githubusercontent.com/mimipipi22/logo/refs/heads/main/png/arena-sport-premium-1.png",Arena Premium 1
 http://moj.feniks.team:25461/411dariocacic/a1Uni9hC0D/19011
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/mimipipi22/logo/refs/heads/main/png/arena-sport-premium-2.png" tvg-chno="145" group-title="ARENA SPORT (NEW)",Arena Premium 2
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/mimipipi22/logo/refs/heads/main/png/arena-sport-premium-2.png" tvg-chno="143" group-title="ARENA SPORT (NEW)",Arena Premium 2
 http://moj.feniks.team:25461/411dariocacic/a1Uni9hC0D/19012
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/mimipipi22/logo/refs/heads/main/png/arena-sport-premium-3.png" tvg-chno="146" group-title="ARENA SPORT (NEW)",Arena Premium 3
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/mimipipi22/logo/refs/heads/main/png/arena-sport-premium-3.png" tvg-chno="144" group-title="ARENA SPORT (NEW)",Arena Premium 3
 http://moj.feniks.team:25461/411dariocacic/a1Uni9hC0D/26461
-#EXTINF:-1 tvg-logo="http://smartillusion.feniks.team:25002/images/sport/arenapremium4.png" tvg-chno="147" group-title="ARENA SPORT (NEW)",Arena Premium 4
+#EXTINF:-1 tvg-logo="http://smartillusion.feniks.team:25002/images/sport/arenapremium4.png" tvg-chno="145" group-title="ARENA SPORT (NEW)",Arena Premium 4
 http://moj.feniks.team:25461/411dariocacic/a1Uni9hC0D/27356
-#EXTINF:-1 tvg-logo="http://smartillusion.feniks.team:25002/images/sport/arenapremium5.png" tvg-chno="148" group-title="ARENA SPORT (NEW)",Arena Premium 5
+#EXTINF:-1 tvg-logo="http://smartillusion.feniks.team:25002/images/sport/arenapremium5.png" tvg-chno="146" group-title="ARENA SPORT (NEW)",Arena Premium 5
 http://moj.feniks.team:25461/411dariocacic/a1Uni9hC0D/27357
